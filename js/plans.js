@@ -1,9 +1,10 @@
 'use strict';
 
 (() => {
-  const tabs       = [...document.querySelectorAll('.plans-tab')];
-  const filterBtns = [...document.querySelectorAll('.plans-filter__btn')];
-  const grids      = [...document.querySelectorAll('[data-uni-grid]')];
+  const tabs         = [...document.querySelectorAll('.plans-tab')];
+  const termBtns     = [...document.querySelectorAll('[data-term]')];
+  const paymentBtns  = [...document.querySelectorAll('[data-payment]')];
+  const grids        = [...document.querySelectorAll('[data-uni-grid]')];
   if (!tabs.length || !grids.length) return;
 
   const cardsByGrid = new Map(
@@ -11,7 +12,8 @@
   );
 
   let currentUni      = tabs.find(t => t.classList.contains('active'))?.dataset.uni || 'kau';
-  let currentDuration = filterBtns.find(b => b.classList.contains('active'))?.dataset.duration || 'month';
+  let currentTerm     = termBtns.find(b => b.classList.contains('active'))?.dataset.term || 'term1';
+  let currentPayment  = paymentBtns.find(b => b.classList.contains('active'))?.dataset.payment || 'month';
 
   function applyFilters() {
     for (const [grid, cards] of cardsByGrid) {
@@ -19,7 +21,12 @@
       grid.hidden = !isActive;
       if (!isActive) continue;
       for (const card of cards) {
-        const shouldShow = card.dataset.duration === currentDuration;
+        let shouldShow = false;
+        if (currentPayment === 'month') {
+          shouldShow = card.dataset.duration === 'month' && card.dataset.termMonth === currentTerm;
+        } else {
+          shouldShow = card.dataset.duration === currentTerm;
+        }
         if (card.hidden !== !shouldShow) card.hidden = !shouldShow;
       }
     }
@@ -65,8 +72,9 @@
     });
   }
 
-  bindGroup(tabs,       'uni',      v => { currentUni = v; });
-  bindGroup(filterBtns, 'duration', v => { currentDuration = v; });
+  bindGroup(tabs,        'uni',      v => { currentUni = v; });
+  bindGroup(termBtns,    'term',     v => { currentTerm = v; });
+  bindGroup(paymentBtns, 'payment',  v => { currentPayment = v; });
 
   applyFilters();
 })();

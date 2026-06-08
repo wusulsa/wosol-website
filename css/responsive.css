@@ -224,6 +224,12 @@
     font-size: 0.9rem;
   }
 
+  .plans-filter--secondary .plans-filter__btn {
+    flex: 1;
+    padding: 8px 14px;
+    font-size: 0.8rem;
+  }
+
   .plan-card {
     padding: 28px 22px;
   }

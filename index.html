@@ -494,18 +494,23 @@
         </button>
       </div>
 
-      <!-- ── Duration Filter ── -->
-      <div class="plans-filter" role="tablist" aria-label="مدة الاشتراك">
-        <button type="button" class="plans-filter__btn active" role="tab" aria-selected="true" tabindex="0" data-duration="month">شهري</button>
-        <button type="button" class="plans-filter__btn" role="tab" aria-selected="false" tabindex="-1" data-duration="term1">ترم أول</button>
-        <button type="button" class="plans-filter__btn" role="tab" aria-selected="false" tabindex="-1" data-duration="term2">ترم ثاني</button>
+      <!-- ── Term Filter (1st stage) ── -->
+      <div class="plans-filter" role="tablist" aria-label="اختر الترم">
+        <button type="button" class="plans-filter__btn active" role="tab" aria-selected="true" tabindex="0" data-term="term1">ترم أول</button>
+        <button type="button" class="plans-filter__btn" role="tab" aria-selected="false" tabindex="-1" data-term="term2">ترم ثاني</button>
+      </div>
+
+      <!-- ── Duration Filter (2nd stage) ── -->
+      <div class="plans-filter plans-filter--secondary" role="tablist" aria-label="مدة الاشتراك">
+        <button type="button" class="plans-filter__btn active" role="tab" aria-selected="true" tabindex="0" data-payment="month">شهري</button>
+        <button type="button" class="plans-filter__btn" role="tab" aria-selected="false" tabindex="-1" data-payment="term">ترم كامل</button>
       </div>
 
       <!-- ── KAU Plans ── -->
       <div class="plans-grid" id="plans-grid-kau" role="tabpanel" aria-label="باقات جامعة الملك عبدالعزيز" data-uni-grid="kau">
 
         <!-- Monthly · Round Trip · Abhur North -->
-        <article class="plan-card plan-card--featured" data-duration="month">
+        <article class="plan-card plan-card--featured" data-duration="month" data-term-month="term1">
           <div class="plan-card__top">
             <span class="plan-card__chip">ذهاب وعودة</span>
             <span class="plan-card__period">شهري</span>
@@ -528,7 +533,7 @@
         </article>
 
         <!-- Monthly · One-way · Abhur North -->
-        <article class="plan-card" data-duration="month">
+        <article class="plan-card" data-duration="month" data-term-month="term1">
           <div class="plan-card__top">
             <span class="plan-card__chip">ذهاب أو عودة</span>
             <span class="plan-card__period">شهري</span>
@@ -551,7 +556,7 @@
         </article>
 
         <!-- Monthly · Round Trip · Abhur South -->
-        <article class="plan-card plan-card--featured" data-duration="month">
+        <article class="plan-card plan-card--featured" data-duration="month" data-term-month="term1">
           <div class="plan-card__top">
             <span class="plan-card__chip">ذهاب وعودة</span>
             <span class="plan-card__period">شهري</span>
@@ -574,7 +579,7 @@
         </article>
 
         <!-- Monthly · One-way · Abhur South -->
-        <article class="plan-card" data-duration="month">
+        <article class="plan-card" data-duration="month" data-term-month="term1">
           <div class="plan-card__top">
             <span class="plan-card__chip">ذهاب أو عودة</span>
             <span class="plan-card__period">شهري</span>
@@ -597,7 +602,7 @@
         </article>
 
         <!-- Monthly · Round Trip · Al-Noor -->
-        <article class="plan-card plan-card--featured" data-duration="month">
+        <article class="plan-card plan-card--featured" data-duration="month" data-term-month="term1">
           <div class="plan-card__top">
             <span class="plan-card__chip">ذهاب وعودة</span>
             <span class="plan-card__period">شهري</span>
@@ -620,7 +625,7 @@
         </article>
 
         <!-- Monthly · One-way · Al-Noor -->
-        <article class="plan-card" data-duration="month">
+        <article class="plan-card" data-duration="month" data-term-month="term1">
           <div class="plan-card__top">
             <span class="plan-card__chip">ذهاب أو عودة</span>
             <span class="plan-card__period">شهري</span>
@@ -636,6 +641,144 @@
           </ul>
           <div class="plan-card__price">
             <span class="plan-card__amount">500</span>
+            <span class="plan-card__currency">ر.س</span>
+            <span class="plan-card__per">/ شهرياً</span>
+          </div>
+          <a href="register.html" class="btn btn--outline plan-card__cta">اشتركي الآن</a>
+        </article>
+
+        <!-- Monthly Term 2 · Round Trip · Abhur North -->
+        <article class="plan-card plan-card--featured" data-duration="month" data-term-month="term2" hidden>
+          <div class="plan-card__top">
+            <span class="plan-card__chip">ذهاب وعودة</span>
+            <span class="plan-card__period">شهري</span>
+          </div>
+          <h3 class="plan-card__title">أبحر الشمالية</h3>
+          <p class="plan-card__sub">جامعة الملك عبدالعزيز</p>
+          <ul class="plan-card__features">
+            <li><span class="plan-card__check">✓</span> رحلتين يومياً</li>
+            <li><span class="plan-card__check">✓</span> نقل آمن وموثوق</li>
+            <li><span class="plan-card__check">✓</span> سائقين مرخصين</li>
+            <li><span class="plan-card__check">✓</span> تتبع مباشر GPS</li>
+            <li><span class="plan-card__check">✓</span> متابعة ميدانية من قسم التشغيل</li>
+          </ul>
+          <div class="plan-card__price">
+            <span class="plan-card__amount">855</span>
+            <span class="plan-card__currency">ر.س</span>
+            <span class="plan-card__per">/ شهرياً</span>
+          </div>
+          <a href="register.html" class="btn btn--primary plan-card__cta">اشتركي الآن</a>
+        </article>
+
+        <!-- Monthly Term 2 · One-way · Abhur North -->
+        <article class="plan-card" data-duration="month" data-term-month="term2" hidden>
+          <div class="plan-card__top">
+            <span class="plan-card__chip">ذهاب أو عودة</span>
+            <span class="plan-card__period">شهري</span>
+          </div>
+          <h3 class="plan-card__title">أبحر الشمالية</h3>
+          <p class="plan-card__sub">جامعة الملك عبدالعزيز</p>
+          <ul class="plan-card__features">
+            <li><span class="plan-card__check">✓</span> رحلة واحدة يومياً</li>
+            <li><span class="plan-card__check">✓</span> نقل آمن وموثوق</li>
+            <li><span class="plan-card__check">✓</span> سائقين مرخصين</li>
+            <li><span class="plan-card__check">✓</span> تتبع مباشر GPS</li>
+            <li><span class="plan-card__check">✓</span> متابعة ميدانية من قسم التشغيل</li>
+          </ul>
+          <div class="plan-card__price">
+            <span class="plan-card__amount">480</span>
+            <span class="plan-card__currency">ر.س</span>
+            <span class="plan-card__per">/ شهرياً</span>
+          </div>
+          <a href="register.html" class="btn btn--outline plan-card__cta">اشتركي الآن</a>
+        </article>
+
+        <!-- Monthly Term 2 · Round Trip · Abhur South -->
+        <article class="plan-card plan-card--featured" data-duration="month" data-term-month="term2" hidden>
+          <div class="plan-card__top">
+            <span class="plan-card__chip">ذهاب وعودة</span>
+            <span class="plan-card__period">شهري</span>
+          </div>
+          <h3 class="plan-card__title">أبحر الجنوبية</h3>
+          <p class="plan-card__sub">جامعة الملك عبدالعزيز</p>
+          <ul class="plan-card__features">
+            <li><span class="plan-card__check">✓</span> رحلتين يومياً</li>
+            <li><span class="plan-card__check">✓</span> نقل آمن وموثوق</li>
+            <li><span class="plan-card__check">✓</span> سائقين مرخصين</li>
+            <li><span class="plan-card__check">✓</span> تتبع مباشر GPS</li>
+            <li><span class="plan-card__check">✓</span> متابعة ميدانية من قسم التشغيل</li>
+          </ul>
+          <div class="plan-card__price">
+            <span class="plan-card__amount">800</span>
+            <span class="plan-card__currency">ر.س</span>
+            <span class="plan-card__per">/ شهرياً</span>
+          </div>
+          <a href="register.html" class="btn btn--primary plan-card__cta">اشتركي الآن</a>
+        </article>
+
+        <!-- Monthly Term 2 · One-way · Abhur South -->
+        <article class="plan-card" data-duration="month" data-term-month="term2" hidden>
+          <div class="plan-card__top">
+            <span class="plan-card__chip">ذهاب أو عودة</span>
+            <span class="plan-card__period">شهري</span>
+          </div>
+          <h3 class="plan-card__title">أبحر الجنوبية</h3>
+          <p class="plan-card__sub">جامعة الملك عبدالعزيز</p>
+          <ul class="plan-card__features">
+            <li><span class="plan-card__check">✓</span> رحلة واحدة يومياً</li>
+            <li><span class="plan-card__check">✓</span> نقل آمن وموثوق</li>
+            <li><span class="plan-card__check">✓</span> سائقين مرخصين</li>
+            <li><span class="plan-card__check">✓</span> تتبع مباشر GPS</li>
+            <li><span class="plan-card__check">✓</span> متابعة ميدانية من قسم التشغيل</li>
+          </ul>
+          <div class="plan-card__price">
+            <span class="plan-card__amount">450</span>
+            <span class="plan-card__currency">ر.س</span>
+            <span class="plan-card__per">/ شهرياً</span>
+          </div>
+          <a href="register.html" class="btn btn--outline plan-card__cta">اشتركي الآن</a>
+        </article>
+
+        <!-- Monthly Term 2 · Round Trip · Al-Noor -->
+        <article class="plan-card plan-card--featured" data-duration="month" data-term-month="term2" hidden>
+          <div class="plan-card__top">
+            <span class="plan-card__chip">ذهاب وعودة</span>
+            <span class="plan-card__period">شهري</span>
+          </div>
+          <h3 class="plan-card__title">حي النور</h3>
+          <p class="plan-card__sub">جامعة الملك عبدالعزيز</p>
+          <ul class="plan-card__features">
+            <li><span class="plan-card__check">✓</span> رحلتين يومياً</li>
+            <li><span class="plan-card__check">✓</span> نقل آمن وموثوق</li>
+            <li><span class="plan-card__check">✓</span> سائقين مرخصين</li>
+            <li><span class="plan-card__check">✓</span> تتبع مباشر GPS</li>
+            <li><span class="plan-card__check">✓</span> متابعة ميدانية من قسم التشغيل</li>
+          </ul>
+          <div class="plan-card__price">
+            <span class="plan-card__amount">900</span>
+            <span class="plan-card__currency">ر.س</span>
+            <span class="plan-card__per">/ شهرياً</span>
+          </div>
+          <a href="register.html" class="btn btn--primary plan-card__cta">اشتركي الآن</a>
+        </article>
+
+        <!-- Monthly Term 2 · One-way · Al-Noor -->
+        <article class="plan-card" data-duration="month" data-term-month="term2" hidden>
+          <div class="plan-card__top">
+            <span class="plan-card__chip">ذهاب أو عودة</span>
+            <span class="plan-card__period">شهري</span>
+          </div>
+          <h3 class="plan-card__title">حي النور</h3>
+          <p class="plan-card__sub">جامعة الملك عبدالعزيز</p>
+          <ul class="plan-card__features">
+            <li><span class="plan-card__check">✓</span> رحلة واحدة يومياً</li>
+            <li><span class="plan-card__check">✓</span> نقل آمن وموثوق</li>
+            <li><span class="plan-card__check">✓</span> سائقين مرخصين</li>
+            <li><span class="plan-card__check">✓</span> تتبع مباشر GPS</li>
+            <li><span class="plan-card__check">✓</span> متابعة ميدانية من قسم التشغيل</li>
+          </ul>
+          <div class="plan-card__price">
+            <span class="plan-card__amount">530</span>
             <span class="plan-card__currency">ر.س</span>
             <span class="plan-card__per">/ شهرياً</span>
           </div>
@@ -924,7 +1067,7 @@
       <div class="plans-grid" id="plans-grid-uj" role="tabpanel" aria-label="باقات جامعة جدة" data-uni-grid="uj" hidden>
 
         <!-- Monthly · Round Trip -->
-        <article class="plan-card plan-card--featured" data-duration="month">
+        <article class="plan-card plan-card--featured" data-duration="month" data-term-month="term1">
           <div class="plan-card__top">
             <span class="plan-card__chip">ذهاب وعودة</span>
             <span class="plan-card__period">شهري</span>
@@ -947,7 +1090,7 @@
         </article>
 
         <!-- Monthly · One-way -->
-        <article class="plan-card" data-duration="month">
+        <article class="plan-card" data-duration="month" data-term-month="term1">
           <div class="plan-card__top">
             <span class="plan-card__chip">ذهاب أو عودة</span>
             <span class="plan-card__period">شهري</span>
@@ -963,6 +1106,52 @@
           </ul>
           <div class="plan-card__price">
             <span class="plan-card__amount">420</span>
+            <span class="plan-card__currency">ر.س</span>
+            <span class="plan-card__per">/ شهرياً</span>
+          </div>
+          <a href="register.html" class="btn btn--outline plan-card__cta">اشتركي الآن</a>
+        </article>
+
+        <!-- Monthly Term 2 · Round Trip -->
+        <article class="plan-card plan-card--featured" data-duration="month" data-term-month="term2" hidden>
+          <div class="plan-card__top">
+            <span class="plan-card__chip">ذهاب وعودة</span>
+            <span class="plan-card__period">شهري</span>
+          </div>
+          <h3 class="plan-card__title">أبحر الشمالية والجنوبية</h3>
+          <p class="plan-card__sub">جامعة جدة</p>
+          <ul class="plan-card__features">
+            <li><span class="plan-card__check">✓</span> رحلتين يومياً</li>
+            <li><span class="plan-card__check">✓</span> نقل آمن وموثوق</li>
+            <li><span class="plan-card__check">✓</span> سائقين مرخصين</li>
+            <li><span class="plan-card__check">✓</span> تتبع مباشر GPS</li>
+            <li><span class="plan-card__check">✓</span> متابعة ميدانية من قسم التشغيل</li>
+          </ul>
+          <div class="plan-card__price">
+            <span class="plan-card__amount">800</span>
+            <span class="plan-card__currency">ر.س</span>
+            <span class="plan-card__per">/ شهرياً</span>
+          </div>
+          <a href="register.html" class="btn btn--primary plan-card__cta">اشتركي الآن</a>
+        </article>
+
+        <!-- Monthly Term 2 · One-way -->
+        <article class="plan-card" data-duration="month" data-term-month="term2" hidden>
+          <div class="plan-card__top">
+            <span class="plan-card__chip">ذهاب أو عودة</span>
+            <span class="plan-card__period">شهري</span>
+          </div>
+          <h3 class="plan-card__title">أبحر الشمالية والجنوبية</h3>
+          <p class="plan-card__sub">جامعة جدة</p>
+          <ul class="plan-card__features">
+            <li><span class="plan-card__check">✓</span> رحلة واحدة يومياً</li>
+            <li><span class="plan-card__check">✓</span> نقل آمن وموثوق</li>
+            <li><span class="plan-card__check">✓</span> سائقين مرخصين</li>
+            <li><span class="plan-card__check">✓</span> تتبع مباشر GPS</li>
+            <li><span class="plan-card__check">✓</span> متابعة ميدانية من قسم التشغيل</li>
+          </ul>
+          <div class="plan-card__price">
+            <span class="plan-card__amount">450</span>
             <span class="plan-card__currency">ر.س</span>
             <span class="plan-card__per">/ شهرياً</span>
           </div>
