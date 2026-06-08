@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light" data-lang="ar" data-page="payment">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="وُسُل - إتمام الدفع لخدمات النقل" />
+  <title>وُسُل | إتمام الدفع</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="stylesheet" href="css/register.css" />
+
+  <style>
+    /* ── Payment Page ─────────────────────────────────────────── */
+    .pay-main {
+      background: var(--bg-alt);
+      padding-block: 48px 80px;
+      min-height: 60vh;
+    }
+
+    .pay-layout {
+      max-width: 920px;
+      margin-inline: auto;
+      display: grid;
+      grid-template-columns: 1fr 400px;
+      gap: 28px;
+      align-items: start;
+    }
+
+    /* ── Order Summary Card ─────────────────────────────────── */
+    .order-summary {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-card);
+    }
+
+    .order-summary__header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 20px 28px;
+      background: var(--bg-alt);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .order-summary__icon {
+      width: 44px;
+      height: 44px;
+      border-radius: var(--radius);
+      background: var(--primary-light);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--primary);
+      flex-shrink: 0;
+    }
+
+    .order-summary__icon svg { width: 20px; height: 20px; }
+
+    .order-summary__title {
+      font-size: 1.05rem;
+      font-weight: 800;
+      color: var(--text);
+    }
+
+    .order-summary__sub {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    .order-summary__body {
+      padding: 24px 28px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .order-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.88rem;
+    }
+
+    .order-row__label {
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    .order-row__value {
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .order-divider {
+      height: 1px;
+      background: var(--border);
+      margin-block: 4px;
+    }
+
+    .order-total-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px 0 0;
+    }
+
+    .order-total-row__label {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .order-total-row__price {
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: var(--primary);
+    }
+
+    .order-ref {
+      background: var(--primary-light);
+      border: 1px solid rgba(201,144,31,0.2);
+      border-radius: var(--radius);
+      padding: 10px 16px;
+      font-size: 0.82rem;
+      color: var(--primary);
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 4px;
+    }
+
+    .order-ref svg { flex-shrink: 0; opacity: 0.7; }
+
+    /* ── Payment Form Card ──────────────────────────────────── */
+    .pay-form-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-card);
+    }
+
+    .pay-form-card__header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 20px 28px;
+      background: var(--bg-alt);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .pay-form-card__icon {
+      width: 44px;
+      height: 44px;
+      border-radius: var(--radius);
+      background: var(--primary-light);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--primary);
+      flex-shrink: 0;
+    }
+
+    .pay-form-card__icon svg { width: 20px; height: 20px; }
+
+    .pay-form-card__body {
+      padding: 28px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    /* Card visual preview */
+    .card-preview {
+      background: linear-gradient(135deg, #FFFDF9 0%, #F9F0DE 58%, #EFD4A4 100%);
+      border-radius: 14px;
+      padding: 22px 24px;
+      color: var(--text);
+      position: relative;
+      overflow: hidden;
+      min-height: 130px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .card-preview::before {
+      content: '';
+      position: absolute;
+      top: -40px;
+      inset-inline-end: -40px;
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.38);
+    }
+
+    .card-preview__chip {
+      width: 34px;
+      height: 26px;
+      background: linear-gradient(135deg, #d4a843 0%, #f0cc6e 50%, #c9901f 100%);
+      border-radius: 5px;
+      margin-bottom: 14px;
+    }
+
+    .card-preview__number {
+      font-size: 1.05rem;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      font-family: 'Inter', monospace;
+      color: rgba(17,17,17,0.88);
+    }
+
+    .card-preview__footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-top: 10px;
+    }
+
+    .card-preview__label {
+      font-size: 0.6rem;
+      color: rgba(17,17,17,0.48);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 2px;
+    }
+
+    .card-preview__value {
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: rgba(17,17,17,0.86);
+      font-family: 'Inter', sans-serif;
+    }
+
+    .card-preview__brand {
+      display: flex;
+      gap: 4px;
+    }
+
+    .card-preview__brand-circle {
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      opacity: 0.85;
+    }
+
+    .card-preview__brand-circle:first-child { background: #EB001B; }
+    .card-preview__brand-circle:last-child  { background: #F79E1B; margin-inline-start: -10px; }
+
+    /* Payment input group */
+    .pay-input-group {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .pay-input-group label {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .pay-input-group input {
+      width: 100%;
+      padding: 11px 14px;
+      background: var(--bg-alt);
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius);
+      color: var(--text);
+      font-size: 0.92rem;
+      font-family: 'Inter', 'Tajawal', sans-serif;
+      transition: border-color var(--transition), box-shadow var(--transition);
+      direction: ltr;
+      text-align: start;
+    }
+
+    .pay-input-group input:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(201,144,31,0.12);
+    }
+
+    .pay-input-group input::placeholder {
+      color: var(--text-muted);
+      opacity: 0.7;
+    }
+
+    .pay-row-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    /* Secure badge */
+    .pay-secure-note {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      padding-top: 4px;
+    }
+
+    .pay-secure-note svg { color: var(--primary); flex-shrink: 0; }
+
+    /* Gateway note */
+    .pay-gateway-note {
+      background: var(--bg-alt);
+      border: 1px dashed var(--border);
+      border-radius: var(--radius);
+      padding: 14px 16px;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      text-align: center;
+      line-height: 1.6;
+    }
+
+    .pay-gateway-note strong { color: var(--primary); }
+
+    /* Submit button */
+    .pay-submit-btn {
+      width: 100%;
+      padding-block: 14px;
+      font-size: 1rem;
+      font-weight: 700;
+      justify-content: center;
+    }
+
+    /* Accepted cards */
+    .accepted-cards {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .accepted-cards__label {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      margin-inline-end: 4px;
+    }
+
+    .card-badge {
+      background: var(--bg-alt);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 4px 10px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      font-family: 'Inter', sans-serif;
+    }
+
+    /* Responsive */
+    @media (max-width: 860px) {
+      .pay-layout {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar scrolled" id="navbar">
+    <div class="container navbar__inner">
+      <a href="index.html#home" class="navbar__logo">
+        <img src="شعار.png" alt="شعار وُسُل" class="navbar__logo-mark" width="120" height="48" />
+      </a>
+      <ul class="navbar__links" id="navLinks">
+        <li><a href="index.html#home" class="nav-link" data-i18n="nav_home">الرئيسية</a></li>
+        <li><a href="index.html#about" class="nav-link" data-i18n="nav_about">من نحن</a></li>
+        <li><a href="index.html#services" class="nav-link" data-i18n="nav_services">الخدمات</a></li>
+        <li><a href="index.html#pricing" class="nav-link" data-i18n="nav_pricing">النقل التعليمي</a></li>
+        <li><a href="index.html?contactTab=quote&quoteService=specialized#contact" class="nav-link" data-i18n="nav_specialized">النقل المتخصص</a></li>
+        <li><a href="index.html#contact" class="nav-link" data-i18n="nav_contact">تواصل معنا</a></li>
+      </ul>
+      <div class="navbar__actions">
+        <button class="action-btn lang-btn" id="langToggle" aria-label="Switch language">EN</button>
+        <button class="action-btn theme-btn" id="themeToggle" aria-label="تبديل الوضع">
+          <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="القائمة" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== PAGE HERO ===== -->
+  <section class="reg-hero">
+    <div class="reg-hero__shapes" aria-hidden="true">
+      <svg class="shape shape--1" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><circle cx="100" cy="100" r="100" fill="rgba(201,144,31,0.12)"/></svg>
+      <svg class="shape shape--2" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><circle cx="100" cy="100" r="100" fill="rgba(201,144,31,0.08)"/></svg>
+    </div>
+    <div class="container reg-hero__inner">
+      <div class="reg-hero__icon" aria-hidden="true">💳</div>
+      <h1 class="reg-hero__title">إتمام عملية الدفع</h1>
+      <p class="reg-hero__sub">أدخل بيانات بطاقتك لإتمام الاشتراك بشكل آمن</p>
+
+      <!-- Progress steps -->
+      <div class="reg-steps" role="list">
+        <div class="reg-step done" role="listitem">
+          <div class="reg-step__circle">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="18" height="18"><polyline points="20 6 9 17 4 12"/></svg>
+          </div>
+          <span>بيانات الطالبة</span>
+        </div>
+        <div class="reg-step__line done"></div>
+        <div class="reg-step done" role="listitem">
+          <div class="reg-step__circle">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="18" height="18"><polyline points="20 6 9 17 4 12"/></svg>
+          </div>
+          <span>الاشتراك</span>
+        </div>
+        <div class="reg-step__line done"></div>
+        <div class="reg-step done" role="listitem">
+          <div class="reg-step__circle">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="18" height="18"><polyline points="20 6 9 17 4 12"/></svg>
+          </div>
+          <span>الجدول</span>
+        </div>
+        <div class="reg-step__line done"></div>
+        <div class="reg-step done" role="listitem">
+          <div class="reg-step__circle">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="18" height="18"><polyline points="20 6 9 17 4 12"/></svg>
+          </div>
+          <span>المراجعة</span>
+        </div>
+        <div class="reg-step__line done"></div>
+        <div class="reg-step active" role="listitem">
+          <div class="reg-step__circle">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+          </div>
+          <span>الدفع</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MAIN ===== -->
+  <main class="pay-main">
+    <div class="container pay-layout">
+
+      <!-- ── Order Summary ─────────────────────────────────── -->
+      <div class="order-summary">
+        <div class="order-summary__header">
+          <div class="order-summary__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+          </div>
+          <div>
+            <div class="order-summary__title">ملخص الطلب</div>
+            <div class="order-summary__sub">تفاصيل اشتراكك المختار</div>
+          </div>
+        </div>
+        <div class="order-summary__body">
+
+          <div class="order-row">
+            <span class="order-row__label">رقم الطلب</span>
+            <span class="order-row__value" id="orderRef">—</span>
+          </div>
+          <div class="order-row">
+            <span class="order-row__label">نوع النقل</span>
+            <span class="order-row__value" id="orderServiceType">—</span>
+          </div>
+          <div class="order-row">
+            <span class="order-row__label">نوع الاشتراك</span>
+            <span class="order-row__value" id="orderSubtype">—</span>
+          </div>
+          <div class="order-row">
+            <span class="order-row__label">نوع الرحلة</span>
+            <span class="order-row__value" id="orderTriptype">—</span>
+          </div>
+          <div class="order-row">
+            <span class="order-row__label">الحي</span>
+            <span class="order-row__value" id="orderDistrict">—</span>
+          </div>
+          <div class="order-row">
+            <span class="order-row__label">تاريخ البداية</span>
+            <span class="order-row__value" id="orderStartDate">—</span>
+          </div>
+
+          <div class="order-divider"></div>
+
+          <div class="order-total-row">
+            <span class="order-total-row__label">المبلغ الإجمالي</span>
+            <span class="order-total-row__price" id="orderTotal">—</span>
+          </div>
+
+          <div class="order-ref">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            طلبك محفوظ ومشفّر بالكامل
+          </div>
+        </div>
+      </div>
+
+      <!-- ── Payment Form ──────────────────────────────────── -->
+      <div class="pay-form-card">
+        <div class="pay-form-card__header">
+          <div class="pay-form-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+          </div>
+          <div>
+            <div class="order-summary__title">بيانات الدفع</div>
+            <div class="order-summary__sub">سيتم ربط هذه الحقول ببوابة الدفع</div>
+          </div>
+        </div>
+        <div class="pay-form-card__body">
+
+          <!-- Card visual -->
+          <div class="card-preview" id="cardPreview">
+            <div class="card-preview__chip"></div>
+            <div class="card-preview__number" id="cardPreviewNumber">•••• •••• •••• ••••</div>
+            <div class="card-preview__footer">
+              <div>
+                <div class="card-preview__label">اسم حامل البطاقة</div>
+                <div class="card-preview__value" id="cardPreviewName">الاسم الكامل</div>
+              </div>
+              <div>
+                <div class="card-preview__label">تاريخ الانتهاء</div>
+                <div class="card-preview__value" id="cardPreviewExpiry">MM / YY</div>
+              </div>
+              <div class="card-preview__brand">
+                <div class="card-preview__brand-circle"></div>
+                <div class="card-preview__brand-circle"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card number -->
+          <div class="pay-input-group">
+            <label for="cardNumber">رقم البطاقة</label>
+            <input type="text" id="cardNumber" name="cardNumber"
+              placeholder="0000 0000 0000 0000"
+              maxlength="19"
+              autocomplete="cc-number"
+              inputmode="numeric" />
+          </div>
+
+          <!-- Card holder name -->
+          <div class="pay-input-group">
+            <label for="cardHolder">اسم حامل البطاقة</label>
+            <input type="text" id="cardHolder" name="cardHolder"
+              placeholder="كما هو مكتوب على البطاقة"
+              autocomplete="cc-name" />
+          </div>
+
+          <!-- Expiry + CVV -->
+          <div class="pay-row-2">
+            <div class="pay-input-group">
+              <label for="cardExpiry">تاريخ الانتهاء</label>
+              <input type="text" id="cardExpiry" name="cardExpiry"
+                placeholder="MM / YY"
+                maxlength="7"
+                autocomplete="cc-exp"
+                inputmode="numeric" />
+            </div>
+            <div class="pay-input-group">
+              <label for="cardCvv">رمز CVV</label>
+              <input type="password" id="cardCvv" name="cardCvv"
+                placeholder="•••"
+                maxlength="4"
+                autocomplete="cc-csc"
+                inputmode="numeric" />
+            </div>
+          </div>
+
+          <!-- Gateway placeholder note -->
+          <div class="pay-gateway-note">
+            🔗 سيتم ربط هذه الصفحة ببوابة دفع آمنة مثل
+            <strong>Moyasar</strong> أو <strong>HyperPay</strong>
+            لاحقاً. لا يتم معالجة أي دفع حالياً.
+          </div>
+
+          <!-- Accepted cards -->
+          <div class="accepted-cards">
+            <span class="accepted-cards__label">البطاقات المقبولة:</span>
+            <span class="card-badge">VISA</span>
+            <span class="card-badge">Mastercard</span>
+            <span class="card-badge">مدى</span>
+            <span class="card-badge">AMEX</span>
+          </div>
+
+          <!-- Submit -->
+          <button type="button" class="btn btn--primary pay-submit-btn" id="payBtn">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            إتمام الدفع بأمان
+          </button>
+
+          <div class="pay-secure-note">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+            مشفّر بـ SSL 256-bit — بياناتك آمنة تماماً
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ===== SUCCESS OVERLAY ===== -->
+  <div class="success-overlay" id="successOverlay" hidden>
+    <div class="success-modal">
+      <div class="success-modal__icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+      </div>
+      <h2 class="success-modal__title">تم الدفع بنجاح!</h2>
+      <p class="success-modal__desc">شكراً لك! تم تأكيد اشتراكك في خدمة وُسُل. سيتواصل معك فريقنا خلال 24 ساعة لتحديد تفاصيل الرحلة.</p>
+      <div class="success-modal__ref">
+        رقم طلبك: <strong id="successRef"></strong>
+      </div>
+      <a href="index.html" class="btn btn--primary">العودة للصفحة الرئيسية</a>
+    </div>
+  </div>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="index.html" class="navbar__logo">
+          <img src="شعار.png" alt="شعار وُسُل" class="navbar__logo-mark" width="120" height="48" />
+        </a>
+        <p>حلول نقل متكاملة من الدرجة الأولى للشركات والموظفين والجامعات في المملكة العربية السعودية.</p>
+      </div>
+      <div class="footer__col">
+        <h4>روابط سريعة</h4>
+        <ul>
+          <li><a href="index.html#home">الرئيسية</a></li>
+          <li><a href="index.html#about">من نحن</a></li>
+          <li><a href="index.html#services">الخدمات</a></li>
+          <li><a href="index.html#pricing">الاشتراكات</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>قانوني</h4>
+        <ul>
+          <li><a href="#">سياسة الخصوصية</a></li>
+          <li><a href="#">شروط الاستخدام</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p data-i18n="footer_copyright">© <span data-year></span> وُسُل. جميع الحقوق محفوظة.</p>
+    </div>
+  </footer>
+
+  <script>
+    'use strict';
+
+    /* ── Theme ─────────────────────────────────────────────────── */
+    (function () {
+      const saved = localStorage.getItem('nova-theme') || 'light';
+      document.documentElement.setAttribute('data-theme', saved);
+      document.getElementById('themeToggle')?.addEventListener('click', () => {
+        const next = document.documentElement.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', next);
+        localStorage.setItem('nova-theme', next);
+      });
+    })();
+
+    /* ── Navbar ────────────────────────────────────────────────── */
+    (function () {
+      const hamburger = document.getElementById('hamburger');
+      const navLinks  = document.getElementById('navLinks');
+      hamburger?.addEventListener('click', () => {
+        const isOpen = navLinks.classList.toggle('open');
+        hamburger.classList.toggle('active', isOpen);
+        hamburger.setAttribute('aria-expanded', String(isOpen));
+        document.body.style.overflow = isOpen ? 'hidden' : '';
+      });
+      document.addEventListener('click', e => {
+        if (navLinks?.classList.contains('open')
+          && !navLinks.contains(e.target)
+          && !hamburger.contains(e.target)) {
+          navLinks.classList.remove('open');
+          hamburger.classList.remove('active');
+          hamburger.setAttribute('aria-expanded', 'false');
+          document.body.style.overflow = '';
+        }
+      });
+    })();
+
+    /* ── Load Order from sessionStorage ────────────────────────── */
+    (function () {
+      const DISTRICT_LABELS = {
+        'abhur-north': 'أبحر الشمالية',
+        'abhur-south': 'أبحر الجنوبية',
+      };
+      const SERVICE_LABELS = {
+        educational: 'النقل التعليمي',
+        specialized: 'النقل المتخصص',
+      };
+      const SUB_LABELS = { month: 'شهري', term1: 'الترم الأول', term2: 'الترم الثاني' };
+      const TRIP_LABELS = { go: 'ذهاب فقط', return: 'عودة فقط', both: 'ذهاب وعودة' };
+      const AR_MONTHS = [
+        'يناير','فبراير','مارس','أبريل','مايو','يونيو',
+        'يوليو','أغسطس','سبتمبر','أكتوبر','نوفمبر','ديسمبر',
+      ];
+
+      function setText(id, val) {
+        const el = document.getElementById(id);
+        if (el) el.textContent = val;
+      }
+
+      function formatDate(iso) {
+        if (!iso) return '—';
+        const d = new Date(iso);
+        return `${d.getDate()} ${AR_MONTHS[d.getMonth()]} ${d.getFullYear()}`;
+      }
+
+      const raw = sessionStorage.getItem('order');
+      if (!raw) return;
+
+      let order;
+      try { order = JSON.parse(raw); } catch { return; }
+
+      setText('orderRef',       order.ref       || '—');
+      setText('orderServiceType', SERVICE_LABELS[order.serviceType]   || order.serviceType       || '—');
+      setText('orderSubtype',   SUB_LABELS[order.subscriptionType]  || order.subscriptionType  || '—');
+      setText('orderTriptype',  TRIP_LABELS[order.tripType]         || order.tripType          || '—');
+      setText('orderDistrict',  DISTRICT_LABELS[order.district]     || order.district          || '—');
+      setText('orderStartDate', formatDate(order.startDate));
+      setText('orderTotal',     order.finalPrice || '—');
+      setText('successRef',     order.ref        || '—');
+    })();
+
+    /* ── Card Preview Live Update ──────────────────────────────── */
+    (function () {
+      const numInput    = document.getElementById('cardNumber');
+      const holderInput = document.getElementById('cardHolder');
+      const expiryInput = document.getElementById('cardExpiry');
+
+      const previewNum    = document.getElementById('cardPreviewNumber');
+      const previewName   = document.getElementById('cardPreviewName');
+      const previewExpiry = document.getElementById('cardPreviewExpiry');
+
+      function formatCardNum(val) {
+        return val.replace(/\D/g, '').slice(0, 16)
+          .replace(/(.{4})/g, '$1 ').trim() || '•••• •••• •••• ••••';
+      }
+
+      numInput?.addEventListener('input', function () {
+        const digits = this.value.replace(/\D/g, '').slice(0, 16);
+        this.value = digits.replace(/(.{4})/g, '$1 ').trim();
+        if (previewNum) previewNum.textContent = formatCardNum(digits);
+      });
+
+      holderInput?.addEventListener('input', function () {
+        if (previewName) previewName.textContent = this.value.trim() || 'الاسم الكامل';
+      });
+
+      expiryInput?.addEventListener('input', function () {
+        let val = this.value.replace(/\D/g, '').slice(0, 4);
+        if (val.length >= 3) val = val.slice(0, 2) + ' / ' + val.slice(2);
+        this.value = val;
+        if (previewExpiry) previewExpiry.textContent = val || 'MM / YY';
+      });
+    })();
+
+    /* ── Pay Button (placeholder — no real processing) ─────────── */
+    (function () {
+      const btn = document.getElementById('payBtn');
+      const overlay = document.getElementById('successOverlay');
+
+      btn?.addEventListener('click', () => {
+        btn.disabled = true;
+        btn.textContent = 'جارٍ المعالجة...';
+
+        setTimeout(() => {
+          btn.disabled = false;
+          btn.innerHTML = `
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            إتمام الدفع بأمان`;
+
+          if (overlay) {
+            overlay.removeAttribute('hidden');
+            document.body.style.overflow = 'hidden';
+          }
+
+          sessionStorage.removeItem('order');
+        }, 1800);
+      });
+
+      overlay?.addEventListener('click', e => {
+        if (e.target === overlay) {
+          overlay.setAttribute('hidden', '');
+          document.body.style.overflow = '';
+        }
+      });
+    })();
+  </script>
+  <script>document.querySelectorAll('[data-year]').forEach(function(e){e.textContent=new Date().getFullYear()});</script>
+  <script src="js/i18n.js"></script>
+  <script>initI18n();</script>
+
+</body>
+</html>

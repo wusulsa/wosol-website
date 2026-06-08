@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light" data-lang="ar" data-page="register">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="وُسُل - تسجيل في خدمات النقل للجامعات والشركات" />
+  <title>وُسُل | التسجيل في خدمات النقل</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="stylesheet" href="css/register.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar scrolled" id="navbar">
+    <div class="container navbar__inner">
+      <a href="index.html#home" class="navbar__logo">
+        <img src="شعار.png" alt="شعار وُسُل" class="navbar__logo-mark" width="120" height="48" />
+      </a>
+      <ul class="navbar__links" id="navLinks">
+        <li><a href="index.html#home" class="nav-link" data-i18n="nav_home">الرئيسية</a></li>
+        <li><a href="index.html#about" class="nav-link" data-i18n="nav_about">من نحن</a></li>
+        <li><a href="index.html#services" class="nav-link" data-i18n="nav_services">الخدمات</a></li>
+        <li><a href="index.html#pricing" class="nav-link" data-i18n="nav_pricing">النقل التعليمي</a></li>
+        <li><a href="index.html?contactTab=quote&quoteService=specialized#contact" class="nav-link" data-i18n="nav_specialized">النقل المتخصص</a></li>
+        <li><a href="index.html#contact" class="nav-link" data-i18n="nav_contact">تواصل معنا</a></li>
+      </ul>
+      <div class="navbar__actions">
+        <button class="action-btn lang-btn" id="langToggle" aria-label="Switch language">EN</button>
+        <button class="action-btn theme-btn" id="themeToggle" aria-label="Toggle theme">
+          <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== STICKY PROGRESS BAR ===== -->
+  <div class="reg-sticky-bar" id="regStickyBar" aria-hidden="true">
+    <div class="container reg-sticky-bar__inner">
+      <div class="rsb-steps" id="rsbSteps">
+        <button class="rsb-step rsb-step--active" data-target="section-1" type="button">
+          <div class="rsb-dot"></div>
+          <span data-i18n="reg_step_1">بيانات الطالبة</span>
+        </button>
+        <div class="rsb-line"></div>
+        <button class="rsb-step" data-target="section-2" type="button">
+          <div class="rsb-dot"></div>
+          <span data-i18n="reg_step_2">الاشتراك</span>
+        </button>
+        <div class="rsb-line"></div>
+        <button class="rsb-step" data-target="section-3" type="button">
+          <div class="rsb-dot"></div>
+          <span data-i18n="reg_step_3">الجدول</span>
+        </button>
+        <div class="rsb-line"></div>
+        <button class="rsb-step" data-target="section-4" type="button">
+          <div class="rsb-dot"></div>
+          <span data-i18n="reg_step_4">الإرسال</span>
+        </button>
+      </div>
+      <div class="rsb-counter" id="rsbCounter" aria-live="polite">الخطوة 1 من 4</div>
+      <div class="rsb-progress" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+        <div class="rsb-progress__fill" id="rsbFill"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== PAGE HEADER ===== -->
+  <div class="reg-hero">
+    <div class="reg-hero__shapes">
+      <div class="shape shape--1"></div>
+      <div class="shape shape--2"></div>
+    </div>
+    <div class="container reg-hero__inner">
+      <div class="reg-hero__icon" aria-hidden="true">🚌</div>
+      <h1 class="reg-hero__title" data-i18n="reg_hero_title">التسجيل في خدمات النقل</h1>
+      <p class="reg-hero__sub" data-i18n="reg_hero_sub">أكمل البيانات التالية للاشتراك في خدمة نقل الجامعات والشركات</p>
+      <!-- Progress Steps -->
+      <div class="reg-steps" id="regSteps">
+        <div class="reg-step active" data-step="1" data-tooltip="الاسم، الهوية، الجوال، العنوان" data-tooltip-i18n="reg_step_1_tip">
+          <div class="reg-step__circle">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="18" height="18"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          </div>
+          <span data-i18n="reg_step_1">بيانات الطالبة</span>
+        </div>
+        <div class="reg-step__line"></div>
+        <div class="reg-step" data-step="2" data-tooltip="الجامعة، نوع الاشتراك، تاريخ البداية" data-tooltip-i18n="reg_step_2_tip">
+          <div class="reg-step__circle">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="18" height="18"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+          </div>
+          <span data-i18n="reg_step_2">الاشتراك</span>
+        </div>
+        <div class="reg-step__line"></div>
+        <div class="reg-step" data-step="3" data-tooltip="أيام الدراسة وأوقات الذهاب والعودة" data-tooltip-i18n="reg_step_3_tip">
+          <div class="reg-step__circle">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="18" height="18"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          </div>
+          <span data-i18n="reg_step_3">الجدول</span>
+        </div>
+        <div class="reg-step__line"></div>
+        <div class="reg-step" data-step="4" data-tooltip="مراجعة الشروط وإرسال الطلب" data-tooltip-i18n="reg_step_4_tip">
+          <div class="reg-step__circle">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="18" height="18"><polyline points="20 6 9 17 4 12"/></svg>
+          </div>
+          <span data-i18n="reg_step_4">الإرسال</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== MAIN FORM ===== -->
+  <main class="reg-main">
+    <div class="container reg-layout">
+
+      <form class="reg-form" id="regForm" novalidate>
+
+        <!-- ══════════════════════════════════
+             SECTION 1 — بيانات المشترك
+        ══════════════════════════════════ -->
+        <div class="reg-card" id="section-1">
+          <div class="reg-card__header">
+            <div class="reg-card__icon-wrap">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            </div>
+            <div>
+              <h2 class="reg-card__title" data-i18n="reg_sec1_title">بيانات المشترك</h2>
+              <p class="reg-card__subtitle" data-i18n="reg_sec1_sub">المعلومات الشخصية للمشترك</p>
+            </div>
+            <div class="reg-card__badge">1</div>
+          </div>
+
+          <div class="reg-card__body">
+
+            <!-- الاسم الرباعي -->
+            <div class="field-group-label">
+              <span class="field-group-label__icon">📝</span>
+              <span>الاسم الرباعي</span>
+              <span class="required-star">*</span>
+            </div>
+            <div class="form-grid form-grid--4">
+              <div class="form-group">
+                <label for="firstName">الاسم الأول</label>
+                <input type="text" id="firstName" name="firstName" placeholder="مثال: سارة" required />
+                <span class="field-error" id="err-firstName"></span>
+              </div>
+              <div class="form-group">
+                <label for="secondName">اسم الأب</label>
+                <input type="text" id="secondName" name="secondName" placeholder="مثال: أحمد" required />
+                <span class="field-error" id="err-secondName"></span>
+              </div>
+              <div class="form-group">
+                <label for="thirdName">اسم الجد</label>
+                <input type="text" id="thirdName" name="thirdName" placeholder="مثال: محمد" required />
+                <span class="field-error" id="err-thirdName"></span>
+              </div>
+              <div class="form-group">
+                <label for="familyName">اسم العائلة</label>
+                <input type="text" id="familyName" name="familyName" placeholder="مثال: العتيبي" required />
+                <span class="field-error" id="err-familyName"></span>
+              </div>
+            </div>
+
+            <div class="reg-divider"></div>
+
+            <!-- الجنس والجنسية والهوية -->
+            <div class="form-grid form-grid--3">
+              <div class="form-group">
+                <label for="gender">الجنس <span class="required-star">*</span></label>
+                <div class="select-wrap">
+                  <select id="gender" name="gender" required>
+                    <option value="" disabled selected>-- اختر --</option>
+                    <option value="female">أنثى</option>
+                    <option value="male">ذكر</option>
+                  </select>
+                </div>
+                <span class="field-error" id="err-gender"></span>
+              </div>
+              <div class="form-group">
+                <label for="nationality">الجنسية <span class="required-star">*</span></label>
+                <div class="select-wrap">
+                  <select id="nationality" name="nationality" required>
+                    <option value="" disabled selected>-- اختر --</option>
+                    <option value="saudi">سعودية</option>
+                    <option value="other">غير سعودية</option>
+                  </select>
+                </div>
+                <span class="field-error" id="err-nationality"></span>
+              </div>
+              <div class="form-group">
+                <label for="idNumber">رقم الهوية / الإقامة <span class="required-star">*</span></label>
+                <input type="text" id="idNumber" name="idNumber" placeholder="10 أرقام" maxlength="10" inputmode="numeric" required />
+                <span class="field-error" id="err-idNumber"></span>
+              </div>
+            </div>
+
+            <!-- الجوال والبريد -->
+            <div class="form-grid form-grid--2">
+              <div class="form-group">
+                <label for="studentPhone">رقم الجوال <span class="required-star">*</span></label>
+                <div class="phone-input">
+                  <span class="phone-input__prefix">🇸🇦 +966</span>
+                  <input type="tel" id="studentPhone" name="studentPhone" placeholder="5X XXX XXXX" maxlength="9" inputmode="numeric" required />
+                </div>
+                <span class="field-error" id="err-studentPhone"></span>
+              </div>
+              <div class="form-group">
+                <label for="studentEmail">البريد الإلكتروني <span class="required-star">*</span></label>
+                <input type="email" id="studentEmail" name="studentEmail" placeholder="example@email.com" required />
+                <span class="field-error" id="err-studentEmail"></span>
+              </div>
+            </div>
+
+            <div class="reg-divider"></div>
+
+            <!-- العنوان -->
+            <div class="field-group-label">
+              <span class="field-group-label__icon">📍</span>
+              <span>العنوان</span>
+            </div>
+            <div class="form-grid form-grid--3">
+              <div class="form-group">
+                <label for="region">المنطقة <span class="required-star">*</span></label>
+                <div class="select-wrap">
+                  <select id="region" name="region" required>
+                    <option value="" disabled selected>-- اختر المنطقة --</option>
+                    <option value="makkah">منطقة مكة المكرمة</option>
+                    <option value="riyadh">منطقة الرياض</option>
+                    <option value="eastern">المنطقة الشرقية</option>
+                    <option value="madinah">منطقة المدينة المنورة</option>
+                    <option value="qassim">منطقة القصيم</option>
+                    <option value="asir">منطقة عسير</option>
+                    <option value="tabuk">منطقة تبوك</option>
+                    <option value="hail">منطقة حائل</option>
+                    <option value="northern">منطقة الحدود الشمالية</option>
+                    <option value="jazan">منطقة جازان</option>
+                    <option value="najran">منطقة نجران</option>
+                    <option value="bahah">منطقة الباحة</option>
+                    <option value="jawf">منطقة الجوف</option>
+                  </select>
+                </div>
+                <span class="field-error" id="err-region"></span>
+              </div>
+              <div class="form-group">
+                <label for="city">المدينة <span class="required-star">*</span></label>
+                <input type="text" id="city" name="city" placeholder="مثال: جدة" required />
+                <span class="field-error" id="err-city"></span>
+              </div>
+              <div class="form-group">
+                <label for="district">الحي <span class="required-star">*</span></label>
+                <div class="select-wrap">
+                  <select id="district" name="district" required>
+                    <option value="" disabled selected>-- اختر الحي --</option>
+                    <option value="abhur-north">أبحر الشمالية</option>
+                    <option value="abhur-south">أبحر الجنوبية</option>
+                  </select>
+                </div>
+                <span class="field-error" id="err-district"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="address">العنوان التفصيلي</label>
+              <input type="text" id="address" name="address" placeholder="رقم المبنى، اسم الشارع..." />
+            </div>
+
+          </div>
+        </div>
+
+
+        <!-- ══════════════════════════════════
+             SECTION 2 — بيانات الاشتراك
+        ══════════════════════════════════ -->
+        <div class="reg-card" id="section-2">
+          <div class="reg-card__header">
+            <div class="reg-card__icon-wrap">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+            </div>
+            <div>
+              <h2 class="reg-card__title" data-i18n="reg_sec2_title">بيانات الاشتراك</h2>
+              <p class="reg-card__subtitle" data-i18n="reg_sec2_sub">تفاصيل الجهة والخدمة المطلوبة</p>
+            </div>
+            <div class="reg-card__badge">2</div>
+          </div>
+
+          <div class="reg-card__body">
+            <div class="form-grid form-grid--2">
+              <div class="form-group">
+                <label for="universityName">اسم الجهة / الجامعة <span class="required-star">*</span></label>
+                <div class="select-wrap">
+                  <select id="universityName" name="universityName" required>
+                    <option value="" disabled selected>-- اختر الجهة --</option>
+                    <option value="kau">جامعة الملك عبدالعزيز</option>
+                    <option value="uj">جامعة جدة</option>
+                    <option value="company">شركة / مؤسسة</option>
+                    <option value="other">أخرى</option>
+                  </select>
+                </div>
+                <span class="field-error" id="err-universityName"></span>
+              </div>
+              <div class="form-group">
+                <label for="universityGate">بوابة الجامعة <span class="required-star">*</span></label>
+                <input type="text" id="universityGate" name="universityGate" placeholder="مثال: البوابة الرئيسية، بوابة رقم 3..." required />
+                <span class="field-error" id="err-universityGate"></span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label><span data-i18n="reg_service_type">نوع النقل</span> <span class="required-star">*</span></label>
+              <div class="radio-group" id="serviceType">
+                <label class="radio-card">
+                  <input type="radio" name="serviceType" value="educational" required />
+                  <div class="radio-card__inner">
+                    <span class="radio-card__icon">🚌</span>
+                    <span class="radio-card__label" data-i18n="reg_service_educational">النقل التعليمي</span>
+                  </div>
+                </label>
+                <label class="radio-card">
+                  <input type="radio" name="serviceType" value="specialized" />
+                  <div class="radio-card__inner">
+                    <span class="radio-card__icon">⭐</span>
+                    <span class="radio-card__label" data-i18n="reg_service_specialized">النقل المتخصص</span>
+                  </div>
+                </label>
+              </div>
+              <span class="field-error" id="err-serviceType"></span>
+            </div>
+
+            <div class="form-grid form-grid--3">
+              <div class="form-group">
+                <label>نوع الاشتراك <span class="required-star">*</span></label>
+                <div class="radio-group" id="subscriptionType">
+                  <label class="radio-card">
+                    <input type="radio" name="subscriptionType" value="month" required />
+                    <div class="radio-card__inner">
+                      <span class="radio-card__icon">📅</span>
+                      <span class="radio-card__label" data-i18n="reg_sub_month">شهري</span>
+                    </div>
+                  </label>
+                  <label class="radio-card">
+                    <input type="radio" name="subscriptionType" value="term1" />
+                    <div class="radio-card__inner">
+                      <span class="radio-card__icon">🎓</span>
+                      <span class="radio-card__label" data-i18n="reg_sub_term1">الترم الأول</span>
+                    </div>
+                  </label>
+                  <label class="radio-card">
+                    <input type="radio" name="subscriptionType" value="term2" />
+                    <div class="radio-card__inner">
+                      <span class="radio-card__icon">📚</span>
+                      <span class="radio-card__label" data-i18n="reg_sub_term2">الترم الثاني</span>
+                    </div>
+                  </label>
+                </div>
+                <span class="field-error" id="err-subscriptionType"></span>
+              </div>
+              <div class="form-group">
+                <label>نوع الرحلة <span class="required-star">*</span></label>
+                <div class="radio-group" id="tripType">
+                  <label class="radio-card">
+                    <input type="radio" name="tripType" value="go" required />
+                    <div class="radio-card__inner">
+                      <span class="radio-card__icon">🚐</span>
+                      <span class="radio-card__label">ذهاب</span>
+                    </div>
+                  </label>
+                  <label class="radio-card">
+                    <input type="radio" name="tripType" value="return" />
+                    <div class="radio-card__inner">
+                      <span class="radio-card__icon">🔄</span>
+                      <span class="radio-card__label">عودة</span>
+                    </div>
+                  </label>
+                  <label class="radio-card">
+                    <input type="radio" name="tripType" value="both" />
+                    <div class="radio-card__inner">
+                      <span class="radio-card__icon">↔️</span>
+                      <span class="radio-card__label">ذهاب وعودة</span>
+                    </div>
+                  </label>
+                </div>
+                <span class="field-error" id="err-tripType"></span>
+              </div>
+              <div class="form-group">
+                <label for="startDate">تاريخ البداية <span class="required-star">*</span></label>
+                <input type="date" id="startDate" name="startDate" required />
+                <span class="field-error" id="err-startDate"></span>
+                <div class="sub-end-hint" id="subEndHint" hidden>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                  <span id="subEndHintText"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ══════════════════════════════════
+             PRICING CARD — ملخص السعر
+        ══════════════════════════════════ -->
+        <div class="reg-card reg-card--pricing" id="pricingCard">
+          <div class="reg-card__header">
+            <div class="reg-card__icon-wrap">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            </div>
+            <div>
+              <h2 class="reg-card__title" data-i18n="reg_price_title">ملخص السعر</h2>
+              <p class="reg-card__subtitle" data-i18n="reg_price_sub">يتحدث تلقائياً عند تغيير أي خيار</p>
+            </div>
+            <div class="pricing-live-badge">
+              <span class="pricing-live-dot"></span>
+              مباشر
+            </div>
+          </div>
+
+          <div class="reg-card__body">
+
+            <!-- Placeholder: shown before user selects required fields -->
+            <div class="pricing-placeholder" id="pricingPlaceholder">
+              <div class="pricing-placeholder__icon">🧮</div>
+              <p class="pricing-placeholder__text">اختر <strong>نوع النقل</strong> و<strong>الحي</strong> و<strong>نوع الاشتراك</strong> و<strong>نوع الرحلة</strong> لعرض السعر تلقائياً</p>
+              <div class="pricing-placeholder__steps">
+                <span class="pp-step" id="pp-service">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="14" height="14"><circle cx="12" cy="12" r="10"/></svg>
+                  نوع النقل
+                </span>
+                <span class="pp-arrow">←</span>
+                <span class="pp-step" id="pp-district">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="14" height="14"><circle cx="12" cy="12" r="10"/></svg>
+                  الحي
+                </span>
+                <span class="pp-arrow">←</span>
+                <span class="pp-step" id="pp-sub">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="14" height="14"><circle cx="12" cy="12" r="10"/></svg>
+                  الاشتراك
+                </span>
+                <span class="pp-arrow">←</span>
+                <span class="pp-step" id="pp-trip">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="14" height="14"><circle cx="12" cy="12" r="10"/></svg>
+                  الرحلة
+                </span>
+              </div>
+            </div>
+
+            <!-- Details: shown when price is calculated -->
+            <div class="pricing-details" id="pricingDetails" hidden>
+
+              <!-- Summary tags -->
+              <div class="pricing-tags">
+                <span class="pricing-tag pricing-tag--service">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="13" height="13"><path d="M4 16V9a2 2 0 0 1 2-2h9l5 4v5"/><circle cx="8" cy="16" r="2"/><circle cx="18" cy="16" r="2"/><path d="M6 16h10"/></svg>
+                  <span id="pr-service"></span>
+                </span>
+                <span class="pricing-tag pricing-tag--district">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="13" height="13"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  <span id="pr-district"></span>
+                </span>
+                <span class="pricing-tag pricing-tag--sub">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="13" height="13"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/></svg>
+                  <span id="pr-subtype"></span>
+                </span>
+                <span class="pricing-tag pricing-tag--trip">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="13" height="13"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  <span id="pr-triptype"></span>
+                </span>
+              </div>
+
+              <!-- Days badge (monthly only) -->
+              <div class="pricing-days-badge" id="pr-days-badge" hidden>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                عدد أيام الركوب الشهرية: <strong><span id="pr-days-count">0</span> يوم</strong>
+              </div>
+
+              <!-- Price breakdown -->
+              <div class="pricing-breakdown">
+
+                <div class="pricing-row">
+                  <span class="pricing-row__label">السعر الأساسي</span>
+                  <span class="pricing-row__value" id="pr-base"></span>
+                </div>
+
+                <div class="pricing-row pricing-row--discount" id="pr-discount-row" hidden>
+                  <span class="pricing-row__label">
+                    <span class="discount-badge" id="pr-discount-label"></span>
+                    الخصم
+                  </span>
+                  <span class="pricing-row__value pricing-row__value--discount" id="pr-discount-amount"></span>
+                </div>
+
+                <div class="pricing-row pricing-row--divider"></div>
+
+                <div class="pricing-row pricing-row--total">
+                  <span class="pricing-row__label">الإجمالي</span>
+                  <span class="pricing-row__value pricing-row__value--total" id="pr-final" data-prev=""></span>
+                </div>
+
+              </div>
+
+              <!-- Term note: no discounts -->
+              <div class="pricing-note pricing-note--info" id="pr-term-note" hidden>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+                اشتراك الترم لا يشمل خصماً على عدد الأيام
+              </div>
+
+              <!-- Monthly discount hint -->
+              <div class="pricing-note pricing-note--tip" id="pr-discount-hint">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                اختر <strong>أيام أكثر</strong> في الجدول للحصول على خصم أعلى (للاشتراك الشهري)
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- ══════════════════════════════════
+             SECTION 3 — جدول المواعيد
+        ══════════════════════════════════ -->
+        <div class="reg-card" id="section-3">
+          <div class="reg-card__header">
+            <div class="reg-card__icon-wrap">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            </div>
+            <div>
+              <h2 class="reg-card__title" data-i18n="reg_sec3_title">جدول المواعيد</h2>
+              <p class="reg-card__subtitle" data-i18n="reg_sec3_sub">حدد أيام الدراسة وأوقات الذهاب والعودة</p>
+            </div>
+            <div class="reg-card__badge">3</div>
+          </div>
+
+          <div class="reg-card__body">
+
+            <p class="schedule-hint">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+              اختر الأيام ثم حدد وقت الذهاب و/أو العودة لكل يوم
+            </p>
+
+            <div class="days-grid" id="daysGrid">
+
+              <div class="day-row" data-day="sunday">
+                <div class="day-toggle">
+                  <input type="checkbox" id="day-sun" name="days" value="sunday" class="day-checkbox" />
+                  <label for="day-sun" class="day-label">
+                    <span class="day-label__check">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" width="14" height="14"><polyline points="20 6 9 17 4 12"/></svg>
+                    </span>
+                    <span class="day-label__name">الأحد</span>
+                    <span class="day-label__short">Sun</span>
+                  </label>
+                </div>
+                <div class="day-times" id="times-sunday" hidden>
+                  <div class="time-field time-field--go">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    <label for="go-sunday">وقت الذهاب</label>
+                    <select id="go-sunday" name="go-sunday">
+                      <option value="">-- اختر الرحلة --</option>
+                      <option value="رحلة 6 - محاضرة 8">رحلةالساعة 6 - محاضرة الساعة 8</option>
+                      <option value="رحلة 7 - محاضرة 9">رحلةالساعة 7 - محاضرة الساعة 9</option>
+                      <option value="رحلة 8 - محاضرة 10">رحلةالساعة 8 - محاضرة الساعة 10</option>
+                      <option value="رحلة 9 - محاضرة 11">رحلةالساعة 9 - محاضرة الساعة 11</option>
+                      <option value="رحلة 10 - محاضرة 12">رحلةالساعة 10 - محاضرة الساعة 12</option>
+                    </select>
+                  </div>
+                  <div class="time-field time-field--return">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 .49-4"/></svg>
+                    <label for="ret-sunday">وقت العودة</label>
+                    <select id="ret-sunday" name="ret-sunday">
+                      <option value="">-- اختر الرحلة --</option>
+                      <option value="رحلة 11 - يحرك 11:20">رحلة 11 - يحرك 11:20</option>
+                      <option value="رحلة 12 - يحرك 12:20">رحلة 12 - يحرك 12:20</option>
+                      <option value="رحلة 1 - يحرك 1:20">رحلة 1 - يحرك 1:20</option>
+                      <option value="رحلة 2 - يحرك 2:20">رحلة 2 - يحرك 2:20</option>
+                      <option value="رحلة 3 - يحرك 3:20">رحلة 3 - يحرك 3:20</option>
+                      <option value="رحلة 4 - يحرك 4:30">رحلة 4 - يحرك 4:30</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="day-row" data-day="monday">
+                <div class="day-toggle">
+                  <input type="checkbox" id="day-mon" name="days" value="monday" class="day-checkbox" />
+                  <label for="day-mon" class="day-label">
+                    <span class="day-label__check"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" width="14" height="14"><polyline points="20 6 9 17 4 12"/></svg></span>
+                    <span class="day-label__name">الاثنين</span>
+                    <span class="day-label__short">Mon</span>
+                  </label>
+                </div>
+                <div class="day-times" id="times-monday" hidden>
+                  <div class="time-field time-field--go">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    <label for="go-monday">وقت الذهاب</label>
+                    <select id="go-monday" name="go-monday">
+                      <option value="">-- اختر الرحلة --</option>
+                       <option value="رحلة 6 - محاضرة 8">رحلةالساعة 6 - محاضرة الساعة 8</option>
+                      <option value="رحلة 7 - محاضرة 9">رحلةالساعة 7 - محاضرة الساعة 9</option>
+                      <option value="رحلة 8 - محاضرة 10">رحلةالساعة 8 - محاضرة الساعة 10</option>
+                      <option value="رحلة 9 - محاضرة 11">رحلةالساعة 9 - محاضرة الساعة 11</option>
+                      <option value="رحلة 10 - محاضرة 12">رحلةالساعة 10 - محاضرة الساعة 12</option>
+                    </select>
+                  </div>
+                  <div class="time-field time-field--return">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 .49-4"/></svg>
+                    <label for="ret-monday">وقت العودة</label>
+                    <select id="ret-monday" name="ret-monday">
+                      <option value="">-- اختر الرحلة --</option>
+                      <option value="رحلة 11 - يحرك 11:20">رحلة 11 - يحرك 11:20</option>
+                      <option value="رحلة 12 - يحرك 12:20">رحلة 12 - يحرك 12:20</option>
+                      <option value="رحلة 1 - يحرك 1:20">رحلة 1 - يحرك 1:20</option>
+                      <option value="رحلة 2 - يحرك 2:20">رحلة 2 - يحرك 2:20</option>
+                      <option value="رحلة 3 - يحرك 3:20">رحلة 3 - يحرك 3:20</option>
+                      <option value="رحلة 4 - يحرك 4:30">رحلة 4 - يحرك 4:30</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="day-row" data-day="tuesday">
+                <div class="day-toggle">
+                  <input type="checkbox" id="day-tue" name="days" value="tuesday" class="day-checkbox" />
+                  <label for="day-tue" class="day-label">
+                    <span class="day-label__check"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" width="14" height="14"><polyline points="20 6 9 17 4 12"/></svg></span>
+                    <span class="day-label__name">الثلاثاء</span>
+                    <span class="day-label__short">Tue</span>
+                  </label>
+                </div>
+                <div class="day-times" id="times-tuesday" hidden>
+                  <div class="time-field time-field--go">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    <label for="go-tuesday">وقت الذهاب</label>
+                    <select id="go-tuesday" name="go-tuesday">
+                      <option value="">-- اختر الرحلة --</option>
+                       <option value="رحلة 6 - محاضرة 8">رحلةالساعة 6 - محاضرة الساعة 8</option>
+                      <option value="رحلة 7 - محاضرة 9">رحلةالساعة 7 - محاضرة الساعة 9</option>
+                      <option value="رحلة 8 - محاضرة 10">رحلةالساعة 8 - محاضرة الساعة 10</option>
+                      <option value="رحلة 9 - محاضرة 11">رحلةالساعة 9 - محاضرة الساعة 11</option>
+                      <option value="رحلة 10 - محاضرة 12">رحلةالساعة 10 - محاضرة الساعة 12</option>
+                    </select>
+                  </div>
+                  <div class="time-field time-field--return">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 .49-4"/></svg>
+                    <label for="ret-tuesday">وقت العودة</label>
+                    <select id="ret-tuesday" name="ret-tuesday">
+                      <option value="">-- اختر الرحلة --</option>
+                      <option value="رحلة 11 - يحرك 11:20">رحلة 11 - يحرك 11:20</option>
+                      <option value="رحلة 12 - يحرك 12:20">رحلة 12 - يحرك 12:20</option>
+                      <option value="رحلة 1 - يحرك 1:20">رحلة 1 - يحرك 1:20</option>
+                      <option value="رحلة 2 - يحرك 2:20">رحلة 2 - يحرك 2:20</option>
+                      <option value="رحلة 3 - يحرك 3:20">رحلة 3 - يحرك 3:20</option>
+                      <option value="رحلة 4 - يحرك 4:30">رحلة 4 - يحرك 4:30</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="day-row" data-day="wednesday">
+                <div class="day-toggle">
+                  <input type="checkbox" id="day-wed" name="days" value="wednesday" class="day-checkbox" />
+                  <label for="day-wed" class="day-label">
+                    <span class="day-label__check"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" width="14" height="14"><polyline points="20 6 9 17 4 12"/></svg></span>
+                    <span class="day-label__name">الأربعاء</span>
+                    <span class="day-label__short">Wed</span>
+                  </label>
+                </div>
+                <div class="day-times" id="times-wednesday" hidden>
+                  <div class="time-field time-field--go">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    <label for="go-wednesday">وقت الذهاب</label>
+                    <select id="go-wednesday" name="go-wednesday">
+                      <option value="">-- اختر الرحلة --</option>
+                      <option value="رحلة 6 - محاضرة 8">رحلةالساعة 6 - محاضرة الساعة 8</option>
+                      <option value="رحلة 7 - محاضرة 9">رحلةالساعة 7 - محاضرة الساعة 9</option>
+                      <option value="رحلة 8 - محاضرة 10">رحلةالساعة 8 - محاضرة الساعة 10</option>
+                      <option value="رحلة 9 - محاضرة 11">رحلةالساعة 9 - محاضرة الساعة 11</option>
+                      <option value="رحلة 10 - محاضرة 12">رحلةالساعة 10 - محاضرة الساعة 12</option>
+                    </select>
+                  </div>
+                  <div class="time-field time-field--return">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 .49-4"/></svg>
+                    <label for="ret-wednesday">وقت العودة</label>
+                    <select id="ret-wednesday" name="ret-wednesday">
+                      <option value="">-- اختر الرحلة --</option>
+                      <option value="رحلة 11 - يحرك 11:20">رحلة 11 - يحرك 11:20</option>
+                      <option value="رحلة 12 - يحرك 12:20">رحلة 12 - يحرك 12:20</option>
+                      <option value="رحلة 1 - يحرك 1:20">رحلة 1 - يحرك 1:20</option>
+                      <option value="رحلة 2 - يحرك 2:20">رحلة 2 - يحرك 2:20</option>
+                      <option value="رحلة 3 - يحرك 3:20">رحلة 3 - يحرك 3:20</option>
+                      <option value="رحلة 4 - يحرك 4:30">رحلة 4 - يحرك 4:30</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="day-row" data-day="thursday">
+                <div class="day-toggle">
+                  <input type="checkbox" id="day-thu" name="days" value="thursday" class="day-checkbox" />
+                  <label for="day-thu" class="day-label">
+                    <span class="day-label__check"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" width="14" height="14"><polyline points="20 6 9 17 4 12"/></svg></span>
+                    <span class="day-label__name">الخميس</span>
+                    <span class="day-label__short">Thu</span>
+                  </label>
+                </div>
+                <div class="day-times" id="times-thursday" hidden>
+                  <div class="time-field time-field--go">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    <label for="go-thursday">وقت الذهاب</label>
+                    <select id="go-thursday" name="go-thursday">
+                      <option value="">-- اختر الرحلة --</option>
+                      <option value="رحلة 6 - محاضرة 8">رحلةالساعة 6 - محاضرة الساعة 8</option>
+                      <option value="رحلة 7 - محاضرة 9">رحلةالساعة 7 - محاضرة الساعة 9</option>
+                      <option value="رحلة 8 - محاضرة 10">رحلةالساعة 8 - محاضرة الساعة 10</option>
+                      <option value="رحلة 9 - محاضرة 11">رحلةالساعة 9 - محاضرة الساعة 11</option>
+                      <option value="رحلة 10 - محاضرة 12">رحلةالساعة 10 - محاضرة الساعة 12</option>
+                    </select>
+                  </div>
+                  <div class="time-field time-field--return">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 .49-4"/></svg>
+                    <label for="ret-thursday">وقت العودة</label>
+                    <select id="ret-thursday" name="ret-thursday">
+                      <option value="">-- اختر الرحلة --</option>
+                      <option value="رحلة 11 - يحرك 11:20">رحلة 11 - يحرك 11:20</option>
+                      <option value="رحلة 12 - يحرك 12:20">رحلة 12 - يحرك 12:20</option>
+                      <option value="رحلة 1 - يحرك 1:20">رحلة 1 - يحرك 1:20</option>
+                      <option value="رحلة 2 - يحرك 2:20">رحلة 2 - يحرك 2:20</option>
+                      <option value="رحلة 3 - يحرك 3:20">رحلة 3 - يحرك 3:20</option>
+                      <option value="رحلة 4 - يحرك 4:30">رحلة 4 - يحرك 4:30</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="day-row" data-day="saturday">
+                <div class="day-toggle">
+                  <input type="checkbox" id="day-sat" name="days" value="saturday" class="day-checkbox" />
+                  <label for="day-sat" class="day-label">
+                    <span class="day-label__check"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" width="14" height="14"><polyline points="20 6 9 17 4 12"/></svg></span>
+                    <span class="day-label__name">السبت</span>
+                    <span class="day-label__short">Sat</span>
+                  </label>
+                </div>
+                <div class="day-times" id="times-saturday" hidden>
+                  <div class="time-field time-field--go">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    <label for="go-saturday">وقت الذهاب</label>
+                    <select id="go-saturday" name="go-saturday">
+                      <option value="">-- اختر الرحلة --</option>
+                      <option value="رحلة 6 - محاضرة 8">رحلة الساعة 6 - محاضرة الساعة 8</option>
+                      <option value="رحلة 7 - محاضرة 9">رحلة الساعة 7 - محاضرة الساعة 9</option>
+                      <option value="رحلة 8 - محاضرة 10">رحلة الساعة 8 - محاضرة الساعة 10</option>
+                      <option value="رحلة 9 - محاضرة 11">رحلة الساعة 9 - محاضرة الساعة 11</option>
+                      <option value="رحلة 10 - محاضرة 12">رحلة الساعة 10 - محاضرة الساعة 12</option>
+                    </select>
+                  </div>
+                  <div class="time-field time-field--return">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 .49-4"/></svg>
+                    <label for="ret-saturday">وقت العودة</label>
+                    <select id="ret-saturday" name="ret-saturday">
+                      <option value="">-- اختر الرحلة --</option>
+                      <option value="رحلة 11 - يحرك 11:20">رحلة 11 - يحرك 11:20</option>
+                      <option value="رحلة 12 - يحرك 12:20">رحلة 12 - يحرك 12:20</option>
+                      <option value="رحلة 1 - يحرك 1:20">رحلة 1 - يحرك 1:20</option>
+                      <option value="رحلة 2 - يحرك 2:20">رحلة 2 - يحرك 2:20</option>
+                      <option value="رحلة 3 - يحرك 3:20">رحلة 3 - يحرك 3:20</option>
+                      <option value="رحلة 4 - يحرك 4:30">رحلة 4 - يحرك 4:30</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <span class="field-error" id="err-days"></span>
+
+          </div>
+        </div>
+
+        <!-- ══════════════════════════════════
+             SECTION 4 — الشروط والأحكام
+        ══════════════════════════════════ -->
+        <div class="reg-card reg-card--terms" id="section-4">
+          <div class="reg-card__header">
+            <div class="reg-card__icon-wrap">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+            </div>
+            <div>
+              <h2 class="reg-card__title" data-i18n="reg_sec4_title">الشروط والأحكام</h2>
+              <p class="reg-card__subtitle" data-i18n="reg_sec4_sub">يرجى القراءة بعناية والموافقة قبل الإرسال</p>
+            </div>
+            <div class="reg-card__badge">4</div>
+          </div>
+
+          <div class="reg-card__body">
+            <div class="terms-box">
+              <div class="terms-content" id="termsContent">
+                <h4>شروط الاشتراك في خدمة نُقلة لنقل الطالبات</h4>
+
+                <h5>1. الالتزام بالمواعيد</h5>
+                <p>تلتزم الطالبة بالحضور إلى نقطة الالتقاء المحددة قبل موعد انطلاق السيارة بـ 5 دقائق على الأقل. لن تنتظر السيارة الطالبة المتأخرة أكثر من دقيقتين (2) من الموعد الرسمي المحدد.</p>
+
+                <h5>2. الإلغاء والتعديل</h5>
+                <p>يحق للمشتركة إلغاء الاشتراك الشهري مع إشعار مسبق لا يقل عن 7 أيام قبل تاريخ التجديد. لا يُسترجع رسوم الاشتراك بعد انقضاء 3 أيام من تاريخ بداية الخدمة.</p>
+
+                <h5>3. السلوك وأدب التعامل</h5>
+                <p>تلتزم الطالبة بالسلوك اللائق داخل السيارة، واحترام السائق والراكبات الأخريات، وعدم إزعاج الآخرين. تحظر الأكل والشرب داخل السيارة إلا في حالات استثنائية.</p>
+
+                <h5>4. المسؤولية</h5>
+                <p>تتحمل الشركة مسؤولية نقل الطالبة بأمان من النقطة المحددة وحتى بوابة الجامعة فقط. لا تتحمل الشركة مسؤولية أي تأخير ناجم عن ظروف خارجة عن إرادتها (حوادث، حواجز أمنية، ظروف جوية طارئة).</p>
+
+                <h5>5. الخصوصية وحماية البيانات</h5>
+                <p>تتعهد الشركة بالحفاظ على خصوصية بيانات الطالبة وولي أمرها وعدم مشاركتها مع أي طرف ثالث إلا بإذن صريح أو بموجب متطلبات قانونية. يُستخدم التتبع GPS لأغراض السلامة فقط.</p>
+
+                <h5>6. التواصل والطوارئ</h5>
+                <p>في حالات الطوارئ، يحق للشركة التواصل مع الطالبة مباشرة على الرقم المسجل في النموذج. يجب على الطالبة ضمان توافر رقم التواصل المسجل على مدار ساعات تشغيل الخدمة.</p>
+              </div>
+              <div class="terms-scroll-indicator" id="termsScrollIndicator">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><polyline points="6 9 12 15 18 9"/></svg>
+                <span data-i18n="reg_terms_scroll">اسحب للأسفل لقراءة كامل الشروط</span>
+              </div>
+            </div>
+
+            <label class="terms-checkbox" id="termsLabel">
+              <input type="checkbox" id="agreeTerms" name="agreeTerms" required />
+              <span class="terms-checkbox__box">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" width="14" height="14"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <span class="terms-checkbox__text">
+                لقد قرأت وأوافق على جميع
+                <strong>الشروط والأحكام</strong>
+                الواردة أعلاه، وأُقرّ بصحة البيانات المدخلة.
+              </span>
+            </label>
+            <span class="field-error" id="err-terms"></span>
+
+          </div>
+        </div>
+
+        <!-- ══════════════════════════════════
+             زر الإرسال
+        ══════════════════════════════════ -->
+        <div class="reg-submit">
+          <a href="index.html" class="btn btn--outline reg-submit__back">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><polyline points="15 18 9 12 15 6"/></svg>
+            العودة للرئيسية
+          </a>
+          <button type="submit" class="btn btn--primary reg-submit__btn" id="submitBtn">
+            <span id="submitBtnText" data-i18n="reg_submit_btn">إرسال طلب التسجيل</span>
+            <svg id="submitArrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            <svg id="submitSpinner" class="spinner" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" hidden><path d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0"/></svg>
+          </button>
+        </div>
+
+      </form>
+
+      <!-- Success Modal -->
+      <div class="success-overlay" id="successOverlay" hidden>
+        <div class="success-modal">
+          <div class="success-modal__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          </div>
+          <h2 class="success-modal__title" data-i18n="reg_success_title">تم إرسال طلبك بنجاح!</h2>
+          <p class="success-modal__desc" data-i18n="reg_success_desc">شكراً لتسجيلك في خدمة وُسُل. سيتواصل معك فريقنا خلال 24 ساعة لتأكيد الاشتراك وتحديد تفاصيل الخدمة.</p>
+          <div class="success-modal__ref">
+            رقم طلبك: <strong id="refNumber"></strong>
+          </div>
+          <a href="index.html" class="btn btn--primary">العودة للصفحة الرئيسية</a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="index.html" class="navbar__logo">
+          <img src="شعار.png" alt="شعار وُسُل" class="navbar__logo-mark" width="120" height="48" />
+        </a>
+        <p>حلول نقل متكاملة من الدرجة الأولى للشركات والموظفين والجامعات في المملكة العربية السعودية.</p>
+      </div>
+      <div class="footer__col">
+        <h4>روابط سريعة</h4>
+        <ul>
+          <li><a href="index.html#home">الرئيسية</a></li>
+          <li><a href="index.html#about">من نحن</a></li>
+          <li><a href="index.html#services">الخدمات</a></li>
+          <li><a href="index.html#pricing">الاشتراكات</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>خدماتنا</h4>
+        <ul>
+          <li><a href="index.html#services">نقل الشركات</a></li>
+          <li><a href="index.html#services">نقل الجامعات</a></li>
+          <li><a href="index.html#services">تتبع حي فوري</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>قانوني</h4>
+        <ul>
+          <li><a href="#">سياسة الخصوصية</a></li>
+          <li><a href="#">شروط الاستخدام</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p data-i18n="footer_copyright">© <span data-year></span> وُسُل. جميع الحقوق محفوظة.</p>
+    </div>
+  </footer>
+
+  <script>document.querySelectorAll('[data-year]').forEach(function(e){e.textContent=new Date().getFullYear()});</script>
+  <!-- i18n: shared translations for all pages -->
+  <script src="js/i18n.js"></script>
+  <script src="js/email-submit.js"></script>
+  <!-- form.js: validation logic -->
+  <script src="js/form.js"></script>
+  <!-- pricing.js: dynamic pricing engine -->
+  <script src="js/pricing.js"></script>
+  <!-- register.js: UI only (theme, navbar, days picker, steps, i18n) -->
+  <script src="js/register.js"></script>
+  <script>initI18n();</script>
+</body>
+</html>

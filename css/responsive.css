@@ -1,0 +1,378 @@
+/* ============================================================
+   وُسُل — Responsive Stylesheet
+   ============================================================ */
+
+/* ── Tablet: ≤ 1024px ────────────────────────────────────────── */
+@media (max-width: 1024px) {
+
+  /* Hero */
+  .hero__inner {
+    grid-template-columns: 1fr;
+    gap: 48px;
+    padding-block: 80px 60px;
+  }
+
+  .hero__content {
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero__subtitle { margin-inline: auto; }
+  .hero__cta { justify-content: center; }
+  .hero__trusted-by {
+    justify-content: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+
+  .hero__trusted-logos {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 4px;
+  }
+  .hero__visual-side { max-width: 440px; margin-inline: auto; }
+  .hero__float-badge { inset-inline-start: 0; }
+
+  /* About */
+  .about__inner {
+    grid-template-columns: 1fr;
+    gap: 48px;
+    text-align: center;
+  }
+
+  .about-graphic {
+    width: 260px;
+    height: 260px;
+  }
+
+  .about__features {
+    text-align: start;
+  }
+
+  /* Services */
+  .services__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Stats */
+  .stats__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Plans */
+  .plans-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .plans-tab {
+    padding: 12px 24px;
+    font-size: 0.95rem;
+  }
+
+  /* Contact */
+  .contact__inner {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  /* Footer */
+  .footer__inner {
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+
+  .footer__brand {
+    grid-column: 1 / -1;
+  }
+
+  .footer__trusted-logos {
+    flex-wrap: wrap;
+  }
+
+  .footer__trusted-row {
+    flex-wrap: wrap;
+  }
+}
+
+/* ── Mobile: ≤ 768px ─────────────────────────────────────────── */
+@media (max-width: 768px) {
+
+  /* Navbar */
+  .hamburger {
+    display: flex;
+  }
+
+  .navbar__links {
+    position: fixed;
+    top: var(--navbar-h);
+    inset-inline: 0;
+    background: rgba(255,255,255,0.995);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid #E3D5BE;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 16px;
+    gap: 4px;
+    transform: translateY(-120%);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 14px 34px rgba(17,17,17,0.10);
+    z-index: 999;
+  }
+
+  .navbar__links.open {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  .nav-link {
+    color: var(--text-muted) !important;
+    padding: 14px 18px;
+    border-radius: var(--radius);
+    font-size: 1rem;
+    text-align: start;
+  }
+
+  .nav-link:focus-visible {
+    outline: 2px solid var(--primary);
+    outline-offset: -2px;
+  }
+
+  .nav-link:hover,
+  .nav-link.active {
+    color: var(--primary) !important;
+    background: var(--primary-light) !important;
+  }
+
+  /* Hero */
+  .hero__inner {
+    padding-block: 60px 60px;
+  }
+
+  .hero__trust-item {
+    padding-inline: 16px;
+  }
+
+  .hero__trust-divider {
+    display: none;
+  }
+
+  .hero__trusted-logo {
+    min-width: 0;
+    width: auto;
+    justify-content: center;
+  }
+
+  .hero__trusted-logo-mark {
+    width: 210px;
+    height: 90px;
+  }
+
+  .hero__trusted-logo img {
+    height: 90px;
+    max-width: 230px;
+  }
+
+  /* Stats */
+  .stats__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .stat-card {
+    padding: 28px 16px;
+  }
+
+  .stat-card__value {
+    font-size: 1.8rem;
+  }
+
+  /* Services */
+  .services__grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Plans */
+  .plans-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .plans-tabs {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .plans-tab {
+    width: 100%;
+  }
+
+  .plans-filter {
+    width: 100%;
+    margin-bottom: 28px;
+  }
+
+  .plans-filter__btn {
+    flex: 1;
+    padding: 10px 16px;
+    font-size: 0.9rem;
+  }
+
+  .plan-card {
+    padding: 28px 22px;
+  }
+
+  .plan-card__amount {
+    font-size: 2.2rem;
+  }
+
+  /* Contact form */
+  .contact__form-wrap {
+    padding: 28px 20px;
+  }
+
+  .footer__trusted-logos img {
+    height: 70px;
+  }
+
+  .footer__trusted-row {
+    justify-content: center;
+  }
+
+  /* Footer */
+  .footer__inner {
+    grid-template-columns: 1fr;
+  }
+
+  .footer__brand {
+    grid-column: auto;
+  }
+
+  /* Section spacing */
+  .section {
+    padding-block: 64px;
+  }
+
+  .section-header {
+    margin-bottom: 40px;
+  }
+}
+
+/* ── Small Mobile: ≤ 480px ───────────────────────────────────── */
+@media (max-width: 480px) {
+
+  .container {
+    padding-inline: 1rem;
+  }
+
+  .hero__title {
+    font-size: 1.75rem;
+  }
+
+  .hero__cta {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero__cta .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .stats__grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+  }
+
+  .service-card {
+    padding: 28px 20px;
+  }
+
+  /* Calculator */
+  .pill-group {
+    gap: 10px;
+  }
+
+  .pill {
+    flex: 1 1 auto;
+    min-width: 120px;
+  }
+
+  .calc-card__price-val {
+    font-size: 1.7rem;
+  }
+
+  .contact__details li {
+    font-size: 0.88rem;
+  }
+
+  .section-title {
+    font-size: 1.6rem;
+  }
+
+  .about-graphic {
+    width: 220px;
+    height: 220px;
+  }
+
+  /* Buttons — full touch targets */
+  .btn {
+    min-height: 44px;
+  }
+}
+
+/* ── RTL Specific Adjustments ────────────────────────────────── */
+
+/* ── Reduced Motion ──────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ── Clients Section ─────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .clients-scroll {
+    mask-image: linear-gradient(to right, transparent 0%, #000 8%, #000 92%, transparent 100%);
+  }
+
+  .clients-track {
+    gap: 16px;
+  }
+
+  .client-logo {
+    width: 110px;
+    height: 56px;
+  }
+}
+
+/* ── Contact Tabs ────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .contact-tabs {
+    gap: 6px;
+  }
+
+  .contact-tab {
+    font-size: 0.82rem;
+    padding: 8px 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-tabs {
+    flex-direction: column;
+  }
+
+  .contact-tab {
+    width: 100%;
+    text-align: center;
+  }
+}
