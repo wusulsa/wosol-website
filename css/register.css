@@ -138,6 +138,7 @@
   .rsb-step { padding: 6px; }
   .rsb-counter { display: none; }
   .rsb-progress { width: 60px; }
+  .radio-card { width: calc(50% - 6px); }
 }
 
 /* ── Page Hero ───────────────────────────────────────────────── */
@@ -1533,9 +1534,20 @@ input[type="time"] {
 
   .reg-main { padding-block: 28px 60px; }
   .reg-hero { padding-bottom: 40px; }
+  .reg-hero__title { font-size: 1.3rem; }
 
-  .radio-group { flex-direction: row; }
-  .radio-card { flex: none; width: calc(33.33% - 8px); }
+  .radio-group { flex-direction: row; flex-wrap: wrap; }
+  .radio-card { flex: none; width: calc(50% - 6px); min-width: 0; }
+  .radio-card__inner { padding: 10px; }
+  .radio-card__label { font-size: 0.78rem; }
+
+  .reg-card__body { padding: 16px; }
+  .reg-card__header { padding: 14px 16px; }
+
+  .form-static-value { padding: 9px 12px; font-size: 0.85rem; }
+
+  .day-times { grid-template-columns: 1fr; }
+  .day-checkbox__label { font-size: 0.8rem; }
 }
 
 @media (max-width: 380px) {

@@ -331,6 +331,99 @@
   .btn {
     min-height: 44px;
   }
+
+  /* Calculator — collapse to single column */
+  .calculator {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  /* Featured pricing card — reset scale */
+  .pricing-card--featured {
+    transform: none;
+  }
+
+  .pricing-card--featured:hover {
+    transform: translateY(-4px);
+  }
+
+  /* Hero trusted logos — smaller */
+  .hero__float-badge {
+    inset-inline-start: 0;
+    bottom: -12px;
+  }
+
+  /* Plan cards — smaller padding & amount */
+  .plan-card {
+    padding: 24px 18px;
+  }
+
+  .plan-card__amount {
+    font-size: 1.9rem;
+  }
+
+  /* Section spacing — tighter */
+  .section {
+    padding-block: 48px;
+  }
+
+  .section-header {
+    margin-bottom: 32px;
+  }
+}
+
+/* ── Very small mobile: ≤ 400px ──────────────────────────────── */
+@media (max-width: 400px) {
+
+  .container {
+    padding-inline: 0.75rem;
+  }
+
+  .hero__title {
+    font-size: 1.5rem;
+  }
+
+  .hero__trusted-logo img {
+    height: 70px;
+    max-width: 160px;
+  }
+
+  .hero__trusted-logo-mark {
+    width: 160px;
+    height: 70px;
+  }
+
+  .plan-card__amount {
+    font-size: 1.6rem;
+  }
+
+  .reg-step {
+    min-width: 44px;
+  }
+
+  .reg-step__circle {
+    width: 30px;
+    height: 30px;
+  }
+
+  .reg-step__line {
+    min-width: 8px;
+  }
+
+  .pricing-row {
+    flex-direction: column;
+    gap: 4px;
+    padding: 10px 12px;
+  }
+
+  .pricing-row__label {
+    font-size: 0.78rem;
+  }
+
+  /* Payment — collapse two-column row */
+  .pay-row-2 {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* ── RTL Specific Adjustments ────────────────────────────────── */
