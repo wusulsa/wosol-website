@@ -71,17 +71,18 @@ const FIELD_CONFIG = {
   secondName:      { type: 'name',   required: true, min: 2 },
   thirdName:       { type: 'name',   required: true, min: 2 },
   familyName:      { type: 'name',   required: true, min: 2 },
-  gender:          { type: 'select', required: true },
+  gender:          { type: 'hidden', required: true },
   nationality:     { type: 'select', required: true },
   idNumber:        { type: 'id',     required: true },
   studentPhone:    { type: 'phone',  required: true },
   studentEmail:    { type: 'email',  required: true },
-  region:          { type: 'select', required: true },
-  city:            { type: 'text',   required: true, min: 2 },
+  region:          { type: 'hidden', required: true },
+  city:            { type: 'hidden', required: true },
   district:        { type: 'select', required: true },
   // ── Section 2: Subscription data ───────────────────────────
   universityName:  { type: 'select', required: true },
   universityGate:  { type: 'text',   required: true, min: 2 },
+  serviceType:     { type: 'hidden', required: true },
   startDate:       { type: 'date',   required: true },
 };
 
@@ -89,7 +90,7 @@ const FIELD_CONFIG = {
 const SECTIONS = {
   1: ['firstName','secondName','thirdName','familyName','gender','nationality',
       'idNumber','studentPhone','studentEmail','region','city','district'],
-  2: ['universityName','universityGate','startDate'],
+  2: ['universityName','universityGate','serviceType','startDate'],
 };
 
 /* ══════════════════════════════════════════════════════════════
@@ -157,6 +158,13 @@ function validateField(fieldId) {
   if (cfg.type === 'select') {
     if (cfg.required && !val) { showError(fieldId, MSG.requiredSelect); return false; }
     showSuccess(fieldId);
+    return true;
+  }
+
+  /* ── Hidden (auto-filled) ───────────────────────────────── */
+  if (cfg.type === 'hidden') {
+    if (cfg.required && !val) { showError(fieldId, MSG.required); return false; }
+    clearFeedback(fieldId);
     return true;
   }
 
@@ -245,7 +253,6 @@ function validateSection1() { return validateSection(1); }
 function validateSection2() {
   const fieldsOk = validateSection(2);
   const radioOk = [
-    validateRadioGroup('serviceType', 'serviceType'),
     validateRadioGroup('subscriptionType', 'subscriptionType'),
     validateRadioGroup('tripType', 'tripType'),
   ].every(Boolean);
@@ -311,9 +318,6 @@ function validateAll() {
   /* ── Radio groups ────────────────────────────────────────── */
   document.querySelectorAll('[name="subscriptionType"]').forEach(r =>
     r.addEventListener('change', () => validateRadioGroup('subscriptionType', 'subscriptionType'))
-  );
-  document.querySelectorAll('[name="serviceType"]').forEach(r =>
-    r.addEventListener('change', () => validateRadioGroup('serviceType', 'serviceType'))
   );
   document.querySelectorAll('[name="tripType"]').forEach(r =>
     r.addEventListener('change', () => validateRadioGroup('tripType', 'tripType'))
@@ -389,7 +393,7 @@ function validateAll() {
 
       // Collect form data for payment page
       const district        = document.getElementById('district')?.value || '';
-      const serviceType     = document.querySelector('[name="serviceType"]:checked')?.value || '';
+      const serviceType     = document.getElementById('serviceType')?.value || 'educational';
       const subscriptionType = document.querySelector('[name="subscriptionType"]:checked')?.value || '';
       const tripType        = document.querySelector('[name="tripType"]:checked')?.value || '';
       const startDate       = document.getElementById('startDate')?.value || '';

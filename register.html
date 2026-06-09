@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="وُسُل - تسجيل في خدمات النقل للجامعات والشركات" />
-  <title>وُسُل | التسجيل في خدمات النقل</title>
+  <title>وُسُل | تسجيل مشتركة</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -49,7 +49,7 @@
       <div class="rsb-steps" id="rsbSteps">
         <button class="rsb-step rsb-step--active" data-target="section-1" type="button">
           <div class="rsb-dot"></div>
-          <span data-i18n="reg_step_1">بيانات الطالبة</span>
+          <span data-i18n="reg_step_1">بيانات المشتركة</span>
         </button>
         <div class="rsb-line"></div>
         <button class="rsb-step" data-target="section-2" type="button">
@@ -90,7 +90,7 @@
           <div class="reg-step__circle">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="18" height="18"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
           </div>
-          <span data-i18n="reg_step_1">بيانات الطالبة</span>
+          <span data-i18n="reg_step_1">بيانات المشتركة</span>
         </div>
         <div class="reg-step__line"></div>
         <div class="reg-step" data-step="2" data-tooltip="الجامعة، نوع الاشتراك، تاريخ البداية" data-tooltip-i18n="reg_step_2_tip">
@@ -175,13 +175,8 @@
             <div class="form-grid form-grid--3">
               <div class="form-group">
                 <label for="gender">الجنس <span class="required-star">*</span></label>
-                <div class="select-wrap">
-                  <select id="gender" name="gender" required>
-                    <option value="" disabled selected>-- اختر --</option>
-                    <option value="female">أنثى</option>
-                    <option value="male">ذكر</option>
-                  </select>
-                </div>
+                  <input type="hidden" id="gender" name="gender" value="female" />
+                  <div class="form-static-value">أنثى</div>
                 <span class="field-error" id="err-gender"></span>
               </div>
               <div class="form-group">
@@ -190,7 +185,7 @@
                   <select id="nationality" name="nationality" required>
                     <option value="" disabled selected>-- اختر --</option>
                     <option value="saudi">سعودية</option>
-                    <option value="other">غير سعودية</option>
+                    <option value="resident">مقيمة</option>
                   </select>
                 </div>
                 <span class="field-error" id="err-nationality"></span>
@@ -229,29 +224,14 @@
             <div class="form-grid form-grid--3">
               <div class="form-group">
                 <label for="region">المنطقة <span class="required-star">*</span></label>
-                <div class="select-wrap">
-                  <select id="region" name="region" required>
-                    <option value="" disabled selected>-- اختر المنطقة --</option>
-                    <option value="makkah">منطقة مكة المكرمة</option>
-                    <option value="riyadh">منطقة الرياض</option>
-                    <option value="eastern">المنطقة الشرقية</option>
-                    <option value="madinah">منطقة المدينة المنورة</option>
-                    <option value="qassim">منطقة القصيم</option>
-                    <option value="asir">منطقة عسير</option>
-                    <option value="tabuk">منطقة تبوك</option>
-                    <option value="hail">منطقة حائل</option>
-                    <option value="northern">منطقة الحدود الشمالية</option>
-                    <option value="jazan">منطقة جازان</option>
-                    <option value="najran">منطقة نجران</option>
-                    <option value="bahah">منطقة الباحة</option>
-                    <option value="jawf">منطقة الجوف</option>
-                  </select>
-                </div>
+                  <input type="hidden" id="region" name="region" value="makkah" />
+                  <div class="form-static-value">منطقة مكة المكرمة</div>
                 <span class="field-error" id="err-region"></span>
               </div>
               <div class="form-group">
                 <label for="city">المدينة <span class="required-star">*</span></label>
-                <input type="text" id="city" name="city" placeholder="مثال: جدة" required />
+                  <input type="hidden" id="city" name="city" value="جدة" />
+                  <div class="form-static-value">جدة</div>
                 <span class="field-error" id="err-city"></span>
               </div>
               <div class="form-group">
@@ -293,14 +273,12 @@
           <div class="reg-card__body">
             <div class="form-grid form-grid--2">
               <div class="form-group">
-                <label for="universityName">اسم الجهة / الجامعة <span class="required-star">*</span></label>
+                <label for="universityName">اسم الجامعة <span class="required-star">*</span></label>
                 <div class="select-wrap">
                   <select id="universityName" name="universityName" required>
-                    <option value="" disabled selected>-- اختر الجهة --</option>
+                    <option value="" disabled selected>-- اختر الجامعة --</option>
                     <option value="kau">جامعة الملك عبدالعزيز</option>
                     <option value="uj">جامعة جدة</option>
-                    <option value="company">شركة / مؤسسة</option>
-                    <option value="other">أخرى</option>
                   </select>
                 </div>
                 <span class="field-error" id="err-universityName"></span>
@@ -314,22 +292,8 @@
 
             <div class="form-group">
               <label><span data-i18n="reg_service_type">نوع النقل</span> <span class="required-star">*</span></label>
-              <div class="radio-group" id="serviceType">
-                <label class="radio-card">
-                  <input type="radio" name="serviceType" value="educational" required />
-                  <div class="radio-card__inner">
-                    <span class="radio-card__icon">🚌</span>
-                    <span class="radio-card__label" data-i18n="reg_service_educational">النقل التعليمي</span>
-                  </div>
-                </label>
-                <label class="radio-card">
-                  <input type="radio" name="serviceType" value="specialized" />
-                  <div class="radio-card__inner">
-                    <span class="radio-card__icon">⭐</span>
-                    <span class="radio-card__label" data-i18n="reg_service_specialized">النقل المتخصص</span>
-                  </div>
-                </label>
-              </div>
+                <input type="hidden" id="serviceType" name="serviceType" value="educational" />
+                <div class="form-static-value">النقل التعليمي</div>
               <span class="field-error" id="err-serviceType"></span>
             </div>
 
@@ -799,22 +763,22 @@
                 <h4>شروط الاشتراك في خدمة نُقلة لنقل الطالبات</h4>
 
                 <h5>1. الالتزام بالمواعيد</h5>
-                <p>تلتزم الطالبة بالحضور إلى نقطة الالتقاء المحددة قبل موعد انطلاق السيارة بـ 5 دقائق على الأقل. لن تنتظر السيارة الطالبة المتأخرة أكثر من دقيقتين (2) من الموعد الرسمي المحدد.</p>
+                <p>تلتزم المشتركة بالحضور إلى نقطة الالتقاء المحددة قبل موعد انطلاق السيارة بـ 5 دقائق على الأقل. لن تنتظر السيارة المشتركة المتأخرة أكثر من دقيقتين (2) من الموعد الرسمي المحدد.</p>
 
                 <h5>2. الإلغاء والتعديل</h5>
                 <p>يحق للمشتركة إلغاء الاشتراك الشهري مع إشعار مسبق لا يقل عن 7 أيام قبل تاريخ التجديد. لا يُسترجع رسوم الاشتراك بعد انقضاء 3 أيام من تاريخ بداية الخدمة.</p>
 
                 <h5>3. السلوك وأدب التعامل</h5>
-                <p>تلتزم الطالبة بالسلوك اللائق داخل السيارة، واحترام السائق والراكبات الأخريات، وعدم إزعاج الآخرين. تحظر الأكل والشرب داخل السيارة إلا في حالات استثنائية.</p>
+                <p>تلتزم المشتركة بالسلوك اللائق داخل السيارة، واحترام السائق والراكبات الأخريات، وعدم إزعاج الآخرين. تحظر الأكل والشرب داخل السيارة إلا في حالات استثنائية.</p>
 
                 <h5>4. المسؤولية</h5>
-                <p>تتحمل الشركة مسؤولية نقل الطالبة بأمان من النقطة المحددة وحتى بوابة الجامعة فقط. لا تتحمل الشركة مسؤولية أي تأخير ناجم عن ظروف خارجة عن إرادتها (حوادث، حواجز أمنية، ظروف جوية طارئة).</p>
+                <p>تتحمل الشركة مسؤولية نقل المشتركة بأمان من النقطة المحددة وحتى بوابة الجامعة فقط. لا تتحمل الشركة مسؤولية أي تأخير ناجم عن ظروف خارجة عن إرادتها (حوادث، حواجز أمنية، ظروف جوية طارئة).</p>
 
                 <h5>5. الخصوصية وحماية البيانات</h5>
-                <p>تتعهد الشركة بالحفاظ على خصوصية بيانات الطالبة وولي أمرها وعدم مشاركتها مع أي طرف ثالث إلا بإذن صريح أو بموجب متطلبات قانونية. يُستخدم التتبع GPS لأغراض السلامة فقط.</p>
+                <p>تتعهد الشركة بالحفاظ على خصوصية بيانات المشتركة وولي أمرها وعدم مشاركتها مع أي طرف ثالث إلا بإذن صريح أو بموجب متطلبات قانونية. يُستخدم التتبع GPS لأغراض السلامة فقط.</p>
 
                 <h5>6. التواصل والطوارئ</h5>
-                <p>في حالات الطوارئ، يحق للشركة التواصل مع الطالبة مباشرة على الرقم المسجل في النموذج. يجب على الطالبة ضمان توافر رقم التواصل المسجل على مدار ساعات تشغيل الخدمة.</p>
+                <p>في حالات الطوارئ، يحق للشركة التواصل مع المشتركة مباشرة على الرقم المسجل في النموذج. يجب على المشتركة ضمان توافر رقم التواصل المسجل على مدار ساعات تشغيل الخدمة.</p>
               </div>
               <div class="terms-scroll-indicator" id="termsScrollIndicator">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><polyline points="6 9 12 15 18 9"/></svg>
