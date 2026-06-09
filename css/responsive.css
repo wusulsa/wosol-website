@@ -224,6 +224,10 @@
     font-size: 0.9rem;
   }
 
+  .plans-filter--secondary {
+    margin: -12px auto 28px;
+  }
+
   .plans-filter--secondary .plans-filter__btn {
     flex: 1;
     padding: 8px 14px;
@@ -241,6 +245,36 @@
   /* Contact form */
   .contact__form-wrap {
     padding: 28px 20px;
+  }
+
+  /* About — stack steps vertically tighter */
+  .steps-visual__card {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 14px;
+  }
+
+  .steps-visual__card-icon {
+    margin-bottom: 4px;
+  }
+
+  .steps-visual__tag {
+    align-self: flex-start;
+  }
+
+  .about__feature-list {
+    gap: 12px;
+  }
+
+  /* Clients — further shrink */
+  .client-logo {
+    width: 76px;
+    height: 40px;
+    padding: 6px 10px;
+  }
+
+  .clients-track {
+    gap: 10px;
   }
 
   .footer__trusted-logos img {
@@ -267,6 +301,56 @@
 
   .section-header {
     margin-bottom: 40px;
+  }
+
+  /* About — steps card adjustments */
+  .steps-visual__card {
+    padding: 16px;
+    gap: 10px;
+  }
+
+  .steps-visual__tag {
+    font-size: 0.6rem;
+    padding: 3px 8px;
+  }
+
+  .steps-visual__num {
+    width: 32px;
+    height: 32px;
+    font-size: 0.85rem;
+    margin-top: 14px;
+  }
+
+  .steps-visual__connector {
+    inset-inline-start: 15px;
+    top: 48px;
+  }
+
+  .about__feature {
+    gap: 10px;
+  }
+
+  .about__feature-icon {
+    width: 36px;
+    height: 36px;
+    font-size: 0.9rem;
+  }
+
+  .about__download {
+    align-self: center;
+  }
+
+  /* Clients — smaller pills */
+  .client-logo {
+    width: 90px;
+    height: 46px;
+    padding: 8px 14px;
+  }
+
+  .client-logo__name {
+    white-space: normal;
+    font-size: 0.7rem;
+    line-height: 1.2;
   }
 }
 
@@ -369,6 +453,44 @@
 
   .section-header {
     margin-bottom: 32px;
+  }
+
+  /* About — tighter content */
+  .about__feature {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .steps-visual__card {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 12px;
+    gap: 8px;
+  }
+
+  .steps-visual__card-content h4 {
+    font-size: 0.85rem;
+  }
+
+  .steps-visual__card-content p {
+    font-size: 0.78rem;
+  }
+
+  /* Clients — smallest pills */
+  .client-logo {
+    width: 64px;
+    height: 34px;
+    padding: 4px 8px;
+  }
+
+  /* Footer — reduce logo height */
+  .footer__trusted-logos img {
+    height: 50px;
+  }
+
+  .plans-filter--secondary {
+    margin: -8px auto 24px;
   }
 }
 

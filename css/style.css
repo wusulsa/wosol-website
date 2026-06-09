@@ -118,6 +118,10 @@ body {
   overflow-x: hidden;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body::before {
   content: '';
   display: block;
