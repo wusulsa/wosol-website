@@ -340,6 +340,15 @@
     align-self: center;
   }
 
+  .about__cities-grid {
+    gap: 8px;
+  }
+
+  .city-badge {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
+
   /* Clients — smaller pills */
   .client-logo {
     width: 90px;
@@ -491,6 +500,22 @@
 
   .plans-filter--secondary {
     margin: -8px auto 24px;
+  }
+}
+
+/* ── Mobile overflow prevention ─────────────────────────────── */
+@media (max-width: 768px) {
+  .hero__bg-shapes {
+    contain: paint;
+    overflow: hidden;
+  }
+  .clients-scroll {
+    contain: paint;
+    overflow: hidden;
+  }
+  .hero__visual-side {
+    contain: paint;
+    overflow: hidden;
   }
 }
 

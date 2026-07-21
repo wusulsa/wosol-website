@@ -10,9 +10,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
 
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/responsive.css" />
-  <link rel="stylesheet" href="css/register.css" />
+  <link rel="stylesheet" href="css/style.css?v=3" />
+  <link rel="stylesheet" href="css/responsive.css?v=3" />
+  <link rel="stylesheet" href="css/register.css?v=3" />
 
   <style>
     /* ── Payment Page ─────────────────────────────────────────── */
@@ -370,12 +370,13 @@
   </style>
 </head>
 <body>
+  <a href="#main-content" class="skip-link">الانتقال للمحتوى الرئيسي</a>
 
   <!-- ===== NAVBAR ===== -->
   <nav class="navbar scrolled" id="navbar">
     <div class="container navbar__inner">
       <a href="index.html#home" class="navbar__logo">
-        <img src="شعار.png" alt="شعار وُسُل" class="navbar__logo-mark" width="120" height="48" />
+        <img src="شعار.svg" alt="شعار وُسُل" class="navbar__logo-mark" width="120" height="48" />
       </a>
       <ul class="navbar__links" id="navLinks">
         <li><a href="index.html#home" class="nav-link" data-i18n="nav_home">الرئيسية</a></li>
@@ -388,8 +389,8 @@
       <div class="navbar__actions">
         <button class="action-btn lang-btn" id="langToggle" aria-label="Switch language">EN</button>
         <button class="action-btn theme-btn" id="themeToggle" aria-label="تبديل الوضع">
-          <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
-          <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
         </button>
         <button class="hamburger" id="hamburger" aria-label="القائمة" aria-expanded="false">
           <span></span><span></span><span></span>
@@ -401,8 +402,8 @@
   <!-- ===== PAGE HERO ===== -->
   <section class="reg-hero">
     <div class="reg-hero__shapes" aria-hidden="true">
-      <svg class="shape shape--1" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><circle cx="100" cy="100" r="100" fill="rgba(201,144,31,0.12)"/></svg>
-      <svg class="shape shape--2" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><circle cx="100" cy="100" r="100" fill="rgba(201,144,31,0.08)"/></svg>
+      <svg class="shape shape--1" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="100" cy="100" r="100" fill="rgba(201,144,31,0.12)"/></svg>
+      <svg class="shape shape--2" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="100" cy="100" r="100" fill="rgba(201,144,31,0.08)"/></svg>
     </div>
     <div class="container reg-hero__inner">
       <div class="reg-hero__icon" aria-hidden="true">💳</div>
@@ -413,35 +414,35 @@
       <div class="reg-steps" role="list">
         <div class="reg-step done" role="listitem">
           <div class="reg-step__circle">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="18" height="18"><polyline points="20 6 9 17 4 12"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="18" height="18" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
           </div>
           <span>بيانات المشتركة</span>
         </div>
         <div class="reg-step__line done"></div>
         <div class="reg-step done" role="listitem">
           <div class="reg-step__circle">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="18" height="18"><polyline points="20 6 9 17 4 12"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="18" height="18" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
           </div>
           <span>الاشتراك</span>
         </div>
         <div class="reg-step__line done"></div>
         <div class="reg-step done" role="listitem">
           <div class="reg-step__circle">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="18" height="18"><polyline points="20 6 9 17 4 12"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="18" height="18" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
           </div>
           <span>الجدول</span>
         </div>
         <div class="reg-step__line done"></div>
         <div class="reg-step done" role="listitem">
           <div class="reg-step__circle">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="18" height="18"><polyline points="20 6 9 17 4 12"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="18" height="18" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
           </div>
           <span>المراجعة</span>
         </div>
         <div class="reg-step__line done"></div>
         <div class="reg-step active" role="listitem">
           <div class="reg-step__circle">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
           </div>
           <span>الدفع</span>
         </div>
@@ -450,14 +451,14 @@
   </section>
 
   <!-- ===== MAIN ===== -->
-  <main class="pay-main">
+  <main class="pay-main" id="main-content">
     <div class="container pay-layout">
 
       <!-- ── Order Summary ─────────────────────────────────── -->
       <div class="order-summary">
         <div class="order-summary__header">
           <div class="order-summary__icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
           </div>
           <div>
             <div class="order-summary__title">ملخص الطلب</div>
@@ -499,7 +500,7 @@
           </div>
 
           <div class="order-ref">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
             طلبك محفوظ ومشفّر بالكامل
           </div>
         </div>
@@ -509,7 +510,7 @@
       <div class="pay-form-card">
         <div class="pay-form-card__header">
           <div class="pay-form-card__icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
           </div>
           <div>
             <div class="order-summary__title">بيانات الدفع</div>
@@ -599,7 +600,7 @@
           </button>
 
           <div class="pay-secure-note">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
             مشفّر بـ SSL 256-bit — بياناتك آمنة تماماً
           </div>
 
@@ -613,7 +614,7 @@
   <div class="success-overlay" id="successOverlay" hidden>
     <div class="success-modal">
       <div class="success-modal__icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
       </div>
       <h2 class="success-modal__title">تم الدفع بنجاح!</h2>
       <p class="success-modal__desc">شكراً لك! تم تأكيد اشتراكك في خدمة وُسُل. سيتواصل معك فريقنا خلال 24 ساعة لتحديد تفاصيل الرحلة.</p>
@@ -629,7 +630,7 @@
     <div class="container footer__inner">
       <div class="footer__brand">
         <a href="index.html" class="navbar__logo">
-          <img src="شعار.png" alt="شعار وُسُل" class="navbar__logo-mark" width="120" height="48" />
+          <img src="شعار.svg" alt="شعار وُسُل" class="navbar__logo-mark" width="120" height="48" />
         </a>
         <p>حلول نقل متكاملة من الدرجة الأولى للشركات والموظفين والجامعات في المملكة العربية السعودية.</p>
       </div>
@@ -801,7 +802,7 @@
     })();
   </script>
   <script>document.querySelectorAll('[data-year]').forEach(function(e){e.textContent=new Date().getFullYear()});</script>
-  <script src="js/i18n.js"></script>
+  <script src="js/i18n.js?v=3"></script>
   <script>initI18n();</script>
 
 </body>

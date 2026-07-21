@@ -108,9 +108,6 @@
 html {
   scroll-behavior: smooth;
   font-size: 16px;
-  overflow-x: hidden;
-  overflow-y: auto;
-  width: 100%;
 }
 
 body {
@@ -119,11 +116,22 @@ body {
   line-height: 1.7;
   transition: background-color var(--transition), color var(--transition);
   overflow-x: hidden;
-  width: 100%;
-  position: relative;
 }
 
-/* Gold bar moved to navbar::before for overflow safety on mobile */
+html {
+  overflow-x: hidden;
+}
+
+body::before {
+  content: '';
+  display: block;
+  height: 3px;
+  background: var(--grad-primary);
+  position: fixed;
+  top: 0;
+  inset-inline: 0;
+  z-index: 1001;
+}
 
 a {
   color: inherit;
@@ -316,16 +324,6 @@ input, textarea, select {
   transition: background var(--transition), box-shadow var(--transition), border-color var(--transition);
 }
 
-.navbar::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  inset-inline: 0;
-  height: 3px;
-  background: var(--grad-primary);
-  z-index: 1;
-}
-
 .navbar.scrolled {
   background: rgba(255,255,255,0.995);
   backdrop-filter: blur(16px);
@@ -475,11 +473,9 @@ input, textarea, select {
 }
 
 .hero__bg-shapes {
-  overflow: hidden;
   position: absolute;
   inset: 0;
   pointer-events: none;
-  contain: paint;
 }
 
 .shape {
@@ -716,7 +712,6 @@ input, textarea, select {
 
 /* ── Hero Visual Card ────────────────────────────────────────── */
 .hero__visual-side {
-  overflow: hidden;
   position: relative;
   display: flex;
   justify-content: center;
@@ -1298,54 +1293,6 @@ input, textarea, select {
   color: var(--text-muted);
 }
 
-/* Cities we serve */
-.about__cities {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  margin-top: 4px;
-}
-
-.about__cities-label {
-  font-size: 0.85rem;
-  font-weight: 700;
-  color: var(--primary);
-  letter-spacing: 0.02em;
-}
-
-.about__cities-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.city-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 8px 16px;
-  background: var(--card-bg);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-full);
-  font-size: 0.88rem;
-  font-weight: 600;
-  color: var(--text);
-  transition: all var(--transition);
-  white-space: nowrap;
-}
-
-.city-badge svg {
-  color: var(--primary);
-  flex-shrink: 0;
-}
-
-.city-badge:hover {
-  border-color: var(--primary);
-  background: var(--primary-light);
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-card);
-}
-
 /* ── Services ────────────────────────────────────────────────── */
 .services {
   background: var(--bg);
@@ -1721,6 +1668,142 @@ input, textarea, select {
   animation: pricePop 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
+
+.pricing-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 36px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  transition: all var(--transition);
+}
+
+.pricing-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.pricing-card--featured {
+  background: var(--grad-primary);
+  border-color: transparent;
+  color: #fff;
+  transform: scale(1.04);
+  box-shadow: var(--shadow-lg);
+}
+
+.pricing-card--featured:hover {
+  transform: scale(1.04) translateY(-4px);
+}
+
+.pricing-card__badge {
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--secondary);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 4px 16px;
+  border-radius: var(--radius-full);
+  white-space: nowrap;
+  letter-spacing: 0.03em;
+}
+
+.pricing-card__header {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.pricing-card__name {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.pricing-card--featured .pricing-card__name { color: #fff; }
+
+.pricing-card__desc {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.pricing-card--featured .pricing-card__desc { color: rgba(255,255,255,0.75); }
+
+.pricing-card__price {
+  display: flex;
+  align-items: baseline;
+  gap: 2px;
+  margin-top: 8px;
+}
+
+.pricing-card__price .currency {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.pricing-card__price .amount {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: -0.04em;
+}
+
+.pricing-card__price .period {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.pricing-card--featured .pricing-card__price .period { color: rgba(255,255,255,0.7); }
+
+.pricing-card__features {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.pricing-card__features li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9rem;
+}
+
+.pricing-card__features li.disabled {
+  opacity: 0.45;
+  text-decoration: line-through;
+}
+
+.check {
+  color: var(--accent);
+  font-weight: 800;
+  flex-shrink: 0;
+}
+
+.cross {
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+
+.pricing-card--featured .check { color: rgba(255,255,255,0.9); }
+
+.pricing-card--featured .btn--primary {
+  background: rgba(255,255,255,0.2);
+  border: 2px solid rgba(255,255,255,0.5);
+  box-shadow: none;
+}
+
+.pricing-card--featured .btn--primary:hover {
+  background: rgba(255,255,255,0.35);
+}
+
+.pricing-card--featured .btn--outline {
+  border-color: rgba(255,255,255,0.5);
+  color: #fff;
+}
 
 /* ── Plans (new card-based pricing) ──────────────────────────── */
 .plans-tabs {
@@ -2505,7 +2588,7 @@ input, textarea, select {
 .clients-track {
   display: flex;
   gap: 16px;
-
+  width: max-content;
   padding: 8px 0;
   animation: clientsScrollFwd 25s linear infinite;
 }
@@ -2928,6 +3011,12 @@ input, textarea, select {
 
 [data-theme="dark"] .hero__trusted-logo img {
   filter: brightness(0.95) invert(0.92);
+}
+
+/* Calc-card / pricing legacy elements gracefully degrade */
+[data-theme="dark"] .pricing-card--featured {
+  background: var(--grad-primary);
+  color: var(--navy);
 }
 
 /* Steps visual cards */

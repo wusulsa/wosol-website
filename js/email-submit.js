@@ -16,7 +16,9 @@
     const data = new FormData(form);
     data.set('_subject', subject);
     data.set('_template', 'table');
-    data.set('_captcha', 'false');
+    data.set('_captcha', 'true');
+    data.set('_honeypot', '');
+    data.append('_next', window.location.href);
 
     const namedEntries = [...data.entries()]
       .filter(([key]) => !key.startsWith('_'))
@@ -30,6 +32,13 @@
   }
 
   async function submitForm(form, subject) {
+    const now = Date.now();
+    const last = parseInt(sessionStorage.getItem('_wasul_last_submit') || '0', 10);
+    if (now - last < 30000) {
+      throw new Error('يرجى الانتظار 30 ثانية قبل إرسال طلب آخر');
+    }
+    sessionStorage.setItem('_wasul_last_submit', String(now));
+
     const response = await fetch(ENDPOINT, {
       method: 'POST',
       headers: { Accept: 'application/json' },
