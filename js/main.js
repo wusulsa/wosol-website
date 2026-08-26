@@ -32,16 +32,27 @@ const Utils = {
   }
 };
 
-const $ = Utils.query;
 const $$ = Utils.queryAll;
 
 /* ══════════════════════════════════════════════════════════════
    TRANSLATIONS & STATE
    ══════════════════════════════════════════════════════════════ */
 const i18n = WASUL_I18N;
+
+const safeStorage = {
+  get(key, fallback) {
+    try { return localStorage.getItem(key) ?? fallback; }
+    catch { return fallback; }
+  },
+  set(key, value) {
+    try { localStorage.setItem(key, value); }
+    catch { /* storage unavailable — ignore */ }
+  },
+};
+
 const state = {
-  lang:  localStorage.getItem('nova-lang')  || 'ar',
-  theme: localStorage.getItem('nova-theme') || 'light',
+  lang:  safeStorage.get('nova-lang', 'ar'),
+  theme: safeStorage.get('nova-theme', 'light'),
 };
 
 /* ══════════════════════════════════════════════════════════════
@@ -61,7 +72,7 @@ const dom = {
    ══════════════════════════════════════════════════════════════ */
 function applyTheme(theme) {
   dom.html.setAttribute('data-theme', theme);
-  localStorage.setItem('nova-theme', theme);
+  safeStorage.set('nova-theme', theme);
   state.theme = theme;
 }
 
@@ -242,11 +253,6 @@ function initScrollReveal() {
       if (!entry.isIntersecting) return;
       entry.target.classList.add('revealed');
       observer.unobserve(entry.target);
-
-      // Trigger counter if this element has a count target
-      const counter = entry.target.querySelector('[data-count]')
-        || (entry.target.hasAttribute('data-count') ? entry.target : null);
-      if (counter) animateCounter(counter);
     });
   }, { threshold: 0.15 });
 
@@ -254,48 +260,22 @@ function initScrollReveal() {
 }
 
 /* ══════════════════════════════════════════════════════════════
-   NUMBER COUNTER
-   ══════════════════════════════════════════════════════════════ */
-function animateCounter(el) {
-  const target = parseInt(el.dataset.count, 10);
-  const prefix = el.dataset.prefix || '';
-  const suffix = el.dataset.suffix || '';
-  const duration = 1400;
-  const start = performance.now();
-
-  function format(n) {
-    if (suffix === 'K') return prefix + Math.floor(n / 1000) + 'K';
-    return prefix + Math.floor(n) + suffix;
-  }
-
-  function step(now) {
-    const elapsed = now - start;
-    const progress = Math.min(elapsed / duration, 1);
-    const eased = 1 - Math.pow(1 - progress, 3);
-    el.textContent = format(target * eased);
-    if (progress < 1) requestAnimationFrame(step);
-  }
-
-  requestAnimationFrame(step);
-}
-
-/* ══════════════════════════════════════════════════════════════
    BUTTON RIPPLE
    ══════════════════════════════════════════════════════════════ */
 (function initRipple() {
-  document.querySelectorAll('.btn').forEach(btn => {
-    btn.addEventListener('click', e => {
-      const rect = btn.getBoundingClientRect();
-      const size = Math.max(rect.width, rect.height);
-      const x = e.clientX - rect.left - size / 2;
-      const y = e.clientY - rect.top  - size / 2;
+  document.addEventListener('click', e => {
+    const btn = e.target.closest('.btn');
+    if (!btn) return;
+    const rect = btn.getBoundingClientRect();
+    const size = Math.max(rect.width, rect.height);
+    const x = e.clientX - rect.left - size / 2;
+    const y = e.clientY - rect.top  - size / 2;
 
-      const wave = document.createElement('span');
-      wave.className = 'ripple-wave';
-      wave.style.cssText = `width:${size}px;height:${size}px;left:${x}px;top:${y}px`;
-      btn.appendChild(wave);
-      wave.addEventListener('animationend', () => wave.remove());
-    });
+    const wave = document.createElement('span');
+    wave.className = 'ripple-wave';
+    wave.style.cssText = `width:${size}px;height:${size}px;left:${x}px;top:${y}px`;
+    btn.appendChild(wave);
+    wave.addEventListener('animationend', () => wave.remove());
   });
 })();
 
@@ -392,7 +372,7 @@ function initForms() {
     ══════════════════════════════════════════════════════════════ */
 (function init() {
   // First-visit theme: respect system preference, default to light
-  if (!localStorage.getItem('nova-theme')) {
+  if (!safeStorage.get('nova-theme', null)) {
     state.theme = window.matchMedia?.('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
   }
 
@@ -400,9 +380,6 @@ function initForms() {
   applyTheme(state.theme);
   applyLang(state.lang);
   setNavbarScrolled();
-
-  // Initialize clients scroll (infinite)
-  initClientsScroll();
 
   // Initialize forms
   initForms();
@@ -414,24 +391,3 @@ function initForms() {
     setTimeout(initScrollReveal, 100);
   }
 })();
-
-/* ══════════════════════════════════════════════════════════════
-    CLIENTS — Infinite Scroll Setup
-    ══════════════════════════════════════════════════════════════ */
-function initClientsScroll() {
-  $$('.clients-scroll').forEach(scroll => {
-    const track = scroll.querySelector('.clients-track');
-    if (!track || track.dataset.cloned === 'true') return;
-
-    // Duplicate only logo items (not the track container itself)
-    // to keep a single horizontal strip and seamless loop.
-    const items = Array.from(track.children);
-    items.forEach(item => {
-      const clone = item.cloneNode(true);
-      clone.setAttribute('aria-hidden', 'true');
-      track.appendChild(clone);
-    });
-
-    track.dataset.cloned = 'true';
-  });
-}

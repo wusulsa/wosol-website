@@ -22,20 +22,20 @@ const dom = {
   regForm:         document.getElementById('regForm'),
   steps:           [...document.querySelectorAll('.reg-step')],
   stepLines:       [...document.querySelectorAll('.reg-step__line')],
-  dayCheckboxes:   [...document.querySelectorAll('.day-checkbox')],
 };
 
 /* ══════════════════════════════════════════════════════════════
    THEME  (synced with main site via localStorage)
    ══════════════════════════════════════════════════════════════ */
 (function initTheme() {
-  const saved = localStorage.getItem('nova-theme') || 'light';
+  let saved = 'light';
+  try { saved = localStorage.getItem('nova-theme') || 'light'; } catch { /* storage unavailable */ }
   dom.html.setAttribute('data-theme', saved);
 
   dom.themeToggle?.addEventListener('click', () => {
     const next = dom.html.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
     dom.html.setAttribute('data-theme', next);
-    localStorage.setItem('nova-theme', next);
+    try { localStorage.setItem('nova-theme', next); } catch { /* storage unavailable */ }
   });
 })();
 
@@ -80,37 +80,16 @@ const dom = {
 })();
 
 /* ══════════════════════════════════════════════════════════════
-   MIN DATE  (today onwards)
+   MIN DATE
+   أقل تاريخ لبداية الاشتراك — يجب أن يطابق القيد المضبوط في
+   نموذج زوهو، وإلا رفض زوهو السجل. عدّل القيمتين معاً.
    ══════════════════════════════════════════════════════════════ */
+const SUBSCRIPTION_OPENS = '2026-08-30';
+
 if (dom.startDate) {
-  dom.startDate.min = new Date().toISOString().split('T')[0];
+  const today = new Date().toISOString().split('T')[0];
+  dom.startDate.min = today > SUBSCRIPTION_OPENS ? today : SUBSCRIPTION_OPENS;
 }
-
-/* ══════════════════════════════════════════════════════════════
-   DAYS / TIME PICKER
-   Toggle time panel when a day checkbox is checked/unchecked.
-   ══════════════════════════════════════════════════════════════ */
-(function initDaysPicker() {
-  dom.dayCheckboxes.forEach(cb => {
-    cb.addEventListener('change', () => {
-      const day   = cb.closest('.day-row')?.dataset.day;
-      const panel = day ? document.getElementById(`times-${day}`) : null;
-      const row   = cb.closest('.day-row');
-
-      if (!panel || !row) return;
-
-      if (cb.checked) {
-        panel.removeAttribute('hidden');
-        row.classList.add('selected');
-      } else {
-        panel.setAttribute('hidden', '');
-        row.classList.remove('selected');
-        panel.querySelectorAll('input[type="time"], select')
-          .forEach(t => { t.value = ''; });
-      }
-    });
-  });
-})();
 
 /* ══════════════════════════════════════════════════════════════
    SUBSCRIPTION END-DATE HINT
@@ -129,7 +108,7 @@ if (dom.startDate) {
 
   function updateHint() {
     const dateVal  = dom.startDate?.value;
-    const typeVal  = document.querySelector('[name="subscriptionType"]:checked')?.value;
+    const typeVal  = document.getElementById('subscriptionType')?.value;
 
     if (!dateVal || !typeVal) {
       hintEl.setAttribute('hidden', '');
@@ -137,10 +116,8 @@ if (dom.startDate) {
     }
 
     let msg;
-    if (typeVal === 'term1') {
-      msg = 'ينتهي اشتراكك في نهاية الترم الأول';
-    } else if (typeVal === 'term2') {
-      msg = 'ينتهي اشتراكك في نهاية الترم الثاني';
+    if (typeVal === 'term') {
+      msg = 'ينتهي اشتراكك في نهاية الترم';
     } else {
       // Last day of the selected month
       const d     = new Date(dateVal);
@@ -154,8 +131,8 @@ if (dom.startDate) {
   }
 
   dom.startDate?.addEventListener('change', updateHint);
-  document.querySelectorAll('[name="subscriptionType"]')
-    .forEach(r => r.addEventListener('change', updateHint));
+  document.getElementById('subscriptionType')
+    ?.addEventListener('change', updateHint);
 })();
 
 /* ══════════════════════════════════════════════════════════════
@@ -189,8 +166,7 @@ function updateSteps(activeStep) {
 // Highlight current step based on scroll position
 (function initScrollSteps() {
   const sectionMap = {
-    'section-1': 1, 'section-2': 2,
-    'section-3': 3, 'section-4': 4,
+    'section-1': 1, 'section-2': 2, 'section-3': 3,
   };
 
   const observer = new IntersectionObserver(entries => {
@@ -209,27 +185,17 @@ function updateSteps(activeStep) {
 
 /* ══════════════════════════════════════════════════════════════
    PRE-FILL FROM URL PARAMS
-   Reads ?serviceType=&district=&subtype=&triptype= passed from the calculator
-   on the home page and pre-selects the matching form fields.
+   Reads ?district=&subtype=&triptype= from the link and pre-selects
+   the matching form fields.
    ══════════════════════════════════════════════════════════════ */
 (function prefillFromURL() {
   const params = new URLSearchParams(window.location.search);
 
-  const serviceType = params.get('serviceType');
   const district = params.get('district');
   const subtype  = params.get('subtype');
   const triptype = params.get('triptype');
 
-  if (!serviceType && !district && !subtype && !triptype) return;
-
-  // Pre-check service type radio
-  if (serviceType) {
-    const radio = document.querySelector(`[name="serviceType"][value="${CSS.escape(serviceType)}"]`);
-    if (radio) {
-      radio.checked = true;
-      radio.dispatchEvent(new Event('change', { bubbles: true }));
-    }
-  }
+  if (!district && !subtype && !triptype) return;
 
   // Pre-fill district select
   if (district) {
@@ -240,21 +206,21 @@ function updateSteps(activeStep) {
     }
   }
 
-  // Pre-check subscription type radio
+  // Pre-select subscription type
   if (subtype) {
-    const radio = document.querySelector(`[name="subscriptionType"][value="${CSS.escape(subtype)}"]`);
-    if (radio) {
-      radio.checked = true;
-      radio.dispatchEvent(new Event('change', { bubbles: true }));
+    const el = document.getElementById('subscriptionType');
+    if (el) {
+      el.value = subtype;
+      el.dispatchEvent(new Event('change', { bubbles: true }));
     }
   }
 
-  // Pre-check trip type radio
+  // Pre-select trip direction
   if (triptype) {
-    const radio = document.querySelector(`[name="tripType"][value="${CSS.escape(triptype)}"]`);
-    if (radio) {
-      radio.checked = true;
-      radio.dispatchEvent(new Event('change', { bubbles: true }));
+    const el = document.getElementById('tripType');
+    if (el) {
+      el.value = triptype;
+      el.dispatchEvent(new Event('change', { bubbles: true }));
     }
   }
 
@@ -274,6 +240,6 @@ function updateSteps(activeStep) {
     if (section) updateSteps(section);
   });
 
-  dom.regForm?.addEventListener('submitStart',   () => updateSteps(4));
-  dom.regForm?.addEventListener('submitSuccess', () => updateSteps(4));
+  dom.regForm?.addEventListener('submitStart',   () => updateSteps(3));
+  dom.regForm?.addEventListener('submitSuccess', () => updateSteps(3));
 })();

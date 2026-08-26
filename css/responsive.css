@@ -1,7 +1,3 @@
-/* ============================================================
-   وُسُل — Responsive Stylesheet
-   ============================================================ */
-
 /* ── Tablet: ≤ 1024px ────────────────────────────────────────── */
 @media (max-width: 1024px) {
 
@@ -19,20 +15,8 @@
 
   .hero__subtitle { margin-inline: auto; }
   .hero__cta { justify-content: center; }
-  .hero__trusted-by {
-    justify-content: center;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-  }
 
-  .hero__trusted-logos {
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: nowrap;
-    gap: 4px;
-  }
-  .hero__visual-side { max-width: 440px; margin-inline: auto; }
+.hero__visual-side { max-width: 440px; margin-inline: auto; }
   .hero__float-badge { inset-inline-start: 0; }
 
   /* About */
@@ -42,12 +26,7 @@
     text-align: center;
   }
 
-  .about-graphic {
-    width: 260px;
-    height: 260px;
-  }
-
-  .about__features {
+.about__features {
     text-align: start;
   }
 
@@ -56,23 +35,7 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  /* Stats */
-  .stats__grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  /* Plans */
-  .plans-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-  }
-
-  .plans-tab {
-    padding: 12px 24px;
-    font-size: 0.95rem;
-  }
-
-  /* Contact */
+/* Contact */
   .contact__inner {
     grid-template-columns: 1fr;
     gap: 48px;
@@ -94,8 +57,7 @@
 
   .footer__trusted-row {
     flex-wrap: wrap;
-  }
-}
+  }}
 
 /* ── Mobile: ≤ 768px ─────────────────────────────────────────── */
 @media (max-width: 768px) {
@@ -146,7 +108,7 @@
   }
 
   .nav-link:hover,
-  .nav-link.active {
+.nav-link.active {
     color: var(--primary) !important;
     background: var(--primary-light) !important;
   }
@@ -156,93 +118,12 @@
     padding-block: 60px 60px;
   }
 
-  .hero__trust-item {
-    padding-inline: 16px;
-  }
-
-  .hero__trust-divider {
-    display: none;
-  }
-
-  .hero__trusted-logo {
-    min-width: 0;
-    width: auto;
-    justify-content: center;
-  }
-
-  .hero__trusted-logo-mark {
-    width: 210px;
-    height: 90px;
-  }
-
-  .hero__trusted-logo img {
-    height: 90px;
-    max-width: 230px;
-  }
-
-  /* Stats */
-  .stats__grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .stat-card {
-    padding: 28px 16px;
-  }
-
-  .stat-card__value {
-    font-size: 1.8rem;
-  }
-
-  /* Services */
+/* Services */
   .services__grid {
     grid-template-columns: 1fr;
   }
 
-  /* Plans */
-  .plans-grid {
-    grid-template-columns: 1fr;
-    gap: 18px;
-  }
-
-  .plans-tabs {
-    flex-direction: column;
-    gap: 8px;
-  }
-
-  .plans-tab {
-    width: 100%;
-  }
-
-  .plans-filter {
-    width: 100%;
-    margin-bottom: 28px;
-  }
-
-  .plans-filter__btn {
-    flex: 1;
-    padding: 10px 16px;
-    font-size: 0.9rem;
-  }
-
-  .plans-filter--secondary {
-    margin: -12px auto 28px;
-  }
-
-  .plans-filter--secondary .plans-filter__btn {
-    flex: 1;
-    padding: 8px 14px;
-    font-size: 0.8rem;
-  }
-
-  .plan-card {
-    padding: 28px 22px;
-  }
-
-  .plan-card__amount {
-    font-size: 2.2rem;
-  }
-
-  /* Contact form */
+/* Contact form */
   .contact__form-wrap {
     padding: 28px 20px;
   }
@@ -254,30 +135,11 @@
     padding: 14px;
   }
 
-  .steps-visual__card-icon {
-    margin-bottom: 4px;
-  }
-
-  .steps-visual__tag {
+.steps-visual__tag {
     align-self: flex-start;
   }
 
-  .about__feature-list {
-    gap: 12px;
-  }
-
-  /* Clients — further shrink */
-  .client-logo {
-    width: 76px;
-    height: 40px;
-    padding: 6px 10px;
-  }
-
-  .clients-track {
-    gap: 10px;
-  }
-
-  .footer__trusted-logos img {
+.footer__trusted-logos img {
     height: 70px;
   }
 
@@ -340,27 +202,20 @@
     align-self: center;
   }
 
-  .about__cities-grid {
-    gap: 8px;
+  .route__frame {
+    min-width: 720px;
   }
 
-  .city-badge {
+  .city {
     padding: 6px 12px;
-    font-size: 0.8rem;
+  }
+
+  .city__name {
+    font-size: 0.82rem;
   }
 
   /* Clients — smaller pills */
-  .client-logo {
-    width: 90px;
-    height: 46px;
-    padding: 8px 14px;
-  }
 
-  .client-logo__name {
-    white-space: normal;
-    font-size: 0.7rem;
-    line-height: 1.2;
-  }
 }
 
 /* ── Small Mobile: ≤ 480px ───────────────────────────────────── */
@@ -384,30 +239,13 @@
     justify-content: center;
   }
 
-  .stats__grid {
-    grid-template-columns: 1fr 1fr;
-    gap: 1px;
-  }
-
-  .service-card {
+.service-card {
     padding: 28px 20px;
   }
 
   /* Calculator */
-  .pill-group {
-    gap: 10px;
-  }
 
-  .pill {
-    flex: 1 1 auto;
-    min-width: 120px;
-  }
-
-  .calc-card__price-val {
-    font-size: 1.7rem;
-  }
-
-  .contact__details li {
+.contact__details li {
     font-size: 0.88rem;
   }
 
@@ -415,47 +253,18 @@
     font-size: 1.6rem;
   }
 
-  .about-graphic {
-    width: 220px;
-    height: 220px;
-  }
-
-  /* Buttons — full touch targets */
+/* Buttons — full touch targets */
   .btn {
     min-height: 44px;
   }
 
-  /* Calculator — collapse to single column */
-  .calculator {
-    grid-template-columns: 1fr;
-    gap: 32px;
-  }
-
-  /* Featured pricing card — reset scale */
-  .pricing-card--featured {
-    transform: none;
-  }
-
-  .pricing-card--featured:hover {
-    transform: translateY(-4px);
-  }
-
-  /* Hero trusted logos — smaller */
+/* Hero trusted logos — smaller */
   .hero__float-badge {
     inset-inline-start: 0;
     bottom: -12px;
   }
 
-  /* Plan cards — smaller padding & amount */
-  .plan-card {
-    padding: 24px 18px;
-  }
-
-  .plan-card__amount {
-    font-size: 1.9rem;
-  }
-
-  /* Section spacing — tighter */
+/* Section spacing — tighter */
   .section {
     padding-block: 48px;
   }
@@ -478,46 +287,17 @@
     gap: 8px;
   }
 
-  .steps-visual__card-content h4 {
-    font-size: 0.85rem;
-  }
-
-  .steps-visual__card-content p {
-    font-size: 0.78rem;
-  }
-
-  /* Clients — smallest pills */
-  .client-logo {
-    width: 64px;
-    height: 34px;
-    padding: 4px 8px;
-  }
-
-  /* Footer — reduce logo height */
+/* Footer — reduce logo height */
   .footer__trusted-logos img {
     height: 50px;
-  }
-
-  .plans-filter--secondary {
-    margin: -8px auto 24px;
-  }
-}
+  }}
 
 /* ── Mobile overflow prevention ─────────────────────────────── */
 @media (max-width: 768px) {
   .hero__bg-shapes {
     contain: paint;
     overflow: hidden;
-  }
-  .clients-scroll {
-    contain: paint;
-    overflow: hidden;
-  }
-  .hero__visual-side {
-    contain: paint;
-    overflow: hidden;
-  }
-}
+  }}
 
 /* ── Very small mobile: ≤ 400px ──────────────────────────────── */
 @media (max-width: 400px) {
@@ -530,21 +310,7 @@
     font-size: 1.5rem;
   }
 
-  .hero__trusted-logo img {
-    height: 70px;
-    max-width: 160px;
-  }
-
-  .hero__trusted-logo-mark {
-    width: 160px;
-    height: 70px;
-  }
-
-  .plan-card__amount {
-    font-size: 1.6rem;
-  }
-
-  .reg-step {
+.reg-step {
     min-width: 44px;
   }
 
@@ -557,48 +323,18 @@
     min-width: 8px;
   }
 
-  .pricing-row {
-    flex-direction: column;
-    gap: 4px;
-    padding: 10px 12px;
+/* Payment — collapse two-column row */
   }
-
-  .pricing-row__label {
-    font-size: 0.78rem;
-  }
-
-  /* Payment — collapse two-column row */
-  .pay-row-2 {
-    grid-template-columns: 1fr;
-  }
-}
-
-/* ── RTL Specific Adjustments ────────────────────────────────── */
 
 /* ── Reduced Motion ──────────────────────────────────────────── */
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after {
+  *,
+*::before,
+*::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
-  }
-}
-
-/* ── Clients Section ─────────────────────────────────────────── */
-@media (max-width: 768px) {
-  .clients-scroll {
-    mask-image: linear-gradient(to right, transparent 0%, #000 8%, #000 92%, transparent 100%);
-  }
-
-  .clients-track {
-    gap: 16px;
-  }
-
-  .client-logo {
-    width: 110px;
-    height: 56px;
-  }
-}
+  }}
 
 /* ── Contact Tabs ────────────────────────────────────────────── */
 @media (max-width: 768px) {
@@ -609,8 +345,7 @@
   .contact-tab {
     font-size: 0.82rem;
     padding: 8px 14px;
-  }
-}
+  }}
 
 @media (max-width: 480px) {
   .contact-tabs {
@@ -620,5 +355,4 @@
   .contact-tab {
     width: 100%;
     text-align: center;
-  }
-}
+  }}

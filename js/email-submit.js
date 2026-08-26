@@ -2,7 +2,7 @@
 'use strict';
 
 (function () {
-  const RECIPIENT_EMAIL = 'o-bakhidhr@wosol.net';
+  const RECIPIENT_EMAIL = 'omar-b@wosol.net';
   const ENDPOINT = `https://formsubmit.co/ajax/${encodeURIComponent(RECIPIENT_EMAIL)}`;
 
   function readableName(name) {
