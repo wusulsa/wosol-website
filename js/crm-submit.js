@@ -20,15 +20,15 @@
      نموذج الويب في CRM يقبل الطلبات من النطاقات المسجّلة في إعداده فقط
      («عنوان URL الخاص بالموقع»). الطلب القادم من نطاق غير مسجّل — مثل
      localhost — يرد success:true لكن لا يُنشَأ له سجل، بلا أي رسالة خطأ.
-     لذا سجّل في CRM: https://www.wosol.net و https://wosol.net،
-     وأضف http://localhost:3000 مؤقتاً عند التجربة المحلية. */
+     لذا سجّل في CRM نطاقات الموقع كلها: https://wusul.sa و https://www.wusul.sa
+     (وأي نطاق آخر يُستضاف عليه الموقع). */
 
   /* الرموز المخفية — بدونها يرفض CRM أي طلب */
   const HIDDEN = {
     xnQsjsdp:   '907c178fd3e7994c9ed777b517cb15a9e6ff68ad2345e7a10218a81bbd7c4643',
     xmIwtLD:    '260e6505660ca4b9abdf9e52ab0475fa9a3151bdcad4854124fc8ec5693679599097c4be9f9ce5fd8af44f863505241f',
     actionType: 'Q3VzdG9tTW9kdWxlMTI=',
-    returnURL:  'https://www.wosol.net/',
+    returnURL:  'https://wusul.sa/',
     wFaTrisJS:  'true',
     zc_gad:     '',
     aG9uZXlwb3Q: '',            // مصيدة السبام — تبقى فارغة دائماً
