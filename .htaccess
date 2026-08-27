@@ -1,0 +1,33 @@
+# ============================================================
+#  وُسُل — إعدادات الخادم
+# ============================================================
+
+# ── تحويل كل الزوار إلى HTTPS ───────────────────────────────
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTPS} off
+  RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+</IfModule>
+
+# ── ضغط الملفات النصية لتسريع التحميل ───────────────────────
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/plain
+  AddOutputFilterByType DEFLATE application/javascript application/json
+  AddOutputFilterByType DEFLATE image/svg+xml
+</IfModule>
+
+# ── تخزين مؤقت للصور والخطوط (الملفات المتغيرة محمية برقم إصدار) ──
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/png        "access plus 1 month"
+  ExpiresByType image/svg+xml    "access plus 1 month"
+  ExpiresByType image/x-icon     "access plus 1 month"
+  ExpiresByType text/css         "access plus 7 days"
+  ExpiresByType application/javascript "access plus 7 days"
+</IfModule>
+
+# ── ترميز UTF-8 للنصوص العربية ──────────────────────────────
+AddDefaultCharset UTF-8
+
+# ── منع عرض محتويات المجلدات ────────────────────────────────
+Options -Indexes

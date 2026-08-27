@@ -3,6 +3,7 @@ deployment:
   tasks:
     # مجلد الموقع على الاستضافة — عدّله إن اختلف مسار Document Root
     - export DEPLOYPATH=/home/wosomybt/wosoltransportation.com/
+    - /bin/cp -f .htaccess $DEPLOYPATH
     - /bin/cp -f index.html $DEPLOYPATH
     - /bin/cp -f register.html $DEPLOYPATH
     - /bin/cp -f logo.png $DEPLOYPATH
