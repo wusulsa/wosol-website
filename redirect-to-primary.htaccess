@@ -1,0 +1,5 @@
+# يوضع في مجلد wosoltransportation.com — يحوّل كل الزوار للنطاق الأساسي
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^(.*)$ https://www.wosol.net/$1 [R=301,L]
+</IfModule>

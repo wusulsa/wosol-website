@@ -1,16 +1,22 @@
 ---
 deployment:
   tasks:
-    # مجلد الموقع على الاستضافة — عدّله إن اختلف مسار Document Root
-    - export DEPLOYPATH=/home/wosomybt/wosoltransportation.com/
-    - /bin/cp -f .htaccess $DEPLOYPATH
-    - /bin/cp -f googleb7902a4dfb3ee0f8.html $DEPLOYPATH
-    - /bin/cp -f robots.txt $DEPLOYPATH
-    - /bin/cp -f sitemap.xml $DEPLOYPATH
-    - /bin/cp -f index.html $DEPLOYPATH
-    - /bin/cp -f register.html $DEPLOYPATH
-    - /bin/cp -f logo.png $DEPLOYPATH
-    - /bin/cp -f icon.ico $DEPLOYPATH
-    - /bin/cp -Rf css $DEPLOYPATH
-    - /bin/cp -Rf js $DEPLOYPATH
-    - /bin/cp -Rf assets $DEPLOYPATH
+    # النطاق الأساسي: www.wosol.net  ->  /public_html
+    - export PRIMARY=/home/wosomybt/public_html/
+    # النطاق الثانوي: wosoltransportation.com  ->  يحوّل للأساسي
+    - export SECONDARY=/home/wosomybt/wosoltransportation.com/
+
+    - /bin/cp -f .htaccess $PRIMARY
+    - /bin/cp -f googleb7902a4dfb3ee0f8.html $PRIMARY
+    - /bin/cp -f robots.txt $PRIMARY
+    - /bin/cp -f sitemap.xml $PRIMARY
+    - /bin/cp -f index.html $PRIMARY
+    - /bin/cp -f register.html $PRIMARY
+    - /bin/cp -f logo.png $PRIMARY
+    - /bin/cp -f icon.ico $PRIMARY
+    - /bin/cp -Rf css $PRIMARY
+    - /bin/cp -Rf js $PRIMARY
+    - /bin/cp -Rf assets $PRIMARY
+
+    # المجلد الثانوي: ملف تحويل فقط
+    - /bin/cp -f redirect-to-primary.htaccess $SECONDARY.htaccess
