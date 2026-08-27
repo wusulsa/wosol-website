@@ -165,11 +165,15 @@ document.querySelectorAll('section[id]').forEach(sec => sectionObserver.observe(
 /* ══════════════════════════════════════════════════════════════
    ASYNC FORM HANDLER
    ══════════════════════════════════════════════════════════════ */
+/** نماذج التواصل (استفسار · شكوى · عرض سعر) تصل إلى info@wosol.net ونسخة إلى omar-b@wosol.net */
 async function sendSiteForm(form, subject) {
   if (!window.WASUL_EMAIL?.submitForm) {
     throw new Error('Email submit helper is not loaded');
   }
-  return window.WASUL_EMAIL.submitForm(form, subject);
+  return window.WASUL_EMAIL.submitForm(form, subject, {
+    to: window.WASUL_EMAIL.contactRecipient,
+    cc: window.WASUL_EMAIL.contactCc,
+  });
 }
 
 function bindAsyncForm(formId, successId, messageKey, subject) {

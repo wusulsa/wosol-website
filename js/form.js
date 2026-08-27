@@ -375,11 +375,8 @@ function validateAll() {
 
       form.dispatchEvent(new CustomEvent('submitSuccess'));
 
-      // Show the confirmation modal with the request reference
-      const refNum  = 'NQL-' + Date.now().toString().slice(-6);
-      const refEl   = document.getElementById('refNumber');
+      // Show the confirmation modal
       const overlay = document.getElementById('successOverlay');
-      if (refEl)   refEl.textContent = refNum;
       if (overlay) {
         overlay.removeAttribute('hidden');
         document.body.style.overflow = 'hidden';

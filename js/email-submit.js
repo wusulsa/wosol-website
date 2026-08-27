@@ -2,8 +2,11 @@
 'use strict';
 
 (function () {
-  const RECIPIENT_EMAIL = 'omar-b@wosol.net';
-  const ENDPOINT = `https://formsubmit.co/ajax/${encodeURIComponent(RECIPIENT_EMAIL)}`;
+  const RECIPIENT_EMAIL = 'omar-b@wosol.net';        // المستلم الافتراضي (نموذج التسجيل)
+  const CONTACT_RECIPIENT = 'info@wosol.net';        // مستلم نماذج التواصل
+  const CONTACT_CC = 'omar-b@wosol.net';             // نسخة كربونية لنماذج التواصل
+
+  const endpointFor = email => `https://formsubmit.co/ajax/${encodeURIComponent(email)}`;
 
   function readableName(name) {
     return String(name || '')
@@ -12,9 +15,10 @@
       .trim();
   }
 
-  function collectFormData(form, subject) {
+  function collectFormData(form, subject, cc) {
     const data = new FormData(form);
     data.set('_subject', subject);
+    if (cc) data.set('_cc', cc);
     data.set('_template', 'table');
     data.set('_captcha', 'true');
     data.set('_honeypot', '');
@@ -31,7 +35,12 @@
     return data;
   }
 
-  async function submitForm(form, subject) {
+  /**
+   * @param {HTMLFormElement} form
+   * @param {string} subject
+   * @param {{to?: string, cc?: string}} [options] المستلم ونسخته — الافتراضي RECIPIENT_EMAIL
+   */
+  async function submitForm(form, subject, options = {}) {
     const now = Date.now();
     const last = parseInt(sessionStorage.getItem('_wasul_last_submit') || '0', 10);
     if (now - last < 30000) {
@@ -39,10 +48,10 @@
     }
     sessionStorage.setItem('_wasul_last_submit', String(now));
 
-    const response = await fetch(ENDPOINT, {
+    const response = await fetch(endpointFor(options.to || RECIPIENT_EMAIL), {
       method: 'POST',
       headers: { Accept: 'application/json' },
-      body: collectFormData(form, subject),
+      body: collectFormData(form, subject, options.cc),
     });
 
     if (!response.ok) {
@@ -54,6 +63,8 @@
 
   window.WASUL_EMAIL = {
     recipient: RECIPIENT_EMAIL,
+    contactRecipient: CONTACT_RECIPIENT,
+    contactCc: CONTACT_CC,
     submitForm,
   };
 })();
