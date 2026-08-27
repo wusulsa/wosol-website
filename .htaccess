@@ -31,3 +31,19 @@ AddDefaultCharset UTF-8
 
 # ── منع عرض محتويات المجلدات ────────────────────────────────
 Options -Indexes
+
+# ── clean-urls: روابط احترافية بلا امتداد .html ─────────────
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # /index.html  ->  /
+  RewriteCond %{THE_REQUEST} \s/+index\.html[\s?] [NC]
+  RewriteRule ^ / [R=301,L]
+
+  # /register.html  ->  /register
+  RewriteCond %{THE_REQUEST} \s/+register\.html[\s?] [NC]
+  RewriteRule ^ /register [R=301,L]
+
+  # /register يعرض register.html داخلياً
+  RewriteRule ^register/?$ register.html [L]
+</IfModule>
