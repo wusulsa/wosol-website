@@ -24,7 +24,7 @@ const WASUL_I18N = {
     footer_copyright: '© {year} وُسُل. جميع الحقوق محفوظة.',
 
     /* ── Index ───────────────────────────────────────────── */
-    page_title: 'شركة وُسُل',
+    page_title: 'وُسُل للنقل | نقل الطالبات والموظفين في جدة',
     hero_badge: 'نقل الشركات من الدرجة الأولى',
     hero_subtitle: 'نُقدّم خدمات نقل من الدرجة الأولى للشركات والموظفين والجامعات، بأسطول حديث ومكيّف، وسائقين مرخصين ومدربين، وتتبع مباشر على مدار الساعة.',
     hero_cta_primary: 'اشترك الآن', hero_cta_secondary: 'تعرف على خدماتنا',
@@ -95,7 +95,7 @@ const WASUL_I18N = {
     quote_success: 'تم استلام طلبك! سيتواصل معك فريق المبيعات خلال 24 ساعة.',
 
     /* ── Register ─────────────────────────────────────────── */
-    page_title_register: 'وُسُل | تسجيل مشتركة',
+    page_title_register: 'تسجيل اشتراك النقل التعليمي | وُسُل للنقل',
     reg_hero_title: 'التسجيل في خدمات النقل',
     reg_hero_sub: 'أكمل البيانات التالية للاشتراك في خدمة نقل الجامعات والشركات',
     reg_step_1: 'بيانات المشتركة', reg_step_1_tip: 'الاسم، الهوية، الجوال، العنوان',
@@ -128,7 +128,7 @@ const WASUL_I18N = {
     footer_copyright: '© {year} wosol. All rights reserved.',
 
     /* ── Index ───────────────────────────────────────────── */
-    page_title: 'wosol Company',
+    page_title: 'wosol Transportation | Student & Staff Transport in Jeddah',
     hero_badge: 'First-Class Corporate Transportation',
     hero_subtitle: 'We deliver first-class transportation for companies, employees, and universities, with a modern air-conditioned fleet, licensed and trained drivers, and live tracking around the clock.',
     hero_cta_primary: 'Subscribe Now', hero_cta_secondary: 'Explore Services',
@@ -198,7 +198,7 @@ const WASUL_I18N = {
     quote_success: 'Request received! Our sales team will contact you within 24 hours.',
 
     /* ── Register ─────────────────────────────────────────── */
-    page_title_register: 'wosol | Student Registration',
+    page_title_register: 'Educational Transport Registration | wosol',
     reg_hero_title: 'Transportation Service Registration',
     reg_hero_sub: 'Complete the form below to subscribe to our university and corporate transportation service',
     reg_step_1: 'Student Info',   reg_step_1_tip: 'Name, ID, phone, address',
