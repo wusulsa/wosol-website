@@ -36,6 +36,10 @@ Options -Indexes
 <IfModule mod_rewrite.c>
   RewriteEngine On
 
+  # توحيد النطاق: wosol.net  ->  www.wosol.net
+  RewriteCond %{HTTP_HOST} ^wosol\.net$ [NC]
+  RewriteRule ^(.*)$ https://www.wosol.net/$1 [R=301,L]
+
   # /index.html  ->  /
   RewriteCond %{THE_REQUEST} \s/+index\.html[\s?] [NC]
   RewriteRule ^ / [R=301,L]
