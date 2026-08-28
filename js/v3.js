@@ -1,0 +1,5 @@
+document.querySelector('.menu')?.addEventListener('click',()=>document.querySelector('.nav-links')?.classList.toggle('open'));
+document.querySelectorAll('.nav-links a').forEach(a=>a.addEventListener('click',()=>document.querySelector('.nav-links')?.classList.remove('open')));
+document.querySelectorAll('[data-year]').forEach(e=>e.textContent=new Date().getFullYear());
+const form=document.querySelector('#quoteForm');
+form?.addEventListener('submit',async e=>{e.preventDefault();const status=document.querySelector('#quoteStatus');if(!form.checkValidity()){form.reportValidity();return}const btn=form.querySelector('button[type=submit]');btn.disabled=true;status.textContent='جارٍ إرسال طلبك…';try{if(window.WASUL_EMAIL)await window.WASUL_EMAIL.submitForm(form,'طلب عرض سعر جديد من موقع وُسُل',{to:window.WASUL_EMAIL.contactRecipient,cc:window.WASUL_EMAIL.contactCc});status.textContent='تم استلام طلبك بنجاح، وسيتواصل معك فريق وُسُل.';form.reset()}catch(err){status.textContent='تعذر الإرسال الآن. تواصل معنا على 920003790 أو عبر واتساب.'}finally{btn.disabled=false}});
