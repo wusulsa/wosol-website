@@ -50,4 +50,13 @@ Options -Indexes
 
   # /register يعرض register.html داخلياً
   RewriteRule ^register/?$ register.html [L]
+
+  # توحيد صفحة نقل الشركات القديمة مع صفحة النقل المتخصص
+  RewriteRule ^corporate-transport(?:\.html)?$ /specialized-transport [R=301,L]
+
+  # روابط صفحات الخدمات بلا امتداد
+  RewriteCond %{THE_REQUEST} \s/+(.+)\.html[\s?] [NC]
+  RewriteRule ^(.+)\.html$ /$1 [R=301,L]
+  RewriteCond %{REQUEST_FILENAME}.html -f
+  RewriteRule ^([^./]+)/?$ $1.html [L]
 </IfModule>
