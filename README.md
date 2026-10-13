@@ -34,3 +34,7 @@ Validated: all 12 pages' internal links/assets/anchors, unique IDs, one H1/canon
 After deployment, verify Apache redirects, English directory redirects, sitemap URLs and indexing in Google Search Console. Backend delivery and field performance remain separate checks. Business facts should be confirmed by the owner before publication; keyword search volumes were not measured and search ranking is not guaranteed.
 
 For the latest visual revision, static route/language/asset checks and exclusion checks passed. Automated visual verification was unavailable because the browser blocked access to the local error tab. The private preview deployment succeeded; review the rendered layout before merging. The cPanel deployment copies only approved website image directories and regulatory SVGs, excluding reference PDFs. Previously deployed files are not deleted automatically.
+
+### Image quality
+Fleet originals remain unchanged. Responsive WebP variants use deterministic Lanczos resizing and mild sharpening (Python/Pillow), up to four times the original width. This improves presentation but does not recover missing details. No generative image edits are published. The hero and logo use native embedded assets from the approved profile. Regenerate with scripts/prepare-image-variants.py before building pages.
+

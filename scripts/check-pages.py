@@ -21,6 +21,7 @@ class Page(HTMLParser):
         if tag=='h1': self.h1+=1
         if tag in ('a','link') and a.get('href'): self.links.append(a['href'])
         if tag in ('img','script') and a.get('src'): self.links.append(a['src'])
+        if tag=='img' and a.get('srcset'): self.links.extend(item.strip().split()[0] for item in a['srcset'].split(','))
         if tag=='link' and a.get('rel')=='canonical': self.canonical.append(a['href'])
         if tag=='link' and a.get('rel')=='alternate': self.alternates[a.get('hreflang')]=a['href']
     def handle_endtag(self, tag):
