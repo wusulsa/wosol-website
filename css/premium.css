@@ -9,19 +9,9 @@
 [data-theme="dark"] .brand-logo { background:#fff; border-radius:4px; }
 @keyframes brand-weave { 0%,12% { transform:rotate(0) scale(1); } 48% { transform:rotate(180deg) scale(.88); } 88%,100% { transform:rotate(360deg) scale(1); } }
 @keyframes brand-orbit { 0% { transform:rotate(0); } 50% { transform:rotate(180deg) scale(.88); } 100% { transform:rotate(360deg); } }
-.fleet-route { position:relative; height:90px; margin:0 0 22px; overflow:hidden; direction:ltr; color:var(--gold); }
-.fleet-route__line { position:absolute; inset: auto 16px 18px; border-bottom:2px dashed var(--gold); opacity:.45; }
-.fleet-route__stop { position:absolute; bottom:14px; width:10px; height:10px; border:2px solid var(--gold); border-radius:50%; background:var(--paper); }
-.fleet-route__stop--start { left:10px; }.fleet-route__stop--end { right:10px; }
-.fleet-route__vehicle { position:absolute; top:7px; left:0; width:140px; animation:bus-journey 16s ease-in-out infinite; }
-.fleet-route__vehicle svg { width:100%; display:block; }
-.fleet-route:hover .fleet-route__vehicle { animation-play-state:paused; }
-@keyframes bus-journey { 0% { left:0; opacity:0; } 5%,12% { left:0; opacity:1; } 84%,94% { left:calc(100% - 140px); opacity:1; } 100% { left:calc(100% - 140px); opacity:0; } }
-.fleet-route--paused .fleet-route__vehicle { animation-play-state:paused; }
-.route-motion-toggle { display:block; margin-inline-start:auto; margin-bottom:12px; padding:7px 12px; font:inherit; font-size:.78rem; color:var(--ink); background:var(--paper); border:1px solid var(--border); border-radius:5px; cursor:pointer; }
 .premium-site .btn--primary:hover { background:var(--gold); filter:brightness(.96); }
 @media(max-width:768px) { .brand-logo { height:49.45px; width:68px; } }
-@media(prefers-reduced-motion:reduce) { .brand-blade,.navbar__logo:hover .brand-blade,.navbar__logo:focus-visible .brand-blade,.fleet-route__vehicle { animation:none!important; } }
+@media(prefers-reduced-motion:reduce) { .brand-blade,.navbar__logo:hover .brand-blade,.navbar__logo:focus-visible .brand-blade,.brand-mini-bus { animation:none!important; } }
 .premium-site { --forest:#191f25; --forest-deep:#10151b; --gold:#f1b654; --paper:#fff; --ink:#1e242b; --soft:#68717b; --border:#e5e8eb; background:var(--paper); }
 [data-theme="dark"] .premium-site { --paper:#141a20; --ink:#f4f5f6; --soft:#b7c0c8; --border:#35404a; --card-bg:#1c242c; --bg:#141a20; --bg-alt:#202a33; }
 .premium-site .navbar { border-top:0; background:var(--paper); height:82px; border-bottom:1px solid var(--border); }
@@ -218,3 +208,23 @@
  .coverage-cities span { padding:14px 12px; gap:8px; font-size:.86rem; }
 }
 @media(prefers-reduced-motion:reduce) { .solution-card:hover { transform:none; } }
+
+/* Preserve native photo proportions: HTML height attributes must never stretch a fluid image. */
+.premium-site .fleet-photo { display:block; width:100%; height:auto; max-width:520px; max-height:none; aspect-ratio:auto; object-fit:contain; margin-inline:auto; }
+.premium-site .campus-story figure { max-width:520px; width:100%; justify-self:center; }
+.premium-site .campus-story figure::after { inset:65% 0 0; }
+.premium-site .service-hero figure { max-width:520px; width:100%; justify-self:center; }
+.premium-site .navbar__logo { display:flex; flex-direction:column; gap:0; align-items:center; }
+.brand-bus-track { display:block; width:76px; height:21px; overflow:hidden; direction:ltr; }
+.brand-mini-bus { display:block; width:54px; height:21px; max-width:none; transform:translateX(11px); animation:brand-bus-arrive 4s ease-out 1; }
+.navbar__logo:hover .brand-mini-bus { animation:brand-bus-hover 2.8s ease-in-out 1; }
+@keyframes brand-bus-arrive { from { transform:translateX(-52px); opacity:0; } 18% { opacity:1; } to { transform:translateX(11px); opacity:1; } }
+@keyframes brand-bus-hover { 0%,100% { transform:translateX(11px); } 50% { transform:translateX(20px); } }
+@media(max-width:768px) {
+ .premium-site .fleet-photo { max-width:440px; }
+ .signature-hero { padding-bottom:clamp(180px,55vw,260px); }
+ .signature-hero__art { height:clamp(180px,55vw,260px); }
+ .brand-bus-track { width:68px; height:18px; }
+ .brand-mini-bus { width:46px; height:18px; }
+}
+@media(prefers-reduced-motion:reduce) { .brand-mini-bus,.navbar__logo:hover .brand-mini-bus { animation:none!important; } }

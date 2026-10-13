@@ -36,5 +36,10 @@ After deployment, verify Apache redirects, English directory redirects, sitemap 
 For the latest visual revision, static route/language/asset checks and exclusion checks passed. Automated visual verification was unavailable because the browser blocked access to the local error tab. The private preview deployment succeeded; review the rendered layout before merging. The cPanel deployment copies only approved website image directories and regulatory SVGs, excluding reference PDFs. Previously deployed files are not deleted automatically.
 
 ### Image quality
-Fleet originals remain unchanged. Responsive WebP variants use deterministic Lanczos resizing and mild sharpening (Python/Pillow), up to four times the original width. This improves presentation but does not recover missing details. No generative image edits are published. The hero and logo use native embedded assets from the approved profile. Regenerate with scripts/prepare-image-variants.py before building pages.
+Fleet photos now use the unchanged native originals with their native width/height metadata and explicit CSS height:auto. Display widths are capped at 520px on desktop and 440px on mobile. Enlarged derivatives remain as archival assets, but are no longer used by page photo markup. No generative image edits are published. The hero and logo use native embedded assets from the approved profile.
+
+Design preference: preserve natural photo proportions, avoid oversized or stretched media, and verify actual rendered image dimensions on mobile and desktop before delivery. The decorative branded minibus belongs next to the header logo, not in an oversized standalone fleet section. Its short arrival animation respects reduced-motion preferences.
+
+
+Rendered QA for the proportion fix: narrow viewport photo 244x162.54px; desktop homepage 520x346.40px; desktop university page 505.58x336.79px. Verified in the hosted preview using browser DOM measurements. Native aspect ratios are reserved during lazy loading to avoid layout shifts. Header minibus is 46x18px on mobile and 54x21px on desktop.
 
