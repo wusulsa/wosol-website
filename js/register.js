@@ -117,13 +117,15 @@ if (dom.startDate) {
 
     let msg;
     if (typeVal === 'term') {
-      msg = 'ينتهي اشتراكك في نهاية الترم';
+      msg = document.documentElement.lang === 'en' ? 'Your subscription ends at the end of the term' : 'ينتهي اشتراكك في نهاية الترم';
     } else {
       // Last day of the selected month
       const d     = new Date(dateVal);
       const month = AR_MONTHS[d.getMonth()];
       const year  = d.getFullYear();
-      msg = `ينتهي اشتراكك في نهاية شهر ${month} ${year}`;
+      msg = document.documentElement.lang === 'en'
+        ? `Your subscription ends at the end of ${d.toLocaleDateString('en-GB', { month: 'long', year: 'numeric' })}`
+        : `ينتهي اشتراكك في نهاية شهر ${month} ${year}`;
     }
 
     hintTxt.textContent = msg;

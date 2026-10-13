@@ -14,6 +14,10 @@ deployment:
     - /bin/cp -f register.html $PRIMARY
     - /bin/cp -f student-transport-jeddah.html $PRIMARY
     - /bin/cp -f employee-transport-jeddah.html $PRIMARY
+    - /bin/cp -f king-abdulaziz-university-transport.html $PRIMARY
+    - /bin/cp -f employee-transport-riyadh.html $PRIMARY
+    - /bin/cp -f corporate-transport-saudi-arabia.html $PRIMARY
+    - /bin/cp -Rf en $PRIMARY
     - /bin/cp -f logo.png $PRIMARY
     - /bin/cp -f icon.ico $PRIMARY
     - /bin/cp -Rf css $PRIMARY

@@ -51,7 +51,7 @@ const safeStorage = {
 };
 
 const state = {
-  lang:  safeStorage.get('nova-lang', 'ar'),
+  lang:  document.documentElement.lang || 'ar',
   theme: safeStorage.get('nova-theme', 'light'),
 };
 
@@ -88,7 +88,7 @@ function applyLang(lang) {
   state.lang = lang;
 }
 
-dom.langToggle?.addEventListener('click', () => {
+document.querySelector('button#langToggle')?.addEventListener('click', () => {
   applyLang(state.lang === 'ar' ? 'en' : 'ar');
 });
 
@@ -350,6 +350,12 @@ function initScrollReveal() {
 
   const initialTab = params.get('contactTab');
   const quoteService = params.get('quoteService');
+  const quoteCity = params.get('quoteCity');
+  const cities = state.lang === 'ar'
+    ? { jeddah: 'جدة', riyadh: 'الرياض' }
+    : { jeddah: 'Jeddah', riyadh: 'Riyadh' };
+  const regionField = document.getElementById('qt-region');
+  if (regionField && cities[quoteCity]) regionField.value = cities[quoteCity];
   const activatedTab = initialTab ? activateTabByName(initialTab) : null;
 
   if (!activatedTab) {

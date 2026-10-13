@@ -119,6 +119,13 @@ function getTarget(fieldId) {
 }
 
 function showError(fieldId, message) {
+  if (document.documentElement.lang === 'en') {
+    const minimum = message.match(/^يجب ألا يقل الطول عن (\d+) أحرف$/);
+    const date = message.match(/^اختر تاريخاً من (.+) فما بعد$/);
+    message = window.WOSOL_ERROR_TRANSLATIONS?.[message]
+      || (minimum ? `Enter at least ${minimum[1]} characters` : null)
+      || (date ? `Choose a date on or after ${date[1]}` : message);
+  }
   const errEl = document.getElementById(`err-${fieldId}`);
   if (errEl) {
     errEl.textContent = message;   // ← safe: textContent, not innerHTML
@@ -340,7 +347,7 @@ function validateAll() {
 
     // Loading state
     if (submitBtn)     submitBtn.disabled = true;
-    if (submitText)    submitText.textContent = 'جارٍ الإرسال...';
+    if (submitText)    submitText.textContent = document.documentElement.lang === 'en' ? 'Submitting...' : 'جارٍ الإرسال...';
     if (submitArrow)   submitArrow.hidden = true;
     if (submitSpinner) submitSpinner.hidden = false;
 
@@ -369,7 +376,7 @@ function validateAll() {
       }
 
       if (submitBtn)     submitBtn.disabled = false;
-      if (submitText)    submitText.textContent = 'إرسال طلب التسجيل';
+      if (submitText)    submitText.textContent = document.documentElement.lang === 'en' ? 'Submit Registration' : 'إرسال طلب التسجيل';
       if (submitArrow)   submitArrow.hidden = false;
       if (submitSpinner) submitSpinner.hidden = true;
 
@@ -385,11 +392,11 @@ function validateAll() {
     } catch (error) {
       console.error(error);
       if (submitBtn)     submitBtn.disabled = false;
-      if (submitText)    submitText.textContent = 'إرسال طلب التسجيل';
+      if (submitText)    submitText.textContent = document.documentElement.lang === 'en' ? 'Submit Registration' : 'إرسال طلب التسجيل';
       if (submitArrow)   submitArrow.hidden = false;
       if (submitSpinner) submitSpinner.hidden = true;
 
-      alert('تعذر إرسال طلب التسجيل الآن. يرجى المحاولة مرة أخرى.');
+      alert(document.documentElement.lang === 'en' ? 'Could not submit your registration. Please try again.' : 'تعذر إرسال طلب التسجيل الآن. يرجى المحاولة مرة أخرى.');
     }
   });
 

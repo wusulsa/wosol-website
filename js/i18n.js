@@ -1,11 +1,4 @@
-/* ============================================================
-   وُسُل — Shared i18n  (i18n.js)
-   Single source of truth for all page translations.
-   Used by: index.html · register.html
-   ============================================================ */
 'use strict';
-
-/* eslint-disable key-spacing */
 const WASUL_I18N = {
   "ar": {
     "nav_home": "الرئيسية",
@@ -100,7 +93,7 @@ const WASUL_I18N = {
     "quote_send": "طلب عرض السعر",
     "quote_service_specialized": "النقل المتخصص",
     "quote_success": "تم استلام طلبك! سيتواصل معك فريق المبيعات خلال 24 ساعة.",
-    "page_title_register": "تسجيل اشتراك النقل التعليمي | وُسُل للنقل",
+    "page_title_register": "تسجيل نقل طالبات جامعة الملك عبدالعزيز في جدة | وُسُل",
     "reg_hero_title": "اشتراك نقل الطالبات",
     "reg_hero_sub": "أكملي بياناتك لطلب الاشتراك في النقل الجامعي. يراجع الفريق التغطية والتوافر قبل تأكيد الخدمة.",
     "reg_step_1": "بيانات المشتركة",
@@ -161,7 +154,12 @@ const WASUL_I18N = {
     "employees_h1": "ما المعلومات المطلوبة لعرض السعر؟",
     "employees_p1": "حدد اسم المنشأة، والمدينة، وعدد الموظفين، ومواقع الانطلاق والوصول، وأوقات الورديات، وعدد أيام التشغيل. أضف تاريخ البداية والاحتياجات الخاصة في الملاحظات.",
     "employees_h2": "كيف تبدأ؟",
-    "employees_p2": "أرسل نموذج عرض السعر، ثم راجع مع الفريق نطاق الخدمة والمسارات والتكلفة. يُحدد موعد التشغيل وآلية المتابعة ضمن الاتفاق قبل بدء الخدمة."
+    "employees_p2": "أرسل نموذج عرض السعر، ثم راجع مع الفريق نطاق الخدمة والمسارات والتكلفة. يُحدد موعد التشغيل وآلية المتابعة ضمن الاتفاق قبل بدء الخدمة.",
+    "page_title_home": "وُسُل | نقل طالبات جامعة الملك عبدالعزيز ونقل موظفين في جدة والرياض",
+    "page_title_king_abdulaziz_university_transport": "نقل طالبات جامعة الملك عبدالعزيز في جدة | وُسُل",
+    "page_title_employee_transport_jeddah": "نقل موظفين للشركات في جدة | عقود نقل موظفين — وُسُل",
+    "page_title_employee_transport_riyadh": "نقل موظفين للشركات في الرياض | حلول النقل المؤسسي — وُسُل",
+    "page_title_corporate_transport_saudi_arabia": "نقل الشركات والموظفين في السعودية | جدة والرياض — وُسُل"
   },
   "en": {
     "nav_home": "Home",
@@ -256,7 +254,7 @@ const WASUL_I18N = {
     "quote_send": "Request a Quote",
     "quote_service_specialized": "Specialized Transport",
     "quote_success": "Request received! Our sales team will contact you within 24 hours.",
-    "page_title_register": "Educational Transport Registration | wosol",
+    "page_title_register": "Student Transport Registration in Jeddah | WOSOL",
     "reg_hero_title": "Student transport registration",
     "reg_hero_sub": "Submit your university transport request. Our team reviews coverage and availability before confirming the service.",
     "reg_step_1": "Student Info",
@@ -317,10 +315,15 @@ const WASUL_I18N = {
     "employees_h1": "What do we need for a quote?",
     "employees_p1": "Include your company name, city, passenger count, pickup and drop-off locations, shift times and operating days. Add the proposed start date and any special requirements in the notes.",
     "employees_h2": "How to get started",
-    "employees_p2": "Submit the quote form, then review the service scope, routes and pricing with our team. The start date and follow-up process are agreed before operations begin."
+    "employees_p2": "Submit the quote form, then review the service scope, routes and pricing with our team. The start date and follow-up process are agreed before operations begin.",
+    "page_title_home": "WOSOL | KAU Student Transport & Employee Transport in Jeddah and Riyadh",
+    "page_title_king_abdulaziz_university_transport": "King Abdulaziz University Student Transport in Jeddah | WOSOL",
+    "page_title_employee_transport_jeddah": "Employee Transport in Jeddah | Corporate Shuttle Services — WOSOL",
+    "page_title_employee_transport_riyadh": "Employee Transport in Riyadh | Corporate Transportation — WOSOL",
+    "page_title_corporate_transport_saudi_arabia": "Corporate and Employee Transportation in Saudi Arabia | WOSOL"
   }
 };
-
+window.WOSOL_ERROR_TRANSLATIONS = {"الاسم الرباعي":"Full name (four names)","رقم هوية المشتركة":"Student national ID / Iqama","رقم جوال المشتركة":"Student mobile number","البريد الإلكتروني":"Email address","ولي الأمر / شخص التواصل":"Guardian / contact person","اسم ولي الأمر / شخص التواصل":"Guardian / contact full name","صلة القرابة":"Relationship","رقم هوية ولي الأمر / شخص التواصل":"Guardian / contact national ID / Iqama","رقم جوال ولي الأمر / شخص التواصل":"Guardian / contact mobile number","العنوان":"Address","الحي":"Neighbourhood","العنوان الوطني المختصر":"Short national address","رابط الموقع":"Home location link","اسم الجامعة":"University","طريقة السداد":"Payment frequency","الاتجاه":"Journey direction","تاريخ الاشتراك":"Subscription start date","يبدأ بـ 05 ويتكون من 10 أرقام":"Starts with 05 and contains 10 digits","افتح موقع السكن في تطبيق قوقل ماب، انسخ الرابط والصقه هنا":"Open your home location in Google Maps, copy the link and paste it here","مثال: سارة أحمد محمد العتيبي":"Example: Sarah Ahmed Mohammed Al Otaibi","مثال: 0536060003":"Example: 0536060003","10 أرقام":"10 digits","الاسم الثلاثي — مثال: أحمد محمد العتيبي":"Three names — example: Ahmed Mohammed Al Otaibi","اكتب عنوانك الوطني":"Enter your national address","-- اختر --":"-- Select --","-- اختر الحي --":"-- Select neighbourhood --","-- اختر الجامعة --":"-- Select university --","-- اختر طريقة السداد --":"-- Select payment frequency --","-- اختر الاتجاه --":"-- Select journey direction --","الأب":"Father","الأم":"Mother","الأخ":"Brother","الأخت":"Sister","الزوج":"Husband","الشراع":"Al Shiraa","الأمواج":"Al Amwaj","الفردوس":"Al Firdous","اللؤلؤ":"Al Lulu","الياقوت":"Al Yaqout","الصواري":"Al Sawari","الزمرد":"Al Zumurrud","الفنار":"Al Fanar","البحيرات":"Al Buhairat","حي النور":"Al Noor","الأصالة":"Al Asalah","ابحر الجنوبية":"South Obhur","ضاحية الجوهرة":"Dahiyat Al Jawharah","المنارات":"Al Manarat","جامعة الملك عبدالعزيز - السليمانية":"King Abdulaziz University - Al Sulaymaniyah","جامعة جدة - الفيصلية":"University of Jeddah - Al Faisaliyah","شهري":"Monthly","ترم":"Term","ذهاب وعودة - اتجاهين":"Return journey - both directions","ذهاب فقط - اتجاه واحد":"Outbound only - one direction","عودة فقط - اتجاه واحد":"Inbound only - one direction","الشروط والأحكام":"Terms and conditions","تمهيد":"Introduction","شروط الاشتراك":"Subscription terms","تقدم مؤسسة وُسُل النقل – WOSOL Transportation، المرخصة من الهيئة العامة للنقل برقم (9900)، خدمات النقل التعليمي ونقل منسوبي الجهات من مقر السكن إلى الوجهة المتفق عليها والعودة، وفق بيانات الاشتراك.":"WOSOL Transportation, licensed by the Transport General Authority under licence (9900), provides educational and employee transport from the residence to the agreed destination and back, according to the subscription details.","مدة العقد سنة دراسية واحدة وفق الفترة المحددة في نموذج الاشتراك.":"The contract lasts one academic year, according to the period specified in the subscription form.","تُدفع رسوم الاشتراك الشهري مقدمًا في بداية كل شهر ميلادي. وفي حال عدم السداد حتى نهاية اليوم الثالث من الشهر، يحق للطرف الأول تعليق الخدمة بعد إشعار المشتركة، وتُستأنف بعد السداد.":"Monthly subscription fees are payable in advance at the start of each Gregorian month. If payment is not received by the end of the third day, the first party may suspend the service after notifying the subscriber. Service resumes after payment.","يُحتسب الاشتراك بالشهر الميلادي كاملًا وليس بعدد الأيام، وكل شهر مستقل عن الشهر الذي يليه.":"The subscription is calculated by the full Gregorian month, rather than by the number of days. Each month is independent of the following month.","تستحق رسوم الشهر كاملة عند استخدام الخدمة ثلاثة أيام خلال الشهر، سواء كانت متتالية أم متفرقة.":"The full monthly fee becomes payable when the service is used for three days within the month, whether consecutive or separate.","عند الرغبة في عدم الاشتراك في شهر معين، يجب إبلاغ خدمة العملاء عبر وسيلة التواصل المعتمدة قبل بداية ذلك الشهر بيومين على الأقل.":"To opt out of a particular month, notify customer service through the approved communication channel at least two days before that month begins.","مدة انتظار السائق ثلاث دقائق في رحلة الذهاب وخمس عشرة دقيقة في رحلة العودة، وبعد انتهائها يحق للسائق متابعة الرحلة.":"The driver waits for three minutes on the outbound journey and fifteen minutes on the return journey. After this period, the driver may continue the journey.","تُرفع الملاحظات وطلبات تعديل الموعد أو المسار إلى خدمة العملاء، ولا يجوز إشغال السائق أثناء القيادة أو مطالبته بتغيير المسار دون موافقة الطرف الأول.":"Send feedback and schedule or route change requests to customer service. Do not distract the driver while driving or request a route change without the first party's approval.","تلتزم المشتركة بالمحافظة على المركبة وتجهيزاتها واحترام السائق والركاب وحقوق الغير، وتتحمل قيمة الأضرار التي يثبت تسببها بها عمدًا أو نتيجة إهمال.":"The subscriber must take care of the vehicle and its equipment and respect the driver, passengers and others' rights. She is liable for damage proven to have been caused intentionally or through negligence.","تُحدد رسوم كل فصل دراسي بصورة مستقلة، ويُبلّغ السعر للمشتركة قبل بداية الفصل، ولا يسري إلا بعد اطلاعها عليه وقبوله.":"Fees are set independently for each academic term. The subscriber is informed before the term begins; the price applies only after she has reviewed and accepted it.","تلتزم المشتركة بالحضور في نقطة التجمع والموعد المحددين، ولا يترتب على التأخر أو الغياب استرداد جزء من الرسوم.":"The subscriber must attend the agreed pickup point at the scheduled time. Lateness or absence does not entitle her to a partial refund.","يجوز تعديل نقطة التجمع أو الوجهة أو المواعيد بعد موافقة الطرف الأول، وقد تتغير الرسوم بحسب المسافة أو مسار التشغيل بعد إبلاغ المشتركة.":"The pickup point, destination or schedule may be changed with the first party's approval. Fees may change according to the distance or operating route after the subscriber is informed.","لا يكون الطرف الأول مسؤولًا عن التأخير أو التعطل الناتج عن الحوادث أو إغلاق الطرق أو الأحوال الجوية أو القرارات الرسمية أو الظروف الخارجة عن إرادته، مع إشعار المشتركة متى أمكن.":"The first party is not liable for delays or interruptions caused by accidents, road closures, weather, official decisions or circumstances beyond its control. The subscriber will be notified whenever possible.","تُستخدم بيانات المشتركة لأغراض تنفيذ خدمة النقل والتواصل والفوترة وفق الأنظمة المعمول بها في المملكة العربية السعودية.":"Subscriber data is used to provide transport, communication and billing in accordance with the regulations applicable in Saudi Arabia.","يُعد تحديد خيار الموافقة وإرسال النموذج إقرارًا إلكترونيًا بقراءة هذه الشروط وفهمها وقبولها.":"Selecting the agreement checkbox and submitting the form constitutes electronic acknowledgement that these terms have been read, understood and accepted.","أقر بأنني قرأت شروط وأحكام الاشتراك وفهمتها، وأوافق عليها وعلى الالتزام بما ورد فيها، وأوافق على استخدام بياناتي لتنفيذ خدمة النقل والتواصل والفوترة، ويُعد إرسال النموذج موافقة إلكترونية مني.":"I confirm that I have read and understood the subscription terms and conditions and agree to comply with them. I consent to the use of my data to provide transport, communication and billing. Submitting this form constitutes my electronic agreement.","العودة للرئيسية":"Back to home","العودة للصفحة الرئيسية":"Back to home page","للتواصل والاستفسارات:":"For enquiries:","الرقم الموحد:":"Contact number:","أرقام التواصل:":"Mobile numbers:","البريد الإلكتروني:":"Email:","جدة - الرويس - طريق المدينة المنورة النازل - المحمدية بلازا -":"Jeddah - Al Ruwais - Al Madinah Road - Al Muhammadiyah Plaza","عرض الخريطة":"View map","تأخر السائق":"Driver delay","سلوك السائق":"Driver conduct","حالة المركبة":"Vehicle condition","أخرى":"Other","-- اختر نوع الشكوى --":"-- Select complaint type --","-- اختر نوع الخدمة --":"-- Select service type --","نقل طالبات":"Student transport","نقل موظفين":"Employee transport","رحلات خاصة":"Private trips","مثال: 50":"Example: 50","مثال: جدة، الرياض":"Example: Jeddah, Riyadh","مثال: شركة وُسُل":"Example: Your company","نوع التواصل":"Contact type","الانتقال للمحتوى الرئيسي":"Skip to main content","جدة - الرويس - طريق المدينة المنورة النازل - المحمدية بلازا":"Jeddah - Al Ruwais - Al Madinah Road - Al Muhammadiyah Plaza","تأخر في الموعد":"Schedule delay","تغيير المسار":"Route change","مثال: جدة":"Example: Jeddah","أي تفاصيل إضافية تساعدنا في تقديم عرض دقيق...":"Add details that help us prepare an accurate quote...","هذا الحقل إجباري":"This field is required","الرجاء الاختيار":"Please select an option","الرجاء تحديد التاريخ":"Please select a date","يجب الموافقة على الشروط والأحكام للمتابعة":"You must agree to the terms and conditions to continue","الاسم يجب أن يحتوي على حروف فقط (بدون أرقام)":"Use letters only, without numbers","رقم غير صحيح — يبدأ بـ 05 ويتكون من 10 أرقام (مثال: 0536060003)":"Enter 10 digits starting with 05 (example: 0536060003)","اكتب الاسم الرباعي كاملاً (أربعة أسماء) بحروف فقط":"Enter your full name with at least four names, using letters only","اكتب الاسم الثلاثي كاملاً (ثلاثة أسماء) بحروف فقط":"Enter at least three names, using letters only","الرابط غير صحيح — الصق رابط الموقع من قوقل ماب (يبدأ بـ https://)":"Paste a valid Google Maps location link starting with https://","البريد الإلكتروني غير صحيح":"Enter a valid email address","الهوية يجب أن تكون 10 أرقام وتبدأ بـ 1 (سعودي) أو 2 (مقيم)":"Enter a 10-digit ID starting with 1 (Saudi national) or 2 (resident)"};
 const _YEAR_RE = /\{year\}/g;
 const _subst = (s) => s.replace(_YEAR_RE, new Date().getFullYear());
 
@@ -369,11 +372,11 @@ function applyI18n(lang) {
    Call once per page that includes this script.
 ───────────────────────────────────────────────────────────── */
 function initI18n() {
-  let saved = 'ar';
-  try { saved = localStorage.getItem('nova-lang') || 'ar'; } catch { /* storage unavailable */ }
+  let saved = document.documentElement.lang || 'ar';
+  // Locale comes from the URL and server-rendered document.
   applyI18n(saved);
 
-  document.getElementById('langToggle')?.addEventListener('click', () => {
+  document.querySelector('button#langToggle')?.addEventListener('click', () => {
     const cur = document.documentElement.getAttribute('data-lang') || 'ar';
     applyI18n(cur === 'ar' ? 'en' : 'ar');
   });
