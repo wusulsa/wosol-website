@@ -12,6 +12,8 @@ deployment:
     - /bin/cp -f sitemap.xml $PRIMARY
     - /bin/cp -f index.html $PRIMARY
     - /bin/cp -f register.html $PRIMARY
+    - /bin/cp -f student-transport-jeddah.html $PRIMARY
+    - /bin/cp -f employee-transport-jeddah.html $PRIMARY
     - /bin/cp -f logo.png $PRIMARY
     - /bin/cp -f icon.ico $PRIMARY
     - /bin/cp -Rf css $PRIMARY

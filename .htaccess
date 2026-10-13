@@ -48,6 +48,11 @@ Options -Indexes
   RewriteCond %{THE_REQUEST} \s/+register\.html[\s?] [NC]
   RewriteRule ^ /register [R=301,L]
 
+  # Service landing pages: canonical clean URLs.
+  RewriteCond %{THE_REQUEST} \s/+(student-transport-jeddah|employee-transport-jeddah)\.html[\s?] [NC]
+  RewriteRule ^(student-transport-jeddah|employee-transport-jeddah)\.html$ /$1 [R=301,L]
+  RewriteRule ^(student-transport-jeddah|employee-transport-jeddah)/?$ $1.html [L]
+
   # /register يعرض register.html داخلياً
   RewriteRule ^register/?$ register.html [L]
 </IfModule>

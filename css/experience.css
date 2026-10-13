@@ -1,0 +1,62 @@
+/* Shared presentation layer; existing forms and integration contracts are retained. */
+:root { --brand-ink: #242b29; --brand-gold: #916b12; }
+[data-theme="dark"] { --brand-ink: #f5f1e7; --brand-gold: #e6c468; }
+.hero__roads { opacity: .23; }
+.hero__content { gap: 22px; }
+.hero__title { font-size: clamp(2.1rem, 4vw, 3.7rem); line-height: 1.4; letter-spacing: -.025em; }
+.hero__title-accent, .hero__eyebrow { color: var(--brand-gold); }
+.hero__subtitle { font-size: 1.1rem; max-width: 36rem; }
+.hero__cta .btn { min-height: 50px; }
+.btn--primary { color: #242015; }
+.hero__trust { display: flex; flex-wrap: wrap; gap: 8px 20px; color: var(--text-muted); font-size: .88rem; }
+.hero__trust span::before { content: '✓'; margin-inline-end: 7px; color: var(--brand-gold); font-weight: 800; }
+.hero__card { transform: none; }
+.hero__card-live-dot { animation: none; }
+.hero__card-stat strong { color: var(--brand-gold); }
+.journeys { padding-block: 72px; background: var(--bg-alt); }
+.journeys__heading { display: flex; justify-content: space-between; align-items: end; gap: 24px; margin-bottom: 32px; }
+.journeys__heading .section-title { margin-bottom: 0; }
+.journeys__heading p { max-width: 32rem; color: var(--text-muted); line-height: 1.9; }
+.journeys__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.journey { padding: 36px; background: var(--card-bg); border: 1px solid var(--border); border-radius: 20px; position: relative; }
+.journey__number { display: block; color: var(--brand-gold); font-family: Inter, sans-serif; font-weight: 700; font-size: .85rem; margin-bottom: 20px; }
+.journey h3 { font-size: 1.65rem; margin-bottom: 12px; color: var(--brand-ink); }
+.journey p { color: var(--text-muted); line-height: 1.9; margin-bottom: 24px; }
+.text-link { color: var(--brand-gold); font-weight: 700; text-decoration: underline; text-underline-offset: 6px; }
+.text-link:focus-visible, summary:focus-visible { outline: 3px solid var(--brand-gold); outline-offset: 5px; }
+.faq { max-width: 880px; margin-inline: auto; }
+.faq details { border-bottom: 1px solid var(--border); padding-block: 20px; }
+.faq summary { cursor: pointer; font-weight: 700; color: var(--text); line-height: 1.7; }
+.faq details p { color: var(--text-muted); line-height: 1.95; padding-top: 14px; }
+.service-hero { padding-block: calc(var(--navbar-h) + 64px) 64px; background: var(--bg-alt); }
+.service-hero h1 { max-width: 850px; font-size: clamp(2rem, 5vw, 3.5rem); line-height: 1.4; margin-block: 20px; color: var(--brand-ink); }
+.service-hero .section-desc { max-width: 700px; margin-bottom: 28px; }
+.service-hero .hero__cta { margin-top: 26px; }
+.service-body { max-width: 900px; }
+.service-body h2 { margin-block: 40px 16px; font-size: 1.8rem; }
+.service-body p, .service-body li { line-height: 2; color: var(--text-muted); }
+.service-body ul, .service-body ol { padding-inline-start: 24px; list-style: revert; }
+.service-body li { margin-block: 8px; }
+.service-note { margin-block: 28px; padding: 24px; border-inline-start: 4px solid var(--brand-gold); background: var(--bg-alt); border-radius: 8px; }
+.reg-audience-note { max-width: 760px; margin: 20px auto 0; text-align: center; padding-inline: 20px; color: var(--text-muted); }
+.about__feature h3 { font-size: 1rem; font-weight: 700; margin-bottom: 4px; color: var(--text); }
+@media (max-width: 768px) {
+  .hero__inner { padding-block: 42px 50px; gap: 38px; }
+  .hero__content { gap: 18px; }
+  .hero__title { font-size: clamp(1.85rem, 6.4vw, 2.65rem); }
+  .hero__subtitle { font-size: 1rem; line-height: 1.85; }
+  .hero__cta { width: 100%; }
+  .hero__cta .btn { flex: 0 1 auto; width: 100%; justify-content: center; }
+  .hero__trust { justify-content: center; font-size: .82rem; }
+  .journeys { padding-block: 48px; }
+  .journeys__heading { display: block; }
+  .journeys__heading p { margin-top: 16px; }
+  .journeys__grid { grid-template-columns: 1fr; }
+  .journey { padding: 26px; }
+  .service-hero { padding-block: calc(var(--navbar-h) + 40px) 40px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto !important; }
+  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+  [data-reveal] { opacity: 1 !important; transform: none !important; }
+}
