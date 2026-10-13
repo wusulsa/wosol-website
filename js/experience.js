@@ -1,5 +1,11 @@
 'use strict';
 (() => {
+  const motionToggle = document.querySelector('.route-motion-toggle');
+  motionToggle?.addEventListener('click', () => {
+    const paused = document.querySelector('.fleet-route').classList.toggle('fleet-route--paused');
+    motionToggle.setAttribute('aria-pressed', String(paused));
+    motionToggle.textContent = paused ? motionToggle.dataset.resume : motionToggle.dataset.pause;
+  });
   const selector = document.getElementById('journey-choice');
   const target = document.querySelector('.journey-finder__link');
   selector?.addEventListener('change', () => {
