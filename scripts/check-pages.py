@@ -40,6 +40,9 @@ def resolve(url,current):
     elif not target.suffix: target=target.with_suffix('.html')
     return target,u
 for file,p in pages.items():
+    source=file.read_text(encoding='utf-8')
+    if re.search(r'120\+|client-\d|Organizational Structure|الهيكل الإداري|عدد المركبات|9900',source): errors.append(f'{file}: excluded content or old licence found')
+    if re.search(r'href="[^\"]*\.pdf',source): errors.append(f'{file}: full profile download is excluded')
     if len(p.ids)!=len(set(p.ids)):errors.append(f'{file.name}: duplicate ID')
     if p.h1!=1 or len(p.canonical)!=1:errors.append(f'{file}: H1/canonical count')
     if set(p.alternates)!={'ar','en','x-default'}:errors.append(f'{file}: hreflang missing')

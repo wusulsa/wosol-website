@@ -22,7 +22,11 @@ deployment:
     - /bin/cp -f icon.ico $PRIMARY
     - /bin/cp -Rf css $PRIMARY
     - /bin/cp -Rf js $PRIMARY
-    - /bin/cp -Rf assets $PRIMARY
+    # Deploy only public website assets; reference PDFs are intentionally excluded.
+    - /bin/mkdir -p $PRIMARY/assets
+    - /bin/cp -Rf assets/fleet $PRIMARY/assets/
+    - /bin/cp -Rf assets/profile-2026 $PRIMARY/assets/
+    - /bin/cp -f assets/TGA.svg assets/SBC.svg $PRIMARY/assets/
 
     # المجلد الثانوي: ملف تحويل فقط
     - /bin/cp -f redirect-to-primary.htaccess $SECONDARY.htaccess
