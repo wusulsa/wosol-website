@@ -295,3 +295,10 @@
  .premium-site .contact { padding-block:46px; }
  .premium-site .btn { white-space:normal; text-align:center; }
 }
+
+/* One accessible WhatsApp target for both the icon and phone number. */
+.premium-site .footer .footer__whatsapp { display:inline-flex; align-items:center; gap:10px; min-height:44px; width:fit-content; padding:4px 8px; margin-inline:-8px; border-radius:8px; text-decoration:none; }
+.premium-site .footer__whatsapp svg { width:24px; height:24px; flex:0 0 24px; color:#25d366; }
+.premium-site .footer .footer__whatsapp:hover { background:rgba(37,211,102,.10); color:#fff; }
+.premium-site .footer__whatsapp:hover span { text-decoration:underline; text-underline-offset:4px; }
+.premium-site .footer__whatsapp:focus-visible { outline:2px solid #F1B654; outline-offset:4px; }
