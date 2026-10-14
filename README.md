@@ -1,5 +1,12 @@
 # WOSOL website
 
+## Website audit and next improvements
+
+- [Full Arabic technical, SEO and customer-journey audit — 14 October 2026](docs/audits/2026-10-14-website-seo-audit-ar.md)
+- [Prioritized implementation checklist](docs/audits/2026-10-14-implementation-checklist-ar.md)
+
+These documents record findings and proposed work; uploading them does not mean the recommendations have been implemented.
+
 Static Arabic/English website hosted on Apache/cPanel. Existing contact and registration integrations are retained.
 
 ## Pages

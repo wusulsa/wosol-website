@@ -1,5 +1,9 @@
 # WOSOL continuation — 2026-10-14
 
+## Audit handoff — documentation only
+
+The owner requested the complete audit be uploaded for later improvements. Read the [full Arabic audit](docs/audits/2026-10-14-website-seo-audit-ar.md) and its [prioritized checklist](docs/audits/2026-10-14-implementation-checklist-ar.md). The audited application commit is `f96c3db`. Recommendations are pending; this documentation upload does not implement them or deploy production. Continue tracking evidence and completed work in the checklist.
+
 The owner approved the latest moving cartoon Coaster and requested that the current work be saved to GitHub for small changes in a later session.
 
 - Repository: https://github.com/wusulsa/wosol-website
