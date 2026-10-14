@@ -43,3 +43,6 @@ Added bilingual categories: small vehicles 4–7 passengers (white Yaris and RAV
 
 ## Vehicle branding — 2026-10-14
 Small-vehicle category now displays 4 - 5 - 7 passengers as requested (category options, not per-model claims). Large buses are selected by default in Arabic and English. scripts/brand-assets.cjs builds SVG compositions with original photos and wordmark; all logo gold maps to #F1B654, black remains #111111. Native logo preserved. Header, footer and car doors use the same branding.
+
+## Staria and service audience — 2026-10-14
+Small-vehicle capacities use commas (4, 5, 7), small buses 9, 11. Added white Hyundai Staria with WOSOL door branding alongside Hiace; source documented in assets/fleet/cars/SOURCES.md. Expanded company service copy to institutions and authorities in Arabic and English, including forms, metadata and navigation. Preview source 292cd83e64a86d010561253363053f2c879f7922; deployment appgdep_6acfcd8bab308191aef35a59459ed642 succeeded. Checked 12 pages and desktop/mobile layout; large buses remain default.
