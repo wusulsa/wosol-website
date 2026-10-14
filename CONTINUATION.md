@@ -1,28 +1,33 @@
 # WOSOL continuation — 2026-10-15
 
-## Selected audit implementation — current handoff
-
-Latest published preview source: `c73ce291828b666215f707e136c6332d0091f330`; successful deployment: `appgdep_6acff51b536c8191b725c73a21026946`, version 23. Footer and service cards now show two WhatsApp links, ordered 0536060003 then 0501844991 (international format in English), each with its own icon. Service cards also include the WhatsApp icon and approved number below the unified phone, in both languages; mobile and desktop layout verified. Footer WhatsApp now displays a green SVG icon and the approved number as a single accessible 44px-minimum link (local Arabic / international English), opening wa.me in a new tab. Verified at 390px and 1365px in both languages. Footer and service sidebar use unified phone 920003790; primary WhatsApp links use 966536060003 (local 0536060003); the additional footer/service-card link uses 966501844991 (local 0501844991), in Arabic and English. Other listed mobile contact numbers remain available. Validation: all 12 pages passed the page checker. Windows publication requires Git Bash on the process PATH and `TAR_OPTIONS=--force-local`; use a forward-slash absolute Windows archive path with the standard Sites helper. Preserve this compatibility setup.
-
-Read [the implementation status](docs/audits/2026-10-14-selected-improvements-ar.md) before continuing. The owner selected H02, English journey improvements, all medium priorities, Google preparation and low priorities. H03/H04/H05/H06 and production launch remain deferred. Quote contact fields and validation, shorter copy, international contact, operating scope, contrast, WebP car exports, local WOFF2 fonts, schema, social cards, seasonal FAQs and motion controls are implemented. Google account access, verified GA4 ID, real delivery tests, original safety photos/certificates, Ads budget and live launch remain pending. Never mark these completed merely because code is ready. Preview stays public, noindex and form-disabled.
-
-## Audit handoff — documentation only
-
-The owner requested the complete audit be uploaded for later improvements. Read the [full Arabic audit](docs/audits/2026-10-14-website-seo-audit-ar.md) and its [prioritized checklist](docs/audits/2026-10-14-implementation-checklist-ar.md). The audited application commit is `f96c3db`. Recommendations are pending; this documentation upload does not implement them or deploy production. Continue tracking evidence and completed work in the checklist.
-
-The owner approved the latest moving cartoon Coaster and requested that the current work be saved to GitHub for small changes in a later session.
+## Current handoff — documentation reconciled
 
 - Repository: https://github.com/wusulsa/wosol-website
 - Working branch: improve/website-experience-seo
 - Existing review: https://github.com/wusulsa/wosol-website/pull/1
-- Latest application commit at handoff: f4ff4f8935f55e6d36b80f71776987a401657b82
+- Latest application commit: e3849c3 (later documentation commits do not change the deployed application).
 - Public preview: https://wosol-professional-preview.a-m-alyamani.chatgpt.site/
 - Sites project: appgprj_6ace8b3f40f0819189022d43092e6041
-- Deployed preview source commit: 4d6ae40e0ee24b4c5a81fff0dfbce962b730d4a6
-- Latest successful deployment: appgdep_6acead043a408191b2c3ef51d4a482b9
+- Published preview: version 23.
+- Deployed source: c73ce291828b666215f707e136c6332d0091f330
+- Successful deployment: appgdep_6acff51b536c8191b725c73a21026946
 - Local application checkout: ../wosol-website
 - Separate Sites checkout: ../wosol-preview
-- Preview preparation script: ../prepare-wosol-preview.cjs
+- Preview preparation: ../prepare-wosol-preview.cjs
+
+Read [the current checklist](docs/audits/2026-10-14-implementation-checklist-ar.md) and [execution evidence](docs/audits/2026-10-14-selected-improvements-ar.md). The original audit remains a historical baseline at f96c3db, not a list of entirely unresolved defects.
+
+## Completed and pending
+
+Implemented: quote contact fields and client validation, shorter copy, bilingual operating scope, contrast, homepage hierarchy, WebP car exports, local fonts, Schema, share images, seasonal FAQs, motion controls and contact refinements. Footer and service cards show unified phone 920003790 followed by WhatsApp 0536060003 then 0501844991, each with an icon and a single clickable target. English uses international formatting. Other listed mobile contacts remain available.
+
+Partial: H02 real delivery validation; M04 approved operational timings; M05/L02 original safety photos and publishable certificates; H07/G03 actual analytics activation and CRM attribution; G04 production performance checks. Deferred: H01 official launch, H03 student confirmation, H04 registration simplification, H05 privacy/data-flow review, H06 direct CRM request integration. Google access and verified GA4 ID, branch details/hours, Ads budget and approval remain pending. Do not treat code readiness as activation or delivery proof.
+
+Validation evidence: 12-page checks passed after application changes. Contact layouts, ordering, hrefs and 44px touch targets checked in Arabic/English at 390px and 1365px; no actual WhatsApp messages sent. Last PageSpeed run is version 19: Performance 90, Accessibility 100, Best Practices 100; no fresh run for versions 20–23. Historical browser JSON belongs to the main audit batch. Current documentation-only update does not rerun those tests or publish a new site version.
+
+## Publication compatibility
+
+Windows source helper requires Git Bash on process PATH and TAR_OPTIONS=--force-local, plus a forward-slash absolute archive path. Open the existing Sites source before edits; package/push exact source and publish through native Sites tools. Credentials stay in memory/stdin. Preserve public audience, noindex and disabled forms. Main and wosol.net remain unchanged.
 
 ## Approved state and constraints
 
@@ -48,17 +53,21 @@ The owner approved the latest moving cartoon Coaster and requested that the curr
 - Last browser check confirmed the approved bus asset loaded at 96x34 CSS pixels, header-bus-cross animation, and working pause/resume.
 - Continue from this branch and existing preview; do not create another site.
 
-## Fleet categories — 2026-10-14
+## Historical implementation log — superseded details remain historical
+
+The sections below record earlier revisions. Use the current handoff above for deployed IDs and the final contact configuration. Later dated changes supersede earlier capacity labels and assets.
+
+### Fleet categories — 2026-10-14
 Added bilingual categories: small vehicles 4–7 passengers (white Yaris and RAV4 model images), small buses 11, mid-size buses 21, large buses 51. Sources: assets/fleet/cars/SOURCES.md. Shared template: scripts/fleet-experience.cjs. Public preview source: 98bd0a4711e90db554cb62975e7af21e4031b838; deployment appgdep_6acfc78058a48191910dcced17e2e10e succeeded. All 12 pages passed validation; live Arabic/English categories, four tabs, image loading and mobile overflow checked. User plans further additions.
 
-## Vehicle branding — 2026-10-14
+### Vehicle branding — 2026-10-14
 Small-vehicle category now displays 4 - 5 - 7 passengers as requested (category options, not per-model claims). Large buses are selected by default in Arabic and English. scripts/brand-assets.cjs builds SVG compositions with original photos and wordmark; all logo gold maps to #F1B654, black remains #111111. Native logo preserved. Header, footer and car doors use the same branding.
 
-## Staria and service audience — 2026-10-14
+### Staria and service audience — 2026-10-14
 Small-vehicle capacities use commas (4, 5, 7), small buses 9, 11. Added white Hyundai Staria with WOSOL door branding alongside Hiace; source documented in assets/fleet/cars/SOURCES.md. Expanded company service copy to institutions and authorities in Arabic and English, including forms, metadata and navigation. Preview source 292cd83e64a86d010561253363053f2c879f7922; deployment appgdep_6acfcd8bab308191aef35a59459ed642 succeeded. Checked 12 pages and desktop/mobile layout; large buses remain default.
 
-## Centred door logos — 2026-10-14
+### Centred door logos — 2026-10-14
 Enlarged Yaris/RAV4 door logos about 44% and Staria 40%, retaining front-door centres. Removed visible model captions from all four cards in both languages; Hiace photo unchanged. Cards vertically centre images. Preview source 7cdae012aaee254b69479e882d826f250991b4c5, deployment appgdep_6acfcf2aba4c8191b9af200676a0e44e succeeded.
 
-## Coverage and copy audit — 2026-10-14
+### Coverage and copy audit — 2026-10-14
 Added Al Khobar, Buraydah, Rabigh, Al Qassim, Bisha and Umluj. Single-source content/coverage.json drives the 14-entry count and regional service descriptions in both languages. Label is destinations and service areas, not 14 independent cities: Al Qassim includes Buraydah and NEOM is a project. Fixed missed Arabic للشركات variants in footer, service titles, metadata and translation dictionary; expanded to institutions and authorities without duplicates. Audited all generated pages, six added names, counter and large-bus default. Public preview banner corrected in workspace prepare-wosol-preview.cjs; forms remain disabled. Source 49684f14a1b57843da1831c890057ca3c3461eb0; deployment appgdep_6acfd15e4adc8191aa7ccaa43943813c succeeded.
