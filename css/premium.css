@@ -302,3 +302,11 @@
 .premium-site .footer .footer__whatsapp:hover { background:rgba(37,211,102,.10); color:#fff; }
 .premium-site .footer__whatsapp:hover span { text-decoration:underline; text-underline-offset:4px; }
 .premium-site .footer__whatsapp:focus-visible { outline:2px solid #F1B654; outline-offset:4px; }
+
+/* Service card WhatsApp: icon and number share one touch target. */
+.premium-site .service-aside .service-whatsapp { display:flex; align-items:center; gap:10px; width:fit-content; min-height:44px; margin-top:8px; padding:4px 8px; margin-inline:-8px; border-radius:8px; color:var(--ink); font-weight:700; text-decoration:none; }
+.premium-site .service-whatsapp svg { width:24px; height:24px; flex:0 0 24px; color:#128c4a; }
+[data-theme="dark"] .premium-site .service-whatsapp svg { color:#25d366; }
+.premium-site .service-whatsapp:hover { background:rgba(37,211,102,.10); }
+.premium-site .service-whatsapp:hover span { text-decoration:underline; text-underline-offset:4px; }
+.premium-site .service-whatsapp:focus-visible { outline:2px solid #F1B654; outline-offset:4px; }
