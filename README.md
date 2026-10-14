@@ -4,8 +4,9 @@
 
 - [Full Arabic technical, SEO and customer-journey audit — 14 October 2026](docs/audits/2026-10-14-website-seo-audit-ar.md)
 - [Prioritized implementation checklist](docs/audits/2026-10-14-implementation-checklist-ar.md)
+- [Selected improvements: completed work, deferred work and external dependencies](docs/audits/2026-10-14-selected-improvements-ar.md)
 
-These documents record findings and proposed work; uploading them does not mean the recommendations have been implemented.
+The original audit preserves the initial findings. The selected-improvements record is the current source for implementation status; some items remain deferred or depend on account access and production launch.
 
 Static Arabic/English website hosted on Apache/cPanel. Existing contact and registration integrations are retained.
 
@@ -32,6 +33,8 @@ Run `node scripts/build-pages.cjs` after editing shared content. The script gene
 
 Run `python scripts/check-pages.py` for route, asset, language and metadata checks. It uses only the Python standard library.
 
+Audit regression checks: `node --test scripts/check-measurement.cjs` uses Node's standard library. `node scripts/check-audit.cjs` requires Playwright, Chrome and the local static server at port 8765; `WOSOL_PLAYWRIGHT_MODULE` can point to a bundled Playwright installation. It intercepts all email submissions and sends no real customer data. `scripts/optimize-audit-assets.cjs` requires Sharp (`WOSOL_SHARP_MODULE` may supply its path). These tools preserve source photographs and branding.
+
 ## Deployment and validation
 
 Review the pull request before deploying through the existing cPanel process. `.cpanel.yml` copies the new pages; `.htaccess` provides clean URLs. A local static server must map these URLs to their corresponding HTML files.
@@ -40,7 +43,7 @@ Validated: all 12 pages' internal links/assets/anchors, unique IDs, one H1/canon
 
 After deployment, verify Apache redirects, English directory redirects, sitemap URLs and indexing in Google Search Console. Backend delivery and field performance remain separate checks. Business facts should be confirmed by the owner before publication; keyword search volumes were not measured and search ranking is not guaranteed.
 
-For the latest visual revision, static route/language/asset checks and exclusion checks passed. Automated visual verification was unavailable because the browser blocked access to the local error tab. The private preview deployment succeeded; review the rendered layout before merging. The cPanel deployment copies only approved website image directories and regulatory SVGs, excluding reference PDFs. Previously deployed files are not deleted automatically.
+For the selected audit revision, all 12 static pages passed route/language/asset and exclusion checks. Local browser checks covered Arabic/English at mobile and desktop widths, mocked form acceptance and rejection, motion and large-bus default selection. The public preview disables submissions and indexing; production is unchanged. The cPanel deployment copies only approved website image directories and regulatory SVGs, excluding reference PDFs. Previously deployed files are not deleted automatically.
 
 ### Image quality
 At the explicit request of the owner, fleet photos now use the previously AI-enhanced presentation images in assets/fleet/showcase, with responsive WebP variants, native aspect metadata and CSS height:auto. Display widths remain capped at 520px on desktop and 440px on mobile. Arabic/English captions identify AI enhancement and possible differences in fine details. Original reference photos remain unchanged. The hero and logo use native embedded assets from the approved profile.

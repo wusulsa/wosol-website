@@ -65,7 +65,7 @@
     "service_6_desc": "فريق خدمة عملاء متاح 24/7 للرد على استفسارات الشركات والمؤسسات والهيئات والجامعات وحل أي طارئ فوراً.",
     "contact_badge": "تواصل معنا",
     "contact_title": "نحن هنا لخدمتك",
-    "contact_subtitle": "هل تريد الاستفسار عن خدمات نقل الشركات والمؤسسات والهيئات أو الجامعات؟ تواصل معنا وسيرد فريقنا خلال ساعات.",
+    "contact_subtitle": "استفسر عن النقل الجامعي أو نقل الشركات والمؤسسات والهيئات. نراجع تفاصيل طلبك للتواصل معك.",
     "contact_tab_inquiry": "استفسار",
     "contact_tab_complaint": "شكوى",
     "contact_tab_quote": "عرض سعر",
@@ -88,7 +88,7 @@
     "quote_service": "نوع الخدمة المطلوبة",
     "quote_count": "العدد المتوقع للأشخاص",
     "quote_region": "المنطقة / المدينة",
-    "quote_notes": "ملاحظات إضافية",
+    "quote_notes": "المسار والورديات وأيام التشغيل (اختياري)",
     "quote_send": "طلب عرض السعر",
     "quote_service_specialized": "النقل المتخصص",
     "quote_success": "تم استلام طلبك! سيتواصل معك فريق المبيعات خلال 24 ساعة.",
@@ -153,7 +153,12 @@
     "employees_h1": "ما المعلومات المطلوبة لعرض السعر؟",
     "employees_p1": "حدد اسم المنشأة، والمدينة، وعدد الموظفين، ومواقع الانطلاق والوصول، وأوقات الورديات، وعدد أيام التشغيل. أضف تاريخ البداية والاحتياجات الخاصة في الملاحظات.",
     "employees_h2": "كيف تبدأ؟",
-    "employees_p2": "أرسل نموذج عرض السعر، ثم راجع مع الفريق نطاق الخدمة والمسارات والتكلفة. يُحدد موعد التشغيل وآلية المتابعة ضمن الاتفاق قبل بدء الخدمة."
+    "employees_p2": "أرسل نموذج عرض السعر، ثم راجع مع الفريق نطاق الخدمة والمسارات والتكلفة. يُحدد موعد التشغيل وآلية المتابعة ضمن الاتفاق قبل بدء الخدمة.",
+    "quote_contact": "اسم مسؤول التواصل",
+    "quote_phone": "رقم الجوال مع رمز الدولة",
+    "quote_email": "البريد الإلكتروني",
+    "quote_job": "المسمى الوظيفي (اختياري)",
+    "international_contact": "من خارج المملكة: تواصل عبر الجوال الدولي أو واتساب أو البريد الإلكتروني."
   },
   "en": {
     "nav_home": "Home",
@@ -221,7 +226,7 @@
     "service_6_desc": "A customer service team available 24/7 to answer inquiries from companies, institutions and authorities and universities and resolve any issue immediately.",
     "contact_badge": "Contact Us",
     "contact_title": "We're Here to Serve You",
-    "contact_subtitle": "Want to inquire about transport services for companies, institutions and authorities, or university transport? Contact us and our team will respond within hours.",
+    "contact_subtitle": "Ask about student or business transport. We review your requirements and contact you.",
     "contact_tab_inquiry": "Inquiry",
     "contact_tab_complaint": "Complaint",
     "contact_tab_quote": "Get a Quote",
@@ -244,7 +249,7 @@
     "quote_service": "Service Required",
     "quote_count": "Expected Number of Passengers",
     "quote_region": "Region / City",
-    "quote_notes": "Additional Notes",
+    "quote_notes": "Routes, shifts and operating days (optional)",
     "quote_send": "Request a Quote",
     "quote_service_specialized": "Specialized Transport",
     "quote_success": "Request received! Our sales team will contact you within 24 hours.",
@@ -309,6 +314,11 @@
     "employees_h1": "What do we need for a quote?",
     "employees_p1": "Include your company name, city, passenger count, pickup and drop-off locations, shift times and operating days. Add the proposed start date and any special requirements in the notes.",
     "employees_h2": "How to get started",
-    "employees_p2": "Submit the quote form, then review the service scope, routes and pricing with our team. The start date and follow-up process are agreed before operations begin."
+    "employees_p2": "Submit the quote form, then review the service scope, routes and pricing with our team. The start date and follow-up process are agreed before operations begin.",
+    "quote_contact": "Contact name",
+    "quote_phone": "Mobile number with country code",
+    "quote_email": "Email address",
+    "quote_job": "Job title (optional)",
+    "international_contact": "Outside Saudi Arabia? Use our international mobile number, WhatsApp or email."
   }
 }

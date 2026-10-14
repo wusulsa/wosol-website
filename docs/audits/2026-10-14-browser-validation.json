@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-14T20:43:54.816Z",
+  "base": "http://127.0.0.1:8765",
+  "checks": [
+    "Quote required fields, phone validation, optional job title, accepted payload; all POSTs mocked.",
+    "Provider success:false displays failure and keeps input; no false success.",
+    "Bus pause persists; large bus stays default.",
+    "Arabic/English at 390 and 1365px; no horizontal overflow; car images load; quote screenshots.",
+    "12 pages: valid JSON-LD with stable IDs, short English titles and service-specific OG images.",
+    "Reduced motion respected; no uncaught JavaScript errors."
+  ],
+  "limits": "Local browser QA; mocked email provider. Not proof of CRM delivery, Google indexing or field Core Web Vitals."
+}

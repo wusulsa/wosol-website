@@ -242,8 +242,8 @@
 .premium-site .navbar__logo { display:block; }
 .header-route { position:absolute; top:100%; left:0; right:0; height:38px; background:var(--paper); border-bottom:1px solid var(--border); overflow:hidden; direction:ltr; }
 .header-route .brand-bus-track { position:absolute; inset:0; width:100%; height:38px; }
-.header-route .brand-mini-bus { position:absolute; left:0; top:2px; width:96px; height:34px; object-fit:contain; transform:none; animation:header-bus-cross 18s linear infinite; }
-@keyframes header-bus-cross { from { left:-96px; } to { left:100%; } }
+.header-route .brand-mini-bus { position:absolute; left:-96px; top:2px; width:96px; height:34px; object-fit:contain; transform:none; animation:header-bus-cross 18s linear infinite; will-change:transform; }
+@keyframes header-bus-cross { from { transform:translateX(0); } to { transform:translateX(calc(100vw + 96px)); } }
 .header-route.is-paused .brand-mini-bus { animation-play-state:paused; }
 .header-route__toggle { position:absolute; right:8px; top:3px; z-index:1; width:32px; height:30px; border-radius:5px; background:var(--paper); border:1px solid var(--border); color:var(--ink); font-size:13px; }
 .header-route__toggle:focus-visible { outline:2px solid var(--gold); outline-offset:-3px; }
@@ -253,3 +253,45 @@
 .service-hero .image-provenance { color:#bfc9d2; }
 @media(max-width:768px) { .premium-site .signature-hero { margin-top:110px; } .premium-site .navbar__links { top:110px; } }
 @media(prefers-reduced-motion:reduce) { .header-route .brand-mini-bus { animation:none!important; left:calc(50% - 48px); } .header-route__toggle { display:none; } }
+
+/* Audit: readable text; approved brand gold remains on logos and buttons. */
+.premium-site { --primary:var(--ink); --primary-dark:var(--ink); --accent:var(--ink); }
+.premium-site :is(.premium-eyebrow,.text-link,.technology-grid article>span,.iso-mark span,.performance-band strong,.signature-hero h1 em,.campus-story em,.solution-index,.iso-grid h3 small) { color:var(--ink); }
+.premium-site .corporate-spotlight :is(.premium-eyebrow,em,.text-link),.premium-site .service-hero :is(.eyebrow,.text-link) { color:var(--gold); }
+.premium-site .contact-tab[aria-selected="true"] { background:var(--gold); color:#20252b; }
+.premium-site :is(a,button,input,select,textarea,summary):focus-visible { outline:3px solid #805200; outline-offset:3px; }
+[data-theme="dark"] .premium-site :is(a,button,input,select,textarea,summary):focus-visible { outline-color:var(--gold); }
+.secondary-details { margin-block:28px; border-block:1px solid var(--border); }
+.secondary-details>summary { padding:24px 4px; font-size:1.2rem; font-weight:700; cursor:pointer; color:var(--ink); }
+.secondary-details .container { width:100%; }
+.secondary-details .premium-section { padding-block:24px 42px; }
+.international-contact { color:var(--ink); line-height:1.8; margin-block:20px; }
+.premium-site .eyebrow { color:var(--ink); }
+.premium-site .service-hero .eyebrow { color:var(--gold); }
+.premium-site .coverage-section p:not(.premium-eyebrow) { color:#505c68; }
+[data-theme="dark"] .premium-site .coverage-section p:not(.premium-eyebrow) { color:#c3cbd3; }
+.premium-site .footer__bottom p { color:#c3cbd3; }
+.premium-site .form-group :is(input,textarea)::placeholder { color:var(--soft); opacity:1; }
+.premium-site .contact__map-link { color:var(--ink); }
+.premium-site .social-btn { color:var(--ink); background:var(--paper); }
+.premium-site .navbar.scrolled { background:var(--paper); }
+.premium-site .navbar__links { background:var(--paper); }
+.contact__detail-info a { display:inline-block; color:var(--ink); text-decoration:underline; text-underline-offset:4px; }
+.contact__detail-info { overflow-wrap:anywhere; }
+.premium-site .service-aside { background:var(--paper); border:1px solid var(--border); border-top:3px solid var(--gold); }
+.premium-site .service-aside :is(h2,p) { color:var(--ink); }
+.premium-site .fleet-cars figure { display:flex; align-items:center; justify-content:center; background:#fff; padding:20px; }
+.premium-site .fleet-cars img { width:100%; height:auto; object-fit:contain; }
+.measurement-choice { position:fixed; bottom:12px; inset-inline:12px; z-index:11000; max-width:650px; margin:auto; border:1px solid var(--border); background:var(--paper); color:var(--ink); box-shadow:0 4px 24px #0003; border-radius:12px; padding:20px; }
+.measurement-choice[hidden] { display:none; }
+.measurement-choice p { margin-bottom:12px; }
+.measurement-choice button { margin-inline-end:10px; }
+.analytics-settings { background:none; border:0; color:inherit; text-decoration:underline; cursor:pointer; font:inherit; }
+.motion-paused .brand-blade,.motion-paused .brand-mini-bus { animation-play-state:paused!important; }
+@media(max-width:768px) {
+ .solutions-grid { gap:16px; }
+ .solution-card { min-height:0; padding:22px; }
+ .solution-card__top { margin-bottom:12px; }
+ .premium-site .contact { padding-block:46px; }
+ .premium-site .btn { white-space:normal; text-align:center; }
+}

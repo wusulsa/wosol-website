@@ -1,5 +1,11 @@
 # WOSOL continuation — 2026-10-14
 
+## Selected audit implementation — current handoff
+
+Latest published preview source: `c72efd6994cbae7117ed30d1a2e98e41f935862b`; successful deployment: `appgdep_6acfea47fc048191a357644984b97b79`, version 19. This includes the final coverage/footer contrast fix. Windows publication requires Git Bash on the process PATH and `TAR_OPTIONS=--force-local`; use a forward-slash absolute Windows archive path with the standard Sites helper. Preserve this compatibility setup.
+
+Read [the implementation status](docs/audits/2026-10-14-selected-improvements-ar.md) before continuing. The owner selected H02, English journey improvements, all medium priorities, Google preparation and low priorities. H03/H04/H05/H06 and production launch remain deferred. Quote contact fields and validation, shorter copy, international contact, operating scope, contrast, WebP car exports, local WOFF2 fonts, schema, social cards, seasonal FAQs and motion controls are implemented. Google account access, verified GA4 ID, real delivery tests, original safety photos/certificates, Ads budget and live launch remain pending. Never mark these completed merely because code is ready. Preview stays public, noindex and form-disabled.
+
 ## Audit handoff — documentation only
 
 The owner requested the complete audit be uploaded for later improvements. Read the [full Arabic audit](docs/audits/2026-10-14-website-seo-audit-ar.md) and its [prioritized checklist](docs/audits/2026-10-14-implementation-checklist-ar.md). The audited application commit is `f96c3db`. Recommendations are pending; this documentation upload does not implement them or deploy production. Continue tracking evidence and completed work in the checklist.

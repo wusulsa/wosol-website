@@ -1,5 +1,12 @@
 'use strict';
 (() => {
+  function revealDestination(){
+    const id=location.hash.slice(1);
+    const section=document.getElementById(id);
+    const details=section?.closest('details');
+    if(details){details.open=true;section.scrollIntoView({block:'start'});}
+  }
+  window.addEventListener('hashchange',revealDestination);revealDestination();
   const selector = document.getElementById('journey-choice');
   const target = document.querySelector('.journey-finder__link');
   selector?.addEventListener('change', () => {

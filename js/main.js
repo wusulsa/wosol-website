@@ -184,6 +184,18 @@ function bindAsyncForm(formId, successId, messageKey, subject) {
   form.addEventListener('submit', async e => {
     e.preventDefault();
 
+    // Validate before any network request; do not alter student registration here.
+    for (const field of form.querySelectorAll('input[required], textarea[required]')) {
+      if (field.type !== 'number') field.value = field.value.trim();
+    }
+    const phone = form.querySelector('#qt-phone');
+    if (phone) {
+      phone.value = phone.value.replace(/[٠-٩]/g,c=>String(c.charCodeAt(0)-1632)).replace(/[۰-۹]/g,c=>String(c.charCodeAt(0)-1776));
+      const value=phone.value.replace(/[ ()-]/g,'');
+      phone.setCustomValidity(/^\+?[0-9]{8,15}$/.test(value) ? '' : (state.lang==='ar'?'أدخل رقم جوال صحيحًا مع رمز الدولة عند الاتصال دوليًا.':'Enter a valid phone number, including country code for international numbers.'));
+      phone.addEventListener('input',()=>phone.setCustomValidity(''),{once:true});
+    }
+    if (!form.reportValidity()) return;
     const btn = form.querySelector('button[type="submit"]');
     const btnSpan = btn?.querySelector('span');
     const original = btnSpan?.textContent ?? '';
@@ -193,7 +205,10 @@ function bindAsyncForm(formId, successId, messageKey, subject) {
     btn?.classList.add('loading');
 
     try {
-      await sendSiteForm(form, subject);
+      const result = await sendSiteForm(form, subject);
+      if (result?.success !== true && result?.success !== 'true') throw new Error('Email provider did not confirm acceptance');
+      // Email acceptance is not a confirmed CRM lead or customer conversion.
+      window.WOSOL_METRICS?.record('email_request_accepted', form);
       if (btn) btn.disabled = false;
       if (btnSpan) Utils.setText(btnSpan, original);
       btn?.classList.remove('loading');

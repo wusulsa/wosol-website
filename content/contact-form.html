@@ -22,11 +22,11 @@
             </div>
             <div class="contact__detail-info">
               <span class="contact__detail-label">أرقام التواصل:</span>
-              <strong>0566070705</strong>
+              <a href="tel:+966566070705" dir="ltr">+966 56 607 0705</a>
               <span class="contact__detail-separator">-</span>
-              <strong>0536060003</strong>
+              <a href="tel:+966536060003" dir="ltr">+966 53 606 0003</a>
               <span class="contact__detail-separator">-</span>
-              <strong>0501844991</strong>
+              <a href="tel:+966501844991" dir="ltr">+966 50 184 4991</a>
             </div>
           </li>
           <li>
@@ -52,7 +52,7 @@
             </div>
           </li>
         </ul>
-        <div class="contact__socials">
+        <p class="international-contact" data-i18n="international_contact">من خارج المملكة: تواصل عبر الجوال الدولي أو واتساب أو البريد الإلكتروني.</p><div class="contact__socials">
           <a href="https://www.instagram.com/wosoltransportations" class="social-btn" aria-label="Instagram" rel="noopener noreferrer" target="_blank">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
           </a>
@@ -144,7 +144,10 @@
 
         <!-- Panel 3: Quote Request -->
         <div class="contact-panel" id="panel-quote" role="tabpanel" aria-labelledby="tab-quote" hidden>
-          <form class="contact-form" id="quoteForm" novalidate autocomplete="on">
+          <form class="contact-form" id="quoteForm" novalidate autocomplete="on"><div class="form-group"><label for="qt-contact" data-i18n="quote_contact">اسم مسؤول التواصل</label><input id="qt-contact" name="qt-contact" type="text" autocomplete="name" maxlength="100" required ></div>
+<div class="form-group"><label for="qt-phone" data-i18n="quote_phone">رقم الجوال مع رمز الدولة</label><input id="qt-phone" name="qt-phone" type="tel" autocomplete="tel" maxlength="100" required dir="ltr"></div>
+<div class="form-group"><label for="qt-email" data-i18n="quote_email">البريد الإلكتروني</label><input id="qt-email" name="qt-email" type="email" autocomplete="email" maxlength="254" required dir="ltr"></div>
+<div class="form-group"><label for="qt-job" data-i18n="quote_job">المسمى الوظيفي (اختياري)</label><input id="qt-job" name="qt-job" type="text" autocomplete="organization-title" maxlength="100"  ></div>
             <div class="form-group">
               <label for="qt-org" data-i18n="quote_org">اسم الجهة / الشركة</label>
               <input type="text" id="qt-org" name="qt-org" required autocomplete="organization" />

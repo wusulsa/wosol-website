@@ -26,6 +26,8 @@ deployment:
     - /bin/mkdir -p $PRIMARY/assets
     - /bin/cp -Rf assets/fleet $PRIMARY/assets/
     - /bin/cp -Rf assets/profile-2026 $PRIMARY/assets/
+    - /bin/cp -Rf assets/social $PRIMARY/assets/
+    - /bin/cp -Rf assets/fonts $PRIMARY/assets/
     - /bin/cp -f assets/TGA.svg assets/SBC.svg $PRIMARY/assets/
 
     # المجلد الثانوي: ملف تحويل فقط
