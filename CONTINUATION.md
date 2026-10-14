@@ -1,8 +1,8 @@
-# WOSOL continuation — 2026-10-14
+# WOSOL continuation — 2026-10-15
 
 ## Selected audit implementation — current handoff
 
-Latest published preview source: `c72efd6994cbae7117ed30d1a2e98e41f935862b`; successful deployment: `appgdep_6acfea47fc048191a357644984b97b79`, version 19. This includes the final coverage/footer contrast fix. Windows publication requires Git Bash on the process PATH and `TAR_OPTIONS=--force-local`; use a forward-slash absolute Windows archive path with the standard Sites helper. Preserve this compatibility setup.
+Latest published preview source: `189a4a8f8443576f461f0a4b109c336a114c9e03`; successful deployment: `appgdep_6acff2acb47c81918b0d2befd3276894`, version 20. Footer and service sidebar use unified phone 920003790; all WhatsApp links use 966536060003 (local 0536060003), in Arabic and English. Other listed mobile contact numbers remain available. Validation: all 12 pages passed the page checker. Windows publication requires Git Bash on the process PATH and `TAR_OPTIONS=--force-local`; use a forward-slash absolute Windows archive path with the standard Sites helper. Preserve this compatibility setup.
 
 Read [the implementation status](docs/audits/2026-10-14-selected-improvements-ar.md) before continuing. The owner selected H02, English journey improvements, all medium priorities, Google preparation and low priorities. H03/H04/H05/H06 and production launch remain deferred. Quote contact fields and validation, shorter copy, international contact, operating scope, contrast, WebP car exports, local WOFF2 fonts, schema, social cards, seasonal FAQs and motion controls are implemented. Google account access, verified GA4 ID, real delivery tests, original safety photos/certificates, Ads budget and live launch remain pending. Never mark these completed merely because code is ready. Preview stays public, noindex and form-disabled.
 
