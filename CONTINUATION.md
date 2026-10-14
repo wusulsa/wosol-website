@@ -49,3 +49,6 @@ Small-vehicle capacities use commas (4, 5, 7), small buses 9, 11. Added white Hy
 
 ## Centred door logos — 2026-10-14
 Enlarged Yaris/RAV4 door logos about 44% and Staria 40%, retaining front-door centres. Removed visible model captions from all four cards in both languages; Hiace photo unchanged. Cards vertically centre images. Preview source 7cdae012aaee254b69479e882d826f250991b4c5, deployment appgdep_6acfcf2aba4c8191b9af200676a0e44e succeeded.
+
+## Coverage and copy audit — 2026-10-14
+Added Al Khobar, Buraydah, Rabigh, Al Qassim, Bisha and Umluj. Single-source content/coverage.json drives the 14-entry count and regional service descriptions in both languages. Label is destinations and service areas, not 14 independent cities: Al Qassim includes Buraydah and NEOM is a project. Fixed missed Arabic للشركات variants in footer, service titles, metadata and translation dictionary; expanded to institutions and authorities without duplicates. Audited all generated pages, six added names, counter and large-bus default. Public preview banner corrected in workspace prepare-wosol-preview.cjs; forms remain disabled. Source 49684f14a1b57843da1831c890057ca3c3461eb0; deployment appgdep_6acfd15e4adc8191aa7ccaa43943813c succeeded.
