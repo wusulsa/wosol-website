@@ -46,3 +46,6 @@ Small-vehicle category now displays 4 - 5 - 7 passengers as requested (category 
 
 ## Staria and service audience — 2026-10-14
 Small-vehicle capacities use commas (4, 5, 7), small buses 9, 11. Added white Hyundai Staria with WOSOL door branding alongside Hiace; source documented in assets/fleet/cars/SOURCES.md. Expanded company service copy to institutions and authorities in Arabic and English, including forms, metadata and navigation. Preview source 292cd83e64a86d010561253363053f2c879f7922; deployment appgdep_6acfcd8bab308191aef35a59459ed642 succeeded. Checked 12 pages and desktop/mobile layout; large buses remain default.
+
+## Centred door logos — 2026-10-14
+Enlarged Yaris/RAV4 door logos about 44% and Staria 40%, retaining front-door centres. Removed visible model captions from all four cards in both languages; Hiace photo unchanged. Cards vertically centre images. Preview source 7cdae012aaee254b69479e882d826f250991b4c5, deployment appgdep_6acfcf2aba4c8191b9af200676a0e44e succeeded.
