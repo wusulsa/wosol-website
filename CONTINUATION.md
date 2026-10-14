@@ -37,3 +37,6 @@ The owner approved the latest moving cartoon Coaster and requested that the curr
 - Static validation: python scripts/check-pages.py (12 bilingual pages).
 - Last browser check confirmed the approved bus asset loaded at 96x34 CSS pixels, header-bus-cross animation, and working pause/resume.
 - Continue from this branch and existing preview; do not create another site.
+
+## Fleet categories — 2026-10-14
+Added bilingual categories: small vehicles 4–7 passengers (white Yaris and RAV4 model images), small buses 11, mid-size buses 21, large buses 51. Sources: assets/fleet/cars/SOURCES.md. Shared template: scripts/fleet-experience.cjs. Public preview source: 98bd0a4711e90db554cb62975e7af21e4031b838; deployment appgdep_6acfc78058a48191910dcced17e2e10e succeeded. All 12 pages passed validation; live Arabic/English categories, four tabs, image loading and mobile overflow checked. User plans further additions.

@@ -1,0 +1,10 @@
+Vehicle model imagery retrieved 2026-10-14 at the owner's request.
+
+- White Toyota Yaris: https://albazai-auto.com.sa/car/colors/yaris-sedan-en
+  Original: https://albazai-auto.com.sa/uploads/color/2023/01/11/20230111125021855933568_color.png
+  Converted to WebP at original 1200 × 631 dimensions.
+- White Toyota RAV4: https://www.toyota.com.sa/en/vehicles/suv/2025/rav4
+  Original: https://edge.sitecorecloud.io/abdullatifj9343-aljmotorsb309-aljprod6e5f-d335/media/project/alj/alj-motors/toyota/toyota-ksa/vehicles/suv/rav4/grades/ltd-4x4-hev/exterior/desktop/rav4-white-pearl-731x411.webp
+  Original 731 × 411 WebP retained, displayed below native dimensions.
+
+Manufacturer/dealer illustrative model images; no ownership or partnership claim. Category capacities are provided by the business, not vehicle specifications. Confirm the allocated vehicle's passenger capacity on enquiry.

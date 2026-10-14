@@ -113,7 +113,16 @@
 .performance-band p { color:var(--soft); font-size:.8rem; line-height:1.9; max-width:500px; }
 .performance-band strong { display:block; font:600 2.5rem Inter,sans-serif; color:#f1b654; direction:ltr; text-align:center; }
 .performance-band span { display:block; color:var(--soft); font-size:.82rem; text-align:center; margin-top:10px; }
-.fleet-tabs { display:flex; gap:8px; border-bottom:1px solid var(--border); margin-bottom:32px; }
+.fleet-tabs { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:8px; border-bottom:1px solid var(--border); margin-bottom:32px; }
+.fleet-tabs button span,.fleet-tabs button small { display:block; }
+.fleet-tabs button small { margin-top:8px; font-size:.85rem; font-weight:400; }
+.fleet-cars { width:100%; max-width:520px; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
+.fleet-cars figure { margin:0; padding:12px; background:#fff; border:1px solid #e4e8e7; border-radius:12px; }
+.fleet-panel .fleet-cars img { display:block; width:100%; height:auto; aspect-ratio:auto; object-fit:contain; border-radius:0; }
+.fleet-cars figcaption { color:#263238; font-weight:700; text-align:center; margin-top:12px; font-size:.95rem; }
+.fleet-panel .fleet-model-note { grid-column:1/-1; font-size:.8rem; margin:0; }
+.fleet-panel .image-provenance { margin-top:20px; font-size:.8rem; }
+@media(max-width:600px) { .fleet-explorer .fleet-tabs { grid-template-columns:repeat(2,minmax(0,1fr)); } .fleet-cars { gap:10px; } .fleet-cars figure { padding:8px; } }
 .fleet-tabs button { background:transparent; color:var(--soft); border:0; border-bottom:3px solid transparent; padding:15px 25px; font:700 .95rem inherit; cursor:pointer; }
 .fleet-tabs button[aria-selected="true"] { color:var(--ink); border-color:var(--gold); }
 .fleet-tabs button:focus-visible { outline:2px solid #f1b654; outline-offset:3px; }
