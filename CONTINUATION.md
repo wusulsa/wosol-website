@@ -2,7 +2,7 @@
 
 ## Latest state — high-priority remediation, 17 October 2026
 
-This section supersedes the earlier inspection-only/test baseline below. Forms identity fields now require exactly ten ASCII digits; a saved Deny Submissions rule rejects all-zero subscriber OR contact IDs. Browser tests confirmed rejection of letters and short input. Actual deny-submit verification remains pending action-time consent. This is format validation, not government identity verification or checksum validation.
+This section supersedes the earlier inspection-only/test baseline below. Forms identity fields now require exactly ten ASCII digits; a saved Deny Submissions rule rejects all-zero subscriber OR contact IDs. Browser tests confirmed rejection of letters and short input. After explicit action-time confirmation, submitted exactly ONE rejection-test attempt with both IDs all zero. Forms displayed the configured denial message; a targeted CRM COQL query returned 204/no matching records. No retry was made. This proves the combined all-zero case, not each OR branch independently, government identity verification or checksum validation.
 
 After reviewing existing and unused CRM fields, created optional consent evidence fields in Subscriptions: field20 (acceptance text), field21 (unique source request reference), field22 (terms version), field23 (submission datetime). Saved and reopened Forms integration to verify TermsConditions, UniqueId, constant WOSOL-EDU-2026-10-17-v1, and Added Time mappings respectively. A new Forms Unique ID counter starts at 202610170001. No default consent was set. Old test evidence was NOT backfilled. A fresh successful submission and duplicate-reference retry remain untested; do not claim end-to-end consent or deduplication success.
 
