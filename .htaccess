@@ -20,6 +20,10 @@
 <IfModule mod_expires.c>
   ExpiresActive On
   ExpiresByType image/png        "access plus 1 month"
+  ExpiresByType image/webp       "access plus 1 month"
+  ExpiresByType image/jpeg       "access plus 1 month"
+  ExpiresByType font/woff2       "access plus 1 month"
+  ExpiresByType font/ttf         "access plus 1 month"
   ExpiresByType image/svg+xml    "access plus 1 month"
   ExpiresByType image/x-icon     "access plus 1 month"
   ExpiresByType text/css         "access plus 7 days"
@@ -47,6 +51,14 @@ Options -Indexes
   # /register.html  ->  /register
   RewriteCond %{THE_REQUEST} \s/+register\.html[\s?] [NC]
   RewriteRule ^ /register [R=301,L]
+
+  # Preserve old student links while focusing the university landing page.
+  RewriteRule ^student-transport-jeddah(?:\.html)?/?$ /king-abdulaziz-university-transport [R=301,L]
+
+  # Canonical, crawlable service URLs. English pages use real directories.
+  RewriteCond %{THE_REQUEST} \s/+(king-abdulaziz-university-transport|employee-transport-jeddah|employee-transport-riyadh|corporate-transport-saudi-arabia)\.html[\s?] [NC]
+  RewriteRule ^(king-abdulaziz-university-transport|employee-transport-jeddah|employee-transport-riyadh|corporate-transport-saudi-arabia)\.html$ /$1 [R=301,L]
+  RewriteRule ^(king-abdulaziz-university-transport|employee-transport-jeddah|employee-transport-riyadh|corporate-transport-saudi-arabia)/?$ $1.html [L]
 
   # /register يعرض register.html داخلياً
   RewriteRule ^register/?$ register.html [L]
