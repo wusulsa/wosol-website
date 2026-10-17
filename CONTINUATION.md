@@ -1,5 +1,17 @@
 # WOSOL continuation — 2026-10-17
 
+## Latest state — high-priority remediation, 17 October 2026
+
+This section supersedes the earlier inspection-only/test baseline below. Forms identity fields now require exactly ten ASCII digits; a saved Deny Submissions rule rejects all-zero subscriber OR contact IDs. Browser tests confirmed rejection of letters and short input. Actual deny-submit verification remains pending action-time consent. This is format validation, not government identity verification or checksum validation.
+
+After reviewing existing and unused CRM fields, created optional consent evidence fields in Subscriptions: field20 (acceptance text), field21 (unique source request reference), field22 (terms version), field23 (submission datetime). Saved and reopened Forms integration to verify TermsConditions, UniqueId, constant WOSOL-EDU-2026-10-17-v1, and Added Time mappings respectively. A new Forms Unique ID counter starts at 202610170001. No default consent was set. Old test evidence was NOT backfilled. A fresh successful submission and duplicate-reference retry remain untested; do not claim end-to-end consent or deduplication success.
+
+Reviewed existing Prevent Duplicate Active Subscription validation: protects activation/approval, not repeated new applications; it does not validate identity format. Unique source reference protects repeated processing of one entry, not separately submitted duplicates. Upsert and Forms automation remain OFF.
+
+Controlled CRM edit of the existing synthetic test invoked BOTH workflows, confirmed by timeline and connector: both phones normalized to international format; pricing and route/plan were populated. Test remains New, approval and paid total blank. No invoice/payment action was invoked. Do not use this record operationally; it now has calculated price/route unlike the earlier baseline. Pricing_Calc_Status stayed blank despite calculated outputs: investigate actual workflow action/version before enabling Forms automation. Pricing function review also found first-page-only route lookup (200) and pricing-plan search, broad create/edit recalculation, and dependence on direction labels. Current public form includes the expected one-way wording; a form direction defect was not established.
+
+Connector works with module API name Subscriptions; CustomModule12 is only the UI route. Earlier INVALID_MODULE does not establish an account/connector fault. See the final dated remediation section in the audit and checklist. Website version 23 unchanged.
+
 ## Controlled Zoho Forms test — 2026-10-17, Asia/Riyadh
 
 After explicit action-time consent, submitted ONE synthetic request `[controlled test]`. Forms entry `[internal ID retained locally]` saved `تمت الموافقة` and Added Time `17-Oct-2026`; integration progressed from pending to Record added. Verified CRM record `[internal ID retained locally]`, subscription `[test subscription]`, directly in the UI. Test name and location text clearly identify non-operational test data; record remains New, with no route, pricing plan, payment link, Books customer or related subscription payments visible. Timeline showed creation and zero upcoming automated actions. Do not approve, bill, route, renew or reuse this test as a real subscription. No duplicate submission and no deletion performed.
