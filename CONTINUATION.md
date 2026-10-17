@@ -1,5 +1,17 @@
 # WOSOL continuation — 2026-10-17
 
+## Latest override — failure alert and scoped pricing automation, 17 October 2026
+
+This section supersedes older open items below. Integration failure email is SAVED to info@wosol.net with an Arabic subject and investigation instructions. Reopened after reload and verified recipient, body and Remove Alert. Zoho Forms states the alert triggers on the first failure once per 24 hours. No induced failure or mailbox-delivery test was performed.
+
+Updated the existing calculate_subscription_price function: Routes and active Pricing_Plans now paginate up to ten pages of 200; incomplete fetch, exception or reaching the full 2,000-record ceiling writes a diagnostic and returns without replacing the prior price. This is bounded pagination, not unlimited coverage. One-way selection now uses parsed GO_ONLY/RETURN_ONLY codes as well as legacy wording. Saved successfully; commercial rates/formulas unchanged.
+
+Replaced the broad active pricing workflow with three active rules using the SAME existing function action: creation; edits to Neighborhood/university_branch/direction/subscription_type/start_date; edits to pricing_id/approval_status/Paid_Total/Payment_Grace_Until/subscription_status. Each edit rule uses ANY changed field and repeats. Two edit rules are needed because Zoho limits this trigger to five fields. Original rule is deactivated, retained for history; its trigger was NOT changed because that would reset historical statistics. Phone normalization is unchanged. Forms Automation and Upsert remain OFF.
+
+Controlled tests used only the existing synthetic CRM record: round trip to outbound one-way and back invoked the scoped rule and restored the previous amount; name-only change invoked phone normalization without pricing. Name and direction restored; final COQL confirms New status, blank approval/payment and blank historical consent fields. No new form submission, invoice, payment or operational approval. Successful new submission remains explicitly DEFERRED.
+
+Remaining: end-to-end consent delivery and same-reference retry; independent duplicate applications versus renewals; real failure-email delivery; >200-record/cap/error pagination scenarios; no-match/multiple-match pricing and historical approvals. Two edit rules can both invoke the same function if one edit changes fields in both groups; concurrency/idempotence remains to be tested. Review any future API/Deluge writes for explicit workflow triggers. No website/source deployment changes: preview version 23 remains current. See the latest dated report/checklist section for details and rollback.
+
 ## Latest state — high-priority remediation, 17 October 2026
 
 Follow-up: owner explicitly deferred the successful new form submission; do not submit a replacement or reuse an arbitrary identity. Consent delivery and same-source retry tests remain deferred. Read-only COQL metadata confirms field21 is used and unique (case insensitive), while consent fields have no defaults.
