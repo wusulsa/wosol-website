@@ -1,5 +1,13 @@
 # WOSOL continuation — 2026-10-17
 
+## Production launch — 17 October 2026 (supersedes prior production-unchanged notes)
+
+Owner explicitly requested upload after logging into Namecheap. Published the approved application from this checkout to the existing Apache/cPanel public_html using a public-assets-only ZIP (14,818,668 bytes). No Git/source/docs/reference PDFs included. Saved prior public_html as wosol-before-launch-20261017.zip outside the public root; archive completed at 3.99 MB. Deployment ZIP also remains outside the public root. DNS, mail, CRM and secondary-domain settings unchanged.
+
+Live: https://www.wosol.net/ and https://www.wosol.net/en/. Opened all 12 production pages and verified expected H1/language; local check-pages.py passed. Verified canonical/index,follow, robots Allow /, sitemap, bare-domain and old student-route redirects, WhatsApp links and homepage appearance. Direct shell HTTP checks could not resolve DNS in the sandbox; browser checks supplied live verification. No new form submission or delivery test occurred.
+
+Production retains source registration/contact integrations, NOT the disabled-submission preview wrapper. Deferred integration tests and Forms Automation/Upsert OFF remain unchanged. Sites preview remains version 23. Branch remains improve/website-experience-seo, without a main merge. Future cPanel Git deployments from an older branch could overwrite this manual release; reconcile deployment branch before using that mechanism. cPanel displayed an expired-certificate indicator, while live HTTPS pages loaded without a browser warning; investigate the discrepancy separately. No certificate renewal was performed.
+
 ## Latest override — failure alert and scoped pricing automation, 17 October 2026
 
 This section supersedes older open items below. Integration failure email is SAVED to info@wosol.net with an Arabic subject and investigation instructions. Reopened after reload and verified recipient, body and Remove Alert. Zoho Forms states the alert triggers on the first failure once per 24 hours. No induced failure or mailbox-delivery test was performed.
