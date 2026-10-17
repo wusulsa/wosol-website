@@ -1,4 +1,12 @@
-# WOSOL continuation — 2026-10-17
+# WOSOL continuation — 2026-10-18
+
+## SSL renewal — 18 October 2026 (OPEN: CDN replacement)
+
+Owner paid USD 34.95 for five years of Standard SSL renewal; confirmed completed in Namecheap. Certificate issued and installed through the existing cPanel Namecheap SSL plugin. Independent hostname/chain checks for BOTH wosol.net and www.wosol.net on origin 198.187.29.14 now pass TLS 1.2 and TLS 1.3, expiring 3 May 2027 21:12:15 UTC. Five years is prepaid coverage, not one certificate's validity.
+
+Public CDN still serves the OLD trusted Sectigo certificate expiring 22 October 2026 23:59:59 UTC. Both public hostnames pass TLS 1.2/1.3 today, but renewal is NOT complete. Supersonic CDN shows CUSTOM SSL / PROTECTED and only Remove; do not remove it before a safe replacement plan. No DNS/mail changes or certificate-validation bypass performed. Arabic/English homepages returned HTTP 200.
+
+Namecheap support Navin P. was informed of payment, origin success and CDN mismatch. Support escalated investigation and offered follow-up to the existing account email; case reference requested but not received as of 00:25 Asia/Riyadh. User explicitly requests continued support follow-up, final verification and updated references. Support says old coverage through 15 April 2027 is unused and not carried into the new renewal; no cancellation/refund authorized or requested. Future CDN reissue procedure remains unconfirmed. See docs/audits/2026-10-18-ssl-status-ar.md. Do not describe the whole site as fully secure based only on TLS checks.
 
 ## Production launch — 17 October 2026 (supersedes prior production-unchanged notes)
 
