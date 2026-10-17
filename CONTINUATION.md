@@ -1,4 +1,8 @@
-# WOSOL continuation — 2026-10-15
+# WOSOL continuation — 2026-10-17
+
+## Zoho Forms review — 2026-10-17
+
+Updated the external educational subscription form license from 9900 to 35/00001075; Saved Successfully and respondent-page reload verified. Existing Zoho Forms integration is Connected to Subscriptions / Standard with 15 mapped fields. Automation, Assignment Rules and Upsert are unchecked; no integration changes made. Consent is not mapped in the visible configuration. Builder has additional weekly-trip fields absent from current public view and a duplicate Sunday-return label. No submission, record-delivery proof or failure-log verification. Website form remains unchanged; H03–H06 are not closed by this discovery. See the dated section in the selected-improvements report for evidence and follow-up.
 
 ## Current handoff — documentation reconciled
 
