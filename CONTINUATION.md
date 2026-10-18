@@ -1,5 +1,10 @@
 # WOSOL continuation — 2026-10-18
 
+## Search favicon — 18 October 2026
+
+Replaced crowded full-logo icon.ico with existing vector triangle from scripts/brand-motion.cjs, approved gold #F1B654 on dark #161e24. ICO includes 16/32/48/64/128/256; SVG and 512 PNG retained in assets/brand. Build: scripts/build-favicon.cjs (sharp, WOSOL_SHARP_MODULE override). Uploaded root icon.ico through cPanel; origin HTTPS bytes match local SHA256 D91389F0A84FFF5D691D3FC2C2E103AC294A74181A3096234002C4733A660B2E. CDN initially old; Clear Cache requested. Google appearance requires recrawl, not immediate or guaranteed. Full website logo unchanged. Prior ICO recoverable from Git. No form submissions or DNS changes.
+
+
 ## Google activation — current verified status, 18 October 2026
 
 Supersedes historical Google setup notes below. GSC https://www.wosol.net/ VERIFIED for info@wosol.net after explicit approval; preserve root googleba2d858274e9bf1c.html. Sitemap processed successfully, 12 discovered URLs; homepage indexed and HTTPS. Other individual inspection pending. GA4 account 79923630, property 559491722, stream 16153335169, measurement G-HPZB25PR24, Saudi timezone/SAR, Enhanced Measurement OFF. Local/origin config updated. Arabic browser consent reject: no Google script; allow: correct tag. Realtime confirmed page_view/contact_whatsapp_click/first_visit/session_start, one test visitor. NO form/message submission. Clear Cache requested; browser got new config but independent FRA GET still empty ID; English activation unproved. Follow up CDN propagation and English before claiming full activation. Schema old phone/GBP consistency open. Successful submission DEFERRED. Do not publish staff counts. Latest dated Google audit is authoritative.
