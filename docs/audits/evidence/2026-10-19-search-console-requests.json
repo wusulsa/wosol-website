@@ -73,6 +73,31 @@
       "indexed": true,
       "https": true,
       "request": "confirmed"
+    },
+    {
+      "url": "https://www.wosol.net/register",
+      "indexed": false,
+      "inspectionReason": "URL unknown to Google",
+      "request": "confirmed"
+    },
+    {
+      "url": "https://www.wosol.net/en/register/",
+      "indexed": true,
+      "https": true,
+      "request": "confirmed"
+    },
+    {
+      "url": "https://www.wosol.net/king-abdulaziz-university-transport",
+      "indexed": true,
+      "https": true,
+      "request": "confirmed"
+    },
+    {
+      "url": "https://www.wosol.net/en/king-abdulaziz-university-transport/",
+      "indexed": true,
+      "https": true,
+      "request": "not accepted - daily quota exceeded",
+      "nextAction": "Retry tomorrow as instructed by Search Console"
     }
   ],
   "caveat": "Accepted requests do not prove completed recrawling or indexing of updated content.",

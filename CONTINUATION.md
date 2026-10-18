@@ -1,5 +1,9 @@
 # WOSOL continuation — 2026-10-18
 
+## Remaining four indexing requests — 19 October 2026
+
+Total 11 ACCEPTED of 12 attempted. Additional accepted: /register, /en/register/, /king-abdulaziz-university-transport. Arabic /register was NOT INDEXED (URL unknown) before accepted request; monitor actual indexing. English KAU /en/king-abdulaziz-university-transport/ already indexed/HTTPS but request NOT ACCEPTED: daily quota exceeded, Google says retry tomorrow. Do not claim all12 requests accepted or all12 indexed. Retry only pending URL after quota resets. No bypass/repeated requests, no Ads, successful form test DEFERRED. Updated same Search Console report and evidence JSON.
+
 ## Search Console review — 19 October 2026
 
 Read docs/audits/2026-10-19-search-console-reindex-ar.md and evidence/2026-10-19-search-console-requests.json. Eight reindex requests CONFIRMED accepted: home, Jeddah, Riyadh, corporate in AR/EN. Already indexed/HTTPS; acceptance is NOT completed recrawl. Four city details allow crawl/index, fetch success, matching Google canonical. Manual/security reports no issues; sitemap success12. Aggregate indexing report still processing; English city sitemap details show temporary processing error despite indexed pages and global sitemap success. Keep these open. Public12-page audit passed scoped checks. No Ads changes; successful submission DEFERRED.
