@@ -1,5 +1,12 @@
 # WOSOL continuation — 2026-10-18
 
+## RESOLVED — CDN SSL replacement, 18 October 2026 15:08 Asia/Riyadh
+
+Supersedes ALL historical OPEN/awaiting-approval CDN notes below. Owner explicitly approved removal and temporary interruption. Removed old CDN SSL, immediately clicked Fetch from Hosting, and observed CUSTOM SSL / PROTECTED. Independent default-trust hostname checks now pass for BOTH public hostnames at CDN 162.0.212.2 with TLS 1.2 and TLS 1.3; SSL.com certificate expires 3 May 2027 21:12:15 UTC. Both SANs covered. HTTP redirects to HTTPS; all twelve sitemap pages return HTTPS 200. Exact interruption duration was not measured. No DNS/mail/purchase changes, no private key retrieved/shared, no new form submission.
+
+Support NC-ZSZ-6185 informed of success. Future reissue synchronization remains a maintenance clarification, not an unresolved current TLS fault. Deleted heartbeat automation cdn after verified completion as authorized. Evidence: docs/audits/evidence/2026-10-18-cdn-verification.json. Current audit and checklist updated. TLS checks are not a complete security audit or proof of all devices/geographic CDN nodes.
+
+
 ## SSL renewal — 18 October 2026 (OPEN: CDN replacement)
 
 Owner paid USD 34.95 for five years of Standard SSL renewal; confirmed completed in Namecheap. Certificate issued and installed through the existing cPanel Namecheap SSL plugin. Independent hostname/chain checks for BOTH wosol.net and www.wosol.net on origin 198.187.29.14 now pass TLS 1.2 and TLS 1.3, expiring 3 May 2027 21:12:15 UTC. Five years is prepaid coverage, not one certificate's validity.

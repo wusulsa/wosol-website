@@ -1,0 +1,222 @@
+{
+  "tls": [
+    {
+      "host": "wosol.net",
+      "ip": "162.0.212.2",
+      "tls": "TLSv1.2",
+      "expires": "May  3 21:12:15 2027 GMT",
+      "issuer": [
+        [
+          [
+            "countryName",
+            "US"
+          ]
+        ],
+        [
+          [
+            "organizationName",
+            "SSL Corporation"
+          ]
+        ],
+        [
+          [
+            "commonName",
+            "SSL.com TLS Issuing RSA CA R1"
+          ]
+        ]
+      ],
+      "san": [
+        [
+          "DNS",
+          "wosol.net"
+        ],
+        [
+          "DNS",
+          "www.wosol.net"
+        ]
+      ]
+    },
+    {
+      "host": "wosol.net",
+      "ip": "162.0.212.2",
+      "tls": "TLSv1.3",
+      "expires": "May  3 21:12:15 2027 GMT",
+      "issuer": [
+        [
+          [
+            "countryName",
+            "US"
+          ]
+        ],
+        [
+          [
+            "organizationName",
+            "SSL Corporation"
+          ]
+        ],
+        [
+          [
+            "commonName",
+            "SSL.com TLS Issuing RSA CA R1"
+          ]
+        ]
+      ],
+      "san": [
+        [
+          "DNS",
+          "wosol.net"
+        ],
+        [
+          "DNS",
+          "www.wosol.net"
+        ]
+      ]
+    },
+    {
+      "host": "www.wosol.net",
+      "ip": "162.0.212.2",
+      "tls": "TLSv1.2",
+      "expires": "May  3 21:12:15 2027 GMT",
+      "issuer": [
+        [
+          [
+            "countryName",
+            "US"
+          ]
+        ],
+        [
+          [
+            "organizationName",
+            "SSL Corporation"
+          ]
+        ],
+        [
+          [
+            "commonName",
+            "SSL.com TLS Issuing RSA CA R1"
+          ]
+        ]
+      ],
+      "san": [
+        [
+          "DNS",
+          "wosol.net"
+        ],
+        [
+          "DNS",
+          "www.wosol.net"
+        ]
+      ]
+    },
+    {
+      "host": "www.wosol.net",
+      "ip": "162.0.212.2",
+      "tls": "TLSv1.3",
+      "expires": "May  3 21:12:15 2027 GMT",
+      "issuer": [
+        [
+          [
+            "countryName",
+            "US"
+          ]
+        ],
+        [
+          [
+            "organizationName",
+            "SSL Corporation"
+          ]
+        ],
+        [
+          [
+            "commonName",
+            "SSL.com TLS Issuing RSA CA R1"
+          ]
+        ]
+      ],
+      "san": [
+        [
+          "DNS",
+          "wosol.net"
+        ],
+        [
+          "DNS",
+          "www.wosol.net"
+        ]
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://www.wosol.net/",
+      "status": 200,
+      "final": "https://www.wosol.net/"
+    },
+    {
+      "url": "https://www.wosol.net/register",
+      "status": 200,
+      "final": "https://www.wosol.net/register"
+    },
+    {
+      "url": "https://www.wosol.net/king-abdulaziz-university-transport",
+      "status": 200,
+      "final": "https://www.wosol.net/king-abdulaziz-university-transport"
+    },
+    {
+      "url": "https://www.wosol.net/employee-transport-jeddah",
+      "status": 200,
+      "final": "https://www.wosol.net/employee-transport-jeddah"
+    },
+    {
+      "url": "https://www.wosol.net/employee-transport-riyadh",
+      "status": 200,
+      "final": "https://www.wosol.net/employee-transport-riyadh"
+    },
+    {
+      "url": "https://www.wosol.net/corporate-transport-saudi-arabia",
+      "status": 200,
+      "final": "https://www.wosol.net/corporate-transport-saudi-arabia"
+    },
+    {
+      "url": "https://www.wosol.net/en/",
+      "status": 200,
+      "final": "https://www.wosol.net/en/"
+    },
+    {
+      "url": "https://www.wosol.net/en/register/",
+      "status": 200,
+      "final": "https://www.wosol.net/en/register/"
+    },
+    {
+      "url": "https://www.wosol.net/en/king-abdulaziz-university-transport/",
+      "status": 200,
+      "final": "https://www.wosol.net/en/king-abdulaziz-university-transport/"
+    },
+    {
+      "url": "https://www.wosol.net/en/employee-transport-jeddah/",
+      "status": 200,
+      "final": "https://www.wosol.net/en/employee-transport-jeddah/"
+    },
+    {
+      "url": "https://www.wosol.net/en/employee-transport-riyadh/",
+      "status": 200,
+      "final": "https://www.wosol.net/en/employee-transport-riyadh/"
+    },
+    {
+      "url": "https://www.wosol.net/en/corporate-transport-saudi-arabia/",
+      "status": 200,
+      "final": "https://www.wosol.net/en/corporate-transport-saudi-arabia/"
+    }
+  ],
+  "redirects": [
+    {
+      "host": "wosol.net",
+      "status": 200,
+      "final": "https://www.wosol.net/"
+    },
+    {
+      "host": "www.wosol.net",
+      "status": 200,
+      "final": "https://www.wosol.net:443/"
+    }
+  ]
+}
