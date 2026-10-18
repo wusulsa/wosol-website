@@ -1,5 +1,10 @@
 # WOSOL continuation — 2026-10-18
 
+## Scheduled reminder — 3 April 2027
+
+Owner requested a one-time reminder to verify origin certificate renewal and manual CDN synchronization. Created ACTIVE thread heartbeat reminder id `cdn` for 3 April 2027 at 09:00 Asia/Riyadh (06:00 UTC), single occurrence. This is a NEW reminder reusing the deleted incident-monitor id, not a restart of the old four-hour monitor. Notify once and delete after delivery. Reminder only: do not remove SSL or perform purchases/settings changes automatically. Saved automation was read back and verified.
+
+
 ## RESOLVED — CDN SSL replacement, 18 October 2026 15:08 Asia/Riyadh
 
 Supersedes ALL historical OPEN/awaiting-approval CDN notes below. Owner explicitly approved removal and temporary interruption. Removed old CDN SSL, immediately clicked Fetch from Hosting, and observed CUSTOM SSL / PROTECTED. Independent default-trust hostname checks now pass for BOTH public hostnames at CDN 162.0.212.2 with TLS 1.2 and TLS 1.3; SSL.com certificate expires 3 May 2027 21:12:15 UTC. Both SANs covered. HTTP redirects to HTTPS; all twelve sitemap pages return HTTPS 200. Exact interruption duration was not measured. No DNS/mail/purchase changes, no private key retrieved/shared, no new form submission.
