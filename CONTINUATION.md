@@ -1,5 +1,11 @@
 # WOSOL continuation — 2026-10-18
 
+## Search intent and buying journeys — 19 October 2026
+
+Read docs/audits/2026-10-18-search-demand-strategy-ar.md. Reviewed historical Ads under business account: cancelled/inactive, no reactivation/budget changes. Conversion columns inspected show dashes, so never claim keywords generated customers. Downloaded 2,436 search-term rows (local Downloads only); 38 Saudi/all-language Keyword Planner seeds, Oct2025–Sep2026; plan1442811164 is research only. Public report excludes raw financial exports. Arabic/English first; other-language examples are unvalidated hypotheses.
+GBP: saved and visibly verified three existing services (bus hire with driver/approved capacities, KAU female student transport Jeddah, staff transport for companies/institutions/authorities); no category/name/address change. Screenshot local qa/2026-10-18-google-services-refined.png.
+Added scripts/buyer-journeys.cjs to shared homepage: staff contracts, one-day/private-trip enquiry, procurement scope. Reuses quoteService employees/private. Contact moved after FAQ. Deployed both homepages via cPanel, ZIPs moved out of public_html. Public HTTPS 200/new section verified both languages; local browser selected private service in both without submission. Existing 12-page checker and 3 measurement tests pass. Evidence evidence/2026-10-19-buyer-journeys.json. Successful form submission remains DEFERRED; no messages or CRM entries created. Broad ongoing brand/profile improvement is iterative; no claim of comprehensive GBP verification or guaranteed rankings.
+
 ## DEPLOYED AND VERIFIED business consistency — 18 October 2026
 
 Supersedes deployment blocker immediately below. Owner reauthenticated; uploaded/extracted 13 public files (12 HTML + i18n), root pages verified0644, moved ZIP out of public_html. Public HTTPS all12 pages return200 with2013,17:00 and all4 approved Schema contacts. i18n v9 matches local after CRLF normalization; no extra CDN purge needed. Browser AR/EN both display approved office hours/year/phones. Google owner UI reloaded confirms saved hours/phones/description without pending indicator. Evidence docs/audits/evidence/2026-10-18-business-consistency.json. Successful form test remains DEFERRED. Google legal/display-name reconciliation remains separate, don't claim fully audited all GBP fields.
