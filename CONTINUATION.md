@@ -1,5 +1,12 @@
 # WOSOL continuation — 2026-10-18
 
+## Google production audit — 18 October 2026
+
+Read docs/audits/2026-10-18-google-production-audit-ar.md first. Production public GET audit passes all 12 sitemap routes (200, indexable metadata, canonical/hreflang, parsable JSON-LD). Actual PSI: AR home mobile 93 / desktop 100, EN home mobile 97, KAU mobile 98, EN Jeddah employees mobile 100; all tested accessibility/best-practices/SEO scores 100. No CrUX data; not a field CWV pass. Google Rich Results home and KAU each detect 2 valid items, no critical errors; home optional priceRange/postalCode warnings. IMPORTANT newly found production Schema phone remains +966566070705, awaiting correction and deployment.
+
+GSC personal and info accounts show add-property welcome, not accessible property; wosol.sa account signed out, owner asked to identify manager. GA4 existing property UI blocked by email preferences; permission question pending, property/stream relationship unverified. Live measurementId is empty: GA4 NOT active. GBP management IS accessible under info@wosol.net, superseding prior unavailable-account assumption. Website/WhatsApp correct; old vehicle capacities and old extra phone need reconciliation. Current listed hours Sun-Thu 09-16, not newly owner-approved. No Google settings, production code, DNS, or mail changes; no form submissions. Successful end-to-end test remains explicitly DEFERRED. Reports/evidence only, plus reusable public-read audit script.
+
+
 ## Scheduled reminder — 3 April 2027
 
 Owner requested a one-time reminder to verify origin certificate renewal and manual CDN synchronization. Created ACTIVE thread heartbeat reminder id `cdn` for 3 April 2027 at 09:00 Asia/Riyadh (06:00 UTC), single occurrence. This is a NEW reminder reusing the deleted incident-monitor id, not a restart of the old four-hour monitor. Notify once and delete after delivery. Reminder only: do not remove SSL or perform purchases/settings changes automatically. Saved automation was read back and verified.
