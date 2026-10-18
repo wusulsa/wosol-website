@@ -1,5 +1,10 @@
 # WOSOL continuation — 2026-10-18
 
+## Google activation — current verified status, 18 October 2026
+
+Supersedes historical Google setup notes below. GSC https://www.wosol.net/ VERIFIED for info@wosol.net after explicit approval; preserve root googleba2d858274e9bf1c.html. Sitemap processed successfully, 12 discovered URLs; homepage indexed and HTTPS. Other individual inspection pending. GA4 account 79923630, property 559491722, stream 16153335169, measurement G-HPZB25PR24, Saudi timezone/SAR, Enhanced Measurement OFF. Local/origin config updated. Arabic browser consent reject: no Google script; allow: correct tag. Realtime confirmed page_view/contact_whatsapp_click/first_visit/session_start, one test visitor. NO form/message submission. Clear Cache requested; browser got new config but independent FRA GET still empty ID; English activation unproved. Follow up CDN propagation and English before claiming full activation. Schema old phone/GBP consistency open. Successful submission DEFERRED. Do not publish staff counts. Latest dated Google audit is authoritative.
+
+
 ## Google setup follow-up — owner answers received
 
 Owner confirms no previous setup and authorizes info@wosol.net; email preferences saved with all marketing unchecked in personal and business account dialogs. GSC URL-prefix https://www.wosol.net/ added but NOT VERIFIED: HTML verification awaits hosting login/upload. Namecheap session expired; owner asked to log in (tab 18). GA4 business account “وسل WOSOL” exists with no properties; personal Firebase property is unrelated, do not reuse its measurement ID. Property creation wizard drafted “WOSOL — wosol.net”, Saudi timezone, SAR, Business & Industrial category; awaiting owner-required employee-size category before creation. No property/stream completed, no measurement ID, no production deployment. Successful submissions still deferred. Latest dated Google audit supersedes earlier account-blocker statements below.
