@@ -8,6 +8,12 @@ Public CDN still serves the OLD trusted Sectigo certificate expiring 22 October 
 
 Namecheap support Navin P. was informed of payment, origin success and CDN mismatch. Support escalated investigation and offered follow-up to the existing account email; case reference requested but not received as of 00:25 Asia/Riyadh. User explicitly requests continued support follow-up, final verification and updated references. Support says old coverage through 15 April 2027 is unused and not carried into the new renewal; no cancellation/refund authorized or requested. Future CDN reissue procedure remains unconfirmed. See docs/audits/2026-10-18-ssl-status-ar.md. Do not describe the whole site as fully secure based only on TLS checks.
 
+## CDN follow-up — 18 October 2026, 14:47 Asia/Riyadh
+
+Owner restored Namecheap login; the earlier 14:16 login blocker is resolved. Reached Christisara J. in live support. She says support cannot install the certificate in the CDN and recommends manual upload. The authenticated SSL page still exposes only CUSTOM SSL / PROTECTED / Remove. Asked for the exact removal impact, an outage-free replacement sequence and the prior escalation reference; no answer yet. Do not remove the current certificate without a confirmed safe plan. Downloaded the issued certificate and CA bundle locally; no private key was retrieved or shared. Support requested a screenshot, but the attachment chooser did not open; the UI state was described in chat instead. No CDN mutation occurred.
+
+Independent checks at 14:24 still found the old public certificate expiring 22 October 2026; all twelve sitemap pages returned HTTPS 200. CDN replacement is OPEN, not completed. No extra purchase, DNS/mail change or form submission. Scheduled follow-up remains bounded by 19 October 00:29 Asia/Riyadh or completion.
+
 ## Production launch — 17 October 2026 (supersedes prior production-unchanged notes)
 
 Owner explicitly requested upload after logging into Namecheap. Published the approved application from this checkout to the existing Apache/cPanel public_html using a public-assets-only ZIP (14,818,668 bytes). No Git/source/docs/reference PDFs included. Saved prior public_html as wosol-before-launch-20261017.zip outside the public root; archive completed at 3.99 MB. Deployment ZIP also remains outside the public root. DNS, mail, CRM and secondary-domain settings unchanged.
