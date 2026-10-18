@@ -1,5 +1,10 @@
 # WOSOL continuation — 2026-10-18
 
+## Search copy implementation — 19 October 2026
+
+Read docs/audits/2026-10-19-search-copy-implementation-ar.md. Shorter AR/EN titles and H1s for Jeddah/Riyadh; natural staff transportation/shuttle wording, rental/shift/contract intent in descriptions/body. Full companies/institutions/authorities audience retained in introductions. No duplicate city pages or service claims. GBP saved/reopened staff and bus rental descriptions with Jeddah/Riyadh priority, secondary regions conditional; Arabic service UI only, not a separate English GBP localization. No Ads changes; successful form test DEFERRED.
+Browser caught stale i18n overriding new HTML titles. New public path /js/i18n.v10.js generated from same dictionary/runtime to avoid CDN ignoring query strings; keep build in sync. Current report/evidence supersede prior query-only claim.
+
 ## Search intent and buying journeys — 19 October 2026
 
 Read docs/audits/2026-10-18-search-demand-strategy-ar.md. Reviewed historical Ads under business account: cancelled/inactive, no reactivation/budget changes. Conversion columns inspected show dashes, so never claim keywords generated customers. Downloaded 2,436 search-term rows (local Downloads only); 38 Saudi/all-language Keyword Planner seeds, Oct2025–Sep2026; plan1442811164 is research only. Public report excludes raw financial exports. Arabic/English first; other-language examples are unvalidated hypotheses.
@@ -193,3 +198,5 @@ Enlarged Yaris/RAV4 door logos about 44% and Staria 40%, retaining front-door ce
 
 ### Coverage and copy audit — 2026-10-14
 Added Al Khobar, Buraydah, Rabigh, Al Qassim, Bisha and Umluj. Single-source content/coverage.json drives the 14-entry count and regional service descriptions in both languages. Label is destinations and service areas, not 14 independent cities: Al Qassim includes Buraydah and NEOM is a project. Fixed missed Arabic للشركات variants in footer, service titles, metadata and translation dictionary; expanded to institutions and authorities without duplicates. Audited all generated pages, six added names, counter and large-bus default. Public preview banner corrected in workspace prepare-wosol-preview.cjs; forms remain disabled. Source 49684f14a1b57843da1831c890057ca3c3461eb0; deployment appgdep_6acfd15e4adc8191aa7ccaa43943813c succeeded.
+
+Search-copy final deployment VERIFIED: all13 public files200 and normalized bytes match local; browser Arabic Jeddah and English Riyadh titles confirmed after v10 path. ZIPs moved outside public_html. Evidence docs/audits/evidence/2026-10-19-search-copy.json.

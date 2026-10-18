@@ -3,8 +3,8 @@ exports.enrich = pages => {
   for (const p of pages) {
     if (p.kind === 'company') {
       const city=p.city==='jeddah'?'Jeddah':p.city==='riyadh'?'Riyadh':'Saudi Arabia';
-      p.title[1]=`Employee Transport in ${city} | WOSOL`;
-      p.h1[1]=`Employee transport in ${city}`;
+
+
       p.eyebrow[1]=`BUSINESS TRANSPORT · ${city.toUpperCase()}`;
       p.sections.push(
         [['ما الذي نحدده قبل التشغيل؟','What is agreed before operations begin?'],['يُحدد عرض الخدمة نقاط التجمع والوصول، وأيام التشغيل والورديات، والسعة المطلوبة، وتاريخ البداية ومدة العقد. تُراجع تغييرات المسار أو الأعداد مع الفريق قبل اعتمادها؛ ويحدد الاتفاق أثرها على السعر والجدول.','Your service proposal defines pickup and drop-off points, operating days and shifts, capacity, start date and contract duration. Route or headcount changes are reviewed before confirmation, including any effect on pricing and schedules.']],

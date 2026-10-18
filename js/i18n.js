@@ -162,9 +162,9 @@ const WASUL_I18N = {
     "international_contact": "من خارج المملكة: تواصل عبر الجوال الدولي أو واتساب أو البريد الإلكتروني. ساعات استقبال المكتب: الأحد–الخميس، 9 صباحًا–5 عصرًا بتوقيت السعودية؛ الجمعة والسبت مغلق.",
     "page_title_home": "وُسُل | نقل طالبات جامعة الملك عبدالعزيز ونقل موظفين في جدة والرياض",
     "page_title_king_abdulaziz_university_transport": "نقل طالبات جامعة الملك عبدالعزيز في جدة | وُسُل",
-    "page_title_employee_transport_jeddah": "نقل موظفين للشركات والمؤسسات والهيئات في جدة | عقود نقل موظفين — وُسُل",
-    "page_title_employee_transport_riyadh": "نقل موظفين للشركات والمؤسسات والهيئات في الرياض | حلول النقل المؤسسي — وُسُل",
-    "page_title_corporate_transport_saudi_arabia": "نقل الشركات والمؤسسات والهيئات والموظفين في السعودية | جدة والرياض — وُسُل"
+    "page_title_employee_transport_jeddah": "نقل موظفين في جدة | عقود شهرية وسنوية — وُسُل",
+    "page_title_employee_transport_riyadh": "نقل موظفين في الرياض | حافلات مع سائق — وُسُل",
+    "page_title_corporate_transport_saudi_arabia": "نقل موظفين في السعودية | جدة والرياض — وُسُل"
   },
   "en": {
     "nav_home": "Home",
@@ -326,7 +326,7 @@ const WASUL_I18N = {
     "quote_email": "Email address",
     "quote_job": "Job title (optional)",
     "international_contact": "Outside Saudi Arabia? Use our international mobile number, WhatsApp or email. Office reception: Sunday–Thursday, 9 AM–5 PM Saudi time; closed Friday and Saturday.",
-    "page_title_home": "WOSOL | Student & Employee Transport in Saudi Arabia",
+    "page_title_home": "WOSOL | Staff & Student Transport in Jeddah and Riyadh",
     "page_title_king_abdulaziz_university_transport": "King Abdulaziz University Student Transport in Jeddah | WOSOL",
     "page_title_employee_transport_jeddah": "Employee Transport in Jeddah | WOSOL",
     "page_title_employee_transport_riyadh": "Employee Transport in Riyadh | WOSOL",
