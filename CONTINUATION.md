@@ -1,5 +1,10 @@
 # WOSOL continuation — 2026-10-18
 
+## DEPLOYED AND VERIFIED business consistency — 18 October 2026
+
+Supersedes deployment blocker immediately below. Owner reauthenticated; uploaded/extracted 13 public files (12 HTML + i18n), root pages verified0644, moved ZIP out of public_html. Public HTTPS all12 pages return200 with2013,17:00 and all4 approved Schema contacts. i18n v9 matches local after CRLF normalization; no extra CDN purge needed. Browser AR/EN both display approved office hours/year/phones. Google owner UI reloaded confirms saved hours/phones/description without pending indicator. Evidence docs/audits/evidence/2026-10-18-business-consistency.json. Successful form test remains DEFERRED. Google legal/display-name reconciliation remains separate, don't claim fully audited all GBP fields.
+
+
 ## LATEST business facts / deployment blocked — 18 October 2026
 
 Owner confirms ALL four numbers valid: 0536060003 (primary), 0566070705, 0501844991, 920003790. Never label 056 obsolete again. Founded 2013; office Sun–Thu 09:00–17:00 Saudi, Fri/Sat closed. Google profile RELOADED and verified saved, no pending indicator: 3 mobiles in phone fields, unified in description (UI max 3 phones), January 2013 retained, five days close 17:00. Description capacities/license corrected. Screenshot docs/audits/qa/2026-10-18-google-office-hours.png (local only).
