@@ -1,5 +1,10 @@
 # WOSOL continuation — 2026-10-18
 
+## RESOLVED: CDN favicon and bilingual GA4, 18 October 2026
+
+Supersedes all prior pending CDN/English activation notes below. Saved and reloaded two CDN cache exceptions: /icon.ico and /js/measurement-config.js. Public HTTPS checks (FRA) now BYPASS with correct ID, icon SHA256 matches local. Updated config query to v=2 in all 12 HTML pages and generator; deployed HTML only, verified 0644, moved deployment ZIP out of public_html. Both homes 200/current config. Browser verifies correct gtag in Arabic and English; English Decline removes Google script, Allow enables it. GA4 Realtime displays BOTH home page titles plus page_view/contact_whatsapp_click. No message/form submission. Evidence: docs/audits/evidence/2026-10-18-cdn-ga4-verification.json. All 3 measurement tests and 12-page local check pass. Google SERP favicon refresh not yet observed; do not claim immediate Search change. Schema phone/GBP consistency/GSC detailed page checks remain open; successful submission DEFERRED. No DNS/SSL/mail change. Future assets need cache version increments and public verification.
+
+
 ## Search favicon — 18 October 2026
 
 Replaced crowded full-logo icon.ico with existing vector triangle from scripts/brand-motion.cjs, approved gold #F1B654 on dark #161e24. ICO includes 16/32/48/64/128/256; SVG and 512 PNG retained in assets/brand. Build: scripts/build-favicon.cjs (sharp, WOSOL_SHARP_MODULE override). Uploaded root icon.ico through cPanel; origin HTTPS bytes match local SHA256 D91389F0A84FFF5D691D3FC2C2E103AC294A74181A3096234002C4733A660B2E. CDN initially old; Clear Cache requested. Google appearance requires recrawl, not immediate or guaranteed. Full website logo unchanged. Prior ICO recoverable from Git. No form submissions or DNS changes.
