@@ -1,5 +1,9 @@
 # WOSOL continuation — 2026-10-18
 
+## Search Console review — 19 October 2026
+
+Read docs/audits/2026-10-19-search-console-reindex-ar.md and evidence/2026-10-19-search-console-requests.json. Eight reindex requests CONFIRMED accepted: home, Jeddah, Riyadh, corporate in AR/EN. Already indexed/HTTPS; acceptance is NOT completed recrawl. Four city details allow crawl/index, fetch success, matching Google canonical. Manual/security reports no issues; sitemap success12. Aggregate indexing report still processing; English city sitemap details show temporary processing error despite indexed pages and global sitemap success. Keep these open. Public12-page audit passed scoped checks. No Ads changes; successful submission DEFERRED.
+
 ## Search copy implementation — 19 October 2026
 
 Read docs/audits/2026-10-19-search-copy-implementation-ar.md. Shorter AR/EN titles and H1s for Jeddah/Riyadh; natural staff transportation/shuttle wording, rental/shift/contract intent in descriptions/body. Full companies/institutions/authorities audience retained in introductions. No duplicate city pages or service claims. GBP saved/reopened staff and bus rental descriptions with Jeddah/Riyadh priority, secondary regions conditional; Arabic service UI only, not a separate English GBP localization. No Ads changes; successful form test DEFERRED.
