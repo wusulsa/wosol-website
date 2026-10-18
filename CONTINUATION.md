@@ -14,6 +14,8 @@ Owner restored Namecheap login; the earlier 14:16 login blocker is resolved. Rea
 
 Independent checks at 14:24 still found the old public certificate expiring 22 October 2026; all twelve sitemap pages returned HTTPS 200. CDN replacement is OPEN, not completed. No extra purchase, DNS/mail change or form submission. Scheduled follow-up remains bounded by 19 October 00:29 Asia/Riyadh or completion.
 
+Support update at 14:55: Christisara J. confirms both removing/replacing SSL and rebuilding CDN may cause short downtime. Neither action performed. Requested exact downtime, Fetch availability after removal, rollback and escalation reference; awaiting clarification. A removal that interrupts TLS requires owner action-time approval under browser safety rules. Do not interpret general repair authorization as approval to remove protection. No private key was retrieved or transmitted.
+
 ## Production launch — 17 October 2026 (supersedes prior production-unchanged notes)
 
 Owner explicitly requested upload after logging into Namecheap. Published the approved application from this checkout to the existing Apache/cPanel public_html using a public-assets-only ZIP (14,818,668 bytes). No Git/source/docs/reference PDFs included. Saved prior public_html as wosol-before-launch-20261017.zip outside the public root; archive completed at 3.99 MB. Deployment ZIP also remains outside the public root. DNS, mail, CRM and secondary-domain settings unchanged.
