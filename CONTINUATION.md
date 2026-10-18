@@ -1,5 +1,10 @@
 # WOSOL continuation — 2026-10-18
 
+## Google setup follow-up — owner answers received
+
+Owner confirms no previous setup and authorizes info@wosol.net; email preferences saved with all marketing unchecked in personal and business account dialogs. GSC URL-prefix https://www.wosol.net/ added but NOT VERIFIED: HTML verification awaits hosting login/upload. Namecheap session expired; owner asked to log in (tab 18). GA4 business account “وسل WOSOL” exists with no properties; personal Firebase property is unrelated, do not reuse its measurement ID. Property creation wizard drafted “WOSOL — wosol.net”, Saudi timezone, SAR, Business & Industrial category; awaiting owner-required employee-size category before creation. No property/stream completed, no measurement ID, no production deployment. Successful submissions still deferred. Latest dated Google audit supersedes earlier account-blocker statements below.
+
+
 ## Google production audit — 18 October 2026
 
 Read docs/audits/2026-10-18-google-production-audit-ar.md first. Production public GET audit passes all 12 sitemap routes (200, indexable metadata, canonical/hreflang, parsable JSON-LD). Actual PSI: AR home mobile 93 / desktop 100, EN home mobile 97, KAU mobile 98, EN Jeddah employees mobile 100; all tested accessibility/best-practices/SEO scores 100. No CrUX data; not a field CWV pass. Google Rich Results home and KAU each detect 2 valid items, no critical errors; home optional priceRange/postalCode warnings. IMPORTANT newly found production Schema phone remains +966566070705, awaiting correction and deployment.
