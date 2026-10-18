@@ -1,5 +1,9 @@
 # WOSOL continuation — 2026-10-18
 
+## Consultant review and owner handoff — 19 October 2026
+
+Full named report: [المراجعة الاستشارية الشاملة لموقع وسل](docs/audits/2026-10-19-independent-consultant-review-ar.md). Evidence: docs/audits/evidence/2026-10-19-consultant-code-check.json. Review and public-code comparison COMPLETE; high-priority remediation NOT STARTED. Owner explicitly says work will start LATER, prioritizing A01 trustworthy registration confirmation and A02 unified website/Zoho intake paths. Do not treat iframe load as proof of CRM record creation; Forms fixes do not automatically apply to website CRM WebForm. Successful submission/consent-delivery/idempotency tests remain explicitly DEFERRED. No Ads activation, no website/Zoho mutations in this documentation-only turn. Existing indexing follow-up is separate. Report preserves distinctions between proven defects, risks requiring tests, and design recommendations.
+
 ## Remaining four indexing requests — 19 October 2026
 
 Total 11 ACCEPTED of 12 attempted. Additional accepted: /register, /en/register/, /king-abdulaziz-university-transport. Arabic /register was NOT INDEXED (URL unknown) before accepted request; monitor actual indexing. English KAU /en/king-abdulaziz-university-transport/ already indexed/HTTPS but request NOT ACCEPTED: daily quota exceeded, Google says retry tomorrow. Do not claim all12 requests accepted or all12 indexed. Retry only pending URL after quota resets. No bypass/repeated requests, no Ads, successful form test DEFERRED. Updated same Search Console report and evidence JSON.

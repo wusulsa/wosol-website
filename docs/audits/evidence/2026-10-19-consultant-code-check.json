@@ -1,0 +1,17 @@
+{
+  "js/crm-submit.js": {
+    "status": 200,
+    "matches_local": true,
+    "sha256": "f8233bfee10c15462c0de3b27e8aea40b8fd97193cdbd03de97554a59d1710e5"
+  },
+  "js/form.js": {
+    "status": 200,
+    "matches_local": true,
+    "sha256": "0fb76f44e0432b6eb06637b042aacd3711aa0876a3cc3edde20926e5c10a11fb"
+  },
+  "js/email-submit.js": {
+    "status": 200,
+    "matches_local": true,
+    "sha256": "2124d2b2141999597aac4fe8efe4d255465f50cb08ee0f94f99949993d1ce3dc"
+  }
+}
