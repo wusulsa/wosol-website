@@ -110,5 +110,8 @@
   "اكتب الاسم الثلاثي كاملاً (ثلاثة أسماء) بحروف فقط": "Enter at least three names, using letters only",
   "الرابط غير صحيح — الصق رابط الموقع من قوقل ماب (يبدأ بـ https://)": "Paste a valid Google Maps location link starting with https://",
   "البريد الإلكتروني غير صحيح": "Enter a valid email address",
-  "الهوية يجب أن تكون 10 أرقام وتبدأ بـ 1 (سعودي) أو 2 (مقيم)": "Enter a 10-digit ID starting with 1 (Saudi national) or 2 (resident)"
+  "الهوية يجب أن تكون 10 أرقام وتبدأ بـ 1 (سعودي) أو 2 (مقيم)": "Enter a 10-digit ID starting with 1 (Saudi national) or 2 (resident)",
+  "خصوصية بياناتك": "Your Privacy",
+  "تستخدم وُسُل البيانات المقدّمة لمراجعة طلبك والتواصل معك بشأن الخدمة المطلوبة. تُنقل بيانات النموذج وأي مرفقات عبر خدمة (FormSubmit) إلى عناوين البريد المعتمدة لدى وُسُل، ويقتصر الوصول إليها داخل الشركة على الإدارة المخوّلة.": "WOSOL uses the information you provide to review your request and contact you about the service you require. Form submissions and any attachments are transmitted through FormSubmit to WOSOL’s designated email addresses. Access within WOSOL is restricted to authorised management personnel.",
+  "إرفاق المستندات اختياري؛ يُرجى الاقتصار على المعلومات والمستندات اللازمة لمعالجة طلبك. للاستفسار عن استخدام بياناتك أو طلب تصحيحها أو حذفها، يُرجى التواصل عبر": "Attachments are optional. Please provide only the information and documents necessary to process your request. For enquiries about how your information is used, or to request its correction or deletion, please contact"
 }
