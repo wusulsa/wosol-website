@@ -29,7 +29,7 @@ class Page(HTMLParser):
     def handle_data(self, data):
         if self.english and not self.skip and re.search(r'[\u0600-\u06ff]{2,}',data): self.arabic.append(' '.join(data.split()))
 
-files=[ROOT/'index.html',ROOT/'register.html',ROOT/'king-abdulaziz-university-transport.html',ROOT/'employee-transport-jeddah.html',ROOT/'employee-transport-riyadh.html',ROOT/'corporate-transport-saudi-arabia.html',*sorted((ROOT/'en').rglob('*.html'))]
+files=[p for p in ROOT.glob('*.html') if '<link rel="canonical"' in p.read_text(encoding='utf-8')]+sorted((ROOT/'en').rglob('*.html'))
 pages={p:Page(p) for p in files}
 errors=[]
 def resolve(url,current):
@@ -54,7 +54,7 @@ for file,p in pages.items():
         elif u.fragment and dest in pages and u.fragment not in pages[dest].ids:errors.append(f'{file}: broken anchor {link}')
     if p.arabic:errors.append(f'{file}: untranslated English text: {p.arabic}')
 tree=ET.parse(ROOT/'sitemap.xml')
-if len(tree.getroot())!=12:errors.append('Expected 12 sitemap entries')
-if len(set(p.canonical[0] for p in pages.values()))!=12:errors.append('Duplicate canonical')
+if len(tree.getroot())!=28:errors.append('Expected 28 sitemap entries')
+if len(set(p.canonical[0] for p in pages.values()))!=28:errors.append('Duplicate canonical')
 if errors:raise SystemExit('\n'.join(errors))
-print('PASS: 12 pages; local assets/links/anchors, unique IDs/H1/canonical, hreflang, English text and sitemap.')
+print('PASS: 28 pages; local assets/links/anchors, unique IDs/H1/canonical, hreflang, English text and sitemap.')
