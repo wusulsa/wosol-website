@@ -5,7 +5,7 @@ const assert=require('node:assert/strict');
 const {File}=require('node:buffer');
 let captured;
 class FakeFormData extends FormData { constructor(form){super(); for(const [k,v] of form.entries)this.append(k,v);} }
-const ctx={File,FormData:FakeFormData,Date,parseInt,document:{title:'Test',documentElement:{lang:'ar'}},window:{location:{origin:'https://www.wosol.net',pathname:'/'}},sessionStorage:{getItem:()=>null,setItem:()=>{}},fetch:async(url,options)=>{captured={url,options};return {ok:true,json:async()=>({success:true})};}};
+const ctx={AbortController,setTimeout,clearTimeout,File,FormData:FakeFormData,Date,parseInt,document:{title:'Test',documentElement:{lang:'ar'}},window:{location:{origin:'https://www.wosol.net',pathname:'/'}},sessionStorage:{getItem:()=>null,setItem:()=>{}},fetch:async(url,options)=>{captured={url,options};return {ok:true,json:async()=>({success:true})};}};
 vm.runInNewContext(readFileSync('js/email-submit.js','utf8'),ctx);
 const api=ctx.window.WASUL_EMAIL;
 function form(files=[]){return {entries:[['email','qa@example.test'],...files.map((f,i)=>['attachment_'+i,f])],elements:[],querySelector:()=>({value:'qa@example.test'}),querySelectorAll:()=>files.map(f=>({files:[f]}))};}

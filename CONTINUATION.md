@@ -1,3 +1,7 @@
+## تحسين الأولويات العالية — 19 أكتوبر 2026
+
+إصلاح مهلة البريد والتزامن والتخزين والرد الصريح في المصدر؛ اختبارات محاكاة ناجحة وبناء 32 صفحة. لم ينشر الإصدار الجديد على الاستضافة. المرجع الحالي docs/audits/OPEN-ITEMS.md وتقرير 2026-10-19-high-priority-hardening-ar.md ومسودة خصوصية للمراجعة. لا إرسال ناجح ولا إعلانات ولا تغيير تسجيل الطالبات. متابعة Google غدًا قائمة.
+
 ## خدمات Google — تحديث 19 أكتوبر 2026
 
 أضيفت 8 خدمات وحُدثت 3 قائمة، مع إعادة فتح والتحقق من الأسماء والأوصاف. Google pending review حتى يوم حسب الواجهة؛ لا ادعاء نشر عام نهائي. sitemap أعيد إرساله بنجاح، وآخر عداد ظاهر 28 بينما المنشور32. طلب vehicle-rental-without-driver رُفض daily quota؛ URL مكتشف غير مفهرس. متابعة20 صفحة خدمات جديدة + المعلقات الأقدم، دون تجاوز الحصة. لا إعلانات، اختبار ناجح مؤجل. المرجع: [مزامنة خدمات Google](docs/audits/2026-10-19-google-services-sync-ar.md).
@@ -274,3 +278,4 @@ Enlarged Yaris/RAV4 door logos about 44% and Staria 40%, retaining front-door ce
 Added Al Khobar, Buraydah, Rabigh, Al Qassim, Bisha and Umluj. Single-source content/coverage.json drives the 14-entry count and regional service descriptions in both languages. Label is destinations and service areas, not 14 independent cities: Al Qassim includes Buraydah and NEOM is a project. Fixed missed Arabic للشركات variants in footer, service titles, metadata and translation dictionary; expanded to institutions and authorities without duplicates. Audited all generated pages, six added names, counter and large-bus default. Public preview banner corrected in workspace prepare-wosol-preview.cjs; forms remain disabled. Source 49684f14a1b57843da1831c890057ca3c3461eb0; deployment appgdep_6acfd15e4adc8191aa7ccaa43943813c succeeded.
 
 Search-copy final deployment VERIFIED: all13 public files200 and normalized bytes match local; browser Arabic Jeddah and English Riyadh titles confirmed after v10 path. ZIPs moved outside public_html. Evidence docs/audits/evidence/2026-10-19-search-copy.json.
+

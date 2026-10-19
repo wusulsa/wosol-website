@@ -6,6 +6,9 @@
   const CONTACT_RECIPIENT = 'info@wosol.net';        // مستلم نماذج التواصل
   const CONTACT_CC = 'atef-alreemi@wosol.net,a@wosol.net';             // نسخة كربونية لنماذج التواصل
 
+  const pending = new WeakSet();
+  let lastAttempt = 0;
+
   const endpointFor = email => `https://formsubmit.co/ajax/${encodeURIComponent(email)}`;
 
   function readableName(name) {
@@ -49,24 +52,32 @@
    */
   async function submitForm(form, subject, options = {}) {
     validateAttachments(form);
+    // Per-form in-memory lock also works when browser storage is unavailable.
+    if (pending.has(form)) throw new Error('Request already in progress');
     const now = Date.now();
-    const last = parseInt(sessionStorage.getItem('_wasul_last_submit') || '0', 10);
-    if (now - last < 30000) {
-      throw new Error('يرجى الانتظار 30 ثانية قبل إرسال طلب آخر');
+    let last = lastAttempt;
+    try { last = Math.max(last, Number(sessionStorage.getItem('_wasul_last_submit')) || 0); } catch { /* private browsing */ }
+    if (now - last < 30000) throw new Error('Please wait before retrying');
+    const body = collectFormData(form, subject, options.cc);
+    lastAttempt = now;
+    try { sessionStorage.setItem('_wasul_last_submit', String(now)); } catch { /* memory fallback */ }
+    pending.add(form);
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 25000);
+    try {
+      const response = await fetch(endpointFor(options.to || RECIPIENT_EMAIL), {
+        method: 'POST', headers: { Accept: 'application/json' }, body,
+        signal: controller.signal,
+      });
+      if (!response.ok) throw new Error('Email provider rejected request');
+      const result = await response.json();
+      if (result?.success !== true && result?.success !== 'true') throw new Error('Acceptance not confirmed');
+      return result;
+    } finally {
+      clearTimeout(timer);
+      pending.delete(form);
     }
-    sessionStorage.setItem('_wasul_last_submit', String(now));
-
-    const response = await fetch(endpointFor(options.to || RECIPIENT_EMAIL), {
-      method: 'POST',
-      headers: { Accept: 'application/json' },
-      body: collectFormData(form, subject, options.cc),
-    });
-
-    if (!response.ok) {
-      throw new Error(`Email submit failed with status ${response.status}`);
-    }
-
-    return response.json().catch(() => ({}));
+    // An abort cannot prove the provider did not process the request. Never auto-retry.
   }
 
   function validateAttachments(form) {
