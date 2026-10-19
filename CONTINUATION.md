@@ -296,3 +296,6 @@ Search-copy final deployment VERIFIED: all13 public files200 and normalized byte
 
 ## Latest UI review — 20 October 2026
 See docs/audits/2026-10-20-preview-visual-review-ar.md. Preview-only footer alignment and attachment spacing corrected. 32 routes × 2 widths checked, with representative visual samples and a 320px English quote check. Do not copy preview dist to production: noindex, submission guard and state-demo UI must be handled during approved source migration. Production unchanged; no successful submission tested.
+
+## 20 أكتوبر — المراجعة النهائية للمسارات والباص
+كُبّر الباص 12% مع الحفاظ على الشريط والحركة والإيقاف. فحص الرئيسية AR/EN عند خمسة مقاسات 320–1365px بلا خروج للعناوين أو تمرير أفقي، ونجاح فحص32 صفحة. اعتُمدت تسمية الرحلات والفعاليات في التنقل والعناوين. التقرير: docs/audits/2026-10-20-final-preview-paths-ar.md. المعاينة فقط، والنشر الرسمي ينتظر الاعتماد ونقل القوالب دون أدوات التجربة أو حارس منع الإرسال.
