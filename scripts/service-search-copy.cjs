@@ -1,5 +1,13 @@
 // Concise, service-specific search copy. No fixed ranking or snippet-length promise.
 module.exports = {
+  'vehicle-rental-without-driver': [
+    ['تأجير مركبات بدون سائق في جدة والرياض | وُسُل', 'Vehicle Rental without Driver in Jeddah & Riyadh | WOSOL'],
+    ['تأجير مركبات بدون سائق في جدة والرياض للجهات والأفراد وفق التوافر. حدد الفئة والمدة وموقع الاستلام لعرض يوضح التأمين والاستخدام والمسؤوليات.', 'Vehicle rental without a driver in Jeddah and Riyadh. Share the vehicle category, rental period and pickup location for availability and a clear quote.']
+  ],
+  'driver-only-services': [
+    ['توفير سائقين دون مركبات في جدة والرياض | وُسُل', 'Driver-Only Services in Jeddah & Riyadh | WOSOL'],
+    ['توفير سائقين لقيادة مركبات العميل في جدة والرياض. حدد عدد السائقين ونوع المركبات والورديات والمدة لطلب عرض يوضح نطاق الخدمة والمسؤوليات.', 'Driver-only services for customer-provided vehicles in Jeddah and Riyadh. Share vehicle types, shifts and duration for a quote covering your requirements.']
+  ],
   'workforce-project-transport': [
     ['نقل العمال وفرق المشاريع في جدة والرياض | وُسُل', 'Workforce Transport in Jeddah & Riyadh | WOSOL'],
     ['نقل العمال وفرق المشاريع في جدة والرياض. مسارات بين السكن ومواقع العمل وفق الورديات وأيام التشغيل. اطلب عرض سعر يوضح نطاق الخدمة والتكلفة.', 'Workforce transport in Jeddah and Riyadh, planned around accommodation, worksites and shifts. Request a quote for your project and operating schedule.']

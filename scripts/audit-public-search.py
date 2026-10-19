@@ -2,7 +2,7 @@
 from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit
-import urllib.request, xml.etree.ElementTree as ET, json, concurrent.futures, datetime
+import sys, urllib.request, xml.etree.ElementTree as ET, json, concurrent.futures, datetime
 BASE='https://www.wosol.net'
 class Page(HTMLParser):
  def __init__(self,text):
@@ -37,12 +37,12 @@ def check(url):
   if p.alternates!=expected.alternates:errors.append('hreflang')
   if 'noindex' in (p.meta.get('robots','')+str(headers.get('X-Robots-Tag',''))).lower():errors.append('noindex')
   if p.schema!=expected.schema:errors.append('schema_mismatch')
-  return dict(url=url,status=status,title=p.title,description=p.meta.get('description'),title_length=len(p.title),description_length=len(p.meta.get('description','')),canonical=p.canonical,hreflang=p.alternates,schema_json_valid=bool(p.schema),runtime_v13='i18n.v13.js' in html,errors=errors)
+  return dict(url=url,status=status,title=p.title,description=p.meta.get('description'),title_length=len(p.title),description_length=len(p.meta.get('description','')),canonical=p.canonical,hreflang=p.alternates,schema_json_valid=bool(p.schema),runtime_matches_expected=('i18n.v14.js' in html if 'register' not in path else 'i18n.v11.js' in html),errors=errors)
  except Exception as e:return dict(url=url,errors=[str(e)])
 if __name__=='__main__':
  status,_,_,sitemap=get(BASE+'/sitemap.xml');urls=[e.text for e in ET.fromstring(sitemap).iter('{http://www.sitemaps.org/schemas/sitemap/0.9}loc')]
  with concurrent.futures.ThreadPoolExecutor(max_workers=4) as ex:results=list(ex.map(check,urls))
  robots=get(BASE+'/robots.txt')[3]
  result={'checked_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'sitemap_status':status,'url_count':len(urls),'robots_txt':robots,'pages':results,'scope':'HTTP, metadata and JSON-LD consistency; not Google indexing or rich-result certification'}
- Path('docs/audits/evidence/2026-10-19-editorial-public-audit.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
+ Path(sys.argv[1] if len(sys.argv)>1 else 'docs/audits/evidence/2026-10-19-editorial-public-audit.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
  print(json.dumps({'total':len(results),'passed':sum(not p['errors'] for p in results),'errors':[p for p in results if p['errors']]},ensure_ascii=False))

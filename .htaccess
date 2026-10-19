@@ -56,9 +56,9 @@ Options -Indexes
   RewriteRule ^student-transport-jeddah(?:\.html)?/?$ /king-abdulaziz-university-transport [R=301,L]
 
   # Canonical, crawlable service URLs. English pages use real directories.
-  RewriteCond %{THE_REQUEST} \s/+(king-abdulaziz-university-transport|employee-transport-jeddah|employee-transport-riyadh|corporate-transport-saudi-arabia|workforce-project-transport|private-day-trips|event-conference-transport|airport-hotel-transfers|intercity-group-transport|tourism-transport|umrah-visitor-transport|executive-vip-transport)\.html[\s?] [NC]
-  RewriteRule ^(king-abdulaziz-university-transport|employee-transport-jeddah|employee-transport-riyadh|corporate-transport-saudi-arabia|workforce-project-transport|private-day-trips|event-conference-transport|airport-hotel-transfers|intercity-group-transport|tourism-transport|umrah-visitor-transport|executive-vip-transport)\.html$ /$1 [R=301,L]
-  RewriteRule ^(king-abdulaziz-university-transport|employee-transport-jeddah|employee-transport-riyadh|corporate-transport-saudi-arabia|workforce-project-transport|private-day-trips|event-conference-transport|airport-hotel-transfers|intercity-group-transport|tourism-transport|umrah-visitor-transport|executive-vip-transport)/?$ $1.html [L]
+  RewriteCond %{THE_REQUEST} \s/+(king-abdulaziz-university-transport|employee-transport-jeddah|employee-transport-riyadh|corporate-transport-saudi-arabia|workforce-project-transport|private-day-trips|event-conference-transport|airport-hotel-transfers|intercity-group-transport|tourism-transport|umrah-visitor-transport|executive-vip-transport|vehicle-rental-without-driver|driver-only-services)\.html[\s?] [NC]
+  RewriteRule ^(king-abdulaziz-university-transport|employee-transport-jeddah|employee-transport-riyadh|corporate-transport-saudi-arabia|workforce-project-transport|private-day-trips|event-conference-transport|airport-hotel-transfers|intercity-group-transport|tourism-transport|umrah-visitor-transport|executive-vip-transport|vehicle-rental-without-driver|driver-only-services)\.html$ /$1 [R=301,L]
+  RewriteRule ^(king-abdulaziz-university-transport|employee-transport-jeddah|employee-transport-riyadh|corporate-transport-saudi-arabia|workforce-project-transport|private-day-trips|event-conference-transport|airport-hotel-transfers|intercity-group-transport|tourism-transport|umrah-visitor-transport|executive-vip-transport|vehicle-rental-without-driver|driver-only-services)/?$ $1.html [L]
 
   # /register يعرض register.html داخلياً
   RewriteRule ^register/?$ register.html [L]
