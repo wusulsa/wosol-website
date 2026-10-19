@@ -165,7 +165,7 @@ document.querySelectorAll('section[id]').forEach(sec => sectionObserver.observe(
 /* ══════════════════════════════════════════════════════════════
    ASYNC FORM HANDLER
    ══════════════════════════════════════════════════════════════ */
-/** نماذج التواصل (استفسار · شكوى · عرض سعر) تصل إلى info@wosol.net ونسخة إلى omar-b@wosol.net */
+/** نماذج التواصل (استفسار · شكوى · عرض سعر) تصل إلى info@wosol.net ونسخة إلى atef-alreemi@wosol.net وa@wosol.net */
 async function sendSiteForm(form, subject) {
   if (!window.WASUL_EMAIL?.submitForm) {
     throw new Error('Email submit helper is not loaded');
@@ -181,8 +181,10 @@ function bindAsyncForm(formId, successId, messageKey, subject) {
   const success = document.getElementById(successId);
   if (!form || !success) return;
 
+  let submitting = false;
   form.addEventListener('submit', async e => {
     e.preventDefault();
+    if (submitting) return;
 
     // Validate before any network request; do not alter student registration here.
     for (const field of form.querySelectorAll('input[required], textarea[required]')) {
@@ -196,6 +198,9 @@ function bindAsyncForm(formId, successId, messageKey, subject) {
       phone.addEventListener('input',()=>phone.setCustomValidity(''),{once:true});
     }
     if (!form.reportValidity()) return;
+    try { window.WASUL_EMAIL?.validateAttachments(form); }
+    catch (error) { Utils.setText(success, error.message); success.classList.add('visible'); return; }
+    submitting = true;
     const btn = form.querySelector('button[type="submit"]');
     const btnSpan = btn?.querySelector('span');
     const original = btnSpan?.textContent ?? '';
@@ -219,16 +224,16 @@ function bindAsyncForm(formId, successId, messageKey, subject) {
 
       setTimeout(() => success.classList.remove('visible'), 6000);
     } catch (error) {
-      console.error(error);
+      console.warn('Contact request acceptance could not be confirmed');
       if (btn) btn.disabled = false;
       if (btnSpan) Utils.setText(btnSpan, original);
       btn?.classList.remove('loading');
 
       Utils.setText(success, state.lang === 'ar'
-        ? 'تعذر إرسال الطلب الآن. يرجى المحاولة مرة أخرى.'
-        : 'Could not send the request right now. Please try again.');
+        ? 'تعذر تأكيد استلام الطلب. احتفظنا بمدخلاتك؛ تواصل معنا على 920003790 قبل إعادة الإرسال لتجنب التكرار.'
+        : 'We could not confirm receipt. Your entries are preserved; contact info@wosol.net before resending to avoid duplicates.');
       success.classList.add('visible');
-    }
+    } finally { submitting = false; }
   });
 }
 
@@ -387,9 +392,9 @@ function initScrollReveal() {
    FORMS INIT
    ══════════════════════════════════════════════════════════════ */
 function initForms() {
-  bindAsyncForm('contactForm', 'formSuccess', 'contact_success', 'طلب تواصل جديد من موقع وُسُل');
-  bindAsyncForm('complaintForm', 'complaintSuccess', 'complaint_success', 'شكوى جديدة من موقع وُسُل');
-  bindAsyncForm('quoteForm', 'quoteSuccess', 'quote_success', 'طلب عرض سعر جديد من موقع وُسُل');
+  bindAsyncForm('contactForm', 'formSuccess', 'contact_success', '[وسل | استفسار] طلب جديد');
+  bindAsyncForm('complaintForm', 'complaintSuccess', 'complaint_success', '[وسل | شكوى] طلب جديد');
+  bindAsyncForm('quoteForm', 'quoteSuccess', 'quote_success', '[وسل | عرض سعر] طلب جديد');
 }
 
 /* ══════════════════════════════════════════════════════════════

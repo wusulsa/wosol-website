@@ -74,7 +74,7 @@
     "contact_subject": "نوع الخدمة المطلوبة",
     "contact_message": "تفاصيل الطلب",
     "contact_send": "إرسال الطلب",
-    "contact_success": "تم استلام رسالتك! سيتواصل معك فريقنا خلال 24 ساعة.",
+    "contact_success": "قبلت خدمة البريد طلبك للإرسال. هذا ليس تأكيد حجز أو اعتماد عرض سعر.",
     "contact_info_phone": "920003790",
     "contact_info_email": "info@wosol.net",
     "complaint_name": "الاسم الكامل",
@@ -83,7 +83,7 @@
     "complaint_date": "تاريخ الواقعة",
     "complaint_desc": "وصف الشكوى",
     "complaint_send": "إرسال الشكوى",
-    "complaint_success": "تم استلام شكواك! سنتواصل معك خلال 24 ساعة.",
+    "complaint_success": "قبلت خدمة البريد طلبك للإرسال. هذا ليس تأكيد حجز أو اعتماد عرض سعر.",
     "quote_org": "اسم الجهة / الشركة",
     "quote_service": "نوع الخدمة المطلوبة",
     "quote_count": "العدد المتوقع للأشخاص",
@@ -91,7 +91,7 @@
     "quote_notes": "المسار والورديات وأيام التشغيل (اختياري)",
     "quote_send": "طلب عرض السعر",
     "quote_service_specialized": "النقل المتخصص",
-    "quote_success": "تم استلام طلبك! سيتواصل معك فريق المبيعات خلال 24 ساعة.",
+    "quote_success": "قبلت خدمة البريد طلبك للإرسال. هذا ليس تأكيد حجز أو اعتماد عرض سعر.",
     "page_title_register": "تسجيل اشتراك النقل التعليمي | وُسُل للنقل",
     "reg_hero_title": "اشتراك نقل الطالبات",
     "reg_hero_sub": "أكملي بياناتك لطلب الاشتراك في النقل الجامعي. يراجع الفريق التغطية والتوافر قبل تأكيد الخدمة.",
@@ -158,7 +158,11 @@
     "quote_phone": "رقم الجوال مع رمز الدولة",
     "quote_email": "البريد الإلكتروني",
     "quote_job": "المسمى الوظيفي (اختياري)",
-    "international_contact": "من خارج المملكة: تواصل عبر الجوال الدولي أو واتساب أو البريد الإلكتروني. ساعات استقبال المكتب: الأحد–الخميس، 9 صباحًا–5 عصرًا بتوقيت السعودية؛ الجمعة والسبت مغلق."
+    "international_contact": "من خارج المملكة: تواصل عبر الجوال الدولي أو واتساب أو البريد الإلكتروني. ساعات استقبال المكتب: الأحد–الخميس، 9 صباحًا–5 عصرًا بتوقيت السعودية؛ الجمعة والسبت مغلق.",
+    "quote_commercial": "السجل التجاري (اختياري)",
+    "quote_tax": "الشهادة الضريبية (اختياري)",
+    "quote_address": "العنوان الوطني (اختياري)",
+    "quote_file_help": "PDF أو JPG أو PNG، حتى 3 ميجابايت لكل ملف و9 ميجابايت إجمالاً. المرفقات اختيارية وتُرسل مع الطلب عبر خدمة البريد FormSubmit."
   },
   "en": {
     "nav_home": "Home",
@@ -235,7 +239,7 @@
     "contact_subject": "Service Required",
     "contact_message": "Request Details",
     "contact_send": "Send Request",
-    "contact_success": "Message received! Our team will contact you within 24 hours.",
+    "contact_success": "The email service accepted your request for delivery. This is not a booking or quote confirmation.",
     "contact_info_phone": "920003790",
     "contact_info_email": "info@wosol.net",
     "complaint_name": "Full Name",
@@ -244,7 +248,7 @@
     "complaint_date": "Incident Date",
     "complaint_desc": "Complaint Description",
     "complaint_send": "Submit Complaint",
-    "complaint_success": "Complaint received! We will contact you within 24 hours.",
+    "complaint_success": "The email service accepted your request for delivery. This is not a booking or quote confirmation.",
     "quote_org": "Organization / Company Name",
     "quote_service": "Service Required",
     "quote_count": "Expected Number of Passengers",
@@ -252,7 +256,7 @@
     "quote_notes": "Routes, shifts and operating days (optional)",
     "quote_send": "Request a Quote",
     "quote_service_specialized": "Specialized Transport",
-    "quote_success": "Request received! Our sales team will contact you within 24 hours.",
+    "quote_success": "The email service accepted your request for delivery. This is not a booking or quote confirmation.",
     "page_title_register": "Educational Transport Registration | wosol",
     "reg_hero_title": "Student transport registration",
     "reg_hero_sub": "Submit your university transport request. Our team reviews coverage and availability before confirming the service.",
@@ -319,6 +323,10 @@
     "quote_phone": "Mobile number with country code",
     "quote_email": "Email address",
     "quote_job": "Job title (optional)",
-    "international_contact": "Outside Saudi Arabia? Use our international mobile number, WhatsApp or email. Office reception: Sunday–Thursday, 9 AM–5 PM Saudi time; closed Friday and Saturday."
+    "international_contact": "Outside Saudi Arabia? Use our international mobile number, WhatsApp or email. Office reception: Sunday–Thursday, 9 AM–5 PM Saudi time; closed Friday and Saturday.",
+    "quote_commercial": "Commercial registration (optional)",
+    "quote_tax": "Tax certificate (optional)",
+    "quote_address": "National address (optional)",
+    "quote_file_help": "PDF, JPG or PNG: up to 3 MB per file and 9 MB total. Attachments are optional and sent with your request through FormSubmit."
   }
 }

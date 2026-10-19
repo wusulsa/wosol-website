@@ -144,7 +144,7 @@
 
         <!-- Panel 3: Quote Request -->
         <div class="contact-panel" id="panel-quote" role="tabpanel" aria-labelledby="tab-quote" hidden>
-          <form class="contact-form" id="quoteForm" novalidate autocomplete="on"><div class="form-group"><label for="qt-contact" data-i18n="quote_contact">اسم مسؤول التواصل</label><input id="qt-contact" name="qt-contact" type="text" autocomplete="name" maxlength="100" required ></div>
+          <form class="contact-form" id="quoteForm" enctype="multipart/form-data" novalidate autocomplete="on"><div class="form-group"><label for="qt-contact" data-i18n="quote_contact">اسم مسؤول التواصل</label><input id="qt-contact" name="qt-contact" type="text" autocomplete="name" maxlength="100" required ></div>
 <div class="form-group"><label for="qt-phone" data-i18n="quote_phone">رقم الجوال مع رمز الدولة</label><input id="qt-phone" name="qt-phone" type="tel" autocomplete="tel" maxlength="100" required dir="ltr"></div>
 <div class="form-group"><label for="qt-email" data-i18n="quote_email">البريد الإلكتروني</label><input id="qt-email" name="qt-email" type="email" autocomplete="email" maxlength="254" required dir="ltr"></div>
 <div class="form-group"><label for="qt-job" data-i18n="quote_job">المسمى الوظيفي (اختياري)</label><input id="qt-job" name="qt-job" type="text" autocomplete="organization-title" maxlength="100"  ></div>
@@ -176,6 +176,11 @@
               <label for="qt-notes" data-i18n="quote_notes">ملاحظات إضافية</label>
               <textarea id="qt-notes" name="qt-notes" rows="3" placeholder="أي تفاصيل إضافية تساعدنا في تقديم عرض دقيق..."></textarea>
             </div>
+<div class="quote-attachments">
+<div class="form-group"><label for="qt-commercial" data-i18n="quote_commercial">السجل التجاري (اختياري)</label><input type="file" id="qt-commercial" name="attachment_commercial" accept=".pdf,.jpg,.jpeg,.png" aria-describedby="quote-file-help"></div>
+<div class="form-group"><label for="qt-tax" data-i18n="quote_tax">الشهادة الضريبية (اختياري)</label><input type="file" id="qt-tax" name="attachment_tax" accept=".pdf,.jpg,.jpeg,.png" aria-describedby="quote-file-help"></div>
+<div class="form-group"><label for="qt-address" data-i18n="quote_address">العنوان الوطني (اختياري)</label><input type="file" id="qt-address" name="attachment_address" accept=".pdf,.jpg,.jpeg,.png" aria-describedby="quote-file-help"></div>
+<p id="quote-file-help" data-i18n="quote_file_help">PDF أو JPG أو PNG، حتى 3 ميجابايت لكل ملف و9 ميجابايت إجمالاً. المرفقات اختيارية وتُرسل مع الطلب عبر خدمة البريد FormSubmit.</p></div>
             <button type="submit" class="btn btn--primary btn--full">
               <span data-i18n="quote_send">طلب عرض السعر</span>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
