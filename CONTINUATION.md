@@ -293,3 +293,6 @@ Added Al Khobar, Buraydah, Rabigh, Al Qassim, Bisha and Umluj. Single-source con
 
 Search-copy final deployment VERIFIED: all13 public files200 and normalized bytes match local; browser Arabic Jeddah and English Riyadh titles confirmed after v10 path. ZIPs moved outside public_html. Evidence docs/audits/evidence/2026-10-19-search-copy.json.
 
+
+## Latest UI review — 20 October 2026
+See docs/audits/2026-10-20-preview-visual-review-ar.md. Preview-only footer alignment and attachment spacing corrected. 32 routes × 2 widths checked, with representative visual samples and a 320px English quote check. Do not copy preview dist to production: noindex, submission guard and state-demo UI must be handled during approved source migration. Production unchanged; no successful submission tested.
