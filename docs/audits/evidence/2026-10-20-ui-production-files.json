@@ -1,0 +1,300 @@
+[
+  {
+    "path": "airport-hotel-transfers.html",
+    "url": "https://www.wosol.net/airport-hotel-transfers",
+    "status": 200,
+    "matches": true,
+    "cache": {
+      "supersonic-cache-status": "BYPASS"
+    }
+  },
+  {
+    "path": "corporate-transport-saudi-arabia.html",
+    "url": "https://www.wosol.net/corporate-transport-saudi-arabia",
+    "status": 200,
+    "matches": true,
+    "cache": {
+      "supersonic-cache-status": "BYPASS"
+    }
+  },
+  {
+    "path": "driver-only-services.html",
+    "url": "https://www.wosol.net/driver-only-services",
+    "status": 200,
+    "matches": true,
+    "cache": {
+      "supersonic-cache-status": "BYPASS"
+    }
+  },
+  {
+    "path": "employee-transport-jeddah.html",
+    "url": "https://www.wosol.net/employee-transport-jeddah",
+    "status": 200,
+    "matches": true,
+    "cache": {
+      "supersonic-cache-status": "BYPASS"
+    }
+  },
+  {
+    "path": "employee-transport-riyadh.html",
+    "url": "https://www.wosol.net/employee-transport-riyadh",
+    "status": 200,
+    "matches": true,
+    "cache": {
+      "supersonic-cache-status": "BYPASS"
+    }
+  },
+  {
+    "path": "en/airport-hotel-transfers/index.html",
+    "url": "https://www.wosol.net/en/airport-hotel-transfers/",
+    "status": 200,
+    "matches": true,
+    "cache": {
+      "supersonic-cache-status": "BYPASS"
+    }
+  },
+  {
+    "path": "en/corporate-transport-saudi-arabia/index.html",
+    "url": "https://www.wosol.net/en/corporate-transport-saudi-arabia/",
+    "status": 200,
+    "matches": true,
+    "cache": {
+      "supersonic-cache-status": "BYPASS"
+    }
+  },
+  {
+    "path": "en/driver-only-services/index.html",
+    "url": "https://www.wosol.net/en/driver-only-services/",
+    "status": 200,
+    "matches": true,
+    "cache": {
+      "supersonic-cache-status": "BYPASS"
+    }
+  },
+  {
+    "path": "en/employee-transport-jeddah/index.html",
+    "url": "https://www.wosol.net/en/employee-transport-jeddah/",
+    "status": 200,
+    "matches": true,
+    "cache": {
+      "supersonic-cache-status": "BYPASS"
+    }
+  },
+  {
+    "path": "en/employee-transport-riyadh/index.html",
+    "url": "https://www.wosol.net/en/employee-transport-riyadh/",
+    "status": 200,
+    "matches": true,
+    "cache": {
+      "supersonic-cache-status": "BYPASS"
+    }
+  },
+  {
+    "path": "en/event-conference-transport/index.html",
+    "url": "https://www.wosol.net/en/event-conference-transport/",
+    "status": 200,
+    "matches": true,
+    "cache": {
+      "supersonic-cache-status": "BYPASS"
+    }
+  },
+  {
+    "path": "en/executive-vip-transport/index.html",
+    "url": "https://www.wosol.net/en/executive-vip-transport/",
+    "status": 200,
+    "matches": true,
+    "cache": {
+      "supersonic-cache-status": "BYPASS"
+    }
+  },
+  {
+    "path": "en/index.html",
+    "url": "https://www.wosol.net/en/",
+    "status": 200,
+    "matches": true,
+    "cache": {
+      "supersonic-cache-status": "BYPASS"
+    }
+  },
+  {
+    "path": "en/intercity-group-transport/index.html",
+    "url": "https://www.wosol.net/en/intercity-group-transport/",
+    "status": 200,
+    "matches": true,
+    "cache": {
+      "supersonic-cache-status": "BYPASS"
+    }
+  },
+  {
+    "path": "en/king-abdulaziz-university-transport/index.html",
+    "url": "https://www.wosol.net/en/king-abdulaziz-university-transport/",
+    "status": 200,
+    "matches": true,
+    "cache": {
+      "supersonic-cache-status": "BYPASS"
+    }
+  },
+  {
+    "path": "en/private-day-trips/index.html",
+    "url": "https://www.wosol.net/en/private-day-trips/",
+    "status": 200,
+    "matches": true,
+    "cache": {
+      "supersonic-cache-status": "BYPASS"
+    }
+  },
+  {
+    "path": "en/tourism-transport/index.html",
+    "url": "https://www.wosol.net/en/tourism-transport/",
+    "status": 200,
+    "matches": true,
+    "cache": {
+      "supersonic-cache-status": "BYPASS"
+    }
+  },
+  {
+    "path": "en/umrah-visitor-transport/index.html",
+    "url": "https://www.wosol.net/en/umrah-visitor-transport/",
+    "status": 200,
+    "matches": true,
+    "cache": {
+      "supersonic-cache-status": "BYPASS"
+    }
+  },
+  {
+    "path": "en/vehicle-rental-without-driver/index.html",
+    "url": "https://www.wosol.net/en/vehicle-rental-without-driver/",
+    "status": 200,
+    "matches": true,
+    "cache": {
+      "supersonic-cache-status": "BYPASS"
+    }
+  },
+  {
+    "path": "en/workforce-project-transport/index.html",
+    "url": "https://www.wosol.net/en/workforce-project-transport/",
+    "status": 200,
+    "matches": true,
+    "cache": {
+      "supersonic-cache-status": "BYPASS"
+    }
+  },
+  {
+    "path": "event-conference-transport.html",
+    "url": "https://www.wosol.net/event-conference-transport",
+    "status": 200,
+    "matches": true,
+    "cache": {
+      "supersonic-cache-status": "BYPASS"
+    }
+  },
+  {
+    "path": "executive-vip-transport.html",
+    "url": "https://www.wosol.net/executive-vip-transport",
+    "status": 200,
+    "matches": true,
+    "cache": {
+      "supersonic-cache-status": "BYPASS"
+    }
+  },
+  {
+    "path": "index.html",
+    "url": "https://www.wosol.net/",
+    "status": 200,
+    "matches": true,
+    "cache": {
+      "supersonic-cache-status": "BYPASS"
+    }
+  },
+  {
+    "path": "intercity-group-transport.html",
+    "url": "https://www.wosol.net/intercity-group-transport",
+    "status": 200,
+    "matches": true,
+    "cache": {
+      "supersonic-cache-status": "BYPASS"
+    }
+  },
+  {
+    "path": "king-abdulaziz-university-transport.html",
+    "url": "https://www.wosol.net/king-abdulaziz-university-transport",
+    "status": 200,
+    "matches": true,
+    "cache": {
+      "supersonic-cache-status": "BYPASS"
+    }
+  },
+  {
+    "path": "private-day-trips.html",
+    "url": "https://www.wosol.net/private-day-trips",
+    "status": 200,
+    "matches": true,
+    "cache": {
+      "supersonic-cache-status": "BYPASS"
+    }
+  },
+  {
+    "path": "tourism-transport.html",
+    "url": "https://www.wosol.net/tourism-transport",
+    "status": 200,
+    "matches": true,
+    "cache": {
+      "supersonic-cache-status": "BYPASS"
+    }
+  },
+  {
+    "path": "umrah-visitor-transport.html",
+    "url": "https://www.wosol.net/umrah-visitor-transport",
+    "status": 200,
+    "matches": true,
+    "cache": {
+      "supersonic-cache-status": "BYPASS"
+    }
+  },
+  {
+    "path": "vehicle-rental-without-driver.html",
+    "url": "https://www.wosol.net/vehicle-rental-without-driver",
+    "status": 200,
+    "matches": true,
+    "cache": {
+      "supersonic-cache-status": "BYPASS"
+    }
+  },
+  {
+    "path": "workforce-project-transport.html",
+    "url": "https://www.wosol.net/workforce-project-transport",
+    "status": 200,
+    "matches": true,
+    "cache": {
+      "supersonic-cache-status": "BYPASS"
+    }
+  },
+  {
+    "path": "css/ui-refinement.v1.css",
+    "url": "https://www.wosol.net/css/ui-refinement.v1.css",
+    "status": 200,
+    "matches": true,
+    "cache": {
+      "cache-control": "public, max-age=604800",
+      "supersonic-cache-status": "MISS"
+    }
+  },
+  {
+    "path": "js/ui-refinement.v1.js",
+    "url": "https://www.wosol.net/js/ui-refinement.v1.js",
+    "status": 200,
+    "matches": true,
+    "cache": {
+      "supersonic-cache-status": "MISS"
+    }
+  },
+  {
+    "path": "js/main.v11.js",
+    "url": "https://www.wosol.net/js/main.v11.js",
+    "status": 200,
+    "matches": true,
+    "cache": {
+      "supersonic-cache-status": "MISS"
+    }
+  }
+]

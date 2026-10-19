@@ -180,6 +180,7 @@ function bindAsyncForm(formId, successId, messageKey, subject) {
   const form = document.getElementById(formId);
   const success = document.getElementById(successId);
   if (!form || !success) return;
+  success.classList.add('ui-form-status');success.setAttribute('role','status');
 
   let submitting = false;
   form.addEventListener('submit', async e => {
@@ -199,8 +200,9 @@ function bindAsyncForm(formId, successId, messageKey, subject) {
     }
     if (!form.reportValidity()) return;
     try { window.WASUL_EMAIL?.validateAttachments(form); }
-    catch (error) { Utils.setText(success, error.message); success.classList.add('visible'); return; }
+    catch (error) { success.dataset.state='error'; Utils.setText(success, '! '+error.message); success.classList.add('visible'); return; }
     submitting = true;
+    form.setAttribute("aria-busy","true"); success.classList.remove("visible");
     const btn = form.querySelector('button[type="submit"]');
     const btnSpan = btn?.querySelector('span');
     const original = btnSpan?.textContent ?? '';
@@ -218,7 +220,8 @@ function bindAsyncForm(formId, successId, messageKey, subject) {
       if (btnSpan) Utils.setText(btnSpan, original);
       btn?.classList.remove('loading');
 
-      Utils.setText(success, i18n[state.lang][messageKey] || 'Done');
+      success.dataset.state='success';
+      Utils.setText(success, '✓ '+(i18n[state.lang][messageKey] || 'Done'));
       success.classList.add('visible');
       form.reset();
 
@@ -229,11 +232,12 @@ function bindAsyncForm(formId, successId, messageKey, subject) {
       if (btnSpan) Utils.setText(btnSpan, original);
       btn?.classList.remove('loading');
 
+      success.dataset.state='error';
       Utils.setText(success, state.lang === 'ar'
         ? 'تعذر تأكيد استلام الطلب. احتفظنا بمدخلاتك؛ تواصل معنا على 920003790 قبل إعادة الإرسال لتجنب التكرار.'
         : 'We could not confirm receipt. Your entries are preserved; contact info@wosol.net before resending to avoid duplicates.');
       success.classList.add('visible');
-    } finally { submitting = false; }
+    } finally { submitting = false; form.setAttribute("aria-busy","false"); }
   });
 }
 
