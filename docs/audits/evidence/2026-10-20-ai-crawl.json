@@ -1,0 +1,180 @@
+{
+  "checkedAt": "2026-10-20T20:01:55.059Z",
+  "limitation": "User-agent simulation from our network does not prove access from verified crawler IP ranges or indexing.",
+  "sitemap": {
+    "status": 200,
+    "urls": 38
+  },
+  "rows": [
+    {
+      "ua": "Mozilla/5.0",
+      "route": "/robots.txt",
+      "status": 200,
+      "url": "https://www.wosol.net/robots.txt",
+      "robotsHeader": null,
+      "robotsMeta": null,
+      "canonical": null,
+      "title": null,
+      "bodyBytes": 71,
+      "robots": "User-agent: *\r\nAllow: /\r\n\r\nSitemap: https://www.wosol.net/sitemap.xml\r\n"
+    },
+    {
+      "ua": "Mozilla/5.0",
+      "route": "/corporate-transport-saudi-arabia",
+      "status": 200,
+      "url": "https://www.wosol.net/corporate-transport-saudi-arabia",
+      "robotsHeader": null,
+      "robotsMeta": "<meta name=\"robots\" content=\"index,follow\">",
+      "canonical": "<link rel=\"canonical\" href=\"https://www.wosol.net/corporate-transport-saudi-arabia\">",
+      "title": "نقل منسوبي الشركات والجهات في السعودية | وٌسُل للنقل",
+      "bodyBytes": 30405
+    },
+    {
+      "ua": "Mozilla/5.0",
+      "route": "/en/corporate-transport-saudi-arabia/",
+      "status": 200,
+      "url": "https://www.wosol.net/en/corporate-transport-saudi-arabia/",
+      "robotsHeader": null,
+      "robotsMeta": "<meta name=\"robots\" content=\"index,follow\">",
+      "canonical": "<link rel=\"canonical\" href=\"https://www.wosol.net/en/corporate-transport-saudi-arabia/\">",
+      "title": "Corporate &amp; Staff Transport Across Saudi Arabia | WOSOL",
+      "bodyBytes": 27210
+    },
+    {
+      "ua": "OAI-SearchBot/1.4",
+      "route": "/robots.txt",
+      "status": 200,
+      "url": "https://www.wosol.net/robots.txt",
+      "robotsHeader": null,
+      "robotsMeta": null,
+      "canonical": null,
+      "title": null,
+      "bodyBytes": 71,
+      "robots": "User-agent: *\r\nAllow: /\r\n\r\nSitemap: https://www.wosol.net/sitemap.xml\r\n"
+    },
+    {
+      "ua": "OAI-SearchBot/1.4",
+      "route": "/corporate-transport-saudi-arabia",
+      "status": 200,
+      "url": "https://www.wosol.net/corporate-transport-saudi-arabia",
+      "robotsHeader": null,
+      "robotsMeta": "<meta name=\"robots\" content=\"index,follow\">",
+      "canonical": "<link rel=\"canonical\" href=\"https://www.wosol.net/corporate-transport-saudi-arabia\">",
+      "title": "نقل منسوبي الشركات والجهات في السعودية | وٌسُل للنقل",
+      "bodyBytes": 30405
+    },
+    {
+      "ua": "OAI-SearchBot/1.4",
+      "route": "/en/corporate-transport-saudi-arabia/",
+      "status": 200,
+      "url": "https://www.wosol.net/en/corporate-transport-saudi-arabia/",
+      "robotsHeader": null,
+      "robotsMeta": "<meta name=\"robots\" content=\"index,follow\">",
+      "canonical": "<link rel=\"canonical\" href=\"https://www.wosol.net/en/corporate-transport-saudi-arabia/\">",
+      "title": "Corporate &amp; Staff Transport Across Saudi Arabia | WOSOL",
+      "bodyBytes": 27210
+    },
+    {
+      "ua": "bingbot/2.0",
+      "route": "/robots.txt",
+      "status": 200,
+      "url": "https://www.wosol.net/robots.txt",
+      "robotsHeader": null,
+      "robotsMeta": null,
+      "canonical": null,
+      "title": null,
+      "bodyBytes": 71,
+      "robots": "User-agent: *\r\nAllow: /\r\n\r\nSitemap: https://www.wosol.net/sitemap.xml\r\n"
+    },
+    {
+      "ua": "bingbot/2.0",
+      "route": "/corporate-transport-saudi-arabia",
+      "status": 200,
+      "url": "https://www.wosol.net/corporate-transport-saudi-arabia",
+      "robotsHeader": null,
+      "robotsMeta": "<meta name=\"robots\" content=\"index,follow\">",
+      "canonical": "<link rel=\"canonical\" href=\"https://www.wosol.net/corporate-transport-saudi-arabia\">",
+      "title": "نقل منسوبي الشركات والجهات في السعودية | وٌسُل للنقل",
+      "bodyBytes": 30405
+    },
+    {
+      "ua": "bingbot/2.0",
+      "route": "/en/corporate-transport-saudi-arabia/",
+      "status": 200,
+      "url": "https://www.wosol.net/en/corporate-transport-saudi-arabia/",
+      "robotsHeader": null,
+      "robotsMeta": "<meta name=\"robots\" content=\"index,follow\">",
+      "canonical": "<link rel=\"canonical\" href=\"https://www.wosol.net/en/corporate-transport-saudi-arabia/\">",
+      "title": "Corporate &amp; Staff Transport Across Saudi Arabia | WOSOL",
+      "bodyBytes": 27210
+    },
+    {
+      "ua": "Googlebot/2.1",
+      "route": "/robots.txt",
+      "status": 200,
+      "url": "https://www.wosol.net/robots.txt",
+      "robotsHeader": null,
+      "robotsMeta": null,
+      "canonical": null,
+      "title": null,
+      "bodyBytes": 71,
+      "robots": "User-agent: *\r\nAllow: /\r\n\r\nSitemap: https://www.wosol.net/sitemap.xml\r\n"
+    },
+    {
+      "ua": "Googlebot/2.1",
+      "route": "/corporate-transport-saudi-arabia",
+      "status": 200,
+      "url": "https://www.wosol.net/corporate-transport-saudi-arabia",
+      "robotsHeader": null,
+      "robotsMeta": "<meta name=\"robots\" content=\"index,follow\">",
+      "canonical": "<link rel=\"canonical\" href=\"https://www.wosol.net/corporate-transport-saudi-arabia\">",
+      "title": "نقل منسوبي الشركات والجهات في السعودية | وٌسُل للنقل",
+      "bodyBytes": 30405
+    },
+    {
+      "ua": "Googlebot/2.1",
+      "route": "/en/corporate-transport-saudi-arabia/",
+      "status": 200,
+      "url": "https://www.wosol.net/en/corporate-transport-saudi-arabia/",
+      "robotsHeader": null,
+      "robotsMeta": "<meta name=\"robots\" content=\"index,follow\">",
+      "canonical": "<link rel=\"canonical\" href=\"https://www.wosol.net/en/corporate-transport-saudi-arabia/\">",
+      "title": "Corporate &amp; Staff Transport Across Saudi Arabia | WOSOL",
+      "bodyBytes": 27210
+    },
+    {
+      "ua": "PerplexityBot/1.0",
+      "route": "/robots.txt",
+      "status": 200,
+      "url": "https://www.wosol.net/robots.txt",
+      "robotsHeader": null,
+      "robotsMeta": null,
+      "canonical": null,
+      "title": null,
+      "bodyBytes": 71,
+      "robots": "User-agent: *\r\nAllow: /\r\n\r\nSitemap: https://www.wosol.net/sitemap.xml\r\n"
+    },
+    {
+      "ua": "PerplexityBot/1.0",
+      "route": "/corporate-transport-saudi-arabia",
+      "status": 200,
+      "url": "https://www.wosol.net/corporate-transport-saudi-arabia",
+      "robotsHeader": null,
+      "robotsMeta": "<meta name=\"robots\" content=\"index,follow\">",
+      "canonical": "<link rel=\"canonical\" href=\"https://www.wosol.net/corporate-transport-saudi-arabia\">",
+      "title": "نقل منسوبي الشركات والجهات في السعودية | وٌسُل للنقل",
+      "bodyBytes": 30405
+    },
+    {
+      "ua": "PerplexityBot/1.0",
+      "route": "/en/corporate-transport-saudi-arabia/",
+      "status": 200,
+      "url": "https://www.wosol.net/en/corporate-transport-saudi-arabia/",
+      "robotsHeader": null,
+      "robotsMeta": "<meta name=\"robots\" content=\"index,follow\">",
+      "canonical": "<link rel=\"canonical\" href=\"https://www.wosol.net/en/corporate-transport-saudi-arabia/\">",
+      "title": "Corporate &amp; Staff Transport Across Saudi Arabia | WOSOL",
+      "bodyBytes": 27210
+    }
+  ]
+}
