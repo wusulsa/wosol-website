@@ -1,4 +1,9 @@
 /* Build dependency-free, crawlable Arabic and English pages from shared source. */
+// The reviewed release supersedes the older content generator.
+if(require('node:fs').existsSync(require('node:path').resolve(__dirname,'../content/approved-site/manifest.json'))){
+ require('./build-approved-site.cjs');
+ return;
+}
 const fs=require('node:fs'),path=require('node:path');
 const root=path.resolve(__dirname,'..');
 const read=p=>fs.readFileSync(path.join(root,p),'utf8');

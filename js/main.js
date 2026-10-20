@@ -167,12 +167,12 @@ document.querySelectorAll('section[id]').forEach(sec => sectionObserver.observe(
    ══════════════════════════════════════════════════════════════ */
 /** نماذج التواصل (استفسار · شكوى · عرض سعر) تصل إلى info@wosol.net ونسخة إلى atef-alreemi@wosol.net وa@wosol.net */
 async function sendSiteForm(form, subject) {
-  if (!window.WASUL_EMAIL?.submitForm) {
+  if (!window.WOSOL_ZOHO?.submitForm) {
     throw new Error('Email submit helper is not loaded');
   }
-  return window.WASUL_EMAIL.submitForm(form, subject, {
-    to: window.WASUL_EMAIL.contactRecipient,
-    cc: window.WASUL_EMAIL.contactCc,
+  return window.WOSOL_ZOHO.submitForm(form, subject, {
+    to: window.WOSOL_ZOHO.contactRecipient,
+    cc: window.WOSOL_ZOHO.contactCc,
   });
 }
 
@@ -199,7 +199,7 @@ function bindAsyncForm(formId, successId, messageKey, subject) {
       phone.addEventListener('input',()=>phone.setCustomValidity(''),{once:true});
     }
     if (!form.reportValidity()) return;
-    try { window.WASUL_EMAIL?.validateAttachments(form); }
+    try { window.WOSOL_ZOHO?.validateAttachments(form); }
     catch (error) { success.dataset.state='error'; Utils.setText(success, '! '+error.message); success.classList.add('visible'); return; }
     submitting = true;
     form.setAttribute("aria-busy","true"); success.classList.remove("visible");
@@ -213,6 +213,7 @@ function bindAsyncForm(formId, successId, messageKey, subject) {
 
     try {
       const result = await sendSiteForm(form, subject);
+      if (result?.navigating) return;
       if (result?.success !== true && result?.success !== 'true') throw new Error('Email provider did not confirm acceptance');
       // Email acceptance is not a confirmed CRM lead or customer conversion.
       window.WOSOL_METRICS?.record('email_request_accepted', form);
@@ -358,7 +359,7 @@ function initScrollReveal() {
       const quoteService = link.dataset.quoteService;
       if (tabName === 'quote' && quoteService) {
         const quoteServiceField = document.getElementById('qt-service');
-        if (quoteServiceField) quoteServiceField.value = quoteService;
+        if (quoteServiceField) { quoteServiceField.value = quoteService; quoteServiceField.dispatchEvent(new Event('change', { bubbles: true })); }
       }
 
       e.preventDefault();
@@ -376,8 +377,8 @@ function initScrollReveal() {
   const quoteService = params.get('quoteService');
   const quoteCity = params.get('quoteCity');
   const cities = state.lang === 'ar'
-    ? { jeddah: 'جدة', riyadh: 'الرياض' }
-    : { jeddah: 'Jeddah', riyadh: 'Riyadh' };
+    ? { jeddah: 'جدة', riyadh: 'الرياض', makkah: 'مكة المكرمة', madinah: 'المدينة المنورة', dammam: 'الدمام' }
+    : { jeddah: 'Jeddah', riyadh: 'Riyadh', makkah: 'Makkah', madinah: 'Madinah', dammam: 'Dammam' };
   const regionField = document.getElementById('qt-region');
   if (regionField && cities[quoteCity]) regionField.value = cities[quoteCity];
   const activatedTab = initialTab ? activateTabByName(initialTab) : null;
@@ -388,7 +389,7 @@ function initScrollReveal() {
 
   if ((initialTab === 'quote' || activatedTab?.dataset.tab === 'quote') && quoteService) {
     const quoteServiceField = document.getElementById('qt-service');
-    if (quoteServiceField) quoteServiceField.value = quoteService;
+    if (quoteServiceField) { quoteServiceField.value = quoteService; quoteServiceField.dispatchEvent(new Event('change', { bubbles: true })); }
   }
 })();
 
