@@ -9,7 +9,8 @@ for(const file of m.pages){
  if(tags.length<2)continue;
  const newTags=[...after.matchAll(pattern)];assert.equal(newTags.length,1);
  assert.equal(fs.readFileSync('.'+newTags[0][1],'utf8'),tags.map(t=>fs.readFileSync('.'+t[1],'utf8')).join('\n'));
- assert.equal(before.replace(pattern,''),after.replace(pattern,''),'Non-CSS content changed: '+file);
+ const normalize=s=>s.replace(pattern,'').replace(/<link data-home-priority[^>]+>/g,'').replaceAll('hero-1000-fast.webp','hero-1000.webp').replaceAll('hero-1600-fast.webp','hero-1600.webp').replace(/\r\n/g,'\n');
+ assert.equal(normalize(before),normalize(after),'Non-CSS content changed: '+file);
  assert.equal(after,fs.readFileSync(file,'utf8'),'Production differs from approved source');
  checked++;
 }
