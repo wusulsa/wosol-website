@@ -19,7 +19,7 @@ for(const file of ['index.html','en/index.html']){
  const h=fs.readFileSync(path.join(root,file),'utf8');
  const business=h.slice(h.indexOf('id="business-path"'),h.indexOf('id="trips-path"'));
  assert.equal((business.match(/class="solution-card"/g)||[]).length,4);
- for(const city of ['jeddah','riyadh'])assert.equal((business.match(new RegExp('href="/(?:en/)?employee-transport-'+city+'"','g'))||[]).length,1);
+ for(const city of ['jeddah','riyadh'])assert.equal((business.match(new RegExp('href="/(?:en/)?employee-transport-'+city+'/?"','g'))||[]).length,1);
  assert(h.includes('/js/quote-service-fields.r'));
 }
 for(const f of manifest.assets.filter(f=>f.endsWith('.js'))){
