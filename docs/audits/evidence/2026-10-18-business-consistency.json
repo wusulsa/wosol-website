@@ -1,0 +1,321 @@
+{
+  "checked_at_utc": "2026-10-18T20:38:58.382419+00:00",
+  "pages": [
+    {
+      "url": "https://www.wosol.net/",
+      "status": 200,
+      "approved_business_schema": true,
+      "phones": [
+        "+966536060003",
+        "+966566070705",
+        "+966501844991",
+        "920003790"
+      ],
+      "foundingDate": "2013",
+      "hours": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+          ],
+          "opens": "09:00",
+          "closes": "17:00"
+        }
+      ]
+    },
+    {
+      "url": "https://www.wosol.net/register",
+      "status": 200,
+      "approved_business_schema": true,
+      "phones": [
+        "+966536060003",
+        "+966566070705",
+        "+966501844991",
+        "920003790"
+      ],
+      "foundingDate": "2013",
+      "hours": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+          ],
+          "opens": "09:00",
+          "closes": "17:00"
+        }
+      ]
+    },
+    {
+      "url": "https://www.wosol.net/king-abdulaziz-university-transport",
+      "status": 200,
+      "approved_business_schema": true,
+      "phones": [
+        "+966536060003",
+        "+966566070705",
+        "+966501844991",
+        "920003790"
+      ],
+      "foundingDate": "2013",
+      "hours": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+          ],
+          "opens": "09:00",
+          "closes": "17:00"
+        }
+      ]
+    },
+    {
+      "url": "https://www.wosol.net/employee-transport-jeddah",
+      "status": 200,
+      "approved_business_schema": true,
+      "phones": [
+        "+966536060003",
+        "+966566070705",
+        "+966501844991",
+        "920003790"
+      ],
+      "foundingDate": "2013",
+      "hours": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+          ],
+          "opens": "09:00",
+          "closes": "17:00"
+        }
+      ]
+    },
+    {
+      "url": "https://www.wosol.net/employee-transport-riyadh",
+      "status": 200,
+      "approved_business_schema": true,
+      "phones": [
+        "+966536060003",
+        "+966566070705",
+        "+966501844991",
+        "920003790"
+      ],
+      "foundingDate": "2013",
+      "hours": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+          ],
+          "opens": "09:00",
+          "closes": "17:00"
+        }
+      ]
+    },
+    {
+      "url": "https://www.wosol.net/corporate-transport-saudi-arabia",
+      "status": 200,
+      "approved_business_schema": true,
+      "phones": [
+        "+966536060003",
+        "+966566070705",
+        "+966501844991",
+        "920003790"
+      ],
+      "foundingDate": "2013",
+      "hours": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+          ],
+          "opens": "09:00",
+          "closes": "17:00"
+        }
+      ]
+    },
+    {
+      "url": "https://www.wosol.net/en/",
+      "status": 200,
+      "approved_business_schema": true,
+      "phones": [
+        "+966536060003",
+        "+966566070705",
+        "+966501844991",
+        "920003790"
+      ],
+      "foundingDate": "2013",
+      "hours": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+          ],
+          "opens": "09:00",
+          "closes": "17:00"
+        }
+      ]
+    },
+    {
+      "url": "https://www.wosol.net/en/register/",
+      "status": 200,
+      "approved_business_schema": true,
+      "phones": [
+        "+966536060003",
+        "+966566070705",
+        "+966501844991",
+        "920003790"
+      ],
+      "foundingDate": "2013",
+      "hours": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+          ],
+          "opens": "09:00",
+          "closes": "17:00"
+        }
+      ]
+    },
+    {
+      "url": "https://www.wosol.net/en/king-abdulaziz-university-transport/",
+      "status": 200,
+      "approved_business_schema": true,
+      "phones": [
+        "+966536060003",
+        "+966566070705",
+        "+966501844991",
+        "920003790"
+      ],
+      "foundingDate": "2013",
+      "hours": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+          ],
+          "opens": "09:00",
+          "closes": "17:00"
+        }
+      ]
+    },
+    {
+      "url": "https://www.wosol.net/en/employee-transport-jeddah/",
+      "status": 200,
+      "approved_business_schema": true,
+      "phones": [
+        "+966536060003",
+        "+966566070705",
+        "+966501844991",
+        "920003790"
+      ],
+      "foundingDate": "2013",
+      "hours": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+          ],
+          "opens": "09:00",
+          "closes": "17:00"
+        }
+      ]
+    },
+    {
+      "url": "https://www.wosol.net/en/employee-transport-riyadh/",
+      "status": 200,
+      "approved_business_schema": true,
+      "phones": [
+        "+966536060003",
+        "+966566070705",
+        "+966501844991",
+        "920003790"
+      ],
+      "foundingDate": "2013",
+      "hours": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+          ],
+          "opens": "09:00",
+          "closes": "17:00"
+        }
+      ]
+    },
+    {
+      "url": "https://www.wosol.net/en/corporate-transport-saudi-arabia/",
+      "status": 200,
+      "approved_business_schema": true,
+      "phones": [
+        "+966536060003",
+        "+966566070705",
+        "+966501844991",
+        "920003790"
+      ],
+      "foundingDate": "2013",
+      "hours": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+          ],
+          "opens": "09:00",
+          "closes": "17:00"
+        }
+      ]
+    }
+  ],
+  "i18n_matches_local": true,
+  "google_profile": "Reloaded owner UI confirms approved phones, description, January 2013, Sunday–Thursday 09:00–17:00; Friday/Saturday closed",
+  "successful_submission": "deferred",
+  "comparison": "Line endings normalized"
+}

@@ -1,0 +1,8 @@
+{
+  "source_commit": "34c1e5299d543ff87c102be7ea04dc72bdae28a7",
+  "git_tag": "archive/before-services-2026-10-19",
+  "local_archive": "docs/audits/qa/wosol-before-services-20261019.zip",
+  "sha256": "4c761f9821ea9764b2a004432fd842cd3a70b4b9fe1f0b5886b8e055dcd0e62f",
+  "hosting_archive": "/home/wosomybt/wosol-before-services-20261019.zip",
+  "hosting_archive_verified": "cPanel compression result and file listing; not downloaded or hash-compared"
+}

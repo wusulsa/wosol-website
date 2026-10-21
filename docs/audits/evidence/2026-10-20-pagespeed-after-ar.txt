@@ -1,0 +1,294 @@
+Browser tab: 53, Title: "PageSpeed Insights", URL: "https://pagespeed.web.dev/analysis/https-www-wosol-net/wczhua5xto?form_factor=mobile".
+0 AXWebArea PageSpeed Insights, URL: pagespeed.web.dev/analysis/https-www-wosol-net/wczhua5xto?form_factor=mobile
+	1 container yDmH0d
+		2 container kO001e
+			3 link Description: PageSpeed Insights logo PageSpeed Insights, Value: pagespeed.web.dev/
+			4 button نسخ الرابط
+				5 image
+				6 text نسخ الرابط
+			7 container
+				8 link Description: المستندات, Value: developers.google.com/speed/docs/insights/v5/about
+		9 container
+			10 container
+				11 text يستخدم هذا الموقع الإلكتروني ملفات تعريف ارتباط من Google لتقديم الخدمات الخاصة به وتحليل عدد الزيارات.
+				12 container
+					13 link Description: مزيد من المعلومات, Value: policies.google.com/technologies/cookies
+				14 button حسنًا
+					15 text حسنًا
+				42 text تم إنشاء التقرير في ‎ 20‏/10‏/2026، 10:40:15 م .
+				43 text field (settable) Value: https://www.wosol.net/, ID: c7
+				44 button تحليل
+					45 text تحليل
+				46 tab group
+					47 tab (selected, settable, boolean) الجوال, Value: 1, ID: mobile_tab
+					48 tab (selectable, settable, boolean) كمبيوتر مكتبي, Value: 0, ID: desktop_tab
+				49 container الجوال
+					50 text التعرُّف على تجربة المستخدمين
+					51 button button
+					52 text ما مِن بيانات.
+					53 text تشخيص مشاكل الأداء
+					54 container
+						55 container
+							56 link Description: 94 الأداء, Value: pagespeed.web.dev/#performance
+							57 link Description: 100 إمكانية الوصول, Value: pagespeed.web.dev/#accessibility
+							58 link Description: 100 أفضل الممارسات, Value: pagespeed.web.dev/#best-practices
+							59 link Description: 100 تحسين محركات البحث, Value: pagespeed.web.dev/#seo
+							60 link Description: 2/2 التصفّح المستنِد إلى الذكاء الاصطناعي الوكيل, Value: pagespeed.web.dev/#agentic-browsing
+						61 container performance
+							62 image
+								63 text 94
+								64 text FCP
+								65 text +10
+								66 text LCP
+								67 text +21
+								68 text TBT
+								69 text +30
+								70 text CLS
+								71 text +25
+								72 text SI
+								73 text +9
+								74 text الأداء
+							75 container
+								76 text القيم تقديرية وقابلة للتغيير. ويتم 
+								77 link Description: حساب نتيجة الأداء, Value: developer.chrome.com/docs/lighthouse/performance/performance-scoring/?utm_source=lighthouse&utm_medium=lr
+								78 text  مباشرة من خلال هذه المقاييس.
+								79 link Description: اطّلِع على الآلة الحاسبة., Value: googlechrome.github.io/lighthouse/scorecalc/#FCP=1351&LCP=2851&TBT=0&CLS=0.02&SI=3268&TTI=2851&device=mobile&version=13.5.0
+							80 text 0–49 50–89 90–100
+							81 image Final Screenshot
+							82 container
+								83 checkbox (settable, integer) Description: Toggle the display of metric descriptions, Value: 0, ID: lh-metrics-toggle9
+								84 text المقاييس توسيع العرض
+								85 container first-contentful-paint
+									86 text First Contentful Paint
+									87 text 1.4 ثانية
+								88 container largest-contentful-paint
+									89 text Largest Contentful Paint
+									90 text 2.9 ثانية
+								91 container total-blocking-time
+									92 text Total Blocking Time
+									93 text 0 مللي ثانية
+								94 container cumulative-layout-shift
+									95 text Cumulative Layout Shift
+									96 text 0.024
+								97 container speed-index
+									98 text Speed Index
+									99 text 3.3 ثانية
+								100 content list
+									101 text Captured at 20 أكتوبر 2026، 10:40 م غرينتش+3
+									102 text جهاز Moto G Power في وضع المحاكاة with Lighthouse 13.5.0
+									103 text جلسة تتضمّن صفحة واحدة
+									104 text التحميل الأولي للصفحة
+									105 text التقييد البطيء لتحميل الصفحة في شبكة الجيل الرابع
+									106 text Using HeadlessChromium 153.0.8010.36 with lr
+								107 button عرض "المخطّط الهيكلي"
+							108 container screenshot-thumbnails
+								109 image Screenshot
+								110 image Screenshot
+								111 image Screenshot
+								112 image Screenshot
+								113 image Screenshot
+								114 image Screenshot
+								115 image Screenshot
+								116 image Screenshot
+							117 text عرض عمليات التدقيق المرتبطة بالمقاييس:
+							118 radio button (settable, integer) Description: All, Value: 1, ID: metric-All-19
+							119 radio button (settable, integer) Description: FCP, Value: 0, ID: metric-FCP-19
+							120 container First Contentful Paint
+								121 text FCP
+							122 radio button (settable, integer) Description: LCP, Value: 0, ID: metric-LCP-19
+							123 container Largest Contentful Paint
+								124 text LCP
+							125 radio button (settable, integer) Description: TBT, Value: 0, ID: metric-TBT-19
+							126 container Total Blocking Time
+								127 text TBT
+							128 radio button (settable, integer) Description: CLS, Value: 0, ID: metric-CLS-19
+							129 container Cumulative Layout Shift
+								130 text CLS
+							131 container
+								132 text الإحصاءات
+								133 button (collapsed) تحسين عرض الصور —التوفير المقدَّر: 47 كيبيبايت, Secondary Actions: Expand
+									134 text تحسين عرض الصور
+									135 text —
+									136 text التوفير المقدَّر: 47 كيبيبايت
+								137 button (collapsed) استخدام فترات التخزين المؤقت الفعّالة —التوفير المقدَّر: 35 كيبيبايت, Secondary Actions: Expand
+									138 text استخدام فترات التخزين المؤقت الفعّالة
+									139 text —
+									140 text التوفير المقدَّر: 35 كيبيبايت
+								141 button (collapsed) طلبات حظر العرض —التوفير المقدَّر: 1,250 ملي ثانية, Secondary Actions: Expand
+									142 text طلبات حظر العرض
+									143 text —
+									144 text التوفير المقدَّر: 1,250 ملي ثانية
+								145 button (collapsed) إعادة التدفق الإلزامية, Secondary Actions: Expand
+									146 text إعادة التدفق الإلزامية
+								147 button (collapsed) شجرة اعتمادية الشبكة, Secondary Actions: Expand
+									148 text شجرة اعتمادية الشبكة
+								149 button (collapsed) أسباب تغييرات التصميم, Secondary Actions: Expand
+									150 text أسباب تغييرات التصميم
+								151 button (collapsed) تحسين حجم عناصر DOM, Secondary Actions: Expand
+									152 text تحسين حجم عناصر DOM
+								153 button (collapsed) تفاصيل سرعة عرض أكبر محتوى مرئي (LCP), Secondary Actions: Expand
+									154 text تفاصيل سرعة عرض أكبر محتوى مرئي (LCP)
+								155 text تتوفّر هذه الإحصاءات أيضًا في لوحة "أداء أدوات مطوري البرامج في Chrome"، ويمكنك 
+								156 link Description: تسجيل عملية تتبُّع, Value: developer.chrome.com/docs/devtools/performance/reference?utm_source=lighthouse&utm_medium=lr
+								157 text  لعرض معلومات أكثر تفصيلاً.
+							158 container
+								159 text بيانات التشخيص
+								160 button (collapsed) الحدّ من محتوى CSS غير المُستخدَم —التوفير المقدَّر: 15 كيبيبايت, Secondary Actions: Expand
+									161 text الحدّ من محتوى CSS غير المُستخدَم
+									162 text —
+									163 text التوفير المقدَّر: 15 كيبيبايت
+								164 button (collapsed) تصغير CSS —التوفير المقدَّر: 4 كيبيبايت, Secondary Actions: Expand
+									165 text تصغير CSS
+									166 text —
+									167 text التوفير المقدَّر: 4 كيبيبايت
+								168 button (collapsed) نجنُّب سلسة المهام الرئيسية الطويلة —تم العثور على مهمّة طويلة واحدة, Secondary Actions: Expand
+									169 text نجنُّب سلسة المهام الرئيسية الطويلة
+									170 text —
+									171 text تم العثور على مهمّة طويلة واحدة
+								172 text مزيد من المعلومات حول أداء تطبيقك لا تؤثر هذه الأرقام 
+								173 link Description: بشكل مباشر في , Value: developer.chrome.com/docs/lighthouse/performance/performance-scoring/?utm_source=lighthouse&utm_medium=lr
+								174 text نتيجة الأداء.
+							175 button (collapsed) اجتياز عمليات التدقيق بنجاح (16) عرض, Secondary Actions: Expand
+								176 container
+									177 text اجتياز عمليات التدقيق بنجاح (16)
+								178 text عرض
+						179 container accessibility
+							180 heading 100 إمكانية الوصول, Value: 2
+								181 container
+									182 image
+									183 text 100 إمكانية الوصول
+							184 container
+								185 text تحدّد عمليات التحقّق هذه الفرص المتاحة 
+								186 link Description: لتحسين إمكانية استخدام تطبيق الويب, Value: developer.chrome.com/docs/lighthouse/accessibility/?utm_source=lighthouse&utm_medium=lr
+								187 text . يمكن لميزة الرصد التلقائي رصد مجموعة فرعية من المشاكل فقط ولا تضمن تسهيل استخدام تطبيق الويب، لذلك ننصح أيضًا بإجراء 
+								188 link Description: الاختبار اليدوي, Value: web.dev/articles/how-to-review?utm_source=lighthouse&utm_medium=lr
+								189 text .
+							190 container
+								191 button (expanded) عناصر إضافية للتحقُّق يدويًا (10) إخفاء, Secondary Actions: Collapse
+									192 container
+										193 text عناصر إضافية للتحقُّق يدويًا (10)
+									194 text إخفاء
+								195 button (collapsed) Interactive controls are keyboard focusable, Secondary Actions: Expand
+									196 text Interactive controls are keyboard focusable
+								197 button (collapsed) Interactive elements indicate their purpose and state, Secondary Actions: Expand
+									198 text Interactive elements indicate their purpose and state
+								199 button (collapsed) The page has a logical tab order, Secondary Actions: Expand
+									200 text The page has a logical tab order
+								201 button (collapsed) Visual order on the page follows DOM order, Secondary Actions: Expand
+									202 text Visual order on the page follows DOM order
+								203 button (collapsed) User focus is not accidentally trapped in a region, Secondary Actions: Expand
+									204 text User focus is not accidentally trapped in a region
+								205 button (collapsed) The user's focus is directed to new content added to the page, Secondary Actions: Expand
+									206 text The user's focus is directed to new content added to the page
+								207 button (collapsed) HTML5 landmark elements are used to improve navigation, Secondary Actions: Expand
+									208 text HTML5 landmark elements are used to improve navigation
+								209 button (collapsed) Offscreen content is hidden from assistive technology, Secondary Actions: Expand
+									210 text Offscreen content is hidden from assistive technology
+								211 button (collapsed) Custom controls have associated labels, Secondary Actions: Expand
+									212 text Custom controls have associated labels
+								213 button (collapsed) Custom controls have ARIA roles, Secondary Actions: Expand
+									214 text Custom controls have ARIA roles
+								215 text تعالج هذه العناصر المناطق التي يتعذر على أداة الاختبار المبرمجة تغطيتها. تعرّف على مزيد من المعلومات في دليلنا حول 
+								216 link Description: مراجعة إمكانية الوصول, Value: web.dev/articles/how-to-review?utm_source=lighthouse&utm_medium=lr
+								217 text .
+							218 button (collapsed) اجتياز عمليات التدقيق بنجاح (31) عرض, Secondary Actions: Expand
+								219 container
+									220 text اجتياز عمليات التدقيق بنجاح (31)
+								221 text عرض
+							222 button (collapsed) غير سارٍ (32) عرض, Secondary Actions: Expand
+								223 container
+									224 text غير سارٍ (32)
+								225 text عرض
+						226 container best-practices
+							227 heading 100 أفضل الممارسات, Value: 2
+								228 container
+									229 image
+									230 text 100 أفضل الممارسات
+							231 container
+								232 text الثقة والأمان
+								233 button (collapsed) التأكُّد من فاعلية سياسة CSP ضد هجمات XSS, Secondary Actions: Expand
+									234 text التأكُّد من فاعلية سياسة CSP ضد هجمات XSS
+								235 button (collapsed) استخدام سياسة HSTS قوية, Secondary Actions: Expand
+									236 text استخدام سياسة HSTS قوية
+								237 button (collapsed) ضمان عزل النطاق بشكلٍ صحيح باستخدام سياسة COOP, Secondary Actions: Expand
+									238 text ضمان عزل النطاق بشكلٍ صحيح باستخدام سياسة COOP
+								239 button (collapsed) الحدّ من هجمات clickjacking باستخدام XFO أو CSP, Secondary Actions: Expand
+									240 text الحدّ من هجمات clickjacking باستخدام XFO أو CSP
+								241 button (collapsed) الحدّ من هجمات XSS المستنِدة إلى DOM باستخدام Trusted Types, Secondary Actions: Expand
+									242 text الحدّ من هجمات XSS المستنِدة إلى DOM باستخدام Trusted Types
+							243 container
+								244 text توافق المتصفّح
+								245 button (collapsed) ميزات Baseline, Secondary Actions: Expand
+									246 text ميزات Baseline
+							247 button (collapsed) اجتياز عمليات التدقيق بنجاح (13) عرض, Secondary Actions: Expand
+								248 container
+									249 text اجتياز عمليات التدقيق بنجاح (13)
+								250 text عرض
+							251 button (collapsed) غير سارٍ (2) عرض, Secondary Actions: Expand
+								252 container
+									253 text غير سارٍ (2)
+								254 text عرض
+						255 container seo
+							256 heading 100 تحسين محركات البحث, Value: 2
+								257 container
+									258 image
+									259 text 100 تحسين محركات البحث
+							260 container
+								261 text تضمن عمليات التحقّق هذه اتّباع صفحتك للنصائح الأساسية الخاصة بتحسين محركات البحث. هناك العديد من العوامل الإضافية التي تتسبب في عدم تحقيق أداة Lighthouse لأي نقاط هنا والتي قد تؤثّر في ترتيب نتائج البحث، بما في ذلك الأداء في ما يخص 
+								262 link Description: مؤشرات أداء الويب الأساسية, Value: web.dev/explore/vitals?utm_source=lighthouse&utm_medium=lr
+								263 text . 
+								264 link Description: مزيد من المعلومات حول "أساسيات بحث Google", Value: support.google.com/webmasters/answer/35769
+							265 container
+								266 button (expanded) عناصر إضافية للتحقُّق يدويًا (1) إخفاء, Secondary Actions: Collapse
+									267 container
+										268 text عناصر إضافية للتحقُّق يدويًا (1)
+									269 text إخفاء
+								270 button (collapsed) البيانات المنظَّمة صالحة, Secondary Actions: Expand
+									271 text البيانات المنظَّمة صالحة
+								272 text تشغيل أدوات التحقُّق الإضافية هذه على موقعك الإلكتروني للتحقُّق من أفضل ممارسات تحسين محركات البحث الإضافية.
+							273 button (collapsed) اجتياز عمليات التدقيق بنجاح (10) عرض, Secondary Actions: Expand
+								274 container
+									275 text اجتياز عمليات التدقيق بنجاح (10)
+								276 text عرض
+						277 container agentic-browsing
+							278 heading 2/2 التصفّح المستنِد إلى الذكاء الاصطناعي الوكيل, Value: 2
+								279 container
+									280 text 2/2 التصفّح المستنِد إلى الذكاء الاصطناعي الوكيل
+							281 container
+								282 text تضمن عمليات التحقّق هذه توفّر 
+								283 link Description: مواقع إلكترونية عالية الجودة يمكن لوكلاء الذكاء الاصطناعي تصفّحها, Value: goo.gle/lighthouse-agentic-web
+								284 text ، كما تتحقّق من صحة عمليات دمج WebMCP. لا تزال هذه الفئة قيد التطوير وقد تخضع للتغيير لاحقًا.
+							285 button (collapsed) اجتياز عمليات التدقيق بنجاح (2) عرض, Secondary Actions: Expand
+								286 container
+									287 text اجتياز عمليات التدقيق بنجاح (2)
+								288 text عرض
+							289 button (collapsed) غير سارٍ (5) عرض, Secondary Actions: Expand
+								290 container
+									291 text غير سارٍ (5)
+								292 text عرض
+		18 container ZCHFDb
+			19 text المزيد عن أداة "إحصاءات PageSpeed"
+			20 link Description: الفعاليات الجديدة, Value: developers.google.com/speed/docs/insights/release_notes
+			21 link Description: الوثائق, Value: developers.google.com/speed/docs/insights/v5/about
+			22 link Description: معرفة معلومات حول أداء الويب, Value: developers.google.com/speed
+			23 link Description: طرح أسئلة على Stack Overflow, Value: stackoverflow.com/questions/tagged/pagespeed-insights
+			24 link Description: القائمة البريدية, Value: groups.google.com/g/pagespeed-insights-discuss
+			25 text محتوى ذو صلة
+			26 link Description: التحديثات, Value: developer.chrome.com/blog
+			27 link Description: أساسيات الويب, Value: developers.google.com/focus/web-development
+			28 link Description: دراسات الحالة, Value: web.dev/case-studies
+			29 link Description: بودكاست, Value: web.dev/shows
+			30 text طرق التواصل
+			31 link Description: Twitter, Value: twitter.com/ChromiumDev
+			32 link Description: YouTube, Value: youtube.com/user/ChromeDevelopers
+			33 link Description: Google Developers Logo, Value: developers.google.com/
+			34 link Description: Chrome, Value: developer.chrome.com/
+			35 link Description: Firebase, Value: firebase.google.com/
+			36 link Description: كل المنتجات, Value: developers.google.com/products/
+			37 link Description: البنود وسياسة الخصوصية, Value: policies.google.com/
+			38 container
+				39 text للحصول على التفاصيل، يُرجى الاطّلاع على 
+				40 link Description: سياسات موقع Google Developers الإلكتروني, Value: developers.google.com/terms/site-policies
+				41 text .
+
+The focused UI element is 0 AXWebArea PageSpeed Insights, URL: pagespeed.web.dev/analysis/https-www-wosol-net/wczhua5xto?form_factor=mobile

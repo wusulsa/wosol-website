@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-19",
+  "source_commit": "42f9f01",
+  "deployment": "cPanel extraction confirmed both HTML files",
+  "public_browser_verified": [
+    "https://www.wosol.net/register",
+    "https://www.wosol.net/en/register/"
+  ],
+  "same_arabic_zoho_link": true,
+  "local_input_fields": 0,
+  "arabic_link_navigation_verified": true,
+  "license_visible": "35/00001075",
+  "consent_checked": false,
+  "submission_performed": false,
+  "crm_end_to_end": "deferred",
+  "http_byte_comparison": "not completed: terminal DNS failed",
+  "ads_enabled": false
+}
