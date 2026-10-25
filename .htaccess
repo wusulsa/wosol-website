@@ -63,3 +63,15 @@ Options -Indexes
   # /register يعرض register.html داخلياً
   RewriteRule ^register/?$ register.html [L]
 </IfModule>
+
+# Legacy company profile -> approved 2026 profile (2026-10-26)
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^wp-content/uploads/2022/04/بروفايل-لموقع-وسل-النقل-جدة-مكة-2022\.pdf$ https://www.wosol.net/assets/RUH-Jed-AR.EN-2026-06.pdf [R=301,L]
+</IfModule>
+
+# Legacy university subscriptions: owner-confirmed destination (2026-10-26)
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^product/(edu11|edu3|edu33)/?$ https://www.wosol.net/king-abdulaziz-university-transport [R=301,L]
+</IfModule>
