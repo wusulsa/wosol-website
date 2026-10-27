@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-28",
+  "source": "Google Search Console UI, info@wosol.net",
+  "property": "https://www.wosol.net/",
+  "requested_months": 16,
+  "visible_data_range": [
+    "2026-10-17",
+    "2026-10-25"
+  ],
+  "page_rows_reviewed": 51,
+  "news": {
+    "url": "/?page_id=58",
+    "clicks": 0,
+    "impressions": 20
+  },
+  "author": {
+    "url": "/?author=1",
+    "result": "not listed; not a historical zero assertion"
+  },
+  "articles": [
+    {
+      "url": "/?p=1149",
+      "clicks": 0,
+      "impressions": 19
+    },
+    {
+      "url": "/?p=1170",
+      "clicks": 1,
+      "impressions": 7
+    }
+  ],
+  "external_links": {
+    "target_rows": 1,
+    "target": "https://www.wosol.net/",
+    "links": 60,
+    "sites": 35,
+    "scope": "No separate news or author row; not exhaustive backlink inventory"
+  },
+  "mutations": "none; no indexing requests"
+}
