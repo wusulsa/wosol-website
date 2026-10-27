@@ -1,3 +1,10 @@
+# Retired news index and author archive: owner approved (2026-10-28)
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{QUERY_STRING} ^(page_id=58|author=1)$
+RewriteRule ^$ - [G,L]
+</IfModule>
+
 # Owner-confirmed university store and Obhur query (2026-10-27)
 <IfModule mod_rewrite.c>
 RewriteEngine On
