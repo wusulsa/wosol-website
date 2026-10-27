@@ -1,3 +1,10 @@
+# Retired historical articles: owner approved (2026-10-28)
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{QUERY_STRING} ^p=(1149|1170)$
+RewriteRule ^$ - [G,L]
+</IfModule>
+
 # Retired partners and page 154: owner approved (2026-10-28)
 <IfModule mod_rewrite.c>
 RewriteEngine On
