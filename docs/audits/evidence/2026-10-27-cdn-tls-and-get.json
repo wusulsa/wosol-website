@@ -1,0 +1,47 @@
+{
+  "time": "2026-10-27T17:04:29.873299+00:00",
+  "results": [
+    {
+      "host": "wosol.net",
+      "tls": "TLSv1.2",
+      "expires": "May  3 21:12:15 2027 GMT",
+      "verified": true
+    },
+    {
+      "host": "wosol.net",
+      "tls": "TLSv1.3",
+      "expires": "May  3 21:12:15 2027 GMT",
+      "verified": true
+    },
+    {
+      "host": "www.wosol.net",
+      "tls": "TLSv1.2",
+      "expires": "May  3 21:12:15 2027 GMT",
+      "verified": true
+    },
+    {
+      "host": "www.wosol.net",
+      "tls": "TLSv1.3",
+      "expires": "May  3 21:12:15 2027 GMT",
+      "verified": true
+    },
+    {
+      "get": "https://www.wosol.net/?product=edu11",
+      "exit": 0,
+      "result": "200|https://www.wosol.net/king-abdulaziz-university-transport|1",
+      "error": ""
+    },
+    {
+      "get": "https://www.wosol.net/?product=edu3",
+      "exit": 0,
+      "result": "200|https://www.wosol.net/king-abdulaziz-university-transport|1",
+      "error": ""
+    },
+    {
+      "get": "https://www.wosol.net/?product=edu33",
+      "exit": 0,
+      "result": "200|https://www.wosol.net/king-abdulaziz-university-transport|1",
+      "error": ""
+    }
+  ]
+}
