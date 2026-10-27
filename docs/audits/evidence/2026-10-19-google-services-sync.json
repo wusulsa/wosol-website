@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-19",
+  "profile": "باصات وسل النقل",
+  "language": "ar",
+  "added": 8,
+  "updated_existing": 3,
+  "verified": [
+    {
+      "name": "نقل العمال وفرق المشاريع",
+      "slug": "workforce-project-transport",
+      "description_matches": true,
+      "description": "نقل العمال وفرق المشاريع في جدة والرياض. مسارات بين السكن ومواقع العمل وفق الورديات وأيام التشغيل. اطلب عرض سعر يوضح نطاق الخدمة والتكلفة."
+    },
+    {
+      "name": "حافلة مع سائق ورحلات اليوم الواحد",
+      "slug": "private-day-trips",
+      "description_matches": true,
+      "description": "حافلات مع سائق لرحلات اليوم الواحد والزيارات في جدة والرياض، للجهات والمدارس والمراكز والمجموعات. حدد الركاب والمسار والانتظار لطلب عرض سعر."
+    },
+    {
+      "name": "نقل الفعاليات والمؤتمرات والمعارض",
+      "slug": "event-conference-transport",
+      "description_matches": true,
+      "description": "نقل حضور الفعاليات والمؤتمرات والمعارض في جدة والرياض بين الفنادق ونقاط التجمع ومواقع الحدث. اطلب خطة نقل وعرض سعر يناسب برنامج الفعالية."
+    },
+    {
+      "name": "نقل المطار والفنادق",
+      "slug": "airport-hotel-transfers",
+      "description_matches": true,
+      "description": "نقل المطار والفنادق في جدة والرياض للأفراد والمجموعات وضيوف الجهات. أرسل بيانات الرحلة والركاب والأمتعة لتحديد المركبة وترتيبات الاستقبال."
+    },
+    {
+      "name": "نقل المجموعات بين المدن",
+      "slug": "intercity-group-transport",
+      "description_matches": true,
+      "description": "نقل خاص للمجموعات بين مدن السعودية، من جدة والرياض وبقية المدن وفق الاتفاق. اطلب رحلة باتجاه واحد أو ذهاب وعودة مع تحديد المحطات والأمتعة."
+    },
+    {
+      "name": "النقل السياحي للمجموعات",
+      "slug": "tourism-transport",
+      "description_matches": true,
+      "description": "نقل للمجموعات والزيارات السياحية من جدة والرياض إلى العلا وبقية الوجهات المتفق عليها. حدد برنامج الزيارة والركاب لطلب عرض نقل واضح التفاصيل."
+    },
+    {
+      "name": "نقل المعتمرين والزوار",
+      "slug": "umrah-visitor-transport",
+      "description_matches": true,
+      "description": "نقل المعتمرين والزوار إلى مكة والمدينة وبين الفنادق ونقاط الوصول. طلبات من جدة والرياض وبقية المملكة، وفق البرنامج والتوافر وترتيبات الوصول."
+    },
+    {
+      "name": "النقل التنفيذي وكبار الشخصيات",
+      "slug": "executive-vip-transport",
+      "description_matches": true,
+      "description": "نقل تنفيذي وكبار شخصيات في جدة والرياض للاجتماعات واستقبال ضيوف الجهات. حدد الجدول وفئة المركبة المطلوبة للحصول على عرض سعر وتأكيد التوافر."
+    },
+    {
+      "name": "تأجير المركبات بدون سائق",
+      "slug": "vehicle-rental-without-driver",
+      "description_matches": true,
+      "description": "تأجير مركبات بدون سائق في جدة والرياض للجهات والأفراد وفق التوافر. حدد الفئة والمدة وموقع الاستلام لعرض يوضح التأمين والاستخدام والمسؤوليات."
+    },
+    {
+      "name": "توفير سائقين دون مركبات",
+      "slug": "driver-only-services",
+      "description_matches": true,
+      "description": "توفير سائقين لقيادة مركبات العميل في جدة والرياض. حدد عدد السائقين ونوع المركبات والورديات والمدة لطلب عرض يوضح نطاق الخدمة والمسؤوليات."
+    }
+  ],
+  "staff_service_verified": true,
+  "publication_status": "pending_google_review_up_to_one_day",
+  "sitemap_submission": "accepted",
+  "last_observed_discovered_count": 28,
+  "site_sitemap_count": 32,
+  "individual_indexing": {
+    "url": "https://www.wosol.net/vehicle-rental-without-driver",
+    "status": "rejected_daily_quota",
+    "google_index_status": "discovered_not_indexed",
+    "accepted_requests": 0
+  },
+  "ads": false,
+  "successful_form_test": false
+}

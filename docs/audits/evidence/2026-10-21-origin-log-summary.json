@@ -1,0 +1,120 @@
+{
+  "checkedAt": "2026-10-21T14:02:52.880Z",
+  "currentLog": {
+    "lines": 333,
+    "bingMatches": 0
+  },
+  "archiveLines": 92275,
+  "serviceRequests": [
+    {
+      "time": "17/Oct/2026:17:53:09 -0400",
+      "path": "/employee-transport-jeddah",
+      "status": 200,
+      "verifiedBingDns": true
+    },
+    {
+      "time": "17/Oct/2026:17:53:23 -0400",
+      "path": "/employee-transport-riyadh",
+      "status": 200,
+      "verifiedBingDns": true
+    },
+    {
+      "time": "17/Oct/2026:17:53:24 -0400",
+      "path": "/corporate-transport-saudi-arabia",
+      "status": 200,
+      "verifiedBingDns": true
+    },
+    {
+      "time": "18/Oct/2026:23:52:41 -0400",
+      "path": "/en/corporate-transport-saudi-arabia",
+      "status": 301,
+      "verifiedBingDns": true
+    },
+    {
+      "time": "18/Oct/2026:23:52:46 -0400",
+      "path": "/en/employee-transport-riyadh/",
+      "status": 200,
+      "verifiedBingDns": true
+    },
+    {
+      "time": "18/Oct/2026:23:53:02 -0400",
+      "path": "/en/employee-transport-jeddah/",
+      "status": 200,
+      "verifiedBingDns": true
+    },
+    {
+      "time": "20/Oct/2026:16:01:50 -0400",
+      "path": "/corporate-transport-saudi-arabia",
+      "status": 200,
+      "verifiedBingDns": false
+    },
+    {
+      "time": "20/Oct/2026:16:01:51 -0400",
+      "path": "/en/corporate-transport-saudi-arabia/",
+      "status": 200,
+      "verifiedBingDns": false
+    },
+    {
+      "time": "20/Oct/2026:17:49:09 -0400",
+      "path": "/employee-transport-madinah",
+      "status": 200,
+      "verifiedBingDns": true
+    },
+    {
+      "time": "20/Oct/2026:17:49:31 -0400",
+      "path": "/employee-transport-dammam",
+      "status": 200,
+      "verifiedBingDns": true
+    },
+    {
+      "time": "20/Oct/2026:18:03:52 -0400",
+      "path": "/employee-transport-makkah",
+      "status": 200,
+      "verifiedBingDns": true
+    },
+    {
+      "time": "20/Oct/2026:23:28:27 -0400",
+      "path": "/en/employee-transport-makkah",
+      "status": 301,
+      "verifiedBingDns": true
+    },
+    {
+      "time": "20/Oct/2026:23:28:27 -0400",
+      "path": "/en/employee-transport-madinah",
+      "status": 301,
+      "verifiedBingDns": true
+    },
+    {
+      "time": "20/Oct/2026:23:28:28 -0400",
+      "path": "/en/employee-transport-dammam",
+      "status": 301,
+      "verifiedBingDns": true
+    },
+    {
+      "time": "21/Oct/2026:06:46:53 -0400",
+      "path": "/en/employee-transport-dammam/",
+      "status": 200,
+      "verifiedBingDns": true
+    },
+    {
+      "time": "21/Oct/2026:06:46:55 -0400",
+      "path": "/en/employee-transport-dammam/",
+      "status": 200,
+      "verifiedBingDns": true
+    },
+    {
+      "time": "21/Oct/2026:06:47:24 -0400",
+      "path": "/en/employee-transport-dammam/",
+      "status": 200,
+      "verifiedBingDns": true
+    },
+    {
+      "time": "21/Oct/2026:06:47:25 -0400",
+      "path": "/en/employee-transport-dammam/",
+      "status": 200,
+      "verifiedBingDns": true
+    }
+  ],
+  "method": "Bing user-agent followed by reverse DNS ending .search.msn.com and forward lookup matching source IP. IPs and raw visitor logs omitted.",
+  "limitations": "Origin logs cannot show all CDN cache hits. Historical HTTP status does not prove indexing or response-body directives."
+}

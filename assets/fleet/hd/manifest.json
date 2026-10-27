@@ -1,0 +1,250 @@
+{
+  "1": {
+    "source": "/assets/fleet/fleet-1.jpg",
+    "sourceWidth": 650,
+    "sourceHeight": 433,
+    "width": 2600,
+    "height": 1732,
+    "src": "/assets/fleet/hd/fleet-1-2600.webp",
+    "variants": [
+      {
+        "src": "/assets/fleet/hd/fleet-1-640.webp",
+        "width": 640,
+        "height": 426
+      },
+      {
+        "src": "/assets/fleet/hd/fleet-1-1280.webp",
+        "width": 1280,
+        "height": 853
+      },
+      {
+        "src": "/assets/fleet/hd/fleet-1-1920.webp",
+        "width": 1920,
+        "height": 1279
+      },
+      {
+        "src": "/assets/fleet/hd/fleet-1-2600.webp",
+        "width": 2600,
+        "height": 1732
+      }
+    ],
+    "method": "non-generative Lanczos enlargement and mild unsharp mask; no reconstructed detail"
+  },
+  "2": {
+    "source": "/assets/fleet/fleet-2.jpg",
+    "sourceWidth": 650,
+    "sourceHeight": 433,
+    "width": 2600,
+    "height": 1732,
+    "src": "/assets/fleet/hd/fleet-2-2600.webp",
+    "variants": [
+      {
+        "src": "/assets/fleet/hd/fleet-2-640.webp",
+        "width": 640,
+        "height": 426
+      },
+      {
+        "src": "/assets/fleet/hd/fleet-2-1280.webp",
+        "width": 1280,
+        "height": 853
+      },
+      {
+        "src": "/assets/fleet/hd/fleet-2-1920.webp",
+        "width": 1920,
+        "height": 1279
+      },
+      {
+        "src": "/assets/fleet/hd/fleet-2-2600.webp",
+        "width": 2600,
+        "height": 1732
+      }
+    ],
+    "method": "non-generative Lanczos enlargement and mild unsharp mask; no reconstructed detail"
+  },
+  "3": {
+    "source": "/assets/fleet/fleet-3.jpg",
+    "sourceWidth": 650,
+    "sourceHeight": 433,
+    "width": 2600,
+    "height": 1732,
+    "src": "/assets/fleet/hd/fleet-3-2600.webp",
+    "variants": [
+      {
+        "src": "/assets/fleet/hd/fleet-3-640.webp",
+        "width": 640,
+        "height": 426
+      },
+      {
+        "src": "/assets/fleet/hd/fleet-3-1280.webp",
+        "width": 1280,
+        "height": 853
+      },
+      {
+        "src": "/assets/fleet/hd/fleet-3-1920.webp",
+        "width": 1920,
+        "height": 1279
+      },
+      {
+        "src": "/assets/fleet/hd/fleet-3-2600.webp",
+        "width": 2600,
+        "height": 1732
+      }
+    ],
+    "method": "non-generative Lanczos enlargement and mild unsharp mask; no reconstructed detail"
+  },
+  "4": {
+    "source": "/assets/fleet/fleet-4.jpg",
+    "sourceWidth": 650,
+    "sourceHeight": 433,
+    "width": 2600,
+    "height": 1732,
+    "src": "/assets/fleet/hd/fleet-4-2600.webp",
+    "variants": [
+      {
+        "src": "/assets/fleet/hd/fleet-4-640.webp",
+        "width": 640,
+        "height": 426
+      },
+      {
+        "src": "/assets/fleet/hd/fleet-4-1280.webp",
+        "width": 1280,
+        "height": 853
+      },
+      {
+        "src": "/assets/fleet/hd/fleet-4-1920.webp",
+        "width": 1920,
+        "height": 1279
+      },
+      {
+        "src": "/assets/fleet/hd/fleet-4-2600.webp",
+        "width": 2600,
+        "height": 1732
+      }
+    ],
+    "method": "non-generative Lanczos enlargement and mild unsharp mask; no reconstructed detail"
+  },
+  "5": {
+    "source": "/assets/fleet/fleet-5.jpg",
+    "sourceWidth": 650,
+    "sourceHeight": 433,
+    "width": 2600,
+    "height": 1732,
+    "src": "/assets/fleet/hd/fleet-5-2600.webp",
+    "variants": [
+      {
+        "src": "/assets/fleet/hd/fleet-5-640.webp",
+        "width": 640,
+        "height": 426
+      },
+      {
+        "src": "/assets/fleet/hd/fleet-5-1280.webp",
+        "width": 1280,
+        "height": 853
+      },
+      {
+        "src": "/assets/fleet/hd/fleet-5-1920.webp",
+        "width": 1920,
+        "height": 1279
+      },
+      {
+        "src": "/assets/fleet/hd/fleet-5-2600.webp",
+        "width": 2600,
+        "height": 1732
+      }
+    ],
+    "method": "non-generative Lanczos enlargement and mild unsharp mask; no reconstructed detail"
+  },
+  "6": {
+    "source": "/assets/fleet/fleet-6.jpg",
+    "sourceWidth": 650,
+    "sourceHeight": 433,
+    "width": 2600,
+    "height": 1732,
+    "src": "/assets/fleet/hd/fleet-6-2600.webp",
+    "variants": [
+      {
+        "src": "/assets/fleet/hd/fleet-6-640.webp",
+        "width": 640,
+        "height": 426
+      },
+      {
+        "src": "/assets/fleet/hd/fleet-6-1280.webp",
+        "width": 1280,
+        "height": 853
+      },
+      {
+        "src": "/assets/fleet/hd/fleet-6-1920.webp",
+        "width": 1920,
+        "height": 1279
+      },
+      {
+        "src": "/assets/fleet/hd/fleet-6-2600.webp",
+        "width": 2600,
+        "height": 1732
+      }
+    ],
+    "method": "non-generative Lanczos enlargement and mild unsharp mask; no reconstructed detail"
+  },
+  "7": {
+    "source": "/assets/fleet/fleet-7.jpg",
+    "sourceWidth": 649,
+    "sourceHeight": 432,
+    "width": 2596,
+    "height": 1728,
+    "src": "/assets/fleet/hd/fleet-7-2596.webp",
+    "variants": [
+      {
+        "src": "/assets/fleet/hd/fleet-7-640.webp",
+        "width": 640,
+        "height": 426
+      },
+      {
+        "src": "/assets/fleet/hd/fleet-7-1280.webp",
+        "width": 1280,
+        "height": 852
+      },
+      {
+        "src": "/assets/fleet/hd/fleet-7-1920.webp",
+        "width": 1920,
+        "height": 1278
+      },
+      {
+        "src": "/assets/fleet/hd/fleet-7-2596.webp",
+        "width": 2596,
+        "height": 1728
+      }
+    ],
+    "method": "non-generative Lanczos enlargement and mild unsharp mask; no reconstructed detail"
+  },
+  "8": {
+    "source": "/assets/fleet/fleet-8.jpg",
+    "sourceWidth": 652,
+    "sourceHeight": 434,
+    "width": 2608,
+    "height": 1736,
+    "src": "/assets/fleet/hd/fleet-8-2608.webp",
+    "variants": [
+      {
+        "src": "/assets/fleet/hd/fleet-8-640.webp",
+        "width": 640,
+        "height": 426
+      },
+      {
+        "src": "/assets/fleet/hd/fleet-8-1280.webp",
+        "width": 1280,
+        "height": 852
+      },
+      {
+        "src": "/assets/fleet/hd/fleet-8-1920.webp",
+        "width": 1920,
+        "height": 1278
+      },
+      {
+        "src": "/assets/fleet/hd/fleet-8-2608.webp",
+        "width": 2608,
+        "height": 1736
+      }
+    ],
+    "method": "non-generative Lanczos enlargement and mild unsharp mask; no reconstructed detail"
+  }
+}

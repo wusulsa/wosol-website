@@ -1,0 +1,8 @@
+# DEPLOYED 2026-10-27; verified public 301 -> 200. See ../2026-10-27-renewal-live-ar.md
+# PENDING DEPLOYMENT: exact legacy Arabic language query only.
+# Prepend within its own block before the existing rules; preserve all other rules.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{QUERY_STRING} ^wp_lang=ar$
+RewriteRule ^$ https://www.wosol.net/ [R=301,L,QSD]
+</IfModule>

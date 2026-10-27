@@ -1,0 +1,8 @@
+#transport-services{scroll-margin-top:130px}
+#transport-services .section-desc{max-width:780px;margin-bottom:32px}
+#transport-services .solutions-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+#transport-services .solution-card{min-width:0;padding:24px}
+#transport-services h3{font-size:1.2rem;line-height:1.6}
+.service-body #transport-services .solutions-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media(max-width:1000px){#transport-services .solutions-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){#transport-services .solutions-grid,.service-body #transport-services .solutions-grid{grid-template-columns:1fr}}

@@ -12,11 +12,23 @@ deployment:
     - /bin/cp -f sitemap.xml $PRIMARY
     - /bin/cp -f index.html $PRIMARY
     - /bin/cp -f register.html $PRIMARY
+    - /bin/cp -f student-transport-jeddah.html $PRIMARY
+    - /bin/cp -f employee-transport-jeddah.html $PRIMARY
+    - /bin/cp -f king-abdulaziz-university-transport.html $PRIMARY
+    - /bin/cp -f employee-transport-riyadh.html $PRIMARY
+    - /bin/cp -f corporate-transport-saudi-arabia.html $PRIMARY
+    - /bin/cp -Rf en $PRIMARY
     - /bin/cp -f logo.png $PRIMARY
     - /bin/cp -f icon.ico $PRIMARY
     - /bin/cp -Rf css $PRIMARY
     - /bin/cp -Rf js $PRIMARY
-    - /bin/cp -Rf assets $PRIMARY
+    # Deploy only public website assets; reference PDFs are intentionally excluded.
+    - /bin/mkdir -p $PRIMARY/assets
+    - /bin/cp -Rf assets/fleet $PRIMARY/assets/
+    - /bin/cp -Rf assets/profile-2026 $PRIMARY/assets/
+    - /bin/cp -Rf assets/social $PRIMARY/assets/
+    - /bin/cp -Rf assets/fonts $PRIMARY/assets/
+    - /bin/cp -f assets/TGA.svg assets/SBC.svg $PRIMARY/assets/
 
     # المجلد الثانوي: ملف تحويل فقط
     - /bin/cp -f redirect-to-primary.htaccess $SECONDARY.htaccess
