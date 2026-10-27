@@ -1,3 +1,10 @@
+# Approved subscriber support (2026-10-27)
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{QUERY_STRING} ^page_id=7$
+RewriteRule ^$ https://www.wosol.net/subscriber-support.html [R=301,L,QSD]
+</IfModule>
+
 # Approved renewal and Arabic language redirects (2026-10-27)
 <IfModule mod_rewrite.c>
 RewriteEngine On
