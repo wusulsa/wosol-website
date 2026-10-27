@@ -1,3 +1,10 @@
+# Retired technical query resources: owner approved (2026-10-27)
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{QUERY_STRING} ^(feed=comments-rss2|cf7_style=christmas-simple)$
+RewriteRule ^$ - [G,L]
+</IfModule>
+
 # Approved subscriber support (2026-10-27)
 <IfModule mod_rewrite.c>
 RewriteEngine On
