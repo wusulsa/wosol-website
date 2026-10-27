@@ -1,3 +1,12 @@
+# Owner-confirmed university store and Obhur query (2026-10-27)
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{QUERY_STRING} ^post_type=product$
+RewriteRule ^$ https://www.wosol.net/king-abdulaziz-university-transport [R=301,L,QSD]
+RewriteCond %{QUERY_STRING} ^product=(اشتراك-أبحر-وما-جاورها-إلى-جامعة-الملك|%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83-%D8%A3%D8%A8%D8%AD%D8%B1-%D9%88%D9%85%D8%A7-%D8%AC%D8%A7%D9%88%D8%B1%D9%87%D8%A7-%D8%A5%D9%84%D9%89-%D8%AC%D8%A7%D9%85%D8%B9%D8%A9-%D8%A7%D9%84%D9%85%D9%84%D9%83)$ [NC]
+RewriteRule ^$ https://www.wosol.net/king-abdulaziz-university-transport [R=301,L,QSD]
+</IfModule>
+
 # Retired technical query resources: owner approved (2026-10-27)
 <IfModule mod_rewrite.c>
 RewriteEngine On
