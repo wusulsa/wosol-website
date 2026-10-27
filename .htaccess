@@ -1,3 +1,20 @@
+# Verified legacy page queries (2026-10-27)
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{QUERY_STRING} ^page_id=(9|1131)$
+RewriteRule ^$ https://www.wosol.net/#about [R=301,L,NE,QSD]
+RewriteCond %{QUERY_STRING} ^page_id=17$
+RewriteRule ^$ https://www.wosol.net/#paths-title [R=301,L,NE,QSD]
+RewriteCond %{QUERY_STRING} ^page_id=18$
+RewriteRule ^$ https://www.wosol.net/#contact [R=301,L,NE,QSD]
+RewriteCond %{QUERY_STRING} ^page_id=1050$
+RewriteRule ^$ https://www.wosol.net/king-abdulaziz-university-transport [R=301,L,QSD]
+RewriteCond %{QUERY_STRING} ^page_id=1203$
+RewriteRule ^$ https://www.wosol.net/?contactTab=quote#contact [R=301,L,NE]
+RewriteCond %{QUERY_STRING} ^page_id=1455$
+RewriteRule ^$ https://www.wosol.net/?contactTab=inquiry#contact [R=301,L,NE]
+</IfModule>
+
 # Legacy university query URLs (2026-10-27)
 <IfModule mod_rewrite.c>
 RewriteEngine On
