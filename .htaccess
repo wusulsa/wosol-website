@@ -1,3 +1,10 @@
+# Legacy university query URLs (2026-10-27)
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{QUERY_STRING} ^product=(edu11|edu3|edu33)$
+RewriteRule ^$ https://www.wosol.net/king-abdulaziz-university-transport [R=301,L,QSD]
+</IfModule>
+
 # ============================================================
 #  وُسُل — إعدادات الخادم
 # ============================================================
