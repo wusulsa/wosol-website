@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-28",
+  "public_checks": [
+    {
+      "url": "https://www.wosol.net/",
+      "exit": 0,
+      "status": "200",
+      "sha256": "1813fc3534f80d1dc3a80062a28dc50f7409f5ca06c8d49393aae252d3ea87ee",
+      "title": [
+        "وٌسُل للنقل | نقل موظفين بجدة والرياض وتوصيل طالبات جامعة الملك عبدالعزيز في جدة"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.wosol.net/\">"
+      ]
+    },
+    {
+      "url": "https://www.wosol.net/?page_id=58",
+      "exit": 0,
+      "status": "200",
+      "sha256": "1813fc3534f80d1dc3a80062a28dc50f7409f5ca06c8d49393aae252d3ea87ee",
+      "title": [
+        "وٌسُل للنقل | نقل موظفين بجدة والرياض وتوصيل طالبات جامعة الملك عبدالعزيز في جدة"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.wosol.net/\">"
+      ]
+    },
+    {
+      "url": "https://www.wosol.net/?author=1",
+      "exit": 0,
+      "status": "200",
+      "sha256": "1813fc3534f80d1dc3a80062a28dc50f7409f5ca06c8d49393aae252d3ea87ee",
+      "title": [
+        "وٌسُل للنقل | نقل موظفين بجدة والرياض وتوصيل طالبات جامعة الملك عبدالعزيز في جدة"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.wosol.net/\">"
+      ]
+    },
+    {
+      "url": "https://www.wosol.net/?page_id=1030",
+      "exit": 0,
+      "status": "200",
+      "sha256": "1813fc3534f80d1dc3a80062a28dc50f7409f5ca06c8d49393aae252d3ea87ee",
+      "title": [
+        "وٌسُل للنقل | نقل موظفين بجدة والرياض وتوصيل طالبات جامعة الملك عبدالعزيز في جدة"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.wosol.net/\">"
+      ]
+    },
+    {
+      "url": "https://www.wosol.net/?page_id=154",
+      "exit": 0,
+      "status": "200",
+      "sha256": "1813fc3534f80d1dc3a80062a28dc50f7409f5ca06c8d49393aae252d3ea87ee",
+      "title": [
+        "وٌسُل للنقل | نقل موظفين بجدة والرياض وتوصيل طالبات جامعة الملك عبدالعزيز في جدة"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.wosol.net/\">"
+      ]
+    }
+  ],
+  "archive_154_exit": 0,
+  "archive_154_result": "<html><body><h1>429 Too Many Requests</h1>\nYou have sent too many requests in a given amount of time.\n</body></html>\n",
+  "limitations": "No Search Console clicks or external backlink data inspected in this turn."
+}
