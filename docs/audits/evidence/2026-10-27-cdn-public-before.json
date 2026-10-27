@@ -1,0 +1,47 @@
+{
+  "time": "2026-10-27T16:05:44.369559+00:00",
+  "results": [
+    {
+      "url": "https://www.wosol.net/",
+      "exit_code": 35,
+      "response": "",
+      "error": "curl: (35) Recv failure: Connection was reset\n"
+    },
+    {
+      "url": "https://wosol.net/",
+      "exit_code": 35,
+      "response": "",
+      "error": "curl: (35) Recv failure: Connection was reset\n"
+    },
+    {
+      "url": "http://www.wosol.net/",
+      "exit_code": 0,
+      "response": "HTTP/1.1 302 Found\ncontent-length: 0\nlocation: https://www.wosol.net:443/\ncache-control: no-cache\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/en/",
+      "exit_code": 35,
+      "response": "",
+      "error": "curl: (35) Recv failure: Connection was reset\n"
+    },
+    {
+      "url": "https://www.wosol.net/?product=edu11",
+      "exit_code": 35,
+      "response": "",
+      "error": "curl: (35) Recv failure: Connection was reset\n"
+    },
+    {
+      "url": "https://www.wosol.net/?product=edu3",
+      "exit_code": 35,
+      "response": "",
+      "error": "curl: (35) Recv failure: Connection was reset\n"
+    },
+    {
+      "url": "https://www.wosol.net/?product=edu33",
+      "exit_code": 35,
+      "response": "",
+      "error": "curl: (35) Recv failure: Connection was reset\n"
+    }
+  ]
+}
