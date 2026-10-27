@@ -1,3 +1,12 @@
+# Approved renewal and Arabic language redirects (2026-10-27)
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{QUERY_STRING} ^page_id=754$
+RewriteRule ^$ https://www.wosol.net/renewal.html [R=301,L,QSD]
+RewriteCond %{QUERY_STRING} ^wp_lang=ar$
+RewriteRule ^$ https://www.wosol.net/ [R=301,L,QSD]
+</IfModule>
+
 # Verified legacy page queries (2026-10-27)
 <IfModule mod_rewrite.c>
 RewriteEngine On
