@@ -1,0 +1,6 @@
+# PENDING: Upload renewal.html and verify it returns200 BEFORE applying this rule.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{QUERY_STRING} ^page_id=754$
+RewriteRule ^$ https://www.wosol.net/renewal.html [R=301,L,QSD]
+</IfModule>
