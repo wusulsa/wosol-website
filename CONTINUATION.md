@@ -1,3 +1,7 @@
+
+## 2026-11-02 — English content release
+Published and hash-verified 36 pages + i18n asset. See docs/audits/2026-11-02-english-content-release-ar.md. Mobile visual recheck remains pending: viewport override did not apply. No forms/indexing/ads.
+
 ## مراجعة ما بعد النشر — 2 نوفمبر 2026
 
 38 رابطًا HTTP 200؛ صفحتا الحج والعمرة مفهرستان في Google، والخريطة مقروءة اليوم بنجاح. آخر زحف للصفحتين19 أكتوبر، لذا تحديث النص في الفهرس لم يُثبت. أولوية معلقة: LCP>2.5s للجوال لـ41عنوانًا في بيانات1 نوفمبر، دون نسبته لنشر اليوم. لا طلبات فهرسة مكررة أو نماذج أو إعلانات. التقرير: docs/audits/2026-11-02-postpublish-ar.md.
