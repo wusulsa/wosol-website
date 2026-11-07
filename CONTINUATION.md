@@ -1,3 +1,6 @@
+## 7 نوفمبر 2026 — إغلاق مراجعة الإنجليزية على الجوال
+فُحصت الرئيسية والخدمات بعروض320/390/430. نُشر الاسم الكامل للخدمة المختارة أسفل القائمة في مربع الإرشاد، وتأكد ظهوره باللغتين وتطابق3ملفات عامة. لا نماذج أو فهرسة أو إعلانات. التفاصيل: [تقرير الجوال](docs/audits/2026-11-07-english-mobile-review-ar.md).
+
 
 ## 2026-11-02 — English content release
 Published and hash-verified 36 pages + i18n asset. See docs/audits/2026-11-02-english-content-release-ar.md. Mobile visual recheck remains pending: viewport override did not apply. No forms/indexing/ads.
