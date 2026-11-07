@@ -1,0 +1,22 @@
+{
+  "baseline": false,
+  "pages": 36,
+  "css": {
+    "before": 134234,
+    "after": 104503,
+    "gzipBefore": 23627,
+    "gzipAfter": 18930,
+    "file": "css/approved-preview.c74345c59817.css"
+  },
+  "image": {
+    "before": 536098,
+    "after": 152166,
+    "width": 1999,
+    "height": 1124,
+    "alphaEqual": true,
+    "psnrVisibleRGB": 45.37149868940115,
+    "file": "assets/profile-2026/hero-1999-preview.d651acb86c48.webp",
+    "lossless": false
+  },
+  "productionChanged": false
+}
