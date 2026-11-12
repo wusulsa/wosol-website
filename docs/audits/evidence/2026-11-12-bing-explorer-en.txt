@@ -1,0 +1,166 @@
+- banner:
+  - button "Show navigation panel":
+    - generic: 
+  - link "Skip to main content":
+    - /url: "#content"
+  - img "white bwt logo microsoft bing mobile"
+  - button "More":
+    - generic: 
+  - button "Profile":
+- main:
+  - heading "Site Explorer" [level=2]
+  - combobox:
+    - generic: Indexed URLs
+    - generic: 
+  - button "Download":
+    - generic: Download
+    - generic: 
+  - heading "Explorer" [level=3]
+  - generic: Clicks
+  - button "Clicks":
+    - generic: 
+  - tree:
+    - row "Collapse wosol.net" [expanded] [level=1]:
+      - gridcell "Collapse":
+        - button "Collapse":
+          - generic: 
+      - gridcell "wosol.net":
+        - generic: 
+        - generic: wosol.net
+    - row "Expand wp-content" [level=2]:
+      - gridcell "Expand":
+        - button "Expand":
+          - generic: 
+      - gridcell "wp-content":
+        - generic: 
+        - generic: wp-content
+    - row "en" [active] [level=2] [selected]:
+      - gridcell
+      - gridcell "en":
+        - generic: 
+        - generic: en
+  - navigation:
+    - list:
+      - button "wosol.net"
+      - generic: /
+      - heading "en" [level=4]
+  - heading "Crawl information" [level=4]
+  - group "Bar chart showing Crawl information. Indexed:15, Error:0, Warning:0, Excluded:2":
+    - img "Bar chart showing Crawl information. Indexed:15, Error:0, Warning:0, Excluded:2":
+      - img "Bar chart showing Crawl information. Indexed:15, Error:0, Warning:0, Excluded:2"
+    - generic: Bar chart showing Crawl information. Indexed:15, Error:0, Warning:0, Excluded:2
+  - heading "Folder information" [level=4]
+  - generic: 
+  - text: Last 6 months
+  - list:
+    - generic: URLs
+    - generic: "17"
+    - generic: Clicks
+    - generic: "-"
+    - generic: Impressions
+    - generic: "30"
+    - generic: Backlinks
+    - generic: "-"
+  - grid "URL list":
+    - row "URL, sortable Clicks, sortable, sorted descending order Impressions, sortable Last crawled HTTP code":
+      - columnheader "URL, sortable":
+        - button "URL, sortable":
+          - generic: URL
+      - columnheader "Clicks, sortable, sorted descending order":
+        - button "Clicks, sortable, sorted descending order":
+          - generic: Clicks
+          - generic: 
+      - columnheader "Impressions, sortable":
+        - button "Impressions, sortable":
+          - generic: Impressions
+      - columnheader "Last crawled":
+        - generic: Last crawled
+      - columnheader "HTTP code":
+        - generic: HTTP code
+    - row "/(root) - 29 27 Oct 2026 304" [selected]:
+      - rowheader "/(root)":
+        - generic: 
+        - generic: /(root)
+      - rowheader "-"
+      - rowheader "29"
+      - rowheader "27 Oct 2026"
+      - rowheader "304"
+    - row "employee-transport-makkah - - 8 Nov 2026 200":
+      - rowheader "employee-transport-makkah":
+        - generic: 
+        - generic: employee-transport-makkah
+      - rowheader "-"
+      - rowheader "-"
+      - rowheader "8 Nov 2026"
+      - rowheader "200"
+    - row "executive-vip-transport - - 7 Nov 2026 200":
+      - rowheader "executive-vip-transport":
+        - generic: 
+        - generic: executive-vip-transport
+      - rowheader "-"
+      - rowheader "-"
+      - rowheader "7 Nov 2026"
+      - rowheader "200"
+    - row "employee-transport-jeddah - - 23 Oct 2026 200":
+      - rowheader "employee-transport-jeddah":
+        - generic: 
+        - generic: employee-transport-jeddah
+      - rowheader "-"
+      - rowheader "-"
+      - rowheader "23 Oct 2026"
+      - rowheader "200"
+    - row "employee-transport-riyadh - 1 31 Oct 2026 200":
+      - rowheader "employee-transport-riyadh":
+        - generic: 
+        - generic: employee-transport-riyadh
+      - rowheader "-"
+      - rowheader "1"
+      - rowheader "31 Oct 2026"
+      - rowheader "200"
+    - row "employee-transport-dammam - - 6 Nov 2026 200":
+      - rowheader "employee-transport-dammam":
+        - generic: 
+        - generic: employee-transport-dammam
+      - rowheader "-"
+      - rowheader "-"
+      - rowheader "6 Nov 2026"
+      - rowheader "200"
+  - generic: 
+  - heading / [level=4]:
+    - link /:
+      - /url: https://wosol.net/en
+  - generic: 
+  - text: Indexed
+  - list:
+    - generic: Impressions
+    - generic: ":"
+    - generic: "29"
+    - generic: Clicks
+    - generic: ":"
+    - generic: "-"
+    - generic: Last crawled
+    - generic: ":"
+    - generic: 27 Oct 2026
+    - generic: Discovered
+    - generic: ":"
+    - generic: 17 Oct 2026
+    - generic: HTTP code
+    - generic: ":"
+    - generic: "304"
+    - generic: Document size
+    - generic: ":"
+    - generic: 67.7KB
+    - generic: Backlinks
+    - generic: ":"
+    - generic: "-"
+    - generic: Is Https
+    - generic: ":"
+    - generic: "true"
+  - button "Inspect URL":
+    - generic: Inspect URL
+  - button "Block URL":
+    - generic: Block URL
+  - button "Request indexing":
+    - generic: Request indexing
+  - button "Test URL in Robots.txt":
+    - generic: Test URL in Robots.txt
