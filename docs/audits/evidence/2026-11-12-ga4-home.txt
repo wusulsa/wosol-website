@@ -1,0 +1,585 @@
+- banner:
+  - generic: "\"إحصاءات\""
+  - button "فتح أداة الاختيار العامة":
+    - generic: جميع الحسابات
+    - img: chevron_right
+    - generic: وسل WOSOL
+    - generic: WOSOL — wosol.net
+    - img: arrow_drop_down
+  - search:
+    - img: search
+    - textbox "بحث":
+      - /placeholder: جرّب البحث عن "الإحصاءات"
+  - button "تبديل المنتجات":
+  - button "قائمة دخول صفحة المساعدة":
+    - img: help
+  - button "فتح لوحة مبدِّل حسابات المستخدم"
+- navigation "الصفحات الرئيسية":
+  - link "الصفحة الرئيسية":
+    - generic: الصفحة الرئيسية
+  - link "التقارير":
+    - img: insert_chart_filled
+    - generic: التقارير
+  - link "استكشاف":
+    - img: data_exploration
+    - generic: استكشاف
+  - link "الإعلانات":
+    - img: ads_click
+    - generic: الإعلانات
+- navigation "صفحات الإعدادات":
+  - link "المهام":
+    - img: task_alt
+    - generic: المهام
+  - link "المسؤول":
+    - img: settings_filled
+    - generic: المسؤول
+- main:
+  - heading "الصفحة الرئيسية" [level=1]
+  - generic "عرض التعليقات التوضيحية":
+    - button "عرض التعليقات التوضيحية":
+  - generic "إحصاءات":
+    - button "إحصاءات":
+  - tablist:
+    - tab "مستخدمون نشطون 48، ارتفاع بمقدار 14.3‎%‎" [selected]:
+      - generic "مستخدمون نشطون 48، ارتفاع بمقدار 14.3‎%‎":
+        - button "مستخدمون نشطون":
+          - generic: مستخدمون نشطون
+          - img: arrow_drop_down
+        - generic: "48"
+        - text: 14.3‎%‎
+    - tab "عدد الأحداث 452، ارتفاع بمقدار 29.1‎%‎":
+      - generic "عدد الأحداث 452، ارتفاع بمقدار 29.1‎%‎":
+        - button "عدد الأحداث":
+          - generic: عدد الأحداث
+          - img: arrow_drop_down
+        - generic: "452"
+        - text: 29.1‎%‎
+    - tab "الأحداث المهمة 0":
+      - generic "الأحداث المهمة 0":
+        - button "الأحداث المهمة":
+          - generic: الأحداث المهمة
+          - img: arrow_drop_down
+        - generic: "0"
+        - generic: "-"
+    - tab "المشاهدات 196، ارتفاع بمقدار 60.7‎%‎":
+      - generic "المشاهدات 196، ارتفاع بمقدار 60.7‎%‎":
+        - button "المشاهدات":
+          - generic: المشاهدات
+          - img: arrow_drop_down
+        - generic: "196"
+        - text: 60.7‎%‎
+  - tabpanel "مستخدمون نشطون 48، ارتفاع بمقدار 14.3‎%‎"
+  - button "بيانات قياس الأداء مفعَّلة":
+  - button "في البطاقة، يتم استخدام كل البيانات المتاحة. يُرجى النقر للاطّلاع على مزيد من المعلومات.":
+    - img: check_circle
+    - generic: في البطاقة، يتم استخدام كل البيانات المتاحة. يُرجى النقر للاطّلاع على مزيد من المعلومات.
+  - button "عرض عنصر التسمية التوضيحية السابق" [disabled]:
+    - generic: ‹
+  - button "عرض عنصر التسمية التوضيحية التالي":
+    - generic: ›
+  - combobox "فتح أداة اختيار النطاق الزمني":
+    - generic: آخر 7 أيام
+    - img: arrow_drop_down
+  - button "عرض نبذة عن التقارير":
+    - generic: عرض نبذة عن التقارير
+    - img: arrow_forward
+  - button "عدد المستخدمين النشطين خلال آخر 30 دقيقة"
+  - generic: "1"
+  - button "في البطاقة، يتم استخدام كل البيانات المتاحة. يُرجى النقر للاطّلاع على مزيد من المعلومات.":
+    - img: check_circle
+    - generic: في البطاقة، يتم استخدام كل البيانات المتاحة. يُرجى النقر للاطّلاع على مزيد من المعلومات.
+    - img: arrow_drop_down
+  - generic: عدد المستخدمين النشطين في الدقيقة
+  - table:
+    - row "البلد مستخدمون نشطون":
+      - columnheader "البلد":
+        - button "البلد":
+          - generic: البلد
+          - img: arrow_drop_down
+      - columnheader "مستخدمون نشطون":
+        - button "مستخدمون نشطون":
+          - generic: مستخدمون نشطون
+          - img: arrow_drop_down
+    - row "Saudi Arabia 1":
+      - cell "Saudi Arabia"
+      - cell "1"
+  - table:
+    - row:
+      - columnheader
+    - row:
+      - cell
+  - button "عرض في الوقت الفعلي":
+    - generic: عرض في الوقت الفعلي
+    - img: arrow_forward
+  - img: assistant
+  - generic: الاقتراح
+  - generic: جديد
+  - text: thumb_up thumb_down close
+  - button "المزيد من الإجراءات":
+    - img: more_vert
+  - heading "الرجاء ربط خاصية Search Console \"https://www.wosol.net/\" الخاصة لترى أي استعلامات بحث وصفحات مقصودة تجذب أكثر تفاعلات من المستخدمين، بتحليل سلوكهم." [level=2]:
+    - generic: الرجاء ربط خاصية Search Console "https://www.wosol.net/" الخاصة لترى أي استعلامات بحث وصفحات مقصودة تجذب أكثر تفاعلات من المستخدمين، بتحليل سلوكهم.
+  - generic: عملية إعداد تستغرق دقيقة واحدة
+  - generic: الرجاء الربط للحصول على الوصول إلى تقارير "طلبات البحث المجاني من Google" و "الزيارات من عمليات البحث غير المدفوعة من Google" لمعرفة ما هي الطلبات التي تؤدي إلى النقرات وكيف تتحول هذه الزيارات.
+  - generic: مقترح لخاصية Search Console الخاصة ولديك على الأقل دور المحرر في Analytics.
+  - button "توسيع هذه الإحصاءات":
+    - img: fullscreen
+  - link "ربط الحساب":
+    - /url: "#/a79923630p559491722/admin/integrations/search-console"
+    - generic: ربط الحساب
+  - heading "البطاقات التي اطّلعت عليها مؤخرًا" [level=2]:
+    - generic: البطاقات التي اطّلعت عليها مؤخرًا
+  - button "نقل المنطقة القابلة للتمرير إلى الخلف" [disabled]:
+    - img: keyboard_arrow_left
+  - img: insert_chart_outlined
+  - button "نظرة عامة في الوقت الفعلي":
+    - generic: نظرة عامة في الوقت الفعلي
+  - generic: قبل 24 يومًا
+  - img: settings
+  - link "إعدادات الموقع":
+    - /url: "#/a79923630p559491722/admin/property/settings?restoreUserState=true"
+    - generic: إعدادات الموقع
+  - generic: قبل 24 يومًا
+  - img: settings
+  - link "المشرف":
+    - /url: "#/a79923630p559491722/admin?restoreUserState=true"
+    - generic: المشرف
+  - generic: قبل 24 يومًا
+  - button "نقل المنطقة القابلة للتمرير إلى الأمام" [disabled]:
+    - img: keyboard_arrow_right
+  - heading "محتوى مقترَح لك" [level=2]:
+    - generic "محتوى مقترَح لك":
+      - button "رسالة تشرح طريقة ظهور البطاقات في هذا القسم": محتوى مقترَح لك
+  - button "نقل المنطقة القابلة للتمرير إلى الخلف":
+    - img: keyboard_arrow_left
+  - generic: thumb_up thumb_down
+  - generic "مستخدمون نشطون":
+    - combobox "المقاييس":
+      - generic: مستخدمون نشطون
+  - text: by
+  - generic "معرّف البلد":
+    - combobox "السمات":
+      - generic: معرّف البلد
+  - button "في البطاقة، يتم استخدام كل البيانات المتاحة. يُرجى النقر للاطّلاع على مزيد من المعلومات.":
+    - img: check_circle
+    - generic: في البطاقة، يتم استخدام كل البيانات المتاحة. يُرجى النقر للاطّلاع على مزيد من المعلومات.
+    - img: arrow_drop_down
+  - table:
+    - row "البلد مستخدمون نشطون":
+      - columnheader "البلد":
+        - button "البلد"
+      - columnheader "مستخدمون نشطون":
+        - button "مستخدمون نشطون"
+    - row "Saudi Arabia 44 7.3‎%‎":
+      - cell "Saudi Arabia"
+      - cell "44"
+      - cell "7.3‎%‎":
+        - text: 7.3‎%‎
+    - row "China 1 -":
+      - cell "China"
+      - cell "1"
+      - cell "-":
+        - text: "-"
+    - row "India 1 -":
+      - cell "India"
+      - cell "1"
+      - cell "-":
+        - text: "-"
+    - row "Sudan 1 -":
+      - cell "Sudan"
+      - cell "1"
+      - cell "-":
+        - text: "-"
+    - row "Türkiye 1 -":
+      - cell "Türkiye"
+      - cell "1"
+      - cell "-":
+        - text: "-"
+    - row "Madagascar 0 100.0‎%‎":
+      - cell "Madagascar"
+      - cell "0"
+      - cell "100.0‎%‎":
+        - text: 100.0‎%‎
+  - table:
+    - row:
+      - columnheader
+    - row:
+      - cell
+    - row:
+      - cell
+    - row:
+      - cell
+    - row:
+      - cell
+    - row:
+      - cell
+    - row:
+      - cell
+  - combobox "فتح أداة اختيار النطاق الزمني":
+    - generic: آخر 7 أيام
+    - img: arrow_drop_down
+  - button "عرض البلدان":
+    - generic: عرض البلدان
+    - img: arrow_forward
+  - generic: thumb_up thumb_down
+  - generic "المشاهدات":
+    - button "المشاهدات"
+  - text: by
+  - generic "عنوان الصفحة وفئة الشاشة":
+    - button "عنوان الصفحة وفئة الشاشة"
+  - button "في البطاقة، يتم استخدام كل البيانات المتاحة. يُرجى النقر للاطّلاع على مزيد من المعلومات.":
+    - img: check_circle
+    - generic: في البطاقة، يتم استخدام كل البيانات المتاحة. يُرجى النقر للاطّلاع على مزيد من المعلومات.
+    - img: arrow_drop_down
+  - table:
+    - row "عنوان الصفحة وفئة الشاشة المشاهدات":
+      - columnheader "عنوان الصفحة وفئة الشاشة":
+        - button "عنوان الصفحة وفئة الشاشة"
+      - columnheader "المشاهدات":
+        - button "المشاهدات"
+    - row "وٌسُل للنقل | نقل موظفين بجدة والرياض وتوصيل طالبات جامعة الملك عبدالعزيز في جدة 74 5.1‎%‎":
+      - cell "وٌسُل للنقل | نقل موظفين بجدة والرياض وتوصيل طالبات جامعة الملك عبدالعزيز في جدة"
+      - cell "74"
+      - cell "5.1‎%‎":
+        - text: 5.1‎%‎
+    - row "WOSOL Transport in Saudi Arabia | Staff, Groups & Students 22 2,100.0‎%‎":
+      - cell "WOSOL Transport in Saudi Arabia | Staff, Groups & Students"
+      - cell "22"
+      - cell "2,100.0‎%‎":
+        - text: 2,100.0‎%‎
+    - row "توصيل طالبات جامعة الملك عبدالعزيز في جدة | وٌسُل للنقل 13 62.5‎%‎":
+      - cell "توصيل طالبات جامعة الملك عبدالعزيز في جدة | وٌسُل للنقل"
+      - cell "13"
+      - cell "62.5‎%‎":
+        - text: 62.5‎%‎
+    - row "تسجيل نقل طالبات جامعة الملك عبدالعزيز في جدة | وُسُل 7 22.2‎%‎":
+      - cell "تسجيل نقل طالبات جامعة الملك عبدالعزيز في جدة | وُسُل"
+      - cell "7"
+      - cell "22.2‎%‎":
+        - text: 22.2‎%‎
+    - row "Hajj, Umrah and Visitor Transport in Makkah and Madinah | WOSOL 5 66.7‎%‎":
+      - cell "Hajj, Umrah and Visitor Transport in Makkah and Madinah | WOSOL"
+      - cell "5"
+      - cell "66.7‎%‎":
+        - text: 66.7‎%‎
+    - row "Employee Transport & Staff Shuttles in Jeddah | WOSOL 6 500.0‎%‎":
+      - cell "Employee Transport & Staff Shuttles in Jeddah | WOSOL"
+      - cell "6"
+      - cell "500.0‎%‎":
+        - text: 500.0‎%‎
+    - row "Employee Transport & Staff Shuttles in Riyadh | WOSOL 6 500.0‎%‎":
+      - cell "Employee Transport & Staff Shuttles in Riyadh | WOSOL"
+      - cell "6"
+      - cell "500.0‎%‎":
+        - text: 500.0‎%‎
+  - table:
+    - row:
+      - columnheader
+    - row:
+      - cell
+    - row:
+      - cell
+    - row:
+      - cell
+    - row:
+      - cell
+    - row:
+      - cell
+    - row:
+      - cell
+    - row:
+      - cell
+  - combobox "فتح أداة اختيار النطاق الزمني":
+    - generic: آخر 7 أيام
+    - img: arrow_drop_down
+  - button "عرض الصفحات والشاشات":
+    - generic: عرض الصفحات والشاشات
+    - img: arrow_forward
+  - generic: thumb_up thumb_down
+  - generic "الجلسات":
+    - combobox "المقاييس":
+      - generic: الجلسات
+  - text: by
+  - generic "مجموعة القنوات الأساسية المرتبطة بالجلسة (مجموعة القنوات التلقائية)":
+    - combobox "السمات":
+      - generic: مجموعة القنوات الأساسية المرتبطة بالجلسة (مجموعة القنوات التلقائية)
+  - button "في البطاقة، يتم استخدام كل البيانات المتاحة. يُرجى النقر للاطّلاع على مزيد من المعلومات.":
+    - img: check_circle
+    - generic: في البطاقة، يتم استخدام كل البيانات المتاحة. يُرجى النقر للاطّلاع على مزيد من المعلومات.
+    - img: arrow_drop_down
+  - table:
+    - row "مجموعة القنوات الأساسية المرتبطة بالجلسة (مجموعة القنوات التلقائية) الجلسات":
+      - columnheader "مجموعة القنوات الأساسية المرتبطة بالجلسة (مجموعة القنوات التلقائية)":
+        - generic: مجموعة القنوات الأساسية المرتبطة بالجلسة (مجموعة القنوات التلقائية)
+      - columnheader "الجلسات":
+        - button "الجلسات"
+    - row "Direct 64 1.5‎%‎":
+      - cell "Direct"
+      - cell "64"
+      - cell "1.5‎%‎":
+        - text: 1.5‎%‎
+    - row "Unassigned 2 -":
+      - cell "Unassigned"
+      - cell "2"
+      - cell "-":
+        - text: "-"
+  - table:
+    - row:
+      - columnheader
+    - row:
+      - cell
+    - row:
+      - cell
+  - combobox "فتح أداة اختيار النطاق الزمني":
+    - generic: آخر 7 أيام
+    - img: arrow_drop_down
+  - button "عرض اكتساب الزيارات":
+    - generic: عرض اكتساب الزيارات
+    - img: arrow_forward
+  - generic: thumb_up thumb_down
+  - generic "الأحداث المهمة":
+    - combobox "المقاييس":
+      - generic: الأحداث المهمة
+  - text: by
+  - generic "المنصة":
+    - button "المنصة"
+  - button "في البطاقة، يتم استخدام كل البيانات المتاحة. يُرجى النقر للاطّلاع على مزيد من المعلومات.":
+    - img: check_circle
+    - generic: في البطاقة، يتم استخدام كل البيانات المتاحة. يُرجى النقر للاطّلاع على مزيد من المعلومات.
+    - img: arrow_drop_down
+  - combobox "فتح أداة اختيار النطاق الزمني":
+    - generic: آخر 7 أيام
+    - img: arrow_drop_down
+  - button "عرض تفاصيل التكنولوجيا":
+    - generic: عرض تفاصيل التكنولوجيا
+    - img: arrow_forward
+  - generic: thumb_up thumb_down
+  - generic "مستخدمون نشطون":
+    - button "مستخدمون نشطون"
+  - text: by
+  - generic "مصدر/وسيط المستخدم الجديد":
+    - button "مصدر/وسيط المستخدم الجديد"
+  - button "في البطاقة، يتم استخدام كل البيانات المتاحة. يُرجى النقر للاطّلاع على مزيد من المعلومات.":
+    - img: check_circle
+    - generic: في البطاقة، يتم استخدام كل البيانات المتاحة. يُرجى النقر للاطّلاع على مزيد من المعلومات.
+    - img: arrow_drop_down
+  - table:
+    - row "مصدر/وسيط المستخدم الجديد مستخدمون نشطون":
+      - columnheader "مصدر/وسيط المستخدم الجديد":
+        - button "مصدر/وسيط المستخدم الجديد"
+      - columnheader "مستخدمون نشطون":
+        - button "مستخدمون نشطون"
+    - row "(direct) / (none) 48 14.3‎%‎":
+      - cell "(direct) / (none)"
+      - cell "48"
+      - cell "14.3‎%‎":
+        - text: 14.3‎%‎
+  - table:
+    - row:
+      - columnheader
+    - row:
+      - cell
+  - combobox "فتح أداة اختيار النطاق الزمني":
+    - generic: آخر 7 أيام
+    - img: arrow_drop_down
+  - generic: thumb_up thumb_down
+  - generic "الجلسات":
+    - button "الجلسات"
+  - text: by
+  - generic "مصدر/وسيط الجلسة":
+    - button "مصدر/وسيط الجلسة"
+  - button "في البطاقة، يتم استخدام كل البيانات المتاحة. يُرجى النقر للاطّلاع على مزيد من المعلومات.":
+    - img: check_circle
+    - generic: في البطاقة، يتم استخدام كل البيانات المتاحة. يُرجى النقر للاطّلاع على مزيد من المعلومات.
+    - img: arrow_drop_down
+  - table:
+    - row "مصدر/وسيط الجلسة الجلسات":
+      - columnheader "مصدر/وسيط الجلسة":
+        - button "مصدر/وسيط الجلسة"
+      - columnheader "الجلسات":
+        - button "الجلسات"
+    - row "(direct) / (none) 64 1.5‎%‎":
+      - cell "(direct) / (none)"
+      - cell "64"
+      - cell "1.5‎%‎":
+        - text: 1.5‎%‎
+  - table:
+    - row:
+      - columnheader
+    - row:
+      - cell
+  - combobox "فتح أداة اختيار النطاق الزمني":
+    - generic: آخر 7 أيام
+    - img: arrow_drop_down
+  - generic: thumb_up thumb_down
+  - generic "مستخدمون نشطون":
+    - button "مستخدمون نشطون"
+  - text: by
+  - generic "المدينة":
+    - button "المدينة"
+  - button "في البطاقة، يتم استخدام كل البيانات المتاحة. يُرجى النقر للاطّلاع على مزيد من المعلومات.":
+    - img: check_circle
+    - generic: في البطاقة، يتم استخدام كل البيانات المتاحة. يُرجى النقر للاطّلاع على مزيد من المعلومات.
+    - img: arrow_drop_down
+  - table:
+    - row "المدينة مستخدمون نشطون":
+      - columnheader "المدينة":
+        - button "المدينة"
+      - columnheader "مستخدمون نشطون":
+        - button "مستخدمون نشطون"
+    - row "Jeddah 23 9.5‎%‎":
+      - cell "Jeddah"
+      - cell "23"
+      - cell "9.5‎%‎":
+        - text: 9.5‎%‎
+    - row "Riyadh 13 0.0‎%‎":
+      - cell "Riyadh"
+      - cell "13"
+      - cell "0.0‎%‎":
+        - text: 0.0‎%‎
+    - row "Dammam 4 20.0‎%‎":
+      - cell "Dammam"
+      - cell "4"
+      - cell "20.0‎%‎":
+        - text: 20.0‎%‎
+    - row "Makkah 2 50.0‎%‎":
+      - cell "Makkah"
+      - cell "2"
+      - cell "50.0‎%‎":
+        - text: 50.0‎%‎
+    - row "Abha 0 100.0‎%‎":
+      - cell "Abha"
+      - cell "0"
+      - cell "100.0‎%‎":
+        - text: 100.0‎%‎
+    - row "Madinah 2 0.0‎%‎":
+      - cell "Madinah"
+      - cell "2"
+      - cell "0.0‎%‎":
+        - text: 0.0‎%‎
+    - row "Al Jubail 1 -":
+      - cell "Al Jubail"
+      - cell "1"
+      - cell "-":
+        - text: "-"
+  - table:
+    - row:
+      - columnheader
+    - row:
+      - cell
+    - row:
+      - cell
+    - row:
+      - cell
+    - row:
+      - cell
+    - row:
+      - cell
+    - row:
+      - cell
+    - row:
+      - cell
+  - combobox "فتح أداة اختيار النطاق الزمني":
+    - generic: آخر 7 أيام
+    - img: arrow_drop_down
+  - button "عرض المدن":
+    - generic: عرض المدن
+    - img: arrow_forward
+  - button "نقل المنطقة القابلة للتمرير إلى الأمام" [disabled]:
+    - img: keyboard_arrow_right
+  - heading "الإحصاءات والاقتراحات" [level=2]:
+    - generic: الإحصاءات والاقتراحات
+  - link "عرض جميع الإحصاءات":
+    - /url: "#/a79923630p559491722/insights/hub"
+    - generic: عرض جميع الإحصاءات
+    - img: west_gm_grey600_20dp
+  - button "نقل المنطقة القابلة للتمرير إلى الخلف":
+    - img: keyboard_arrow_left
+  - img: assistant
+  - generic: الاقتراح
+  - generic: جديد
+  - text: thumb_up thumb_down close
+  - button "المزيد من الإجراءات":
+    - img: more_vert
+  - generic: يمكن إكمال عملية التنفيذ من خلال جمع بيانات حول الحدث الرئيسي لجذب العملاء المحتملين
+  - generic: يمكن استيراد البيانات المتوفرة بدون إنترنت/بيانات إدارة علاقات العملاء مباشرة في إحصاءات Google للاستفادة منها في تقديم عروض الأسعار وتحسين التصنيف إلى قطاعات أو شرائح واستهداف الجمهور
+  - generic: ننصح بهذا الإجراء لأن هذا الحساب لديه إذن المشرف/المحرر في إحصاءات Google‏ 4 لهذا الموقع، ولم يتم بعد ضبط إعدادات استيراد بيانات الأحداث بلا إنترنت
+  - button "توسيع هذه الإحصاءات":
+    - img: fullscreen
+  - link "استيراد البيانات الآن":
+    - /url: "#/a79923630p559491722/admin/data-import/create?dataType=6"
+    - generic: استيراد البيانات الآن
+  - img: sell
+  - generic: الارتقاء بالمبيعات
+  - generic: جديد
+  - text: thumb_up thumb_down close
+  - button "المزيد من الإجراءات":
+    - img: more_vert
+  - text: لا تفوت فرصة الحصول على رصيد بقيمة SAR 1300 مع إعلانات Google
+  - button "الاطّلاع على مزيد من المعلومات عن هذا الاقتراح":
+    - img: help_outline
+  - paragraph: الإعلان · www.wosol.net
+  - paragraph: اسم نشاطك التجاري | خدمة ذات جودة عالية مضمونة
+  - paragraph: مفتوح 24 ساعة.اتصل الان و احصل على خصم %20.
+  - generic: يمكن الوصول إلى المزيد من العملاء والحصول على SAR 1300 في رصيد الإعلانات عندما يتم إنفاق SAR 1300 في إعلانات Google. عرض للمعلنين الجدد فقط.
+  - button "توسيع هذه الإحصاءات":
+    - img: fullscreen
+  - link "الحصول على رصيدي":
+    - /url: https://ads.google.com/signup?authuser=1&prefillData=%7B%221%22:%22www.wosol.net%22%7D&subid=xs-ip-ga_hp-s500g500%7Cib:1091745641%7Cib:8778663188%7Cib:7465580735%7C-ahpm-0000000217-0000000002%7C-unqsi-CMXY1bPLgpgDFZdrnQYdVOguvQ-unqsi
+    - generic: الحصول على رصيدي
+    - img: open_in_new
+  - img: sell
+  - generic: الارتقاء بالمبيعات
+  - generic: جديد
+  - text: thumb_up thumb_down close
+  - button "المزيد من الإجراءات":
+    - img: more_vert
+  - generic: تتبع بيانات النشاط التجاري أثناء التنقل
+  - generic: يظهر هذا الاقتراح لأنه لم يتم استخدام تطبيق إحصاءات Google للأجهزة الجوالة مؤخرا.
+  - generic: يساعد تطبيق إحصاءات Google للأجهزة الجوالة على مراقبة أداء النشاط التجاري في الوقت الفعلي وإنشاء تقارير خاصة واتخاذ إجراءات لتحسين الحساب.
+  - button "توسيع هذه الإحصاءات":
+    - img: fullscreen
+  - link "تنزيل التطبيق":
+    - /url: https://support.google.com/analytics/answer/12674799
+    - generic: تنزيل التطبيق
+    - img: open_in_new
+  - img: assistant
+  - generic: الاقتراح
+  - generic: جديد
+  - text: thumb_up thumb_down close
+  - button "المزيد من الإجراءات":
+    - img: more_vert
+  - generic: الرجاء ربط خاصية Search Console "https://www.wosol.net/" الخاصة لترى أي استعلامات بحث وصفحات مقصودة تجذب أكثر تفاعلات من المستخدمين، بتحليل سلوكهم.
+  - generic: عملية إعداد تستغرق دقيقة واحدة
+  - generic: الرجاء الربط للحصول على الوصول إلى تقارير "طلبات البحث المجاني من Google" و "الزيارات من عمليات البحث غير المدفوعة من Google" لمعرفة ما هي الطلبات التي تؤدي إلى النقرات وكيف تتحول هذه الزيارات.
+  - generic: مقترح لخاصية Search Console الخاصة ولديك على الأقل دور المحرر في Analytics.
+  - button "توسيع هذه الإحصاءات":
+    - img: fullscreen
+  - link "ربط الحساب":
+    - /url: "#/a79923630p559491722/admin/integrations/search-console"
+    - generic: ربط الحساب
+  - button "نقل المنطقة القابلة للتمرير إلى الأمام" [disabled]:
+    - img: keyboard_arrow_right
+  - text: ©‎Google 2026 |
+  - link "صفحة \"إحصاءات Google\" الرئيسية":
+    - /url: https://www.google.com/analytics/?hl=ar
+  - text: "|"
+  - link "بنود الخدمة":
+    - /url: https://www.google.com/analytics/tos.html?hl=ar
+  - text: "|"
+  - link "سياسة الخصوصية":
+    - /url: https://www.google.com/policies/privacy/?hl=ar
+  - text: "|"
+  - button "إرسال التعليقات":
+    - img: feedback
+    - generic: إرسال التعليقات
+- complementary
+- button "فتح قائمة السياق"
+- alertdialog:
+  - button "Close": ×
+  - 'heading "ميزة جديدة: قياس الأداء في \"إحصاءات Google\"" [active] [level=3]'
+  - paragraph
+  - paragraph: مقاييس الأداء هي معايير تساعدك في مقارنة أداء نشاطك التجاري بأداء الأنشطة التجارية الأخرى في مجالك. وتصنّف "إحصاءات Google" فئة نشاطك التجاري بالاستناد إلى فئة مجالك والمحتوى المتوفّر على موقعك الإلكتروني و/أو تطبيقك.
+  - paragraph: يمكنك الاطّلاع على مقاييس الأداء لموقعك في بطاقة "نظرة عامة" على الصفحة الرئيسية.
+  - generic: ‪1 / 3
+  - button "بدء الجولة"

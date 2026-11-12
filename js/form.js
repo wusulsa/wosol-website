@@ -119,6 +119,13 @@ function getTarget(fieldId) {
 }
 
 function showError(fieldId, message) {
+  if (document.documentElement.lang === 'en') {
+    const minimum = message.match(/^يجب ألا يقل الطول عن (\d+) أحرف$/);
+    const date = message.match(/^اختر تاريخاً من (.+) فما بعد$/);
+    message = window.WOSOL_ERROR_TRANSLATIONS?.[message]
+      || (minimum ? `Enter at least ${minimum[1]} characters` : null)
+      || (date ? `Choose a date on or after ${date[1]}` : message);
+  }
   const errEl = document.getElementById(`err-${fieldId}`);
   if (errEl) {
     errEl.textContent = message;   // ← safe: textContent, not innerHTML
@@ -322,75 +329,49 @@ function validateAll() {
 
   if (!form) return;
 
+  let submissionAttempted = false;
   form.addEventListener('submit', async e => {
     e.preventDefault();
-
+    // An uncertain receipt must not cause repeated requests in this page session.
+    if (submissionAttempted) return;
     const { valid, firstFailedSection } = validateAll();
-
     if (!valid) {
-      // Scroll first failing card into view
-      if (firstFailedSection) {
-        document.getElementById(`section-${firstFailedSection}`)
-          ?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }
-      form.dispatchEvent(new CustomEvent('validationFailed',
-        { detail: { section: firstFailedSection } }));
+      if (firstFailedSection) document.getElementById(`section-${firstFailedSection}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      form.dispatchEvent(new CustomEvent('validationFailed', { detail: { section: firstFailedSection } }));
       return;
     }
-
-    // Loading state
-    if (submitBtn)     submitBtn.disabled = true;
-    if (submitText)    submitText.textContent = 'جارٍ الإرسال...';
-    if (submitArrow)   submitArrow.hidden = true;
-    if (submitSpinner) submitSpinner.hidden = false;
-
-    form.dispatchEvent(new CustomEvent('submitStart'));
-
-    try {
-      // 1) السجل إلى Zoho CRM أولاً — فهو سجل الطلبات الرسمي
-      const savedToCRM = window.WASUL_CRM?.submitToCRM
-        ? await window.WASUL_CRM.submitToCRM()
-        : false;
-      if (!savedToCRM) console.warn('CRM submission did not confirm');
-
-      // 2) نسخة بالبريد — تعثّرها لا يُلغي الطلب المسجَّل في CRM
-      let mailed = false;
-      try {
-        if (window.WASUL_EMAIL?.submitForm) {
-          await window.WASUL_EMAIL.submitForm(form, 'طلب تسجيل طالبة جديد من موقع وُسُل');
-          mailed = true;
-        }
-      } catch (mailError) {
-        console.warn('Email copy failed:', mailError);
-      }
-
-      if (!savedToCRM && !mailed) {
-        throw new Error('Neither CRM nor the email copy went through');
-      }
-
-      if (submitBtn)     submitBtn.disabled = false;
-      if (submitText)    submitText.textContent = 'إرسال طلب التسجيل';
-      if (submitArrow)   submitArrow.hidden = false;
-      if (submitSpinner) submitSpinner.hidden = true;
-
-      form.dispatchEvent(new CustomEvent('submitSuccess'));
-
-      // Show the confirmation modal
-      const overlay = document.getElementById('successOverlay');
-      if (overlay) {
-        overlay.removeAttribute('hidden');
-        document.body.style.overflow = 'hidden';
-      }
-      form.reset();
-    } catch (error) {
-      console.error(error);
-      if (submitBtn)     submitBtn.disabled = false;
-      if (submitText)    submitText.textContent = 'إرسال طلب التسجيل';
-      if (submitArrow)   submitArrow.hidden = false;
-      if (submitSpinner) submitSpinner.hidden = true;
-
-      alert('تعذر إرسال طلب التسجيل الآن. يرجى المحاولة مرة أخرى.');
+    const en = document.documentElement.lang === 'en';
+    if (!window.WASUL_CRM?.submitToCRM) {
+      alert(en ? 'Registration is unavailable. Please contact WOSOL on 0536060003.' : 'التسجيل غير متاح الآن. يرجى التواصل مع وسل على 0536060003.');
+      return;
     }
+    submissionAttempted = true;
+    if (submitBtn) submitBtn.disabled = true;
+    if (submitText) submitText.textContent = en ? 'Submitting...' : 'جارٍ الإرسال...';
+    if (submitArrow) submitArrow.hidden = true;
+    if (submitSpinner) submitSpinner.hidden = false;
+    form.dispatchEvent(new CustomEvent('submitStart'));
+    try {
+      await window.WASUL_CRM.submitToCRM();
+    } catch {
+      // Even a client exception cannot prove the server did not save the request.
+    }
+    // This legacy transport cannot confirm a CRM record. Never fabricate success,
+    // generate a reference, reset the form, or copy identity data to email.
+    if (submitSpinner) submitSpinner.hidden = true;
+    if (submitText) submitText.textContent = en ? 'Check request status' : 'تحققي من حالة الطلب';
+    let status = document.getElementById('registrationStatus');
+    if (!status) {
+      status = document.createElement('p');
+      status.id = 'registrationStatus';
+      status.setAttribute('role', 'alert');
+      status.setAttribute('tabindex', '-1');
+      form.append(status);
+    }
+    status.textContent = en
+      ? 'We could not verify that your request was received. Please contact WOSOL on 0536060003 to check before submitting again. Your entries remain on this page. This does not confirm a booking.'
+      : 'تعذر التأكد من استلام طلبك. يرجى التواصل مع وسل على 0536060003 للتحقق قبل إعادة الإرسال. بياناتك ما زالت في هذه الصفحة. هذه الرسالة لا تؤكد الحجز.';
+    status.focus();
+    form.dispatchEvent(new CustomEvent('submitUnverified'));
   });
-
 })();

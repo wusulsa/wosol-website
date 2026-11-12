@@ -1,0 +1,135 @@
+{
+  "checks": [
+    {
+      "lang": "ar",
+      "width": 390,
+      "equal": true,
+      "overflow": false
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "equal": true,
+      "overflow": false
+    },
+    {
+      "lang": "ar",
+      "width": 320,
+      "equal": true,
+      "overflow": false
+    },
+    {
+      "lang": "en",
+      "width": 320,
+      "equal": true,
+      "overflow": false
+    }
+  ],
+  "localTimingSamples": [
+    {
+      "variant": "baseline",
+      "width": 390,
+      "language": "ar",
+      "lcpMs": 1184,
+      "fcpMs": 1184,
+      "loadMs": 265.7000000178814,
+      "hero": "http://127.0.0.1:8773/assets/profile-2026/hero-1000-fast.webp",
+      "resources": [
+        {
+          "url": "http://127.0.0.1:8773/assets/profile-2026/hero-1000-fast.webp",
+          "duration": 0,
+          "transferSize": 0
+        },
+        {
+          "url": "http://127.0.0.1:8773/css/approved-bundle.r6b74b4565170.css",
+          "duration": 0,
+          "transferSize": 0
+        },
+        {
+          "url": "http://127.0.0.1:8773/assets/profile-2026/approved-cartoon-bus.webp",
+          "duration": 0,
+          "transferSize": 0
+        }
+      ]
+    },
+    {
+      "variant": "optimized",
+      "width": 390,
+      "language": "ar",
+      "lcpMs": 752,
+      "fcpMs": 752,
+      "loadMs": 266.09999999403954,
+      "hero": "http://127.0.0.1:8772/assets/profile-2026/hero-1000-fast.webp",
+      "resources": [
+        {
+          "url": "http://127.0.0.1:8772/assets/profile-2026/hero-1000-fast.webp",
+          "duration": 0,
+          "transferSize": 0
+        },
+        {
+          "url": "http://127.0.0.1:8772/css/approved-preview.c74345c59817.css",
+          "duration": 54.70000001788139,
+          "transferSize": 104803
+        },
+        {
+          "url": "http://127.0.0.1:8772/assets/profile-2026/approved-cartoon-bus.webp",
+          "duration": 0,
+          "transferSize": 0
+        }
+      ]
+    },
+    {
+      "variant": "baseline",
+      "width": 390,
+      "language": "en",
+      "lcpMs": 436,
+      "fcpMs": 436,
+      "loadMs": 329.19999998807907,
+      "hero": "http://127.0.0.1:8773/assets/profile-2026/hero-1000-fast.webp",
+      "resources": [
+        {
+          "url": "http://127.0.0.1:8773/assets/profile-2026/hero-1000-fast.webp",
+          "duration": 0,
+          "transferSize": 0
+        },
+        {
+          "url": "http://127.0.0.1:8773/css/approved-bundle.r6b74b4565170.css",
+          "duration": 0,
+          "transferSize": 0
+        },
+        {
+          "url": "http://127.0.0.1:8773/assets/profile-2026/approved-cartoon-bus.webp",
+          "duration": 0,
+          "transferSize": 0
+        }
+      ]
+    },
+    {
+      "variant": "optimized",
+      "width": 390,
+      "language": "en",
+      "lcpMs": 1304,
+      "fcpMs": 1304,
+      "loadMs": 369.59999999403954,
+      "hero": "http://127.0.0.1:8772/assets/profile-2026/hero-1000-fast.webp",
+      "resources": [
+        {
+          "url": "http://127.0.0.1:8772/assets/profile-2026/hero-1000-fast.webp",
+          "duration": 0,
+          "transferSize": 0
+        },
+        {
+          "url": "http://127.0.0.1:8772/css/approved-preview.c74345c59817.css",
+          "duration": 33.599999994039536,
+          "transferSize": 300
+        },
+        {
+          "url": "http://127.0.0.1:8772/assets/profile-2026/approved-cartoon-bus.webp",
+          "duration": 0,
+          "transferSize": 0
+        }
+      ]
+    }
+  ],
+  "timingLimit": "Mixed cache and background-tab state; not accepted as causal before/after LCP evidence. PSI cannot access the private preview."
+}

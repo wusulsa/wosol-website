@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-20",
+  "timezone": "Asia/Riyadh",
+  "provider": "Zoho Forms",
+  "to": "info@wosol.net",
+  "ccConfiguredAndPresentInReceivedHeaders": ["atef-alreemi@wosol.net", "a@wosol.net"],
+  "ccInboxDeliveryIndependentlyVerified": false,
+  "dkim": {"selector": "20101022178", "zohoStatus": "Verified", "quoteEmailAuthentication": "pass"},
+  "tests": [
+    {"marker":"QA20261020-ZOHO-QUOTE","recordId":"1386098000000114030","source":"local build matching published assets","language":"ar","acceptedAt":"20:31:25","receivedAt":"20:31:56","inboxVerified":true,"attachmentBytes":19823},
+    {"marker":"QA20261020-ZOHO-INQUIRY","recordId":"1386098000000114060","source":"local build matching published assets","language":"en","acceptedAt":"20:33:23","receivedAt":"20:33:32","inboxVerified":true,"attachmentBytes":19823},
+    {"marker":"QA20261020-ZOHO-COMPLAINT","recordId":"1386098000000115002","source":"https://www.wosol.net/","language":"ar","acceptedAt":"20:36:09","receivedAt":"20:36:13","inboxVerified":true,"attachmentBytes":19823}
+  ],
+  "testAttachment": "public company logo explicitly labelled test-only, not an official commercial document",
+  "quoteLegacyCrmIntegration": "removed after first test created a CRM record; record not deleted",
+  "studentRegistrationChanged": false,
+  "adsRun": false,
+  "finalBrowserReview": {"languages":["ar","en"],"actualViewportWidth":1280,"requestedMobileWidth":390,"mobileOverrideApplied":false,"englishConsoleErrors":[]}
+}

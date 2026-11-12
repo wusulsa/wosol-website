@@ -1,0 +1,34 @@
+[
+  {
+    "language": "ar",
+    "requestedWidth": 390,
+    "client": 375,
+    "heroLoaded": true,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "language": "en",
+    "requestedWidth": 390,
+    "client": 375,
+    "heroLoaded": true,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "language": "en",
+    "requestedWidth": 320,
+    "client": 305,
+    "heroLoaded": true,
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "language": "ar",
+    "requestedWidth": 320,
+    "client": 305,
+    "heroLoaded": true,
+    "scroll": 305,
+    "width": 320
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "bus": {
+      "height": "26.875px",
+      "width": "76.1562px"
+    },
+    "headings": [
+      {
+        "overflow": false,
+        "parentOverflow": false,
+        "text": "نقل الجهات"
+      },
+      {
+        "overflow": false,
+        "parentOverflow": false,
+        "text": "الرحلات والفعاليات"
+      },
+      {
+        "overflow": false,
+        "parentOverflow": false,
+        "text": "النقل الجامعي"
+      }
+    ],
+    "lang": "ar",
+    "missingTargets": 0,
+    "overflow": false,
+    "width": 320
+  },
+  {
+    "bus": {
+      "height": "26.875px",
+      "width": "76.1562px"
+    },
+    "headings": [
+      {
+        "overflow": false,
+        "parentOverflow": false,
+        "text": "نقل الجهات"
+      },
+      {
+        "overflow": false,
+        "parentOverflow": false,
+        "text": "الرحلات والفعاليات"
+      },
+      {
+        "overflow": false,
+        "parentOverflow": false,
+        "text": "النقل الجامعي"
+      }
+    ],
+    "lang": "ar",
+    "missingTargets": 0,
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "bus": {
+      "height": "26.875px",
+      "width": "76.1562px"
+    },
+    "headings": [
+      {
+        "overflow": false,
+        "parentOverflow": false,
+        "text": "نقل الجهات"
+      },
+      {
+        "overflow": false,
+        "parentOverflow": false,
+        "text": "الرحلات والفعاليات"
+      },
+      {
+        "overflow": false,
+        "parentOverflow": false,
+        "text": "النقل الجامعي"
+      }
+    ],
+    "lang": "ar",
+    "missingTargets": 0,
+    "overflow": false,
+    "width": 768
+  },
+  {
+    "bus": {
+      "height": "31.3594px",
+      "width": "89.5938px"
+    },
+    "headings": [
+      {
+        "overflow": false,
+        "parentOverflow": false,
+        "text": "نقل الجهات"
+      },
+      {
+        "overflow": false,
+        "parentOverflow": false,
+        "text": "الرحلات والفعاليات"
+      },
+      {
+        "overflow": false,
+        "parentOverflow": false,
+        "text": "النقل الجامعي"
+      }
+    ],
+    "lang": "ar",
+    "missingTargets": 0,
+    "overflow": false,
+    "width": 1024
+  },
+  {
+    "bus": {
+      "height": "31.3594px",
+      "width": "89.5938px"
+    },
+    "headings": [
+      {
+        "overflow": false,
+        "parentOverflow": false,
+        "text": "نقل الجهات"
+      },
+      {
+        "overflow": false,
+        "parentOverflow": false,
+        "text": "الرحلات والفعاليات"
+      },
+      {
+        "overflow": false,
+        "parentOverflow": false,
+        "text": "النقل الجامعي"
+      }
+    ],
+    "lang": "ar",
+    "missingTargets": 0,
+    "overflow": false,
+    "width": 1365
+  },
+  {
+    "bus": {
+      "height": "26.875px",
+      "width": "76.1562px"
+    },
+    "headings": [
+      {
+        "overflow": false,
+        "parentOverflow": false,
+        "text": "Business transport"
+      },
+      {
+        "overflow": false,
+        "parentOverflow": false,
+        "text": "Trips & events"
+      },
+      {
+        "overflow": false,
+        "parentOverflow": false,
+        "text": "University transport"
+      }
+    ],
+    "lang": "en",
+    "missingTargets": 0,
+    "overflow": false,
+    "width": 320
+  },
+  {
+    "bus": {
+      "height": "26.875px",
+      "width": "76.1562px"
+    },
+    "headings": [
+      {
+        "overflow": false,
+        "parentOverflow": false,
+        "text": "Business transport"
+      },
+      {
+        "overflow": false,
+        "parentOverflow": false,
+        "text": "Trips & events"
+      },
+      {
+        "overflow": false,
+        "parentOverflow": false,
+        "text": "University transport"
+      }
+    ],
+    "lang": "en",
+    "missingTargets": 0,
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "bus": {
+      "height": "26.875px",
+      "width": "76.1562px"
+    },
+    "headings": [
+      {
+        "overflow": false,
+        "parentOverflow": false,
+        "text": "Business transport"
+      },
+      {
+        "overflow": false,
+        "parentOverflow": false,
+        "text": "Trips & events"
+      },
+      {
+        "overflow": false,
+        "parentOverflow": false,
+        "text": "University transport"
+      }
+    ],
+    "lang": "en",
+    "missingTargets": 0,
+    "overflow": false,
+    "width": 768
+  },
+  {
+    "bus": {
+      "height": "31.3594px",
+      "width": "89.5938px"
+    },
+    "headings": [
+      {
+        "overflow": false,
+        "parentOverflow": false,
+        "text": "Business transport"
+      },
+      {
+        "overflow": false,
+        "parentOverflow": false,
+        "text": "Trips & events"
+      },
+      {
+        "overflow": false,
+        "parentOverflow": false,
+        "text": "University transport"
+      }
+    ],
+    "lang": "en",
+    "missingTargets": 0,
+    "overflow": false,
+    "width": 1024
+  },
+  {
+    "bus": {
+      "height": "31.3594px",
+      "width": "89.5938px"
+    },
+    "headings": [
+      {
+        "overflow": false,
+        "parentOverflow": false,
+        "text": "Business transport"
+      },
+      {
+        "overflow": false,
+        "parentOverflow": false,
+        "text": "Trips & events"
+      },
+      {
+        "overflow": false,
+        "parentOverflow": false,
+        "text": "University transport"
+      }
+    ],
+    "lang": "en",
+    "missingTargets": 0,
+    "overflow": false,
+    "width": 1365
+  }
+]

@@ -1,3 +1,80 @@
+# Retired historical articles: owner approved (2026-10-28)
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{QUERY_STRING} ^p=(1149|1170)$
+RewriteRule ^$ - [G,L]
+</IfModule>
+
+# Retired partners and page 154: owner approved (2026-10-28)
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{QUERY_STRING} ^page_id=(1030|154)$
+RewriteRule ^$ - [G,L]
+</IfModule>
+
+# Retired news index and author archive: owner approved (2026-10-28)
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{QUERY_STRING} ^(page_id=58|author=1)$
+RewriteRule ^$ - [G,L]
+</IfModule>
+
+# Owner-confirmed university store and Obhur query (2026-10-27)
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{QUERY_STRING} ^post_type=product$
+RewriteRule ^$ https://www.wosol.net/king-abdulaziz-university-transport [R=301,L,QSD]
+RewriteCond %{QUERY_STRING} ^product=(اشتراك-أبحر-وما-جاورها-إلى-جامعة-الملك|%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83-%D8%A3%D8%A8%D8%AD%D8%B1-%D9%88%D9%85%D8%A7-%D8%AC%D8%A7%D9%88%D8%B1%D9%87%D8%A7-%D8%A5%D9%84%D9%89-%D8%AC%D8%A7%D9%85%D8%B9%D8%A9-%D8%A7%D9%84%D9%85%D9%84%D9%83)$ [NC]
+RewriteRule ^$ https://www.wosol.net/king-abdulaziz-university-transport [R=301,L,QSD]
+</IfModule>
+
+# Retired technical query resources: owner approved (2026-10-27)
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{QUERY_STRING} ^(feed=comments-rss2|cf7_style=christmas-simple)$
+RewriteRule ^$ - [G,L]
+</IfModule>
+
+# Approved subscriber support (2026-10-27)
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{QUERY_STRING} ^page_id=7$
+RewriteRule ^$ https://www.wosol.net/subscriber-support.html [R=301,L,QSD]
+</IfModule>
+
+# Approved renewal and Arabic language redirects (2026-10-27)
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{QUERY_STRING} ^page_id=754$
+RewriteRule ^$ https://www.wosol.net/renewal.html [R=301,L,QSD]
+RewriteCond %{QUERY_STRING} ^wp_lang=ar$
+RewriteRule ^$ https://www.wosol.net/ [R=301,L,QSD]
+</IfModule>
+
+# Verified legacy page queries (2026-10-27)
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{QUERY_STRING} ^page_id=(9|1131)$
+RewriteRule ^$ https://www.wosol.net/#about [R=301,L,NE,QSD]
+RewriteCond %{QUERY_STRING} ^page_id=17$
+RewriteRule ^$ https://www.wosol.net/#paths-title [R=301,L,NE,QSD]
+RewriteCond %{QUERY_STRING} ^page_id=18$
+RewriteRule ^$ https://www.wosol.net/#contact [R=301,L,NE,QSD]
+RewriteCond %{QUERY_STRING} ^page_id=1050$
+RewriteRule ^$ https://www.wosol.net/king-abdulaziz-university-transport [R=301,L,QSD]
+RewriteCond %{QUERY_STRING} ^page_id=1203$
+RewriteRule ^$ https://www.wosol.net/?contactTab=quote#contact [R=301,L,NE]
+RewriteCond %{QUERY_STRING} ^page_id=1455$
+RewriteRule ^$ https://www.wosol.net/?contactTab=inquiry#contact [R=301,L,NE]
+</IfModule>
+
+# Legacy university query URLs (2026-10-27)
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{QUERY_STRING} ^product=(edu11|edu3|edu33)$
+RewriteRule ^$ https://www.wosol.net/king-abdulaziz-university-transport [R=301,L,QSD]
+</IfModule>
+
 # ============================================================
 #  وُسُل — إعدادات الخادم
 # ============================================================
@@ -20,6 +97,10 @@
 <IfModule mod_expires.c>
   ExpiresActive On
   ExpiresByType image/png        "access plus 1 month"
+  ExpiresByType image/webp       "access plus 1 month"
+  ExpiresByType image/jpeg       "access plus 1 month"
+  ExpiresByType font/woff2       "access plus 1 month"
+  ExpiresByType font/ttf         "access plus 1 month"
   ExpiresByType image/svg+xml    "access plus 1 month"
   ExpiresByType image/x-icon     "access plus 1 month"
   ExpiresByType text/css         "access plus 7 days"
@@ -48,6 +129,26 @@ Options -Indexes
   RewriteCond %{THE_REQUEST} \s/+register\.html[\s?] [NC]
   RewriteRule ^ /register [R=301,L]
 
+  # Preserve old student links while focusing the university landing page.
+  RewriteRule ^student-transport-jeddah(?:\.html)?/?$ /king-abdulaziz-university-transport [R=301,L]
+
+  # Canonical, crawlable service URLs. English pages use real directories.
+  RewriteCond %{THE_REQUEST} \s/+(king-abdulaziz-university-transport|employee-transport-jeddah|employee-transport-riyadh|employee-transport-makkah|employee-transport-madinah|employee-transport-dammam|corporate-transport-saudi-arabia|workforce-project-transport|private-day-trips|event-conference-transport|airport-hotel-transfers|intercity-group-transport|tourism-transport|umrah-visitor-transport|executive-vip-transport|vehicle-rental-without-driver|driver-only-services)\.html[\s?] [NC]
+  RewriteRule ^(king-abdulaziz-university-transport|employee-transport-jeddah|employee-transport-riyadh|employee-transport-makkah|employee-transport-madinah|employee-transport-dammam|corporate-transport-saudi-arabia|workforce-project-transport|private-day-trips|event-conference-transport|airport-hotel-transfers|intercity-group-transport|tourism-transport|umrah-visitor-transport|executive-vip-transport|vehicle-rental-without-driver|driver-only-services)\.html$ /$1 [R=301,L]
+  RewriteRule ^(king-abdulaziz-university-transport|employee-transport-jeddah|employee-transport-riyadh|employee-transport-makkah|employee-transport-madinah|employee-transport-dammam|corporate-transport-saudi-arabia|workforce-project-transport|private-day-trips|event-conference-transport|airport-hotel-transfers|intercity-group-transport|tourism-transport|umrah-visitor-transport|executive-vip-transport|vehicle-rental-without-driver|driver-only-services)/?$ $1.html [L]
+
   # /register يعرض register.html داخلياً
   RewriteRule ^register/?$ register.html [L]
+</IfModule>
+
+# Legacy company profile -> approved 2026 profile (2026-10-26)
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^wp-content/uploads/2022/04/بروفايل-لموقع-وسل-النقل-جدة-مكة-2022\.pdf$ https://www.wosol.net/assets/RUH-Jed-AR.EN-2026-06.pdf [R=301,L]
+</IfModule>
+
+# Legacy university subscriptions: owner-confirmed destination (2026-10-26)
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^product/(edu11|edu3|edu33)/?$ https://www.wosol.net/king-abdulaziz-university-transport [R=301,L]
 </IfModule>

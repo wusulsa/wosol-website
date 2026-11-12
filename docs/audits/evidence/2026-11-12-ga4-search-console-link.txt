@@ -1,0 +1,207 @@
+- banner:
+  - generic: "\"إحصاءات\""
+  - button "فتح أداة الاختيار العامة":
+    - generic: جميع الحسابات
+    - img: chevron_right
+    - generic: وسل WOSOL
+    - generic: WOSOL — wosol.net
+    - img: arrow_drop_down
+  - search:
+    - img: search
+    - textbox "بحث":
+      - /placeholder: جرّب البحث عن "الإحصاءات"
+  - button "تبديل المنتجات":
+  - button "قائمة دخول صفحة المساعدة":
+    - img: help
+  - button "فتح لوحة مبدِّل حسابات المستخدم"
+- navigation "الصفحات الرئيسية":
+  - link "الصفحة الرئيسية":
+    - generic: الصفحة الرئيسية
+  - link "التقارير":
+    - img: insert_chart_filled
+    - generic: التقارير
+  - link "استكشاف":
+    - img: data_exploration
+    - generic: استكشاف
+  - link "الإعلانات":
+    - img: ads_click
+    - generic: الإعلانات
+- navigation "صفحات الإعدادات":
+  - link "المهام":
+    - img: task_alt
+    - generic: المهام
+  - link "المسؤول":
+    - img: settings_filled
+    - generic: المسؤول
+- navigation "التنقّل الثانوي":
+  - navigation "الصفحات الثانوية":
+    - button "إنشاء":
+      - img: add
+      - text: إنشاء
+      - img: arrow_drop_down
+  - tree:
+    - treeitem "المسؤول" [level=1]:
+      - button "المسؤول":
+        - generic: المسؤول
+    - treeitem "إعداداتي المفضّلة" [level=1]:
+      - button "إعداداتي المفضّلة":
+        - generic: إعداداتي المفضّلة
+    - treeitem "إعدادات الحساب" [expanded] [level=1]:
+      - separator
+      - button "إعدادات الحساب":
+        - generic: إعدادات الحساب
+        - img: keyboard_arrow_up
+    - treeitem "الحساب" [level=2]:
+      - button "الحساب":
+        - img: arrow_right
+        - generic: الحساب
+    - treeitem "إعدادات الموقع" [expanded] [level=1]:
+      - separator
+      - button "إعدادات الموقع":
+        - generic: إعدادات الموقع
+        - img: keyboard_arrow_up
+    - treeitem "الموقع" [level=2]:
+      - button "الموقع":
+        - img: arrow_right
+        - generic: الموقع
+    - treeitem "جمع البيانات وتعديلها" [level=2]:
+      - button "جمع البيانات وتعديلها":
+        - img: arrow_right
+        - generic: جمع البيانات وتعديلها
+    - treeitem "عرض البيانات" [expanded] [level=2]:
+      - button "عرض البيانات":
+        - img: arrow_drop_down
+        - generic: عرض البيانات
+    - treeitem "الأحداث" [level=3]:
+      - button "الأحداث":
+        - generic: الأحداث
+    - treeitem "إعدادات الشبكة" [level=3]:
+      - button "إعدادات الشبكة":
+        - generic: إعدادات الشبكة
+    - treeitem "شرائح الجمهور" [level=3]:
+      - button "شرائح الجمهور":
+        - generic: شرائح الجمهور
+    - treeitem "التعليقات التوضيحية" [level=3]:
+      - button "التعليقات التوضيحية":
+        - generic: التعليقات التوضيحية
+    - treeitem "المقارنات" [level=3]:
+      - button "المقارنات":
+        - generic: المقارنات
+    - treeitem "الشرائح" [level=3]:
+      - button "الشرائح":
+        - generic: الشرائح
+    - treeitem "التعريفات المخصّصة" [level=3]:
+      - button "التعريفات المخصّصة":
+        - generic: التعريفات المخصّصة
+    - treeitem "مجموعات القنوات" [level=3]:
+      - button "مجموعات القنوات":
+        - generic: مجموعات القنوات
+    - treeitem "المعلومات التعريفية في التقارير" [level=3]:
+      - button "المعلومات التعريفية في التقارير":
+        - generic: المعلومات التعريفية في التقارير
+    - treeitem "DebugView" [level=3]:
+      - button "DebugView":
+        - generic: DebugView
+    - treeitem "روابط المنتجات" [expanded] [level=2]:
+      - button "روابط المنتجات":
+        - img: arrow_drop_down
+        - generic: روابط المنتجات
+    - treeitem "روابط Google AdMob" [level=3]:
+      - button "روابط Google AdMob":
+        - generic: روابط Google AdMob
+    - treeitem "روابط Google AdSense" [level=3]:
+      - button "روابط Google AdSense":
+        - generic: روابط Google AdSense
+    - treeitem "روابط \"إعلانات Google\"" [level=3]:
+      - button "روابط \"إعلانات Google\"":
+        - generic: روابط "إعلانات Google"
+    - treeitem "روابط \"إدارة إعلانات Google\"" [level=3]:
+      - button "روابط \"إدارة إعلانات Google\"":
+        - generic: روابط "إدارة إعلانات Google"
+    - treeitem "روابط BigQuery" [level=3]:
+      - button "روابط BigQuery":
+        - generic: روابط BigQuery
+    - treeitem "روابط \"مساحة العرض والفيديو 360\"" [level=3]:
+      - button "روابط \"مساحة العرض والفيديو 360\"":
+        - generic: روابط "مساحة العرض والفيديو 360"
+    - treeitem "روابط Floodlight" [level=3]:
+      - button "روابط Floodlight":
+        - generic: روابط Floodlight
+    - treeitem "روابط \"الملف التجاري على Google\"" [level=3]:
+      - button "روابط \"الملف التجاري على Google\"":
+        - generic: روابط "الملف التجاري على Google"
+    - treeitem "روابط Merchant Center" [level=3]:
+      - button "روابط Merchant Center":
+        - generic: روابط Merchant Center
+    - treeitem "روابط Google Play" [level=3]:
+      - button "روابط Google Play":
+        - generic: روابط Google Play
+    - treeitem "روابط \"إعلانات شبكة البحث 360\"" [level=3]:
+      - button "روابط \"إعلانات شبكة البحث 360\"":
+        - generic: روابط "إعلانات شبكة البحث 360"
+    - treeitem "روابط Search Console" [level=3]:
+      - button "روابط Search Console":
+        - generic: روابط Search Console
+    - treeitem "روابط Meta" [level=3]:
+      - button "روابط Meta":
+        - generic: روابط Meta
+    - treeitem "روابط Pinterest" [level=3]:
+      - button "روابط Pinterest":
+        - generic: روابط Pinterest
+    - treeitem "روابط Reddit" [level=3]:
+      - button "روابط Reddit":
+        - generic: روابط Reddit
+    - treeitem "روابط Snap" [level=3]:
+      - button "روابط Snap":
+        - generic: روابط Snap
+    - treeitem "روابط TikTok" [level=3]:
+      - button "روابط TikTok":
+        - generic: روابط TikTok
+  - separator
+- button "إيقاف/تفعيل التنقّل" [expanded]:
+  - img: keyboard_arrow_left
+- main:
+  - heading "روابط Search Console" [active] [level=1]
+  - img: search
+  - searchbox "اكتب لإجراء فلترة"
+  - button "إنشاء رابط دمج جديد في \"إحصاءات Google\".":
+    - generic: ربط
+  - table "روابط Search Console":
+    - row "اسم موقع Search Console نوع موقع Search Console مصدر بيانات من موقع إلكتروني معرّف مصدر البيانات تم الربط بواسطة تاريخ الربط تفاصيل الصف":
+      - columnheader "اسم موقع Search Console":
+        - button "اسم موقع Search Console":
+          - generic: اسم موقع Search Console
+      - columnheader "نوع موقع Search Console":
+        - button "نوع موقع Search Console":
+          - generic: نوع موقع Search Console
+      - columnheader "مصدر بيانات من موقع إلكتروني":
+        - button "مصدر بيانات من موقع إلكتروني":
+          - generic: مصدر بيانات من موقع إلكتروني
+      - columnheader "معرّف مصدر البيانات":
+        - button "معرّف مصدر البيانات":
+          - generic: معرّف مصدر البيانات
+      - columnheader "تم الربط بواسطة":
+        - button "تم الربط بواسطة":
+          - generic: تم الربط بواسطة
+      - columnheader "تاريخ الربط":
+        - button "تاريخ الربط":
+          - generic: تاريخ الربط
+      - columnheader "تفاصيل الصف":
+        - generic: تفاصيل الصف
+  - generic: ما مِن روابط حتى الآن. انقر على "ربط" لإنشاء رابط.
+- contentinfo:
+  - text: ©‎Google 2026 |
+  - link "صفحة \"إحصاءات Google\" الرئيسية":
+    - /url: https://www.google.com/analytics/?hl=ar
+  - text: "|"
+  - link "بنود الخدمة":
+    - /url: https://www.google.com/analytics/tos.html?hl=ar
+  - text: "|"
+  - link "سياسة الخصوصية":
+    - /url: https://www.google.com/policies/privacy/?hl=ar
+  - text: "|"
+  - button "إرسال التعليقات":
+    - img: feedback
+    - generic: إرسال التعليقات
+- button "فتح قائمة السياق"
+- generic: لتصنيف حدث على أنّه حدث رئيسي، يُرجى النقر على النجمة بجانب اسم الحدث.

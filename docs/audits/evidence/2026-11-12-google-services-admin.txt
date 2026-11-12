@@ -1,0 +1,87 @@
+8Pv6KBtHyBdmFU1DV2HO6OhxiMofLX--MhoR0UIQ874nQHtmDoNHsUkNG6Tg&ved=2ahUKEwjv-t6xy4KYAxW9nf0HHQttKXEQ8NMDegQIZxAU
+        - generic: التالية
+- contentinfo:
+  - heading [level=1]: روابط التذييل
+  - generic: النتائج غير مخصّصة
+  - text: المملكة العربية السعودية
+  - button:
+    - generic: 23216، جدة
+    - text: "-"
+    - generic: استنادًا إلى "أماكنك" (مكان العمل)
+  - text: "-"
+  - button: تحديث الموقع الجغرافي
+  - link:
+    - /url: https://support.google.com/websearch/?p=ws_results_help&hl=ar-SA&fg=1
+    - text: مساعدة
+  - button:
+    - generic: إرسال ملاحظات
+  - link:
+    - /url: https://policies.google.com/privacy?hl=ar-SA&fg=1&authuser=1
+    - text: الخصوصية
+  - link:
+    - /url: https://policies.google.com/terms?hl=ar-SA&fg=1&authuser=1
+    - text: البنود
+- iframe [active]:
+  - dialog "الخدمات":
+    - banner "الخدمات" [active]:
+      - button "رجوع":
+      - heading "الخدمات" [level=1]
+      - button "قائمة الطعام":
+    - main:
+      - region "خدمة وسائل النقل":
+        - heading "خدمة وسائل النقل" [level=2]
+        - generic: الفئة الأساسية
+        - list:
+          - link "حافلة مع سائق ورحلات اليوم الواحد":
+            - /url: https://local.google.com/place?id=1225088759522013441&use=srp&authuser=1&hl=ar#mpd=editprofile/services/sections/gcid:transportation_service/items/599bf993-32ed-461a-81b0-3f3b93c2518d
+            - generic: حافلة مع سائق ورحلات اليوم الواحد
+            - generic: حافلات مع سائق لرحلات اليوم الواحد والزيارات في جدة والرياض، للجهات والمدارس والمراكز والمجموعات. حدد الركاب والمسار والانتظار لطلب عرض سعر.
+          - link "نقل طالبات جامعة الملك عبدالعزيز في جدة":
+            - /url: https://local.google.com/place?id=1225088759522013441&use=srp&authuser=1&hl=ar#mpd=editprofile/services/sections/gcid:transportation_service/items/43f727a6-426c-478b-ae58-2233bd9ff85f
+            - generic: نقل طالبات جامعة الملك عبدالعزيز في جدة
+            - generic: نقل جامعي لطالبات جامعة الملك عبدالعزيز – السليمانية في جدة. خيارات اشتراك شهري أو ترم، وذهاب وعودة أو اتجاه واحد. يراجع الفريق الحي والمسار والجدول والتوافر والسعر قبل تأكيد الاشتراك.
+          - link "نقل منسوبي الشركات والمؤسسات والهيئات":
+            - /url: https://local.google.com/place?id=1225088759522013441&use=srp&authuser=1&hl=ar#mpd=editprofile/services/sections/gcid:transportation_service/items/c15afd69-6984-44ab-a854-67a9e931d5ce
+            - generic: نقل منسوبي الشركات والمؤسسات والهيئات
+            - generic: نقل الموظفين بين نقاط التجمع ومقار العمل في جدة والرياض، بعقود شهرية وسنوية وخطط تناسب الورديات. نراجع المسارات وأعداد الركاب وأيام التشغيل ومدة التعاقد، ونؤكد التوافر ونطاق الخدمة والتكلفة قبل الاتفاق.
+          - link "النقل السياحي للمجموعات":
+            - /url: https://local.google.com/place?id=1225088759522013441&use=srp&authuser=1&hl=ar#mpd=editprofile/services/sections/gcid:transportation_service/items/8dca666f-08c4-4dfd-92d8-e97a724936a9
+            - generic: النقل السياحي للمجموعات
+            - generic: نقل للمجموعات والزيارات السياحية من جدة والرياض إلى العلا وبقية الوجهات المتفق عليها. حدد برنامج الزيارة والركاب لطلب عرض نقل واضح التفاصيل.
+          - link "نقل العمال وفرق المشاريع":
+            - /url: https://local.google.com/place?id=1225088759522013441&use=srp&authuser=1&hl=ar#mpd=editprofile/services/sections/gcid:transportation_service/items/0fe9ca81-dc6b-4a58-96e5-58de58086446
+            - generic: نقل العمال وفرق المشاريع
+            - generic: نقل العمال وفرق المشاريع في جدة والرياض. مسارات بين السكن ومواقع العمل وفق الورديات وأيام التشغيل. اطلب عرض سعر يوضح نطاق الخدمة والتكلفة.
+          - link "نقل الفعاليات والمؤتمرات والمعارض":
+            - /url: https://local.google.com/place?id=1225088759522013441&use=srp&authuser=1&hl=ar#mpd=editprofile/services/sections/gcid:transportation_service/items/35134ce3-60c7-4d91-83ef-c1da54caa316
+            - generic: نقل الفعاليات والمؤتمرات والمعارض
+            - generic: نقل حضور الفعاليات والمؤتمرات والمعارض في جدة والرياض بين الفنادق ونقاط التجمع ومواقع الحدث. اطلب خطة نقل وعرض سعر يناسب برنامج الفعالية.
+          - link "نقل المطار والفنادق":
+            - /url: https://local.google.com/place?id=1225088759522013441&use=srp&authuser=1&hl=ar#mpd=editprofile/services/sections/gcid:transportation_service/items/e6e9b903-5a70-4e7f-b119-1336c015120c
+            - generic: نقل المطار والفنادق
+            - generic: نقل المطار والفنادق في جدة والرياض للأفراد والمجموعات وضيوف الجهات. أرسل بيانات الرحلة والركاب والأمتعة لتحديد المركبة وترتيبات الاستقبال.
+          - link "نقل المجموعات بين المدن":
+            - /url: https://local.google.com/place?id=1225088759522013441&use=srp&authuser=1&hl=ar#mpd=editprofile/services/sections/gcid:transportation_service/items/d22cf7f8-27fc-4758-b119-52d95dbf7f13
+            - generic: نقل المجموعات بين المدن
+            - generic: نقل خاص للمجموعات بين مدن السعودية، من جدة والرياض وبقية المدن وفق الاتفاق. اطلب رحلة باتجاه واحد أو ذهاب وعودة مع تحديد المحطات والأمتعة.
+          - link "نقل المعتمرين والزوار":
+            - /url: https://local.google.com/place?id=1225088759522013441&use=srp&authuser=1&hl=ar#mpd=editprofile/services/sections/gcid:transportation_service/items/426568b8-439a-4d07-9100-a5f734654a87
+            - generic: نقل المعتمرين والزوار
+            - generic: نقل المعتمرين والزوار إلى مكة والمدينة وبين الفنادق ونقاط الوصول. طلبات من جدة والرياض وبقية المملكة، وفق البرنامج والتوافر وترتيبات الوصول.
+          - link "النقل التنفيذي وكبار الشخصيات":
+            - /url: https://local.google.com/place?id=1225088759522013441&use=srp&authuser=1&hl=ar#mpd=editprofile/services/sections/gcid:transportation_service/items/47f85c06-1733-4173-b882-ecf6ccf83ec7
+            - generic: النقل التنفيذي وكبار الشخصيات
+            - generic: نقل تنفيذي وكبار شخصيات في جدة والرياض للاجتماعات واستقبال ضيوف الجهات. حدد الجدول وفئة المركبة المطلوبة للحصول على عرض سعر وتأكيد التوافر.
+          - link "تأجير المركبات بدون سائق":
+            - /url: https://local.google.com/place?id=1225088759522013441&use=srp&authuser=1&hl=ar#mpd=editprofile/services/sections/gcid:transportation_service/items/dd21293f-dfe5-44aa-bb12-f74396c6307d
+            - generic: تأجير المركبات بدون سائق
+            - generic: تأجير مركبات بدون سائق في جدة والرياض للجهات والأفراد وفق التوافر. حدد الفئة والمدة وموقع الاستلام لعرض يوضح التأمين والاستخدام والمسؤوليات.
+          - link "توفير سائقين دون مركبات":
+            - /url: https://local.google.com/place?id=1225088759522013441&use=srp&authuser=1&hl=ar#mpd=editprofile/services/sections/gcid:transportation_service/items/5db44b87-f8d0-4cbb-ba46-d5d89eddf8ab
+            - generic: توفير سائقين دون مركبات
+            - generic: توفير سائقين لقيادة مركبات العميل في جدة والرياض. حدد عدد السائقين ونوع المركبات والورديات والمدة لطلب عرض يوضح نطاق الخدمة والمسؤوليات.
+        - button "إضافة المزيد من الخدمات إلى خدمة وسائل النقل":
+          - generic: add
+          - generic: إضافة المزيد من الخدمات
+      - button "إضافة فئة نشاط تجاري أخرى":
+        - generic: إضافة فئة نشاط تجاري أخرى

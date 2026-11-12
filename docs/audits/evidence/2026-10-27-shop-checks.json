@@ -1,0 +1,130 @@
+{
+  "time": "2026-10-27T20:49:56.793784+00:00",
+  "results": [
+    {
+      "url": "https://www.wosol.net/?post_type=product",
+      "exit": 0,
+      "statuses": [
+        "301",
+        "200"
+      ],
+      "headers": "HTTP/1.1 301 Moved Permanently\ndate: Tue, 27 Oct 2026 20:49:52 GMT\ncontent-type: text/html\ncontent-length: 795\nlocation: https://www.wosol.net/king-abdulaziz-university-transport\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 301\nx-upstream-time: 0.643\nx-trace-id: 3f21f9f884fc4a92129758969cccadb3\nx-span-id: 935dddb44a07a982\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\nHTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:49:52 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 22611\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.593\naccept-ranges: bytes\nx-trace-id: 1742ea11f3467fdf7a9e55fcdfd34715\nx-span-id: b54242bd8e0e80df\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/?product=%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83-%D8%A3%D8%A8%D8%AD%D8%B1-%D9%88%D9%85%D8%A7-%D8%AC%D8%A7%D9%88%D8%B1%D9%87%D8%A7-%D8%A5%D9%84%D9%89-%D8%AC%D8%A7%D9%85%D8%B9%D8%A9-%D8%A7%D9%84%D9%85%D9%84%D9%83",
+      "exit": 0,
+      "statuses": [
+        "301",
+        "200"
+      ],
+      "headers": "HTTP/1.1 301 Moved Permanently\ndate: Tue, 27 Oct 2026 20:49:52 GMT\ncontent-type: text/html\ncontent-length: 795\nlocation: https://www.wosol.net/king-abdulaziz-university-transport\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 301\nx-upstream-time: 0.445\nx-trace-id: 6756b9a5e80b761608e7000b2f9d7e04\nx-span-id: 1b4fa22992b31c9d\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\nHTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:49:52 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 22611\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.595\naccept-ranges: bytes\nx-trace-id: fbea86630f7e70e6eed47ba88f587b48\nx-span-id: e331a7c48ab51b92\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/?product=%d8%a7%d8%b4%d8%aa%d8%b1%d8%a7%d9%83-%d8%a3%d8%a8%d8%ad%d8%b1-%d9%88%d9%85%d8%a7-%d8%ac%d8%a7%d9%88%d8%b1%d9%87%d8%a7-%d8%a5%d9%84%d9%89-%d8%ac%d8%a7%d9%85%d8%b9%d8%a9-%d8%a7%d9%84%d9%85%d9%84%d9%83",
+      "exit": 0,
+      "statuses": [
+        "301",
+        "200"
+      ],
+      "headers": "HTTP/1.1 301 Moved Permanently\ndate: Tue, 27 Oct 2026 20:49:52 GMT\ncontent-type: text/html\ncontent-length: 795\nlocation: https://www.wosol.net/king-abdulaziz-university-transport\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 301\nx-upstream-time: 0.440\nx-trace-id: 02ed42b6db3fb9f5d0a6249bcc45589f\nx-span-id: ae32d0efecc46b9c\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\nHTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:49:52 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 22611\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.593\naccept-ranges: bytes\nx-trace-id: ce36960ca2a89c7abb0db6b0e40baf3e\nx-span-id: edc1b8598aea6073\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/?post_type=product&extra=1",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:49:52 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 74763\nlast-modified: Wed, 21 Oct 2026 21:25:36 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: LHR\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.695\naccept-ranges: bytes\nx-trace-id: 6ab2f0ef3cc8669862cdc841edbe1e89\nx-span-id: 23650865f8a534fd\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/?product=%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83-%D8%A3%D8%A8%D8%AD%D8%B1-%D9%88%D9%85%D8%A7-%D8%AC%D8%A7%D9%88%D8%B1%D9%87%D8%A7-%D8%A5%D9%84%D9%89-%D8%AC%D8%A7%D9%85%D8%B9%D8%A9-%D8%A7%D9%84%D9%85%D9%84%D9%83&extra=1",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:49:52 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 74763\nlast-modified: Wed, 21 Oct 2026 21:25:36 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 1.035\naccept-ranges: bytes\nx-trace-id: 25019b53fef9700821935ce71178cc0d\nx-span-id: 34ef622ac54c7c70\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/en/?post_type=product",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:49:53 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 67749\nlast-modified: Wed, 21 Oct 2026 21:25:36 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: LHR\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 1.023\naccept-ranges: bytes\nx-trace-id: ed9113e119185d36ce79f0833ceb22ea\nx-span-id: 9fd8ec545ae3361f\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/?product=other",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:49:54 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 74763\nlast-modified: Wed, 21 Oct 2026 21:25:36 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 1.452\naccept-ranges: bytes\nx-trace-id: 8084fd52304c7e91cdd96ad7ff352ae8\nx-span-id: 49bfdba1c966184e\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/?page_id=7",
+      "exit": 0,
+      "statuses": [
+        "301",
+        "200"
+      ],
+      "headers": "HTTP/1.1 301 Moved Permanently\ndate: Tue, 27 Oct 2026 20:49:53 GMT\ncontent-type: text/html\ncontent-length: 795\nlocation: https://www.wosol.net/subscriber-support.html\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 301\nx-upstream-time: 0.472\nx-trace-id: 3ab25f82a100b34078e28aa4e58f0b39\nx-span-id: e970f2c0155eefe2\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\nHTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:49:54 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 2092\nlast-modified: Tue, 27 Oct 2026 20:40:02 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.480\naccept-ranges: bytes\nx-trace-id: 26aeebea7a8a8089ae69378a08ac2050\nx-span-id: 3e77f5a10c2bafb2\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/?page_id=754",
+      "exit": 0,
+      "statuses": [
+        "301",
+        "200"
+      ],
+      "headers": "HTTP/1.1 301 Moved Permanently\ndate: Tue, 27 Oct 2026 20:49:53 GMT\ncontent-type: text/html\ncontent-length: 795\nlocation: https://www.wosol.net/renewal.html\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 301\nx-upstream-time: 0.476\nx-trace-id: 64be6df93c67bfa303b5fa4be973a355\nx-span-id: bd9fcc75a8cc3b76\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\nHTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:49:54 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 1944\nlast-modified: Tue, 27 Oct 2026 20:32:53 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.487\naccept-ranges: bytes\nx-trace-id: b6b74f398c9714436ed7749f4ba4d3f6\nx-span-id: ba593a23d0cfd442\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/?feed=comments-rss2",
+      "exit": 0,
+      "statuses": [
+        "410"
+      ],
+      "headers": "HTTP/1.1 410 Gone\ndate: Tue, 27 Oct 2026 20:49:53 GMT\ncontent-type: text/html\ncontent-length: 824\ncache-control: private, no-cache, no-store, must-revalidate, max-age=0\npragma: no-cache\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: LHR\nx-upstream-status: 410\nx-upstream-time: 0.410\nx-trace-id: 8ac4b8cc78498d17841568f66d08a534\nx-span-id: 6a685894713aed88\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/?cf7_style=christmas-simple",
+      "exit": 0,
+      "statuses": [
+        "410"
+      ],
+      "headers": "HTTP/1.1 410 Gone\ndate: Tue, 27 Oct 2026 20:49:54 GMT\ncontent-type: text/html\ncontent-length: 824\ncache-control: private, no-cache, no-store, must-revalidate, max-age=0\npragma: no-cache\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nx-upstream-status: 410\nx-upstream-time: 0.445\nx-trace-id: dd77f223b7e2865ecc7216d787b5f54b\nx-span-id: 99e25fcba8f1f12b\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/?contactTab=quote",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:49:54 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 74763\nlast-modified: Wed, 21 Oct 2026 21:25:36 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.732\naccept-ranges: bytes\nx-trace-id: ef787fcba7666ee21a912b4e36a98726\nx-span-id: 93d5fea108188f44\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/en/",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:49:55 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 67749\nlast-modified: Wed, 21 Oct 2026 21:25:36 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 1.252\naccept-ranges: bytes\nx-trace-id: 9f0d74e9a63279c73c3cf9b4d1c304f3\nx-span-id: 1aeeaa382615d14c\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/register",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:49:55 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 14737\nlast-modified: Mon, 19 Oct 2026 21:32:00 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.589\naccept-ranges: bytes\nx-trace-id: b97a6fec8b258a81e2a7d33f7df07fc1\nx-span-id: 791dcc666cca85a4\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/king-abdulaziz-university-transport",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:49:55 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 22611\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: LHR\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.836\naccept-ranges: bytes\nx-trace-id: a807a91304287b45c3213d92a7db915c\nx-span-id: 2a16686a33a9984d\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    }
+  ]
+}

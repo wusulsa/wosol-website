@@ -1,0 +1,20 @@
+[
+  {
+    "url": "https://www.wosol.net/corporate-transport-saudi-arabia",
+    "images": [
+      "<img class=\"brand-mini-bus\" src=\"/assets/profile-2026/approved-cartoon-bus.webp\" width=\"384\" height=\"135\" alt=\"\" decoding=\"async\">",
+      "<img class=\"fleet-photo \" style=\"aspect-ratio:1536/1024\" src=\"/assets/fleet/showcase/fleet-3-1040.webp\" srcset=\"/assets/fleet/showcase/fleet-3-640.webp 640w, /assets/fleet/showcase/fleet-3-1040.webp 1040w, /assets/fleet/showcase/fleet-3-1536.webp 1536w\" sizes=\"(max-width:768px) min(440px, calc(100vw - 60px)), 520px\" width=\"1536\" height=\"1024\" alt=\"صورة محسّنة بصريًا لمركبة وٌسُل\" loading=\"eager\" decoding=\"async\" fetchpriority=\"high\">",
+      "<img src=\"/assets/profile-2026/logo-brand.svg\" width=\"442\" height=\"321\" class=\"navbar__logo-mark\" alt=\"WOSOL\">"
+    ],
+    "missingAlt": []
+  },
+  {
+    "url": "https://www.wosol.net/en/corporate-transport-saudi-arabia/",
+    "images": [
+      "<img class=\"brand-mini-bus\" src=\"/assets/profile-2026/approved-cartoon-bus.webp\" width=\"384\" height=\"135\" alt=\"\" decoding=\"async\">",
+      "<img class=\"fleet-photo \" style=\"aspect-ratio:1536/1024\" src=\"/assets/fleet/showcase/fleet-3-1040.webp\" srcset=\"/assets/fleet/showcase/fleet-3-640.webp 640w, /assets/fleet/showcase/fleet-3-1040.webp 1040w, /assets/fleet/showcase/fleet-3-1536.webp 1536w\" sizes=\"(max-width:768px) min(440px, calc(100vw - 60px)), 520px\" width=\"1536\" height=\"1024\" alt=\"Visually enhanced WOSOL vehicle image\" loading=\"eager\" decoding=\"async\" fetchpriority=\"high\">",
+      "<img src=\"/assets/profile-2026/logo-brand.svg\" width=\"442\" height=\"321\" class=\"navbar__logo-mark\" alt=\"WOSOL\">"
+    ],
+    "missingAlt": []
+  }
+]

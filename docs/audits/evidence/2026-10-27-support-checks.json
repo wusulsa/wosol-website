@@ -1,0 +1,274 @@
+{
+  "checked_at": "2026-10-27T20:41:45.338392+00:00",
+  "sitemap_pages": 38,
+  "public_reference_scan": [
+    {
+      "url": "https://www.wosol.net/register",
+      "exit": 0,
+      "references": []
+    },
+    {
+      "url": "https://www.wosol.net/en/register/",
+      "exit": 0,
+      "references": []
+    },
+    {
+      "url": "https://www.wosol.net/airport-hotel-transfers",
+      "exit": 0,
+      "references": []
+    },
+    {
+      "url": "https://www.wosol.net/corporate-transport-saudi-arabia",
+      "exit": 0,
+      "references": []
+    },
+    {
+      "url": "https://www.wosol.net/driver-only-services",
+      "exit": 0,
+      "references": []
+    },
+    {
+      "url": "https://www.wosol.net/employee-transport-dammam",
+      "exit": 0,
+      "references": []
+    },
+    {
+      "url": "https://www.wosol.net/employee-transport-jeddah",
+      "exit": 0,
+      "references": []
+    },
+    {
+      "url": "https://www.wosol.net/employee-transport-madinah",
+      "exit": 0,
+      "references": []
+    },
+    {
+      "url": "https://www.wosol.net/employee-transport-makkah",
+      "exit": 0,
+      "references": []
+    },
+    {
+      "url": "https://www.wosol.net/employee-transport-riyadh",
+      "exit": 0,
+      "references": []
+    },
+    {
+      "url": "https://www.wosol.net/event-conference-transport",
+      "exit": 0,
+      "references": []
+    },
+    {
+      "url": "https://www.wosol.net/executive-vip-transport",
+      "exit": 0,
+      "references": []
+    },
+    {
+      "url": "https://www.wosol.net/",
+      "exit": 0,
+      "references": []
+    },
+    {
+      "url": "https://www.wosol.net/intercity-group-transport",
+      "exit": 0,
+      "references": []
+    },
+    {
+      "url": "https://www.wosol.net/king-abdulaziz-university-transport",
+      "exit": 0,
+      "references": []
+    },
+    {
+      "url": "https://www.wosol.net/private-day-trips",
+      "exit": 0,
+      "references": []
+    },
+    {
+      "url": "https://www.wosol.net/tourism-transport",
+      "exit": 0,
+      "references": []
+    },
+    {
+      "url": "https://www.wosol.net/umrah-visitor-transport",
+      "exit": 0,
+      "references": []
+    },
+    {
+      "url": "https://www.wosol.net/vehicle-rental-without-driver",
+      "exit": 0,
+      "references": []
+    },
+    {
+      "url": "https://www.wosol.net/workforce-project-transport",
+      "exit": 0,
+      "references": []
+    },
+    {
+      "url": "https://www.wosol.net/en/",
+      "exit": 0,
+      "references": []
+    },
+    {
+      "url": "https://www.wosol.net/en/airport-hotel-transfers/",
+      "exit": 0,
+      "references": []
+    },
+    {
+      "url": "https://www.wosol.net/en/corporate-transport-saudi-arabia/",
+      "exit": 0,
+      "references": []
+    },
+    {
+      "url": "https://www.wosol.net/en/driver-only-services/",
+      "exit": 0,
+      "references": []
+    },
+    {
+      "url": "https://www.wosol.net/en/employee-transport-dammam/",
+      "exit": 0,
+      "references": []
+    },
+    {
+      "url": "https://www.wosol.net/en/employee-transport-jeddah/",
+      "exit": 0,
+      "references": []
+    },
+    {
+      "url": "https://www.wosol.net/en/employee-transport-madinah/",
+      "exit": 0,
+      "references": []
+    },
+    {
+      "url": "https://www.wosol.net/en/employee-transport-makkah/",
+      "exit": 0,
+      "references": []
+    },
+    {
+      "url": "https://www.wosol.net/en/employee-transport-riyadh/",
+      "exit": 0,
+      "references": []
+    },
+    {
+      "url": "https://www.wosol.net/en/event-conference-transport/",
+      "exit": 0,
+      "references": []
+    },
+    {
+      "url": "https://www.wosol.net/en/executive-vip-transport/",
+      "exit": 0,
+      "references": []
+    },
+    {
+      "url": "https://www.wosol.net/en/intercity-group-transport/",
+      "exit": 0,
+      "references": []
+    },
+    {
+      "url": "https://www.wosol.net/en/king-abdulaziz-university-transport/",
+      "exit": 0,
+      "references": []
+    },
+    {
+      "url": "https://www.wosol.net/en/private-day-trips/",
+      "exit": 0,
+      "references": []
+    },
+    {
+      "url": "https://www.wosol.net/en/tourism-transport/",
+      "exit": 0,
+      "references": []
+    },
+    {
+      "url": "https://www.wosol.net/en/umrah-visitor-transport/",
+      "exit": 0,
+      "references": []
+    },
+    {
+      "url": "https://www.wosol.net/en/vehicle-rental-without-driver/",
+      "exit": 0,
+      "references": []
+    },
+    {
+      "url": "https://www.wosol.net/en/workforce-project-transport/",
+      "exit": 0,
+      "references": []
+    }
+  ],
+  "local_matches": [],
+  "http_checks": [
+    {
+      "url": "https://www.wosol.net/?page_id=7",
+      "exit": 0,
+      "statuses": [
+        "301",
+        "200"
+      ],
+      "headers": "HTTP/1.1 301 Moved Permanently\ndate: Tue, 27 Oct 2026 20:41:31 GMT\ncontent-type: text/html\ncontent-length: 795\nlocation: https://www.wosol.net/subscriber-support.html\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: SGP\nsupersonic-cache-status: BYPASS\nx-upstream-status: 301\nx-upstream-time: 0.718\nx-trace-id: 733a09ee65f31b5c9c37796b04e91a7d\nx-span-id: d6f4a35cde0c5701\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\nHTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:41:32 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 2092\nlast-modified: Tue, 27 Oct 2026 20:40:02 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: SGP\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.806\naccept-ranges: bytes\nx-trace-id: 23721d1e76266a6e1c4f928fc9957cdd\nx-span-id: 31ee2ce894a3a69c\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/subscriber-support.html",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:41:33 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 2092\nlast-modified: Tue, 27 Oct 2026 20:40:02 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.598\naccept-ranges: bytes\nx-trace-id: c3993dc5d037c81ec01fc8ce4e0aed33\nx-span-id: b376f5bdc9913fc9\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/?page_id=7&extra=1",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:41:34 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 74763\nlast-modified: Wed, 21 Oct 2026 21:25:36 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: LAX\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.544\naccept-ranges: bytes\nx-trace-id: 025a113796b410c54c25a69de9674ac4\nx-span-id: d90ec9c302200619\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/en/?page_id=7",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:41:35 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 67749\nlast-modified: Wed, 21 Oct 2026 21:25:36 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 1.042\naccept-ranges: bytes\nx-trace-id: 5524e070ddd71d50ad910cef82e0163d\nx-span-id: 22de05e0832f7ed8\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/?page_id=154",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:41:37 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 74763\nlast-modified: Wed, 21 Oct 2026 21:25:36 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 1.444\naccept-ranges: bytes\nx-trace-id: ca8cf28bb6922b5a85b6627705ce2131\nx-span-id: 400ed32685595483\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/?feed=comments-rss2",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:41:39 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 74763\nlast-modified: Wed, 21 Oct 2026 21:25:36 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: LHR\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 1.607\naccept-ranges: bytes\nx-trace-id: 343bbba6f8d648e4e12797fac5f800ce\nx-span-id: efad062cbdd9320a\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/?cf7_style=christmas-simple",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:41:41 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 74763\nlast-modified: Wed, 21 Oct 2026 21:25:36 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: LHR\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.960\naccept-ranges: bytes\nx-trace-id: 0c1a7c61b1be3dfedaeec064d1d4fe3d\nx-span-id: 1f1e907470d71ca2\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/?post_type=product",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:41:42 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 74763\nlast-modified: Wed, 21 Oct 2026 21:25:36 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 1.020\naccept-ranges: bytes\nx-trace-id: d64dbd6566d4c32d009dbf3bef46488d\nx-span-id: cc256b1234add249\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/?page_id=754",
+      "exit": 0,
+      "statuses": [
+        "301",
+        "200"
+      ],
+      "headers": "HTTP/1.1 301 Moved Permanently\ndate: Tue, 27 Oct 2026 20:41:43 GMT\ncontent-type: text/html\ncontent-length: 795\nlocation: https://www.wosol.net/renewal.html\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: LHR\nsupersonic-cache-status: BYPASS\nx-upstream-status: 301\nx-upstream-time: 0.575\nx-trace-id: 1c7f8a21ca996463b0c16aba5afe78d6\nx-span-id: 11579856bc3f571b\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\nHTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:41:44 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 1944\nlast-modified: Tue, 27 Oct 2026 20:32:53 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: LHR\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.576\naccept-ranges: bytes\nx-trace-id: ac0ead4c23c6d12cb956fa65e1b11f75\nx-span-id: 221ea50ae3f5f834\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    }
+  ],
+  "scope": "Visible page source references only; no proof about external feed subscribers; no deletion performed."
+}

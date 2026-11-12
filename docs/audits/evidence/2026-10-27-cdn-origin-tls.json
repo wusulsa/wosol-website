@@ -1,0 +1,77 @@
+{
+  "time": "2026-10-27T16:10:08.150262+00:00",
+  "results": [
+    {
+      "host": "wosol.net",
+      "tls": "TLSv1.3",
+      "notAfter": "May  3 21:12:15 2027 GMT",
+      "issuer": [
+        [
+          [
+            "countryName",
+            "US"
+          ]
+        ],
+        [
+          [
+            "organizationName",
+            "SSL Corporation"
+          ]
+        ],
+        [
+          [
+            "commonName",
+            "SSL.com TLS Issuing RSA CA R1"
+          ]
+        ]
+      ],
+      "subjectAltName": [
+        [
+          "DNS",
+          "wosol.net"
+        ],
+        [
+          "DNS",
+          "www.wosol.net"
+        ]
+      ],
+      "verified": true
+    },
+    {
+      "host": "www.wosol.net",
+      "tls": "TLSv1.3",
+      "notAfter": "May  3 21:12:15 2027 GMT",
+      "issuer": [
+        [
+          [
+            "countryName",
+            "US"
+          ]
+        ],
+        [
+          [
+            "organizationName",
+            "SSL Corporation"
+          ]
+        ],
+        [
+          [
+            "commonName",
+            "SSL.com TLS Issuing RSA CA R1"
+          ]
+        ]
+      ],
+      "subjectAltName": [
+        [
+          "DNS",
+          "wosol.net"
+        ],
+        [
+          "DNS",
+          "www.wosol.net"
+        ]
+      ],
+      "verified": true
+    }
+  ]
+}

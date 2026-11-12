@@ -1,0 +1,67 @@
+{
+  "checked_at_utc": "2026-10-18T15:01:12.792568+00:00",
+  "resources": [
+    {
+      "url": "https://www.wosol.net/icon.ico",
+      "status": 200,
+      "cdn_cache": "BYPASS",
+      "pop": "EWR",
+      "sha256": "d91389f0a84fff5d691d3fc2c2e103ac294a74181a3096234002c4733a660b2e",
+      "matches_local": true
+    },
+    {
+      "url": "https://www.wosol.net/js/measurement-config.js",
+      "status": 200,
+      "cdn_cache": "BYPASS",
+      "pop": "SAO",
+      "sha256": "1ac96c7c1c7f00298a58cd2a14e58d97f1b720170b28c3f885019d63dbf8579b",
+      "correct_measurement_id": true
+    },
+    {
+      "url": "https://www.wosol.net/js/measurement-config.js?v=1",
+      "status": 200,
+      "cdn_cache": "BYPASS",
+      "pop": "EWR",
+      "sha256": "1ac96c7c1c7f00298a58cd2a14e58d97f1b720170b28c3f885019d63dbf8579b",
+      "correct_measurement_id": true
+    },
+    {
+      "url": "https://www.wosol.net/js/measurement-config.js?v=2",
+      "status": 200,
+      "cdn_cache": "BYPASS",
+      "pop": "SAO",
+      "sha256": "1ac96c7c1c7f00298a58cd2a14e58d97f1b720170b28c3f885019d63dbf8579b",
+      "correct_measurement_id": true
+    },
+    {
+      "url": "https://www.wosol.net/",
+      "status": 200,
+      "cdn_cache": "BYPASS",
+      "pop": "FRA",
+      "sha256": "19c74ea36005acaf8df535106c1d3d86c61b67234e65f292d6497c0c6736052d",
+      "config_version_2": true
+    },
+    {
+      "url": "https://www.wosol.net/en/",
+      "status": 200,
+      "cdn_cache": "BYPASS",
+      "pop": "LAX",
+      "sha256": "1900fc4ab931c9bd4331e60565a68ada751bf14c4011e74fc88b5367e63587a7",
+      "config_version_2": true
+    }
+  ],
+  "browser_verification": {
+    "arabic_and_english_correct_gtag": true,
+    "english_decline_removed_google_script": true,
+    "ga4_realtime_page_titles": [
+      "WOSOL | Student & Employee Transport in Saudi Arabia",
+      "وُسُل | نقل طالبات جامعة الملك عبدالعزيز ونقل موظفين في جدة والرياض"
+    ],
+    "observed_events": [
+      "page_view",
+      "contact_whatsapp_click"
+    ],
+    "forms_submitted": false,
+    "messages_sent": false
+  }
+}

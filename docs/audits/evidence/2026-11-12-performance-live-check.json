@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-11-12T13:51:31.624469+00:00",
+  "results": [
+    {
+      "file": "index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "file": "en/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "file": "css/approved-preview.c74345c59817.css",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "file": "assets/profile-2026/hero-1999-preview.d651acb86c48.webp",
+      "status": 200,
+      "matches": true
+    }
+  ]
+}

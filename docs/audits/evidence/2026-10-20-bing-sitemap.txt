@@ -1,0 +1,145 @@
+Browser tab: 60, Title: "Sitemaps - Bing Webmaster Tools", URL: "https://www.bing.com/webmasters/sitemaps?siteUrl=https://www.wosol.net/".
+1 AXWebArea Sitemaps - Bing Webmaster Tools, URL: bing.com/webmasters/sitemaps?siteUrl=https://www.wosol.net/
+	2 container
+		3 container root
+			4 container
+				5 link Description: Skip to main content, Value: bing.com/webmasters/sitemaps?siteUrl=https://www.wosol.net/#content
+				6 pop up button (collapsed) Description: Show Bing tools, Help: Bing Tools, Secondary Actions: Expand
+				7 image white bwt logo microsoft bing webmaster
+				8 pop up button (collapsed) Description: Copilot, Help: Copilot in Bing Webmaster Tools, Secondary Actions: Expand
+				9 pop up button (collapsed) Description: Notifications, Secondary Actions: Expand
+				10 pop up button (collapsed) Description: Help, Secondary Actions: Expand
+				11 pop up button (collapsed) Description: Feedback, Secondary Actions: Expand
+				12 pop up button (collapsed) Description: Settings, Secondary Actions: Expand
+				13 pop up button (collapsed) Description: Profile, ID: targetButton, Secondary Actions: Expand
+					14 image
+			15 container
+				16 pop up button (collapsed) Description: Select website, Secondary Actions: Expand
+					17 text www.wosol.net/
+				18 container Main menu
+					19 outline
+						20 row (selectable) Home
+							21 text Home
+						22 row (selectable) Search Performance
+							23 text Search Performance
+						24 row (selectable) AI Performance BETA
+							25 text AI Performance
+							26 text BETA
+						27 row (selectable) URL Inspection
+							28 text URL Inspection
+						29 row (selectable) Site Explorer
+							30 text Site Explorer
+						31 row (selectable) Sitemaps
+							32 text Sitemaps
+						33 row (selectable) IndexNow
+							34 text IndexNow
+						35 row (selectable) Backlinks
+							36 text Backlinks
+						37 row (selectable) Keyword Research
+							38 text Keyword Research
+						39 row (selectable) Recommendations
+							40 text Recommendations
+						41 row (selectable) Site Scan
+							42 text Site Scan
+						43 row (selectable, collapsed) Description: Configuration, ID: accordionItem46, Secondary Actions: Expand
+							44 text CONFIGURATION
+						45 row (selectable, collapsed) Description: Tools & Enhancements, ID: accordionItem50, Secondary Actions: Expand
+							46 text TOOLS & ENHANCEMENTS
+						47 row (selectable, collapsed) Description: Security & Privacy, ID: accordionItem54, Secondary Actions: Expand
+							48 text SECURITY & PRIVACY
+						49 row (selectable) User management
+							50 text User management
+						51 row (selectable) Microsoft Clarity
+							52 text Microsoft Clarity
+			53 container content
+				54 heading Sitemaps, Value: 2
+					55 text Sitemaps
+				56 button Submit sitemap
+					57 text Submit sitemap
+				58 heading Known sitemaps, Value: 4
+					59 text Known sitemaps
+				60 text 2
+				61 heading Sitemaps with errors, Value: 4
+					62 text Sitemaps with errors
+				63 text 0
+				64 heading Sitemaps with warnings, Value: 4
+					65 text Sitemaps with warnings
+				66 text 0
+				67 heading Total URLs discovered, Value: 4
+					68 text Total URLs discovered
+				69 text 9
+				70 heading Sitemap details, Value: 3, ID: sitemapDetails
+					71 text Sitemap details
+				72 combo box (collapsed) Value: Type:All, ID: Dropdown63, Secondary Actions: Expand
+					73 text Type:All
+				74 combo box (collapsed) Value: Status:All, ID: Dropdown64, Secondary Actions: Expand
+					75 text Status:All
+				76 button Download all
+					77 text Download all
+				78 table Sitemap details
+					79 row select all items Sitemap URL, sortable Last submit, sortable Last crawl, sortable Status, sortable URLs discovered, sortable, sorted descending order Action
+						80 cell select all items
+							81 checkbox Description: select all items, Value: 0, ID: header136-check
+						82 cell
+							83 button Description: Sitemap URL, sortable, ID: header136-Url
+								84 text Sitemap URL
+						85 cell
+							86 button Description: Last submit, sortable, ID: header136-SubmittedDate
+								87 text Last submit
+						88 cell
+							89 button Description: Last crawl, sortable, ID: header136-CrawlDate
+								90 text Last crawl
+						91 cell
+							92 button Description: Status, sortable, ID: header136-Status
+								93 text Status
+						94 cell
+							95 button Description: URLs discovered, sortable, sorted descending order, ID: header136-UrlCount
+								96 text URLs discovered
+						97 cell Action
+							98 text Action
+					99 row (selectable) ID: row139-0, select item https://wosol.net/sitemap_index.xml Sitemap Index URL actions 1/11/2018 Submitted 12/7/2018 Success 9 More
+						100 cell
+							101 checkbox Description: select item, Value: 0, ID: row139-0-checkbox
+						102 container
+							103 cell
+								104 container
+									105 text https://wosol.net/sitemap_index.xml Sitemap Index
+									106 container URL actions
+										107 button Description: Copy, ID: copyButton142
+										108 button Open in new tab
+							109 cell
+								110 text 1/11/2018
+								111 text Submitted
+							112 cell
+								113 text 12/7/2018
+							114 cell
+								115 text Success
+							116 cell
+								117 text 9
+							118 cell
+								119 pop up button (collapsed) Description: More, Secondary Actions: Expand
+					120 row (selectable) select item https://www.wosol.net/sitemap.xml URL actions 10/20/2026 Submitted - Processing - More, ID: row139-1
+						121 cell
+							122 checkbox Description: select item, Value: 0, ID: row139-1-checkbox
+						123 container
+							124 cell
+								125 container
+									126 text https://www.wosol.net/sitemap.xml
+									127 container URL actions
+										128 button Description: Copy, ID: copyButton154
+										129 button Open in new tab
+							130 cell
+								131 text 10/20/2026
+								132 text Submitted
+							133 cell
+								134 text -
+							135 cell
+								136 text Processing
+							137 cell
+								138 text -
+							139 cell
+								140 pop up button (collapsed) Description: More, Secondary Actions: Expand
+				141 container
+					142 text 2 rows
+
+The focused UI element is 56 button Submit sitemap

@@ -1,0 +1,288 @@
+{
+  "checked_at": "2026-10-27T15:53:00.441947+00:00",
+  "scope": "origin with TLS verification, CDN bypass only for diagnosis",
+  "results": [
+    {
+      "url": "https://www.wosol.net/?product=edu11",
+      "exit": 0,
+      "headers": "HTTP/1.1 301 Moved Permanently\nkeep-alive: timeout=5, max=100\ndate: Tue, 27 Oct 2026 15:52:48 GMT\nserver: LiteSpeed\nlocation: https://www.wosol.net/king-abdulaziz-university-transport\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/?product=edu3",
+      "exit": 0,
+      "headers": "HTTP/1.1 301 Moved Permanently\nkeep-alive: timeout=5, max=100\ndate: Tue, 27 Oct 2026 15:52:48 GMT\nserver: LiteSpeed\nlocation: https://www.wosol.net/king-abdulaziz-university-transport\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/?product=edu33",
+      "exit": 0,
+      "headers": "HTTP/1.1 301 Moved Permanently\nkeep-alive: timeout=5, max=100\ndate: Tue, 27 Oct 2026 15:52:48 GMT\nserver: LiteSpeed\nlocation: https://www.wosol.net/king-abdulaziz-university-transport\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/king-abdulaziz-university-transport",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\naccept-ranges: bytes\ncontent-length: 22611\ndate: Tue, 27 Oct 2026 15:52:49 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/?contactTab=quote&quoteService=employees",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Wed, 21 Oct 2026 21:25:36 GMT\naccept-ranges: bytes\ncontent-length: 74763\ndate: Tue, 27 Oct 2026 15:52:49 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/en/?contactTab=quote",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Wed, 21 Oct 2026 21:25:36 GMT\naccept-ranges: bytes\ncontent-length: 67749\ndate: Tue, 27 Oct 2026 15:52:49 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/?product=edu333",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Wed, 21 Oct 2026 21:25:36 GMT\naccept-ranges: bytes\ncontent-length: 74763\ndate: Tue, 27 Oct 2026 15:52:50 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/?product=edu3&contactTab=quote",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Wed, 21 Oct 2026 21:25:36 GMT\naccept-ranges: bytes\ncontent-length: 74763\ndate: Tue, 27 Oct 2026 15:52:50 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/?utm_source=review",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Wed, 21 Oct 2026 21:25:36 GMT\naccept-ranges: bytes\ncontent-length: 74763\ndate: Tue, 27 Oct 2026 15:52:50 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/airport-hotel-transfers",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\naccept-ranges: bytes\ncontent-length: 21169\ndate: Tue, 27 Oct 2026 15:52:50 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/register",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Mon, 19 Oct 2026 21:32:00 GMT\naccept-ranges: bytes\ncontent-length: 14737\ndate: Tue, 27 Oct 2026 15:52:50 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/en/register/",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Mon, 19 Oct 2026 21:32:00 GMT\naccept-ranges: bytes\ncontent-length: 13550\ndate: Tue, 27 Oct 2026 15:52:50 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/corporate-transport-saudi-arabia",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\naccept-ranges: bytes\ncontent-length: 31596\ndate: Tue, 27 Oct 2026 15:52:51 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/employee-transport-dammam",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\naccept-ranges: bytes\ncontent-length: 23221\ndate: Tue, 27 Oct 2026 15:52:51 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/driver-only-services",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\naccept-ranges: bytes\ncontent-length: 21514\ndate: Tue, 27 Oct 2026 15:52:51 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/employee-transport-jeddah",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\naccept-ranges: bytes\ncontent-length: 23566\ndate: Tue, 27 Oct 2026 15:52:52 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/employee-transport-madinah",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\naccept-ranges: bytes\ncontent-length: 23346\ndate: Tue, 27 Oct 2026 15:52:52 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/event-conference-transport",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\naccept-ranges: bytes\ncontent-length: 21301\ndate: Tue, 27 Oct 2026 15:52:52 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/employee-transport-riyadh",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\naccept-ranges: bytes\ncontent-length: 23550\ndate: Tue, 27 Oct 2026 15:52:53 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/employee-transport-makkah",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\naccept-ranges: bytes\ncontent-length: 23252\ndate: Tue, 27 Oct 2026 15:52:53 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/executive-vip-transport",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\naccept-ranges: bytes\ncontent-length: 21348\ndate: Tue, 27 Oct 2026 15:52:53 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/private-day-trips",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\naccept-ranges: bytes\ncontent-length: 21386\ndate: Tue, 27 Oct 2026 15:52:54 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/king-abdulaziz-university-transport",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\naccept-ranges: bytes\ncontent-length: 22611\ndate: Tue, 27 Oct 2026 15:52:53 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/tourism-transport",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\naccept-ranges: bytes\ncontent-length: 21032\ndate: Tue, 27 Oct 2026 15:52:54 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Wed, 21 Oct 2026 21:25:36 GMT\naccept-ranges: bytes\ncontent-length: 74763\ndate: Tue, 27 Oct 2026 15:52:54 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/intercity-group-transport",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\naccept-ranges: bytes\ncontent-length: 21225\ndate: Tue, 27 Oct 2026 15:52:54 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/umrah-visitor-transport",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\naccept-ranges: bytes\ncontent-length: 21294\ndate: Tue, 27 Oct 2026 15:52:54 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/workforce-project-transport",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\naccept-ranges: bytes\ncontent-length: 21364\ndate: Tue, 27 Oct 2026 15:52:55 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/en/airport-hotel-transfers/",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\naccept-ranges: bytes\ncontent-length: 19201\ndate: Tue, 27 Oct 2026 15:52:55 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/vehicle-rental-without-driver",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\naccept-ranges: bytes\ncontent-length: 21504\ndate: Tue, 27 Oct 2026 15:52:55 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/en/corporate-transport-saudi-arabia/",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\naccept-ranges: bytes\ncontent-length: 28016\ndate: Tue, 27 Oct 2026 15:52:56 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/en/",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Wed, 21 Oct 2026 21:25:36 GMT\naccept-ranges: bytes\ncontent-length: 67749\ndate: Tue, 27 Oct 2026 15:52:56 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/en/driver-only-services/",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\naccept-ranges: bytes\ncontent-length: 19521\ndate: Tue, 27 Oct 2026 15:52:56 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/en/employee-transport-dammam/",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\naccept-ranges: bytes\ncontent-length: 20955\ndate: Tue, 27 Oct 2026 15:52:57 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/en/employee-transport-madinah/",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\naccept-ranges: bytes\ncontent-length: 20883\ndate: Tue, 27 Oct 2026 15:52:57 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/en/employee-transport-jeddah/",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\naccept-ranges: bytes\ncontent-length: 21261\ndate: Tue, 27 Oct 2026 15:52:57 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/en/employee-transport-riyadh/",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\naccept-ranges: bytes\ncontent-length: 21181\ndate: Tue, 27 Oct 2026 15:52:57 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/en/employee-transport-makkah/",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\naccept-ranges: bytes\ncontent-length: 20848\ndate: Tue, 27 Oct 2026 15:52:57 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/en/event-conference-transport/",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\naccept-ranges: bytes\ncontent-length: 19283\ndate: Tue, 27 Oct 2026 15:52:58 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/en/intercity-group-transport/",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\naccept-ranges: bytes\ncontent-length: 19293\ndate: Tue, 27 Oct 2026 15:52:58 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/en/king-abdulaziz-university-transport/",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\naccept-ranges: bytes\ncontent-length: 20224\ndate: Tue, 27 Oct 2026 15:52:58 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/en/executive-vip-transport/",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\naccept-ranges: bytes\ncontent-length: 19319\ndate: Tue, 27 Oct 2026 15:52:58 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/en/tourism-transport/",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\naccept-ranges: bytes\ncontent-length: 19167\ndate: Tue, 27 Oct 2026 15:52:59 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/en/private-day-trips/",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\naccept-ranges: bytes\ncontent-length: 19273\ndate: Tue, 27 Oct 2026 15:52:59 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/en/umrah-visitor-transport/",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\naccept-ranges: bytes\ncontent-length: 19323\ndate: Tue, 27 Oct 2026 15:52:59 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/en/vehicle-rental-without-driver/",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\naccept-ranges: bytes\ncontent-length: 19544\ndate: Tue, 27 Oct 2026 15:53:00 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    },
+    {
+      "url": "https://www.wosol.net/en/workforce-project-transport/",
+      "exit": 0,
+      "headers": "HTTP/1.1 200 OK\nkeep-alive: timeout=5, max=100\ncontent-type: text/html; charset=UTF-8\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\naccept-ranges: bytes\ncontent-length: 19421\ndate: Tue, 27 Oct 2026 15:53:00 GMT\nserver: LiteSpeed\nx-turbo-charged-by: LiteSpeed\n\n",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "url": "https://www.wosol.net/",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "url": "https://www.wosol.net/en/",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "url": "https://www.wosol.net/js/quote-service-fields.r4d6ec31904b1.js",
+    "status": 200,
+    "matches": true
+  }
+]

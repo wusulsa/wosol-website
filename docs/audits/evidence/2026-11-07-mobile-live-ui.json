@@ -1,0 +1,17 @@
+{
+  "english": {
+    "clientWidth": 305,
+    "headings": [
+      "Staff and studenttransport."
+    ],
+    "issues": [],
+    "scrollWidth": 305,
+    "url": "https://www.wosol.net/en/?contactTab=quote&quoteService=events#contact",
+    "width": 320
+  },
+  "arabic": {
+    "notice": "الخدمة المختارة: نقل الفعاليات والمؤتمرات والمعارضأكمل تفاصيل الخدمة أدناه.",
+    "width": 320
+  },
+  "noSubmission": true
+}

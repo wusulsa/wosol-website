@@ -72,8 +72,8 @@
 
   /**
    * يرسل السجل إلى CRM داخل إطار مخفي.
-   * رد CRM غير قابل للقراءة (نطاق مختلف)، فيُحسم الوعد عند تحميل الإطار
-   * أو بعد مهلة — ونسخة البريد تبقى المرجع عند أي تعثر.
+   * رد CRM غير قابل للقراءة (نطاق مختلف). التحميل أو المهلة كلاهما
+   * نتيجة غير مؤكدة، ولا يثبتان إنشاء سجل أو حجز.
    */
   function submitToCRM() {
     return new Promise(resolve => {
@@ -114,8 +114,9 @@
         resolve(ok);
       };
 
-      frame.addEventListener('load', () => finish(true));
-      const timer = setTimeout(() => finish(false), 12000);
+      // A cross-origin frame load is transport activity, never a CRM receipt.
+      frame.addEventListener('load', () => finish({ status: 'unverified', reason: 'frame_loaded' }));
+      const timer = setTimeout(() => finish({ status: 'unverified', reason: 'timeout' }), 12000);
 
       document.body.append(frame, form);
       form.submit();

@@ -1,0 +1,113 @@
+{
+  "checked_at": "2026-10-27T17:18:49.584613+00:00",
+  "results": [
+    {
+      "query": "page_id=9",
+      "exit": 0,
+      "result": "200|https://www.wosol.net/#about|1",
+      "error": ""
+    },
+    {
+      "query": "page_id=1131",
+      "exit": 0,
+      "result": "200|https://www.wosol.net/#about|1",
+      "error": ""
+    },
+    {
+      "query": "page_id=17",
+      "exit": 0,
+      "result": "200|https://www.wosol.net/#paths-title|1",
+      "error": ""
+    },
+    {
+      "query": "page_id=18",
+      "exit": 0,
+      "result": "200|https://www.wosol.net/#contact|1",
+      "error": ""
+    },
+    {
+      "query": "page_id=1050",
+      "exit": 0,
+      "result": "200|https://www.wosol.net/king-abdulaziz-university-transport|1",
+      "error": ""
+    },
+    {
+      "query": "page_id=1203",
+      "exit": 0,
+      "result": "200|https://www.wosol.net/?contactTab=quote#contact|1",
+      "error": ""
+    },
+    {
+      "query": "page_id=1455",
+      "exit": 0,
+      "result": "200|https://www.wosol.net/?contactTab=inquiry#contact|1",
+      "error": ""
+    },
+    {
+      "query": "page_id=7",
+      "exit": 0,
+      "result": "200|https://www.wosol.net/?page_id=7|0",
+      "error": ""
+    },
+    {
+      "query": "page_id=754",
+      "exit": 0,
+      "result": "200|https://www.wosol.net/?page_id=754|0",
+      "error": ""
+    },
+    {
+      "query": "page_id=58",
+      "exit": 0,
+      "result": "200|https://www.wosol.net/?page_id=58|0",
+      "error": ""
+    },
+    {
+      "query": "page_id=1030",
+      "exit": 0,
+      "result": "200|https://www.wosol.net/?page_id=1030|0",
+      "error": ""
+    },
+    {
+      "query": "page_id=154",
+      "exit": 0,
+      "result": "200|https://www.wosol.net/?page_id=154|0",
+      "error": ""
+    },
+    {
+      "query": "product=%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83-%D8%A3%D8%A8%D8%AD%D8%B1-%D9%88%D9%85%D8%A7-%D8%AC%D8%A7%D9%88%D8%B1%D9%87%D8%A7-%D8%A5%D9%84%D9%89-%D8%AC%D8%A7%D9%85%D8%B9%D8%A9-%D8%A7%D9%84%D9%85%D9%84%D9%83",
+      "exit": 0,
+      "result": "200|https://www.wosol.net/?product=%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83-%D8%A3%D8%A8%D8%AD%D8%B1-%D9%88%D9%85%D8%A7-%D8%AC%D8%A7%D9%88%D8%B1%D9%87%D8%A7-%D8%A5%D9%84%D9%89-%D8%AC%D8%A7%D9%85%D8%B9%D8%A9-%D8%A7%D9%84%D9%85%D9%84%D9%83|0",
+      "error": ""
+    },
+    {
+      "query": "post_type=product",
+      "exit": 0,
+      "result": "200|https://www.wosol.net/?post_type=product|0",
+      "error": ""
+    },
+    {
+      "query": "author=1",
+      "exit": 0,
+      "result": "200|https://www.wosol.net/?author=1|0",
+      "error": ""
+    },
+    {
+      "query": "feed=comments-rss2",
+      "exit": 0,
+      "result": "200|https://www.wosol.net/?feed=comments-rss2|0",
+      "error": ""
+    },
+    {
+      "query": "cf7_style=christmas-simple",
+      "exit": 0,
+      "result": "200|https://www.wosol.net/?cf7_style=christmas-simple|0",
+      "error": ""
+    },
+    {
+      "query": "wp_lang=ar",
+      "exit": 0,
+      "result": "200|https://www.wosol.net/?wp_lang=ar|0",
+      "error": ""
+    }
+  ]
+}

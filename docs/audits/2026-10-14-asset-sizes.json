@@ -1,0 +1,17 @@
+[
+  {
+    "name": "yaris",
+    "sourceBytes": 200979,
+    "webpBytes": 63192
+  },
+  {
+    "name": "rav4",
+    "sourceBytes": 237762,
+    "webpBytes": 49442
+  },
+  {
+    "name": "staria",
+    "sourceBytes": 180571,
+    "webpBytes": 46848
+  }
+]

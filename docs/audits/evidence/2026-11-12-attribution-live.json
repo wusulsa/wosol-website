@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://www.wosol.net/js/measurement.js",
+    "status": 200,
+    "matches": true,
+    "cache": [
+      "BYPASS"
+    ]
+  },
+  {
+    "url": "https://www.wosol.net/js/measurement.js?v=1",
+    "status": 200,
+    "matches": true,
+    "cache": [
+      "BYPASS"
+    ]
+  }
+]

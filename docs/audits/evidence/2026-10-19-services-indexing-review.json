@@ -1,0 +1,198 @@
+{
+  "date": "2026-10-19",
+  "property": "https://www.wosol.net/",
+  "sitemap": {
+    "submission": "success",
+    "last_read": "2026-10-19",
+    "discovered_pages": 28
+  },
+  "accepted_individual_requests_this_turn": 0,
+  "quota_message": "تعذّر علينا معالجة هذا الطلب لأنك تجاوزت حصتك اليومية بخصوص عدد الطلبات. يُرجى إعادة محاولة إرسال هذا الطلب غدًا.",
+  "manual_actions": "no_issues_detected",
+  "security_issues": "no_issues_detected",
+  "aggregate_index_report": "processing",
+  "core_web_vitals": "insufficient_usage_data_mobile_and_desktop_last_90_days",
+  "rows": [
+    {
+      "url": "https://www.wosol.net/workforce-project-transport",
+      "language": "ar",
+      "individual_request_attempted": true,
+      "individual_request_status": "rejected_daily_quota",
+      "accepted": false,
+      "included_in_successful_sitemap": true,
+      "google_index_status": "unknown_to_google_at_inspection",
+      "google_live_test": "passed_crawl_fetch_indexability_canonical",
+      "next_action": "Request after quota resets, then separately verify indexing"
+    },
+    {
+      "url": "https://www.wosol.net/en/workforce-project-transport/",
+      "language": "en",
+      "individual_request_attempted": false,
+      "individual_request_status": "deferred_after_confirmed_daily_quota",
+      "accepted": false,
+      "included_in_successful_sitemap": true,
+      "google_index_status": "unknown_to_google_at_inspection",
+      "google_live_test": "passed_crawl_fetch_indexability_canonical",
+      "next_action": "Request after quota resets, then separately verify indexing"
+    },
+    {
+      "url": "https://www.wosol.net/private-day-trips",
+      "language": "ar",
+      "individual_request_attempted": false,
+      "individual_request_status": "deferred_after_confirmed_daily_quota",
+      "accepted": false,
+      "included_in_successful_sitemap": true,
+      "google_index_status": "not_individually_inspected_this_turn",
+      "google_live_test": "not_run",
+      "next_action": "Request after quota resets, then separately verify indexing"
+    },
+    {
+      "url": "https://www.wosol.net/en/private-day-trips/",
+      "language": "en",
+      "individual_request_attempted": false,
+      "individual_request_status": "deferred_after_confirmed_daily_quota",
+      "accepted": false,
+      "included_in_successful_sitemap": true,
+      "google_index_status": "not_individually_inspected_this_turn",
+      "google_live_test": "not_run",
+      "next_action": "Request after quota resets, then separately verify indexing"
+    },
+    {
+      "url": "https://www.wosol.net/event-conference-transport",
+      "language": "ar",
+      "individual_request_attempted": false,
+      "individual_request_status": "deferred_after_confirmed_daily_quota",
+      "accepted": false,
+      "included_in_successful_sitemap": true,
+      "google_index_status": "not_individually_inspected_this_turn",
+      "google_live_test": "not_run",
+      "next_action": "Request after quota resets, then separately verify indexing"
+    },
+    {
+      "url": "https://www.wosol.net/en/event-conference-transport/",
+      "language": "en",
+      "individual_request_attempted": false,
+      "individual_request_status": "deferred_after_confirmed_daily_quota",
+      "accepted": false,
+      "included_in_successful_sitemap": true,
+      "google_index_status": "not_individually_inspected_this_turn",
+      "google_live_test": "not_run",
+      "next_action": "Request after quota resets, then separately verify indexing"
+    },
+    {
+      "url": "https://www.wosol.net/airport-hotel-transfers",
+      "language": "ar",
+      "individual_request_attempted": false,
+      "individual_request_status": "deferred_after_confirmed_daily_quota",
+      "accepted": false,
+      "included_in_successful_sitemap": true,
+      "google_index_status": "not_individually_inspected_this_turn",
+      "google_live_test": "not_run",
+      "next_action": "Request after quota resets, then separately verify indexing"
+    },
+    {
+      "url": "https://www.wosol.net/en/airport-hotel-transfers/",
+      "language": "en",
+      "individual_request_attempted": false,
+      "individual_request_status": "deferred_after_confirmed_daily_quota",
+      "accepted": false,
+      "included_in_successful_sitemap": true,
+      "google_index_status": "not_individually_inspected_this_turn",
+      "google_live_test": "not_run",
+      "next_action": "Request after quota resets, then separately verify indexing"
+    },
+    {
+      "url": "https://www.wosol.net/intercity-group-transport",
+      "language": "ar",
+      "individual_request_attempted": false,
+      "individual_request_status": "deferred_after_confirmed_daily_quota",
+      "accepted": false,
+      "included_in_successful_sitemap": true,
+      "google_index_status": "not_individually_inspected_this_turn",
+      "google_live_test": "not_run",
+      "next_action": "Request after quota resets, then separately verify indexing"
+    },
+    {
+      "url": "https://www.wosol.net/en/intercity-group-transport/",
+      "language": "en",
+      "individual_request_attempted": false,
+      "individual_request_status": "deferred_after_confirmed_daily_quota",
+      "accepted": false,
+      "included_in_successful_sitemap": true,
+      "google_index_status": "not_individually_inspected_this_turn",
+      "google_live_test": "not_run",
+      "next_action": "Request after quota resets, then separately verify indexing"
+    },
+    {
+      "url": "https://www.wosol.net/tourism-transport",
+      "language": "ar",
+      "individual_request_attempted": false,
+      "individual_request_status": "deferred_after_confirmed_daily_quota",
+      "accepted": false,
+      "included_in_successful_sitemap": true,
+      "google_index_status": "not_individually_inspected_this_turn",
+      "google_live_test": "not_run",
+      "next_action": "Request after quota resets, then separately verify indexing"
+    },
+    {
+      "url": "https://www.wosol.net/en/tourism-transport/",
+      "language": "en",
+      "individual_request_attempted": false,
+      "individual_request_status": "deferred_after_confirmed_daily_quota",
+      "accepted": false,
+      "included_in_successful_sitemap": true,
+      "google_index_status": "not_individually_inspected_this_turn",
+      "google_live_test": "not_run",
+      "next_action": "Request after quota resets, then separately verify indexing"
+    },
+    {
+      "url": "https://www.wosol.net/umrah-visitor-transport",
+      "language": "ar",
+      "individual_request_attempted": false,
+      "individual_request_status": "deferred_after_confirmed_daily_quota",
+      "accepted": false,
+      "included_in_successful_sitemap": true,
+      "google_index_status": "not_individually_inspected_this_turn",
+      "google_live_test": "not_run",
+      "next_action": "Request after quota resets, then separately verify indexing"
+    },
+    {
+      "url": "https://www.wosol.net/en/umrah-visitor-transport/",
+      "language": "en",
+      "individual_request_attempted": false,
+      "individual_request_status": "deferred_after_confirmed_daily_quota",
+      "accepted": false,
+      "included_in_successful_sitemap": true,
+      "google_index_status": "not_individually_inspected_this_turn",
+      "google_live_test": "not_run",
+      "next_action": "Request after quota resets, then separately verify indexing"
+    },
+    {
+      "url": "https://www.wosol.net/executive-vip-transport",
+      "language": "ar",
+      "individual_request_attempted": false,
+      "individual_request_status": "deferred_after_confirmed_daily_quota",
+      "accepted": false,
+      "included_in_successful_sitemap": true,
+      "google_index_status": "not_individually_inspected_this_turn",
+      "google_live_test": "not_run",
+      "next_action": "Request after quota resets, then separately verify indexing"
+    },
+    {
+      "url": "https://www.wosol.net/en/executive-vip-transport/",
+      "language": "en",
+      "individual_request_attempted": false,
+      "individual_request_status": "deferred_after_confirmed_daily_quota",
+      "accepted": false,
+      "included_in_successful_sitemap": true,
+      "google_index_status": "not_individually_inspected_this_turn",
+      "google_live_test": "not_run",
+      "next_action": "Request after quota resets, then separately verify indexing"
+    }
+  ],
+  "boundaries": {
+    "ads_activated": false,
+    "successful_form_submission": false,
+    "student_registration_changed": false
+  }
+}

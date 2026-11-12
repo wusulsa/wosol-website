@@ -1,0 +1,236 @@
+- banner:
+  - button "القائمة الرئيسية":
+  - link "Google Search Console":
+    - /url: ./search-console?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+  - search:
+    - textbox [disabled]: فحص أي عنوان URL في "https://www.wosol.net/"
+    - combobox "فحص أي عنوان URL في https://www.wosol.net/"
+    - button "بحث":
+  - button "مساعدة":
+    - generic: help_outline
+  - tooltip: مساعدة
+  - button "إعدادات المستخدم":
+    - generic: manage_accounts
+  - tooltip: إعدادات المستخدم
+  - 'button "عدد الرسائل غير المقروءة: 3"':
+    - generic: notifications
+  - tooltip: الرسائل
+  - generic: "3"
+  - button "تطبيقات Google":
+  - 'button "حساب Google: وُسُـل النقل (info@wosol.net)"':
+- dialog "navigational drawer":
+  - navigation "أساسي":
+    - button "موقع البحث":
+      - img "الرمز المفضّل"
+      - combobox "https://www.wosol.net/"
+      - generic: 
+    - link "نظرة عامة":
+      - /url: ./search-console?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+      - generic: home
+      - generic: نظرة عامة
+    - link "الإحصاءات":
+      - /url: ./search-console/performance/insights?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+      - generic: lightbulb_2
+      - generic: الإحصاءات
+    - link "الأداء":
+      - /url: ./search-console/performance/search-analytics?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+      - generic: trending_up
+      - generic: الأداء
+    - button "قسم تقرير \"الأداء\"":
+      - generic: keyboard_arrow_down
+    - button "فحص عنوان URL":
+      - generic: search
+      - generic: فحص عنوان URL
+    - generic: الفهرسة
+    - button "قسم تقرير \"الفهرسة\"" [expanded]:
+      - generic: keyboard_arrow_up
+    - link "الصفحات":
+      - /url: ./search-console/index?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+      - generic: file_copy
+      - generic: الصفحات
+    - link "ملفات خرائط الموقع":
+      - /url: ./search-console/sitemaps?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+      - generic: account_tree
+      - generic: ملفات خرائط الموقع
+    - link "عمليات الإزالة":
+      - /url: ./search-console/removals?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+      - generic: visibility_off
+      - generic: عمليات الإزالة
+    - generic: تجربة المستخدم
+    - button "قسم تقرير \"تجربة المستخدم\"" [expanded]:
+      - generic: keyboard_arrow_up
+    - link "مؤشرات أداء الويب الأساسية":
+      - /url: ./search-console/core-web-vitals?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+      - generic: speed
+      - generic: مؤشرات أداء الويب الأساسية
+    - link "HTTPS":
+      - /url: ./search-console/https?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+      - generic: lock
+      - generic: HTTPS
+    - generic: التحسينات
+    - button "قسم تقرير \"التحسينات\"" [expanded]:
+      - generic: keyboard_arrow_up
+    - link "مسارات التنقل":
+      - /url: ./search-console/r/breadcrumbs?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+      - generic: layers
+      - generic: مسارات التنقل
+    - generic: الأمان والإجراءات اليدوية
+    - button "قسم تقرير \"الأمان والإجراءات اليدوية\"":
+      - generic: keyboard_arrow_down
+    - link "تقرير الروابط":
+      - /url: ./search-console/links?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+      - generic: link_2
+      - generic: الروابط
+    - link "الإنجازات":
+      - /url: ./search-console/achievements?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+      - generic: trophy
+      - generic: الإنجازات
+    - link "إعدادات":
+      - /url: ./search-console/settings?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+      - generic: settings
+      - generic: إعدادات
+    - button "إرسال ملاحظات":
+      - generic: feedback
+      - generic: إرسال ملاحظات
+    - button "لمحة عن Search Console":
+      - generic: info
+      - generic: لمحة عن Search Console
+    - link "الخصوصية":
+      - /url: https://myaccount.google.com/privacypolicy?hl=ar
+    - link "الأحكام":
+      - /url: https://myaccount.google.com/termsofservice?hl=ar
+- navigation "مسارات التنقل":
+  - link "مؤشرات أداء الويب الأساسية":
+    - /url: ./search-console/core-web-vitals?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+  - generic: 
+  - link "الهاتف الجوال":
+    - /url: ./search-console/core-web-vitals/summary?resource_id=https%3A%2F%2Fwww.wosol.net%2F&device=2
+  - generic: 
+  - 'heading "مشكلة LCP: أطول من ثانيتان ونصف (الأجهزة الجوّالة)" [level=1]'
+- button "تصدير":
+  - generic: 
+  - generic: تصدير
+- button "احصل على رابط يمكن مشاركته.":
+  - generic: 
+  - generic: مشاركة
+- text: "المصدر: تقرير تجربة المُستخدِم في Chrome"
+- button "null":
+  - generic: 
+- generic: "تاريخ آخر تعديل: ‎9‏/11‏/2026"
+- main:
+  - generic: warning
+  - generic: "مشكلة LCP: أطول من ثانيتان ونصف (الأجهزة الجوّالة)"
+  - generic: يجب تحسين تجربة الصفحة على عناوين URL التي تتضمّن هذه المشكلة.
+  - link "رابط للحصول على وثائق أكثر شمولاً":
+    - /url: https://web.dev/lcp/
+    - generic: مزيد من المعلومات
+  - generic: "تاريخ الرصد الأول: 19‏/10‏/2026"
+  - generic: هل اكتمل حل المشكلة؟
+  - button "التحقق من الإصلاح":
+    - generic: التحقق من الإصلاح
+  - button "null":
+    - generic: 
+  - generic "عناوين URL المتأثرة"
+  - generic "27"
+  - generic: مجموعات عناوين URL
+  - button "null":
+    - generic: 
+  - button "فلترة صفوف الجدول":
+    - generic: 
+  - table:
+    - rowgroup:
+      - row "مثال على عنوان URL null العدد في المجموعة null المجموعة LCP":
+        - columnheader "مثال على عنوان URL null":
+          - text: مثال على عنوان URL
+          - button "null":
+            - generic: 
+        - columnheader "العدد في المجموعة null":
+          - text: العدد في المجموعة
+          - button "null":
+            - generic: 
+        - columnheader "المجموعة LCP":
+          - generic: المجموعة LCP
+    - rowgroup:
+      - row "https://www.wosol.net/ 27 3.1 ثانية":
+        - cell "https://www.wosol.net/":
+          - generic "https://www.wosol.net/"
+        - cell "27":
+          - generic: "27"
+        - cell "3.1 ثانية":
+          - generic: 3.1 ثانية
+  - generic: "عدد الصفوف في كل صفحة:"
+  - listbox "عدد الصفوف لكل صفحة":
+    - option "5"
+    - option "10" [selected]
+    - option "25"
+    - option "50"
+    - option "100"
+    - option "250"
+    - option "500"
+  - generic: 1-1 من 1
+  - generic: 
+  - generic: 
+- button "إغلاق":
+- tooltip: إغلاق
+- heading "27 عنوان URL في هذه المجموعة مساعدة" [level=3]:
+  - text: 27 عنوان URL في هذه المجموعة
+  - button "مساعدة":
+    - generic: 
+- text: المجموعة LCP
+- generic: 3.1 ثانية
+- text: مستوى الخطورة
+- generic: بحاجة إلى تحسين
+- text: يستند تقييم تجربة المستخدم إلى مجموعات عناوين URL، وليس إلى عناوين URL فردية.
+- link "مزيد من المعلومات حول مجموعات عناوين URL":
+  - /url: https://support.google.com/webmasters/answer/9205520#page_groups
+  - text: مزيد من المعلومات
+- heading "أمثلة على عناوين URL في هذه المجموعة مساعدة" [level=3]:
+  - text: أمثلة على عناوين URL في هذه المجموعة
+  - button "مساعدة":
+    - generic: 
+- text: ما من عناوين URL تشمل بيانات استخدام LCP كافية في هذه المجموعة.
+- link "مزيد من المعلومات حول مجموعات عناوين URL":
+  - /url: https://support.google.com/webmasters/answer/9205520#page_groups
+  - text: مزيد من المعلومات
+- button "https://www.wosol.net/":
+  - generic: https://www.wosol.net/
+- button "https://www.wosol.net/king-abdulaziz-university-transport":
+  - generic: https://www.wosol.net/king-abdulaziz-university-transport
+- button "https://www.wosol.net/en/":
+  - generic: https://www.wosol.net/en/
+- button "https://www.wosol.net/employee-transport-riyadh":
+  - generic: https://www.wosol.net/employee-transport-riyadh
+- button "https://www.wosol.net/employee-transport-jeddah":
+  - generic: https://www.wosol.net/employee-transport-jeddah
+- button "https://www.wosol.net/corporate-transport-saudi-arabia":
+  - generic: https://www.wosol.net/corporate-transport-saudi-arabia
+- button "https://www.wosol.net/register":
+  - generic: https://www.wosol.net/register
+- button "https://www.wosol.net/employee-transport-dammam":
+  - generic: https://www.wosol.net/employee-transport-dammam
+- button "https://www.wosol.net/en/corporate-transport-saudi-arabia/":
+  - generic: https://www.wosol.net/en/corporate-transport-saudi-arabia/
+- button "https://www.wosol.net/en/employee-transport-riyadh/":
+  - generic: https://www.wosol.net/en/employee-transport-riyadh/
+- button "https://www.wosol.net/en/intercity-group-transport/":
+  - generic: https://www.wosol.net/en/intercity-group-transport/
+- button "https://www.wosol.net/en/tourism-transport/":
+  - generic: https://www.wosol.net/en/tourism-transport/
+- button "https://www.wosol.net/intercity-group-transport":
+  - generic: https://www.wosol.net/intercity-group-transport
+- button "https://www.wosol.net/en/employee-transport-dammam/":
+  - generic: https://www.wosol.net/en/employee-transport-dammam/
+- button "https://www.wosol.net/en/employee-transport-jeddah/":
+  - generic: https://www.wosol.net/en/employee-transport-jeddah/
+- button "https://www.wosol.net/en/private-day-trips/":
+  - generic: https://www.wosol.net/en/private-day-trips/
+- button "https://www.wosol.net/private-day-trips":
+  - generic: https://www.wosol.net/private-day-trips
+- button "https://www.wosol.net/workforce-project-transport":
+  - generic: https://www.wosol.net/workforce-project-transport
+- button "https://www.wosol.net/en/airport-hotel-transfers/":
+  - generic: https://www.wosol.net/en/airport-hotel-transfers/
+- button "https://www.wosol.net/en/employee-transport-madinah/":
+  - generic: https://www.wosol.net/en/employee-transport-madinah/
+- button "https://www.wosol.net/en/king-abdulaziz-university-transport/":
+  - generic: https://www.wosol.net/en/king-abdulaziz-university-transport/

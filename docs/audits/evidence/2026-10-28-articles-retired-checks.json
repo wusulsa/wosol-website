@@ -1,0 +1,251 @@
+[
+  {
+    "url": "https://www.wosol.net/register",
+    "status": 200,
+    "final_url": "https://www.wosol.net/register"
+  },
+  {
+    "url": "https://www.wosol.net/en/register/",
+    "status": 200,
+    "final_url": "https://www.wosol.net/en/register/"
+  },
+  {
+    "url": "https://www.wosol.net/airport-hotel-transfers",
+    "status": 200,
+    "final_url": "https://www.wosol.net/airport-hotel-transfers"
+  },
+  {
+    "url": "https://www.wosol.net/corporate-transport-saudi-arabia",
+    "status": 200,
+    "final_url": "https://www.wosol.net/corporate-transport-saudi-arabia"
+  },
+  {
+    "url": "https://www.wosol.net/driver-only-services",
+    "status": 200,
+    "final_url": "https://www.wosol.net/driver-only-services"
+  },
+  {
+    "url": "https://www.wosol.net/employee-transport-dammam",
+    "status": 200,
+    "final_url": "https://www.wosol.net/employee-transport-dammam"
+  },
+  {
+    "url": "https://www.wosol.net/employee-transport-jeddah",
+    "status": 200,
+    "final_url": "https://www.wosol.net/employee-transport-jeddah"
+  },
+  {
+    "url": "https://www.wosol.net/employee-transport-madinah",
+    "status": 200,
+    "final_url": "https://www.wosol.net/employee-transport-madinah"
+  },
+  {
+    "url": "https://www.wosol.net/employee-transport-makkah",
+    "status": 200,
+    "final_url": "https://www.wosol.net/employee-transport-makkah"
+  },
+  {
+    "url": "https://www.wosol.net/employee-transport-riyadh",
+    "status": 200,
+    "final_url": "https://www.wosol.net/employee-transport-riyadh"
+  },
+  {
+    "url": "https://www.wosol.net/event-conference-transport",
+    "status": 200,
+    "final_url": "https://www.wosol.net/event-conference-transport"
+  },
+  {
+    "url": "https://www.wosol.net/executive-vip-transport",
+    "status": 200,
+    "final_url": "https://www.wosol.net/executive-vip-transport"
+  },
+  {
+    "url": "https://www.wosol.net/",
+    "status": 200,
+    "final_url": "https://www.wosol.net/"
+  },
+  {
+    "url": "https://www.wosol.net/intercity-group-transport",
+    "status": 200,
+    "final_url": "https://www.wosol.net/intercity-group-transport"
+  },
+  {
+    "url": "https://www.wosol.net/king-abdulaziz-university-transport",
+    "status": 200,
+    "final_url": "https://www.wosol.net/king-abdulaziz-university-transport"
+  },
+  {
+    "url": "https://www.wosol.net/private-day-trips",
+    "status": 200,
+    "final_url": "https://www.wosol.net/private-day-trips"
+  },
+  {
+    "url": "https://www.wosol.net/tourism-transport",
+    "status": 200,
+    "final_url": "https://www.wosol.net/tourism-transport"
+  },
+  {
+    "url": "https://www.wosol.net/umrah-visitor-transport",
+    "status": 200,
+    "final_url": "https://www.wosol.net/umrah-visitor-transport"
+  },
+  {
+    "url": "https://www.wosol.net/vehicle-rental-without-driver",
+    "status": 200,
+    "final_url": "https://www.wosol.net/vehicle-rental-without-driver"
+  },
+  {
+    "url": "https://www.wosol.net/workforce-project-transport",
+    "status": 200,
+    "final_url": "https://www.wosol.net/workforce-project-transport"
+  },
+  {
+    "url": "https://www.wosol.net/en/",
+    "status": 200,
+    "final_url": "https://www.wosol.net/en/"
+  },
+  {
+    "url": "https://www.wosol.net/en/airport-hotel-transfers/",
+    "status": 200,
+    "final_url": "https://www.wosol.net/en/airport-hotel-transfers/"
+  },
+  {
+    "url": "https://www.wosol.net/en/corporate-transport-saudi-arabia/",
+    "status": 200,
+    "final_url": "https://www.wosol.net/en/corporate-transport-saudi-arabia/"
+  },
+  {
+    "url": "https://www.wosol.net/en/driver-only-services/",
+    "status": 200,
+    "final_url": "https://www.wosol.net/en/driver-only-services/"
+  },
+  {
+    "url": "https://www.wosol.net/en/employee-transport-dammam/",
+    "status": 200,
+    "final_url": "https://www.wosol.net/en/employee-transport-dammam/"
+  },
+  {
+    "url": "https://www.wosol.net/en/employee-transport-jeddah/",
+    "status": 200,
+    "final_url": "https://www.wosol.net/en/employee-transport-jeddah/"
+  },
+  {
+    "url": "https://www.wosol.net/en/employee-transport-madinah/",
+    "status": 200,
+    "final_url": "https://www.wosol.net/en/employee-transport-madinah/"
+  },
+  {
+    "url": "https://www.wosol.net/en/employee-transport-makkah/",
+    "status": 200,
+    "final_url": "https://www.wosol.net/en/employee-transport-makkah/"
+  },
+  {
+    "url": "https://www.wosol.net/en/employee-transport-riyadh/",
+    "status": 200,
+    "final_url": "https://www.wosol.net/en/employee-transport-riyadh/"
+  },
+  {
+    "url": "https://www.wosol.net/en/event-conference-transport/",
+    "status": 200,
+    "final_url": "https://www.wosol.net/en/event-conference-transport/"
+  },
+  {
+    "url": "https://www.wosol.net/en/executive-vip-transport/",
+    "status": 200,
+    "final_url": "https://www.wosol.net/en/executive-vip-transport/"
+  },
+  {
+    "url": "https://www.wosol.net/en/intercity-group-transport/",
+    "status": 200,
+    "final_url": "https://www.wosol.net/en/intercity-group-transport/"
+  },
+  {
+    "url": "https://www.wosol.net/en/king-abdulaziz-university-transport/",
+    "status": 200,
+    "final_url": "https://www.wosol.net/en/king-abdulaziz-university-transport/"
+  },
+  {
+    "url": "https://www.wosol.net/en/private-day-trips/",
+    "status": 200,
+    "final_url": "https://www.wosol.net/en/private-day-trips/"
+  },
+  {
+    "url": "https://www.wosol.net/en/tourism-transport/",
+    "status": 200,
+    "final_url": "https://www.wosol.net/en/tourism-transport/"
+  },
+  {
+    "url": "https://www.wosol.net/en/umrah-visitor-transport/",
+    "status": 200,
+    "final_url": "https://www.wosol.net/en/umrah-visitor-transport/"
+  },
+  {
+    "url": "https://www.wosol.net/en/vehicle-rental-without-driver/",
+    "status": 200,
+    "final_url": "https://www.wosol.net/en/vehicle-rental-without-driver/"
+  },
+  {
+    "url": "https://www.wosol.net/en/workforce-project-transport/",
+    "status": 200,
+    "final_url": "https://www.wosol.net/en/workforce-project-transport/"
+  },
+  {
+    "url": "https://www.wosol.net/?p=1149",
+    "status": 410
+  },
+  {
+    "url": "https://www.wosol.net/?p=1170",
+    "status": 410
+  },
+  {
+    "url": "https://www.wosol.net/?p=11490",
+    "status": 200,
+    "final_url": "https://www.wosol.net/?p=11490"
+  },
+  {
+    "url": "https://www.wosol.net/?p=1170&extra=1",
+    "status": 200,
+    "final_url": "https://www.wosol.net/?p=1170&extra=1"
+  },
+  {
+    "url": "https://www.wosol.net/en/?p=1149",
+    "status": 200,
+    "final_url": "https://www.wosol.net/en/?p=1149"
+  },
+  {
+    "url": "https://www.wosol.net/?contactTab=quote",
+    "status": 200,
+    "final_url": "https://www.wosol.net/?contactTab=quote"
+  },
+  {
+    "url": "https://www.wosol.net/?contactTab=inquiry",
+    "status": 200,
+    "final_url": "https://www.wosol.net/?contactTab=inquiry"
+  },
+  {
+    "url": "https://www.wosol.net/?page_id=7",
+    "status": 200,
+    "final_url": "https://www.wosol.net/subscriber-support.html"
+  },
+  {
+    "url": "https://www.wosol.net/?page_id=754",
+    "status": 200,
+    "final_url": "https://www.wosol.net/renewal.html"
+  },
+  {
+    "url": "https://www.wosol.net/?page_id=1030",
+    "status": 410
+  },
+  {
+    "url": "https://www.wosol.net/?page_id=154",
+    "status": 410
+  },
+  {
+    "url": "https://www.wosol.net/?page_id=58",
+    "status": 410
+  },
+  {
+    "url": "https://www.wosol.net/?author=1",
+    "status": 410
+  }
+]

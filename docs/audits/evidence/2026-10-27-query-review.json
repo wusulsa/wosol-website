@@ -1,0 +1,218 @@
+{
+  "checked_at": "2026-10-27T15:42:22.552572+00:00",
+  "items": [
+    {
+      "url": "https://www.wosol.net/?author=1",
+      "status": 200,
+      "final_url": "https://www.wosol.net/?author=1",
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.wosol.net/\">"
+      ],
+      "decision": "pending-historical-content-evidence",
+      "target": null
+    },
+    {
+      "url": "https://www.wosol.net/?feed=comments-rss2",
+      "status": 200,
+      "final_url": "https://www.wosol.net/?feed=comments-rss2",
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.wosol.net/\">"
+      ],
+      "decision": "pending-historical-content-evidence",
+      "target": null
+    },
+    {
+      "url": "https://www.wosol.net/?page_id=7",
+      "status": 200,
+      "final_url": "https://www.wosol.net/?page_id=7",
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.wosol.net/\">"
+      ],
+      "decision": "pending-historical-content-evidence",
+      "target": null
+    },
+    {
+      "url": "https://www.wosol.net/?page_id=754",
+      "status": 200,
+      "final_url": "https://www.wosol.net/?page_id=754",
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.wosol.net/\">"
+      ],
+      "decision": "pending-historical-content-evidence",
+      "target": null
+    },
+    {
+      "url": "https://www.wosol.net/?post_type=product",
+      "status": 200,
+      "final_url": "https://www.wosol.net/?post_type=product",
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.wosol.net/\">"
+      ],
+      "decision": "pending-historical-content-evidence",
+      "target": null
+    },
+    {
+      "url": "https://www.wosol.net/?page_id=17",
+      "status": 200,
+      "final_url": "https://www.wosol.net/?page_id=17",
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.wosol.net/\">"
+      ],
+      "decision": "pending-historical-content-evidence",
+      "target": null
+    },
+    {
+      "url": "https://www.wosol.net/?page_id=18",
+      "status": 200,
+      "final_url": "https://www.wosol.net/?page_id=18",
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.wosol.net/\">"
+      ],
+      "decision": "pending-historical-content-evidence",
+      "target": null
+    },
+    {
+      "url": "https://www.wosol.net/?product=edu3",
+      "status": 200,
+      "final_url": "https://www.wosol.net/?product=edu3",
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.wosol.net/\">"
+      ],
+      "decision": "ready-not-deployed",
+      "target": "https://www.wosol.net/king-abdulaziz-university-transport",
+      "basis": "owner-confirmed product identity on 2026-10-26"
+    },
+    {
+      "url": "https://www.wosol.net/?page_id=1050",
+      "status": 200,
+      "final_url": "https://www.wosol.net/?page_id=1050",
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.wosol.net/\">"
+      ],
+      "decision": "pending-historical-content-evidence",
+      "target": null
+    },
+    {
+      "url": "https://www.wosol.net/?product=edu11",
+      "status": 200,
+      "final_url": "https://www.wosol.net/?product=edu11",
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.wosol.net/\">"
+      ],
+      "decision": "ready-not-deployed",
+      "target": "https://www.wosol.net/king-abdulaziz-university-transport",
+      "basis": "owner-confirmed product identity on 2026-10-26"
+    },
+    {
+      "url": "https://www.wosol.net/?page_id=9",
+      "status": 200,
+      "final_url": "https://www.wosol.net/?page_id=9",
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.wosol.net/\">"
+      ],
+      "decision": "pending-historical-content-evidence",
+      "target": null
+    },
+    {
+      "url": "https://www.wosol.net/?wp_lang=ar",
+      "status": 200,
+      "final_url": "https://www.wosol.net/?wp_lang=ar",
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.wosol.net/\">"
+      ],
+      "decision": "pending-historical-content-evidence",
+      "target": null
+    },
+    {
+      "url": "https://www.wosol.net/?page_id=58",
+      "status": 200,
+      "final_url": "https://www.wosol.net/?page_id=58",
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.wosol.net/\">"
+      ],
+      "decision": "pending-historical-content-evidence",
+      "target": null
+    },
+    {
+      "url": "https://www.wosol.net/?page_id=1203",
+      "status": 200,
+      "final_url": "https://www.wosol.net/?page_id=1203",
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.wosol.net/\">"
+      ],
+      "decision": "pending-historical-content-evidence",
+      "target": null
+    },
+    {
+      "url": "https://www.wosol.net/?page_id=154",
+      "status": 200,
+      "final_url": "https://www.wosol.net/?page_id=154",
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.wosol.net/\">"
+      ],
+      "decision": "pending-historical-content-evidence",
+      "target": null
+    },
+    {
+      "url": "https://www.wosol.net/?product=edu33",
+      "status": 200,
+      "final_url": "https://www.wosol.net/?product=edu33",
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.wosol.net/\">"
+      ],
+      "decision": "ready-not-deployed",
+      "target": "https://www.wosol.net/king-abdulaziz-university-transport",
+      "basis": "owner-confirmed product identity on 2026-10-26"
+    },
+    {
+      "url": "https://www.wosol.net/?page_id=1030",
+      "status": 200,
+      "final_url": "https://www.wosol.net/?page_id=1030",
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.wosol.net/\">"
+      ],
+      "decision": "pending-historical-content-evidence",
+      "target": null
+    },
+    {
+      "url": "https://www.wosol.net/?page_id=1455",
+      "status": 200,
+      "final_url": "https://www.wosol.net/?page_id=1455",
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.wosol.net/\">"
+      ],
+      "decision": "pending-historical-content-evidence",
+      "target": null
+    },
+    {
+      "url": "https://www.wosol.net/?page_id=1131",
+      "status": 200,
+      "final_url": "https://www.wosol.net/?page_id=1131",
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.wosol.net/\">"
+      ],
+      "decision": "pending-historical-content-evidence",
+      "target": null
+    },
+    {
+      "url": "https://www.wosol.net/?product=اشتراك-أبحر-وما-جاورها-إلى-جامعة-الملك",
+      "status": 200,
+      "final_url": "https://www.wosol.net/?product=%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83-%D8%A3%D8%A8%D8%AD%D8%B1-%D9%88%D9%85%D8%A7-%D8%AC%D8%A7%D9%88%D8%B1%D9%87%D8%A7-%D8%A5%D9%84%D9%89-%D8%AC%D8%A7%D9%85%D8%B9%D8%A9-%D8%A7%D9%84%D9%85%D9%84%D9%83",
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.wosol.net/\">"
+      ],
+      "decision": "pending-historical-content-evidence",
+      "target": null
+    },
+    {
+      "url": "https://www.wosol.net/?cf7_style=christmas-simple",
+      "status": 200,
+      "final_url": "https://www.wosol.net/?cf7_style=christmas-simple",
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.wosol.net/\">"
+      ],
+      "decision": "pending-historical-content-evidence",
+      "target": null
+    }
+  ]
+}

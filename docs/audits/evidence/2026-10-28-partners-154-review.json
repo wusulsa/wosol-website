@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-28",
+  "production_changed": false,
+  "articles_unchanged": [
+    1149,
+    1170
+  ],
+  "database": {
+    "mode": "SELECT only",
+    "table": "wsl_posts",
+    "partner_attachment_count": 29,
+    "ranges": [
+      [
+        981,
+        1003
+      ],
+      [
+        1162,
+        1167
+      ]
+    ],
+    "generic_labels": true,
+    "partner_names_or_permissions_verified": false,
+    "page154_or_children_count": 0,
+    "page154_content_or_guid_reference_count": 0,
+    "scope_limit": "Does not cover all metadata/options or backups"
+  },
+  "search_evidence_reused": "2026-10-28-news-author-search-value.json",
+  "search_limit": "51 page rows; actual available period 2026-10-17 to 2026-10-25; absence is not proof of zero historical value",
+  "pending_owner_decisions": [
+    "Approve entities/relationships/logo permissions or retire partners",
+    "Provide page154 identity or approve intentional retirement"
+  ],
+  "index_requests": 0,
+  "form_submissions": 0,
+  "ads": false
+}

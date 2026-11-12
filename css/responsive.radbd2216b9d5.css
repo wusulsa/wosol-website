@@ -1,0 +1,358 @@
+/* ── Tablet: ≤ 1024px ────────────────────────────────────────── */
+@media (max-width: 1024px) {
+
+  /* Hero */
+  .hero__inner {
+    grid-template-columns: 1fr;
+    gap: 48px;
+    padding-block: 80px 60px;
+  }
+
+  .hero__content {
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero__subtitle { margin-inline: auto; }
+  .hero__cta { justify-content: center; }
+
+.hero__visual-side { max-width: 440px; margin-inline: auto; }
+  .hero__float-badge { inset-inline-start: 0; }
+
+  /* About */
+  .about__inner {
+    grid-template-columns: 1fr;
+    gap: 48px;
+    text-align: center;
+  }
+
+.about__features {
+    text-align: start;
+  }
+
+  /* Services */
+  .services__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+/* Contact */
+  .contact__inner {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  /* Footer */
+  .footer__inner {
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+
+  .footer__brand {
+    grid-column: 1 / -1;
+  }
+
+  .footer__trusted-logos {
+    flex-wrap: wrap;
+  }
+
+  .footer__trusted-row {
+    flex-wrap: wrap;
+  }}
+
+/* ── Mobile: ≤ 768px ─────────────────────────────────────────── */
+@media (max-width: 768px) {
+
+  /* Navbar */
+  .hamburger {
+    display: flex;
+  }
+
+  .navbar__links {
+    position: fixed;
+    top: var(--navbar-h);
+    inset-inline: 0;
+    background: rgba(255,255,255,0.995);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid #E3D5BE;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 16px;
+    gap: 4px;
+    transform: translateY(-120%);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 14px 34px rgba(17,17,17,0.10);
+    z-index: 999;
+  }
+
+  .navbar__links.open {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  .nav-link {
+    color: var(--text-muted) !important;
+    padding: 14px 18px;
+    border-radius: var(--radius);
+    font-size: 1rem;
+    text-align: start;
+  }
+
+  .nav-link:focus-visible {
+    outline: 2px solid var(--primary);
+    outline-offset: -2px;
+  }
+
+  .nav-link:hover,
+.nav-link.active {
+    color: var(--primary) !important;
+    background: var(--primary-light) !important;
+  }
+
+  /* Hero */
+  .hero__inner {
+    padding-block: 60px 60px;
+  }
+
+/* Services */
+  .services__grid {
+    grid-template-columns: 1fr;
+  }
+
+/* Contact form */
+  .contact__form-wrap {
+    padding: 28px 20px;
+  }
+
+  /* About — stack steps vertically tighter */
+  .steps-visual__card {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 14px;
+  }
+
+.steps-visual__tag {
+    align-self: flex-start;
+  }
+
+.footer__trusted-logos img {
+    height: 70px;
+  }
+
+  .footer__trusted-row {
+    justify-content: center;
+  }
+
+  /* Footer */
+  .footer__inner {
+    grid-template-columns: 1fr;
+  }
+
+  .footer__brand {
+    grid-column: auto;
+  }
+
+  /* Section spacing */
+  .section {
+    padding-block: 64px;
+  }
+
+  .section-header {
+    margin-bottom: 40px;
+  }
+
+  /* About — steps card adjustments */
+  .steps-visual__card {
+    padding: 16px;
+    gap: 10px;
+  }
+
+  .steps-visual__tag {
+    font-size: 0.6rem;
+    padding: 3px 8px;
+  }
+
+  .steps-visual__num {
+    width: 32px;
+    height: 32px;
+    font-size: 0.85rem;
+    margin-top: 14px;
+  }
+
+  .steps-visual__connector {
+    inset-inline-start: 15px;
+    top: 48px;
+  }
+
+  .about__feature {
+    gap: 10px;
+  }
+
+  .about__feature-icon {
+    width: 36px;
+    height: 36px;
+    font-size: 0.9rem;
+  }
+
+  .about__download {
+    align-self: center;
+  }
+
+  .route__frame {
+    min-width: 720px;
+  }
+
+  .city {
+    padding: 6px 12px;
+  }
+
+  .city__name {
+    font-size: 0.82rem;
+  }
+
+  /* Clients — smaller pills */
+
+}
+
+/* ── Small Mobile: ≤ 480px ───────────────────────────────────── */
+@media (max-width: 480px) {
+
+  .container {
+    padding-inline: 1rem;
+  }
+
+  .hero__title {
+    font-size: 1.75rem;
+  }
+
+  .hero__cta {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero__cta .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+.service-card {
+    padding: 28px 20px;
+  }
+
+  /* Calculator */
+
+.contact__details li {
+    font-size: 0.88rem;
+  }
+
+  .section-title {
+    font-size: 1.6rem;
+  }
+
+/* Buttons — full touch targets */
+  .btn {
+    min-height: 44px;
+  }
+
+/* Hero trusted logos — smaller */
+  .hero__float-badge {
+    inset-inline-start: 0;
+    bottom: -12px;
+  }
+
+/* Section spacing — tighter */
+  .section {
+    padding-block: 48px;
+  }
+
+  .section-header {
+    margin-bottom: 32px;
+  }
+
+  /* About — tighter content */
+  .about__feature {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .steps-visual__card {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 12px;
+    gap: 8px;
+  }
+
+/* Footer — reduce logo height */
+  .footer__trusted-logos img {
+    height: 50px;
+  }}
+
+/* ── Mobile overflow prevention ─────────────────────────────── */
+@media (max-width: 768px) {
+  .hero__bg-shapes {
+    contain: paint;
+    overflow: hidden;
+  }}
+
+/* ── Very small mobile: ≤ 400px ──────────────────────────────── */
+@media (max-width: 400px) {
+
+  .container {
+    padding-inline: 0.75rem;
+  }
+
+  .hero__title {
+    font-size: 1.5rem;
+  }
+
+.reg-step {
+    min-width: 44px;
+  }
+
+  .reg-step__circle {
+    width: 30px;
+    height: 30px;
+  }
+
+  .reg-step__line {
+    min-width: 8px;
+  }
+
+/* Payment — collapse two-column row */
+  }
+
+/* ── Reduced Motion ──────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+*::before,
+*::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }}
+
+/* ── Contact Tabs ────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .contact-tabs {
+    gap: 6px;
+  }
+
+  .contact-tab {
+    font-size: 0.82rem;
+    padding: 8px 14px;
+  }}
+
+@media (max-width: 480px) {
+  .contact-tabs {
+    flex-direction: column;
+  }
+
+  .contact-tab {
+    width: 100%;
+    text-align: center;
+  }}

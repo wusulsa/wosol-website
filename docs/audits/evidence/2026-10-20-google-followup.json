@@ -1,0 +1,163 @@
+{
+  "date": "2026-10-20",
+  "account": "info@wosol.net",
+  "property": "https://www.wosol.net/",
+  "accepted_new_services": 10,
+  "pending_new_services": 10,
+  "accepted_total": 11,
+  "quota_message": "تم تجاوز الحصة: يرجى إعادة محاولة إرسال هذا الطلب غدًا",
+  "services": [
+    {
+      "url": "https://www.wosol.net/vehicle-rental-without-driver",
+      "language": "ar",
+      "request": "accepted",
+      "indexed_before_request": true
+    },
+    {
+      "url": "https://www.wosol.net/en/vehicle-rental-without-driver/",
+      "language": "en",
+      "request": "accepted",
+      "indexed_before_request": true
+    },
+    {
+      "url": "https://www.wosol.net/driver-only-services",
+      "language": "ar",
+      "request": "accepted",
+      "indexed_before_request": false
+    },
+    {
+      "url": "https://www.wosol.net/en/driver-only-services/",
+      "language": "en",
+      "request": "accepted",
+      "indexed_before_request": false
+    },
+    {
+      "url": "https://www.wosol.net/workforce-project-transport",
+      "language": "ar",
+      "request": "accepted",
+      "indexed_before_request": true
+    },
+    {
+      "url": "https://www.wosol.net/en/workforce-project-transport/",
+      "language": "en",
+      "request": "accepted",
+      "indexed_before_request": true
+    },
+    {
+      "url": "https://www.wosol.net/private-day-trips",
+      "language": "ar",
+      "request": "accepted",
+      "indexed_before_request": true
+    },
+    {
+      "url": "https://www.wosol.net/en/private-day-trips/",
+      "language": "en",
+      "request": "accepted",
+      "indexed_before_request": true
+    },
+    {
+      "url": "https://www.wosol.net/event-conference-transport",
+      "language": "ar",
+      "request": "accepted",
+      "indexed_before_request": true
+    },
+    {
+      "url": "https://www.wosol.net/en/event-conference-transport/",
+      "language": "en",
+      "request": "accepted",
+      "indexed_before_request": true
+    },
+    {
+      "url": "https://www.wosol.net/airport-hotel-transfers",
+      "language": "ar",
+      "request": "quota_rejected",
+      "indexed_before_request": true
+    },
+    {
+      "url": "https://www.wosol.net/en/airport-hotel-transfers/",
+      "language": "en",
+      "request": "not_requested_after_quota",
+      "indexed_before_request": null
+    },
+    {
+      "url": "https://www.wosol.net/intercity-group-transport",
+      "language": "ar",
+      "request": "not_requested_after_quota",
+      "indexed_before_request": null
+    },
+    {
+      "url": "https://www.wosol.net/en/intercity-group-transport/",
+      "language": "en",
+      "request": "not_requested_after_quota",
+      "indexed_before_request": null
+    },
+    {
+      "url": "https://www.wosol.net/tourism-transport",
+      "language": "ar",
+      "request": "not_requested_after_quota",
+      "indexed_before_request": null
+    },
+    {
+      "url": "https://www.wosol.net/en/tourism-transport/",
+      "language": "en",
+      "request": "not_requested_after_quota",
+      "indexed_before_request": null
+    },
+    {
+      "url": "https://www.wosol.net/umrah-visitor-transport",
+      "language": "ar",
+      "request": "not_requested_after_quota",
+      "indexed_before_request": null
+    },
+    {
+      "url": "https://www.wosol.net/en/umrah-visitor-transport/",
+      "language": "en",
+      "request": "not_requested_after_quota",
+      "indexed_before_request": null
+    },
+    {
+      "url": "https://www.wosol.net/executive-vip-transport",
+      "language": "ar",
+      "request": "not_requested_after_quota",
+      "indexed_before_request": null
+    },
+    {
+      "url": "https://www.wosol.net/en/executive-vip-transport/",
+      "language": "en",
+      "request": "not_requested_after_quota",
+      "indexed_before_request": null
+    }
+  ],
+  "older_university_en": {
+    "indexed": true,
+    "url": "https://www.wosol.net/en/king-abdulaziz-university-transport/",
+    "request": "accepted"
+  },
+  "register_ar": {
+    "indexed": true,
+    "url": "https://www.wosol.net/register",
+    "request": "not_repeated"
+  },
+  "sitemap": {
+    "last_read": "2026-10-19",
+    "discovered": 32,
+    "status": "success",
+    "public_urls": 32
+  },
+  "index_report": "processing",
+  "manual_actions": "no_issues_detected",
+  "security_issues": "no_issues_detected",
+  "business_profile": {
+    "descriptions_rechecked": 10,
+    "saved_services_visible": 12,
+    "name": "باصات وسل النقل",
+    "pending_banner_present": false,
+    "matches_previous_approved_descriptions": true,
+    "explicit_approval_confirmed": false,
+    "public_service_publication_verified": false
+  },
+  "form_submissions": 0,
+  "advertising_changes": 0,
+  "automation": "deleted after one-time follow-up"
+}
+

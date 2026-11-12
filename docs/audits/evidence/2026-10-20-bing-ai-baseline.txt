@@ -1,0 +1,695 @@
+Browser tab: 60, Title: "AI Performance - Bing Webmaster Tools", URL: "https://www.bing.com/webmasters/aiperformance?siteUrl=https://www.wosol.net/".
+1 AXWebArea AI Performance - Bing Webmaster Tools, URL: bing.com/webmasters/aiperformance?siteUrl=https://www.wosol.net/
+	2 container
+		3 container root
+			4 container
+				5 link Description: Skip to main content, Value: bing.com/webmasters/aiperformance?siteUrl=https://www.wosol.net/#content
+				6 pop up button (collapsed) Description: Show Bing tools, Help: Bing Tools, Secondary Actions: Expand
+				7 image white bwt logo microsoft bing webmaster
+				8 pop up button (collapsed) Description: Copilot, Help: Copilot in Bing Webmaster Tools, Secondary Actions: Expand
+				9 pop up button (collapsed) Description: Notifications, Secondary Actions: Expand
+				10 pop up button (collapsed) Description: Help, Secondary Actions: Expand
+				11 pop up button (collapsed) Description: Feedback, Secondary Actions: Expand
+				12 pop up button (collapsed) Description: Settings, Secondary Actions: Expand
+				13 pop up button (collapsed) Description: Profile, ID: targetButton, Secondary Actions: Expand
+					14 image
+			15 container
+				16 pop up button (collapsed) Description: Select website, Secondary Actions: Expand
+					17 text www.wosol.net/
+				18 container Main menu
+					19 outline
+						20 row (selectable) Home
+							21 text Home
+						22 row (selectable) Search Performance
+							23 text Search Performance
+						24 row (selected) AI Performance BETA
+							25 text AI Performance
+							26 text BETA
+						27 row (selectable) URL Inspection
+							28 text URL Inspection
+						29 row (selectable) Site Explorer
+							30 text Site Explorer
+						31 row (selectable) Sitemaps
+							32 text Sitemaps
+						33 row (selectable) IndexNow
+							34 text IndexNow
+						35 row (selectable) Backlinks
+							36 text Backlinks
+						37 row (selectable) Keyword Research
+							38 text Keyword Research
+						39 row (selectable) Recommendations
+							40 text Recommendations
+						41 row (selectable) Site Scan
+							42 text Site Scan
+						43 row (selectable, collapsed) Description: Configuration, ID: accordionItem46, Secondary Actions: Expand
+							44 text CONFIGURATION
+						45 row (selectable, collapsed) Description: Tools & Enhancements, ID: accordionItem50, Secondary Actions: Expand
+							46 text TOOLS & ENHANCEMENTS
+						47 row (selectable, collapsed) Description: Security & Privacy, ID: accordionItem54, Secondary Actions: Expand
+							48 text SECURITY & PRIVACY
+						49 row (selectable) User management
+							50 text User management
+						51 row (selectable) Microsoft Clarity
+							52 text Microsoft Clarity
+			53 container content
+				54 heading AI Performance, Value: 2
+					55 text AI Performance
+				56 container
+					57 text Citation sources:  Microsoft Copilots and Partners
+				58 container
+					59 tab group
+						60 tab (selectable, settable, boolean) 7 D, ID: Pivot164-Tab0, Value: 0
+7 D
+						61 tab (selectable, settable, boolean) 30 D, ID: Pivot164-Tab1, Value: 0
+30 D
+						62 tab (selected, settable, boolean) 3 M, ID: Pivot164-Tab2, Value: 1
+3 M
+						63 tab (selectable, settable, boolean) 6 M, ID: Pivot164-Tab3, Value: 0
+6 M
+						64 tab (selectable, settable, boolean) Custom, ID: Pivot164-Tab4, Value: 0
+Custom
+						65 tab (selectable, settable, boolean) Compare, ID: Pivot164-Tab5, Value: 0
+Compare
+					66 container 3 M
+				67 button Download
+					68 text Download
+				69 container
+					70 checkbox Description: Total Citations, Value: 1
+						71 image
+						72 text Total Citations
+						73 button Total Citations info
+						74 text 0
+					75 checkbox Description: Avg. Cited Pages, Value: 1
+						76 image
+						77 text Avg. Cited Pages
+						78 button Avg. Cited Pages info
+						79 text 0
+					117 text Citations
+					118 text Cited Pages
+					80 container Line chart showing Citations,Cited Pages from July 20, 2026 to October 19, 2026. Citations:0,Cited Pages:0. Toggle checkboxes to show the selected options in chart
+						119 container Line chart showing Citations,Cited Pages from July 20, 2026 to October 19, 2026. Citations:0,Cited Pages:0. Toggle checkboxes to show the selected options in chart
+						120 table
+							121 row
+								122 cell
+									123 text Date
+								124 cell
+									125 text July 20, 2026
+								126 cell
+									127 text July 21, 2026
+								128 cell
+									129 text July 22, 2026
+								130 cell
+									131 text July 23, 2026
+								132 cell
+									133 text July 24, 2026
+								134 cell
+									135 text July 25, 2026
+								136 cell
+									137 text July 26, 2026
+								138 cell
+									139 text July 27, 2026
+								140 cell
+									141 text July 28, 2026
+								142 cell
+									143 text July 29, 2026
+								144 cell
+									145 text July 30, 2026
+								146 cell
+									147 text July 31, 2026
+								148 cell
+									149 text August 01, 2026
+								150 cell
+									151 text August 02, 2026
+								152 cell
+									153 text August 03, 2026
+								154 cell
+									155 text August 04, 2026
+								156 cell
+									157 text August 05, 2026
+								158 cell
+									159 text August 06, 2026
+								160 cell
+									161 text August 07, 2026
+								162 cell
+									163 text August 08, 2026
+								164 cell
+									165 text August 09, 2026
+								166 cell
+									167 text August 10, 2026
+								168 cell
+									169 text August 11, 2026
+								170 cell
+									171 text August 12, 2026
+								172 cell
+									173 text August 13, 2026
+								174 cell
+									175 text August 14, 2026
+								176 cell
+									177 text August 15, 2026
+								178 cell
+									179 text August 16, 2026
+								180 cell
+									181 text August 17, 2026
+								182 cell
+									183 text August 18, 2026
+								184 cell
+									185 text August 19, 2026
+								186 cell
+									187 text August 20, 2026
+								188 cell
+									189 text August 21, 2026
+								190 cell
+									191 text August 22, 2026
+								192 cell
+									193 text August 23, 2026
+								194 cell
+									195 text August 24, 2026
+								196 cell
+									197 text August 25, 2026
+								198 cell
+									199 text August 26, 2026
+								200 cell
+									201 text August 27, 2026
+								202 cell
+									203 text August 28, 2026
+								204 cell
+									205 text August 29, 2026
+								206 cell
+									207 text August 30, 2026
+								208 cell
+									209 text August 31, 2026
+								210 cell
+									211 text September 01, 2026
+								212 cell
+									213 text September 02, 2026
+								214 cell
+									215 text September 03, 2026
+								216 cell
+									217 text September 04, 2026
+								218 cell
+									219 text September 05, 2026
+								220 cell
+									221 text September 06, 2026
+								222 cell
+									223 text September 07, 2026
+								224 cell
+									225 text September 08, 2026
+								226 cell
+									227 text September 09, 2026
+								228 cell
+									229 text September 10, 2026
+								230 cell
+									231 text September 11, 2026
+								232 cell
+									233 text September 12, 2026
+								234 cell
+									235 text September 13, 2026
+								236 cell
+									237 text September 14, 2026
+								238 cell
+									239 text September 15, 2026
+								240 cell
+									241 text September 16, 2026
+								242 cell
+									243 text September 17, 2026
+								244 cell
+									245 text September 18, 2026
+								246 cell
+									247 text September 19, 2026
+								248 cell
+									249 text September 20, 2026
+								250 cell
+									251 text September 21, 2026
+								252 cell
+									253 text September 22, 2026
+								254 cell
+									255 text September 23, 2026
+								256 cell
+									257 text September 24, 2026
+								258 cell
+									259 text September 25, 2026
+								260 cell
+									261 text September 26, 2026
+								262 cell
+									263 text September 27, 2026
+								264 cell
+									265 text September 28, 2026
+								266 cell
+									267 text September 29, 2026
+								268 cell
+									269 text September 30, 2026
+								270 cell
+									271 text October 01, 2026
+								272 cell
+									273 text October 02, 2026
+								274 cell
+									275 text October 03, 2026
+								276 cell
+									277 text October 04, 2026
+								278 cell
+									279 text October 05, 2026
+								280 cell
+									281 text October 06, 2026
+								282 cell
+									283 text October 07, 2026
+								284 cell
+									285 text October 08, 2026
+								286 cell
+									287 text October 09, 2026
+								288 cell
+									289 text October 10, 2026
+								290 cell
+									291 text October 11, 2026
+								292 cell
+									293 text October 12, 2026
+								294 cell
+									295 text October 13, 2026
+								296 cell
+									297 text October 14, 2026
+								298 cell
+									299 text October 15, 2026
+								300 cell
+									301 text October 16, 2026
+								302 cell
+									303 text October 17, 2026
+								304 cell
+									305 text October 18, 2026
+								306 cell
+									307 text October 19, 2026
+							308 row
+								309 cell
+									310 text Total Citations
+								311 cell
+									312 text 0
+								313 cell
+									314 text 0
+								315 cell
+									316 text 0
+								317 cell
+									318 text 0
+								319 cell
+									320 text 0
+								321 cell
+									322 text 0
+								323 cell
+									324 text 0
+								325 cell
+									326 text 0
+								327 cell
+									328 text 0
+								329 cell
+									330 text 0
+								331 cell
+									332 text 0
+								333 cell
+									334 text 0
+								335 cell
+									336 text 0
+								337 cell
+									338 text 0
+								339 cell
+									340 text 0
+								341 cell
+									342 text 0
+								343 cell
+									344 text 0
+								345 cell
+									346 text 0
+								347 cell
+									348 text 0
+								349 cell
+									350 text 0
+								351 cell
+									352 text 0
+								353 cell
+									354 text 0
+								355 cell
+									356 text 0
+								357 cell
+									358 text 0
+								359 cell
+									360 text 0
+								361 cell
+									362 text 0
+								363 cell
+									364 text 0
+								365 cell
+									366 text 0
+								367 cell
+									368 text 0
+								369 cell
+									370 text 0
+								371 cell
+									372 text 0
+								373 cell
+									374 text 0
+								375 cell
+									376 text 0
+								377 cell
+									378 text 0
+								379 cell
+									380 text 0
+								381 cell
+									382 text 0
+								383 cell
+									384 text 0
+								385 cell
+									386 text 0
+								387 cell
+									388 text 0
+								389 cell
+									390 text 0
+								391 cell
+									392 text 0
+								393 cell
+									394 text 0
+								395 cell
+									396 text 0
+								397 cell
+									398 text 0
+								399 cell
+									400 text 0
+								401 cell
+									402 text 0
+								403 cell
+									404 text 0
+								405 cell
+									406 text 0
+								407 cell
+									408 text 0
+								409 cell
+									410 text 0
+								411 cell
+									412 text 0
+								413 cell
+									414 text 0
+								415 cell
+									416 text 0
+								417 cell
+									418 text 0
+								419 cell
+									420 text 0
+								421 cell
+									422 text 0
+								423 cell
+									424 text 0
+								425 cell
+									426 text 0
+								427 cell
+									428 text 0
+								429 cell
+									430 text 0
+								431 cell
+									432 text 0
+								433 cell
+									434 text 0
+								435 cell
+									436 text 0
+								437 cell
+									438 text 0
+								439 cell
+									440 text 0
+								441 cell
+									442 text 0
+								443 cell
+									444 text 0
+								445 cell
+									446 text 0
+								447 cell
+									448 text 0
+								449 cell
+									450 text 0
+								451 cell
+									452 text 0
+								453 cell
+									454 text 0
+								455 cell
+									456 text 0
+								457 cell
+									458 text 0
+								459 cell
+									460 text 0
+								461 cell
+									462 text 0
+								463 cell
+									464 text 0
+								465 cell
+									466 text 0
+								467 cell
+									468 text 0
+								469 cell
+									470 text 0
+								471 cell
+									472 text 0
+								473 cell
+									474 text 0
+								475 cell
+									476 text 0
+								477 cell
+									478 text 0
+								479 cell
+									480 text 0
+								481 cell
+									482 text 0
+								483 cell
+									484 text 0
+								485 cell
+									486 text 0
+								487 cell
+									488 text 0
+								489 cell
+									490 text 0
+								491 cell
+									492 text 0
+								493 cell
+									494 text 0
+							495 row
+								496 cell
+									497 text Avg. Cited Pages
+								498 cell
+									499 text 0
+								500 cell
+									501 text 0
+								502 cell
+									503 text 0
+								504 cell
+									505 text 0
+								506 cell
+									507 text 0
+								508 cell
+									509 text 0
+								510 cell
+									511 text 0
+								512 cell
+									513 text 0
+								514 cell
+									515 text 0
+								516 cell
+									517 text 0
+								518 cell
+									519 text 0
+								520 cell
+									521 text 0
+								522 cell
+									523 text 0
+								524 cell
+									525 text 0
+								526 cell
+									527 text 0
+								528 cell
+									529 text 0
+								530 cell
+									531 text 0
+								532 cell
+									533 text 0
+								534 cell
+									535 text 0
+								536 cell
+									537 text 0
+								538 cell
+									539 text 0
+								540 cell
+									541 text 0
+								542 cell
+									543 text 0
+								544 cell
+									545 text 0
+								546 cell
+									547 text 0
+								548 cell
+									549 text 0
+								550 cell
+									551 text 0
+								552 cell
+									553 text 0
+								554 cell
+									555 text 0
+								556 cell
+									557 text 0
+								558 cell
+									559 text 0
+								560 cell
+									561 text 0
+								562 cell
+									563 text 0
+								564 cell
+									565 text 0
+								566 cell
+									567 text 0
+								568 cell
+									569 text 0
+								570 cell
+									571 text 0
+								572 cell
+									573 text 0
+								574 cell
+									575 text 0
+								576 cell
+									577 text 0
+								578 cell
+									579 text 0
+								580 cell
+									581 text 0
+								582 cell
+									583 text 0
+								584 cell
+									585 text 0
+								586 cell
+									587 text 0
+								588 cell
+									589 text 0
+								590 cell
+									591 text 0
+								592 cell
+									593 text 0
+								594 cell
+									595 text 0
+								596 cell
+									597 text 0
+								598 cell
+									599 text 0
+								600 cell
+									601 text 0
+								602 cell
+									603 text 0
+								604 cell
+									605 text 0
+								606 cell
+									607 text 0
+								608 cell
+									609 text 0
+								610 cell
+									611 text 0
+								612 cell
+									613 text 0
+								614 cell
+									615 text 0
+								616 cell
+									617 text 0
+								618 cell
+									619 text 0
+								620 cell
+									621 text 0
+								622 cell
+									623 text 0
+								624 cell
+									625 text 0
+								626 cell
+									627 text 0
+								628 cell
+									629 text 0
+								630 cell
+									631 text 0
+								632 cell
+									633 text 0
+								634 cell
+									635 text 0
+								636 cell
+									637 text 0
+								638 cell
+									639 text 0
+								640 cell
+									641 text 0
+								642 cell
+									643 text 0
+								644 cell
+									645 text 0
+								646 cell
+									647 text 0
+								648 cell
+									649 text 0
+								650 cell
+									651 text 0
+								652 cell
+									653 text 0
+								654 cell
+									655 text 0
+								656 cell
+									657 text 0
+								658 cell
+									659 text 0
+								660 cell
+									661 text 0
+								662 cell
+									663 text 0
+								664 cell
+									665 text 0
+								666 cell
+									667 text 0
+								668 cell
+									669 text 0
+								670 cell
+									671 text 0
+								672 cell
+									673 text 0
+								674 cell
+									675 text 0
+								676 cell
+									677 text 0
+								678 cell
+									679 text 0
+								680 cell
+									681 text 0
+					82 text Citations Cited Pages
+				83 heading List By, Value: 3
+					84 text List By
+				85 container
+					86 tab group List By
+						87 tab (selected, settable, boolean) Grounding Queries, ID: Pivot190-Tab0, Value: 1
+Grounding Queries
+						88 tab (selectable, settable, boolean) Pages, ID: Pivot190-Tab1, Value: 0
+Pages
+					89 container Grounding Queries
+				90 button (disabled) Download all
+					91 text Download all
+				92 container
+					93 text field (settable) Search your query, ID: TextField201
+				94 button Search
+					95 text Search
+				682 text No data available
+				96 table AI Search Queries Report
+					97 row Grounding Query, sortable Intent, sortable Topic, sortable Citations, sortable, sorted descending order Citation Share, sortable
+						98 cell
+							99 button Description: Grounding Query, sortable, ID: header210-Query
+								100 text Grounding Query
+						101 cell
+							102 button Description: Intent, sortable, ID: header210-Intent
+								103 text Intent
+						104 cell
+							105 button Description: Topic, sortable, ID: header210-Topic
+								106 text Topic
+						107 cell
+							108 button Description: Citations, sortable, sorted descending order, ID: header210-Citations
+								109 text Citations
+						110 cell
+							111 button Description: Citation Share, sortable, ID: header210-CitationRate
+								112 text Citation Share
+					683 text No data available
+				684 container
+					685 text 0 rows
+				113 text The data shown below represents a sample of overall activity. Results may be refined as additional data is processed
+				114 link Description: learnmore, Value: bing.com/webmasters/help/9f8e7d6c
+				115 text Intent and topic labels are AI generated and can filter potentially unsafe queries.
+				116 link Description: learnmore, Value: bing.com/webmasters/help/9f8e7d6c
+
+The focused UI element is 24 row (selected) AI Performance BETA

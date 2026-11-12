@@ -1,0 +1,1848 @@
+{
+  "checked_at_utc": "2026-10-18T21:34:07.125565+00:00",
+  "scope": "Public GET requests only; timings are not Lighthouse/Core Web Vitals; JSON parsing is not Google eligibility validation",
+  "pages": [
+    {
+      "url": "https://www.wosol.net/",
+      "status": 200,
+      "final_url": "https://www.wosol.net/",
+      "seconds": 1.11,
+      "bytes_utf8": 56424,
+      "lang": "ar",
+      "h1_count": 1,
+      "canonical": [
+        "https://www.wosol.net/"
+      ],
+      "hreflang": {
+        "ar": "https://www.wosol.net/",
+        "en": "https://www.wosol.net/en/",
+        "x-default": "https://www.wosol.net/"
+      },
+      "meta_robots": [
+        "index,follow"
+      ],
+      "x_robots_tag": null,
+      "mixed_content_refs": [],
+      "schema_types": [
+        "ContactPoint",
+        "LocalBusiness",
+        "OpeningHoursSpecification",
+        "PostalAddress",
+        "WebPage",
+        "WebSite"
+      ],
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "LocalBusiness",
+              "@id": "https://www.wosol.net/#organization",
+              "name": "WOSOL Transportation",
+              "alternateName": "وُسُل للنقل",
+              "url": "https://www.wosol.net/",
+              "logo": "https://www.wosol.net/assets/profile-2026/logo-brand.svg",
+              "image": "https://www.wosol.net/assets/profile-2026/hero-native.webp",
+              "telephone": "+966536060003",
+              "email": "info@wosol.net",
+              "foundingDate": "2013",
+              "openingHoursSpecification": [
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
+                    "Sunday",
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "09:00",
+                  "closes": "17:00"
+                }
+              ],
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Al Madinah Road, Al Ruwais, Al Muhammadiyah Plaza",
+                "addressLocality": "Jeddah",
+                "addressCountry": "SA"
+              },
+              "contactPoint": [
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "+966536060003",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                },
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "+966566070705",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                },
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "+966501844991",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                },
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "920003790",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                }
+              ],
+              "sameAs": [
+                "https://www.instagram.com/wosoltransportations",
+                "https://x.com/wosol_net"
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://www.wosol.net/#website",
+              "url": "https://www.wosol.net/",
+              "name": "WOSOL",
+              "publisher": {
+                "@id": "https://www.wosol.net/#organization"
+              },
+              "inLanguage": [
+                "ar",
+                "en"
+              ]
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://www.wosol.net/#webpage",
+              "url": "https://www.wosol.net/",
+              "name": "وُسُل | نقل طالبات جامعة الملك عبدالعزيز ونقل موظفين في جدة والرياض",
+              "description": "نقل طالبات جامعة الملك عبدالعزيز في جدة، ونقل الموظفين للشركات والمؤسسات والهيئات في جدة والرياض مع وُسُل. استكشفي الاشتراك الجامعي أو اطلب عرض سعر لنقل فريقك.",
+              "inLanguage": "ar",
+              "isPartOf": {
+                "@id": "https://www.wosol.net/#website"
+              },
+              "about": {
+                "@id": "https://www.wosol.net/#organization"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://www.wosol.net/register",
+      "status": 200,
+      "final_url": "https://www.wosol.net/register",
+      "seconds": 1.016,
+      "bytes_utf8": 35011,
+      "lang": "ar",
+      "h1_count": 1,
+      "canonical": [
+        "https://www.wosol.net/register"
+      ],
+      "hreflang": {
+        "ar": "https://www.wosol.net/register",
+        "en": "https://www.wosol.net/en/register/",
+        "x-default": "https://www.wosol.net/register"
+      },
+      "meta_robots": [
+        "index,follow"
+      ],
+      "x_robots_tag": null,
+      "mixed_content_refs": [],
+      "schema_types": [
+        "ContactPoint",
+        "LocalBusiness",
+        "OpeningHoursSpecification",
+        "PostalAddress",
+        "WebPage",
+        "WebSite"
+      ],
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "LocalBusiness",
+              "@id": "https://www.wosol.net/#organization",
+              "name": "WOSOL Transportation",
+              "alternateName": "وُسُل للنقل",
+              "url": "https://www.wosol.net/",
+              "logo": "https://www.wosol.net/assets/profile-2026/logo-brand.svg",
+              "image": "https://www.wosol.net/assets/profile-2026/hero-native.webp",
+              "telephone": "+966536060003",
+              "email": "info@wosol.net",
+              "foundingDate": "2013",
+              "openingHoursSpecification": [
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
+                    "Sunday",
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "09:00",
+                  "closes": "17:00"
+                }
+              ],
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Al Madinah Road, Al Ruwais, Al Muhammadiyah Plaza",
+                "addressLocality": "Jeddah",
+                "addressCountry": "SA"
+              },
+              "contactPoint": [
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "+966536060003",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                },
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "+966566070705",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                },
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "+966501844991",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                },
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "920003790",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                }
+              ],
+              "sameAs": [
+                "https://www.instagram.com/wosoltransportations",
+                "https://x.com/wosol_net"
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://www.wosol.net/#website",
+              "url": "https://www.wosol.net/",
+              "name": "WOSOL",
+              "publisher": {
+                "@id": "https://www.wosol.net/#organization"
+              },
+              "inLanguage": [
+                "ar",
+                "en"
+              ]
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://www.wosol.net/register#webpage",
+              "url": "https://www.wosol.net/register",
+              "name": "تسجيل نقل طالبات جامعة الملك عبدالعزيز في جدة | وُسُل",
+              "description": "أرسلي طلب اشتراك النقل الجامعي في جدة إلى جامعة الملك عبدالعزيز – السليمانية. تتم مراجعة الحي والمسار والتوافر قبل تأكيد الاشتراك.",
+              "inLanguage": "ar",
+              "isPartOf": {
+                "@id": "https://www.wosol.net/#website"
+              },
+              "about": {
+                "@id": "https://www.wosol.net/#organization"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://www.wosol.net/king-abdulaziz-university-transport",
+      "status": 200,
+      "final_url": "https://www.wosol.net/king-abdulaziz-university-transport",
+      "seconds": 0.844,
+      "bytes_utf8": 21882,
+      "lang": "ar",
+      "h1_count": 1,
+      "canonical": [
+        "https://www.wosol.net/king-abdulaziz-university-transport"
+      ],
+      "hreflang": {
+        "ar": "https://www.wosol.net/king-abdulaziz-university-transport",
+        "en": "https://www.wosol.net/en/king-abdulaziz-university-transport/",
+        "x-default": "https://www.wosol.net/king-abdulaziz-university-transport"
+      },
+      "meta_robots": [
+        "index,follow"
+      ],
+      "x_robots_tag": null,
+      "mixed_content_refs": [],
+      "schema_types": [
+        "City",
+        "ContactPoint",
+        "LocalBusiness",
+        "OpeningHoursSpecification",
+        "PostalAddress",
+        "Service",
+        "WebPage",
+        "WebSite"
+      ],
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "LocalBusiness",
+              "@id": "https://www.wosol.net/#organization",
+              "name": "WOSOL Transportation",
+              "alternateName": "وُسُل للنقل",
+              "url": "https://www.wosol.net/",
+              "logo": "https://www.wosol.net/assets/profile-2026/logo-brand.svg",
+              "image": "https://www.wosol.net/assets/profile-2026/hero-native.webp",
+              "telephone": "+966536060003",
+              "email": "info@wosol.net",
+              "foundingDate": "2013",
+              "openingHoursSpecification": [
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
+                    "Sunday",
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "09:00",
+                  "closes": "17:00"
+                }
+              ],
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Al Madinah Road, Al Ruwais, Al Muhammadiyah Plaza",
+                "addressLocality": "Jeddah",
+                "addressCountry": "SA"
+              },
+              "contactPoint": [
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "+966536060003",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                },
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "+966566070705",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                },
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "+966501844991",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                },
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "920003790",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                }
+              ],
+              "sameAs": [
+                "https://www.instagram.com/wosoltransportations",
+                "https://x.com/wosol_net"
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://www.wosol.net/#website",
+              "url": "https://www.wosol.net/",
+              "name": "WOSOL",
+              "publisher": {
+                "@id": "https://www.wosol.net/#organization"
+              },
+              "inLanguage": [
+                "ar",
+                "en"
+              ]
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://www.wosol.net/king-abdulaziz-university-transport#webpage",
+              "url": "https://www.wosol.net/king-abdulaziz-university-transport",
+              "name": "نقل طالبات جامعة الملك عبدالعزيز في جدة | وُسُل",
+              "description": "اشتراك نقل طالبات جامعة الملك عبدالعزيز بالسليمانية في جدة مع وُسُل. تعرّفي على الأحياء وخيارات الاشتراك الشهري والترم واطلبي تأكيد التغطية.",
+              "inLanguage": "ar",
+              "isPartOf": {
+                "@id": "https://www.wosol.net/#website"
+              },
+              "about": {
+                "@id": "https://www.wosol.net/king-abdulaziz-university-transport#service"
+              }
+            },
+            {
+              "@type": "Service",
+              "@id": "https://www.wosol.net/king-abdulaziz-university-transport#service",
+              "url": "https://www.wosol.net/king-abdulaziz-university-transport",
+              "name": "نقل طالبات جامعة الملك عبدالعزيز في جدة | وُسُل",
+              "description": "اشتراك نقل طالبات جامعة الملك عبدالعزيز بالسليمانية في جدة مع وُسُل. تعرّفي على الأحياء وخيارات الاشتراك الشهري والترم واطلبي تأكيد التغطية.",
+              "provider": {
+                "@id": "https://www.wosol.net/#organization"
+              },
+              "areaServed": {
+                "@type": "City",
+                "name": "Jeddah"
+              },
+              "serviceType": "University student transport"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://www.wosol.net/employee-transport-jeddah",
+      "status": 200,
+      "final_url": "https://www.wosol.net/employee-transport-jeddah",
+      "seconds": 0.906,
+      "bytes_utf8": 22575,
+      "lang": "ar",
+      "h1_count": 1,
+      "canonical": [
+        "https://www.wosol.net/employee-transport-jeddah"
+      ],
+      "hreflang": {
+        "ar": "https://www.wosol.net/employee-transport-jeddah",
+        "en": "https://www.wosol.net/en/employee-transport-jeddah/",
+        "x-default": "https://www.wosol.net/employee-transport-jeddah"
+      },
+      "meta_robots": [
+        "index,follow"
+      ],
+      "x_robots_tag": null,
+      "mixed_content_refs": [],
+      "schema_types": [
+        "City",
+        "ContactPoint",
+        "LocalBusiness",
+        "OpeningHoursSpecification",
+        "PostalAddress",
+        "Service",
+        "WebPage",
+        "WebSite"
+      ],
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "LocalBusiness",
+              "@id": "https://www.wosol.net/#organization",
+              "name": "WOSOL Transportation",
+              "alternateName": "وُسُل للنقل",
+              "url": "https://www.wosol.net/",
+              "logo": "https://www.wosol.net/assets/profile-2026/logo-brand.svg",
+              "image": "https://www.wosol.net/assets/profile-2026/hero-native.webp",
+              "telephone": "+966536060003",
+              "email": "info@wosol.net",
+              "foundingDate": "2013",
+              "openingHoursSpecification": [
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
+                    "Sunday",
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "09:00",
+                  "closes": "17:00"
+                }
+              ],
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Al Madinah Road, Al Ruwais, Al Muhammadiyah Plaza",
+                "addressLocality": "Jeddah",
+                "addressCountry": "SA"
+              },
+              "contactPoint": [
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "+966536060003",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                },
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "+966566070705",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                },
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "+966501844991",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                },
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "920003790",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                }
+              ],
+              "sameAs": [
+                "https://www.instagram.com/wosoltransportations",
+                "https://x.com/wosol_net"
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://www.wosol.net/#website",
+              "url": "https://www.wosol.net/",
+              "name": "WOSOL",
+              "publisher": {
+                "@id": "https://www.wosol.net/#organization"
+              },
+              "inLanguage": [
+                "ar",
+                "en"
+              ]
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://www.wosol.net/employee-transport-jeddah#webpage",
+              "url": "https://www.wosol.net/employee-transport-jeddah",
+              "name": "نقل موظفين في جدة | عقود شهرية وسنوية — وُسُل",
+              "description": "نقل موظفين للشركات والمؤسسات والهيئات في جدة. عقود شهرية وسنوية وحافلات مع سائق وفق المسار والورديات والتوافر. اطلب عرض سعر من وُسُل.",
+              "inLanguage": "ar",
+              "isPartOf": {
+                "@id": "https://www.wosol.net/#website"
+              },
+              "about": {
+                "@id": "https://www.wosol.net/employee-transport-jeddah#service"
+              }
+            },
+            {
+              "@type": "Service",
+              "@id": "https://www.wosol.net/employee-transport-jeddah#service",
+              "url": "https://www.wosol.net/employee-transport-jeddah",
+              "name": "نقل موظفين في جدة | عقود شهرية وسنوية — وُسُل",
+              "description": "نقل موظفين للشركات والمؤسسات والهيئات في جدة. عقود شهرية وسنوية وحافلات مع سائق وفق المسار والورديات والتوافر. اطلب عرض سعر من وُسُل.",
+              "provider": {
+                "@id": "https://www.wosol.net/#organization"
+              },
+              "areaServed": {
+                "@type": "City",
+                "name": "Jeddah"
+              },
+              "serviceType": "Employee transport"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://www.wosol.net/employee-transport-riyadh",
+      "status": 200,
+      "final_url": "https://www.wosol.net/employee-transport-riyadh",
+      "seconds": 0.922,
+      "bytes_utf8": 22545,
+      "lang": "ar",
+      "h1_count": 1,
+      "canonical": [
+        "https://www.wosol.net/employee-transport-riyadh"
+      ],
+      "hreflang": {
+        "ar": "https://www.wosol.net/employee-transport-riyadh",
+        "en": "https://www.wosol.net/en/employee-transport-riyadh/",
+        "x-default": "https://www.wosol.net/employee-transport-riyadh"
+      },
+      "meta_robots": [
+        "index,follow"
+      ],
+      "x_robots_tag": null,
+      "mixed_content_refs": [],
+      "schema_types": [
+        "City",
+        "ContactPoint",
+        "LocalBusiness",
+        "OpeningHoursSpecification",
+        "PostalAddress",
+        "Service",
+        "WebPage",
+        "WebSite"
+      ],
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "LocalBusiness",
+              "@id": "https://www.wosol.net/#organization",
+              "name": "WOSOL Transportation",
+              "alternateName": "وُسُل للنقل",
+              "url": "https://www.wosol.net/",
+              "logo": "https://www.wosol.net/assets/profile-2026/logo-brand.svg",
+              "image": "https://www.wosol.net/assets/profile-2026/hero-native.webp",
+              "telephone": "+966536060003",
+              "email": "info@wosol.net",
+              "foundingDate": "2013",
+              "openingHoursSpecification": [
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
+                    "Sunday",
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "09:00",
+                  "closes": "17:00"
+                }
+              ],
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Al Madinah Road, Al Ruwais, Al Muhammadiyah Plaza",
+                "addressLocality": "Jeddah",
+                "addressCountry": "SA"
+              },
+              "contactPoint": [
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "+966536060003",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                },
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "+966566070705",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                },
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "+966501844991",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                },
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "920003790",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                }
+              ],
+              "sameAs": [
+                "https://www.instagram.com/wosoltransportations",
+                "https://x.com/wosol_net"
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://www.wosol.net/#website",
+              "url": "https://www.wosol.net/",
+              "name": "WOSOL",
+              "publisher": {
+                "@id": "https://www.wosol.net/#organization"
+              },
+              "inLanguage": [
+                "ar",
+                "en"
+              ]
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://www.wosol.net/employee-transport-riyadh#webpage",
+              "url": "https://www.wosol.net/employee-transport-riyadh",
+              "name": "نقل موظفين في الرياض | حافلات مع سائق — وُسُل",
+              "description": "نقل موظفين للشركات والمؤسسات والهيئات في الرياض. حافلات مع سائق وخطط للورديات ومقار العمل المتعددة وفق التوافر. اطلب عرض سعر من وُسُل.",
+              "inLanguage": "ar",
+              "isPartOf": {
+                "@id": "https://www.wosol.net/#website"
+              },
+              "about": {
+                "@id": "https://www.wosol.net/employee-transport-riyadh#service"
+              }
+            },
+            {
+              "@type": "Service",
+              "@id": "https://www.wosol.net/employee-transport-riyadh#service",
+              "url": "https://www.wosol.net/employee-transport-riyadh",
+              "name": "نقل موظفين في الرياض | حافلات مع سائق — وُسُل",
+              "description": "نقل موظفين للشركات والمؤسسات والهيئات في الرياض. حافلات مع سائق وخطط للورديات ومقار العمل المتعددة وفق التوافر. اطلب عرض سعر من وُسُل.",
+              "provider": {
+                "@id": "https://www.wosol.net/#organization"
+              },
+              "areaServed": {
+                "@type": "City",
+                "name": "Riyadh"
+              },
+              "serviceType": "Employee transport"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://www.wosol.net/corporate-transport-saudi-arabia",
+      "status": 200,
+      "final_url": "https://www.wosol.net/corporate-transport-saudi-arabia",
+      "seconds": 0.922,
+      "bytes_utf8": 22471,
+      "lang": "ar",
+      "h1_count": 1,
+      "canonical": [
+        "https://www.wosol.net/corporate-transport-saudi-arabia"
+      ],
+      "hreflang": {
+        "ar": "https://www.wosol.net/corporate-transport-saudi-arabia",
+        "en": "https://www.wosol.net/en/corporate-transport-saudi-arabia/",
+        "x-default": "https://www.wosol.net/corporate-transport-saudi-arabia"
+      },
+      "meta_robots": [
+        "index,follow"
+      ],
+      "x_robots_tag": null,
+      "mixed_content_refs": [],
+      "schema_types": [
+        "ContactPoint",
+        "Country",
+        "LocalBusiness",
+        "OpeningHoursSpecification",
+        "PostalAddress",
+        "Service",
+        "WebPage",
+        "WebSite"
+      ],
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "LocalBusiness",
+              "@id": "https://www.wosol.net/#organization",
+              "name": "WOSOL Transportation",
+              "alternateName": "وُسُل للنقل",
+              "url": "https://www.wosol.net/",
+              "logo": "https://www.wosol.net/assets/profile-2026/logo-brand.svg",
+              "image": "https://www.wosol.net/assets/profile-2026/hero-native.webp",
+              "telephone": "+966536060003",
+              "email": "info@wosol.net",
+              "foundingDate": "2013",
+              "openingHoursSpecification": [
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
+                    "Sunday",
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "09:00",
+                  "closes": "17:00"
+                }
+              ],
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Al Madinah Road, Al Ruwais, Al Muhammadiyah Plaza",
+                "addressLocality": "Jeddah",
+                "addressCountry": "SA"
+              },
+              "contactPoint": [
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "+966536060003",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                },
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "+966566070705",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                },
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "+966501844991",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                },
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "920003790",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                }
+              ],
+              "sameAs": [
+                "https://www.instagram.com/wosoltransportations",
+                "https://x.com/wosol_net"
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://www.wosol.net/#website",
+              "url": "https://www.wosol.net/",
+              "name": "WOSOL",
+              "publisher": {
+                "@id": "https://www.wosol.net/#organization"
+              },
+              "inLanguage": [
+                "ar",
+                "en"
+              ]
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://www.wosol.net/corporate-transport-saudi-arabia#webpage",
+              "url": "https://www.wosol.net/corporate-transport-saudi-arabia",
+              "name": "نقل موظفين في السعودية | جدة والرياض — وُسُل",
+              "description": "حلول نقل الشركات والمؤسسات والهيئات والموظفين من وُسُل، مع تركيز على جدة والرياض ودراسة طلبات بقية مناطق السعودية وفق احتياج العقد والتغطية والتوافر.",
+              "inLanguage": "ar",
+              "isPartOf": {
+                "@id": "https://www.wosol.net/#website"
+              },
+              "about": {
+                "@id": "https://www.wosol.net/corporate-transport-saudi-arabia#service"
+              }
+            },
+            {
+              "@type": "Service",
+              "@id": "https://www.wosol.net/corporate-transport-saudi-arabia#service",
+              "url": "https://www.wosol.net/corporate-transport-saudi-arabia",
+              "name": "نقل موظفين في السعودية | جدة والرياض — وُسُل",
+              "description": "حلول نقل الشركات والمؤسسات والهيئات والموظفين من وُسُل، مع تركيز على جدة والرياض ودراسة طلبات بقية مناطق السعودية وفق احتياج العقد والتغطية والتوافر.",
+              "provider": {
+                "@id": "https://www.wosol.net/#organization"
+              },
+              "areaServed": {
+                "@type": "Country",
+                "name": "Saudi Arabia"
+              },
+              "serviceType": "Employee transport"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://www.wosol.net/en/",
+      "status": 200,
+      "final_url": "https://www.wosol.net/en/",
+      "seconds": 1.047,
+      "bytes_utf8": 51287,
+      "lang": "en",
+      "h1_count": 1,
+      "canonical": [
+        "https://www.wosol.net/en/"
+      ],
+      "hreflang": {
+        "ar": "https://www.wosol.net/",
+        "en": "https://www.wosol.net/en/",
+        "x-default": "https://www.wosol.net/"
+      },
+      "meta_robots": [
+        "index,follow"
+      ],
+      "x_robots_tag": null,
+      "mixed_content_refs": [],
+      "schema_types": [
+        "ContactPoint",
+        "LocalBusiness",
+        "OpeningHoursSpecification",
+        "PostalAddress",
+        "WebPage",
+        "WebSite"
+      ],
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "LocalBusiness",
+              "@id": "https://www.wosol.net/#organization",
+              "name": "WOSOL Transportation",
+              "alternateName": "وُسُل للنقل",
+              "url": "https://www.wosol.net/",
+              "logo": "https://www.wosol.net/assets/profile-2026/logo-brand.svg",
+              "image": "https://www.wosol.net/assets/profile-2026/hero-native.webp",
+              "telephone": "+966536060003",
+              "email": "info@wosol.net",
+              "foundingDate": "2013",
+              "openingHoursSpecification": [
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
+                    "Sunday",
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "09:00",
+                  "closes": "17:00"
+                }
+              ],
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Al Madinah Road, Al Ruwais, Al Muhammadiyah Plaza",
+                "addressLocality": "Jeddah",
+                "addressCountry": "SA"
+              },
+              "contactPoint": [
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "+966536060003",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                },
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "+966566070705",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                },
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "+966501844991",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                },
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "920003790",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                }
+              ],
+              "sameAs": [
+                "https://www.instagram.com/wosoltransportations",
+                "https://x.com/wosol_net"
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://www.wosol.net/#website",
+              "url": "https://www.wosol.net/",
+              "name": "WOSOL",
+              "publisher": {
+                "@id": "https://www.wosol.net/#organization"
+              },
+              "inLanguage": [
+                "ar",
+                "en"
+              ]
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://www.wosol.net/en/#webpage",
+              "url": "https://www.wosol.net/en/",
+              "name": "WOSOL | Staff & Student Transport in Jeddah and Riyadh",
+              "description": "Staff transport in Jeddah and Riyadh, plus King Abdulaziz University student transport in Jeddah. Explore routes or request a bus-with-driver quote.",
+              "inLanguage": "en",
+              "isPartOf": {
+                "@id": "https://www.wosol.net/#website"
+              },
+              "about": {
+                "@id": "https://www.wosol.net/#organization"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://www.wosol.net/en/register/",
+      "status": 200,
+      "final_url": "https://www.wosol.net/en/register/",
+      "seconds": 0.953,
+      "bytes_utf8": 32345,
+      "lang": "en",
+      "h1_count": 1,
+      "canonical": [
+        "https://www.wosol.net/en/register/"
+      ],
+      "hreflang": {
+        "ar": "https://www.wosol.net/register",
+        "en": "https://www.wosol.net/en/register/",
+        "x-default": "https://www.wosol.net/register"
+      },
+      "meta_robots": [
+        "index,follow"
+      ],
+      "x_robots_tag": null,
+      "mixed_content_refs": [],
+      "schema_types": [
+        "ContactPoint",
+        "LocalBusiness",
+        "OpeningHoursSpecification",
+        "PostalAddress",
+        "WebPage",
+        "WebSite"
+      ],
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "LocalBusiness",
+              "@id": "https://www.wosol.net/#organization",
+              "name": "WOSOL Transportation",
+              "alternateName": "وُسُل للنقل",
+              "url": "https://www.wosol.net/",
+              "logo": "https://www.wosol.net/assets/profile-2026/logo-brand.svg",
+              "image": "https://www.wosol.net/assets/profile-2026/hero-native.webp",
+              "telephone": "+966536060003",
+              "email": "info@wosol.net",
+              "foundingDate": "2013",
+              "openingHoursSpecification": [
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
+                    "Sunday",
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "09:00",
+                  "closes": "17:00"
+                }
+              ],
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Al Madinah Road, Al Ruwais, Al Muhammadiyah Plaza",
+                "addressLocality": "Jeddah",
+                "addressCountry": "SA"
+              },
+              "contactPoint": [
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "+966536060003",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                },
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "+966566070705",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                },
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "+966501844991",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                },
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "920003790",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                }
+              ],
+              "sameAs": [
+                "https://www.instagram.com/wosoltransportations",
+                "https://x.com/wosol_net"
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://www.wosol.net/#website",
+              "url": "https://www.wosol.net/",
+              "name": "WOSOL",
+              "publisher": {
+                "@id": "https://www.wosol.net/#organization"
+              },
+              "inLanguage": [
+                "ar",
+                "en"
+              ]
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://www.wosol.net/en/register/#webpage",
+              "url": "https://www.wosol.net/en/register/",
+              "name": "Student Transport Registration in Jeddah | WOSOL",
+              "description": "Request university transport in Jeddah to King Abdulaziz University, Al Sulaymaniyah. Neighbourhood, route and availability are reviewed before confirmation.",
+              "inLanguage": "en",
+              "isPartOf": {
+                "@id": "https://www.wosol.net/#website"
+              },
+              "about": {
+                "@id": "https://www.wosol.net/#organization"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://www.wosol.net/en/king-abdulaziz-university-transport/",
+      "status": 200,
+      "final_url": "https://www.wosol.net/en/king-abdulaziz-university-transport/",
+      "seconds": 0.953,
+      "bytes_utf8": 19721,
+      "lang": "en",
+      "h1_count": 1,
+      "canonical": [
+        "https://www.wosol.net/en/king-abdulaziz-university-transport/"
+      ],
+      "hreflang": {
+        "ar": "https://www.wosol.net/king-abdulaziz-university-transport",
+        "en": "https://www.wosol.net/en/king-abdulaziz-university-transport/",
+        "x-default": "https://www.wosol.net/king-abdulaziz-university-transport"
+      },
+      "meta_robots": [
+        "index,follow"
+      ],
+      "x_robots_tag": null,
+      "mixed_content_refs": [],
+      "schema_types": [
+        "City",
+        "ContactPoint",
+        "LocalBusiness",
+        "OpeningHoursSpecification",
+        "PostalAddress",
+        "Service",
+        "WebPage",
+        "WebSite"
+      ],
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "LocalBusiness",
+              "@id": "https://www.wosol.net/#organization",
+              "name": "WOSOL Transportation",
+              "alternateName": "وُسُل للنقل",
+              "url": "https://www.wosol.net/",
+              "logo": "https://www.wosol.net/assets/profile-2026/logo-brand.svg",
+              "image": "https://www.wosol.net/assets/profile-2026/hero-native.webp",
+              "telephone": "+966536060003",
+              "email": "info@wosol.net",
+              "foundingDate": "2013",
+              "openingHoursSpecification": [
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
+                    "Sunday",
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "09:00",
+                  "closes": "17:00"
+                }
+              ],
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Al Madinah Road, Al Ruwais, Al Muhammadiyah Plaza",
+                "addressLocality": "Jeddah",
+                "addressCountry": "SA"
+              },
+              "contactPoint": [
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "+966536060003",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                },
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "+966566070705",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                },
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "+966501844991",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                },
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "920003790",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                }
+              ],
+              "sameAs": [
+                "https://www.instagram.com/wosoltransportations",
+                "https://x.com/wosol_net"
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://www.wosol.net/#website",
+              "url": "https://www.wosol.net/",
+              "name": "WOSOL",
+              "publisher": {
+                "@id": "https://www.wosol.net/#organization"
+              },
+              "inLanguage": [
+                "ar",
+                "en"
+              ]
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://www.wosol.net/en/king-abdulaziz-university-transport/#webpage",
+              "url": "https://www.wosol.net/en/king-abdulaziz-university-transport/",
+              "name": "King Abdulaziz University Student Transport in Jeddah | WOSOL",
+              "description": "Student transport to King Abdulaziz University, Al Sulaymaniyah, Jeddah. Explore neighbourhoods, monthly or term payment and request coverage confirmation.",
+              "inLanguage": "en",
+              "isPartOf": {
+                "@id": "https://www.wosol.net/#website"
+              },
+              "about": {
+                "@id": "https://www.wosol.net/en/king-abdulaziz-university-transport/#service"
+              }
+            },
+            {
+              "@type": "Service",
+              "@id": "https://www.wosol.net/en/king-abdulaziz-university-transport/#service",
+              "url": "https://www.wosol.net/en/king-abdulaziz-university-transport/",
+              "name": "King Abdulaziz University Student Transport in Jeddah | WOSOL",
+              "description": "Student transport to King Abdulaziz University, Al Sulaymaniyah, Jeddah. Explore neighbourhoods, monthly or term payment and request coverage confirmation.",
+              "provider": {
+                "@id": "https://www.wosol.net/#organization"
+              },
+              "areaServed": {
+                "@type": "City",
+                "name": "Jeddah"
+              },
+              "serviceType": "University student transport"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://www.wosol.net/en/employee-transport-jeddah/",
+      "status": 200,
+      "final_url": "https://www.wosol.net/en/employee-transport-jeddah/",
+      "seconds": 0.922,
+      "bytes_utf8": 20158,
+      "lang": "en",
+      "h1_count": 1,
+      "canonical": [
+        "https://www.wosol.net/en/employee-transport-jeddah/"
+      ],
+      "hreflang": {
+        "ar": "https://www.wosol.net/employee-transport-jeddah",
+        "en": "https://www.wosol.net/en/employee-transport-jeddah/",
+        "x-default": "https://www.wosol.net/employee-transport-jeddah"
+      },
+      "meta_robots": [
+        "index,follow"
+      ],
+      "x_robots_tag": null,
+      "mixed_content_refs": [],
+      "schema_types": [
+        "City",
+        "ContactPoint",
+        "LocalBusiness",
+        "OpeningHoursSpecification",
+        "PostalAddress",
+        "Service",
+        "WebPage",
+        "WebSite"
+      ],
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "LocalBusiness",
+              "@id": "https://www.wosol.net/#organization",
+              "name": "WOSOL Transportation",
+              "alternateName": "وُسُل للنقل",
+              "url": "https://www.wosol.net/",
+              "logo": "https://www.wosol.net/assets/profile-2026/logo-brand.svg",
+              "image": "https://www.wosol.net/assets/profile-2026/hero-native.webp",
+              "telephone": "+966536060003",
+              "email": "info@wosol.net",
+              "foundingDate": "2013",
+              "openingHoursSpecification": [
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
+                    "Sunday",
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "09:00",
+                  "closes": "17:00"
+                }
+              ],
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Al Madinah Road, Al Ruwais, Al Muhammadiyah Plaza",
+                "addressLocality": "Jeddah",
+                "addressCountry": "SA"
+              },
+              "contactPoint": [
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "+966536060003",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                },
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "+966566070705",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                },
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "+966501844991",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                },
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "920003790",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                }
+              ],
+              "sameAs": [
+                "https://www.instagram.com/wosoltransportations",
+                "https://x.com/wosol_net"
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://www.wosol.net/#website",
+              "url": "https://www.wosol.net/",
+              "name": "WOSOL",
+              "publisher": {
+                "@id": "https://www.wosol.net/#organization"
+              },
+              "inLanguage": [
+                "ar",
+                "en"
+              ]
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://www.wosol.net/en/employee-transport-jeddah/#webpage",
+              "url": "https://www.wosol.net/en/employee-transport-jeddah/",
+              "name": "Employee Transport in Jeddah | WOSOL",
+              "description": "Staff transportation in Jeddah with monthly or annual contracts. Share pickup points, workplaces and shifts for a bus-with-driver quote from WOSOL.",
+              "inLanguage": "en",
+              "isPartOf": {
+                "@id": "https://www.wosol.net/#website"
+              },
+              "about": {
+                "@id": "https://www.wosol.net/en/employee-transport-jeddah/#service"
+              }
+            },
+            {
+              "@type": "Service",
+              "@id": "https://www.wosol.net/en/employee-transport-jeddah/#service",
+              "url": "https://www.wosol.net/en/employee-transport-jeddah/",
+              "name": "Employee Transport in Jeddah | WOSOL",
+              "description": "Staff transportation in Jeddah with monthly or annual contracts. Share pickup points, workplaces and shifts for a bus-with-driver quote from WOSOL.",
+              "provider": {
+                "@id": "https://www.wosol.net/#organization"
+              },
+              "areaServed": {
+                "@type": "City",
+                "name": "Jeddah"
+              },
+              "serviceType": "Employee transport"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://www.wosol.net/en/employee-transport-riyadh/",
+      "status": 200,
+      "final_url": "https://www.wosol.net/en/employee-transport-riyadh/",
+      "seconds": 1.016,
+      "bytes_utf8": 20115,
+      "lang": "en",
+      "h1_count": 1,
+      "canonical": [
+        "https://www.wosol.net/en/employee-transport-riyadh/"
+      ],
+      "hreflang": {
+        "ar": "https://www.wosol.net/employee-transport-riyadh",
+        "en": "https://www.wosol.net/en/employee-transport-riyadh/",
+        "x-default": "https://www.wosol.net/employee-transport-riyadh"
+      },
+      "meta_robots": [
+        "index,follow"
+      ],
+      "x_robots_tag": null,
+      "mixed_content_refs": [],
+      "schema_types": [
+        "City",
+        "ContactPoint",
+        "LocalBusiness",
+        "OpeningHoursSpecification",
+        "PostalAddress",
+        "Service",
+        "WebPage",
+        "WebSite"
+      ],
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "LocalBusiness",
+              "@id": "https://www.wosol.net/#organization",
+              "name": "WOSOL Transportation",
+              "alternateName": "وُسُل للنقل",
+              "url": "https://www.wosol.net/",
+              "logo": "https://www.wosol.net/assets/profile-2026/logo-brand.svg",
+              "image": "https://www.wosol.net/assets/profile-2026/hero-native.webp",
+              "telephone": "+966536060003",
+              "email": "info@wosol.net",
+              "foundingDate": "2013",
+              "openingHoursSpecification": [
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
+                    "Sunday",
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "09:00",
+                  "closes": "17:00"
+                }
+              ],
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Al Madinah Road, Al Ruwais, Al Muhammadiyah Plaza",
+                "addressLocality": "Jeddah",
+                "addressCountry": "SA"
+              },
+              "contactPoint": [
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "+966536060003",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                },
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "+966566070705",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                },
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "+966501844991",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                },
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "920003790",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                }
+              ],
+              "sameAs": [
+                "https://www.instagram.com/wosoltransportations",
+                "https://x.com/wosol_net"
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://www.wosol.net/#website",
+              "url": "https://www.wosol.net/",
+              "name": "WOSOL",
+              "publisher": {
+                "@id": "https://www.wosol.net/#organization"
+              },
+              "inLanguage": [
+                "ar",
+                "en"
+              ]
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://www.wosol.net/en/employee-transport-riyadh/#webpage",
+              "url": "https://www.wosol.net/en/employee-transport-riyadh/",
+              "name": "Employee Transport in Riyadh | WOSOL",
+              "description": "Employee transport in Riyadh, planned around pickup points, workplaces and shifts. Request a staff shuttle or bus-with-driver quote from WOSOL.",
+              "inLanguage": "en",
+              "isPartOf": {
+                "@id": "https://www.wosol.net/#website"
+              },
+              "about": {
+                "@id": "https://www.wosol.net/en/employee-transport-riyadh/#service"
+              }
+            },
+            {
+              "@type": "Service",
+              "@id": "https://www.wosol.net/en/employee-transport-riyadh/#service",
+              "url": "https://www.wosol.net/en/employee-transport-riyadh/",
+              "name": "Employee Transport in Riyadh | WOSOL",
+              "description": "Employee transport in Riyadh, planned around pickup points, workplaces and shifts. Request a staff shuttle or bus-with-driver quote from WOSOL.",
+              "provider": {
+                "@id": "https://www.wosol.net/#organization"
+              },
+              "areaServed": {
+                "@type": "City",
+                "name": "Riyadh"
+              },
+              "serviceType": "Employee transport"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://www.wosol.net/en/corporate-transport-saudi-arabia/",
+      "status": 200,
+      "final_url": "https://www.wosol.net/en/corporate-transport-saudi-arabia/",
+      "seconds": 0.921,
+      "bytes_utf8": 20173,
+      "lang": "en",
+      "h1_count": 1,
+      "canonical": [
+        "https://www.wosol.net/en/corporate-transport-saudi-arabia/"
+      ],
+      "hreflang": {
+        "ar": "https://www.wosol.net/corporate-transport-saudi-arabia",
+        "en": "https://www.wosol.net/en/corporate-transport-saudi-arabia/",
+        "x-default": "https://www.wosol.net/corporate-transport-saudi-arabia"
+      },
+      "meta_robots": [
+        "index,follow"
+      ],
+      "x_robots_tag": null,
+      "mixed_content_refs": [],
+      "schema_types": [
+        "ContactPoint",
+        "Country",
+        "LocalBusiness",
+        "OpeningHoursSpecification",
+        "PostalAddress",
+        "Service",
+        "WebPage",
+        "WebSite"
+      ],
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "LocalBusiness",
+              "@id": "https://www.wosol.net/#organization",
+              "name": "WOSOL Transportation",
+              "alternateName": "وُسُل للنقل",
+              "url": "https://www.wosol.net/",
+              "logo": "https://www.wosol.net/assets/profile-2026/logo-brand.svg",
+              "image": "https://www.wosol.net/assets/profile-2026/hero-native.webp",
+              "telephone": "+966536060003",
+              "email": "info@wosol.net",
+              "foundingDate": "2013",
+              "openingHoursSpecification": [
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
+                    "Sunday",
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "09:00",
+                  "closes": "17:00"
+                }
+              ],
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Al Madinah Road, Al Ruwais, Al Muhammadiyah Plaza",
+                "addressLocality": "Jeddah",
+                "addressCountry": "SA"
+              },
+              "contactPoint": [
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "+966536060003",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                },
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "+966566070705",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                },
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "+966501844991",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                },
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "telephone": "920003790",
+                  "email": "info@wosol.net",
+                  "availableLanguage": [
+                    "Arabic",
+                    "English"
+                  ]
+                }
+              ],
+              "sameAs": [
+                "https://www.instagram.com/wosoltransportations",
+                "https://x.com/wosol_net"
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://www.wosol.net/#website",
+              "url": "https://www.wosol.net/",
+              "name": "WOSOL",
+              "publisher": {
+                "@id": "https://www.wosol.net/#organization"
+              },
+              "inLanguage": [
+                "ar",
+                "en"
+              ]
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://www.wosol.net/en/corporate-transport-saudi-arabia/#webpage",
+              "url": "https://www.wosol.net/en/corporate-transport-saudi-arabia/",
+              "name": "Employee Transport in Saudi Arabia | WOSOL",
+              "description": "Transport for companies, institutions and authorities with a focus on Jeddah and Riyadh. Requirements for other Saudi regions are reviewed according to contract scope, coverage and availability.",
+              "inLanguage": "en",
+              "isPartOf": {
+                "@id": "https://www.wosol.net/#website"
+              },
+              "about": {
+                "@id": "https://www.wosol.net/en/corporate-transport-saudi-arabia/#service"
+              }
+            },
+            {
+              "@type": "Service",
+              "@id": "https://www.wosol.net/en/corporate-transport-saudi-arabia/#service",
+              "url": "https://www.wosol.net/en/corporate-transport-saudi-arabia/",
+              "name": "Employee Transport in Saudi Arabia | WOSOL",
+              "description": "Transport for companies, institutions and authorities with a focus on Jeddah and Riyadh. Requirements for other Saudi regions are reviewed according to contract scope, coverage and availability.",
+              "provider": {
+                "@id": "https://www.wosol.net/#organization"
+              },
+              "areaServed": {
+                "@type": "Country",
+                "name": "Saudi Arabia"
+              },
+              "serviceType": "Employee transport"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "robots_txt": "User-agent: *\r\nAllow: /\r\n\r\nSitemap: https://www.wosol.net/sitemap.xml\r\n",
+  "measurement_config": "// Set only an existing, verified GA4 property. Empty = no Google requests.\nwindow.WOSOL_MEASUREMENT = { measurementId: 'G-HPZB25PR24', hosts: ['wosol.net', 'www.wosol.net'] };\n"
+}

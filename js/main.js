@@ -51,7 +51,7 @@ const safeStorage = {
 };
 
 const state = {
-  lang:  safeStorage.get('nova-lang', 'ar'),
+  lang:  document.documentElement.lang || 'ar',
   theme: safeStorage.get('nova-theme', 'light'),
 };
 
@@ -88,7 +88,7 @@ function applyLang(lang) {
   state.lang = lang;
 }
 
-dom.langToggle?.addEventListener('click', () => {
+document.querySelector('button#langToggle')?.addEventListener('click', () => {
   applyLang(state.lang === 'ar' ? 'en' : 'ar');
 });
 
@@ -165,14 +165,14 @@ document.querySelectorAll('section[id]').forEach(sec => sectionObserver.observe(
 /* ══════════════════════════════════════════════════════════════
    ASYNC FORM HANDLER
    ══════════════════════════════════════════════════════════════ */
-/** نماذج التواصل (استفسار · شكوى · عرض سعر) تصل إلى info@wosol.net ونسخة إلى omar-b@wosol.net */
+/** نماذج التواصل (استفسار · شكوى · عرض سعر) تصل إلى info@wosol.net ونسخة إلى atef-alreemi@wosol.net وa@wosol.net */
 async function sendSiteForm(form, subject) {
-  if (!window.WASUL_EMAIL?.submitForm) {
+  if (!window.WOSOL_ZOHO?.submitForm) {
     throw new Error('Email submit helper is not loaded');
   }
-  return window.WASUL_EMAIL.submitForm(form, subject, {
-    to: window.WASUL_EMAIL.contactRecipient,
-    cc: window.WASUL_EMAIL.contactCc,
+  return window.WOSOL_ZOHO.submitForm(form, subject, {
+    to: window.WOSOL_ZOHO.contactRecipient,
+    cc: window.WOSOL_ZOHO.contactCc,
   });
 }
 
@@ -180,10 +180,29 @@ function bindAsyncForm(formId, successId, messageKey, subject) {
   const form = document.getElementById(formId);
   const success = document.getElementById(successId);
   if (!form || !success) return;
+  success.classList.add('ui-form-status');success.setAttribute('role','status');
 
+  let submitting = false;
   form.addEventListener('submit', async e => {
     e.preventDefault();
+    if (submitting) return;
 
+    // Validate before any network request; do not alter student registration here.
+    for (const field of form.querySelectorAll('input[required], textarea[required]')) {
+      if (field.type !== 'number') field.value = field.value.trim();
+    }
+    const phone = form.querySelector('#qt-phone');
+    if (phone) {
+      phone.value = phone.value.replace(/[٠-٩]/g,c=>String(c.charCodeAt(0)-1632)).replace(/[۰-۹]/g,c=>String(c.charCodeAt(0)-1776));
+      const value=phone.value.replace(/[ ()-]/g,'');
+      phone.setCustomValidity(/^\+?[0-9]{8,15}$/.test(value) ? '' : (state.lang==='ar'?'أدخل رقم جوال صحيحًا مع رمز الدولة عند الاتصال دوليًا.':'Enter a valid phone number, including country code for international numbers.'));
+      phone.addEventListener('input',()=>phone.setCustomValidity(''),{once:true});
+    }
+    if (!form.reportValidity()) return;
+    try { window.WOSOL_ZOHO?.validateAttachments(form); }
+    catch (error) { success.dataset.state='error'; Utils.setText(success, '! '+error.message); success.classList.add('visible'); return; }
+    submitting = true;
+    form.setAttribute("aria-busy","true"); success.classList.remove("visible");
     const btn = form.querySelector('button[type="submit"]');
     const btnSpan = btn?.querySelector('span');
     const original = btnSpan?.textContent ?? '';
@@ -193,27 +212,33 @@ function bindAsyncForm(formId, successId, messageKey, subject) {
     btn?.classList.add('loading');
 
     try {
-      await sendSiteForm(form, subject);
+      const result = await sendSiteForm(form, subject);
+      if (result?.navigating) return;
+      if (result?.success !== true && result?.success !== 'true') throw new Error('Email provider did not confirm acceptance');
+      // Email acceptance is not a confirmed CRM lead or customer conversion.
+      window.WOSOL_METRICS?.record('email_request_accepted', form);
       if (btn) btn.disabled = false;
       if (btnSpan) Utils.setText(btnSpan, original);
       btn?.classList.remove('loading');
 
-      Utils.setText(success, i18n[state.lang][messageKey] || 'Done');
+      success.dataset.state='success';
+      Utils.setText(success, '✓ '+(i18n[state.lang][messageKey] || 'Done'));
       success.classList.add('visible');
       form.reset();
 
       setTimeout(() => success.classList.remove('visible'), 6000);
     } catch (error) {
-      console.error(error);
+      console.warn('Contact request acceptance could not be confirmed');
       if (btn) btn.disabled = false;
       if (btnSpan) Utils.setText(btnSpan, original);
       btn?.classList.remove('loading');
 
+      success.dataset.state='error';
       Utils.setText(success, state.lang === 'ar'
-        ? 'تعذر إرسال الطلب الآن. يرجى المحاولة مرة أخرى.'
-        : 'Could not send the request right now. Please try again.');
+        ? 'تعذر تأكيد استلام الطلب. احتفظنا بمدخلاتك؛ تواصل معنا على 920003790 قبل إعادة الإرسال لتجنب التكرار.'
+        : 'We could not confirm receipt. Your entries are preserved; contact info@wosol.net before resending to avoid duplicates.');
       success.classList.add('visible');
-    }
+    } finally { submitting = false; form.setAttribute("aria-busy","false"); }
   });
 }
 
@@ -334,7 +359,7 @@ function initScrollReveal() {
       const quoteService = link.dataset.quoteService;
       if (tabName === 'quote' && quoteService) {
         const quoteServiceField = document.getElementById('qt-service');
-        if (quoteServiceField) quoteServiceField.value = quoteService;
+        if (quoteServiceField) { quoteServiceField.value = quoteService; quoteServiceField.dispatchEvent(new Event('change', { bubbles: true })); }
       }
 
       e.preventDefault();
@@ -350,6 +375,12 @@ function initScrollReveal() {
 
   const initialTab = params.get('contactTab');
   const quoteService = params.get('quoteService');
+  const quoteCity = params.get('quoteCity');
+  const cities = state.lang === 'ar'
+    ? { jeddah: 'جدة', riyadh: 'الرياض', makkah: 'مكة المكرمة', madinah: 'المدينة المنورة', dammam: 'الدمام' }
+    : { jeddah: 'Jeddah', riyadh: 'Riyadh', makkah: 'Makkah', madinah: 'Madinah', dammam: 'Dammam' };
+  const regionField = document.getElementById('qt-region');
+  if (regionField && cities[quoteCity]) regionField.value = cities[quoteCity];
   const activatedTab = initialTab ? activateTabByName(initialTab) : null;
 
   if (!activatedTab) {
@@ -358,7 +389,7 @@ function initScrollReveal() {
 
   if ((initialTab === 'quote' || activatedTab?.dataset.tab === 'quote') && quoteService) {
     const quoteServiceField = document.getElementById('qt-service');
-    if (quoteServiceField) quoteServiceField.value = quoteService;
+    if (quoteServiceField) { quoteServiceField.value = quoteService; quoteServiceField.dispatchEvent(new Event('change', { bubbles: true })); }
   }
 })();
 
@@ -366,9 +397,9 @@ function initScrollReveal() {
    FORMS INIT
    ══════════════════════════════════════════════════════════════ */
 function initForms() {
-  bindAsyncForm('contactForm', 'formSuccess', 'contact_success', 'طلب تواصل جديد من موقع وُسُل');
-  bindAsyncForm('complaintForm', 'complaintSuccess', 'complaint_success', 'شكوى جديدة من موقع وُسُل');
-  bindAsyncForm('quoteForm', 'quoteSuccess', 'quote_success', 'طلب عرض سعر جديد من موقع وُسُل');
+  bindAsyncForm('contactForm', 'formSuccess', 'contact_success', '[وسل | استفسار] طلب جديد');
+  bindAsyncForm('complaintForm', 'complaintSuccess', 'complaint_success', '[وسل | شكوى] طلب جديد');
+  bindAsyncForm('quoteForm', 'quoteSuccess', 'quote_success', '[وسل | عرض سعر] طلب جديد');
 }
 
 /* ══════════════════════════════════════════════════════════════

@@ -1,0 +1,181 @@
+- banner:
+  - button "Show navigation panel":
+    - generic: 
+  - link "Skip to main content":
+    - /url: "#content"
+  - img "white bwt logo microsoft bing mobile"
+  - button "More":
+    - generic: 
+  - button "Profile":
+- main [active]:
+  - heading "Top Recommendations" [level=3]
+  - generic: 
+  - generic: Set up IndexNow and boost your site’s visibility in search engines within minutes.
+  - button "Investigate Set up IndexNow and boost your site’s visibility in search engines within minutes. issue. View affected pages and details in the recommendations section.":
+    - generic: Investigate
+  - heading "Reports" [level=3]
+  - heading "Search Performance" [level=4]
+  - link "View complete report":
+    - /url: /webmasters/searchperf?siteUrl=https://www.wosol.net/
+  - checkbox "Total Clicks" [checked]:
+    - generic: Total Clicks
+    - button "Total Clicks info": 
+    - generic: "1"
+  - checkbox "Total Impressions" [checked]:
+    - generic: Total Impressions
+    - button "Total Impressions info": 
+    - generic: "53"
+  - generic: Clicks
+  - generic: Impressions
+  - group "Line chart showing Clicks,Impressions from August 12, 2026 to November 11, 2026. Clicks:1,Impressions:53. Toggle checkboxes to show the selected options in chart":
+    - img "Line chart showing Clicks,Impressions from August 12, 2026 to November 11, 2026. Clicks:1,Impressions:53. Toggle checkboxes to show the selected options in chart":
+      - img "Line chart showing Clicks,Impressions from August 12, 2026 to November 11, 2026. Clicks:1,Impressions:53. Toggle checkboxes to show the selected options in chart"
+    - table:
+      - rowgroup:
+        - row "Date October 20, 2026 October 21, 2026 October 22, 2026 October 23, 2026 October 24, 2026 October 25, 2026 October 26, 2026 October 27, 2026 October 28, 2026 October 29, 2026 October 30, 2026 October 31, 2026 November 01, 2026 November 02, 2026 November 03, 2026 November 04, 2026 November 05, 2026 November 06, 2026 November 07, 2026 November 08, 2026 November 09, 2026":
+          - columnheader "Date"
+          - columnheader "October 20, 2026"
+          - columnheader "October 21, 2026"
+          - columnheader "October 22, 2026"
+          - columnheader "October 23, 2026"
+          - columnheader "October 24, 2026"
+          - columnheader "October 25, 2026"
+          - columnheader "October 26, 2026"
+          - columnheader "October 27, 2026"
+          - columnheader "October 28, 2026"
+          - columnheader "October 29, 2026"
+          - columnheader "October 30, 2026"
+          - columnheader "October 31, 2026"
+          - columnheader "November 01, 2026"
+          - columnheader "November 02, 2026"
+          - columnheader "November 03, 2026"
+          - columnheader "November 04, 2026"
+          - columnheader "November 05, 2026"
+          - columnheader "November 06, 2026"
+          - columnheader "November 07, 2026"
+          - columnheader "November 08, 2026"
+          - columnheader "November 09, 2026"
+      - rowgroup:
+        - row "Total Clicks 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1":
+          - cell "Total Clicks"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+        - row "Total Impressions 0 0 2 0 0 3 0 1 3 2 0 2 3 2 1 7 9 2 1 6 9":
+          - cell "Total Impressions"
+          - cell "0"
+          - cell "0"
+          - cell "2"
+          - cell "0"
+          - cell "0"
+          - cell "3"
+          - cell "0"
+          - cell "1"
+          - cell "3"
+          - cell "2"
+          - cell "0"
+          - cell "2"
+          - cell "3"
+          - cell "2"
+          - cell "1"
+          - cell "7"
+          - cell "9"
+          - cell "2"
+          - cell "1"
+          - cell "6"
+          - cell "9"
+  - generic: October 20, 2026
+  - generic: Clicks
+  - generic: "0"
+  - generic: Impressions
+  - generic: "0"
+  - generic: Clicks
+  - generic: Impressions
+  - heading "Latest updates" [level=3]
+  - button "Go to previous slide" [disabled]:
+    - generic: 
+  - button "Go to next slide":
+    - generic: 
+  - status: Slide 1 of 10
+  - heading "Introducing Topics Portfolio (Beta) in AI Performance" [level=4]
+  - generic: ... Bing Webmaster Tools introduces Topics Portfolio, a beta view of sites’ presence across thematic AI Search clusters. It combines portfolio-level context with query-level opportunities for planning growth.Each topic shows Topic Size, Sites Cited, and Queries, indicating demand, competition, and activity.Topic detail pages separate existing grounding queries from Opportunity Queries where other sites appear.AI-generated classifications and ecosystem metrics are approximate, so users should treat results as directional and provide feedback through built-in controls.
+  - generic: 
+  - link:
+    - /url: https://blogs.bing.com/webmaster/2026/10/introducing-topics-portfolio-beta-in-ai-performance/
+    - generic: 
+  - heading [level=4]: Introducing AI Performance in Bing Webmaster Tools Public Preview
+  - generic: ... Now in public preview, AI Performance in Bing Webmaster Tools shows when your site is cited in AI‑generated answers across Microsoft Copilot, AI‑generated summaries in Bing, and select partner integrations. See which URLs are referenced and how citation activity changes over time.
+  - generic: 
+  - link:
+    - /url: https://blogs.bing.com/webmaster/2026/2/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview/
+    - generic: 
+  - heading [level=4]: Use your Bing indexed pages to dynamically create search ads
+  - generic: ... Dynamic search ads provide a streamlined, low-touch way to make sure customers searching on the Microsoft Advertising Network find your products or services
+  - generic: Microsoft Advertising
+  - link:
+    - /url: https://about.ads.microsoft.com/en-us/solutions/ad-products/dynamic-search-ads?s_cid=en-us-acq-onemsft-src_webmastertools-sub_evgr-flx_dsabanner
+    - generic: 
+  - heading [level=4]: "Your content, your choice: clearer preferences for training and grounding"
+  - generic: ... Microsoft is expanding web publisher choice with independent preferences for training and grounding, building on a shared industry training preference – without changing eligibility for Bing search results.
+  - generic: 
+  - link:
+    - /url: https://blogs.bing.com/search/2026/10/your-content-your-choice-clearer-preferences-for-training-and-grounding/
+    - generic: 
+  - heading [level=4]: Microsoft Clarity is Now Available!
+  - generic: ... Find out how your users interact with your website. Access click & scroll heatmaps, session replays, and insights. It's easy to get started.
+  - generic: Clarity
+  - link:
+    - /url: /webmasters/clarity?siteUrl=https://www.wosol.net/
+    - generic: 
+  - heading [level=4]: Robots.txt
+  - generic: ... Robots.txt Tester helps Webmasters to analyze their robots.txt file and highlight the issues that would prevent them from getting optimally crawled by Bing and other robots
+  - generic: 
+  - generic: Bing Webmaster Tools
+  - link:
+    - /url: /webmasters/robotstxttester?siteUrl=https://www.wosol.net/
+    - generic: 
+  - heading [level=4]: Monetize your site with Microsoft
+  - generic: ... Microsoft is piloting a new website monetization product, offering a simple way for publishers of any size to earn more from their site. Serve beautiful ads that match the look and feel of your website.
+  - generic: 
+  - generic: Bing Team
+  - link:
+    - /url: https://about.ads.microsoft.com/en-us/h/a/publishers
+    - generic: 
+  - heading [level=4]: "Your choice: Turn AI answers on or off in Bing"
+  - generic: ... When it comes to AI, we believe Bing users should have a choice in how they search. That's why Bing offers both AI-powered and traditional search experiences, including a browser extension that lets people easily turn off AI features in Bing.
+  - generic: 
+  - link:
+    - /url: https://blogs.bing.com/search/2026/11/your-choice-turn-ai-answers-on-or-off-in-bing/
+    - generic: 
+  - heading [level=4]: Are you a news site? Reach millions with Bing PubHub
+  - generic: ... Expand your site traffic by distributing contents to Bing, Edge, Windows, Office & Dynamics. Start the submission now.
+  - generic: 
+  - generic: Bing Webmaster Tools
+  - link:
+    - /url: /webmasters/pubhub?siteUrl=https://www.wosol.net/&source=bwtcard
+    - generic: 
+  - heading [level=4]: Similar Sites
+  - generic: ... Analyze your websites' backlink profile with up to two other sites backlinks. Also get data on number of referring domains and anchors to each of the selected site.
+  - generic: 
+  - generic: Bing Webmaster Tools
+  - link:
+    - /url: /webmasters/backlinks?siteUrl=https://www.wosol.net/&activePivot=similarSites
+    - generic: 

@@ -1,0 +1,300 @@
+<main class="reg-main" id="main-content">
+    <div class="container reg-layout">
+
+      <form class="reg-form" id="regForm" novalidate>
+
+        <!-- ══════════════════════════════════
+             SECTION 1 — بيانات المشترك
+        ══════════════════════════════════ -->
+        <div class="reg-card" id="section-1">
+          <div class="reg-card__header">
+            <div class="reg-card__icon-wrap">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            </div>
+            <div>
+              <h2 class="reg-card__title" data-i18n="reg_sec1_title">بيانات المشتركة</h2>
+              <p class="reg-card__subtitle" data-i18n="reg_sec1_sub">المعلومات الشخصية للمشتركة</p>
+            </div>
+            <div class="reg-card__badge">1</div>
+          </div>
+
+          <div class="reg-card__body">
+
+            <!-- الاسم الرباعي -->
+            <div class="form-group">
+              <label for="fullName">الاسم الرباعي <span class="required-star">*</span></label>
+              <input type="text" id="fullName" name="fullName" placeholder="مثال: سارة أحمد محمد العتيبي" autocomplete="name" required />
+              <span class="field-error" id="err-fullName"></span>
+            </div>
+
+            <div class="form-grid form-grid--2">
+              <div class="form-group">
+                <label for="idNumber">رقم هوية المشتركة <span class="required-star">*</span></label>
+                <input type="text" id="idNumber" name="idNumber" placeholder="10 أرقام" maxlength="10" inputmode="numeric" required />
+                <span class="field-error" id="err-idNumber"></span>
+              </div>
+              <div class="form-group">
+                <label for="studentPhone">رقم جوال المشتركة <span class="required-star">*</span></label>
+                <input type="tel" id="studentPhone" name="studentPhone" placeholder="مثال: 0536060003" maxlength="10" inputmode="numeric" autocomplete="tel" required />
+                <span class="field-hint">يبدأ بـ 05 ويتكون من 10 أرقام</span>
+                <span class="field-error" id="err-studentPhone"></span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="studentEmail">البريد الإلكتروني <span class="required-star">*</span></label>
+              <input type="email" id="studentEmail" name="studentEmail" placeholder="example@email.com" autocomplete="email" required />
+              <span class="field-error" id="err-studentEmail"></span>
+            </div>
+
+            <div class="reg-divider"></div>
+
+            <!-- ولي الأمر / شخص التواصل -->
+            <div class="field-group-label">
+              <span class="field-group-label__icon">👤</span>
+              <span>ولي الأمر / شخص التواصل</span>
+            </div>
+            <div class="form-grid form-grid--2">
+              <div class="form-group">
+                <label for="guardianName">اسم ولي الأمر / شخص التواصل <span class="required-star">*</span></label>
+                <input type="text" id="guardianName" name="guardianName" placeholder="الاسم الثلاثي — مثال: أحمد محمد العتيبي" required />
+                <span class="field-error" id="err-guardianName"></span>
+              </div>
+              <div class="form-group">
+                <label for="relationship">صلة القرابة <span class="required-star">*</span></label>
+                <div class="select-wrap">
+                  <select id="relationship" name="relationship" required>
+                    <option value="" disabled selected>-- اختر --</option>
+                    <option value="father">الأب</option>
+                    <option value="mother">الأم</option>
+                    <option value="brother">الأخ</option>
+                    <option value="sister">الأخت</option>
+                    <option value="husband">الزوج</option>
+                  </select>
+                </div>
+                <span class="field-error" id="err-relationship"></span>
+              </div>
+            </div>
+            <div class="form-grid form-grid--2">
+              <div class="form-group">
+                <label for="guardianId">رقم هوية ولي الأمر / شخص التواصل <span class="required-star">*</span></label>
+                <input type="text" id="guardianId" name="guardianId" placeholder="10 أرقام" maxlength="10" inputmode="numeric" required />
+                <span class="field-error" id="err-guardianId"></span>
+              </div>
+              <div class="form-group">
+                <label for="guardianPhone">رقم جوال ولي الأمر / شخص التواصل <span class="required-star">*</span></label>
+                <input type="tel" id="guardianPhone" name="guardianPhone" placeholder="مثال: 0536060003" maxlength="10" inputmode="numeric" required />
+                <span class="field-hint">يبدأ بـ 05 ويتكون من 10 أرقام</span>
+                <span class="field-error" id="err-guardianPhone"></span>
+              </div>
+            </div>
+
+            <div class="reg-divider"></div>
+
+            <!-- العنوان -->
+            <div class="field-group-label">
+              <span class="field-group-label__icon">📍</span>
+              <span>العنوان</span>
+            </div>
+            <div class="form-group">
+              <label for="district">الحي <span class="required-star">*</span></label>
+              <div class="select-wrap">
+                <select id="district" name="district" required>
+                  <option value="" disabled selected>-- اختر الحي --</option>
+                  <option value="الشراع">الشراع</option>
+                  <option value="الأمواج">الأمواج</option>
+                  <option value="الفردوس">الفردوس</option>
+                  <option value="اللؤلؤ">اللؤلؤ</option>
+                  <option value="الياقوت">الياقوت</option>
+                  <option value="الصواري">الصواري</option>
+                  <option value="الزمرد">الزمرد</option>
+                  <option value="الفنار">الفنار</option>
+                  <option value="البحيرات">البحيرات</option>
+                  <option value="حي النور">حي النور</option>
+                  <option value="الأصالة">الأصالة</option>
+                  <option value="ابحر الجنوبية">ابحر الجنوبية</option>
+                  <option value="ضاحية الجوهرة">ضاحية الجوهرة</option>
+                  <option value="المنارات">المنارات</option>
+                </select>
+              </div>
+              <span class="field-error" id="err-district"></span>
+            </div>
+            <div class="form-group">
+              <label for="address">العنوان الوطني المختصر <span class="required-star">*</span></label>
+              <input type="text" id="address" name="address" placeholder="اكتب عنوانك الوطني" required />
+              <span class="field-error" id="err-address"></span>
+            </div>
+            <div class="form-group">
+              <label for="locationUrl">رابط الموقع <span class="required-star">*</span></label>
+              <input type="url" id="locationUrl" name="locationUrl" placeholder="https://maps.app.goo.gl/..." inputmode="url" required />
+              <span class="field-hint">افتح موقع السكن في تطبيق قوقل ماب، انسخ الرابط والصقه هنا</span>
+              <span class="field-error" id="err-locationUrl"></span>
+            </div>
+
+          </div>
+        </div>
+
+
+        <!-- ══════════════════════════════════
+             SECTION 2 — بيانات الاشتراك
+        ══════════════════════════════════ -->
+        <div class="reg-card" id="section-2">
+          <div class="reg-card__header">
+            <div class="reg-card__icon-wrap">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+            </div>
+            <div>
+              <h2 class="reg-card__title" data-i18n="reg_sec2_title">بيانات الاشتراك</h2>
+              <p class="reg-card__subtitle" data-i18n="reg_sec2_sub">تفاصيل الجهة والخدمة المطلوبة</p>
+            </div>
+            <div class="reg-card__badge">2</div>
+          </div>
+
+          <div class="reg-card__body">
+            <div class="form-group">
+              <label for="universityName">اسم الجامعة <span class="required-star">*</span></label>
+              <div class="select-wrap">
+                <select id="universityName" name="universityName" required>
+                  <option value="" disabled selected>-- اختر الجامعة --</option>
+                  <option value="kau">جامعة الملك عبدالعزيز - السليمانية</option>
+                  <option value="uj">جامعة جدة - الفيصلية</option>
+                </select>
+              </div>
+              <span class="field-error" id="err-universityName"></span>
+            </div>
+
+            <div class="form-grid form-grid--3">
+              <div class="form-group">
+                <label for="subscriptionType">طريقة السداد <span class="required-star">*</span></label>
+                <div class="select-wrap">
+                  <select id="subscriptionType" name="subscriptionType" required>
+                    <option value="" disabled selected>-- اختر طريقة السداد --</option>
+                    <option value="month">شهري</option>
+                    <option value="term">ترم</option>
+                  </select>
+                </div>
+                <span class="field-error" id="err-subscriptionType"></span>
+              </div>
+              <div class="form-group">
+                <label for="tripType">الاتجاه <span class="required-star">*</span></label>
+                <div class="select-wrap">
+                  <select id="tripType" name="tripType" required>
+                    <option value="" disabled selected>-- اختر الاتجاه --</option>
+                    <option value="both">ذهاب وعودة - اتجاهين</option>
+                    <option value="go">ذهاب فقط - اتجاه واحد</option>
+                    <option value="return">عودة فقط - اتجاه واحد</option>
+                  </select>
+                </div>
+                <span class="field-error" id="err-tripType"></span>
+              </div>
+              <div class="form-group">
+                <label for="startDate">تاريخ الاشتراك <span class="required-star">*</span></label>
+                <input type="date" id="startDate" name="startDate" required />
+                <span class="field-error" id="err-startDate"></span>
+                <div class="sub-end-hint" id="subEndHint" hidden>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                  <span id="subEndHintText"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ══════════════════════════════════
+             SECTION 3 — الشروط والأحكام
+        ══════════════════════════════════ -->
+        <div class="reg-card reg-card--terms" id="section-3">
+          <div class="reg-card__header">
+            <div class="reg-card__icon-wrap">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+            </div>
+            <div>
+              <h2 class="reg-card__title" data-i18n="reg_sec4_title">الشروط والأحكام</h2>
+              <p class="reg-card__subtitle" data-i18n="reg_sec4_sub">يرجى القراءة بعناية والموافقة قبل الإرسال</p>
+            </div>
+            <div class="reg-card__badge">3</div>
+          </div>
+
+          <div class="reg-card__body">
+            <div class="terms-box">
+              <div class="terms-content" id="termsContent">
+                <h4>الشروط والأحكام</h4>
+
+                <h5>تمهيد</h5>
+                <p>تقدم مؤسسة وُسُل النقل – WOSOL Transportation، المرخصة من الهيئة العامة للنقل برقم (35/00001075)، خدمات النقل التعليمي ونقل منسوبي الجهات من مقر السكن إلى الوجهة المتفق عليها والعودة، وفق بيانات الاشتراك.</p>
+
+                <h5>شروط الاشتراك</h5>
+                <ol class="terms-list">
+                  <li>مدة العقد سنة دراسية واحدة وفق الفترة المحددة في نموذج الاشتراك.</li>
+                  <li>تُدفع رسوم الاشتراك الشهري مقدمًا في بداية كل شهر ميلادي. وفي حال عدم السداد حتى نهاية اليوم الثالث من الشهر، يحق للطرف الأول تعليق الخدمة بعد إشعار المشتركة، وتُستأنف بعد السداد.</li>
+                  <li>يُحتسب الاشتراك بالشهر الميلادي كاملًا وليس بعدد الأيام، وكل شهر مستقل عن الشهر الذي يليه.</li>
+                  <li>تستحق رسوم الشهر كاملة عند استخدام الخدمة ثلاثة أيام خلال الشهر، سواء كانت متتالية أم متفرقة.</li>
+                  <li>عند الرغبة في عدم الاشتراك في شهر معين، يجب إبلاغ خدمة العملاء عبر وسيلة التواصل المعتمدة قبل بداية ذلك الشهر بيومين على الأقل.</li>
+                  <li>مدة انتظار السائق ثلاث دقائق في رحلة الذهاب وخمس عشرة دقيقة في رحلة العودة، وبعد انتهائها يحق للسائق متابعة الرحلة.</li>
+                  <li>تُرفع الملاحظات وطلبات تعديل الموعد أو المسار إلى خدمة العملاء، ولا يجوز إشغال السائق أثناء القيادة أو مطالبته بتغيير المسار دون موافقة الطرف الأول.</li>
+                  <li>تلتزم المشتركة بالمحافظة على المركبة وتجهيزاتها واحترام السائق والركاب وحقوق الغير، وتتحمل قيمة الأضرار التي يثبت تسببها بها عمدًا أو نتيجة إهمال.</li>
+                  <li>تُحدد رسوم كل فصل دراسي بصورة مستقلة، ويُبلّغ السعر للمشتركة قبل بداية الفصل، ولا يسري إلا بعد اطلاعها عليه وقبوله.</li>
+                  <li>تلتزم المشتركة بالحضور في نقطة التجمع والموعد المحددين، ولا يترتب على التأخر أو الغياب استرداد جزء من الرسوم.</li>
+                  <li>يجوز تعديل نقطة التجمع أو الوجهة أو المواعيد بعد موافقة الطرف الأول، وقد تتغير الرسوم بحسب المسافة أو مسار التشغيل بعد إبلاغ المشتركة.</li>
+                  <li>لا يكون الطرف الأول مسؤولًا عن التأخير أو التعطل الناتج عن الحوادث أو إغلاق الطرق أو الأحوال الجوية أو القرارات الرسمية أو الظروف الخارجة عن إرادته، مع إشعار المشتركة متى أمكن.</li>
+                  <li>تُستخدم بيانات المشتركة لأغراض تنفيذ خدمة النقل والتواصل والفوترة وفق الأنظمة المعمول بها في المملكة العربية السعودية.</li>
+                </ol>
+
+                <p>يُعد تحديد خيار الموافقة وإرسال النموذج إقرارًا إلكترونيًا بقراءة هذه الشروط وفهمها وقبولها.</p>
+              </div>
+              <div class="terms-scroll-indicator" id="termsScrollIndicator">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+              <span data-i18n="reg_terms_scroll">اسحب للأسفل لقراءة كامل الشروط</span>
+              </div>
+            </div>
+
+            <label class="terms-checkbox" id="termsLabel">
+              <input type="checkbox" id="agreeTerms" name="agreeTerms" required />
+              <span class="terms-checkbox__box">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" width="14" height="14" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <span class="terms-checkbox__text">
+                أقر بأنني قرأت شروط وأحكام الاشتراك وفهمتها، وأوافق عليها وعلى الالتزام بما ورد فيها،
+                وأوافق على استخدام بياناتي لتنفيذ خدمة النقل والتواصل والفوترة،
+                ويُعد إرسال النموذج موافقة إلكترونية مني.
+              </span>
+            </label>
+            <span class="field-error" id="err-terms"></span>
+
+          </div>
+        </div>
+
+        <!-- ══════════════════════════════════
+             زر الإرسال
+        ══════════════════════════════════ -->
+        <div class="reg-submit">
+          <a href="/" class="btn btn--outline reg-submit__back">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><polyline points="15 18 9 12 15 6"/></svg>
+            العودة للرئيسية
+          </a>
+          <button type="submit" class="btn btn--primary reg-submit__btn" id="submitBtn">
+            <span id="submitBtnText" data-i18n="reg_submit_btn">إرسال طلب التسجيل</span>
+            <svg id="submitArrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            <svg id="submitSpinner" class="spinner" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" hidden><path d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0"/></svg>
+          </button>
+        </div>
+
+      </form>
+
+      <!-- Success Modal -->
+      <div class="success-overlay" id="successOverlay" hidden>
+        <div class="success-modal">
+          <div class="success-modal__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          </div>
+          <h2 class="success-modal__title" data-i18n="reg_success_title">تم إرسال طلبك بنجاح!</h2>
+          <p class="success-modal__desc" data-i18n="reg_success_desc">جارٍ مراجعة الطلب من قبل فريق العمل، وسيتم الرد عليك في أسرع وقت.</p>
+          <div class="success-modal__ref">
+            للتواصل والاستفسارات: <strong>0536060003</strong>
+          </div>
+          <a href="/" class="btn btn--primary">العودة للصفحة الرئيسية</a>
+        </div>
+      </div>
+
+    </div>
+  </main>
