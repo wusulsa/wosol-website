@@ -6,11 +6,21 @@
   let enabled=false,loaded=false;
   const allowedForms=['quoteForm','contactForm','complaintForm'];
   const safePath=location.origin+location.pathname; // Never query/hash, names, phones or free text.
+  // Preserve source attribution without sending referrer paths, queries or fragments.
+  // Read only in memory; analytics still loads only after the visitor opts in.
+  let safeReferrer='';
+  try {
+    const ref=new URL(document.referrer);
+    if (['https:','http:'].includes(ref.protocol) && !ref.username && !ref.password &&
+        ref.hostname.includes('.') && !/^[\d.]+$/.test(ref.hostname) &&
+        !/\.(local|localhost|internal)$/i.test(ref.hostname)) safeReferrer=ref.origin+'/';
+  } catch {}
+  const allowedServices=['students','employees','workforce','private','events','airport','intercity','tourism','umrah','executive','vehicle_only','driver_only','specialized'];
   function emit(name,form){
     if(!enabled)return;
     const id=allowedForms.includes(form?.id)?form.id:'none';
-    const service=['students','employees','private','specialized'].includes(form?.querySelector('#qt-service')?.value)?form.querySelector('#qt-service').value:'unspecified';
-    window.gtag('event',name,{form_id:id,service,language:document.documentElement.lang,page_location:safePath,page_referrer:'',page_title:document.title});
+    const service=allowedServices.includes(form?.querySelector('#qt-service')?.value)?form.querySelector('#qt-service').value:'unspecified';
+    window.gtag('event',name,{form_id:id,service,language:document.documentElement.lang,page_location:safePath,page_referrer:safeReferrer,page_title:document.title});
   }
   function enable(){
     enabled=true;
@@ -18,7 +28,7 @@
     window.dataLayer=window.dataLayer||[];
     window.gtag=function(){window.dataLayer.push(arguments);};
     window.gtag('js',new Date());
-    window.gtag('config',config.measurementId,{send_page_view:false,allow_google_signals:false,allow_ad_personalization_signals:false,page_location:safePath,page_referrer:''});
+    window.gtag('config',config.measurementId,{send_page_view:false,allow_google_signals:false,allow_ad_personalization_signals:false,page_location:safePath,page_referrer:safeReferrer});
     const script=document.createElement('script');script.async=true;script.src='https://www.googletagmanager.com/gtag/js?id='+config.measurementId;document.head.append(script);
     emit('page_view');
   }
