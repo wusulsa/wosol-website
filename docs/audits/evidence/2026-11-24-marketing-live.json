@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://www.wosol.net/",
+    "status": 200,
+    "matches": true,
+    "sha256": "4bdbcd6139b3df5923c5287507677e2db692c1af28bc168f08f18e569bc5efa4"
+  },
+  {
+    "url": "https://www.wosol.net/en/",
+    "status": 200,
+    "matches": true,
+    "sha256": "8b682329123bf3ccf7b15552d6e28796af361a7906c0280f8d7e1fee70673b35"
+  },
+  {
+    "url": "https://www.wosol.net/corporate-transport-saudi-arabia",
+    "status": 200,
+    "matches": true,
+    "sha256": "bb2c18688f5efb67d239def95af290d2527889dcdac745d2bdf9810f825f3e3e"
+  },
+  {
+    "url": "https://www.wosol.net/en/corporate-transport-saudi-arabia/",
+    "status": 200,
+    "matches": true,
+    "sha256": "b38ca34b1e390a8899ecae080740b6f8a0728d4c0eb35218b21570c302a2a203"
+  }
+]
