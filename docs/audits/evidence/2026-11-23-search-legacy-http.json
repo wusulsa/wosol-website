@@ -1,0 +1,68 @@
+[
+  {
+    "url": "https://www.wosol.net/?page_id=1447",
+    "status": 200,
+    "location": null,
+    "cache": null
+  },
+  {
+    "url": "https://www.wosol.net/?page_id=754",
+    "status": 301,
+    "location": "https://www.wosol.net/renewal.html",
+    "cache": null
+  },
+  {
+    "url": "https://www.wosol.net/?page_id=1030",
+    "status": 410,
+    "location": null,
+    "cache": null
+  },
+  {
+    "url": "https://www.wosol.net/?author=1",
+    "status": 410,
+    "location": null,
+    "cache": null
+  },
+  {
+    "url": "https://www.wosol.net/product/edu11/",
+    "status": 301,
+    "location": "https://www.wosol.net/king-abdulaziz-university-transport",
+    "cache": null
+  },
+  {
+    "url": "https://www.wosol.net/product/edu3/",
+    "status": 301,
+    "location": "https://www.wosol.net/king-abdulaziz-university-transport",
+    "cache": null
+  },
+  {
+    "url": "https://www.wosol.net/product/edu33/",
+    "status": 301,
+    "location": "https://www.wosol.net/king-abdulaziz-university-transport",
+    "cache": null
+  },
+  {
+    "url": "https://www.wosol.net/about",
+    "status": 404,
+    "location": null,
+    "cache": null
+  },
+  {
+    "url": "https://www.wosol.net/faq",
+    "status": 404,
+    "location": null,
+    "cache": null
+  },
+  {
+    "url": "https://www.wosol.net/my-account",
+    "status": 404,
+    "location": null,
+    "cache": null
+  },
+  {
+    "url": "https://www.wosol.net/wp-content/uploads/2022/04/%D8%A8%D8%B1%D9%88%D9%81%D8%A7%D9%8A%D9%84-%D9%84%D9%85%D9%88%D9%82%D8%B9-%D9%88%D8%B3%D9%84-%D8%A7%D9%84%D9%86%D9%82%D9%84-%D8%AC%D8%AF%D8%A9-%D9%85%D9%83%D8%A9-2022.pdf",
+    "status": 301,
+    "location": "https://www.wosol.net/assets/RUH-Jed-AR.EN-2026-06.pdf",
+    "cache": null
+  }
+]
