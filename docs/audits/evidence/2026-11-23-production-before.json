@@ -1,0 +1,22 @@
+[
+  {
+    "file": "employee-transport-jeddah.html",
+    "match": true
+  },
+  {
+    "file": "employee-transport-riyadh.html",
+    "match": true
+  },
+  {
+    "file": "index.html",
+    "match": true
+  },
+  {
+    "file": "king-abdulaziz-university-transport.html",
+    "match": true
+  },
+  {
+    "file": "en/employee-transport-riyadh/index.html",
+    "match": true
+  }
+]
