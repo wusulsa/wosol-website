@@ -1,0 +1,230 @@
+{
+  "checkedAt": "2026-11-23T22:47:57.280141+00:00",
+  "files": [
+    {
+      "file": "airport-hotel-transfers.html",
+      "url": "https://www.wosol.net/airport-hotel-transfers",
+      "status": 200,
+      "matches": true,
+      "xRobots": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "driver-only-services.html",
+      "url": "https://www.wosol.net/driver-only-services",
+      "status": 200,
+      "matches": true,
+      "xRobots": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "event-conference-transport.html",
+      "url": "https://www.wosol.net/event-conference-transport",
+      "status": 200,
+      "matches": true,
+      "xRobots": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "executive-vip-transport.html",
+      "url": "https://www.wosol.net/executive-vip-transport",
+      "status": 200,
+      "matches": true,
+      "xRobots": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "index.html",
+      "url": "https://www.wosol.net/",
+      "status": 200,
+      "matches": true,
+      "xRobots": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "intercity-group-transport.html",
+      "url": "https://www.wosol.net/intercity-group-transport",
+      "status": 200,
+      "matches": true,
+      "xRobots": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "king-abdulaziz-university-transport.html",
+      "url": "https://www.wosol.net/king-abdulaziz-university-transport",
+      "status": 200,
+      "matches": true,
+      "xRobots": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "private-day-trips.html",
+      "url": "https://www.wosol.net/private-day-trips",
+      "status": 200,
+      "matches": true,
+      "xRobots": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "tourism-transport.html",
+      "url": "https://www.wosol.net/tourism-transport",
+      "status": 200,
+      "matches": true,
+      "xRobots": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "umrah-visitor-transport.html",
+      "url": "https://www.wosol.net/umrah-visitor-transport",
+      "status": 200,
+      "matches": true,
+      "xRobots": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "vehicle-rental-without-driver.html",
+      "url": "https://www.wosol.net/vehicle-rental-without-driver",
+      "status": 200,
+      "matches": true,
+      "xRobots": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "workforce-project-transport.html",
+      "url": "https://www.wosol.net/workforce-project-transport",
+      "status": 200,
+      "matches": true,
+      "xRobots": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "en/airport-hotel-transfers/index.html",
+      "url": "https://www.wosol.net/en/airport-hotel-transfers/",
+      "status": 200,
+      "matches": true,
+      "xRobots": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "en/driver-only-services/index.html",
+      "url": "https://www.wosol.net/en/driver-only-services/",
+      "status": 200,
+      "matches": true,
+      "xRobots": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "en/event-conference-transport/index.html",
+      "url": "https://www.wosol.net/en/event-conference-transport/",
+      "status": 200,
+      "matches": true,
+      "xRobots": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "en/executive-vip-transport/index.html",
+      "url": "https://www.wosol.net/en/executive-vip-transport/",
+      "status": 200,
+      "matches": true,
+      "xRobots": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "en/intercity-group-transport/index.html",
+      "url": "https://www.wosol.net/en/intercity-group-transport/",
+      "status": 200,
+      "matches": true,
+      "xRobots": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "en/king-abdulaziz-university-transport/index.html",
+      "url": "https://www.wosol.net/en/king-abdulaziz-university-transport/",
+      "status": 200,
+      "matches": true,
+      "xRobots": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "en/private-day-trips/index.html",
+      "url": "https://www.wosol.net/en/private-day-trips/",
+      "status": 200,
+      "matches": true,
+      "xRobots": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "en/tourism-transport/index.html",
+      "url": "https://www.wosol.net/en/tourism-transport/",
+      "status": 200,
+      "matches": true,
+      "xRobots": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "en/umrah-visitor-transport/index.html",
+      "url": "https://www.wosol.net/en/umrah-visitor-transport/",
+      "status": 200,
+      "matches": true,
+      "xRobots": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "en/vehicle-rental-without-driver/index.html",
+      "url": "https://www.wosol.net/en/vehicle-rental-without-driver/",
+      "status": 200,
+      "matches": true,
+      "xRobots": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "en/workforce-project-transport/index.html",
+      "url": "https://www.wosol.net/en/workforce-project-transport/",
+      "status": 200,
+      "matches": true,
+      "xRobots": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "en/index.html",
+      "url": "https://www.wosol.net/en/",
+      "status": 200,
+      "matches": true,
+      "xRobots": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "css/service-planning-20261124.css",
+      "url": "https://www.wosol.net/css/service-planning-20261124.css",
+      "status": 200,
+      "matches": true,
+      "xRobots": null,
+      "cacheControl": null,
+      "age": null
+    }
+  ]
+}
