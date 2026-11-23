@@ -1,3 +1,13 @@
+# Approved legacy routes (2026-11-24), wosol.net only
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^about/?$ https://www.wosol.net/#about [R=301,L,NE,QSD]
+RewriteRule ^my-account/?$ https://www.wosol.net/subscriber-support.html [R=301,L,QSD]
+RewriteRule ^faq/?$ - [G,L]
+RewriteCond %{QUERY_STRING} ^page_id=1447$
+RewriteRule ^$ https://www.wosol.net/?contactTab=complaint#contact [R=301,L,NE]
+</IfModule>
+
 # Retired historical articles: owner approved (2026-10-28)
 <IfModule mod_rewrite.c>
 RewriteEngine On
@@ -144,11 +154,12 @@ Options -Indexes
 # Legacy company profile -> approved 2026 profile (2026-10-26)
 <IfModule mod_rewrite.c>
   RewriteEngine On
-  RewriteRule ^wp-content/uploads/2022/04/بروفايل-لموقع-وسل-النقل-جدة-مكة-2022\.pdf$ https://www.wosol.net/assets/RUH-Jed-AR.EN-2026-06.pdf [R=301,L]
-</IfModule>
-
-# Legacy university subscriptions: owner-confirmed destination (2026-10-26)
-<IfModule mod_rewrite.c>
-  RewriteEngine On
-  RewriteRule ^product/(edu11|edu3|edu33)/?$ https://www.wosol.net/king-abdulaziz-university-transport [R=301,L]
-</IfModule>
+    RewriteRule ^wp-content/uploads/2022/04/بروفايل-لموقع-وسل-النقل-جدة-مكة-2022\.pdf$ https://www.wosol.net/assets/RUH-Jed-AR.EN-2026-06.pdf [R=301,L]
+    </IfModule>
+    
+    # Legacy university subscriptions: owner-confirmed destination (2026-10-26)
+    <IfModule mod_rewrite.c>
+      RewriteEngine On
+        RewriteRule ^product/(edu11|edu3|edu33)/?$ https://www.wosol.net/king-abdulaziz-university-transport [R=301,L]
+        </IfModule>
+        
