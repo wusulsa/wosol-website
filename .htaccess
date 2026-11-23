@@ -1,3 +1,11 @@
+# Retired legacy offers, gallery and cart (2026-11-24)
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^(www\.)?wosol\.net$ [NC]
+RewriteCond %{QUERY_STRING} ^page_id=(1140|1128|155)$
+RewriteRule ^$ - [G,L]
+</IfModule>
+
 # Approved legacy routes (2026-11-24), wosol.net only
 <IfModule mod_rewrite.c>
 RewriteEngine On
