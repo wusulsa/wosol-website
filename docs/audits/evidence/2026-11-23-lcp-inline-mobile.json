@@ -1,0 +1,680 @@
+[
+  {
+    "mode": "responsive",
+    "lang": "ar",
+    "run": 1,
+    "variant": "baseline",
+    "width": 390,
+    "lcpMs": 1432,
+    "lcpTag": "IMG:signature-hero__art",
+    "fcpMs": 1016,
+    "loadMs": 2350.100000023842,
+    "hero": "http://127.0.0.1:8784/assets/profile-2026/hero-1600-fast.webp",
+    "resources": [
+      {
+        "url": "http://127.0.0.1:8784/assets/profile-2026/hero-1600-fast.webp",
+        "duration": 1172.5,
+        "transferSize": 57582
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-13.woff2",
+        "duration": 482.59999990463257,
+        "transferSize": 9748
+      },
+      {
+        "url": "http://127.0.0.1:8784/css/approved-preview.c74345c59817.css",
+        "duration": 701.7999999523163,
+        "transferSize": 19344
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/profile-2026/logo-brand.svg",
+        "duration": 1771.6000000238419,
+        "transferSize": 89315
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/profile-2026/approved-cartoon-bus.webp",
+        "duration": 724.7000000476837,
+        "transferSize": 21434
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-8.woff2",
+        "duration": 673.8000000715256,
+        "transferSize": 10556
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-14.woff2",
+        "duration": 722,
+        "transferSize": 10200
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-11.woff2",
+        "duration": 767.7000000476837,
+        "transferSize": 9324
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-10.woff2",
+        "duration": 815.5,
+        "transferSize": 10296
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-3.woff2",
+        "duration": 1237.8999999761581,
+        "transferSize": 48556
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-12.woff2",
+        "duration": 1108.2000000476837,
+        "transferSize": 10884
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-9.woff2",
+        "duration": 1153.7000000476837,
+        "transferSize": 9232
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-15.woff2",
+        "duration": 1153.1000000238419,
+        "transferSize": 9240
+      }
+    ]
+  },
+  {
+    "mode": "responsive",
+    "lang": "ar",
+    "run": 1,
+    "variant": "optimized",
+    "width": 390,
+    "lcpMs": 1308,
+    "lcpTag": "IMG:signature-hero__art",
+    "fcpMs": 476,
+    "loadMs": 2178,
+    "hero": "http://127.0.0.1:8784/assets/profile-2026/hero-1600-fast.webp",
+    "resources": [
+      {
+        "url": "http://127.0.0.1:8784/assets/profile-2026/hero-1600-fast.webp",
+        "duration": 909.6999999284744,
+        "transferSize": 57582
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/profile-2026/logo-brand.svg",
+        "duration": 1581.0999999046326,
+        "transferSize": 89315
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/profile-2026/approved-cartoon-bus.webp",
+        "duration": 609.4000000953674,
+        "transferSize": 21434
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-8.woff2",
+        "duration": 495.5,
+        "transferSize": 10556
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-11.woff2",
+        "duration": 581.2000000476837,
+        "transferSize": 9324
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-10.woff2",
+        "duration": 654.6999999284744,
+        "transferSize": 10296
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-13.woff2",
+        "duration": 947.6999999284744,
+        "transferSize": 9748
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-15.woff2",
+        "duration": 991,
+        "transferSize": 9240
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-12.woff2",
+        "duration": 1043.8999999761581,
+        "transferSize": 10884
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-9.woff2",
+        "duration": 1087,
+        "transferSize": 9232
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-14.woff2",
+        "duration": 1134.1000000238419,
+        "transferSize": 10200
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-3.woff2",
+        "duration": 1647.7000000476837,
+        "transferSize": 48556
+      }
+    ]
+  },
+  {
+    "mode": "responsive",
+    "lang": "ar",
+    "run": 2,
+    "variant": "baseline",
+    "width": 390,
+    "lcpMs": 1332,
+    "lcpTag": "IMG:signature-hero__art",
+    "fcpMs": 884,
+    "loadMs": 2137.600000023842,
+    "hero": "http://127.0.0.1:8784/assets/profile-2026/hero-1600-fast.webp",
+    "resources": [
+      {
+        "url": "http://127.0.0.1:8784/assets/profile-2026/hero-1600-fast.webp",
+        "duration": 1057.3999999761581,
+        "transferSize": 57582
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-13.woff2",
+        "duration": 449.2999999523163,
+        "transferSize": 9748
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/profile-2026/approved-cartoon-bus.webp",
+        "duration": 596,
+        "transferSize": 21434
+      },
+      {
+        "url": "http://127.0.0.1:8784/css/approved-preview.c74345c59817.css",
+        "duration": 609.3999999761581,
+        "transferSize": 19344
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/profile-2026/logo-brand.svg",
+        "duration": 1709,
+        "transferSize": 89315
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-8.woff2",
+        "duration": 613.5,
+        "transferSize": 10556
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-14.woff2",
+        "duration": 703.2000000476837,
+        "transferSize": 10200
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-11.woff2",
+        "duration": 745.7000000476837,
+        "transferSize": 9324
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-10.woff2",
+        "duration": 795.2999999523163,
+        "transferSize": 10296
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-3.woff2",
+        "duration": 1220,
+        "transferSize": 48556
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-12.woff2",
+        "duration": 1011.6000000238419,
+        "transferSize": 10884
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-9.woff2",
+        "duration": 1130.9000000953674,
+        "transferSize": 9232
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-15.woff2",
+        "duration": 1132.5,
+        "transferSize": 9240
+      }
+    ]
+  },
+  {
+    "mode": "responsive",
+    "lang": "ar",
+    "run": 2,
+    "variant": "optimized",
+    "width": 390,
+    "lcpMs": 1184,
+    "lcpTag": "IMG:signature-hero__art",
+    "fcpMs": 332,
+    "loadMs": 1987.2999999523163,
+    "hero": "http://127.0.0.1:8784/assets/profile-2026/hero-1600-fast.webp",
+    "resources": [
+      {
+        "url": "http://127.0.0.1:8784/assets/profile-2026/hero-1600-fast.webp",
+        "duration": 910.3000000715256,
+        "transferSize": 57582
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/profile-2026/logo-brand.svg",
+        "duration": 1582.1000000238419,
+        "transferSize": 89315
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/profile-2026/approved-cartoon-bus.webp",
+        "duration": 611.2999999523163,
+        "transferSize": 21434
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-8.woff2",
+        "duration": 489.2000000476837,
+        "transferSize": 10556
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-11.woff2",
+        "duration": 534.7000000476837,
+        "transferSize": 9324
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-10.woff2",
+        "duration": 689.6000000238419,
+        "transferSize": 10296
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-13.woff2",
+        "duration": 941,
+        "transferSize": 9748
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-15.woff2",
+        "duration": 985,
+        "transferSize": 9240
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-12.woff2",
+        "duration": 1038.0999999046326,
+        "transferSize": 10884
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-9.woff2",
+        "duration": 1081.1999999284744,
+        "transferSize": 9232
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-14.woff2",
+        "duration": 1129.5,
+        "transferSize": 10200
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-3.woff2",
+        "duration": 1644.8000000715256,
+        "transferSize": 48556
+      }
+    ]
+  },
+  {
+    "mode": "responsive",
+    "lang": "ar",
+    "run": 3,
+    "variant": "baseline",
+    "width": 390,
+    "lcpMs": 1332,
+    "lcpTag": "IMG:signature-hero__art",
+    "fcpMs": 868,
+    "loadMs": 2239.8000000715256,
+    "hero": "http://127.0.0.1:8784/assets/profile-2026/hero-1600-fast.webp",
+    "resources": [
+      {
+        "url": "http://127.0.0.1:8784/assets/profile-2026/hero-1600-fast.webp",
+        "duration": 1057.8999999761581,
+        "transferSize": 57582
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-13.woff2",
+        "duration": 450.40000009536743,
+        "transferSize": 9748
+      },
+      {
+        "url": "http://127.0.0.1:8784/css/approved-preview.c74345c59817.css",
+        "duration": 587,
+        "transferSize": 19344
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/profile-2026/logo-brand.svg",
+        "duration": 1710.4000000953674,
+        "transferSize": 89315
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/profile-2026/approved-cartoon-bus.webp",
+        "duration": 610.1000000238419,
+        "transferSize": 21434
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-8.woff2",
+        "duration": 634.1000000238419,
+        "transferSize": 10556
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-14.woff2",
+        "duration": 723,
+        "transferSize": 10200
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-11.woff2",
+        "duration": 765.0999999046326,
+        "transferSize": 9324
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-10.woff2",
+        "duration": 815.5,
+        "transferSize": 10296
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-3.woff2",
+        "duration": 1238.8000000715256,
+        "transferSize": 48556
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-12.woff2",
+        "duration": 1030.6000000238419,
+        "transferSize": 10884
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-9.woff2",
+        "duration": 1153,
+        "transferSize": 9232
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-15.woff2",
+        "duration": 1154.8999999761581,
+        "transferSize": 9240
+      }
+    ]
+  },
+  {
+    "mode": "responsive",
+    "lang": "ar",
+    "run": 3,
+    "variant": "optimized",
+    "width": 390,
+    "lcpMs": 1572,
+    "lcpTag": "IMG:signature-hero__art",
+    "fcpMs": 324,
+    "loadMs": 2231.600000023842,
+    "hero": "http://127.0.0.1:8784/assets/profile-2026/hero-1600-fast.webp",
+    "resources": [
+      {
+        "url": "http://127.0.0.1:8784/assets/profile-2026/hero-1600-fast.webp",
+        "duration": 1284.4000000953674,
+        "transferSize": 57582
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/profile-2026/logo-brand.svg",
+        "duration": 1727.7000000476837,
+        "transferSize": 89315
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/profile-2026/approved-cartoon-bus.webp",
+        "duration": 674.0999999046326,
+        "transferSize": 21434
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-8.woff2",
+        "duration": 562.2000000476837,
+        "transferSize": 10556
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-11.woff2",
+        "duration": 606.4000000953674,
+        "transferSize": 9324
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-10.woff2",
+        "duration": 721.1000000238419,
+        "transferSize": 10296
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-13.woff2",
+        "duration": 1014.2000000476837,
+        "transferSize": 9748
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-15.woff2",
+        "duration": 1058.5,
+        "transferSize": 9240
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-12.woff2",
+        "duration": 1152.2999999523163,
+        "transferSize": 10884
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-9.woff2",
+        "duration": 1156.8999999761581,
+        "transferSize": 9232
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-14.woff2",
+        "duration": 1368.1000000238419,
+        "transferSize": 10200
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-3.woff2",
+        "duration": 1781.2999999523163,
+        "transferSize": 48556
+      }
+    ]
+  },
+  {
+    "mode": "responsive",
+    "lang": "en",
+    "run": 1,
+    "variant": "baseline",
+    "width": 390,
+    "lcpMs": 1280,
+    "lcpTag": "IMG:signature-hero__art",
+    "fcpMs": 832,
+    "loadMs": 1857.3999999761581,
+    "hero": "http://127.0.0.1:8784/assets/profile-2026/hero-1600-fast.webp",
+    "resources": [
+      {
+        "url": "http://127.0.0.1:8784/assets/profile-2026/hero-1600-fast.webp",
+        "duration": 1011,
+        "transferSize": 57582
+      },
+      {
+        "url": "http://127.0.0.1:8784/css/approved-preview.c74345c59817.css",
+        "duration": 563.6000000238419,
+        "transferSize": 19344
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/profile-2026/approved-cartoon-bus.webp",
+        "duration": 509.1999999284744,
+        "transferSize": 21434
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/profile-2026/logo-brand.svg",
+        "duration": 1452.7999999523163,
+        "transferSize": 89315
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-3.woff2",
+        "duration": 918.2000000476837,
+        "transferSize": 48556
+      }
+    ]
+  },
+  {
+    "mode": "responsive",
+    "lang": "en",
+    "run": 1,
+    "variant": "optimized",
+    "width": 390,
+    "lcpMs": 1248,
+    "lcpTag": "IMG:signature-hero__art",
+    "fcpMs": 316,
+    "loadMs": 1600.5999999046326,
+    "hero": "http://127.0.0.1:8784/assets/profile-2026/hero-1600-fast.webp",
+    "resources": [
+      {
+        "url": "http://127.0.0.1:8784/assets/profile-2026/hero-1600-fast.webp",
+        "duration": 997,
+        "transferSize": 57582
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/profile-2026/logo-brand.svg",
+        "duration": 1303.8000000715256,
+        "transferSize": 89315
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/profile-2026/approved-cartoon-bus.webp",
+        "duration": 601.7999999523163,
+        "transferSize": 21434
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-3.woff2",
+        "duration": 1066.0999999046326,
+        "transferSize": 48556
+      }
+    ]
+  },
+  {
+    "mode": "responsive",
+    "lang": "en",
+    "run": 2,
+    "variant": "baseline",
+    "width": 390,
+    "lcpMs": 1264,
+    "lcpTag": "IMG:signature-hero__art",
+    "fcpMs": 832,
+    "loadMs": 1708.8000000715256,
+    "hero": "http://127.0.0.1:8784/assets/profile-2026/hero-1600-fast.webp",
+    "resources": [
+      {
+        "url": "http://127.0.0.1:8784/assets/profile-2026/hero-1600-fast.webp",
+        "duration": 980.2000000476837,
+        "transferSize": 57582
+      },
+      {
+        "url": "http://127.0.0.1:8784/css/approved-preview.c74345c59817.css",
+        "duration": 564.8000000715256,
+        "transferSize": 19344
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/profile-2026/logo-brand.svg",
+        "duration": 1413.3000000715256,
+        "transferSize": 89315
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/profile-2026/approved-cartoon-bus.webp",
+        "duration": 551,
+        "transferSize": 21434
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-3.woff2",
+        "duration": 917.6000000238419,
+        "transferSize": 48556
+      }
+    ]
+  },
+  {
+    "mode": "responsive",
+    "lang": "en",
+    "run": 2,
+    "variant": "optimized",
+    "width": 390,
+    "lcpMs": 1416,
+    "lcpTag": "IMG:signature-hero__art",
+    "fcpMs": 316,
+    "loadMs": 1627.1999999284744,
+    "hero": "http://127.0.0.1:8784/assets/profile-2026/hero-1600-fast.webp",
+    "resources": [
+      {
+        "url": "http://127.0.0.1:8784/assets/profile-2026/hero-1600-fast.webp",
+        "duration": 1088.8999999761581,
+        "transferSize": 57582
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/profile-2026/logo-brand.svg",
+        "duration": 1335.6000000238419,
+        "transferSize": 89315
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/profile-2026/approved-cartoon-bus.webp",
+        "duration": 624.3000000715256,
+        "transferSize": 21434
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-3.woff2",
+        "duration": 1122.6999999284744,
+        "transferSize": 48556
+      }
+    ]
+  },
+  {
+    "mode": "responsive",
+    "lang": "en",
+    "run": 3,
+    "variant": "baseline",
+    "width": 390,
+    "lcpMs": 1448,
+    "lcpTag": "IMG:signature-hero__art",
+    "fcpMs": 968,
+    "loadMs": 2019.6000000238419,
+    "hero": "http://127.0.0.1:8784/assets/profile-2026/hero-1600-fast.webp",
+    "resources": [
+      {
+        "url": "http://127.0.0.1:8784/assets/profile-2026/hero-1600-fast.webp",
+        "duration": 987.3999999761581,
+        "transferSize": 57582
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/profile-2026/approved-cartoon-bus.webp",
+        "duration": 516.9000000953674,
+        "transferSize": 21434
+      },
+      {
+        "url": "http://127.0.0.1:8784/css/approved-preview.c74345c59817.css",
+        "duration": 571.9000000953674,
+        "transferSize": 19344
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/profile-2026/logo-brand.svg",
+        "duration": 1411.3000000715256,
+        "transferSize": 89315
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-3.woff2",
+        "duration": 917,
+        "transferSize": 48556
+      }
+    ]
+  },
+  {
+    "mode": "responsive",
+    "lang": "en",
+    "run": 3,
+    "variant": "optimized",
+    "width": 390,
+    "lcpMs": 1248,
+    "lcpTag": "IMG:signature-hero__art",
+    "fcpMs": 348,
+    "loadMs": 1627.1999999284744,
+    "hero": "http://127.0.0.1:8784/assets/profile-2026/hero-1600-fast.webp",
+    "resources": [
+      {
+        "url": "http://127.0.0.1:8784/assets/profile-2026/hero-1600-fast.webp",
+        "duration": 972.6000000238419,
+        "transferSize": 57582
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/fonts/web-3.woff2",
+        "duration": 1026.2999999523163,
+        "transferSize": 48556
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/profile-2026/logo-brand.svg",
+        "duration": 1302,
+        "transferSize": 89315
+      },
+      {
+        "url": "http://127.0.0.1:8784/assets/profile-2026/approved-cartoon-bus.webp",
+        "duration": 597,
+        "transferSize": 21434
+      }
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "scope": "preview only",
+  "method": "390px iframe; local cold-cache shared1.6Mbit/s;150ms;gzip;no CPU throttle;3runs",
+  "medians": {
+    "ar": {
+      "baseline": {
+        "lcpMs": 1332,
+        "fcpMs": 884
+      },
+      "optimized": {
+        "lcpMs": 1308,
+        "fcpMs": 332
+      }
+    },
+    "en": {
+      "baseline": {
+        "lcpMs": 1280,
+        "fcpMs": 832
+      },
+      "optimized": {
+        "lcpMs": 1248,
+        "fcpMs": 316
+      }
+    }
+  },
+  "claim": "FCP improved; LCP delta small and variable, not conclusive field improvement",
+  "productionChanged": false,
+  "formsSubmitted": 0,
+  "indexingRequests": 0
+}

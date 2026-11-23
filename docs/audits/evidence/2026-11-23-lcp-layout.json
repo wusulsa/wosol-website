@@ -1,0 +1,82 @@
+[
+  {
+    "lang": "ar",
+    "width": 320,
+    "variant": "baseline",
+    "css": false,
+    "font": "28.8px",
+    "scroll": 305,
+    "title": "نقل الموظفينوتوصيل الطالبات",
+    "viewport": 305
+  },
+  {
+    "lang": "ar",
+    "width": 320,
+    "variant": "optimized",
+    "css": true,
+    "font": "28.8px",
+    "scroll": 305,
+    "title": "نقل الموظفينوتوصيل الطالبات",
+    "viewport": 305
+  },
+  {
+    "lang": "ar",
+    "width": 390,
+    "variant": "baseline",
+    "css": false,
+    "font": "29.25px",
+    "scroll": 375,
+    "title": "نقل الموظفينوتوصيل الطالبات",
+    "viewport": 375
+  },
+  {
+    "lang": "ar",
+    "width": 390,
+    "variant": "optimized",
+    "css": true,
+    "font": "29.25px",
+    "scroll": 375,
+    "title": "نقل الموظفينوتوصيل الطالبات",
+    "viewport": 375
+  },
+  {
+    "lang": "en",
+    "width": 320,
+    "variant": "baseline",
+    "css": false,
+    "font": "28.8px",
+    "scroll": 305,
+    "title": "Staff and studenttransport.",
+    "viewport": 305
+  },
+  {
+    "lang": "en",
+    "width": 320,
+    "variant": "optimized",
+    "css": true,
+    "font": "28.8px",
+    "scroll": 305,
+    "title": "Staff and studenttransport.",
+    "viewport": 305
+  },
+  {
+    "lang": "en",
+    "width": 390,
+    "variant": "baseline",
+    "css": false,
+    "font": "29.25px",
+    "scroll": 375,
+    "title": "Staff and studenttransport.",
+    "viewport": 375
+  },
+  {
+    "lang": "en",
+    "width": 390,
+    "variant": "optimized",
+    "css": true,
+    "font": "29.25px",
+    "scroll": 375,
+    "title": "Staff and studenttransport.",
+    "viewport": 375
+  }
+]
