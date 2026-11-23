@@ -1,0 +1,217 @@
+- banner:
+  - button "القائمة الرئيسية":
+  - link "Google Search Console":
+    - /url: ./search-console?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+  - search:
+    - button "بحث":
+  - button "مساعدة":
+    - generic: help_outline
+  - tooltip: مساعدة
+  - button "إعدادات المستخدم":
+    - generic: manage_accounts
+  - tooltip: إعدادات المستخدم
+  - 'button "عدد الرسائل غير المقروءة: 5"':
+    - generic: notifications
+  - tooltip: الرسائل
+  - generic: "5"
+  - button "تطبيقات Google":
+  - 'button "حساب Google: وُسُـل النقل (info@wosol.net)"':
+- navigation "مسارات التنقل":
+  - heading "الأداء" [level=1]
+- button "تصدير":
+  - generic: 
+  - generic: تصدير
+- radiogroup "Select time range":
+  - radio "24 ساعة":
+    - generic: 24 ساعة
+  - radio "7 أيام":
+    - generic: 7 أيام
+  - radio "28 يومًا" [checked]:
+    - generic: 28 يومًا
+  - radio "3 أشهر":
+    - generic: 3 أشهر
+- button "More time ranges":
+  - generic: المزيد
+  - generic: arrow_drop_down
+- list:
+  - 'button "نوع البحث: الويب (نص)"':
+    - generic: "نوع البحث: الويب (نص)"
+    - generic: arrow_drop_down
+  - tooltip: "نوع البحث: الويب (نص)"
+  - 'button "الصفحة: https://www.wosol.net/king-abdulaziz-university-transport"':
+    - generic: "الصفحة: https://www.wosol.net/king-abdulaziz-university-transport"
+  - tooltip: "الصفحة: https://www.wosol.net/king-abdulaziz-university-transport"
+  - 'button "إزالة الصفحة: https://www.wosol.net/king-abdulaziz-university-transport"':
+    - generic: close
+  - button "إضافة فلتر":
+    - generic: add
+    - generic: إضافة فلتر
+  - tooltip: إضافة فلتر
+  - button "أصبح بإمكانك تخصيص \"تقرير الأداء\" باستخدام الذكاء الاصطناعي":
+    - generic: filter_list_spark
+  - tooltip: أصبح بإمكانك تخصيص "تقرير الأداء" باستخدام الذكاء الاصطناعي
+  - button "إعادة ضبط الفلاتر":
+    - generic: إعادة ضبط الفلاتر
+  - tooltip: إعادة ضبط الفلاتر
+- generic: "آخر تعديل: ‎قبل 5 ساعات"
+- main:
+  - button "إجمالي عدد النقرات 21":
+    - generic "إجمالي عدد النقرات":
+      - generic: 
+      - generic: إجمالي عدد النقرات
+    - generic "21"
+  - button "null":
+    - generic: 
+  - button "إجمالي عدد مرات الظهور 880":
+    - generic "إجمالي عدد مرات الظهور":
+      - generic: 
+      - generic: إجمالي عدد مرات الظهور
+    - generic "880"
+  - button "null":
+    - generic: 
+  - button "متوسط نسبة النقر إلى الظهور 2.4‎%‎":
+    - generic "متوسط نسبة النقر إلى الظهور":
+      - generic: متوسط نسبة النقر إلى الظهور
+    - generic "2.4‎%‎"
+  - button "null":
+    - generic: 
+  - button "متوسط موضع الإعلان 7":
+    - generic "متوسط موضع الإعلان":
+      - generic: متوسط موضع الإعلان
+    - generic "7"
+  - button "null":
+    - generic: 
+  - 'button "الدقة الزمنية المحدَّدة: يوميًا"':
+    - generic: يوميًا
+  - generic: النقرات
+  - generic: عدد الظهور
+  - application "chart":
+    - generic: رسم بياني يحتوي على أعداد إجمالي عدد النقرات وإجمالي عدد مرات الظهور ومتوسط نسبة النقر إلى الظهور ومتوسط موضع الإعلان من ‎25 أكتوبر 2026 إلى ‎21 نوفمبر 2026
+  - generic: تقرير الذكاء الاصطناعي التوليدي
+  - generic: chevron_forward
+  - link "فتح تقرير الأداء للميزات المستندة إلى الذكاء الاصطناعي التوليدي في \"بحث Google\"":
+    - /url: ./search-console/performance/search-analytics/ai?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+  - tablist:
+    - tab "طلبات البحث" [selected]:
+      - generic: طلبات البحث
+    - tab "الصفحات":
+      - generic: الصفحات
+    - tab "البلدان":
+      - generic: البلدان
+    - tab "الأجهزة":
+      - generic: الأجهزة
+    - tab "شكل الظهور في البحث":
+      - generic: شكل الظهور في البحث
+    - tab "الأيام":
+      - generic: الأيام
+  - generic: 
+  - tabpanel:
+    - button "فلترة صفوف الجدول":
+      - generic: 
+    - table:
+      - rowgroup:
+        - row "أهم طلبات البحث ترتيب أهم طلبات البحث النقرات ترتيب النقرات عدد الظهور ترتيب عدد الظهور":
+          - columnheader "أهم طلبات البحث ترتيب أهم طلبات البحث":
+            - generic: أهم طلبات البحث
+            - button "ترتيب أهم طلبات البحث":
+          - columnheader "النقرات ترتيب النقرات":
+            - generic: النقرات
+            - button "ترتيب النقرات":
+          - columnheader "عدد الظهور ترتيب عدد الظهور":
+            - generic: عدد الظهور
+            - button "ترتيب عدد الظهور":
+      - rowgroup:
+        - row "وسل للنقل 3 38":
+          - cell "وسل للنقل":
+            - generic: وسل للنقل
+          - cell "3":
+            - generic: "3"
+          - cell "38":
+            - generic: "38"
+        - row "باصات نقل طالبات جدة 1 35":
+          - cell "باصات نقل طالبات جدة":
+            - generic: باصات نقل طالبات جدة
+          - cell "1":
+            - generic: "1"
+          - cell "35":
+            - generic: "35"
+        - row "مؤسسة وسل النقل 1 20":
+          - cell "مؤسسة وسل النقل":
+            - generic: مؤسسة وسل النقل
+          - cell "1":
+            - generic: "1"
+          - cell "20":
+            - generic: "20"
+        - row "توصيل طالبات جدة 1 6":
+          - cell "توصيل طالبات جدة":
+            - generic: توصيل طالبات جدة
+          - cell "1":
+            - generic: "1"
+          - cell "6":
+            - generic: "6"
+        - row "النقل الجامعي 1 6":
+          - cell "النقل الجامعي":
+            - generic: النقل الجامعي
+          - cell "1":
+            - generic: "1"
+          - cell "6":
+            - generic: "6"
+        - row "وسل 0 39":
+          - cell "وسل":
+            - generic: وسل
+          - cell "0":
+            - generic: "0"
+          - cell "39":
+            - generic: "39"
+        - row "الصافنات للنقل الجامعي 0 21":
+          - cell "الصافنات للنقل الجامعي":
+            - generic: الصافنات للنقل الجامعي
+          - cell "0":
+            - generic: "0"
+          - cell "21":
+            - generic: "21"
+        - row "توصيل طالبات 0 12":
+          - cell "توصيل طالبات":
+            - generic: توصيل طالبات
+          - cell "0":
+            - generic: "0"
+          - cell "12":
+            - generic: "12"
+        - row "نقل جامعي جدة 0 9":
+          - cell "نقل جامعي جدة":
+            - generic: نقل جامعي جدة
+          - cell "0":
+            - generic: "0"
+          - cell "9":
+            - generic: "9"
+        - row "توصيل طلاب مدارس جدة 0 8":
+          - cell "توصيل طلاب مدارس جدة":
+            - generic: توصيل طلاب مدارس جدة
+          - cell "0":
+            - generic: "0"
+          - cell "8":
+            - generic: "8"
+    - generic: "عدد الصفوف في كل صفحة:"
+    - listbox "عدد الصفوف لكل صفحة" [expanded]:
+      - text: "5"
+      - generic: "10"
+      - text: 25 50 100 250 500
+      - option "5"
+      - option "10" [active] [selected]
+      - option "25"
+      - option "50"
+      - option "100"
+      - option "250"
+      - option "500"
+    - generic: 1-10 من 56
+    - button "الصفحة السابقة" [disabled]:
+    - tooltip: الصفحة السابقة
+    - button "الصفحة التالية":
+    - tooltip: الصفحة التالية
+- generic: 
+- generic: الأداء في نتائج "بحث Google"
+- generic: يمكنك استكشاف مستوى أداء موقعك على "بحث Google"، بما في ذلك مرات الظهور والمكانة ونسبة النقر إلى الظهور وأهم سلاسل الطلب.
+- generic: مزيد من المعلومات
+- generic "مزيد من المعلومات"
+- generic: حسنًا
+- generic "حسنًا"

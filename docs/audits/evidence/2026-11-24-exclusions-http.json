@@ -1,0 +1,79 @@
+{
+  "checked_utc": "2026-11-23T21:15:08.442096+00:00",
+  "results": [
+    {
+      "path": "/?feed=comments-rss2",
+      "status": 410,
+      "location": null,
+      "canonical": []
+    },
+    {
+      "path": "/?page_id=7",
+      "status": 301,
+      "location": "https://www.wosol.net/subscriber-support.html",
+      "canonical": []
+    },
+    {
+      "path": "/?post_type=product",
+      "status": 301,
+      "location": "https://www.wosol.net/king-abdulaziz-university-transport",
+      "canonical": []
+    },
+    {
+      "path": "/?page_id=1140",
+      "status": 200,
+      "location": null,
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.wosol.net/\">"
+      ]
+    },
+    {
+      "path": "/?page_id=1128",
+      "status": 200,
+      "location": null,
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.wosol.net/\">"
+      ]
+    },
+    {
+      "path": "/?page_id=155",
+      "status": 200,
+      "location": null,
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.wosol.net/\">"
+      ]
+    },
+    {
+      "path": "/en/?contactTab=quote&quoteService=employees&quoteCity=madinah",
+      "status": 200,
+      "location": null,
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.wosol.net/en/\">"
+      ]
+    },
+    {
+      "path": "/?page_id=58",
+      "status": 410,
+      "location": null,
+      "canonical": []
+    },
+    {
+      "path": "/?page_id=154",
+      "status": 410,
+      "location": null,
+      "canonical": []
+    },
+    {
+      "path": "/?page_id=1455",
+      "status": 301,
+      "location": "https://www.wosol.net/?contactTab=inquiry#contact",
+      "canonical": []
+    },
+    {
+      "path": "/?cf7_style=christmas-simple",
+      "status": 410,
+      "location": null,
+      "canonical": []
+    }
+  ]
+}

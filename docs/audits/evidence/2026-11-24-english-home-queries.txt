@@ -1,0 +1,212 @@
+- banner:
+  - button "القائمة الرئيسية":
+  - search:
+    - button "بحث":
+  - button "مساعدة":
+    - generic: help_outline
+  - tooltip: مساعدة
+  - button "إعدادات المستخدم":
+    - generic: manage_accounts
+  - tooltip: إعدادات المستخدم
+  - 'button "عدد الرسائل غير المقروءة: 5"':
+    - generic: notifications
+  - tooltip: الرسائل
+  - generic: "5"
+  - button "تطبيقات Google":
+  - 'button "حساب Google: وُسُـل النقل (info@wosol.net)"':
+- navigation "مسارات التنقل":
+  - heading "الأداء" [level=1]
+- button "تصدير":
+  - generic: 
+  - generic: تصدير
+- radiogroup "Select time range":
+  - radio "24 ساعة":
+    - generic: 24 ساعة
+  - radio "7 أيام":
+    - generic: 7 أيام
+  - radio "28 يومًا" [checked]:
+    - generic: 28 يومًا
+  - radio "3 أشهر":
+    - generic: 3 أشهر
+- button "More time ranges":
+  - generic: المزيد
+  - generic: arrow_drop_down
+- list:
+  - 'button "نوع البحث: الويب (نص)"':
+    - generic: "نوع البحث: الويب (نص)"
+    - generic: arrow_drop_down
+  - tooltip: "نوع البحث: الويب (نص)"
+  - 'button "الصفحة: https://www.wosol.net/en/"':
+    - generic: "الصفحة: https://www.wosol.net/en/"
+  - tooltip: "الصفحة: https://www.wosol.net/en/"
+  - 'button "إزالة الصفحة: https://www.wosol.net/en/"':
+    - generic: close
+  - button "إضافة فلتر":
+    - generic: add
+    - generic: إضافة فلتر
+  - tooltip: إضافة فلتر
+  - button "أصبح بإمكانك تخصيص \"تقرير الأداء\" باستخدام الذكاء الاصطناعي":
+    - generic: filter_list_spark
+  - tooltip: أصبح بإمكانك تخصيص "تقرير الأداء" باستخدام الذكاء الاصطناعي
+  - button "إعادة ضبط الفلاتر":
+    - generic: إعادة ضبط الفلاتر
+  - tooltip: إعادة ضبط الفلاتر
+- generic: "آخر تعديل: ‎قبل 5 ساعات"
+- main:
+  - button "إجمالي عدد النقرات 9":
+    - generic "إجمالي عدد النقرات":
+      - generic: 
+      - generic: إجمالي عدد النقرات
+    - generic "9"
+  - button "null":
+    - generic: 
+  - button "إجمالي عدد مرات الظهور 544":
+    - generic "إجمالي عدد مرات الظهور":
+      - generic: 
+      - generic: إجمالي عدد مرات الظهور
+    - generic "544"
+  - button "null":
+    - generic: 
+  - button "متوسط نسبة النقر إلى الظهور 1.7‎%‎":
+    - generic "متوسط نسبة النقر إلى الظهور":
+      - generic: متوسط نسبة النقر إلى الظهور
+    - generic "1.7‎%‎"
+  - button "null":
+    - generic: 
+  - button "متوسط موضع الإعلان 6.9":
+    - generic "متوسط موضع الإعلان":
+      - generic: متوسط موضع الإعلان
+    - generic "6.9"
+  - button "null":
+    - generic: 
+  - 'button "الدقة الزمنية المحدَّدة: يوميًا"':
+    - generic: يوميًا
+  - generic: النقرات
+  - generic: عدد الظهور
+  - application "chart":
+    - generic: رسم بياني يحتوي على أعداد إجمالي عدد النقرات وإجمالي عدد مرات الظهور ومتوسط نسبة النقر إلى الظهور ومتوسط موضع الإعلان من ‎25 أكتوبر 2026 إلى ‎21 نوفمبر 2026
+  - generic: تقرير الذكاء الاصطناعي التوليدي
+  - generic: chevron_forward
+  - link "فتح تقرير الأداء للميزات المستندة إلى الذكاء الاصطناعي التوليدي في \"بحث Google\"":
+    - /url: ./search-console/performance/search-analytics/ai?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+  - tablist:
+    - tab "طلبات البحث" [selected]:
+      - generic: طلبات البحث
+    - tab "الصفحات":
+      - generic: الصفحات
+    - tab "البلدان":
+      - generic: البلدان
+    - tab "الأجهزة":
+      - generic: الأجهزة
+    - tab "شكل الظهور في البحث":
+      - generic: شكل الظهور في البحث
+    - tab "الأيام":
+      - generic: الأيام
+  - generic: 
+  - tabpanel:
+    - button "فلترة صفوف الجدول":
+      - generic: 
+    - table:
+      - rowgroup:
+        - row "أهم طلبات البحث ترتيب أهم طلبات البحث النقرات ترتيب النقرات عدد الظهور ترتيب عدد الظهور":
+          - columnheader "أهم طلبات البحث ترتيب أهم طلبات البحث":
+            - generic: أهم طلبات البحث
+            - button "ترتيب أهم طلبات البحث":
+          - columnheader "النقرات ترتيب النقرات":
+            - generic: النقرات
+            - button "ترتيب النقرات":
+          - columnheader "عدد الظهور ترتيب عدد الظهور":
+            - generic: عدد الظهور
+            - button "ترتيب عدد الظهور":
+      - rowgroup:
+        - row "wosol group 1 13":
+          - cell "wosol group":
+            - generic: wosol group
+          - cell "1":
+            - generic: "1"
+          - cell "13":
+            - generic: "13"
+        - row "wosol 0 248":
+          - cell "wosol":
+            - generic: wosol
+          - cell "0":
+            - generic: "0"
+          - cell "248":
+            - generic: "248"
+        - row "wosil 0 10":
+          - cell "wosil":
+            - generic: wosil
+          - cell "0":
+            - generic: "0"
+          - cell "10":
+            - generic: "10"
+        - row "sites.google.com /view/wosol 0 7":
+          - cell "sites.google.com /view/wosol":
+            - generic: sites.google.com /view/wosol
+          - cell "0":
+            - generic: "0"
+          - cell "7":
+            - generic: "7"
+        - row "https://sites.google.com/view/wosol 0 2":
+          - cell "https://sites.google.com/view/wosol":
+            - generic: https://sites.google.com/view/wosol
+          - cell "0":
+            - generic: "0"
+          - cell "2":
+            - generic: "2"
+        - row "jeddah to riyadh transport 0 2":
+          - cell "jeddah to riyadh transport":
+            - generic: jeddah to riyadh transport
+          - cell "0":
+            - generic: "0"
+          - cell "2":
+            - generic: "2"
+        - row "woosol 0 1":
+          - cell "woosol":
+            - generic: woosol
+          - cell "0":
+            - generic: "0"
+          - cell "1":
+            - generic: "1"
+        - row "staff 0 1":
+          - cell "staff":
+            - generic: staff
+          - cell "0":
+            - generic: "0"
+          - cell "1":
+            - generic: "1"
+        - row "staff transport 0 1":
+          - cell "staff transport":
+            - generic: staff transport
+          - cell "0":
+            - generic: "0"
+          - cell "1":
+            - generic: "1"
+        - row "wusool transportation 0 1":
+          - cell "wusool transportation":
+            - generic: wusool transportation
+          - cell "0":
+            - generic: "0"
+          - cell "1":
+            - generic: "1"
+    - generic: "عدد الصفوف في كل صفحة:"
+    - listbox "عدد الصفوف لكل صفحة":
+      - option "5"
+      - option "10" [selected]
+      - option "25"
+      - option "50"
+      - option "100"
+      - option "250"
+      - option "500"
+    - generic: 1-10 من 10
+    - button "الصفحة السابقة" [disabled]:
+    - tooltip: الصفحة السابقة
+    - button "الصفحة التالية" [disabled]:
+    - tooltip: الصفحة التالية
+- generic: 
+- generic: الأداء في نتائج "بحث Google"
+- generic: يمكنك استكشاف مستوى أداء موقعك على "بحث Google"، بما في ذلك مرات الظهور والمكانة ونسبة النقر إلى الظهور وأهم سلاسل الطلب.
+- generic: مزيد من المعلومات
+- generic "مزيد من المعلومات"
+- generic: حسنًا
+- generic "حسنًا"

@@ -1,0 +1,127 @@
+- banner:
+  - button "القائمة الرئيسية" [expanded]:
+  - link "Google Search Console":
+    - /url: ./search-console?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+  - search:
+    - button "بحث":
+  - button "مساعدة":
+    - generic: help_outline
+  - tooltip: مساعدة
+  - button "إعدادات المستخدم":
+    - generic: manage_accounts
+  - tooltip: إعدادات المستخدم
+  - 'button "عدد الرسائل غير المقروءة: 5"':
+    - generic: notifications
+  - tooltip: الرسائل
+  - generic: "5"
+  - button "تطبيقات Google":
+  - 'button "حساب Google: وُسُـل النقل (info@wosol.net)"':
+- navigation "مسارات التنقل":
+  - generic "فهرسة الصفحات":
+    - link "فهرسة الصفحات":
+      - /url: ./search-console/index?resource_id=https%3A%2F%2Fwww.wosol.net%2F&pages=ALL_URLS
+      - generic: arrow_forward
+  - heading "صفحة بديلة تتضمن علامة أساسية مناسبة" [level=1]
+- button "تصدير":
+  - generic: 
+  - generic: تصدير
+- button "احصل على رابط يمكن مشاركته.":
+  - generic: 
+- listbox:
+  - option "كل الصفحات المعروفة" [selected]
+  - option "كل الصفحات المقدّمة"
+  - option "الصفحات التي لم يتم إرسالها فقط"
+  - option "/sitemap.xml"
+- generic: "تاريخ آخر تعديل: ‎16‏/11‏/2026"
+- main:
+  - generic: info
+  - generic: صفحة بديلة تتضمن علامة أساسية مناسبة
+  - generic: لا تتم فهرسة هذه الصفحات أو عرضها على Google.
+  - link "رابط للحصول على وثائق أكثر شمولاً":
+    - /url: https://support.google.com/webmasters/answer/7440203#duplicate_page_with_proper_canonical_tag
+    - generic: مزيد من المعلومات
+  - generic: "تاريخ الرصد الأول: 20‏/10‏/2026"
+  - button "التحقق من الإصلاح":
+    - generic: التحقق من الإصلاح
+  - generic "الصفحات المتأثرة"
+  - generic "9"
+  - generic: أمثلة
+  - button "null":
+    - generic: 
+  - button "فلترة صفوف الجدول":
+    - generic: 
+  - table:
+    - rowgroup:
+      - row "عنوان URL تاريخ آخر زحف":
+        - columnheader "عنوان URL":
+          - generic: عنوان URL
+        - columnheader "تاريخ آخر زحف":
+          - generic: تاريخ آخر زحف
+    - rowgroup:
+      - row "https://www.wosol.net/?page_id=1140 15‏/11‏/2026":
+        - cell "https://www.wosol.net/?page_id=1140":
+          - generic "https://www.wosol.net/?page_id=1140":
+            - generic: https://www.wosol.net/?page_id=1140
+        - cell "15‏/11‏/2026":
+          - generic: 15‏/11‏/2026
+      - row "https://www.wosol.net/?page_id=1128 29‏/10‏/2026":
+        - cell "https://www.wosol.net/?page_id=1128":
+          - generic "https://www.wosol.net/?page_id=1128":
+            - generic: https://www.wosol.net/?page_id=1128
+        - cell "29‏/10‏/2026":
+          - generic: 29‏/10‏/2026
+      - row "https://www.wosol.net/?page_id=155 22‏/10‏/2026":
+        - cell "https://www.wosol.net/?page_id=155":
+          - generic "https://www.wosol.net/?page_id=155":
+            - generic: https://www.wosol.net/?page_id=155
+        - cell "22‏/10‏/2026":
+          - generic: 22‏/10‏/2026
+      - row "https://www.wosol.net/en/?contactTab=quote&quoteService=employees&quoteCity=madinah 21‏/10‏/2026":
+        - cell "https://www.wosol.net/en/?contactTab=quote&quoteService=employees&quoteCity=madinah":
+          - generic "https://www.wosol.net/en/?contactTab=quote&quoteService=employees&quoteCity=madinah":
+            - generic: https://www.wosol.net/en/?contactTab=quote&quoteService=employees&quoteCity=madinah
+        - cell "21‏/10‏/2026":
+          - generic: 21‏/10‏/2026
+      - row "https://www.wosol.net/?page_id=58 14‏/10‏/2026":
+        - cell "https://www.wosol.net/?page_id=58":
+          - generic "https://www.wosol.net/?page_id=58":
+            - generic: https://www.wosol.net/?page_id=58
+        - cell "14‏/10‏/2026":
+          - generic: 14‏/10‏/2026
+      - row "https://www.wosol.net/?page_id=154 02‏/10‏/2026":
+        - cell "https://www.wosol.net/?page_id=154":
+          - generic "https://www.wosol.net/?page_id=154":
+            - generic: https://www.wosol.net/?page_id=154
+        - cell "02‏/10‏/2026":
+          - generic: 02‏/10‏/2026
+      - row "https://www.wosol.net/?page_id=1455 19‏/09‏/2026":
+        - cell "https://www.wosol.net/?page_id=1455":
+          - generic "https://www.wosol.net/?page_id=1455":
+            - generic: https://www.wosol.net/?page_id=1455
+        - cell "19‏/09‏/2026":
+          - generic: 19‏/09‏/2026
+      - row "https://www.wosol.net/?product=اشتراك-أبحر-وما-جاورها-إلى-جامعة-الملك 08‏/09‏/2026":
+        - cell "https://www.wosol.net/?product=اشتراك-أبحر-وما-جاورها-إلى-جامعة-الملك":
+          - generic "https://www.wosol.net/?product=اشتراك-أبحر-وما-جاورها-إلى-جامعة-الملك":
+            - generic: https://www.wosol.net/?product=اشتراك-أبحر-وما-جاورها-إلى-جامعة-الملك
+        - cell "08‏/09‏/2026":
+          - generic: 08‏/09‏/2026
+      - row "https://www.wosol.net/?cf7_style=christmas-simple 30‏/08‏/2026":
+        - cell "https://www.wosol.net/?cf7_style=christmas-simple":
+          - generic "https://www.wosol.net/?cf7_style=christmas-simple":
+            - generic: https://www.wosol.net/?cf7_style=christmas-simple
+        - cell "30‏/08‏/2026":
+          - generic: 30‏/08‏/2026
+  - generic: "عدد الصفوف في كل صفحة:"
+  - listbox "عدد الصفوف لكل صفحة":
+    - option "5"
+    - option "10" [selected]
+    - option "25"
+    - option "50"
+    - option "100"
+    - option "250"
+    - option "500"
+  - generic: 1-9 من 9
+  - generic: 
+  - generic: 
+- generic: فهرسة الصفحات
