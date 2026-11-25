@@ -1,5 +1,5 @@
 {
-  "status": "prepared-not-published",
+  "status": "published-verified",
   "files": [
     "index.html",
     "corporate-transport-saudi-arabia.html",
@@ -82,5 +82,11 @@
     "formsUnchanged": true,
     "scriptsAndSchemaUnchanged": true,
     "canonicalHreflangUnchanged": true
+  },
+  "mobileReview": {
+    "viewportWidth": 390,
+    "pages": 6,
+    "horizontalOverflow": false,
+    "visualReview": "AR/EN coverage and project sections"
   }
 }
