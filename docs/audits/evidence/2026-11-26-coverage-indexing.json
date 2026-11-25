@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-26",
+  "account": "info@wosol.net",
+  "reason": "Explicit user request for recrawl after substantive coverage update; separate from October requests",
+  "accepted": 6,
+  "remaining": 0,
+  "requests": [
+    {
+      "url": "https://www.wosol.net/workforce-project-transport",
+      "indexedBeforeRequest": true,
+      "result": "تم طلب الفهرسة",
+      "confirmation": "Added to priority crawl queue",
+      "attempts": 1
+    },
+    {
+      "url": "https://www.wosol.net/en/workforce-project-transport/",
+      "indexedBeforeRequest": true,
+      "result": "تم طلب الفهرسة",
+      "confirmation": "Added to priority crawl queue",
+      "attempts": 1
+    },
+    {
+      "url": "https://www.wosol.net/corporate-transport-saudi-arabia",
+      "indexedBeforeRequest": true,
+      "result": "تم طلب الفهرسة",
+      "confirmation": "Added to priority crawl queue",
+      "attempts": 1
+    },
+    {
+      "url": "https://www.wosol.net/en/corporate-transport-saudi-arabia/",
+      "indexedBeforeRequest": true,
+      "result": "تم طلب الفهرسة",
+      "confirmation": "Added to priority crawl queue",
+      "attempts": 1
+    },
+    {
+      "url": "https://www.wosol.net/",
+      "indexedBeforeRequest": true,
+      "result": "تم طلب الفهرسة",
+      "confirmation": "Added to priority crawl queue",
+      "attempts": 1
+    },
+    {
+      "url": "https://www.wosol.net/en/",
+      "indexedBeforeRequest": true,
+      "result": "تم طلب الفهرسة",
+      "confirmation": "Added to priority crawl queue",
+      "attempts": 1
+    }
+  ],
+  "newContentIndexingVerified": false
+}
