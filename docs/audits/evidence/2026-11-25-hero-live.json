@@ -1,0 +1,20 @@
+[
+  {
+    "url": "https://www.wosol.net/",
+    "status": 200,
+    "match": true,
+    "sha256": "c7a70720f8dcac3918ac0d3af12c5f88b3bfecb4869c4406a379fb097bcbd736"
+  },
+  {
+    "url": "https://www.wosol.net/en/",
+    "status": 200,
+    "match": true,
+    "sha256": "e2eec4e0bfa0eb9cd30e54843ece514799cac4cb6b1f4a5ae607612aa8730721"
+  },
+  {
+    "url": "https://www.wosol.net/assets/profile-2026/hero-approved-20261125.webp",
+    "status": 200,
+    "match": true,
+    "sha256": "53f94a73f6a059333926ea23e123e77c950267f8c8ac89d73176bdc41d31b57a"
+  }
+]
