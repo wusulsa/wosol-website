@@ -1,0 +1,113 @@
+{
+  "files": [
+    {
+      "url": "https://www.wosol.net/",
+      "status": 200,
+      "match": true,
+      "cards": 17,
+      "canonical": [
+        "https://www.wosol.net/"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://www.wosol.net/en/",
+      "status": 200,
+      "match": true,
+      "cards": 17,
+      "canonical": [
+        "https://www.wosol.net/en/"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://www.wosol.net/css/coverage-destinations-20261126.css",
+      "status": 200,
+      "match": true,
+      "cards": 0,
+      "canonical": [],
+      "robots": []
+    }
+  ],
+  "links": [
+    {
+      "path": "/corporate-transport-saudi-arabia#service-coverage-search",
+      "status": 200,
+      "anchor_ok": true
+    },
+    {
+      "path": "/employee-transport-riyadh",
+      "status": 200,
+      "anchor_ok": true
+    },
+    {
+      "path": "/en/employee-transport-dammam/",
+      "status": 200,
+      "anchor_ok": true
+    },
+    {
+      "path": "/employee-transport-makkah",
+      "status": 200,
+      "anchor_ok": true
+    },
+    {
+      "path": "/corporate-transport-saudi-arabia",
+      "status": 200,
+      "anchor_ok": true
+    },
+    {
+      "path": "/en/employee-transport-riyadh/",
+      "status": 200,
+      "anchor_ok": true
+    },
+    {
+      "path": "/en/employee-transport-madinah/",
+      "status": 200,
+      "anchor_ok": true
+    },
+    {
+      "path": "/employee-transport-dammam",
+      "status": 200,
+      "anchor_ok": true
+    },
+    {
+      "path": "/en/employee-transport-jeddah/",
+      "status": 200,
+      "anchor_ok": true
+    },
+    {
+      "path": "/en/employee-transport-makkah/",
+      "status": 200,
+      "anchor_ok": true
+    },
+    {
+      "path": "/employee-transport-madinah",
+      "status": 200,
+      "anchor_ok": true
+    },
+    {
+      "path": "/en/corporate-transport-saudi-arabia/#service-coverage-search",
+      "status": 200,
+      "anchor_ok": true
+    },
+    {
+      "path": "/en/corporate-transport-saudi-arabia/",
+      "status": 200,
+      "anchor_ok": true
+    },
+    {
+      "path": "/employee-transport-jeddah",
+      "status": 200,
+      "anchor_ok": true
+    }
+  ],
+  "mobile_ar_en": {
+    "width": 390,
+    "overflow": false
+  },
+  "official_only": "wosol.net"
+}
