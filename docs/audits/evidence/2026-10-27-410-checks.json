@@ -1,0 +1,384 @@
+{
+  "time": "2026-10-27T20:45:47.026343+00:00",
+  "sitemap_count": 38,
+  "results": [
+    {
+      "url": "https://www.wosol.net/register",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:33 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 14737\nlast-modified: Mon, 19 Oct 2026 21:32:00 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.787\naccept-ranges: bytes\nx-trace-id: f4fcb68eeb39d0c04c365c9249f2c1a1\nx-span-id: 2dc8c337d00959ec\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/en/register/",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:33 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 13550\nlast-modified: Mon, 19 Oct 2026 21:32:00 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.830\naccept-ranges: bytes\nx-trace-id: 1b020363a30b58ac8c36d61953e6bdd9\nx-span-id: c22132e801c06b96\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/airport-hotel-transfers",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:33 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 21169\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: LHR\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.761\naccept-ranges: bytes\nx-trace-id: 7b43f571e65788d1a2e7806542a94dc4\nx-span-id: 38c7f187a208fb29\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/corporate-transport-saudi-arabia",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:33 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 31596\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.792\naccept-ranges: bytes\nx-trace-id: f8ba441674183a60f7b545b3e708acf8\nx-span-id: 43b5300993380a8a\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/driver-only-services",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:33 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 21514\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.793\naccept-ranges: bytes\nx-trace-id: 1757edf5ecb6677d81562331fddb0875\nx-span-id: c1e88ea96a43bd44\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/employee-transport-dammam",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:33 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 23221\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.833\naccept-ranges: bytes\nx-trace-id: 7612026e9c266eec7a33be488413d367\nx-span-id: 09eac1502d9e0446\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/employee-transport-jeddah",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:35 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 23566\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: LHR\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.879\naccept-ranges: bytes\nx-trace-id: 0a2ef6c7de595ea66346f092687a950f\nx-span-id: 48dbfaaf7e44770b\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/employee-transport-madinah",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:35 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 23346\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: LHR\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.683\naccept-ranges: bytes\nx-trace-id: b7fb11ce3d572da67ca1d92589324df9\nx-span-id: 58e6efd598bd33fb\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/employee-transport-makkah",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:35 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 23252\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: LHR\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.680\naccept-ranges: bytes\nx-trace-id: c2651868af7a265461e032242b766668\nx-span-id: 3a6548bbf7b610cc\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/employee-transport-riyadh",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:35 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 23550\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: LHR\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.684\naccept-ranges: bytes\nx-trace-id: c4c82af5f6cb1359b12d02f37b85f1b4\nx-span-id: d12475e21419c5b4\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/event-conference-transport",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:35 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 21301\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: LHR\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.680\naccept-ranges: bytes\nx-trace-id: 1f26efd30b508ce4273786390da1e649\nx-span-id: 709d0234a814f4dd\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/executive-vip-transport",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:35 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 21348\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: LHR\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.893\naccept-ranges: bytes\nx-trace-id: e53fee393e5ea625d0883a1dcbbc6385\nx-span-id: 2426b0282c08fb0a\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:36 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 74763\nlast-modified: Wed, 21 Oct 2026 21:25:36 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 1.135\naccept-ranges: bytes\nx-trace-id: 33bb89d506750721790d7d65a40c34ce\nx-span-id: c946b3a1a686dcc0\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/intercity-group-transport",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:36 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 21225\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: LHR\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.712\naccept-ranges: bytes\nx-trace-id: dfb8f91ddf6d6ef4616b1a61230977ea\nx-span-id: 3297a48c04392f78\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/king-abdulaziz-university-transport",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:36 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 22611\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.753\naccept-ranges: bytes\nx-trace-id: 2280d02c4c97d60948f3ed91a9ef9415\nx-span-id: a5f80fb97ed69ee7\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/private-day-trips",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:36 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 21386\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.754\naccept-ranges: bytes\nx-trace-id: c19f74941cd0cae211e9d04d139a2268\nx-span-id: 2134bc195e851faa\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/tourism-transport",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:36 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 21032\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: LHR\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.721\naccept-ranges: bytes\nx-trace-id: e1cf9f1b0e91cb14cad4b43fd076431c\nx-span-id: b0beb3468445cc70\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/umrah-visitor-transport",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:36 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 21294\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.748\naccept-ranges: bytes\nx-trace-id: 209d90b913a60f9829135c4ca06f666d\nx-span-id: bb2276f271dbeb58\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/vehicle-rental-without-driver",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:38 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 21504\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: LHR\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.739\naccept-ranges: bytes\nx-trace-id: c2de99b743090c448cd5677770373186\nx-span-id: 7b4bac4c5725e578\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/workforce-project-transport",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:38 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 21364\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.919\naccept-ranges: bytes\nx-trace-id: d7ca4fdbae5c613e276987339706e79e\nx-span-id: 364312d631fc79fd\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/en/",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:39 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 67749\nlast-modified: Wed, 21 Oct 2026 21:25:36 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 1.150\naccept-ranges: bytes\nx-trace-id: 7f2adfe9053f3790a35583294991fe68\nx-span-id: 952f69f6dfcbf490\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/en/airport-hotel-transfers/",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:38 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 19201\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.774\naccept-ranges: bytes\nx-trace-id: 256fc08862fc929a25406ddf00e5e205\nx-span-id: 5a65ee870899a021\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/en/corporate-transport-saudi-arabia/",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:38 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 28016\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: LHR\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.734\naccept-ranges: bytes\nx-trace-id: d2a0ecbfcf5615ae5217f37a54dbd094\nx-span-id: 6f22de9956fb4487\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/en/driver-only-services/",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:39 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 19521\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: LHR\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 1.888\naccept-ranges: bytes\nx-trace-id: 99e241366ffc3d7123ba79d1925e62b7\nx-span-id: 79bf7f970a8855ce\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/en/employee-transport-dammam/",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:39 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 20955\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: LHR\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.767\naccept-ranges: bytes\nx-trace-id: 9cf0a2af723c201bf77465ab2f494ebb\nx-span-id: 13a7f9f35dc8b5fc\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/en/employee-transport-jeddah/",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:40 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 21261\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: LHR\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.892\naccept-ranges: bytes\nx-trace-id: eedf737283f67bd5a3d45f979aae15f2\nx-span-id: 896aab89b6e97d96\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/en/employee-transport-madinah/",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:40 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 20883\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.808\naccept-ranges: bytes\nx-trace-id: 510c660f06ead0c5ffd9d9f437cedc27\nx-span-id: aa4f26ad5ad420d5\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/en/employee-transport-makkah/",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:40 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 20848\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: LHR\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.780\naccept-ranges: bytes\nx-trace-id: 5d7add904028b85bebe183e2132da543\nx-span-id: adf641080196e0bf\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/en/employee-transport-riyadh/",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:40 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 21181\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.798\naccept-ranges: bytes\nx-trace-id: bec09e81ecd6a107c329e3feed62c160\nx-span-id: d4b2edb408d54c5d\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/en/event-conference-transport/",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:41 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 19283\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.779\naccept-ranges: bytes\nx-trace-id: c3bb6e26f543c43536cad37f90308b23\nx-span-id: 8d0456eaccec8ad8\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/en/executive-vip-transport/",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:41 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 19319\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.785\naccept-ranges: bytes\nx-trace-id: 3101b0b5f170aeb81527af94fe90ff07\nx-span-id: 7cf6a67df0a8f3a0\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/en/intercity-group-transport/",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:41 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 19293\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.815\naccept-ranges: bytes\nx-trace-id: c4a2559da78ded29be65eef380367f58\nx-span-id: 7339849b31688840\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/en/king-abdulaziz-university-transport/",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:41 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 20224\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.792\naccept-ranges: bytes\nx-trace-id: 87882a453656cc6edc0443a44a8343c5\nx-span-id: 5414456e75b6cf71\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/en/private-day-trips/",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:41 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 19273\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.905\naccept-ranges: bytes\nx-trace-id: d9d3636189f134104ebab081a0a288a2\nx-span-id: 85c16ea7c1c58836\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/en/tourism-transport/",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:41 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 19167\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: LHR\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.780\naccept-ranges: bytes\nx-trace-id: 826fa98fb7613e36cc2f4d1b7216fc8d\nx-span-id: 029442c33de15281\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/en/umrah-visitor-transport/",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:42 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 19323\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.930\naccept-ranges: bytes\nx-trace-id: 5c820530db0a45767aa1dbd032e18d83\nx-span-id: ff1b21d0348aafe9\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/en/vehicle-rental-without-driver/",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:42 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 19544\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: LHR\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.892\naccept-ranges: bytes\nx-trace-id: c42bd500498ff4df71e341318f0af0e4\nx-span-id: 91eea2d6b524351b\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/en/workforce-project-transport/",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:42 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 19421\nlast-modified: Wed, 21 Oct 2026 21:15:00 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.920\naccept-ranges: bytes\nx-trace-id: 544d6359deb33b78382bb928270a4d93\nx-span-id: a174d4b0d80cbb75\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/?feed=comments-rss2",
+      "exit": 0,
+      "statuses": [
+        "410"
+      ],
+      "headers": "HTTP/1.1 410 Gone\ndate: Tue, 27 Oct 2026 20:45:42 GMT\ncontent-type: text/html\ncontent-length: 824\ncache-control: private, no-cache, no-store, must-revalidate, max-age=0\npragma: no-cache\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nx-upstream-status: 410\nx-upstream-time: 0.571\nx-trace-id: 9f8cc00a505a2c99c6dc6cdca18f63cb\nx-span-id: 7aba455f9eaf3939\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/?cf7_style=christmas-simple",
+      "exit": 0,
+      "statuses": [
+        "410"
+      ],
+      "headers": "HTTP/1.1 410 Gone\ndate: Tue, 27 Oct 2026 20:45:42 GMT\ncontent-type: text/html\ncontent-length: 824\ncache-control: private, no-cache, no-store, must-revalidate, max-age=0\npragma: no-cache\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: LHR\nx-upstream-status: 410\nx-upstream-time: 0.522\nx-trace-id: bccbf215257f9f3aca77e675dc36288e\nx-span-id: e024821ec4ba5672\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/?feed=comments-rss2&extra=1",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:43 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 74763\nlast-modified: Wed, 21 Oct 2026 21:25:36 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: LHR\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.893\naccept-ranges: bytes\nx-trace-id: cc577118b6970079355c22e972757b5e\nx-span-id: 8ee4dee474a28306\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/?cf7_style=other",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:43 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 74763\nlast-modified: Wed, 21 Oct 2026 21:25:36 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: LHR\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.894\naccept-ranges: bytes\nx-trace-id: 4f4b432d20158bcc234555b301a8b288\nx-span-id: 12644f49d8deb638\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/en/?feed=comments-rss2",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:44 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 67749\nlast-modified: Wed, 21 Oct 2026 21:25:36 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 1.330\naccept-ranges: bytes\nx-trace-id: ad8c05648439e8dc7c0a71749b50680b\nx-span-id: fce7fc051a5d05c8\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/?contactTab=quote",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:44 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 74763\nlast-modified: Wed, 21 Oct 2026 21:25:36 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 1.573\naccept-ranges: bytes\nx-trace-id: 6a3142d7bbdfa09c1df8b9da38424742\nx-span-id: 39a06c401be4e3bd\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/?contactTab=inquiry",
+      "exit": 0,
+      "statuses": [
+        "200"
+      ],
+      "headers": "HTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:44 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 74763\nlast-modified: Wed, 21 Oct 2026 21:25:36 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: LHR\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.909\naccept-ranges: bytes\nx-trace-id: c941817ed09991d19324645266179a4c\nx-span-id: ba3f707b7c14fb82\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/?page_id=7",
+      "exit": 0,
+      "statuses": [
+        "301",
+        "200"
+      ],
+      "headers": "HTTP/1.1 301 Moved Permanently\ndate: Tue, 27 Oct 2026 20:45:44 GMT\ncontent-type: text/html\ncontent-length: 795\nlocation: https://www.wosol.net/subscriber-support.html\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 301\nx-upstream-time: 0.664\nx-trace-id: d3b37e8734fb9dd29fca56afc8615637\nx-span-id: 61c720f69c31e020\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\nHTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:45 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 2092\nlast-modified: Tue, 27 Oct 2026 20:40:02 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.531\naccept-ranges: bytes\nx-trace-id: 1ae543b094e2226d8617a87557727df8\nx-span-id: 876824b4490613ce\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    },
+    {
+      "url": "https://www.wosol.net/?page_id=754",
+      "exit": 0,
+      "statuses": [
+        "301",
+        "200"
+      ],
+      "headers": "HTTP/1.1 301 Moved Permanently\ndate: Tue, 27 Oct 2026 20:45:45 GMT\ncontent-type: text/html\ncontent-length: 795\nlocation: https://www.wosol.net/renewal.html\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 301\nx-upstream-time: 0.523\nx-trace-id: c4dca67d9339cf3e5d18545bc3f8376c\nx-span-id: 2db8db58abf19548\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\nHTTP/1.1 200 OK\ndate: Tue, 27 Oct 2026 20:45:45 GMT\ncontent-type: text/html; charset=UTF-8\ncontent-length: 1944\nlast-modified: Tue, 27 Oct 2026 20:32:53 GMT\nx-turbo-charged-by: LiteSpeed\nx-supersonic-pop: FRA\nsupersonic-cache-status: BYPASS\nx-upstream-status: 200\nx-upstream-time: 0.557\naccept-ranges: bytes\nx-trace-id: 89994c69144838cfa4cc47f3771db2cc\nx-span-id: 088fbe19001d559b\nalt-svc: h3=\":443\";ma=60;\nx-supersonic-cdn: 17554639325925554956\n\n"
+    }
+  ]
+}

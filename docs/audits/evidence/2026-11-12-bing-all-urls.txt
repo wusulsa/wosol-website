@@ -1,0 +1,508 @@
+- banner:
+  - button "Show navigation panel":
+    - generic: 
+  - link "Skip to main content":
+    - /url: "#content"
+  - img "white bwt logo microsoft bing mobile"
+  - button "More":
+    - generic: 
+  - button "Profile":
+- main:
+  - heading "Site Explorer" [level=2]
+  - combobox [active]:
+    - generic: All URLs
+    - generic: 
+  - button "Download":
+    - generic: Download
+    - generic: 
+  - heading "Explorer" [level=3]
+  - generic: Clicks
+  - button "Clicks":
+    - generic: 
+  - tree:
+    - row "Expand wosol.net" [level=1] [selected]:
+      - gridcell "Expand":
+        - button "Expand":
+          - generic: 
+      - gridcell "wosol.net":
+        - generic: 
+        - generic: wosol.net
+  - navigation:
+    - list:
+      - heading "wosol.net" [level=4]
+  - heading "Crawl information" [level=4]
+  - group "Bar chart showing Crawl information. Indexed:68, Error:2, Warning:15, Excluded:24":
+    - img "Bar chart showing Crawl information. Indexed:68, Error:2, Warning:15, Excluded:24":
+      - img "Bar chart showing Crawl information. Indexed:68, Error:2, Warning:15, Excluded:24"
+    - generic: Bar chart showing Crawl information. Indexed:68, Error:2, Warning:15, Excluded:24
+  - heading "Folder information" [level=4]
+  - generic: 
+  - text: Last 6 months
+  - list:
+    - generic: URLs
+    - generic: "109"
+    - generic: Clicks
+    - generic: "45"
+    - generic: Impressions
+    - generic: 1.2K
+    - generic: Backlinks
+    - generic: "153"
+  - grid "URL list":
+    - row "URL, sortable Clicks, sortable, sorted descending order Impressions, sortable Last crawled HTTP code":
+      - columnheader "URL, sortable":
+        - button "URL, sortable":
+          - generic: URL
+      - columnheader "Clicks, sortable, sorted descending order":
+        - button "Clicks, sortable, sorted descending order":
+          - generic: Clicks
+          - generic: 
+      - columnheader "Impressions, sortable":
+        - button "Impressions, sortable":
+          - generic: Impressions
+      - columnheader "Last crawled":
+        - generic: Last crawled
+      - columnheader "HTTP code":
+        - generic: HTTP code
+    - row "/(root) https 13 349 5 Nov 2026 200" [selected]:
+      - rowheader "/(root) https":
+        - generic: 
+        - generic: /(root)
+        - generic: https
+      - rowheader "13"
+      - rowheader "349"
+      - rowheader "5 Nov 2026"
+      - rowheader "200"
+    - row "?page_id=1203 2 11 2 Nov 2026 301":
+      - rowheader "?page_id=1203":
+        - generic: 
+        - generic: "?page_id=1203"
+      - rowheader "2"
+      - rowheader "11"
+      - rowheader "2 Nov 2026"
+      - rowheader "301"
+    - row "?page_id=1128 1 3 22 Oct 2026 200":
+      - rowheader "?page_id=1128":
+        - generic: 
+        - generic: "?page_id=1128"
+      - rowheader "1"
+      - rowheader "3"
+      - rowheader "22 Oct 2026"
+      - rowheader "200"
+    - row "?page_id=1050 1 15 3 Nov 2026 301":
+      - rowheader "?page_id=1050":
+        - generic: 
+        - generic: "?page_id=1050"
+      - rowheader "1"
+      - rowheader "15"
+      - rowheader "3 Nov 2026"
+      - rowheader "301"
+    - row "?page_id=9 1 26 7 Nov 2026 301":
+      - rowheader "?page_id=9":
+        - generic: 
+        - generic: "?page_id=9"
+      - rowheader "1"
+      - rowheader "26"
+      - rowheader "7 Nov 2026"
+      - rowheader "301"
+    - row "/(root) http - 6 7 Aug 2026 200":
+      - rowheader "/(root) http":
+        - generic: 
+        - generic: /(root)
+        - generic: http
+      - rowheader "-"
+      - rowheader "6"
+      - rowheader "7 Aug 2026"
+      - rowheader "200"
+    - row "employee-transport-dammam - - 28 Oct 2026 200":
+      - rowheader "employee-transport-dammam":
+        - generic: 
+        - generic: employee-transport-dammam
+      - rowheader "-"
+      - rowheader "-"
+      - rowheader "28 Oct 2026"
+      - rowheader "200"
+    - row "about - - 5 Oct 2026 404":
+      - rowheader "about":
+        - generic: 
+        - generic: about
+      - rowheader "-"
+      - rowheader "-"
+      - rowheader "5 Oct 2026"
+      - rowheader "404"
+    - row "vehicle-rental-without-driver - - 5 Nov 2026 200":
+      - rowheader "vehicle-rental-without-driver":
+        - generic: 
+        - generic: vehicle-rental-without-driver
+      - rowheader "-"
+      - rowheader "-"
+      - rowheader "5 Nov 2026"
+      - rowheader "200"
+    - row "?page_id=155 - - 29 Sep 2026 200":
+      - rowheader "?page_id=155":
+        - generic: 
+        - generic: "?page_id=155"
+      - rowheader "-"
+      - rowheader "-"
+      - rowheader "29 Sep 2026"
+      - rowheader "200"
+    - row "employee-transport-madinah - - 23 Oct 2026 200":
+      - rowheader "employee-transport-madinah":
+        - generic: 
+        - generic: employee-transport-madinah
+      - rowheader "-"
+      - rowheader "-"
+      - rowheader "23 Oct 2026"
+      - rowheader "200"
+    - row "?product=edu3 - 3 8 Oct 2026 200":
+      - rowheader "?product=edu3":
+        - generic: 
+        - generic: "?product=edu3"
+      - rowheader "-"
+      - rowheader "3"
+      - rowheader "8 Oct 2026"
+      - rowheader "200"
+    - row "العروض - - 4 Apr 2026 404":
+      - rowheader "العروض":
+        - generic: 
+        - generic: العروض
+      - rowheader "-"
+      - rowheader "-"
+      - rowheader "4 Apr 2026"
+      - rowheader "404"
+    - row "?page_id=18 - 6 27 Sep 2026 200":
+      - rowheader "?page_id=18":
+        - generic: 
+        - generic: "?page_id=18"
+      - rowheader "-"
+      - rowheader "6"
+      - rowheader "27 Sep 2026"
+      - rowheader "200"
+    - row "private-day-trips - - 7 Nov 2026 200":
+      - rowheader "private-day-trips":
+        - generic: 
+        - generic: private-day-trips
+      - rowheader "-"
+      - rowheader "-"
+      - rowheader "7 Nov 2026"
+      - rowheader "200"
+    - row "اشتراك-توصيل-الطلاب - - 23 Oct 2026 404":
+      - rowheader "اشتراك-توصيل-الطلاب":
+        - generic: 
+        - generic: اشتراك-توصيل-الطلاب
+      - rowheader "-"
+      - rowheader "-"
+      - rowheader "23 Oct 2026"
+      - rowheader "404"
+    - row "?page_id=7 - - 15 Oct 2026 200":
+      - rowheader "?page_id=7":
+        - generic: 
+        - generic: "?page_id=7"
+      - rowheader "-"
+      - rowheader "-"
+      - rowheader "15 Oct 2026"
+      - rowheader "200"
+    - row "لماذا-وسل - - 4 Nov 2025 308":
+      - rowheader "لماذا-وسل":
+        - generic: 
+        - generic: لماذا-وسل
+      - rowheader "-"
+      - rowheader "-"
+      - rowheader "4 Nov 2025"
+      - rowheader "308"
+    - row "?product=edu11 - 4 7 Oct 2026 200":
+      - rowheader "?product=edu11":
+        - generic: 
+        - generic: "?product=edu11"
+      - rowheader "-"
+      - rowheader "4"
+      - rowheader "7 Oct 2026"
+      - rowheader "200"
+    - row "my-account - - 8 Nov 2026 404":
+      - rowheader "my-account":
+        - generic: 
+        - generic: my-account
+      - rowheader "-"
+      - rowheader "-"
+      - rowheader "8 Nov 2026"
+      - rowheader "404"
+    - row "king-abdulaziz-university-transport - - 6 Nov 2026 200":
+      - rowheader "king-abdulaziz-university-transport":
+        - generic: 
+        - generic: king-abdulaziz-university-transport
+      - rowheader "-"
+      - rowheader "-"
+      - rowheader "6 Nov 2026"
+      - rowheader "200"
+    - row "xmlrpc.php - - 28 Oct 2026 403":
+      - rowheader "xmlrpc.php":
+        - generic: 
+        - generic: xmlrpc.php
+      - rowheader "-"
+      - rowheader "-"
+      - rowheader "28 Oct 2026"
+      - rowheader "403"
+    - row "umrah-visitor-transport - 1 7 Nov 2026 -":
+      - rowheader "umrah-visitor-transport":
+        - generic: 
+        - generic: umrah-visitor-transport
+      - rowheader "-"
+      - rowheader "1"
+      - rowheader "7 Nov 2026"
+      - rowheader "-"
+    - row "employee-transport-jeddah - - 5 Nov 2026 200":
+      - rowheader "employee-transport-jeddah":
+        - generic: 
+        - generic: employee-transport-jeddah
+      - rowheader "-"
+      - rowheader "-"
+      - rowheader "5 Nov 2026"
+      - rowheader "200"
+    - row "?page_id=1140 - 3 29 Oct 2026 200":
+      - rowheader "?page_id=1140":
+        - generic: 
+        - generic: "?page_id=1140"
+      - rowheader "-"
+      - rowheader "3"
+      - rowheader "29 Oct 2026"
+      - rowheader "200"
+    - row "?contacttab=quote - - 1 Nov 2026 200":
+      - rowheader "?contacttab=quote":
+        - generic: 
+        - generic: "?contacttab=quote"
+      - rowheader "-"
+      - rowheader "-"
+      - rowheader "1 Nov 2026"
+      - rowheader "200"
+    - row "?page_id=1530 - - 16 Oct 2026 200":
+      - rowheader "?page_id=1530":
+        - generic: 
+        - generic: "?page_id=1530"
+      - rowheader "-"
+      - rowheader "-"
+      - rowheader "16 Oct 2026"
+      - rowheader "200"
+    - row "?page_id=1455 - - 6 Oct 2026 200":
+      - rowheader "?page_id=1455":
+        - generic: 
+        - generic: "?page_id=1455"
+      - rowheader "-"
+      - rowheader "-"
+      - rowheader "6 Oct 2026"
+      - rowheader "200"
+    - row "?page_id=971 - - 16 Oct 2026 200":
+      - rowheader "?page_id=971":
+        - generic: 
+        - generic: "?page_id=971"
+      - rowheader "-"
+      - rowheader "-"
+      - rowheader "16 Oct 2026"
+      - rowheader "200"
+    - row "?page_id=1131 - 17 27 Oct 2026 301":
+      - rowheader "?page_id=1131":
+        - generic: 
+        - generic: "?page_id=1131"
+      - rowheader "-"
+      - rowheader "17"
+      - rowheader "27 Oct 2026"
+      - rowheader "301"
+    - row "740-2 https - - 10 Oct 2025 404":
+      - rowheader "740-2 https":
+        - generic: 
+        - generic: 740-2
+        - generic: https
+      - rowheader "-"
+      - rowheader "-"
+      - rowheader "10 Oct 2025"
+      - rowheader "404"
+    - row "740-2 http - - 5 Oct 2026 404":
+      - rowheader "740-2 http":
+        - generic: 
+        - generic: 740-2
+        - generic: http
+      - rowheader "-"
+      - rowheader "-"
+      - rowheader "5 Oct 2026"
+      - rowheader "404"
+    - row "?page_id=1030 - - 19 Oct 2026 200":
+      - rowheader "?page_id=1030":
+        - generic: 
+        - generic: "?page_id=1030"
+      - rowheader "-"
+      - rowheader "-"
+      - rowheader "19 Oct 2026"
+      - rowheader "200"
+    - row "?product=اشتراك-أبحر-وما-جاورها-إلى-جامعة-الملك - - 6 Nov 2026 301":
+      - rowheader "?product=اشتراك-أبحر-وما-جاورها-إلى-جامعة-الملك":
+        - generic: 
+        - generic: "?product=اشتراك-أبحر-وما-جاورها-إلى-جامعة-الملك"
+      - rowheader "-"
+      - rowheader "-"
+      - rowheader "6 Nov 2026"
+      - rowheader "301"
+    - row "driver-only-services - - 7 Nov 2026 200":
+      - rowheader "driver-only-services":
+        - generic: 
+        - generic: driver-only-services
+      - rowheader "-"
+      - rowheader "-"
+      - rowheader "7 Nov 2026"
+      - rowheader "200"
+    - row "?contacttab=quote&quoteservice=specialized - - 25 Oct 2026 200":
+      - rowheader "?contacttab=quote&quoteservice=specialized":
+        - generic: 
+        - generic: "?contacttab=quote&quoteservice=specialized"
+      - rowheader "-"
+      - rowheader "-"
+      - rowheader "25 Oct 2026"
+      - rowheader "200"
+    - row "register - 7 28 Oct 2026 304":
+      - rowheader "register":
+        - generic: 
+        - generic: register
+      - rowheader "-"
+      - rowheader "7"
+      - rowheader "28 Oct 2026"
+      - rowheader "304"
+    - row "?p=1170 - - 20 Sep 2026 200":
+      - rowheader "?p=1170":
+        - generic: 
+        - generic: "?p=1170"
+      - rowheader "-"
+      - rowheader "-"
+      - rowheader "20 Sep 2026"
+      - rowheader "200"
+    - row "?page_id=1447 - - 12 Oct 2026 200":
+      - rowheader "?page_id=1447":
+        - generic: 
+        - generic: "?page_id=1447"
+      - rowheader "-"
+      - rowheader "-"
+      - rowheader "12 Oct 2026"
+      - rowheader "200"
+    - row "wp-login.php - - 5 Nov 2025 301":
+      - rowheader "wp-login.php":
+        - generic: 
+        - generic: wp-login.php
+      - rowheader "-"
+      - rowheader "-"
+      - rowheader "5 Nov 2025"
+      - rowheader "301"
+    - row "airport-hotel-transfers - - 7 Nov 2026 200":
+      - rowheader "airport-hotel-transfers":
+        - generic: 
+        - generic: airport-hotel-transfers
+      - rowheader "-"
+      - rowheader "-"
+      - rowheader "7 Nov 2026"
+      - rowheader "200"
+    - row "contact - - 25 Sep 2026 301":
+      - rowheader "contact":
+        - generic: 
+        - generic: contact
+      - rowheader "-"
+      - rowheader "-"
+      - rowheader "25 Sep 2026"
+      - rowheader "301"
+    - row "tourism-transport - - 26 Oct 2026 200":
+      - rowheader "tourism-transport":
+        - generic: 
+        - generic: tourism-transport
+      - rowheader "-"
+      - rowheader "-"
+      - rowheader "26 Oct 2026"
+      - rowheader "200"
+    - row "intercity-group-transport - - 2 Nov 2026 200":
+      - rowheader "intercity-group-transport":
+        - generic: 
+        - generic: intercity-group-transport
+      - rowheader "-"
+      - rowheader "-"
+      - rowheader "2 Nov 2026"
+      - rowheader "200"
+    - row "projects - - 1 Oct 2026 404":
+      - rowheader "projects":
+        - generic: 
+        - generic: projects
+      - rowheader "-"
+      - rowheader "-"
+      - rowheader "1 Oct 2026"
+      - rowheader "404"
+    - row "employee-transport-riyadh - - 25 Oct 2026 200":
+      - rowheader "employee-transport-riyadh":
+        - generic: 
+        - generic: employee-transport-riyadh
+      - rowheader "-"
+      - rowheader "-"
+      - rowheader "25 Oct 2026"
+      - rowheader "200"
+    - row "faq - - 9 Oct 2026 404":
+      - rowheader "faq":
+        - generic: 
+        - generic: faq
+      - rowheader "-"
+      - rowheader "-"
+      - rowheader "9 Oct 2026"
+      - rowheader "404"
+    - row "executive-vip-transport - - 20 Oct 2026 200":
+      - rowheader "executive-vip-transport":
+        - generic: 
+        - generic: executive-vip-transport
+      - rowheader "-"
+      - rowheader "-"
+      - rowheader "20 Oct 2026"
+      - rowheader "200"
+    - row "event-conference-transport - - 5 Nov 2026 200":
+      - rowheader "event-conference-transport":
+        - generic: 
+        - generic: event-conference-transport
+      - rowheader "-"
+      - rowheader "-"
+      - rowheader "5 Nov 2026"
+      - rowheader "200"
+    - row "workforce-project-transport - - 23 Oct 2026 200":
+      - rowheader "workforce-project-transport":
+        - generic: 
+        - generic: workforce-project-transport
+      - rowheader "-"
+      - rowheader "-"
+      - rowheader "23 Oct 2026"
+      - rowheader "200"
+  - generic: 
+  - heading / [level=4]:
+    - link /:
+      - /url: https://wosol.net
+  - generic: 
+  - text: Indexed
+  - list:
+    - generic: Impressions
+    - generic: ":"
+    - generic: "349"
+    - generic: Clicks
+    - generic: ":"
+    - generic: "13"
+    - generic: Last crawled
+    - generic: ":"
+    - generic: 5 Nov 2026
+    - generic: Discovered
+    - generic: ":"
+    - generic: 2 Apr 2017
+    - generic: HTTP code
+    - generic: ":"
+    - generic: "200"
+    - generic: Document size
+    - generic: ":"
+    - generic: 75.0KB
+    - generic: Backlinks
+    - generic: ":"
+    - generic: "73"
+    - generic: Is Https
+    - generic: ":"
+    - generic: "true"
+  - button "Inspect URL":
+    - generic: Inspect URL
+  - button "Block URL":
+    - generic: Block URL
+  - button "Request indexing":
+    - generic: Request indexing
+  - button "Test URL in Robots.txt":
+    - generic: Test URL in Robots.txt

@@ -1,0 +1,541 @@
+{
+  "checked_at": "2026-10-19T14:58:21.258659+00:00",
+  "sitemap_status": 200,
+  "url_count": 28,
+  "robots_txt": "User-agent: *\r\nAllow: /\r\n\r\nSitemap: https://www.wosol.net/sitemap.xml\r\n",
+  "pages": [
+    {
+      "url": "https://www.wosol.net/",
+      "status": 200,
+      "title": "وُسُل | نقل طالبات جامعة الملك عبدالعزيز ونقل موظفين في جدة والرياض",
+      "description": "نقل طالبات جامعة الملك عبدالعزيز في جدة، ونقل الموظفين للشركات والمؤسسات والهيئات في جدة والرياض مع وُسُل. استكشفي الاشتراك الجامعي أو اطلب عرض سعر لنقل فريقك.",
+      "title_length": 67,
+      "description_length": 159,
+      "canonical": [
+        "https://www.wosol.net/"
+      ],
+      "hreflang": {
+        "ar": "https://www.wosol.net/",
+        "en": "https://www.wosol.net/en/",
+        "x-default": "https://www.wosol.net/"
+      },
+      "schema_json_valid": true,
+      "runtime_v13": true,
+      "errors": []
+    },
+    {
+      "url": "https://www.wosol.net/register",
+      "status": 200,
+      "title": "تسجيل نقل طالبات جامعة الملك عبدالعزيز في جدة | وُسُل",
+      "description": "أرسلي طلب اشتراك النقل الجامعي في جدة إلى جامعة الملك عبدالعزيز – السليمانية. تتم مراجعة الحي والمسار والتوافر قبل تأكيد الاشتراك.",
+      "title_length": 53,
+      "description_length": 130,
+      "canonical": [
+        "https://www.wosol.net/register"
+      ],
+      "hreflang": {
+        "ar": "https://www.wosol.net/register",
+        "en": "https://www.wosol.net/en/register/",
+        "x-default": "https://www.wosol.net/register"
+      },
+      "schema_json_valid": true,
+      "runtime_v13": false,
+      "errors": []
+    },
+    {
+      "url": "https://www.wosol.net/king-abdulaziz-university-transport",
+      "status": 200,
+      "title": "نقل طالبات جامعة الملك عبدالعزيز في جدة | وُسُل",
+      "description": "اشتراك نقل طالبات جامعة الملك عبدالعزيز بالسليمانية في جدة مع وُسُل. تعرّفي على الأحياء وخيارات الاشتراك الشهري والترم واطلبي تأكيد التغطية.",
+      "title_length": 47,
+      "description_length": 140,
+      "canonical": [
+        "https://www.wosol.net/king-abdulaziz-university-transport"
+      ],
+      "hreflang": {
+        "ar": "https://www.wosol.net/king-abdulaziz-university-transport",
+        "en": "https://www.wosol.net/en/king-abdulaziz-university-transport/",
+        "x-default": "https://www.wosol.net/king-abdulaziz-university-transport"
+      },
+      "schema_json_valid": true,
+      "runtime_v13": true,
+      "errors": []
+    },
+    {
+      "url": "https://www.wosol.net/employee-transport-jeddah",
+      "status": 200,
+      "title": "نقل موظفين في جدة | عقود شهرية وسنوية — وُسُل",
+      "description": "نقل موظفين للشركات والمؤسسات والهيئات في جدة. عقود شهرية وسنوية وحافلات مع سائق وفق المسار والورديات والتوافر. اطلب عرض سعر من وُسُل.",
+      "title_length": 45,
+      "description_length": 133,
+      "canonical": [
+        "https://www.wosol.net/employee-transport-jeddah"
+      ],
+      "hreflang": {
+        "ar": "https://www.wosol.net/employee-transport-jeddah",
+        "en": "https://www.wosol.net/en/employee-transport-jeddah/",
+        "x-default": "https://www.wosol.net/employee-transport-jeddah"
+      },
+      "schema_json_valid": true,
+      "runtime_v13": true,
+      "errors": []
+    },
+    {
+      "url": "https://www.wosol.net/employee-transport-riyadh",
+      "status": 200,
+      "title": "نقل موظفين في الرياض | حافلات مع سائق — وُسُل",
+      "description": "نقل موظفين للشركات والمؤسسات والهيئات في الرياض. حافلات مع سائق وخطط للورديات ومقار العمل المتعددة وفق التوافر. اطلب عرض سعر من وُسُل.",
+      "title_length": 45,
+      "description_length": 134,
+      "canonical": [
+        "https://www.wosol.net/employee-transport-riyadh"
+      ],
+      "hreflang": {
+        "ar": "https://www.wosol.net/employee-transport-riyadh",
+        "en": "https://www.wosol.net/en/employee-transport-riyadh/",
+        "x-default": "https://www.wosol.net/employee-transport-riyadh"
+      },
+      "schema_json_valid": true,
+      "runtime_v13": true,
+      "errors": []
+    },
+    {
+      "url": "https://www.wosol.net/corporate-transport-saudi-arabia",
+      "status": 200,
+      "title": "خدمات نقل الجهات والرحلات في جدة والرياض | وُسُل",
+      "description": "نقل الموظفين والعمال والفعاليات والمطار والرحلات والسياحة والعمرة والنقل التنفيذي من وُسُل. جدة والرياض ثم بقية المملكة. اطلب عرضًا يناسب برنامجك.",
+      "title_length": 48,
+      "description_length": 146,
+      "canonical": [
+        "https://www.wosol.net/corporate-transport-saudi-arabia"
+      ],
+      "hreflang": {
+        "ar": "https://www.wosol.net/corporate-transport-saudi-arabia",
+        "en": "https://www.wosol.net/en/corporate-transport-saudi-arabia/",
+        "x-default": "https://www.wosol.net/corporate-transport-saudi-arabia"
+      },
+      "schema_json_valid": true,
+      "runtime_v13": true,
+      "errors": []
+    },
+    {
+      "url": "https://www.wosol.net/workforce-project-transport",
+      "status": 200,
+      "title": "نقل العمال وفرق المشاريع في جدة والرياض | وُسُل",
+      "description": "نقل العمال وفرق المشاريع في جدة والرياض. مسارات بين السكن ومواقع العمل وفق الورديات وأيام التشغيل. اطلب عرض سعر يوضح نطاق الخدمة والتكلفة.",
+      "title_length": 47,
+      "description_length": 138,
+      "canonical": [
+        "https://www.wosol.net/workforce-project-transport"
+      ],
+      "hreflang": {
+        "ar": "https://www.wosol.net/workforce-project-transport",
+        "en": "https://www.wosol.net/en/workforce-project-transport/",
+        "x-default": "https://www.wosol.net/workforce-project-transport"
+      },
+      "schema_json_valid": true,
+      "runtime_v13": true,
+      "errors": []
+    },
+    {
+      "url": "https://www.wosol.net/private-day-trips",
+      "status": 200,
+      "title": "تأجير حافلات مع سائق لليوم الواحد | جدة والرياض — وُسُل",
+      "description": "حافلات مع سائق لرحلات اليوم الواحد والزيارات في جدة والرياض، للجهات والمدارس والمراكز والمجموعات. حدد الركاب والمسار والانتظار لطلب عرض سعر.",
+      "title_length": 55,
+      "description_length": 140,
+      "canonical": [
+        "https://www.wosol.net/private-day-trips"
+      ],
+      "hreflang": {
+        "ar": "https://www.wosol.net/private-day-trips",
+        "en": "https://www.wosol.net/en/private-day-trips/",
+        "x-default": "https://www.wosol.net/private-day-trips"
+      },
+      "schema_json_valid": true,
+      "runtime_v13": true,
+      "errors": []
+    },
+    {
+      "url": "https://www.wosol.net/event-conference-transport",
+      "status": 200,
+      "title": "نقل الفعاليات والمؤتمرات في جدة والرياض | وُسُل",
+      "description": "نقل حضور الفعاليات والمؤتمرات والمعارض في جدة والرياض بين الفنادق ونقاط التجمع ومواقع الحدث. اطلب خطة نقل وعرض سعر يناسب برنامج الفعالية.",
+      "title_length": 47,
+      "description_length": 137,
+      "canonical": [
+        "https://www.wosol.net/event-conference-transport"
+      ],
+      "hreflang": {
+        "ar": "https://www.wosol.net/event-conference-transport",
+        "en": "https://www.wosol.net/en/event-conference-transport/",
+        "x-default": "https://www.wosol.net/event-conference-transport"
+      },
+      "schema_json_valid": true,
+      "runtime_v13": true,
+      "errors": []
+    },
+    {
+      "url": "https://www.wosol.net/airport-hotel-transfers",
+      "status": 200,
+      "title": "نقل المطار والفنادق في جدة والرياض | وُسُل",
+      "description": "نقل المطار والفنادق في جدة والرياض للأفراد والمجموعات وضيوف الجهات. أرسل بيانات الرحلة والركاب والأمتعة لتحديد المركبة وترتيبات الاستقبال.",
+      "title_length": 42,
+      "description_length": 138,
+      "canonical": [
+        "https://www.wosol.net/airport-hotel-transfers"
+      ],
+      "hreflang": {
+        "ar": "https://www.wosol.net/airport-hotel-transfers",
+        "en": "https://www.wosol.net/en/airport-hotel-transfers/",
+        "x-default": "https://www.wosol.net/airport-hotel-transfers"
+      },
+      "schema_json_valid": true,
+      "runtime_v13": true,
+      "errors": []
+    },
+    {
+      "url": "https://www.wosol.net/intercity-group-transport",
+      "status": 200,
+      "title": "نقل المجموعات بين مدن السعودية | وُسُل",
+      "description": "نقل خاص للمجموعات بين مدن السعودية، من جدة والرياض وبقية المدن وفق الاتفاق. اطلب رحلة باتجاه واحد أو ذهاب وعودة مع تحديد المحطات والأمتعة.",
+      "title_length": 38,
+      "description_length": 138,
+      "canonical": [
+        "https://www.wosol.net/intercity-group-transport"
+      ],
+      "hreflang": {
+        "ar": "https://www.wosol.net/intercity-group-transport",
+        "en": "https://www.wosol.net/en/intercity-group-transport/",
+        "x-default": "https://www.wosol.net/intercity-group-transport"
+      },
+      "schema_json_valid": true,
+      "runtime_v13": true,
+      "errors": []
+    },
+    {
+      "url": "https://www.wosol.net/tourism-transport",
+      "status": 200,
+      "title": "نقل سياحي للمجموعات في السعودية | وُسُل",
+      "description": "نقل للمجموعات والزيارات السياحية من جدة والرياض إلى العلا وبقية الوجهات المتفق عليها. حدد برنامج الزيارة والركاب لطلب عرض نقل واضح التفاصيل.",
+      "title_length": 39,
+      "description_length": 140,
+      "canonical": [
+        "https://www.wosol.net/tourism-transport"
+      ],
+      "hreflang": {
+        "ar": "https://www.wosol.net/tourism-transport",
+        "en": "https://www.wosol.net/en/tourism-transport/",
+        "x-default": "https://www.wosol.net/tourism-transport"
+      },
+      "schema_json_valid": true,
+      "runtime_v13": true,
+      "errors": []
+    },
+    {
+      "url": "https://www.wosol.net/umrah-visitor-transport",
+      "status": 200,
+      "title": "نقل المعتمرين والزوار إلى مكة والمدينة | وُسُل",
+      "description": "نقل المعتمرين والزوار إلى مكة والمدينة وبين الفنادق ونقاط الوصول. طلبات من جدة والرياض وبقية المملكة، وفق البرنامج والتوافر وترتيبات الوصول.",
+      "title_length": 46,
+      "description_length": 140,
+      "canonical": [
+        "https://www.wosol.net/umrah-visitor-transport"
+      ],
+      "hreflang": {
+        "ar": "https://www.wosol.net/umrah-visitor-transport",
+        "en": "https://www.wosol.net/en/umrah-visitor-transport/",
+        "x-default": "https://www.wosol.net/umrah-visitor-transport"
+      },
+      "schema_json_valid": true,
+      "runtime_v13": true,
+      "errors": []
+    },
+    {
+      "url": "https://www.wosol.net/executive-vip-transport",
+      "status": 200,
+      "title": "النقل التنفيذي وكبار الشخصيات في جدة والرياض | وُسُل",
+      "description": "نقل تنفيذي وكبار شخصيات في جدة والرياض للاجتماعات واستقبال ضيوف الجهات. حدد الجدول وفئة المركبة المطلوبة للحصول على عرض سعر وتأكيد التوافر.",
+      "title_length": 52,
+      "description_length": 139,
+      "canonical": [
+        "https://www.wosol.net/executive-vip-transport"
+      ],
+      "hreflang": {
+        "ar": "https://www.wosol.net/executive-vip-transport",
+        "en": "https://www.wosol.net/en/executive-vip-transport/",
+        "x-default": "https://www.wosol.net/executive-vip-transport"
+      },
+      "schema_json_valid": true,
+      "runtime_v13": true,
+      "errors": []
+    },
+    {
+      "url": "https://www.wosol.net/en/",
+      "status": 200,
+      "title": "WOSOL | Staff & Student Transport in Jeddah and Riyadh",
+      "description": "Staff transport in Jeddah and Riyadh, plus King Abdulaziz University student transport in Jeddah. Explore routes or request a bus-with-driver quote.",
+      "title_length": 54,
+      "description_length": 148,
+      "canonical": [
+        "https://www.wosol.net/en/"
+      ],
+      "hreflang": {
+        "ar": "https://www.wosol.net/",
+        "en": "https://www.wosol.net/en/",
+        "x-default": "https://www.wosol.net/"
+      },
+      "schema_json_valid": true,
+      "runtime_v13": true,
+      "errors": []
+    },
+    {
+      "url": "https://www.wosol.net/en/register/",
+      "status": 200,
+      "title": "Student Transport Registration in Jeddah | WOSOL",
+      "description": "Request university transport in Jeddah to King Abdulaziz University, Al Sulaymaniyah. Neighbourhood, route and availability are reviewed before confirmation.",
+      "title_length": 48,
+      "description_length": 157,
+      "canonical": [
+        "https://www.wosol.net/en/register/"
+      ],
+      "hreflang": {
+        "ar": "https://www.wosol.net/register",
+        "en": "https://www.wosol.net/en/register/",
+        "x-default": "https://www.wosol.net/register"
+      },
+      "schema_json_valid": true,
+      "runtime_v13": false,
+      "errors": []
+    },
+    {
+      "url": "https://www.wosol.net/en/king-abdulaziz-university-transport/",
+      "status": 200,
+      "title": "King Abdulaziz University Student Transport in Jeddah | WOSOL",
+      "description": "Student transport to King Abdulaziz University, Al Sulaymaniyah, Jeddah. Explore neighbourhoods, monthly or term payment and request coverage confirmation.",
+      "title_length": 61,
+      "description_length": 155,
+      "canonical": [
+        "https://www.wosol.net/en/king-abdulaziz-university-transport/"
+      ],
+      "hreflang": {
+        "ar": "https://www.wosol.net/king-abdulaziz-university-transport",
+        "en": "https://www.wosol.net/en/king-abdulaziz-university-transport/",
+        "x-default": "https://www.wosol.net/king-abdulaziz-university-transport"
+      },
+      "schema_json_valid": true,
+      "runtime_v13": true,
+      "errors": []
+    },
+    {
+      "url": "https://www.wosol.net/en/employee-transport-jeddah/",
+      "status": 200,
+      "title": "Employee Transport in Jeddah | WOSOL",
+      "description": "Staff transportation in Jeddah with monthly or annual contracts. Share pickup points, workplaces and shifts for a bus-with-driver quote from WOSOL.",
+      "title_length": 36,
+      "description_length": 147,
+      "canonical": [
+        "https://www.wosol.net/en/employee-transport-jeddah/"
+      ],
+      "hreflang": {
+        "ar": "https://www.wosol.net/employee-transport-jeddah",
+        "en": "https://www.wosol.net/en/employee-transport-jeddah/",
+        "x-default": "https://www.wosol.net/employee-transport-jeddah"
+      },
+      "schema_json_valid": true,
+      "runtime_v13": true,
+      "errors": []
+    },
+    {
+      "url": "https://www.wosol.net/en/employee-transport-riyadh/",
+      "status": 200,
+      "title": "Employee Transport in Riyadh | WOSOL",
+      "description": "Employee transport in Riyadh, planned around pickup points, workplaces and shifts. Request a staff shuttle or bus-with-driver quote from WOSOL.",
+      "title_length": 36,
+      "description_length": 143,
+      "canonical": [
+        "https://www.wosol.net/en/employee-transport-riyadh/"
+      ],
+      "hreflang": {
+        "ar": "https://www.wosol.net/employee-transport-riyadh",
+        "en": "https://www.wosol.net/en/employee-transport-riyadh/",
+        "x-default": "https://www.wosol.net/employee-transport-riyadh"
+      },
+      "schema_json_valid": true,
+      "runtime_v13": true,
+      "errors": []
+    },
+    {
+      "url": "https://www.wosol.net/en/corporate-transport-saudi-arabia/",
+      "status": 200,
+      "title": "Business and Group Transport in Jeddah & Riyadh | WOSOL",
+      "description": "WOSOL staff, workforce, event, airport, intercity, tourism, Umrah and executive transport. Jeddah and Riyadh first, then wider Saudi Arabia. Request a quote.",
+      "title_length": 55,
+      "description_length": 157,
+      "canonical": [
+        "https://www.wosol.net/en/corporate-transport-saudi-arabia/"
+      ],
+      "hreflang": {
+        "ar": "https://www.wosol.net/corporate-transport-saudi-arabia",
+        "en": "https://www.wosol.net/en/corporate-transport-saudi-arabia/",
+        "x-default": "https://www.wosol.net/corporate-transport-saudi-arabia"
+      },
+      "schema_json_valid": true,
+      "runtime_v13": true,
+      "errors": []
+    },
+    {
+      "url": "https://www.wosol.net/en/workforce-project-transport/",
+      "status": 200,
+      "title": "Workforce Transport in Jeddah & Riyadh | WOSOL",
+      "description": "Workforce transport in Jeddah and Riyadh, planned around accommodation, worksites and shifts. Request a quote for your project and operating schedule.",
+      "title_length": 46,
+      "description_length": 150,
+      "canonical": [
+        "https://www.wosol.net/en/workforce-project-transport/"
+      ],
+      "hreflang": {
+        "ar": "https://www.wosol.net/workforce-project-transport",
+        "en": "https://www.wosol.net/en/workforce-project-transport/",
+        "x-default": "https://www.wosol.net/workforce-project-transport"
+      },
+      "schema_json_valid": true,
+      "runtime_v13": true,
+      "errors": []
+    },
+    {
+      "url": "https://www.wosol.net/en/private-day-trips/",
+      "status": 200,
+      "title": "Bus Hire with Driver in Jeddah & Riyadh | WOSOL",
+      "description": "Hire a bus with a driver in Jeddah or Riyadh for day trips, school outings and group visits. Share your route, passenger numbers and waiting requirements.",
+      "title_length": 47,
+      "description_length": 154,
+      "canonical": [
+        "https://www.wosol.net/en/private-day-trips/"
+      ],
+      "hreflang": {
+        "ar": "https://www.wosol.net/private-day-trips",
+        "en": "https://www.wosol.net/en/private-day-trips/",
+        "x-default": "https://www.wosol.net/private-day-trips"
+      },
+      "schema_json_valid": true,
+      "runtime_v13": true,
+      "errors": []
+    },
+    {
+      "url": "https://www.wosol.net/en/event-conference-transport/",
+      "status": 200,
+      "title": "Event Transport in Jeddah & Riyadh | WOSOL",
+      "description": "Event and conference transport in Jeddah and Riyadh, connecting hotels, pickup points and venues. Request a quote based on your event programme.",
+      "title_length": 42,
+      "description_length": 144,
+      "canonical": [
+        "https://www.wosol.net/en/event-conference-transport/"
+      ],
+      "hreflang": {
+        "ar": "https://www.wosol.net/event-conference-transport",
+        "en": "https://www.wosol.net/en/event-conference-transport/",
+        "x-default": "https://www.wosol.net/event-conference-transport"
+      },
+      "schema_json_valid": true,
+      "runtime_v13": true,
+      "errors": []
+    },
+    {
+      "url": "https://www.wosol.net/en/airport-hotel-transfers/",
+      "status": 200,
+      "title": "Airport Transfers in Jeddah & Riyadh | WOSOL",
+      "description": "Airport and hotel transfers in Jeddah and Riyadh for individuals, groups and business guests. Share flight and luggage details for a tailored quote.",
+      "title_length": 44,
+      "description_length": 148,
+      "canonical": [
+        "https://www.wosol.net/en/airport-hotel-transfers/"
+      ],
+      "hreflang": {
+        "ar": "https://www.wosol.net/airport-hotel-transfers",
+        "en": "https://www.wosol.net/en/airport-hotel-transfers/",
+        "x-default": "https://www.wosol.net/airport-hotel-transfers"
+      },
+      "schema_json_valid": true,
+      "runtime_v13": true,
+      "errors": []
+    },
+    {
+      "url": "https://www.wosol.net/en/intercity-group-transport/",
+      "status": 200,
+      "title": "Intercity Group Transport in Saudi Arabia | WOSOL",
+      "description": "Private group transport between Saudi cities, including Jeddah and Riyadh. Request a one-way or return journey with agreed stops and luggage requirements.",
+      "title_length": 49,
+      "description_length": 154,
+      "canonical": [
+        "https://www.wosol.net/en/intercity-group-transport/"
+      ],
+      "hreflang": {
+        "ar": "https://www.wosol.net/intercity-group-transport",
+        "en": "https://www.wosol.net/en/intercity-group-transport/",
+        "x-default": "https://www.wosol.net/intercity-group-transport"
+      },
+      "schema_json_valid": true,
+      "runtime_v13": true,
+      "errors": []
+    },
+    {
+      "url": "https://www.wosol.net/en/tourism-transport/",
+      "status": 200,
+      "title": "Group Tourism Transport in Saudi Arabia | WOSOL",
+      "description": "Transport for group sightseeing trips from Jeddah and Riyadh to AlUla and other agreed destinations. Request a quote for your itinerary and group size.",
+      "title_length": 47,
+      "description_length": 151,
+      "canonical": [
+        "https://www.wosol.net/en/tourism-transport/"
+      ],
+      "hreflang": {
+        "ar": "https://www.wosol.net/tourism-transport",
+        "en": "https://www.wosol.net/en/tourism-transport/",
+        "x-default": "https://www.wosol.net/tourism-transport"
+      },
+      "schema_json_valid": true,
+      "runtime_v13": true,
+      "errors": []
+    },
+    {
+      "url": "https://www.wosol.net/en/umrah-visitor-transport/",
+      "status": 200,
+      "title": "Umrah Transport to Makkah & Madinah | WOSOL",
+      "description": "Transport for Umrah pilgrims and visitors to Makkah and Madinah, with requests from Jeddah, Riyadh and other Saudi locations. Ask for a group quote.",
+      "title_length": 43,
+      "description_length": 148,
+      "canonical": [
+        "https://www.wosol.net/en/umrah-visitor-transport/"
+      ],
+      "hreflang": {
+        "ar": "https://www.wosol.net/umrah-visitor-transport",
+        "en": "https://www.wosol.net/en/umrah-visitor-transport/",
+        "x-default": "https://www.wosol.net/umrah-visitor-transport"
+      },
+      "schema_json_valid": true,
+      "runtime_v13": true,
+      "errors": []
+    },
+    {
+      "url": "https://www.wosol.net/en/executive-vip-transport/",
+      "status": 200,
+      "title": "Executive Transport in Jeddah & Riyadh | WOSOL",
+      "description": "Executive and VIP transport in Jeddah and Riyadh for meetings and business guests. Request a quote with your schedule and preferred vehicle category.",
+      "title_length": 46,
+      "description_length": 149,
+      "canonical": [
+        "https://www.wosol.net/en/executive-vip-transport/"
+      ],
+      "hreflang": {
+        "ar": "https://www.wosol.net/executive-vip-transport",
+        "en": "https://www.wosol.net/en/executive-vip-transport/",
+        "x-default": "https://www.wosol.net/executive-vip-transport"
+      },
+      "schema_json_valid": true,
+      "runtime_v13": true,
+      "errors": []
+    }
+  ],
+  "scope": "HTTP, metadata and JSON-LD consistency; not Google indexing or rich-result certification"
+}

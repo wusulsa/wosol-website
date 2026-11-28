@@ -1,0 +1,92 @@
+{
+  "status": "published-verified",
+  "files": [
+    "index.html",
+    "corporate-transport-saudi-arabia.html",
+    "workforce-project-transport.html",
+    "en/index.html",
+    "en/corporate-transport-saudi-arabia/index.html",
+    "en/workforce-project-transport/index.html"
+  ],
+  "coverage": [
+    [
+      "جدة",
+      "Jeddah"
+    ],
+    [
+      "الرياض",
+      "Riyadh"
+    ],
+    [
+      "مكة المكرمة",
+      "Makkah"
+    ],
+    [
+      "المدينة المنورة",
+      "Madinah"
+    ],
+    [
+      "الدمام",
+      "Dammam"
+    ],
+    [
+      "نيوم",
+      "NEOM"
+    ],
+    [
+      "الباحة",
+      "Al Baha"
+    ],
+    [
+      "العلا",
+      "AlUla"
+    ],
+    [
+      "الخبر",
+      "Al Khobar"
+    ],
+    [
+      "بريدة",
+      "Buraydah"
+    ],
+    [
+      "رابغ",
+      "Rabigh"
+    ],
+    [
+      "القصيم",
+      "Al Qassim"
+    ],
+    [
+      "بيشة",
+      "Bisha"
+    ],
+    [
+      "أملج",
+      "Umluj"
+    ],
+    [
+      "تبوك",
+      "Tabuk"
+    ],
+    [
+      "مدينة الملك عبدالله الاقتصادية",
+      "King Abdullah Economic City (KAEC)"
+    ],
+    [
+      "أمالا",
+      "AMAALA"
+    ]
+  ],
+  "checks": {
+    "formsUnchanged": true,
+    "scriptsAndSchemaUnchanged": true,
+    "canonicalHreflangUnchanged": true
+  },
+  "mobileReview": {
+    "viewportWidth": 390,
+    "pages": 6,
+    "horizontalOverflow": false,
+    "visualReview": "AR/EN coverage and project sections"
+  }
+}

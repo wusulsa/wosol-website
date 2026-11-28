@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-19",
+  "status": "verified",
+  "urls": [
+    "https://www.wosol.net/",
+    "https://www.wosol.net/en/"
+  ],
+  "query_parameters": false,
+  "ar_order": [
+    "نقل الجهات",
+    "النقل الجامعي"
+  ],
+  "en_order": [
+    "Business transport",
+    "University transport"
+  ],
+  "checks": [
+    "desktop Arabic",
+    "desktop English",
+    "expanded mobile menu Arabic",
+    "expanded mobile menu English"
+  ],
+  "mobile_viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "cdn_settings_changed": false,
+  "purge_performed_this_turn": false,
+  "successful_submission_test": "deferred",
+  "ads_enabled": false
+}

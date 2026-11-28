@@ -1,0 +1,206 @@
+- banner:
+  - generic: "\"إحصاءات\""
+  - button "فتح أداة الاختيار العامة":
+    - generic: جميع الحسابات
+    - img: chevron_right
+    - generic: وسل WOSOL
+    - generic: WOSOL — wosol.net
+    - img: arrow_drop_down
+  - search:
+    - img: search
+    - textbox "بحث":
+      - /placeholder: جرّب البحث عن "الإحصاءات"
+  - button "تبديل المنتجات":
+  - button "قائمة دخول صفحة المساعدة":
+    - img: help
+  - button "فتح لوحة مبدِّل حسابات المستخدم"
+- navigation "الصفحات الرئيسية":
+  - link "الصفحة الرئيسية":
+    - generic: الصفحة الرئيسية
+  - link "التقارير":
+    - img: insert_chart_filled
+    - generic: التقارير
+  - link "استكشاف":
+    - img: data_exploration
+    - generic: استكشاف
+  - link "الإعلانات":
+    - img: ads_click
+    - generic: الإعلانات
+- navigation "صفحات الإعدادات":
+  - link "المهام":
+    - img: task_alt
+    - generic: المهام
+  - link "المسؤول":
+    - img: settings_filled
+    - generic: المسؤول
+- navigation "التنقّل الثانوي":
+  - navigation "الصفحات الثانوية":
+    - button "إنشاء":
+      - img: add
+      - text: إنشاء
+      - img: arrow_drop_down
+  - tree:
+    - treeitem "المسؤول" [level=1]:
+      - button "المسؤول":
+        - generic: المسؤول
+    - treeitem "إعداداتي المفضّلة" [level=1]:
+      - button "إعداداتي المفضّلة":
+        - generic: إعداداتي المفضّلة
+    - treeitem "إعدادات الحساب" [expanded] [level=1]:
+      - separator
+      - button "إعدادات الحساب":
+        - generic: إعدادات الحساب
+        - img: keyboard_arrow_up
+    - treeitem "الحساب" [level=2]:
+      - button "الحساب":
+        - img: arrow_right
+        - generic: الحساب
+    - treeitem "إعدادات الموقع" [expanded] [level=1]:
+      - separator
+      - button "إعدادات الموقع":
+        - generic: إعدادات الموقع
+        - img: keyboard_arrow_up
+    - treeitem "الموقع" [level=2]:
+      - button "الموقع":
+        - img: arrow_right
+        - generic: الموقع
+    - treeitem "جمع البيانات وتعديلها" [level=2]:
+      - button "جمع البيانات وتعديلها":
+        - img: arrow_right
+        - generic: جمع البيانات وتعديلها
+    - treeitem "عرض البيانات" [expanded] [level=2]:
+      - button "عرض البيانات":
+        - img: arrow_drop_down
+        - generic: عرض البيانات
+    - treeitem "الأحداث" [level=3]:
+      - button "الأحداث":
+        - generic: الأحداث
+    - treeitem "إعدادات الشبكة" [level=3]:
+      - button "إعدادات الشبكة":
+        - generic: إعدادات الشبكة
+    - treeitem "شرائح الجمهور" [level=3]:
+      - button "شرائح الجمهور":
+        - generic: شرائح الجمهور
+    - treeitem "التعليقات التوضيحية" [level=3]:
+      - button "التعليقات التوضيحية":
+        - generic: التعليقات التوضيحية
+    - treeitem "المقارنات" [level=3]:
+      - button "المقارنات":
+        - generic: المقارنات
+    - treeitem "الشرائح" [level=3]:
+      - button "الشرائح":
+        - generic: الشرائح
+    - treeitem "التعريفات المخصّصة" [level=3]:
+      - button "التعريفات المخصّصة":
+        - generic: التعريفات المخصّصة
+    - treeitem "مجموعات القنوات" [level=3]:
+      - button "مجموعات القنوات":
+        - generic: مجموعات القنوات
+    - treeitem "المعلومات التعريفية في التقارير" [level=3]:
+      - button "المعلومات التعريفية في التقارير":
+        - generic: المعلومات التعريفية في التقارير
+    - treeitem "DebugView" [level=3]:
+      - button "DebugView":
+        - generic: DebugView
+    - treeitem "روابط المنتجات" [level=2]:
+      - button "روابط المنتجات":
+        - img: arrow_right
+        - generic: روابط المنتجات
+  - separator
+- button "إيقاف/تفعيل التنقّل" [expanded]:
+  - img: keyboard_arrow_left
+- main:
+  - heading "الأحداث" [active] [level=1]
+  - text: تقيس الأحداث تفاعلات المستخدم على موقعك الإلكتروني وتطبيقك. الأحداث الرئيسية هي الأحداث المهمة لمؤسستك، مثل عمليات الشراء أو الاشتراك في النشرات الإخبارية. تظهر أدناه كل الأحداث الرئيسية والأحداث خلال آخر 28 يومًا فقط.
+  - button "معلومات الحصة":
+    - generic: معلومات الحصة
+  - button "الانتقال إلى صفحة DebugView":
+    - img "رابط إلى عرض تصحيح الأخطاء"
+  - button "إنشاء حدث":
+    - img: add
+    - generic: إنشاء حدث
+  - button "إعدادات تحديد المصدر":
+    - generic: إعدادات تحديد المصدر
+  - button "الإعدادات المخصّصة":
+    - generic: الإعدادات المخصّصة
+    - img: arrow_drop_down
+  - img: info
+  - generic: إشعار
+  - generic: لتصنيف حدث على أنّه حدث رئيسي، يُرجى النقر على النجمة بجانب اسم الحدث.
+  - button "تجاهُل":
+    - generic: إغلاق
+  - img: search
+  - searchbox "اكتب لإجراء فلترة"
+  - tablist:
+    - tab "الأحداث الرئيسية" [selected]:
+      - generic: الأحداث الرئيسية
+    - tab "الأحداث الأخيرة":
+      - generic: الأحداث الأخيرة
+  - tabpanel "الأحداث الرئيسية"
+  - table "جدول \"الأحداث والأحداث الرئيسية\"":
+    - row "وضع علامة \"حدث رئيسي\" اسم الحدث عدد مصادر البيانات النشطة خلال آخر 28 يومًا قائمة الإجراءات":
+      - columnheader "وضع علامة \"حدث رئيسي\"":
+        - generic: وضع علامة "حدث رئيسي"
+      - columnheader "اسم الحدث":
+        - generic: اسم الحدث
+      - columnheader "عدد مصادر البيانات النشطة خلال آخر 28 يومًا":
+        - generic: عدد مصادر البيانات النشطة خلال آخر 28 يومًا
+      - columnheader "قائمة الإجراءات":
+        - generic: قائمة الإجراءات
+    - row "تبديل حالة الحدث الرئيسي close_convert_lead لم يتم رصد أي بيانات واردة من مصدر البيانات قائمة الإجراءات":
+      - cell "تبديل حالة الحدث الرئيسي":
+        - button "تبديل حالة الحدث الرئيسي" [pressed]:
+          - img: star
+      - cell "close_convert_lead":
+        - generic: close_convert_lead
+      - cell "لم يتم رصد أي بيانات واردة من مصدر البيانات":
+        - button "لم يتم رصد أي بيانات واردة من مصدر البيانات"
+      - cell "قائمة الإجراءات":
+        - button "قائمة الإجراءات":
+          - img: more_vert
+    - row "تبديل حالة الحدث الرئيسي purchase لم يتم رصد أي بيانات واردة من مصدر البيانات قائمة الإجراءات":
+      - cell "تبديل حالة الحدث الرئيسي":
+        - button "تبديل حالة الحدث الرئيسي" [disabled] [pressed]:
+          - img: star
+      - cell "purchase":
+        - generic: purchase
+      - cell "لم يتم رصد أي بيانات واردة من مصدر البيانات":
+        - button "لم يتم رصد أي بيانات واردة من مصدر البيانات"
+      - cell "قائمة الإجراءات":
+        - button "قائمة الإجراءات":
+          - img: more_vert
+    - row "تبديل حالة الحدث الرئيسي qualify_lead لم يتم رصد أي بيانات واردة من مصدر البيانات قائمة الإجراءات":
+      - cell "تبديل حالة الحدث الرئيسي":
+        - button "تبديل حالة الحدث الرئيسي" [pressed]:
+          - img: star
+      - cell "qualify_lead":
+        - generic: qualify_lead
+      - cell "لم يتم رصد أي بيانات واردة من مصدر البيانات":
+        - button "لم يتم رصد أي بيانات واردة من مصدر البيانات"
+      - cell "قائمة الإجراءات":
+        - button "قائمة الإجراءات":
+          - img: more_vert
+  - generic: "عدد العناصر في الصفحة:"
+  - combobox "عدد العناصر في الصفحة:":
+    - generic: "25"
+  - status: من 1 إلى 3 من إجمالي 3
+  - button "الصفحة الأولى" [disabled]:
+  - button "الصفحة السابقة" [disabled]:
+  - button "الصفحة التالية" [disabled]:
+  - button "الصفحة الأخيرة" [disabled]:
+- contentinfo:
+  - text: ©‎Google 2026 |
+  - link "صفحة \"إحصاءات Google\" الرئيسية":
+    - /url: https://www.google.com/analytics/?hl=ar
+  - text: "|"
+  - link "بنود الخدمة":
+    - /url: https://www.google.com/analytics/tos.html?hl=ar
+  - text: "|"
+  - link "سياسة الخصوصية":
+    - /url: https://www.google.com/policies/privacy/?hl=ar
+  - text: "|"
+  - button "إرسال التعليقات":
+    - img: feedback
+    - generic: إرسال التعليقات
+- button "فتح قائمة السياق"
+- generic: لتصنيف حدث على أنّه حدث رئيسي، يُرجى النقر على النجمة بجانب اسم الحدث.

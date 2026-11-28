@@ -1,0 +1,109 @@
+{
+  "samples": [
+    {
+      "variant": "baseline",
+      "width": 390,
+      "language": "ar",
+      "lcpMs": 436,
+      "fcpMs": 436,
+      "loadMs": 367.59999999403954,
+      "hero": "http://127.0.0.1:8773/assets/profile-2026/hero-1000-fast.webp",
+      "resources": [
+        {
+          "url": "http://127.0.0.1:8773/assets/profile-2026/hero-1000-fast.webp",
+          "duration": 20.600000023841858,
+          "transferSize": 0
+        },
+        {
+          "url": "http://127.0.0.1:8773/css/approved-bundle.r6b74b4565170.css",
+          "duration": 25.099999994039536,
+          "transferSize": 0
+        },
+        {
+          "url": "http://127.0.0.1:8773/assets/profile-2026/approved-cartoon-bus.webp",
+          "duration": 24.200000017881393,
+          "transferSize": 0
+        }
+      ]
+    },
+    {
+      "variant": "optimized",
+      "width": 390,
+      "language": "ar",
+      "lcpMs": 512,
+      "fcpMs": 512,
+      "loadMs": 335.40000000596046,
+      "hero": "http://127.0.0.1:8772/assets/profile-2026/hero-1000-fast.webp",
+      "resources": [
+        {
+          "url": "http://127.0.0.1:8772/assets/profile-2026/hero-1000-fast.webp",
+          "duration": 33.20000001788139,
+          "transferSize": 0
+        },
+        {
+          "url": "http://127.0.0.1:8772/css/approved-preview.c74345c59817.css",
+          "duration": 50.599999994039536,
+          "transferSize": 300
+        },
+        {
+          "url": "http://127.0.0.1:8772/assets/profile-2026/approved-cartoon-bus.webp",
+          "duration": 53.70000001788139,
+          "transferSize": 300
+        }
+      ]
+    },
+    {
+      "variant": "baseline",
+      "width": 390,
+      "language": "en",
+      "lcpMs": 600,
+      "fcpMs": 600,
+      "loadMs": 547.7999999821186,
+      "hero": "http://127.0.0.1:8773/assets/profile-2026/hero-1000-fast.webp",
+      "resources": [
+        {
+          "url": "http://127.0.0.1:8773/assets/profile-2026/hero-1000-fast.webp",
+          "duration": 26.400000005960464,
+          "transferSize": 300
+        },
+        {
+          "url": "http://127.0.0.1:8773/css/approved-bundle.r6b74b4565170.css",
+          "duration": 27.900000005960464,
+          "transferSize": 300
+        },
+        {
+          "url": "http://127.0.0.1:8773/assets/profile-2026/approved-cartoon-bus.webp",
+          "duration": 32.900000005960464,
+          "transferSize": 300
+        }
+      ]
+    },
+    {
+      "variant": "optimized",
+      "width": 390,
+      "language": "en",
+      "lcpMs": 448,
+      "fcpMs": 448,
+      "loadMs": 399.40000000596046,
+      "hero": "http://127.0.0.1:8772/assets/profile-2026/hero-1000-fast.webp",
+      "resources": [
+        {
+          "url": "http://127.0.0.1:8772/assets/profile-2026/hero-1000-fast.webp",
+          "duration": 44.19999998807907,
+          "transferSize": 0
+        },
+        {
+          "url": "http://127.0.0.1:8772/css/approved-preview.c74345c59817.css",
+          "duration": 50.900000005960464,
+          "transferSize": 300
+        },
+        {
+          "url": "http://127.0.0.1:8772/assets/profile-2026/approved-cartoon-bus.webp",
+          "duration": 48.5,
+          "transferSize": 0
+        }
+      ]
+    }
+  ],
+  "method": "Single-tab 390px local loopback, no CPU/network throttling, warm/revalidated cache; one sample per language/variant; not causal speed evidence and not comparable to PSI."
+}

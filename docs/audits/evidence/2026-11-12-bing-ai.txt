@@ -1,0 +1,157 @@
+- banner:
+  - button "Show navigation panel" [active]:
+    - generic: 
+  - link "Skip to main content":
+    - /url: "#content"
+  - img "white bwt logo microsoft bing mobile"
+  - button "More":
+    - generic: 
+  - button "Profile":
+- main:
+  - heading "AI Performance" [level=2]
+  - combobox "Duration":
+    - generic: 
+    - generic: 3 M
+    - generic: 
+  - generic: "Citation sources: Microsoft Copilots and Partners"
+  - button "Download":
+    - generic: Download
+    - generic: 
+  - checkbox "Total Citations" [checked]:
+    - generic: Total Citations
+    - button "Total Citations info": 
+    - generic: "15"
+  - checkbox "Avg. Cited Pages" [checked]:
+    - generic: Avg. Cited Pages
+    - button "Avg. Cited Pages info": 
+    - generic: "0"
+  - generic: Citations
+  - generic: Cited Pages
+  - group "Line chart showing Citations,Cited Pages from August 12, 2026 to November 11, 2026. Citations:15,Cited Pages:0. Toggle checkboxes to show the selected options in chart":
+    - img "Line chart showing Citations,Cited Pages from August 12, 2026 to November 11, 2026. Citations:15,Cited Pages:0. Toggle checkboxes to show the selected options in chart":
+      - img "Line chart showing Citations,Cited Pages from August 12, 2026 to November 11, 2026. Citations:15,Cited Pages:0. Toggle checkboxes to show the selected options in chart"
+    - table:
+      - rowgroup:
+        - row "Date October 20, 2026 October 21, 2026 October 22, 2026 October 23, 2026 October 24, 2026 October 25, 2026 October 26, 2026 October 27, 2026 October 28, 2026 October 29, 2026 October 30, 2026 October 31, 2026 November 01, 2026 November 02, 2026 November 03, 2026 November 04, 2026 November 05, 2026 November 06, 2026 November 07, 2026 November 08, 2026 November 09, 2026":
+          - columnheader "Date"
+          - columnheader "October 20, 2026"
+          - columnheader "October 21, 2026"
+          - columnheader "October 22, 2026"
+          - columnheader "October 23, 2026"
+          - columnheader "October 24, 2026"
+          - columnheader "October 25, 2026"
+          - columnheader "October 26, 2026"
+          - columnheader "October 27, 2026"
+          - columnheader "October 28, 2026"
+          - columnheader "October 29, 2026"
+          - columnheader "October 30, 2026"
+          - columnheader "October 31, 2026"
+          - columnheader "November 01, 2026"
+          - columnheader "November 02, 2026"
+          - columnheader "November 03, 2026"
+          - columnheader "November 04, 2026"
+          - columnheader "November 05, 2026"
+          - columnheader "November 06, 2026"
+          - columnheader "November 07, 2026"
+          - columnheader "November 08, 2026"
+          - columnheader "November 09, 2026"
+      - rowgroup:
+        - row "Total Citations 0 0 0 0 0 8 0 0 0 0 0 0 0 5 0 0 0 0 0 0 2":
+          - cell "Total Citations"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "8"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "5"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "2"
+        - row "Avg. Cited Pages 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1":
+          - cell "Avg. Cited Pages"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "0"
+          - cell "1"
+  - generic: Citations
+  - generic: Cited Pages
+  - heading "List By" [level=3]
+  - tablist "List By":
+    - tab "Grounding Queries" [selected]:
+      - generic: Grounding Queries
+    - tab "Pages":
+      - generic: Pages
+  - tabpanel "Grounding Queries"
+  - button "Download all" [disabled]:
+    - generic: Download all
+    - generic: 
+  - generic: 
+  - textbox:
+    - /placeholder: Search your query
+  - button "Search":
+    - generic: Search
+  - generic: No data available
+  - grid "AI Search Queries Report":
+    - row "Grounding Query, sortable Intent, sortable Topic, sortable Citations, sortable, sorted descending order Citation Share, sortable":
+      - columnheader "Grounding Query, sortable":
+        - button "Grounding Query, sortable":
+          - generic: Grounding Query
+      - button
+      - columnheader "Intent, sortable":
+        - button "Intent, sortable":
+          - generic: Intent
+      - button
+      - columnheader "Topic, sortable":
+        - button "Topic, sortable":
+          - generic: Topic
+      - button
+      - columnheader "Citations, sortable, sorted descending order":
+        - button "Citations, sortable, sorted descending order":
+          - generic: Citations
+          - generic: 
+      - button
+      - columnheader "Citation Share, sortable":
+        - button "Citation Share, sortable":
+          - generic: Citation Share
+      - button
+    - paragraph: No data available
+  - navigation
+  - generic: 
+  - paragraph: The data shown below represents a sample of overall activity. Results may be refined as additional data is processed
+  - link "learnmore":
+    - /url: /webmasters/help/9f8e7d6c
+    - generic: Learn more
+  - generic: 
+  - paragraph: Intent and topic labels are AI generated and can filter potentially unsafe queries.
+  - link "learnmore":
+    - /url: /webmasters/help/9f8e7d6c
+    - generic: Learn more

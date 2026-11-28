@@ -1,0 +1,13 @@
+{
+  "checked_at": "2026-10-27T20:20:23.186320+00:00",
+  "urls": [
+    "https://www.wosol.net/?wp_lang=ar",
+    "https://www.wosol.net/"
+  ],
+  "sha256": {
+    "lang": "1813fc3534f80d1dc3a80062a28dc50f7409f5ca06c8d49393aae252d3ea87ee",
+    "home": "1813fc3534f80d1dc3a80062a28dc50f7409f5ca06c8d49393aae252d3ea87ee"
+  },
+  "matching_tests": 6,
+  "deployment": "pending hosting login; no live changes this turn"
+}

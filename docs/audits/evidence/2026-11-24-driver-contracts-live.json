@@ -1,0 +1,22 @@
+[
+  {
+    "url": "https://www.wosol.net/driver-only-services",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "url": "https://www.wosol.net/en/driver-only-services/",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "url": "https://www.wosol.net/private-day-trips",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "url": "https://www.wosol.net/en/private-day-trips/",
+    "status": 200,
+    "matches": true
+  }
+]

@@ -1,0 +1,162 @@
+{
+  "1": {
+    "width": 1536,
+    "height": 1024,
+    "src": "/assets/fleet/showcase/fleet-1-1040.webp",
+    "variants": [
+      {
+        "src": "/assets/fleet/showcase/fleet-1-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/assets/fleet/showcase/fleet-1-1040.webp",
+        "width": 1040
+      },
+      {
+        "src": "/assets/fleet/showcase/fleet-1-1536.webp",
+        "width": 1536
+      }
+    ],
+    "provenance": "Previously AI-enhanced image, selected by owner for visual presentation; fine vehicle details are illustrative."
+  },
+  "2": {
+    "width": 1536,
+    "height": 1024,
+    "src": "/assets/fleet/showcase/fleet-2-1040.webp",
+    "variants": [
+      {
+        "src": "/assets/fleet/showcase/fleet-2-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/assets/fleet/showcase/fleet-2-1040.webp",
+        "width": 1040
+      },
+      {
+        "src": "/assets/fleet/showcase/fleet-2-1536.webp",
+        "width": 1536
+      }
+    ],
+    "provenance": "Previously AI-enhanced image, selected by owner for visual presentation; fine vehicle details are illustrative."
+  },
+  "3": {
+    "width": 1536,
+    "height": 1024,
+    "src": "/assets/fleet/showcase/fleet-3-1040.webp",
+    "variants": [
+      {
+        "src": "/assets/fleet/showcase/fleet-3-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/assets/fleet/showcase/fleet-3-1040.webp",
+        "width": 1040
+      },
+      {
+        "src": "/assets/fleet/showcase/fleet-3-1536.webp",
+        "width": 1536
+      }
+    ],
+    "provenance": "Previously AI-enhanced image, selected by owner for visual presentation; fine vehicle details are illustrative."
+  },
+  "4": {
+    "width": 1536,
+    "height": 1024,
+    "src": "/assets/fleet/showcase/fleet-4-1040.webp",
+    "variants": [
+      {
+        "src": "/assets/fleet/showcase/fleet-4-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/assets/fleet/showcase/fleet-4-1040.webp",
+        "width": 1040
+      },
+      {
+        "src": "/assets/fleet/showcase/fleet-4-1536.webp",
+        "width": 1536
+      }
+    ],
+    "provenance": "Previously AI-enhanced image, selected by owner for visual presentation; fine vehicle details are illustrative."
+  },
+  "5": {
+    "width": 1536,
+    "height": 1024,
+    "src": "/assets/fleet/showcase/fleet-5-1040.webp",
+    "variants": [
+      {
+        "src": "/assets/fleet/showcase/fleet-5-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/assets/fleet/showcase/fleet-5-1040.webp",
+        "width": 1040
+      },
+      {
+        "src": "/assets/fleet/showcase/fleet-5-1536.webp",
+        "width": 1536
+      }
+    ],
+    "provenance": "Previously AI-enhanced image, selected by owner for visual presentation; fine vehicle details are illustrative."
+  },
+  "6": {
+    "width": 1536,
+    "height": 1024,
+    "src": "/assets/fleet/showcase/fleet-6-1040.webp",
+    "variants": [
+      {
+        "src": "/assets/fleet/showcase/fleet-6-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/assets/fleet/showcase/fleet-6-1040.webp",
+        "width": 1040
+      },
+      {
+        "src": "/assets/fleet/showcase/fleet-6-1536.webp",
+        "width": 1536
+      }
+    ],
+    "provenance": "Previously AI-enhanced image, selected by owner for visual presentation; fine vehicle details are illustrative."
+  },
+  "7": {
+    "width": 1537,
+    "height": 1023,
+    "src": "/assets/fleet/showcase/fleet-7-1040.webp",
+    "variants": [
+      {
+        "src": "/assets/fleet/showcase/fleet-7-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/assets/fleet/showcase/fleet-7-1040.webp",
+        "width": 1040
+      },
+      {
+        "src": "/assets/fleet/showcase/fleet-7-1536.webp",
+        "width": 1536
+      }
+    ],
+    "provenance": "Previously AI-enhanced image, selected by owner for visual presentation; fine vehicle details are illustrative."
+  },
+  "8": {
+    "width": 1537,
+    "height": 1023,
+    "src": "/assets/fleet/showcase/fleet-8-1040.webp",
+    "variants": [
+      {
+        "src": "/assets/fleet/showcase/fleet-8-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/assets/fleet/showcase/fleet-8-1040.webp",
+        "width": 1040
+      },
+      {
+        "src": "/assets/fleet/showcase/fleet-8-1536.webp",
+        "width": 1536
+      }
+    ],
+    "provenance": "Previously AI-enhanced image, selected by owner for visual presentation; fine vehicle details are illustrative."
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "date": "2026-11-23",
+  "scope": "https://www.wosol.net/",
+  "mode": "read-only",
+  "restrictions": {
+    "forms_sent": 0,
+    "indexing_requests": 0,
+    "ads_started": 0,
+    "account_settings_changed": false
+  },
+  "gsc": {
+    "period": "last 28 days vs preceding 28 days; exact calendar boundaries not verified",
+    "clicks": [
+      325,
+      99
+    ],
+    "impressions_display": [
+      "12.3K",
+      "3.67K"
+    ],
+    "ctr_percent": [
+      2.6,
+      2.7
+    ],
+    "average_position": [
+      6.6,
+      6.3
+    ],
+    "ai_impressions_display": [
+      "2.04K",
+      "518"
+    ],
+    "index_report_updated": "2026-11-16",
+    "indexed": 45,
+    "excluded": 36,
+    "exclusions": {
+      "redirect": 16,
+      "alternate_canonical": 9,
+      "not_found": 6,
+      "noindex": 2,
+      "duplicate_no_user_canonical": 1,
+      "crawled_not_indexed": 2
+    },
+    "crawled_not_indexed": [
+      "https://www.wosol.net/?page_id=1447",
+      "https://www.wosol.net/?page_id=754"
+    ],
+    "sitemap": {
+      "status": "Success",
+      "urls": 38,
+      "last_read": "2026-11-21"
+    },
+    "mobile_cwv": {
+      "updated": "2026-11-22",
+      "needs_improvement": 26,
+      "poor": 0,
+      "good": 0,
+      "group_lcp_seconds": 3.1
+    }
+  },
+  "ga4": {
+    "property": "559491722",
+    "period": [
+      "2026-11-16",
+      "2026-11-22"
+    ],
+    "active_users": 32,
+    "views": 93,
+    "events": 268,
+    "key_events": 0,
+    "sessions_by_channel": {
+      "Organic Search": 27,
+      "Direct": 15
+    },
+    "sessions_by_source": {
+      "google / organic": 26,
+      "bing / organic": 1,
+      "(direct) / (none)": 15
+    },
+    "gsc_link": {
+      "status": "present",
+      "linked_on": "2026-11-12",
+      "stream": "16153335169"
+    },
+    "recent_events": [
+      "contact_phone_click",
+      "contact_whatsapp_click",
+      "first_visit",
+      "form_start",
+      "page_view",
+      "session_start",
+      "user_engagement"
+    ],
+    "key_events_without_incoming_stream": [
+      "close_convert_lead",
+      "purchase",
+      "qualify_lead"
+    ]
+  },
+  "bing": {
+    "period": [
+      "2026-08-23",
+      "2026-11-22"
+    ],
+    "clicks": 2,
+    "impressions": 119,
+    "ai_citations": 19,
+    "citation_scope": "Microsoft Copilots and Partners",
+    "cited_pages": {
+      "https://www.wosol.net/": 16,
+      "https://www.wosol.net/tourism-transport": 3
+    },
+    "grounding_queries": "No data available",
+    "sitemap": {
+      "status": "Success",
+      "urls": 38,
+      "last_crawl": "2026-11-21"
+    },
+    "explorer": {
+      "window": "last 6 months, includes historical URLs/assets",
+      "total": 104,
+      "indexed": 65,
+      "error": 2,
+      "warning": 16,
+      "excluded": 21
+    }
+  },
+  "gbp": {
+    "admin_service_count": 12,
+    "pending_badge_seen": false,
+    "reviewed_descriptions": [
+      "تأجير المركبات بدون سائق",
+      "توفير سائقين دون مركبات"
+    ],
+    "public_services_list_verified": false,
+    "public_tabs": [
+      "overview",
+      "reviews",
+      "about"
+    ],
+    "rating": 4.2,
+    "review_count": 304,
+    "public_website": "https://www.wosol.net/",
+    "public_phone": "0536060003",
+    "brand_search": "باصات وسل النقل",
+    "snippet": "transport/service copy, not old privacy snippet",
+    "latest_release_title_exact_match_verified": false,
+    "favicon_visual_match_verified": false
+  },
+  "limitations": [
+    "No new form submission",
+    "No individual inspection of every current URL",
+    "GSC excluded total is not a list of current service defects",
+    "No isolated AR/EN field speed verdict",
+    "No fresh PSI run",
+    "No universal AI visibility inference",
+    "No customer data in this evidence file"
+  ]
+}

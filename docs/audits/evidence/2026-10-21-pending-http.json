@@ -1,0 +1,102 @@
+{
+  "at": "2026-10-21T13:11:16.290Z",
+  "note": "Public HTTP check, not a verified Bing crawler request.",
+  "rows": [
+    {
+      "url": "https://www.wosol.net/corporate-transport-saudi-arabia",
+      "status": 200,
+      "final": "https://www.wosol.net/corporate-transport-saudi-arabia",
+      "robots": "index,follow",
+      "canonical": "https://www.wosol.net/corporate-transport-saudi-arabia",
+      "xRobots": null
+    },
+    {
+      "url": "https://www.wosol.net/en/corporate-transport-saudi-arabia/",
+      "status": 200,
+      "final": "https://www.wosol.net/en/corporate-transport-saudi-arabia/",
+      "robots": "index,follow",
+      "canonical": "https://www.wosol.net/en/corporate-transport-saudi-arabia/",
+      "xRobots": null
+    },
+    {
+      "url": "https://www.wosol.net/employee-transport-jeddah",
+      "status": 200,
+      "final": "https://www.wosol.net/employee-transport-jeddah",
+      "robots": "index,follow",
+      "canonical": "https://www.wosol.net/employee-transport-jeddah",
+      "xRobots": null
+    },
+    {
+      "url": "https://www.wosol.net/en/employee-transport-jeddah/",
+      "status": 200,
+      "final": "https://www.wosol.net/en/employee-transport-jeddah/",
+      "robots": "index,follow",
+      "canonical": "https://www.wosol.net/en/employee-transport-jeddah/",
+      "xRobots": null
+    },
+    {
+      "url": "https://www.wosol.net/employee-transport-riyadh",
+      "status": 200,
+      "final": "https://www.wosol.net/employee-transport-riyadh",
+      "robots": "index,follow",
+      "canonical": "https://www.wosol.net/employee-transport-riyadh",
+      "xRobots": null
+    },
+    {
+      "url": "https://www.wosol.net/en/employee-transport-riyadh/",
+      "status": 200,
+      "final": "https://www.wosol.net/en/employee-transport-riyadh/",
+      "robots": "index,follow",
+      "canonical": "https://www.wosol.net/en/employee-transport-riyadh/",
+      "xRobots": null
+    },
+    {
+      "url": "https://www.wosol.net/employee-transport-makkah",
+      "status": 200,
+      "final": "https://www.wosol.net/employee-transport-makkah",
+      "robots": "index,follow",
+      "canonical": "https://www.wosol.net/employee-transport-makkah",
+      "xRobots": null
+    },
+    {
+      "url": "https://www.wosol.net/en/employee-transport-makkah/",
+      "status": 200,
+      "final": "https://www.wosol.net/en/employee-transport-makkah/",
+      "robots": "index,follow",
+      "canonical": "https://www.wosol.net/en/employee-transport-makkah/",
+      "xRobots": null
+    },
+    {
+      "url": "https://www.wosol.net/employee-transport-madinah",
+      "status": 200,
+      "final": "https://www.wosol.net/employee-transport-madinah",
+      "robots": "index,follow",
+      "canonical": "https://www.wosol.net/employee-transport-madinah",
+      "xRobots": null
+    },
+    {
+      "url": "https://www.wosol.net/en/employee-transport-madinah/",
+      "status": 200,
+      "final": "https://www.wosol.net/en/employee-transport-madinah/",
+      "robots": "index,follow",
+      "canonical": "https://www.wosol.net/en/employee-transport-madinah/",
+      "xRobots": null
+    },
+    {
+      "url": "https://www.wosol.net/employee-transport-dammam",
+      "status": 200,
+      "final": "https://www.wosol.net/employee-transport-dammam",
+      "robots": "index,follow",
+      "canonical": "https://www.wosol.net/employee-transport-dammam",
+      "xRobots": null
+    },
+    {
+      "url": "https://www.wosol.net/en/employee-transport-dammam/",
+      "status": 200,
+      "final": "https://www.wosol.net/en/employee-transport-dammam/",
+      "robots": "index,follow",
+      "canonical": "https://www.wosol.net/en/employee-transport-dammam/",
+      "xRobots": null
+    }
+  ]
+}

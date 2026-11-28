@@ -1,0 +1,597 @@
+{
+  "time": "2026-11-12T17:17:29.133983+00:00",
+  "pages": [
+    {
+      "file": "airport-hotel-transfers.html",
+      "url": "https://www.wosoltransportation.com/airport-hotel-transfers",
+      "final": "https://www.wosoltransportation.com/airport-hotel-transfers",
+      "status": 200,
+      "canonical": "https://www.wosol.net/airport-hotel-transfers",
+      "canonical_ok": true,
+      "preview_block": false,
+      "noindex": false,
+      "formal": true
+    },
+    {
+      "file": "corporate-transport-saudi-arabia.html",
+      "url": "https://www.wosoltransportation.com/corporate-transport-saudi-arabia",
+      "final": "https://www.wosoltransportation.com/corporate-transport-saudi-arabia",
+      "status": 200,
+      "canonical": "https://www.wosol.net/corporate-transport-saudi-arabia",
+      "canonical_ok": true,
+      "preview_block": false,
+      "noindex": false,
+      "formal": true
+    },
+    {
+      "file": "driver-only-services.html",
+      "url": "https://www.wosoltransportation.com/driver-only-services",
+      "final": "https://www.wosoltransportation.com/driver-only-services",
+      "status": 200,
+      "canonical": "https://www.wosol.net/driver-only-services",
+      "canonical_ok": true,
+      "preview_block": false,
+      "noindex": false,
+      "formal": true
+    },
+    {
+      "file": "employee-transport-dammam.html",
+      "url": "https://www.wosoltransportation.com/employee-transport-dammam",
+      "final": "https://www.wosoltransportation.com/employee-transport-dammam",
+      "status": 200,
+      "canonical": "https://www.wosol.net/employee-transport-dammam",
+      "canonical_ok": true,
+      "preview_block": false,
+      "noindex": false,
+      "formal": true
+    },
+    {
+      "file": "employee-transport-jeddah.html",
+      "url": "https://www.wosoltransportation.com/employee-transport-jeddah",
+      "final": "https://www.wosoltransportation.com/employee-transport-jeddah",
+      "status": 200,
+      "canonical": "https://www.wosol.net/employee-transport-jeddah",
+      "canonical_ok": true,
+      "preview_block": false,
+      "noindex": false,
+      "formal": true
+    },
+    {
+      "file": "employee-transport-madinah.html",
+      "url": "https://www.wosoltransportation.com/employee-transport-madinah",
+      "final": "https://www.wosoltransportation.com/employee-transport-madinah",
+      "status": 200,
+      "canonical": "https://www.wosol.net/employee-transport-madinah",
+      "canonical_ok": true,
+      "preview_block": false,
+      "noindex": false,
+      "formal": true
+    },
+    {
+      "file": "employee-transport-makkah.html",
+      "url": "https://www.wosoltransportation.com/employee-transport-makkah",
+      "final": "https://www.wosoltransportation.com/employee-transport-makkah",
+      "status": 200,
+      "canonical": "https://www.wosol.net/employee-transport-makkah",
+      "canonical_ok": true,
+      "preview_block": false,
+      "noindex": false,
+      "formal": true
+    },
+    {
+      "file": "employee-transport-riyadh.html",
+      "url": "https://www.wosoltransportation.com/employee-transport-riyadh",
+      "final": "https://www.wosoltransportation.com/employee-transport-riyadh",
+      "status": 200,
+      "canonical": "https://www.wosol.net/employee-transport-riyadh",
+      "canonical_ok": true,
+      "preview_block": false,
+      "noindex": false,
+      "formal": true
+    },
+    {
+      "file": "en/airport-hotel-transfers/index.html",
+      "url": "https://www.wosoltransportation.com/en/airport-hotel-transfers/",
+      "final": "https://www.wosoltransportation.com/en/airport-hotel-transfers/",
+      "status": 200,
+      "canonical": "https://www.wosol.net/en/airport-hotel-transfers/",
+      "canonical_ok": true,
+      "preview_block": false,
+      "noindex": false,
+      "formal": true
+    },
+    {
+      "file": "en/corporate-transport-saudi-arabia/index.html",
+      "url": "https://www.wosoltransportation.com/en/corporate-transport-saudi-arabia/",
+      "final": "https://www.wosoltransportation.com/en/corporate-transport-saudi-arabia/",
+      "status": 200,
+      "canonical": "https://www.wosol.net/en/corporate-transport-saudi-arabia/",
+      "canonical_ok": true,
+      "preview_block": false,
+      "noindex": false,
+      "formal": true
+    },
+    {
+      "file": "en/driver-only-services/index.html",
+      "url": "https://www.wosoltransportation.com/en/driver-only-services/",
+      "final": "https://www.wosoltransportation.com/en/driver-only-services/",
+      "status": 200,
+      "canonical": "https://www.wosol.net/en/driver-only-services/",
+      "canonical_ok": true,
+      "preview_block": false,
+      "noindex": false,
+      "formal": true
+    },
+    {
+      "file": "en/employee-transport-dammam/index.html",
+      "url": "https://www.wosoltransportation.com/en/employee-transport-dammam/",
+      "final": "https://www.wosoltransportation.com/en/employee-transport-dammam/",
+      "status": 200,
+      "canonical": "https://www.wosol.net/en/employee-transport-dammam/",
+      "canonical_ok": true,
+      "preview_block": false,
+      "noindex": false,
+      "formal": true
+    },
+    {
+      "file": "en/employee-transport-jeddah/index.html",
+      "url": "https://www.wosoltransportation.com/en/employee-transport-jeddah/",
+      "final": "https://www.wosoltransportation.com/en/employee-transport-jeddah/",
+      "status": 200,
+      "canonical": "https://www.wosol.net/en/employee-transport-jeddah/",
+      "canonical_ok": true,
+      "preview_block": false,
+      "noindex": false,
+      "formal": true
+    },
+    {
+      "file": "en/employee-transport-madinah/index.html",
+      "url": "https://www.wosoltransportation.com/en/employee-transport-madinah/",
+      "final": "https://www.wosoltransportation.com/en/employee-transport-madinah/",
+      "status": 200,
+      "canonical": "https://www.wosol.net/en/employee-transport-madinah/",
+      "canonical_ok": true,
+      "preview_block": false,
+      "noindex": false,
+      "formal": true
+    },
+    {
+      "file": "en/employee-transport-makkah/index.html",
+      "url": "https://www.wosoltransportation.com/en/employee-transport-makkah/",
+      "final": "https://www.wosoltransportation.com/en/employee-transport-makkah/",
+      "status": 200,
+      "canonical": "https://www.wosol.net/en/employee-transport-makkah/",
+      "canonical_ok": true,
+      "preview_block": false,
+      "noindex": false,
+      "formal": true
+    },
+    {
+      "file": "en/employee-transport-riyadh/index.html",
+      "url": "https://www.wosoltransportation.com/en/employee-transport-riyadh/",
+      "final": "https://www.wosoltransportation.com/en/employee-transport-riyadh/",
+      "status": 200,
+      "canonical": "https://www.wosol.net/en/employee-transport-riyadh/",
+      "canonical_ok": true,
+      "preview_block": false,
+      "noindex": false,
+      "formal": true
+    },
+    {
+      "file": "en/event-conference-transport/index.html",
+      "url": "https://www.wosoltransportation.com/en/event-conference-transport/",
+      "final": "https://www.wosoltransportation.com/en/event-conference-transport/",
+      "status": 200,
+      "canonical": "https://www.wosol.net/en/event-conference-transport/",
+      "canonical_ok": true,
+      "preview_block": false,
+      "noindex": false,
+      "formal": true
+    },
+    {
+      "file": "en/executive-vip-transport/index.html",
+      "url": "https://www.wosoltransportation.com/en/executive-vip-transport/",
+      "final": "https://www.wosoltransportation.com/en/executive-vip-transport/",
+      "status": 200,
+      "canonical": "https://www.wosol.net/en/executive-vip-transport/",
+      "canonical_ok": true,
+      "preview_block": false,
+      "noindex": false,
+      "formal": true
+    },
+    {
+      "file": "en/index.html",
+      "url": "https://www.wosoltransportation.com/en/",
+      "final": "https://www.wosoltransportation.com/en/",
+      "status": 200,
+      "canonical": "https://www.wosol.net/en/",
+      "canonical_ok": true,
+      "preview_block": false,
+      "noindex": false,
+      "formal": true
+    },
+    {
+      "file": "en/intercity-group-transport/index.html",
+      "url": "https://www.wosoltransportation.com/en/intercity-group-transport/",
+      "final": "https://www.wosoltransportation.com/en/intercity-group-transport/",
+      "status": 200,
+      "canonical": "https://www.wosol.net/en/intercity-group-transport/",
+      "canonical_ok": true,
+      "preview_block": false,
+      "noindex": false,
+      "formal": true
+    },
+    {
+      "file": "en/king-abdulaziz-university-transport/index.html",
+      "url": "https://www.wosoltransportation.com/en/king-abdulaziz-university-transport/",
+      "final": "https://www.wosoltransportation.com/en/king-abdulaziz-university-transport/",
+      "status": 200,
+      "canonical": "https://www.wosol.net/en/king-abdulaziz-university-transport/",
+      "canonical_ok": true,
+      "preview_block": false,
+      "noindex": false,
+      "formal": true
+    },
+    {
+      "file": "en/private-day-trips/index.html",
+      "url": "https://www.wosoltransportation.com/en/private-day-trips/",
+      "final": "https://www.wosoltransportation.com/en/private-day-trips/",
+      "status": 200,
+      "canonical": "https://www.wosol.net/en/private-day-trips/",
+      "canonical_ok": true,
+      "preview_block": false,
+      "noindex": false,
+      "formal": true
+    },
+    {
+      "file": "en/register/index.html",
+      "url": "https://www.wosoltransportation.com/en/register/",
+      "final": "https://www.wosoltransportation.com/en/register/",
+      "status": 200,
+      "canonical": "https://www.wosol.net/en/register/",
+      "canonical_ok": true,
+      "preview_block": false,
+      "noindex": false,
+      "formal": true
+    },
+    {
+      "file": "en/tourism-transport/index.html",
+      "url": "https://www.wosoltransportation.com/en/tourism-transport/",
+      "final": "https://www.wosoltransportation.com/en/tourism-transport/",
+      "status": 200,
+      "canonical": "https://www.wosol.net/en/tourism-transport/",
+      "canonical_ok": true,
+      "preview_block": false,
+      "noindex": false,
+      "formal": true
+    },
+    {
+      "file": "en/umrah-visitor-transport/index.html",
+      "url": "https://www.wosoltransportation.com/en/umrah-visitor-transport/",
+      "final": "https://www.wosoltransportation.com/en/umrah-visitor-transport/",
+      "status": 200,
+      "canonical": "https://www.wosol.net/en/umrah-visitor-transport/",
+      "canonical_ok": true,
+      "preview_block": false,
+      "noindex": false,
+      "formal": true
+    },
+    {
+      "file": "en/vehicle-rental-without-driver/index.html",
+      "url": "https://www.wosoltransportation.com/en/vehicle-rental-without-driver/",
+      "final": "https://www.wosoltransportation.com/en/vehicle-rental-without-driver/",
+      "status": 200,
+      "canonical": "https://www.wosol.net/en/vehicle-rental-without-driver/",
+      "canonical_ok": true,
+      "preview_block": false,
+      "noindex": false,
+      "formal": true
+    },
+    {
+      "file": "en/workforce-project-transport/index.html",
+      "url": "https://www.wosoltransportation.com/en/workforce-project-transport/",
+      "final": "https://www.wosoltransportation.com/en/workforce-project-transport/",
+      "status": 200,
+      "canonical": "https://www.wosol.net/en/workforce-project-transport/",
+      "canonical_ok": true,
+      "preview_block": false,
+      "noindex": false,
+      "formal": true
+    },
+    {
+      "file": "event-conference-transport.html",
+      "url": "https://www.wosoltransportation.com/event-conference-transport",
+      "final": "https://www.wosoltransportation.com/event-conference-transport",
+      "status": 200,
+      "canonical": "https://www.wosol.net/event-conference-transport",
+      "canonical_ok": true,
+      "preview_block": false,
+      "noindex": false,
+      "formal": true
+    },
+    {
+      "file": "executive-vip-transport.html",
+      "url": "https://www.wosoltransportation.com/executive-vip-transport",
+      "final": "https://www.wosoltransportation.com/executive-vip-transport",
+      "status": 200,
+      "canonical": "https://www.wosol.net/executive-vip-transport",
+      "canonical_ok": true,
+      "preview_block": false,
+      "noindex": false,
+      "formal": true
+    },
+    {
+      "file": "index.html",
+      "url": "https://www.wosoltransportation.com/",
+      "final": "https://www.wosoltransportation.com/",
+      "status": 200,
+      "canonical": "https://www.wosol.net/",
+      "canonical_ok": true,
+      "preview_block": false,
+      "noindex": false,
+      "formal": true
+    },
+    {
+      "file": "intercity-group-transport.html",
+      "url": "https://www.wosoltransportation.com/intercity-group-transport",
+      "final": "https://www.wosoltransportation.com/intercity-group-transport",
+      "status": 200,
+      "canonical": "https://www.wosol.net/intercity-group-transport",
+      "canonical_ok": true,
+      "preview_block": false,
+      "noindex": false,
+      "formal": true
+    },
+    {
+      "file": "king-abdulaziz-university-transport.html",
+      "url": "https://www.wosoltransportation.com/king-abdulaziz-university-transport",
+      "final": "https://www.wosoltransportation.com/king-abdulaziz-university-transport",
+      "status": 200,
+      "canonical": "https://www.wosol.net/king-abdulaziz-university-transport",
+      "canonical_ok": true,
+      "preview_block": false,
+      "noindex": false,
+      "formal": true
+    },
+    {
+      "file": "private-day-trips.html",
+      "url": "https://www.wosoltransportation.com/private-day-trips",
+      "final": "https://www.wosoltransportation.com/private-day-trips",
+      "status": 200,
+      "canonical": "https://www.wosol.net/private-day-trips",
+      "canonical_ok": true,
+      "preview_block": false,
+      "noindex": false,
+      "formal": true
+    },
+    {
+      "file": "register.html",
+      "url": "https://www.wosoltransportation.com/register",
+      "final": "https://www.wosoltransportation.com/register",
+      "status": 200,
+      "canonical": "https://www.wosol.net/register",
+      "canonical_ok": true,
+      "preview_block": false,
+      "noindex": false,
+      "formal": true
+    },
+    {
+      "file": "renewal.html",
+      "url": "https://www.wosoltransportation.com/renewal",
+      "final": "https://www.wosoltransportation.com/renewal",
+      "status": 200,
+      "canonical": "https://www.wosol.net/renewal.html",
+      "canonical_ok": true,
+      "preview_block": false,
+      "noindex": false,
+      "formal": true
+    },
+    {
+      "file": "student-transport-jeddah.html",
+      "url": "https://www.wosoltransportation.com/student-transport-jeddah",
+      "final": "https://www.wosoltransportation.com/student-transport-jeddah",
+      "status": 200,
+      "canonical": "https://www.wosol.net/king-abdulaziz-university-transport",
+      "canonical_ok": true,
+      "preview_block": false,
+      "noindex": false,
+      "formal": true
+    },
+    {
+      "file": "subscriber-support.html",
+      "url": "https://www.wosoltransportation.com/subscriber-support",
+      "final": "https://www.wosoltransportation.com/subscriber-support",
+      "status": 200,
+      "canonical": "https://www.wosol.net/subscriber-support.html",
+      "canonical_ok": true,
+      "preview_block": false,
+      "noindex": false,
+      "formal": true
+    },
+    {
+      "file": "tourism-transport.html",
+      "url": "https://www.wosoltransportation.com/tourism-transport",
+      "final": "https://www.wosoltransportation.com/tourism-transport",
+      "status": 200,
+      "canonical": "https://www.wosol.net/tourism-transport",
+      "canonical_ok": true,
+      "preview_block": false,
+      "noindex": false,
+      "formal": true
+    },
+    {
+      "file": "umrah-visitor-transport.html",
+      "url": "https://www.wosoltransportation.com/umrah-visitor-transport",
+      "final": "https://www.wosoltransportation.com/umrah-visitor-transport",
+      "status": 200,
+      "canonical": "https://www.wosol.net/umrah-visitor-transport",
+      "canonical_ok": true,
+      "preview_block": false,
+      "noindex": false,
+      "formal": true
+    },
+    {
+      "file": "vehicle-rental-without-driver.html",
+      "url": "https://www.wosoltransportation.com/vehicle-rental-without-driver",
+      "final": "https://www.wosoltransportation.com/vehicle-rental-without-driver",
+      "status": 200,
+      "canonical": "https://www.wosol.net/vehicle-rental-without-driver",
+      "canonical_ok": true,
+      "preview_block": false,
+      "noindex": false,
+      "formal": true
+    },
+    {
+      "file": "workforce-project-transport.html",
+      "url": "https://www.wosoltransportation.com/workforce-project-transport",
+      "final": "https://www.wosoltransportation.com/workforce-project-transport",
+      "status": 200,
+      "canonical": "https://www.wosol.net/workforce-project-transport",
+      "canonical_ok": true,
+      "preview_block": false,
+      "noindex": false,
+      "formal": true
+    }
+  ],
+  "certificates": [
+    {
+      "host": "wosoltransportation.com",
+      "verified": true,
+      "san": [
+        [
+          "DNS",
+          "wosoltransportation.com"
+        ],
+        [
+          "DNS",
+          "www.wosoltransportation.com"
+        ]
+      ],
+      "expires": "May 29 17:08:22 2027 GMT",
+      "issuer": [
+        [
+          [
+            "countryName",
+            "US"
+          ]
+        ],
+        [
+          [
+            "organizationName",
+            "SSL Corporation"
+          ]
+        ],
+        [
+          [
+            "commonName",
+            "SSL.com TLS Issuing RSA CA R1"
+          ]
+        ]
+      ],
+      "protocol": "TLSv1.3"
+    },
+    {
+      "host": "www.wosoltransportation.com",
+      "verified": true,
+      "san": [
+        [
+          "DNS",
+          "wosoltransportation.com"
+        ],
+        [
+          "DNS",
+          "www.wosoltransportation.com"
+        ]
+      ],
+      "expires": "May 29 17:08:22 2027 GMT",
+      "issuer": [
+        [
+          [
+            "countryName",
+            "US"
+          ]
+        ],
+        [
+          [
+            "organizationName",
+            "SSL Corporation"
+          ]
+        ],
+        [
+          [
+            "commonName",
+            "SSL.com TLS Issuing RSA CA R1"
+          ]
+        ]
+      ],
+      "protocol": "TLSv1.3"
+    },
+    {
+      "host": "www.wosol.net",
+      "verified": true,
+      "san": [
+        [
+          "DNS",
+          "wosol.net"
+        ],
+        [
+          "DNS",
+          "www.wosol.net"
+        ]
+      ],
+      "expires": "May  3 21:12:15 2027 GMT",
+      "issuer": [
+        [
+          [
+            "countryName",
+            "US"
+          ]
+        ],
+        [
+          [
+            "organizationName",
+            "SSL Corporation"
+          ]
+        ],
+        [
+          [
+            "commonName",
+            "SSL.com TLS Issuing RSA CA R1"
+          ]
+        ]
+      ],
+      "protocol": "TLSv1.3"
+    }
+  ],
+  "redirects": [
+    {
+      "url": "http://wosoltransportation.com/en/?check=release",
+      "final": "https://www.wosoltransportation.com/en/?check=release",
+      "status": 200
+    },
+    {
+      "url": "https://wosoltransportation.com/en/?check=release",
+      "final": "https://www.wosoltransportation.com/en/?check=release",
+      "status": 200
+    },
+    {
+      "url": "http://www.wosoltransportation.com/employee-transport-jeddah",
+      "final": "https://www.wosoltransportation.com/employee-transport-jeddah",
+      "status": 200
+    },
+    {
+      "url": "https://www.wosoltransportation.com/robots.txt",
+      "final": "https://www.wosoltransportation.com/robots.txt",
+      "status": 200
+    },
+    {
+      "url": "https://www.wosoltransportation.com/sitemap.xml",
+      "status": 404
+    },
+    {
+      "url": "https://www.wosol.net/",
+      "final": "https://www.wosol.net/",
+      "status": 200
+    }
+  ]
+}

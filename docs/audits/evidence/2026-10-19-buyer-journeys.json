@@ -1,0 +1,22 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "newSection": true,
+    "privateLink": true,
+    "lastModified": [
+      "Mon, 19 Oct 2026 04:06:06 GMT"
+    ],
+    "verifiedUtc": "2026-10-18T21:09:57.7171806Z"
+  },
+  {
+    "path": "/en/",
+    "status": 200,
+    "newSection": true,
+    "privateLink": true,
+    "lastModified": [
+      "Mon, 19 Oct 2026 04:06:06 GMT"
+    ],
+    "verifiedUtc": "2026-10-18T21:09:58.4832722Z"
+  }
+]

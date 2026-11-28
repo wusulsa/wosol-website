@@ -1,0 +1,247 @@
+- banner:
+  - button "القائمة الرئيسية":
+  - link "Google Search Console":
+    - /url: ./search-console?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+  - search:
+    - textbox [disabled]: فحص أي عنوان URL في "https://www.wosol.net/"
+    - combobox "فحص أي عنوان URL في https://www.wosol.net/"
+    - button "بحث":
+  - button "مساعدة":
+    - generic: help_outline
+  - tooltip: مساعدة
+  - button "إعدادات المستخدم":
+    - generic: manage_accounts
+  - tooltip: إعدادات المستخدم
+  - 'button "عدد الرسائل غير المقروءة: 3"':
+    - generic: notifications
+  - tooltip: الرسائل
+  - generic: "3"
+  - button "تطبيقات Google":
+  - 'button "حساب Google: وُسُـل النقل (info@wosol.net)"':
+- dialog "navigational drawer":
+  - navigation "أساسي":
+    - button "موقع البحث":
+      - img "الرمز المفضّل"
+      - combobox "https://www.wosol.net/"
+      - generic: 
+    - link "نظرة عامة":
+      - /url: ./search-console?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+      - generic: home
+      - generic: نظرة عامة
+    - link "الإحصاءات":
+      - /url: ./search-console/performance/insights?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+      - generic: lightbulb_2
+      - generic: الإحصاءات
+    - link "الأداء":
+      - /url: ./search-console/performance/search-analytics?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+      - generic: trending_up
+      - generic: الأداء
+    - button "قسم تقرير \"الأداء\"":
+      - generic: keyboard_arrow_down
+    - button "فحص عنوان URL":
+      - generic: search
+      - generic: فحص عنوان URL
+    - generic: الفهرسة
+    - button "قسم تقرير \"الفهرسة\"" [expanded]:
+      - generic: keyboard_arrow_up
+    - link "الصفحات" [active]:
+      - /url: ./search-console/index?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+      - generic: file_copy
+      - generic: الصفحات
+    - link "ملفات خرائط الموقع":
+      - /url: ./search-console/sitemaps?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+      - generic: account_tree
+      - generic: ملفات خرائط الموقع
+    - link "عمليات الإزالة":
+      - /url: ./search-console/removals?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+      - generic: visibility_off
+      - generic: عمليات الإزالة
+    - generic: تجربة المستخدم
+    - button "قسم تقرير \"تجربة المستخدم\"" [expanded]:
+      - generic: keyboard_arrow_up
+    - link "مؤشرات أداء الويب الأساسية":
+      - /url: ./search-console/core-web-vitals?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+      - generic: speed
+      - generic: مؤشرات أداء الويب الأساسية
+    - link "HTTPS":
+      - /url: ./search-console/https?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+      - generic: lock
+      - generic: HTTPS
+    - generic: التحسينات
+    - button "قسم تقرير \"التحسينات\"" [expanded]:
+      - generic: keyboard_arrow_up
+    - link "مسارات التنقل":
+      - /url: ./search-console/r/breadcrumbs?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+      - generic: layers
+      - generic: مسارات التنقل
+    - generic: الأمان والإجراءات اليدوية
+    - button "قسم تقرير \"الأمان والإجراءات اليدوية\"":
+      - generic: keyboard_arrow_down
+    - link "تقرير الروابط":
+      - /url: ./search-console/links?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+      - generic: link_2
+      - generic: الروابط
+    - link "الإنجازات":
+      - /url: ./search-console/achievements?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+      - generic: trophy
+      - generic: الإنجازات
+    - link "إعدادات":
+      - /url: ./search-console/settings?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+      - generic: settings
+      - generic: إعدادات
+    - button "إرسال ملاحظات":
+      - generic: feedback
+      - generic: إرسال ملاحظات
+    - button "لمحة عن Search Console":
+      - generic: info
+      - generic: لمحة عن Search Console
+    - link "الخصوصية":
+      - /url: https://myaccount.google.com/privacypolicy?hl=ar
+    - link "الأحكام":
+      - /url: https://myaccount.google.com/termsofservice?hl=ar
+- navigation "مسارات التنقل":
+  - heading "فهرسة الصفحات" [level=1]
+- button "تصدير":
+  - generic: 
+  - generic: تصدير
+- listbox:
+  - option "كل الصفحات المعروفة" [selected]
+  - option "كل الصفحات المقدّمة"
+  - option "الصفحات التي لم يتم إرسالها فقط"
+  - option "/sitemap.xml"
+- generic: "تاريخ آخر تعديل: ‎23‏/10‏/2026"
+- main:
+  - button "غير مفهرسة 31 7 أسباب":
+    - generic "غير مفهرسة":
+      - generic: 
+      - generic: غير مفهرسة
+    - generic "31"
+    - generic: 7 أسباب
+  - button "null":
+    - generic: 
+  - button "المفهرسة 50":
+    - generic "المفهرسة":
+      - generic: 
+      - generic: المفهرسة
+    - generic "50"
+  - button "null":
+    - generic: 
+  - checkbox "عدد الظهور"
+  - generic: عدد الظهور
+  - generic: الصفحات
+  - link "عرض بيانات عن الصفحات التي تمت فهرستها":
+    - /url: ./search-console/index/drilldown?resource_id=https%3A%2F%2Fwww.wosol.net%2F&pages=ALL_URLS
+    - generic: check_circle
+    - generic: عرض بيانات عن الصفحات التي تمت فهرستها
+    - generic: 
+  - generic: info_filled
+  - generic: الأسباب المؤدّية إلى عدم فهرسة الصفحات
+  - generic: لا يمكن عرض الصفحات على Google إذا لم تتم فهرستها.
+  - button "فلترة صفوف الجدول":
+    - generic: 
+  - table:
+    - rowgroup:
+      - row "السبب المصدر null التحقق من الصحة مؤشر البيانات الصفحات":
+        - columnheader "السبب":
+          - generic: السبب
+        - columnheader "المصدر null":
+          - text: المصدر
+          - button "null":
+            - generic: 
+        - columnheader "التحقق من الصحة":
+          - generic: التحقق من الصحة
+        - columnheader "مؤشر البيانات":
+          - generic: مؤشر البيانات
+        - columnheader "الصفحات":
+          - generic: الصفحات
+    - rowgroup:
+      - row "صفحة بديلة تتضمن علامة أساسية مناسبة موقع إلكتروني لم تبدأ عملية التحقق 18":
+        - cell "صفحة بديلة تتضمن علامة أساسية مناسبة":
+          - generic "صفحة بديلة تتضمن علامة أساسية مناسبة"
+        - cell "موقع إلكتروني":
+          - generic: موقع إلكتروني
+        - cell "لم تبدأ عملية التحقق":
+          - generic: 
+          - text: لم تبدأ عملية التحقق
+        - cell:
+        - cell "18":
+          - generic: "18"
+      - row "لم يتم العثور عليها (404) موقع إلكتروني لم تبدأ عملية التحقق 5":
+        - cell "لم يتم العثور عليها (404)":
+          - generic "لم يتم العثور عليها (404)"
+        - cell "موقع إلكتروني":
+          - generic: موقع إلكتروني
+        - cell "لم تبدأ عملية التحقق":
+          - generic: 
+          - text: لم تبدأ عملية التحقق
+        - cell:
+        - cell "5":
+          - generic: "5"
+      - row "تم استثناء الصفحة من الفهرسة بواسطة علامة \"noindex\" موقع إلكتروني لم تبدأ عملية التحقق 2":
+        - cell "تم استثناء الصفحة من الفهرسة بواسطة علامة \"noindex\"":
+          - generic "تم استثناء الصفحة من الفهرسة بواسطة علامة \"noindex\""
+        - cell "موقع إلكتروني":
+          - generic: موقع إلكتروني
+        - cell "لم تبدأ عملية التحقق":
+          - generic: 
+          - text: لم تبدأ عملية التحقق
+        - cell:
+        - cell "2":
+          - generic: "2"
+      - row "نسخة طبق الأصل، لم يخترها المستخدم نسخة أساسية. موقع إلكتروني لم تبدأ عملية التحقق 1":
+        - cell "نسخة طبق الأصل، لم يخترها المستخدم نسخة أساسية.":
+          - generic "نسخة طبق الأصل، لم يخترها المستخدم نسخة أساسية."
+        - cell "موقع إلكتروني":
+          - generic: موقع إلكتروني
+        - cell "لم تبدأ عملية التحقق":
+          - generic: 
+          - text: لم تبدأ عملية التحقق
+        - cell:
+        - cell "1":
+          - generic: "1"
+      - row "صفحة تتضمن إعادة توجيه موقع إلكتروني لم تبدأ عملية التحقق 1":
+        - cell "صفحة تتضمن إعادة توجيه":
+          - generic "صفحة تتضمن إعادة توجيه"
+        - cell "موقع إلكتروني":
+          - generic: موقع إلكتروني
+        - cell "لم تبدأ عملية التحقق":
+          - generic: 
+          - text: لم تبدأ عملية التحقق
+        - cell:
+        - cell "1":
+          - generic: "1"
+      - row "تم اكتشاف الصفحة - لم تتم فهرستها حتى الآن أنظمة Google لم تبدأ عملية التحقق 2":
+        - cell "تم اكتشاف الصفحة - لم تتم فهرستها حتى الآن":
+          - generic "تم اكتشاف الصفحة - لم تتم فهرستها حتى الآن"
+        - cell "أنظمة Google":
+          - generic: أنظمة Google
+        - cell "لم تبدأ عملية التحقق":
+          - generic: 
+          - text: لم تبدأ عملية التحقق
+        - cell:
+        - cell "2":
+          - generic: "2"
+      - row "تم الزحف إلى الصفحة - لم تتم فهرستها حاليًا أنظمة Google لم تبدأ عملية التحقق 2":
+        - cell "تم الزحف إلى الصفحة - لم تتم فهرستها حاليًا":
+          - generic "تم الزحف إلى الصفحة - لم تتم فهرستها حاليًا"
+        - cell "أنظمة Google":
+          - generic: أنظمة Google
+        - cell "لم تبدأ عملية التحقق":
+          - generic: 
+          - text: لم تبدأ عملية التحقق
+        - cell:
+        - cell "2":
+          - generic: "2"
+  - generic: "عدد الصفوف في كل صفحة:"
+  - listbox "عدد الصفوف لكل صفحة":
+    - option "5"
+    - option "10" [selected]
+    - option "25"
+    - option "50"
+    - option "100"
+    - option "250"
+    - option "500"
+  - generic: 1-7 من 7
+  - generic: 
+  - generic: 
+- generic: فهرسة الصفحات

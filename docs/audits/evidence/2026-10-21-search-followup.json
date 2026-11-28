@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-21",
+  "account": "info@wosol.net",
+  "google": {
+    "attempted": "https://www.wosol.net/airport-hotel-transfers",
+    "result": "quota_rejected",
+    "new_accepted": 0,
+    "pending": 10,
+    "previous_accepted_not_repeated": true,
+    "driver_only_ar": "discovered_not_indexed",
+    "driver_only_en": "discovered_not_indexed",
+    "sitemap_discovered": 32,
+    "sitemap_last_read": "2026-10-19",
+    "title_description_updated": true,
+    "favicon": "old_wordmark_observed",
+    "public_services": "not_verified"
+  },
+  "bing": {
+    "sitemap": "Success",
+    "discovered": 38,
+    "last_crawl": "2026-10-20",
+    "old_sitemap_count": 9,
+    "indexed": [
+      "corporate_transport_ar",
+      "jeddah_ar",
+      "jeddah_en",
+      "riyadh_ar",
+      "riyadh_en"
+    ],
+    "not_indexed_redirect": [
+      "corporate_transport_en",
+      "makkah_en",
+      "madinah_en",
+      "dammam_en"
+    ],
+    "not_indexed_indexing_disallowed": [
+      "makkah_ar",
+      "madinah_ar",
+      "dammam_ar"
+    ],
+    "individual_requests": 0,
+    "citations": 0,
+    "period": "2026-07-21/2026-10-20"
+  },
+  "ai_search": {
+    "engine": "Google AI Mode",
+    "query": "وسل للنقل",
+    "cited_url": "https://www.wosol.net/",
+    "brand_query_only": true,
+    "personalized": true,
+    "general_ranking_not_proven": true
+  },
+  "forms_sent": 0,
+  "ads_changes": 0,
+  "automation": "google deleted after one-time followup"
+}

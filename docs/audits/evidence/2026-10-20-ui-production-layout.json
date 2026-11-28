@@ -1,0 +1,54 @@
+[
+  {
+    "brokenImages": 0,
+    "busWidth": "76.1562px",
+    "coverage": "نقل منسوبي الشركات والمؤسسات والهيئات في جدة والرياض وجميع مدن المملكة العربية السعودية، مع حلول نقل فرق المشاريع وتأجير المركبات والسائقين.",
+    "overflow": false,
+    "paths": [
+      "نقل الجهات",
+      "الرحلات والفعاليات",
+      "النقل الجامعي"
+    ],
+    "url": "https://www.wosol.net/#paths-title",
+    "width": 390
+  },
+  {
+    "brokenImages": 0,
+    "busWidth": "89.5938px",
+    "coverage": "نقل منسوبي الشركات والمؤسسات والهيئات في جدة والرياض وجميع مدن المملكة العربية السعودية، مع حلول نقل فرق المشاريع وتأجير المركبات والسائقين.",
+    "overflow": false,
+    "paths": [
+      "نقل الجهات",
+      "الرحلات والفعاليات",
+      "النقل الجامعي"
+    ],
+    "url": "https://www.wosol.net/#paths-title",
+    "width": 1365
+  },
+  {
+    "brokenImages": 0,
+    "busWidth": "76.1562px",
+    "coverage": "Staff transport for companies, institutions and authorities in Jeddah, Riyadh and all cities across Saudi Arabia, with project transport and vehicle or driver rental options.",
+    "overflow": false,
+    "paths": [
+      "Business transport",
+      "Trips & events",
+      "University transport"
+    ],
+    "url": "https://www.wosol.net/en/#paths-title",
+    "width": 390
+  },
+  {
+    "brokenImages": 0,
+    "busWidth": "89.5938px",
+    "coverage": "Staff transport for companies, institutions and authorities in Jeddah, Riyadh and all cities across Saudi Arabia, with project transport and vehicle or driver rental options.",
+    "overflow": false,
+    "paths": [
+      "Business transport",
+      "Trips & events",
+      "University transport"
+    ],
+    "url": "https://www.wosol.net/en/#paths-title",
+    "width": 1365
+  }
+]

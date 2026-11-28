@@ -1,0 +1,20 @@
+[
+  {
+    "url": "https://www.wosol.net/umrah-visitor-transport",
+    "status": 200,
+    "matchesRelease": true,
+    "sha256": "f9694e0552d3b4b0852ef993511cc85b19cedc6fc6ea72921e2a8f008b986908",
+    "cache": {
+      "supersonic-cache-status": "BYPASS"
+    }
+  },
+  {
+    "url": "https://www.wosol.net/en/umrah-visitor-transport/",
+    "status": 200,
+    "matchesRelease": true,
+    "sha256": "fab20b1d471bf05ed7c35473a828ca17fa2615a71db1a24b5ea7e0274ef57120",
+    "cache": {
+      "supersonic-cache-status": "BYPASS"
+    }
+  }
+]

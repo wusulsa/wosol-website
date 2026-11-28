@@ -1,0 +1,59 @@
+{
+  "checkedAt": "2026-11-25T22:38:36.101350+00:00",
+  "pages": [
+    {
+      "url": "https://www.wosol.net/",
+      "status": 200,
+      "matchesLocal": true,
+      "canonical": "https://www.wosol.net/",
+      "robots": "index,follow",
+      "sha256": "2bb6ecf5d096a4d5669a761a74a5897f2fcdb9b3e6e4bfbf26beb16cd43f6d4d",
+      "cacheControl": null
+    },
+    {
+      "url": "https://www.wosol.net/corporate-transport-saudi-arabia",
+      "status": 200,
+      "matchesLocal": true,
+      "canonical": "https://www.wosol.net/corporate-transport-saudi-arabia",
+      "robots": "index,follow",
+      "sha256": "ab4cf562caf5aa13a329300b816a3b8f88b6dc9eb8bc17eda6295092cece6c98",
+      "cacheControl": null
+    },
+    {
+      "url": "https://www.wosol.net/workforce-project-transport",
+      "status": 200,
+      "matchesLocal": true,
+      "canonical": "https://www.wosol.net/workforce-project-transport",
+      "robots": "index,follow",
+      "sha256": "66617409389d1c6c0c81706dd07c3f7d00f38e6b7d3797270fa06abf363eca9d",
+      "cacheControl": null
+    },
+    {
+      "url": "https://www.wosol.net/en/",
+      "status": 200,
+      "matchesLocal": true,
+      "canonical": "https://www.wosol.net/en/",
+      "robots": "index,follow",
+      "sha256": "cfae0bd82f8a72ea6a51a34f5309d9a244089f685a2c5cb5e115e66536530a7f",
+      "cacheControl": null
+    },
+    {
+      "url": "https://www.wosol.net/en/corporate-transport-saudi-arabia/",
+      "status": 200,
+      "matchesLocal": true,
+      "canonical": "https://www.wosol.net/en/corporate-transport-saudi-arabia/",
+      "robots": "index,follow",
+      "sha256": "fde011845e9907b1d2c4309404eea0b4bb306bcbab7b1ff867e0eab07cf2427b",
+      "cacheControl": null
+    },
+    {
+      "url": "https://www.wosol.net/en/workforce-project-transport/",
+      "status": 200,
+      "matchesLocal": true,
+      "canonical": "https://www.wosol.net/en/workforce-project-transport/",
+      "robots": "index,follow",
+      "sha256": "5a36d94792e1b3d1245396aa01e7d3dc0d413145c012a2497831539391c33f8b",
+      "cacheControl": null
+    }
+  ]
+}

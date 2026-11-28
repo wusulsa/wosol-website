@@ -1,0 +1,2310 @@
+[
+  {
+    "lang": "en",
+    "service": "employees",
+    "fields": [
+      {
+        "label": "Customer type",
+        "name": "qt-customer-type",
+        "required": true
+      },
+      {
+        "label": "Contact name",
+        "name": "qt-contact",
+        "required": true
+      },
+      {
+        "label": "Mobile number with country code",
+        "name": "qt-phone",
+        "required": true
+      },
+      {
+        "label": "Email address",
+        "name": "qt-email",
+        "required": true
+      },
+      {
+        "label": "Job title (optional)",
+        "name": "qt-job",
+        "required": false
+      },
+      {
+        "label": "Service Required",
+        "name": "qt-service",
+        "required": true
+      },
+      {
+        "label": "Expected Number of Passengers",
+        "name": "qt-count",
+        "required": true
+      },
+      {
+        "label": "Region / City",
+        "name": "qt-region",
+        "required": true
+      },
+      {
+        "label": "Operating start date",
+        "name": "qt-start",
+        "required": true
+      },
+      {
+        "label": "Shift pickup time",
+        "name": "qt-departure-time",
+        "required": true
+      },
+      {
+        "label": "Journey direction",
+        "name": "qt-direction",
+        "required": true
+      },
+      {
+        "label": "Service end date (optional)",
+        "name": "qt-end",
+        "required": false
+      },
+      {
+        "label": "Accommodation or meeting point",
+        "name": "qt-pickup",
+        "required": true
+      },
+      {
+        "label": "Workplace or project location",
+        "name": "qt-destination",
+        "required": true
+      },
+      {
+        "label": "Shifts and working days",
+        "name": "qt-schedule",
+        "required": true
+      },
+      {
+        "label": "Additional details (optional)",
+        "name": "qt-notes",
+        "required": false
+      },
+      {
+        "label": "Commercial registration (optional)",
+        "name": "attachment_commercial",
+        "required": false
+      },
+      {
+        "label": "Tax certificate (optional)",
+        "name": "attachment_tax",
+        "required": false
+      },
+      {
+        "label": "National address (optional)",
+        "name": "attachment_address",
+        "required": false
+      }
+    ],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "lang": "en",
+    "service": "private",
+    "fields": [
+      {
+        "label": "Customer type",
+        "name": "qt-customer-type",
+        "required": true
+      },
+      {
+        "label": "Contact name",
+        "name": "qt-contact",
+        "required": true
+      },
+      {
+        "label": "Mobile number with country code",
+        "name": "qt-phone",
+        "required": true
+      },
+      {
+        "label": "Email address",
+        "name": "qt-email",
+        "required": true
+      },
+      {
+        "label": "Job title (optional)",
+        "name": "qt-job",
+        "required": false
+      },
+      {
+        "label": "Service Required",
+        "name": "qt-service",
+        "required": true
+      },
+      {
+        "label": "Expected Number of Passengers",
+        "name": "qt-count",
+        "required": true
+      },
+      {
+        "label": "Region / City",
+        "name": "qt-region",
+        "required": true
+      },
+      {
+        "label": "Journey date",
+        "name": "qt-start",
+        "required": true
+      },
+      {
+        "label": "Journey departure time",
+        "name": "qt-departure-time",
+        "required": true
+      },
+      {
+        "label": "Journey direction",
+        "name": "qt-direction",
+        "required": true
+      },
+      {
+        "label": "Journey pickup location",
+        "name": "qt-pickup",
+        "required": true
+      },
+      {
+        "label": "Journey destination",
+        "name": "qt-destination",
+        "required": true
+      },
+      {
+        "label": "Additional details (optional)",
+        "name": "qt-notes",
+        "required": false
+      },
+      {
+        "label": "Commercial registration (optional)",
+        "name": "attachment_commercial",
+        "required": false
+      },
+      {
+        "label": "Tax certificate (optional)",
+        "name": "attachment_tax",
+        "required": false
+      },
+      {
+        "label": "National address (optional)",
+        "name": "attachment_address",
+        "required": false
+      }
+    ],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "lang": "en",
+    "service": "workforce",
+    "fields": [
+      {
+        "label": "Customer type",
+        "name": "qt-customer-type",
+        "required": true
+      },
+      {
+        "label": "Contact name",
+        "name": "qt-contact",
+        "required": true
+      },
+      {
+        "label": "Mobile number with country code",
+        "name": "qt-phone",
+        "required": true
+      },
+      {
+        "label": "Email address",
+        "name": "qt-email",
+        "required": true
+      },
+      {
+        "label": "Job title (optional)",
+        "name": "qt-job",
+        "required": false
+      },
+      {
+        "label": "Service Required",
+        "name": "qt-service",
+        "required": true
+      },
+      {
+        "label": "Expected Number of Passengers",
+        "name": "qt-count",
+        "required": true
+      },
+      {
+        "label": "Region / City",
+        "name": "qt-region",
+        "required": true
+      },
+      {
+        "label": "Operating start date",
+        "name": "qt-start",
+        "required": true
+      },
+      {
+        "label": "Shift pickup time",
+        "name": "qt-departure-time",
+        "required": true
+      },
+      {
+        "label": "Journey direction",
+        "name": "qt-direction",
+        "required": true
+      },
+      {
+        "label": "Service end date (optional)",
+        "name": "qt-end",
+        "required": false
+      },
+      {
+        "label": "Accommodation or meeting point",
+        "name": "qt-pickup",
+        "required": true
+      },
+      {
+        "label": "Workplace or project location",
+        "name": "qt-destination",
+        "required": true
+      },
+      {
+        "label": "Shifts and working days",
+        "name": "qt-schedule",
+        "required": true
+      },
+      {
+        "label": "Additional details (optional)",
+        "name": "qt-notes",
+        "required": false
+      },
+      {
+        "label": "Commercial registration (optional)",
+        "name": "attachment_commercial",
+        "required": false
+      },
+      {
+        "label": "Tax certificate (optional)",
+        "name": "attachment_tax",
+        "required": false
+      },
+      {
+        "label": "National address (optional)",
+        "name": "attachment_address",
+        "required": false
+      }
+    ],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "lang": "en",
+    "service": "events",
+    "fields": [
+      {
+        "label": "Customer type",
+        "name": "qt-customer-type",
+        "required": true
+      },
+      {
+        "label": "Contact name",
+        "name": "qt-contact",
+        "required": true
+      },
+      {
+        "label": "Mobile number with country code",
+        "name": "qt-phone",
+        "required": true
+      },
+      {
+        "label": "Email address",
+        "name": "qt-email",
+        "required": true
+      },
+      {
+        "label": "Job title (optional)",
+        "name": "qt-job",
+        "required": false
+      },
+      {
+        "label": "Service Required",
+        "name": "qt-service",
+        "required": true
+      },
+      {
+        "label": "Expected Number of Passengers",
+        "name": "qt-count",
+        "required": true
+      },
+      {
+        "label": "Region / City",
+        "name": "qt-region",
+        "required": true
+      },
+      {
+        "label": "Journey date",
+        "name": "qt-start",
+        "required": true
+      },
+      {
+        "label": "Journey departure time",
+        "name": "qt-departure-time",
+        "required": true
+      },
+      {
+        "label": "Journey direction",
+        "name": "qt-direction",
+        "required": true
+      },
+      {
+        "label": "Journey pickup location",
+        "name": "qt-pickup",
+        "required": true
+      },
+      {
+        "label": "Journey destination",
+        "name": "qt-destination",
+        "required": true
+      },
+      {
+        "label": "Additional details (optional)",
+        "name": "qt-notes",
+        "required": false
+      },
+      {
+        "label": "Commercial registration (optional)",
+        "name": "attachment_commercial",
+        "required": false
+      },
+      {
+        "label": "Tax certificate (optional)",
+        "name": "attachment_tax",
+        "required": false
+      },
+      {
+        "label": "National address (optional)",
+        "name": "attachment_address",
+        "required": false
+      }
+    ],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "lang": "en",
+    "service": "airport",
+    "fields": [
+      {
+        "label": "Customer type",
+        "name": "qt-customer-type",
+        "required": true
+      },
+      {
+        "label": "Contact name",
+        "name": "qt-contact",
+        "required": true
+      },
+      {
+        "label": "Mobile number with country code",
+        "name": "qt-phone",
+        "required": true
+      },
+      {
+        "label": "Email address",
+        "name": "qt-email",
+        "required": true
+      },
+      {
+        "label": "Job title (optional)",
+        "name": "qt-job",
+        "required": false
+      },
+      {
+        "label": "Service Required",
+        "name": "qt-service",
+        "required": true
+      },
+      {
+        "label": "Expected Number of Passengers",
+        "name": "qt-count",
+        "required": true
+      },
+      {
+        "label": "Region / City",
+        "name": "qt-region",
+        "required": true
+      },
+      {
+        "label": "Journey date",
+        "name": "qt-start",
+        "required": true
+      },
+      {
+        "label": "Journey departure time",
+        "name": "qt-departure-time",
+        "required": true
+      },
+      {
+        "label": "Journey direction",
+        "name": "qt-direction",
+        "required": true
+      },
+      {
+        "label": "Journey pickup location",
+        "name": "qt-pickup",
+        "required": true
+      },
+      {
+        "label": "Journey destination",
+        "name": "qt-destination",
+        "required": true
+      },
+      {
+        "label": "Flight number and arrival time (optional)",
+        "name": "qt-flight",
+        "required": false
+      },
+      {
+        "label": "Additional details (optional)",
+        "name": "qt-notes",
+        "required": false
+      },
+      {
+        "label": "Commercial registration (optional)",
+        "name": "attachment_commercial",
+        "required": false
+      },
+      {
+        "label": "Tax certificate (optional)",
+        "name": "attachment_tax",
+        "required": false
+      },
+      {
+        "label": "National address (optional)",
+        "name": "attachment_address",
+        "required": false
+      }
+    ],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "lang": "en",
+    "service": "intercity",
+    "fields": [
+      {
+        "label": "Customer type",
+        "name": "qt-customer-type",
+        "required": true
+      },
+      {
+        "label": "Contact name",
+        "name": "qt-contact",
+        "required": true
+      },
+      {
+        "label": "Mobile number with country code",
+        "name": "qt-phone",
+        "required": true
+      },
+      {
+        "label": "Email address",
+        "name": "qt-email",
+        "required": true
+      },
+      {
+        "label": "Job title (optional)",
+        "name": "qt-job",
+        "required": false
+      },
+      {
+        "label": "Service Required",
+        "name": "qt-service",
+        "required": true
+      },
+      {
+        "label": "Expected Number of Passengers",
+        "name": "qt-count",
+        "required": true
+      },
+      {
+        "label": "Region / City",
+        "name": "qt-region",
+        "required": true
+      },
+      {
+        "label": "Journey date",
+        "name": "qt-start",
+        "required": true
+      },
+      {
+        "label": "Journey departure time",
+        "name": "qt-departure-time",
+        "required": true
+      },
+      {
+        "label": "Journey direction",
+        "name": "qt-direction",
+        "required": true
+      },
+      {
+        "label": "Journey pickup location",
+        "name": "qt-pickup",
+        "required": true
+      },
+      {
+        "label": "Journey destination",
+        "name": "qt-destination",
+        "required": true
+      },
+      {
+        "label": "Additional details (optional)",
+        "name": "qt-notes",
+        "required": false
+      },
+      {
+        "label": "Commercial registration (optional)",
+        "name": "attachment_commercial",
+        "required": false
+      },
+      {
+        "label": "Tax certificate (optional)",
+        "name": "attachment_tax",
+        "required": false
+      },
+      {
+        "label": "National address (optional)",
+        "name": "attachment_address",
+        "required": false
+      }
+    ],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "lang": "en",
+    "service": "tourism",
+    "fields": [
+      {
+        "label": "Customer type",
+        "name": "qt-customer-type",
+        "required": true
+      },
+      {
+        "label": "Contact name",
+        "name": "qt-contact",
+        "required": true
+      },
+      {
+        "label": "Mobile number with country code",
+        "name": "qt-phone",
+        "required": true
+      },
+      {
+        "label": "Email address",
+        "name": "qt-email",
+        "required": true
+      },
+      {
+        "label": "Job title (optional)",
+        "name": "qt-job",
+        "required": false
+      },
+      {
+        "label": "Service Required",
+        "name": "qt-service",
+        "required": true
+      },
+      {
+        "label": "Expected Number of Passengers",
+        "name": "qt-count",
+        "required": true
+      },
+      {
+        "label": "Region / City",
+        "name": "qt-region",
+        "required": true
+      },
+      {
+        "label": "Journey date",
+        "name": "qt-start",
+        "required": true
+      },
+      {
+        "label": "Journey departure time",
+        "name": "qt-departure-time",
+        "required": true
+      },
+      {
+        "label": "Journey direction",
+        "name": "qt-direction",
+        "required": true
+      },
+      {
+        "label": "Journey pickup location",
+        "name": "qt-pickup",
+        "required": true
+      },
+      {
+        "label": "Journey destination",
+        "name": "qt-destination",
+        "required": true
+      },
+      {
+        "label": "Additional details (optional)",
+        "name": "qt-notes",
+        "required": false
+      },
+      {
+        "label": "Commercial registration (optional)",
+        "name": "attachment_commercial",
+        "required": false
+      },
+      {
+        "label": "Tax certificate (optional)",
+        "name": "attachment_tax",
+        "required": false
+      },
+      {
+        "label": "National address (optional)",
+        "name": "attachment_address",
+        "required": false
+      }
+    ],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "lang": "en",
+    "service": "umrah",
+    "fields": [
+      {
+        "label": "Customer type",
+        "name": "qt-customer-type",
+        "required": true
+      },
+      {
+        "label": "Contact name",
+        "name": "qt-contact",
+        "required": true
+      },
+      {
+        "label": "Mobile number with country code",
+        "name": "qt-phone",
+        "required": true
+      },
+      {
+        "label": "Email address",
+        "name": "qt-email",
+        "required": true
+      },
+      {
+        "label": "Job title (optional)",
+        "name": "qt-job",
+        "required": false
+      },
+      {
+        "label": "Service Required",
+        "name": "qt-service",
+        "required": true
+      },
+      {
+        "label": "Expected Number of Passengers",
+        "name": "qt-count",
+        "required": true
+      },
+      {
+        "label": "Region / City",
+        "name": "qt-region",
+        "required": true
+      },
+      {
+        "label": "Journey date",
+        "name": "qt-start",
+        "required": true
+      },
+      {
+        "label": "Journey departure time",
+        "name": "qt-departure-time",
+        "required": true
+      },
+      {
+        "label": "Journey direction",
+        "name": "qt-direction",
+        "required": true
+      },
+      {
+        "label": "Journey pickup location",
+        "name": "qt-pickup",
+        "required": true
+      },
+      {
+        "label": "Journey destination",
+        "name": "qt-destination",
+        "required": true
+      },
+      {
+        "label": "Additional details (optional)",
+        "name": "qt-notes",
+        "required": false
+      },
+      {
+        "label": "Commercial registration (optional)",
+        "name": "attachment_commercial",
+        "required": false
+      },
+      {
+        "label": "Tax certificate (optional)",
+        "name": "attachment_tax",
+        "required": false
+      },
+      {
+        "label": "National address (optional)",
+        "name": "attachment_address",
+        "required": false
+      }
+    ],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "lang": "en",
+    "service": "executive",
+    "fields": [
+      {
+        "label": "Customer type",
+        "name": "qt-customer-type",
+        "required": true
+      },
+      {
+        "label": "Contact name",
+        "name": "qt-contact",
+        "required": true
+      },
+      {
+        "label": "Mobile number with country code",
+        "name": "qt-phone",
+        "required": true
+      },
+      {
+        "label": "Email address",
+        "name": "qt-email",
+        "required": true
+      },
+      {
+        "label": "Job title (optional)",
+        "name": "qt-job",
+        "required": false
+      },
+      {
+        "label": "Service Required",
+        "name": "qt-service",
+        "required": true
+      },
+      {
+        "label": "Expected Number of Passengers",
+        "name": "qt-count",
+        "required": true
+      },
+      {
+        "label": "Region / City",
+        "name": "qt-region",
+        "required": true
+      },
+      {
+        "label": "Journey date",
+        "name": "qt-start",
+        "required": true
+      },
+      {
+        "label": "Journey departure time",
+        "name": "qt-departure-time",
+        "required": true
+      },
+      {
+        "label": "Journey direction",
+        "name": "qt-direction",
+        "required": true
+      },
+      {
+        "label": "Journey pickup location",
+        "name": "qt-pickup",
+        "required": true
+      },
+      {
+        "label": "Journey destination",
+        "name": "qt-destination",
+        "required": true
+      },
+      {
+        "label": "Additional details (optional)",
+        "name": "qt-notes",
+        "required": false
+      },
+      {
+        "label": "Commercial registration (optional)",
+        "name": "attachment_commercial",
+        "required": false
+      },
+      {
+        "label": "Tax certificate (optional)",
+        "name": "attachment_tax",
+        "required": false
+      },
+      {
+        "label": "National address (optional)",
+        "name": "attachment_address",
+        "required": false
+      }
+    ],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "lang": "en",
+    "service": "vehicle_only",
+    "fields": [
+      {
+        "label": "Customer type",
+        "name": "qt-customer-type",
+        "required": true
+      },
+      {
+        "label": "Contact name",
+        "name": "qt-contact",
+        "required": true
+      },
+      {
+        "label": "Mobile number with country code",
+        "name": "qt-phone",
+        "required": true
+      },
+      {
+        "label": "Email address",
+        "name": "qt-email",
+        "required": true
+      },
+      {
+        "label": "Job title (optional)",
+        "name": "qt-job",
+        "required": false
+      },
+      {
+        "label": "Service Required",
+        "name": "qt-service",
+        "required": true
+      },
+      {
+        "label": "Region / City",
+        "name": "qt-region",
+        "required": true
+      },
+      {
+        "label": "Number of vehicles",
+        "name": "qt-vehicles",
+        "required": true
+      },
+      {
+        "label": "Required vehicle category",
+        "name": "qt-vehicle-type",
+        "required": true
+      },
+      {
+        "label": "Vehicle collection date",
+        "name": "qt-start",
+        "required": true
+      },
+      {
+        "label": "Service duration",
+        "name": "qt-duration",
+        "required": true
+      },
+      {
+        "label": "Vehicle collection location",
+        "name": "qt-pickup",
+        "required": true
+      },
+      {
+        "label": "Vehicle return location",
+        "name": "qt-destination",
+        "required": true
+      },
+      {
+        "label": "Additional details (optional)",
+        "name": "qt-notes",
+        "required": false
+      },
+      {
+        "label": "Commercial registration (optional)",
+        "name": "attachment_commercial",
+        "required": false
+      },
+      {
+        "label": "Tax certificate (optional)",
+        "name": "attachment_tax",
+        "required": false
+      },
+      {
+        "label": "National address (optional)",
+        "name": "attachment_address",
+        "required": false
+      }
+    ],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "lang": "en",
+    "service": "driver_only",
+    "fields": [
+      {
+        "label": "Customer type",
+        "name": "qt-customer-type",
+        "required": true
+      },
+      {
+        "label": "Contact name",
+        "name": "qt-contact",
+        "required": true
+      },
+      {
+        "label": "Mobile number with country code",
+        "name": "qt-phone",
+        "required": true
+      },
+      {
+        "label": "Email address",
+        "name": "qt-email",
+        "required": true
+      },
+      {
+        "label": "Job title (optional)",
+        "name": "qt-job",
+        "required": false
+      },
+      {
+        "label": "Service Required",
+        "name": "qt-service",
+        "required": true
+      },
+      {
+        "label": "Region / City",
+        "name": "qt-region",
+        "required": true
+      },
+      {
+        "label": "Number of drivers",
+        "name": "qt-drivers",
+        "required": true
+      },
+      {
+        "label": "Type of vehicles the drivers will operate",
+        "name": "qt-vehicle-type",
+        "required": true
+      },
+      {
+        "label": "Operating start date",
+        "name": "qt-start",
+        "required": true
+      },
+      {
+        "label": "Service duration",
+        "name": "qt-duration",
+        "required": true
+      },
+      {
+        "label": "Shifts and working days",
+        "name": "qt-schedule",
+        "required": true
+      },
+      {
+        "label": "Additional details (optional)",
+        "name": "qt-notes",
+        "required": false
+      },
+      {
+        "label": "Commercial registration (optional)",
+        "name": "attachment_commercial",
+        "required": false
+      },
+      {
+        "label": "Tax certificate (optional)",
+        "name": "attachment_tax",
+        "required": false
+      },
+      {
+        "label": "National address (optional)",
+        "name": "attachment_address",
+        "required": false
+      }
+    ],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "lang": "en",
+    "service": "specialized",
+    "fields": [
+      {
+        "label": "Customer type",
+        "name": "qt-customer-type",
+        "required": true
+      },
+      {
+        "label": "Contact name",
+        "name": "qt-contact",
+        "required": true
+      },
+      {
+        "label": "Mobile number with country code",
+        "name": "qt-phone",
+        "required": true
+      },
+      {
+        "label": "Email address",
+        "name": "qt-email",
+        "required": true
+      },
+      {
+        "label": "Job title (optional)",
+        "name": "qt-job",
+        "required": false
+      },
+      {
+        "label": "Service Required",
+        "name": "qt-service",
+        "required": true
+      },
+      {
+        "label": "Expected Number of Passengers",
+        "name": "qt-count",
+        "required": true
+      },
+      {
+        "label": "Region / City",
+        "name": "qt-region",
+        "required": true
+      },
+      {
+        "label": "Journey date",
+        "name": "qt-start",
+        "required": true
+      },
+      {
+        "label": "Journey departure time",
+        "name": "qt-departure-time",
+        "required": true
+      },
+      {
+        "label": "Journey direction",
+        "name": "qt-direction",
+        "required": true
+      },
+      {
+        "label": "Journey pickup location",
+        "name": "qt-pickup",
+        "required": true
+      },
+      {
+        "label": "Journey destination",
+        "name": "qt-destination",
+        "required": true
+      },
+      {
+        "label": "Service needs and specific requirements",
+        "name": "qt-requirements",
+        "required": true
+      },
+      {
+        "label": "Additional details (optional)",
+        "name": "qt-notes",
+        "required": false
+      },
+      {
+        "label": "Commercial registration (optional)",
+        "name": "attachment_commercial",
+        "required": false
+      },
+      {
+        "label": "Tax certificate (optional)",
+        "name": "attachment_tax",
+        "required": false
+      },
+      {
+        "label": "National address (optional)",
+        "name": "attachment_address",
+        "required": false
+      }
+    ],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "lang": "en",
+    "service": "students",
+    "fields": [
+      {
+        "label": "Service Required",
+        "name": "qt-service",
+        "required": true
+      }
+    ],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "lang": "ar",
+    "service": "employees",
+    "fields": [
+      {
+        "label": "نوع العميل",
+        "name": "qt-customer-type",
+        "required": true
+      },
+      {
+        "label": "اسم مسؤول التواصل",
+        "name": "qt-contact",
+        "required": true
+      },
+      {
+        "label": "رقم الجوال مع رمز الدولة",
+        "name": "qt-phone",
+        "required": true
+      },
+      {
+        "label": "البريد الإلكتروني",
+        "name": "qt-email",
+        "required": true
+      },
+      {
+        "label": "المسمى الوظيفي (اختياري)",
+        "name": "qt-job",
+        "required": false
+      },
+      {
+        "label": "نوع الخدمة المطلوبة",
+        "name": "qt-service",
+        "required": true
+      },
+      {
+        "label": "العدد المتوقع للأشخاص",
+        "name": "qt-count",
+        "required": true
+      },
+      {
+        "label": "المنطقة / المدينة",
+        "name": "qt-region",
+        "required": true
+      },
+      {
+        "label": "تاريخ بدء التشغيل",
+        "name": "qt-start",
+        "required": true
+      },
+      {
+        "label": "وقت انطلاق الوردية",
+        "name": "qt-departure-time",
+        "required": true
+      },
+      {
+        "label": "اتجاه الرحلة",
+        "name": "qt-direction",
+        "required": true
+      },
+      {
+        "label": "تاريخ انتهاء الخدمة (اختياري)",
+        "name": "qt-end",
+        "required": false
+      },
+      {
+        "label": "موقع السكن أو نقطة التجمع",
+        "name": "qt-pickup",
+        "required": true
+      },
+      {
+        "label": "موقع العمل أو المشروع",
+        "name": "qt-destination",
+        "required": true
+      },
+      {
+        "label": "الورديات وأيام العمل",
+        "name": "qt-schedule",
+        "required": true
+      },
+      {
+        "label": "تفاصيل إضافية (اختياري)",
+        "name": "qt-notes",
+        "required": false
+      },
+      {
+        "label": "السجل التجاري (اختياري)",
+        "name": "attachment_commercial",
+        "required": false
+      },
+      {
+        "label": "الشهادة الضريبية (اختياري)",
+        "name": "attachment_tax",
+        "required": false
+      },
+      {
+        "label": "العنوان الوطني (اختياري)",
+        "name": "attachment_address",
+        "required": false
+      }
+    ],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "lang": "ar",
+    "service": "private",
+    "fields": [
+      {
+        "label": "نوع العميل",
+        "name": "qt-customer-type",
+        "required": true
+      },
+      {
+        "label": "اسم مسؤول التواصل",
+        "name": "qt-contact",
+        "required": true
+      },
+      {
+        "label": "رقم الجوال مع رمز الدولة",
+        "name": "qt-phone",
+        "required": true
+      },
+      {
+        "label": "البريد الإلكتروني",
+        "name": "qt-email",
+        "required": true
+      },
+      {
+        "label": "المسمى الوظيفي (اختياري)",
+        "name": "qt-job",
+        "required": false
+      },
+      {
+        "label": "نوع الخدمة المطلوبة",
+        "name": "qt-service",
+        "required": true
+      },
+      {
+        "label": "العدد المتوقع للأشخاص",
+        "name": "qt-count",
+        "required": true
+      },
+      {
+        "label": "المنطقة / المدينة",
+        "name": "qt-region",
+        "required": true
+      },
+      {
+        "label": "تاريخ الرحلة",
+        "name": "qt-start",
+        "required": true
+      },
+      {
+        "label": "وقت انطلاق الرحلة",
+        "name": "qt-departure-time",
+        "required": true
+      },
+      {
+        "label": "اتجاه الرحلة",
+        "name": "qt-direction",
+        "required": true
+      },
+      {
+        "label": "موقع انطلاق الرحلة",
+        "name": "qt-pickup",
+        "required": true
+      },
+      {
+        "label": "وجهة الرحلة",
+        "name": "qt-destination",
+        "required": true
+      },
+      {
+        "label": "تفاصيل إضافية (اختياري)",
+        "name": "qt-notes",
+        "required": false
+      },
+      {
+        "label": "السجل التجاري (اختياري)",
+        "name": "attachment_commercial",
+        "required": false
+      },
+      {
+        "label": "الشهادة الضريبية (اختياري)",
+        "name": "attachment_tax",
+        "required": false
+      },
+      {
+        "label": "العنوان الوطني (اختياري)",
+        "name": "attachment_address",
+        "required": false
+      }
+    ],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "lang": "ar",
+    "service": "workforce",
+    "fields": [
+      {
+        "label": "نوع العميل",
+        "name": "qt-customer-type",
+        "required": true
+      },
+      {
+        "label": "اسم مسؤول التواصل",
+        "name": "qt-contact",
+        "required": true
+      },
+      {
+        "label": "رقم الجوال مع رمز الدولة",
+        "name": "qt-phone",
+        "required": true
+      },
+      {
+        "label": "البريد الإلكتروني",
+        "name": "qt-email",
+        "required": true
+      },
+      {
+        "label": "المسمى الوظيفي (اختياري)",
+        "name": "qt-job",
+        "required": false
+      },
+      {
+        "label": "نوع الخدمة المطلوبة",
+        "name": "qt-service",
+        "required": true
+      },
+      {
+        "label": "العدد المتوقع للأشخاص",
+        "name": "qt-count",
+        "required": true
+      },
+      {
+        "label": "المنطقة / المدينة",
+        "name": "qt-region",
+        "required": true
+      },
+      {
+        "label": "تاريخ بدء التشغيل",
+        "name": "qt-start",
+        "required": true
+      },
+      {
+        "label": "وقت انطلاق الوردية",
+        "name": "qt-departure-time",
+        "required": true
+      },
+      {
+        "label": "اتجاه الرحلة",
+        "name": "qt-direction",
+        "required": true
+      },
+      {
+        "label": "تاريخ انتهاء الخدمة (اختياري)",
+        "name": "qt-end",
+        "required": false
+      },
+      {
+        "label": "موقع السكن أو نقطة التجمع",
+        "name": "qt-pickup",
+        "required": true
+      },
+      {
+        "label": "موقع العمل أو المشروع",
+        "name": "qt-destination",
+        "required": true
+      },
+      {
+        "label": "الورديات وأيام العمل",
+        "name": "qt-schedule",
+        "required": true
+      },
+      {
+        "label": "تفاصيل إضافية (اختياري)",
+        "name": "qt-notes",
+        "required": false
+      },
+      {
+        "label": "السجل التجاري (اختياري)",
+        "name": "attachment_commercial",
+        "required": false
+      },
+      {
+        "label": "الشهادة الضريبية (اختياري)",
+        "name": "attachment_tax",
+        "required": false
+      },
+      {
+        "label": "العنوان الوطني (اختياري)",
+        "name": "attachment_address",
+        "required": false
+      }
+    ],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "lang": "ar",
+    "service": "events",
+    "fields": [
+      {
+        "label": "نوع العميل",
+        "name": "qt-customer-type",
+        "required": true
+      },
+      {
+        "label": "اسم مسؤول التواصل",
+        "name": "qt-contact",
+        "required": true
+      },
+      {
+        "label": "رقم الجوال مع رمز الدولة",
+        "name": "qt-phone",
+        "required": true
+      },
+      {
+        "label": "البريد الإلكتروني",
+        "name": "qt-email",
+        "required": true
+      },
+      {
+        "label": "المسمى الوظيفي (اختياري)",
+        "name": "qt-job",
+        "required": false
+      },
+      {
+        "label": "نوع الخدمة المطلوبة",
+        "name": "qt-service",
+        "required": true
+      },
+      {
+        "label": "العدد المتوقع للأشخاص",
+        "name": "qt-count",
+        "required": true
+      },
+      {
+        "label": "المنطقة / المدينة",
+        "name": "qt-region",
+        "required": true
+      },
+      {
+        "label": "تاريخ الرحلة",
+        "name": "qt-start",
+        "required": true
+      },
+      {
+        "label": "وقت انطلاق الرحلة",
+        "name": "qt-departure-time",
+        "required": true
+      },
+      {
+        "label": "اتجاه الرحلة",
+        "name": "qt-direction",
+        "required": true
+      },
+      {
+        "label": "موقع انطلاق الرحلة",
+        "name": "qt-pickup",
+        "required": true
+      },
+      {
+        "label": "وجهة الرحلة",
+        "name": "qt-destination",
+        "required": true
+      },
+      {
+        "label": "تفاصيل إضافية (اختياري)",
+        "name": "qt-notes",
+        "required": false
+      },
+      {
+        "label": "السجل التجاري (اختياري)",
+        "name": "attachment_commercial",
+        "required": false
+      },
+      {
+        "label": "الشهادة الضريبية (اختياري)",
+        "name": "attachment_tax",
+        "required": false
+      },
+      {
+        "label": "العنوان الوطني (اختياري)",
+        "name": "attachment_address",
+        "required": false
+      }
+    ],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "lang": "ar",
+    "service": "airport",
+    "fields": [
+      {
+        "label": "نوع العميل",
+        "name": "qt-customer-type",
+        "required": true
+      },
+      {
+        "label": "اسم مسؤول التواصل",
+        "name": "qt-contact",
+        "required": true
+      },
+      {
+        "label": "رقم الجوال مع رمز الدولة",
+        "name": "qt-phone",
+        "required": true
+      },
+      {
+        "label": "البريد الإلكتروني",
+        "name": "qt-email",
+        "required": true
+      },
+      {
+        "label": "المسمى الوظيفي (اختياري)",
+        "name": "qt-job",
+        "required": false
+      },
+      {
+        "label": "نوع الخدمة المطلوبة",
+        "name": "qt-service",
+        "required": true
+      },
+      {
+        "label": "العدد المتوقع للأشخاص",
+        "name": "qt-count",
+        "required": true
+      },
+      {
+        "label": "المنطقة / المدينة",
+        "name": "qt-region",
+        "required": true
+      },
+      {
+        "label": "تاريخ الرحلة",
+        "name": "qt-start",
+        "required": true
+      },
+      {
+        "label": "وقت انطلاق الرحلة",
+        "name": "qt-departure-time",
+        "required": true
+      },
+      {
+        "label": "اتجاه الرحلة",
+        "name": "qt-direction",
+        "required": true
+      },
+      {
+        "label": "موقع انطلاق الرحلة",
+        "name": "qt-pickup",
+        "required": true
+      },
+      {
+        "label": "وجهة الرحلة",
+        "name": "qt-destination",
+        "required": true
+      },
+      {
+        "label": "رقم الرحلة وموعد الوصول (اختياري)",
+        "name": "qt-flight",
+        "required": false
+      },
+      {
+        "label": "تفاصيل إضافية (اختياري)",
+        "name": "qt-notes",
+        "required": false
+      },
+      {
+        "label": "السجل التجاري (اختياري)",
+        "name": "attachment_commercial",
+        "required": false
+      },
+      {
+        "label": "الشهادة الضريبية (اختياري)",
+        "name": "attachment_tax",
+        "required": false
+      },
+      {
+        "label": "العنوان الوطني (اختياري)",
+        "name": "attachment_address",
+        "required": false
+      }
+    ],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "lang": "ar",
+    "service": "intercity",
+    "fields": [
+      {
+        "label": "نوع العميل",
+        "name": "qt-customer-type",
+        "required": true
+      },
+      {
+        "label": "اسم مسؤول التواصل",
+        "name": "qt-contact",
+        "required": true
+      },
+      {
+        "label": "رقم الجوال مع رمز الدولة",
+        "name": "qt-phone",
+        "required": true
+      },
+      {
+        "label": "البريد الإلكتروني",
+        "name": "qt-email",
+        "required": true
+      },
+      {
+        "label": "المسمى الوظيفي (اختياري)",
+        "name": "qt-job",
+        "required": false
+      },
+      {
+        "label": "نوع الخدمة المطلوبة",
+        "name": "qt-service",
+        "required": true
+      },
+      {
+        "label": "العدد المتوقع للأشخاص",
+        "name": "qt-count",
+        "required": true
+      },
+      {
+        "label": "المنطقة / المدينة",
+        "name": "qt-region",
+        "required": true
+      },
+      {
+        "label": "تاريخ الرحلة",
+        "name": "qt-start",
+        "required": true
+      },
+      {
+        "label": "وقت انطلاق الرحلة",
+        "name": "qt-departure-time",
+        "required": true
+      },
+      {
+        "label": "اتجاه الرحلة",
+        "name": "qt-direction",
+        "required": true
+      },
+      {
+        "label": "موقع انطلاق الرحلة",
+        "name": "qt-pickup",
+        "required": true
+      },
+      {
+        "label": "وجهة الرحلة",
+        "name": "qt-destination",
+        "required": true
+      },
+      {
+        "label": "تفاصيل إضافية (اختياري)",
+        "name": "qt-notes",
+        "required": false
+      },
+      {
+        "label": "السجل التجاري (اختياري)",
+        "name": "attachment_commercial",
+        "required": false
+      },
+      {
+        "label": "الشهادة الضريبية (اختياري)",
+        "name": "attachment_tax",
+        "required": false
+      },
+      {
+        "label": "العنوان الوطني (اختياري)",
+        "name": "attachment_address",
+        "required": false
+      }
+    ],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "lang": "ar",
+    "service": "tourism",
+    "fields": [
+      {
+        "label": "نوع العميل",
+        "name": "qt-customer-type",
+        "required": true
+      },
+      {
+        "label": "اسم مسؤول التواصل",
+        "name": "qt-contact",
+        "required": true
+      },
+      {
+        "label": "رقم الجوال مع رمز الدولة",
+        "name": "qt-phone",
+        "required": true
+      },
+      {
+        "label": "البريد الإلكتروني",
+        "name": "qt-email",
+        "required": true
+      },
+      {
+        "label": "المسمى الوظيفي (اختياري)",
+        "name": "qt-job",
+        "required": false
+      },
+      {
+        "label": "نوع الخدمة المطلوبة",
+        "name": "qt-service",
+        "required": true
+      },
+      {
+        "label": "العدد المتوقع للأشخاص",
+        "name": "qt-count",
+        "required": true
+      },
+      {
+        "label": "المنطقة / المدينة",
+        "name": "qt-region",
+        "required": true
+      },
+      {
+        "label": "تاريخ الرحلة",
+        "name": "qt-start",
+        "required": true
+      },
+      {
+        "label": "وقت انطلاق الرحلة",
+        "name": "qt-departure-time",
+        "required": true
+      },
+      {
+        "label": "اتجاه الرحلة",
+        "name": "qt-direction",
+        "required": true
+      },
+      {
+        "label": "موقع انطلاق الرحلة",
+        "name": "qt-pickup",
+        "required": true
+      },
+      {
+        "label": "وجهة الرحلة",
+        "name": "qt-destination",
+        "required": true
+      },
+      {
+        "label": "تفاصيل إضافية (اختياري)",
+        "name": "qt-notes",
+        "required": false
+      },
+      {
+        "label": "السجل التجاري (اختياري)",
+        "name": "attachment_commercial",
+        "required": false
+      },
+      {
+        "label": "الشهادة الضريبية (اختياري)",
+        "name": "attachment_tax",
+        "required": false
+      },
+      {
+        "label": "العنوان الوطني (اختياري)",
+        "name": "attachment_address",
+        "required": false
+      }
+    ],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "lang": "ar",
+    "service": "umrah",
+    "fields": [
+      {
+        "label": "نوع العميل",
+        "name": "qt-customer-type",
+        "required": true
+      },
+      {
+        "label": "اسم مسؤول التواصل",
+        "name": "qt-contact",
+        "required": true
+      },
+      {
+        "label": "رقم الجوال مع رمز الدولة",
+        "name": "qt-phone",
+        "required": true
+      },
+      {
+        "label": "البريد الإلكتروني",
+        "name": "qt-email",
+        "required": true
+      },
+      {
+        "label": "المسمى الوظيفي (اختياري)",
+        "name": "qt-job",
+        "required": false
+      },
+      {
+        "label": "نوع الخدمة المطلوبة",
+        "name": "qt-service",
+        "required": true
+      },
+      {
+        "label": "العدد المتوقع للأشخاص",
+        "name": "qt-count",
+        "required": true
+      },
+      {
+        "label": "المنطقة / المدينة",
+        "name": "qt-region",
+        "required": true
+      },
+      {
+        "label": "تاريخ الرحلة",
+        "name": "qt-start",
+        "required": true
+      },
+      {
+        "label": "وقت انطلاق الرحلة",
+        "name": "qt-departure-time",
+        "required": true
+      },
+      {
+        "label": "اتجاه الرحلة",
+        "name": "qt-direction",
+        "required": true
+      },
+      {
+        "label": "موقع انطلاق الرحلة",
+        "name": "qt-pickup",
+        "required": true
+      },
+      {
+        "label": "وجهة الرحلة",
+        "name": "qt-destination",
+        "required": true
+      },
+      {
+        "label": "تفاصيل إضافية (اختياري)",
+        "name": "qt-notes",
+        "required": false
+      },
+      {
+        "label": "السجل التجاري (اختياري)",
+        "name": "attachment_commercial",
+        "required": false
+      },
+      {
+        "label": "الشهادة الضريبية (اختياري)",
+        "name": "attachment_tax",
+        "required": false
+      },
+      {
+        "label": "العنوان الوطني (اختياري)",
+        "name": "attachment_address",
+        "required": false
+      }
+    ],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "lang": "ar",
+    "service": "executive",
+    "fields": [
+      {
+        "label": "نوع العميل",
+        "name": "qt-customer-type",
+        "required": true
+      },
+      {
+        "label": "اسم مسؤول التواصل",
+        "name": "qt-contact",
+        "required": true
+      },
+      {
+        "label": "رقم الجوال مع رمز الدولة",
+        "name": "qt-phone",
+        "required": true
+      },
+      {
+        "label": "البريد الإلكتروني",
+        "name": "qt-email",
+        "required": true
+      },
+      {
+        "label": "المسمى الوظيفي (اختياري)",
+        "name": "qt-job",
+        "required": false
+      },
+      {
+        "label": "نوع الخدمة المطلوبة",
+        "name": "qt-service",
+        "required": true
+      },
+      {
+        "label": "العدد المتوقع للأشخاص",
+        "name": "qt-count",
+        "required": true
+      },
+      {
+        "label": "المنطقة / المدينة",
+        "name": "qt-region",
+        "required": true
+      },
+      {
+        "label": "تاريخ الرحلة",
+        "name": "qt-start",
+        "required": true
+      },
+      {
+        "label": "وقت انطلاق الرحلة",
+        "name": "qt-departure-time",
+        "required": true
+      },
+      {
+        "label": "اتجاه الرحلة",
+        "name": "qt-direction",
+        "required": true
+      },
+      {
+        "label": "موقع انطلاق الرحلة",
+        "name": "qt-pickup",
+        "required": true
+      },
+      {
+        "label": "وجهة الرحلة",
+        "name": "qt-destination",
+        "required": true
+      },
+      {
+        "label": "تفاصيل إضافية (اختياري)",
+        "name": "qt-notes",
+        "required": false
+      },
+      {
+        "label": "السجل التجاري (اختياري)",
+        "name": "attachment_commercial",
+        "required": false
+      },
+      {
+        "label": "الشهادة الضريبية (اختياري)",
+        "name": "attachment_tax",
+        "required": false
+      },
+      {
+        "label": "العنوان الوطني (اختياري)",
+        "name": "attachment_address",
+        "required": false
+      }
+    ],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "lang": "ar",
+    "service": "vehicle_only",
+    "fields": [
+      {
+        "label": "نوع العميل",
+        "name": "qt-customer-type",
+        "required": true
+      },
+      {
+        "label": "اسم مسؤول التواصل",
+        "name": "qt-contact",
+        "required": true
+      },
+      {
+        "label": "رقم الجوال مع رمز الدولة",
+        "name": "qt-phone",
+        "required": true
+      },
+      {
+        "label": "البريد الإلكتروني",
+        "name": "qt-email",
+        "required": true
+      },
+      {
+        "label": "المسمى الوظيفي (اختياري)",
+        "name": "qt-job",
+        "required": false
+      },
+      {
+        "label": "نوع الخدمة المطلوبة",
+        "name": "qt-service",
+        "required": true
+      },
+      {
+        "label": "المنطقة / المدينة",
+        "name": "qt-region",
+        "required": true
+      },
+      {
+        "label": "عدد المركبات المطلوبة",
+        "name": "qt-vehicles",
+        "required": true
+      },
+      {
+        "label": "فئة المركبات المطلوبة",
+        "name": "qt-vehicle-type",
+        "required": true
+      },
+      {
+        "label": "تاريخ استلام المركبات",
+        "name": "qt-start",
+        "required": true
+      },
+      {
+        "label": "تحديد مدة الخدمة",
+        "name": "qt-duration",
+        "required": true
+      },
+      {
+        "label": "موقع استلام المركبات",
+        "name": "qt-pickup",
+        "required": true
+      },
+      {
+        "label": "موقع إعادة المركبات",
+        "name": "qt-destination",
+        "required": true
+      },
+      {
+        "label": "تفاصيل إضافية (اختياري)",
+        "name": "qt-notes",
+        "required": false
+      },
+      {
+        "label": "السجل التجاري (اختياري)",
+        "name": "attachment_commercial",
+        "required": false
+      },
+      {
+        "label": "الشهادة الضريبية (اختياري)",
+        "name": "attachment_tax",
+        "required": false
+      },
+      {
+        "label": "العنوان الوطني (اختياري)",
+        "name": "attachment_address",
+        "required": false
+      }
+    ],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "lang": "ar",
+    "service": "driver_only",
+    "fields": [
+      {
+        "label": "نوع العميل",
+        "name": "qt-customer-type",
+        "required": true
+      },
+      {
+        "label": "اسم مسؤول التواصل",
+        "name": "qt-contact",
+        "required": true
+      },
+      {
+        "label": "رقم الجوال مع رمز الدولة",
+        "name": "qt-phone",
+        "required": true
+      },
+      {
+        "label": "البريد الإلكتروني",
+        "name": "qt-email",
+        "required": true
+      },
+      {
+        "label": "المسمى الوظيفي (اختياري)",
+        "name": "qt-job",
+        "required": false
+      },
+      {
+        "label": "نوع الخدمة المطلوبة",
+        "name": "qt-service",
+        "required": true
+      },
+      {
+        "label": "المنطقة / المدينة",
+        "name": "qt-region",
+        "required": true
+      },
+      {
+        "label": "عدد السائقين المطلوبين",
+        "name": "qt-drivers",
+        "required": true
+      },
+      {
+        "label": "نوع المركبات التي سيقودها السائقون",
+        "name": "qt-vehicle-type",
+        "required": true
+      },
+      {
+        "label": "تاريخ بدء التشغيل",
+        "name": "qt-start",
+        "required": true
+      },
+      {
+        "label": "تحديد مدة الخدمة",
+        "name": "qt-duration",
+        "required": true
+      },
+      {
+        "label": "الورديات وأيام العمل",
+        "name": "qt-schedule",
+        "required": true
+      },
+      {
+        "label": "تفاصيل إضافية (اختياري)",
+        "name": "qt-notes",
+        "required": false
+      },
+      {
+        "label": "السجل التجاري (اختياري)",
+        "name": "attachment_commercial",
+        "required": false
+      },
+      {
+        "label": "الشهادة الضريبية (اختياري)",
+        "name": "attachment_tax",
+        "required": false
+      },
+      {
+        "label": "العنوان الوطني (اختياري)",
+        "name": "attachment_address",
+        "required": false
+      }
+    ],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "lang": "ar",
+    "service": "specialized",
+    "fields": [
+      {
+        "label": "نوع العميل",
+        "name": "qt-customer-type",
+        "required": true
+      },
+      {
+        "label": "اسم مسؤول التواصل",
+        "name": "qt-contact",
+        "required": true
+      },
+      {
+        "label": "رقم الجوال مع رمز الدولة",
+        "name": "qt-phone",
+        "required": true
+      },
+      {
+        "label": "البريد الإلكتروني",
+        "name": "qt-email",
+        "required": true
+      },
+      {
+        "label": "المسمى الوظيفي (اختياري)",
+        "name": "qt-job",
+        "required": false
+      },
+      {
+        "label": "نوع الخدمة المطلوبة",
+        "name": "qt-service",
+        "required": true
+      },
+      {
+        "label": "العدد المتوقع للأشخاص",
+        "name": "qt-count",
+        "required": true
+      },
+      {
+        "label": "المنطقة / المدينة",
+        "name": "qt-region",
+        "required": true
+      },
+      {
+        "label": "تاريخ الرحلة",
+        "name": "qt-start",
+        "required": true
+      },
+      {
+        "label": "وقت انطلاق الرحلة",
+        "name": "qt-departure-time",
+        "required": true
+      },
+      {
+        "label": "اتجاه الرحلة",
+        "name": "qt-direction",
+        "required": true
+      },
+      {
+        "label": "موقع انطلاق الرحلة",
+        "name": "qt-pickup",
+        "required": true
+      },
+      {
+        "label": "وجهة الرحلة",
+        "name": "qt-destination",
+        "required": true
+      },
+      {
+        "label": "طبيعة الاحتياج والمتطلبات الخاصة",
+        "name": "qt-requirements",
+        "required": true
+      },
+      {
+        "label": "تفاصيل إضافية (اختياري)",
+        "name": "qt-notes",
+        "required": false
+      },
+      {
+        "label": "السجل التجاري (اختياري)",
+        "name": "attachment_commercial",
+        "required": false
+      },
+      {
+        "label": "الشهادة الضريبية (اختياري)",
+        "name": "attachment_tax",
+        "required": false
+      },
+      {
+        "label": "العنوان الوطني (اختياري)",
+        "name": "attachment_address",
+        "required": false
+      }
+    ],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "lang": "ar",
+    "service": "students",
+    "fields": [
+      {
+        "label": "نوع الخدمة المطلوبة",
+        "name": "qt-service",
+        "required": true
+      }
+    ],
+    "scrollWidth": 375,
+    "width": 390
+  }
+]

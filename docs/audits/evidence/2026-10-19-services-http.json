@@ -1,0 +1,98 @@
+[
+  {
+    "path": "/workforce-project-transport",
+    "status": 200,
+    "canonical": true,
+    "new_runtime": true
+  },
+  {
+    "path": "/en/workforce-project-transport/",
+    "status": 200,
+    "canonical": true,
+    "new_runtime": true
+  },
+  {
+    "path": "/private-day-trips",
+    "status": 200,
+    "canonical": true,
+    "new_runtime": true
+  },
+  {
+    "path": "/en/private-day-trips/",
+    "status": 200,
+    "canonical": true,
+    "new_runtime": true
+  },
+  {
+    "path": "/event-conference-transport",
+    "status": 200,
+    "canonical": true,
+    "new_runtime": true
+  },
+  {
+    "path": "/en/event-conference-transport/",
+    "status": 200,
+    "canonical": true,
+    "new_runtime": true
+  },
+  {
+    "path": "/airport-hotel-transfers",
+    "status": 200,
+    "canonical": true,
+    "new_runtime": true
+  },
+  {
+    "path": "/en/airport-hotel-transfers/",
+    "status": 200,
+    "canonical": true,
+    "new_runtime": true
+  },
+  {
+    "path": "/intercity-group-transport",
+    "status": 200,
+    "canonical": true,
+    "new_runtime": true
+  },
+  {
+    "path": "/en/intercity-group-transport/",
+    "status": 200,
+    "canonical": true,
+    "new_runtime": true
+  },
+  {
+    "path": "/tourism-transport",
+    "status": 200,
+    "canonical": true,
+    "new_runtime": true
+  },
+  {
+    "path": "/en/tourism-transport/",
+    "status": 200,
+    "canonical": true,
+    "new_runtime": true
+  },
+  {
+    "path": "/umrah-visitor-transport",
+    "status": 200,
+    "canonical": true,
+    "new_runtime": true
+  },
+  {
+    "path": "/en/umrah-visitor-transport/",
+    "status": 200,
+    "canonical": true,
+    "new_runtime": true
+  },
+  {
+    "path": "/executive-vip-transport",
+    "status": 200,
+    "canonical": true,
+    "new_runtime": true
+  },
+  {
+    "path": "/en/executive-vip-transport/",
+    "status": 200,
+    "canonical": true,
+    "new_runtime": true
+  }
+]

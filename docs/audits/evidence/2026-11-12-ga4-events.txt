@@ -1,0 +1,321 @@
+- banner:
+  - generic: "\"إحصاءات\""
+  - button "فتح أداة الاختيار العامة":
+    - generic: جميع الحسابات
+    - img: chevron_right
+    - generic: وسل WOSOL
+    - generic: WOSOL — wosol.net
+    - img: arrow_drop_down
+  - search:
+    - img: search
+    - textbox "بحث":
+      - /placeholder: جرّب البحث عن "الإحصاءات"
+  - button "تبديل المنتجات":
+  - button "قائمة دخول صفحة المساعدة":
+    - img: help
+  - button "فتح لوحة مبدِّل حسابات المستخدم"
+- navigation "الصفحات الرئيسية":
+  - link "الصفحة الرئيسية":
+    - generic: الصفحة الرئيسية
+  - link "التقارير":
+    - img: insert_chart_filled
+    - generic: التقارير
+  - link "استكشاف":
+    - img: data_exploration
+    - generic: استكشاف
+  - link "الإعلانات":
+    - img: ads_click
+    - generic: الإعلانات
+- navigation "صفحات الإعدادات":
+  - link "المهام":
+    - img: task_alt
+    - generic: المهام
+  - link "المسؤول":
+    - img: settings_filled
+    - generic: المسؤول
+- navigation "التنقّل الثانوي":
+  - navigation "الصفحات الثانوية":
+    - button "إنشاء":
+      - text: إنشاء
+      - img: arrow_drop_down
+  - tree:
+    - treeitem "لقطة عن التقارير" [level=1]:
+      - button "لقطة عن التقارير":
+        - generic: لقطة عن التقارير
+    - treeitem "نظرة عامة في الوقت الفعلي" [level=1]:
+      - button "نظرة عامة في الوقت الفعلي":
+        - generic: نظرة عامة في الوقت الفعلي
+    - treeitem "الصفحات في الوقت الفعلي" [level=1]:
+      - button "الصفحات في الوقت الفعلي":
+        - generic: الصفحات في الوقت الفعلي
+    - treeitem "استيراد البيانات" [expanded] [level=1]:
+      - separator
+      - button "استيراد البيانات":
+        - generic: استيراد البيانات
+        - img: keyboard_arrow_up
+    - treeitem "إثبات صحة استيراد بيانات الحملات" [level=2]:
+      - button "إثبات صحة استيراد بيانات الحملات":
+        - generic: إثبات صحة استيراد بيانات الحملات
+    - treeitem "المستخدم" [expanded] [level=1]:
+      - separator
+      - button "المستخدم":
+        - generic: المستخدم
+        - img: keyboard_arrow_up
+    - treeitem "سمات المستخدمين" [level=2]:
+      - button "سمات المستخدمين":
+        - img: arrow_right
+        - generic: سمات المستخدمين
+    - treeitem "التكنولوجيا" [level=2]:
+      - button "التكنولوجيا":
+        - img: arrow_right
+        - generic: التكنولوجيا
+    - treeitem "أهداف النشاط التجاري" [expanded] [level=1]:
+      - separator
+      - button "أهداف النشاط التجاري":
+        - generic: أهداف النشاط التجاري
+        - img: keyboard_arrow_up
+    - treeitem "جذب عملاء مهتمين" [level=2]:
+      - button "جذب عملاء مهتمين":
+        - img: arrow_right
+        - generic: جذب عملاء مهتمين
+    - treeitem "زيادة المبيعات" [level=2]:
+      - button "زيادة المبيعات":
+        - img: arrow_right
+        - generic: زيادة المبيعات
+    - treeitem "فهم زيارات الموقع الإلكتروني و/أو التطبيق" [level=2]:
+      - button "فهم زيارات الموقع الإلكتروني و/أو التطبيق":
+        - img: arrow_right
+        - generic: فهم زيارات الموقع الإلكتروني و/أو التطبيق
+    - treeitem "عرض تفاعل المستخدمين والحفاظ عليهم" [expanded] [level=2]:
+      - button "عرض تفاعل المستخدمين والحفاظ عليهم":
+        - img: arrow_drop_down
+        - generic: عرض تفاعل المستخدمين والحفاظ عليهم
+    - treeitem "نظرة عامة" [level=3]:
+      - button "نظرة عامة":
+        - generic: نظرة عامة
+    - treeitem "الأحداث" [level=3]:
+      - button "الأحداث":
+        - generic: الأحداث
+    - treeitem "الصفحات والشاشات" [level=3]:
+      - button "الصفحات والشاشات":
+        - generic: الصفحات والشاشات
+  - navigation "صفحات أخرى":
+    - button "المكتبة":
+      - img: folder
+      - generic: المكتبة
+  - separator
+- button "إيقاف/تفعيل التنقّل" [expanded]:
+  - img: keyboard_arrow_left
+- main:
+  - button "كل المستخدمين":
+    - generic: ك
+    - generic: كل المستخدمين
+  - button "إضافة مقارنة":
+    - generic: إضافة مقارنة
+    - img: add
+  - combobox "فتح أداة اختيار النطاق الزمني":
+    - generic: آخر 28 يومًا
+    - generic: 15 أكتوبر - 11 نوفمبر 2026
+    - img: arrow_drop_down
+  - separator
+  - 'heading "الأحداث: اسم الحدث" [level=1]':
+    - 'button "الأحداث: اسم الحدث"'
+  - button "في تقرير، يتم استخدام كل البيانات المتاحة. يُرجى النقر للاطّلاع على مزيد من المعلومات.":
+    - img: check_circle
+    - generic: في تقرير، يتم استخدام كل البيانات المتاحة. يُرجى النقر للاطّلاع على مزيد من المعلومات.
+    - img: arrow_drop_down
+  - button "إضافة فلتر":
+    - generic: إضافة فلتر
+    - img: add
+  - generic "عرض التعليقات التوضيحية":
+    - button "عرض التعليقات التوضيحية":
+  - generic "تعديل المقارنات":
+    - button "تعديل المقارنات":
+  - generic "فتح هذا التقرير على أنّه استكشاف":
+    - button "فتح هذا التقرير على أنّه استكشاف":
+      - img: data_exploration
+  - generic "مشاركة هذا التقرير":
+    - button "مشاركة هذا التقرير":
+      - img: share
+  - generic "إحصاءات":
+    - button "إحصاءات":
+  - generic "تخصيص التقرير":
+    - button "تخصيص التقرير":
+      - img: edit
+  - text: add check_circle arrow_drop_down add arrow_drop_down data_exploration share edit
+  - heading "عدد الأحداث حسب اسم الحدث بمرور الوقت" [level=2]
+  - generic "أداة اختيار دقة التاريخ":
+    - combobox "أداة اختيار دقة التاريخ":
+      - generic: اليوم
+  - button "تخطيط الصفوف" [disabled]:
+    - generic: تخطيط الصفوف
+  - img: search
+  - textbox "بحث":
+    - /placeholder: بحث…
+  - generic: "عدد الصفوف في كل صفحة:"
+  - 'combobox "عدد الصفوف في كل صفحة: 10"':
+    - generic: "10"
+  - generic: ‫1-7 من 7
+  - grid "بيانات التقرير":
+    - rowgroup:
+      - row "عمود الاختيار مربّع اختيار لإلغاء اختيار كل الصفوف فهرس اسم الحدث عدد الأحداث إجمالي المستخدمين عدد الأحداث لكل مستخدم نشط إجمالي الأرباح الإجراءات":
+        - columnheader "عمود الاختيار مربّع اختيار لإلغاء اختيار كل الصفوف":
+          - generic: عمود الاختيار
+          - checkbox "مربّع اختيار لإلغاء اختيار كل الصفوف" [checked=mixed]
+        - columnheader "فهرس":
+          - generic: فهرس
+        - columnheader "اسم الحدث":
+          - button "اسم الحدث فتح أداة اختيار السمات":
+            - generic: اسم الحدث
+            - button "فتح أداة اختيار السمات":
+              - img: add
+        - columnheader "عدد الأحداث":
+          - button "عدد الأحداث":
+            - button "عدد الأحداث"
+        - columnheader "إجمالي المستخدمين":
+          - button "إجمالي المستخدمين":
+            - button "إجمالي المستخدمين"
+        - columnheader "عدد الأحداث لكل مستخدم نشط":
+          - button "عدد الأحداث لكل مستخدم نشط":
+            - button "عدد الأحداث لكل مستخدم نشط"
+        - columnheader "إجمالي الأرباح":
+          - button "إجمالي الأرباح":
+            - button "إجمالي الأرباح"
+        - columnheader "الإجراءات":
+          - generic: الإجراءات
+      - row "مربّع اختيار صف \"الإجمالي\" خلية فارغة لإجماليات الملخّص في \"\" خلية فارغة لإجماليات الملخّص في عمود \"الفهرس\" الإجمالي 1,593 100‎%‎ من الإجمالي 122 100‎%‎ من الإجمالي 13.06 %0 في المتوسط خلية فارغة لإجماليات الملخّص في عمود \"إجمالي الأرباح\" ‏0.00 SAR خلية فارغة لإجماليات الملخّص في عمود \"الإجراءات\"":
+        - columnheader "مربّع اختيار صف \"الإجمالي\" خلية فارغة لإجماليات الملخّص في \"\"":
+          - checkbox "مربّع اختيار صف \"الإجمالي\"" [checked]
+          - generic: خلية فارغة لإجماليات الملخّص في ""
+        - columnheader "خلية فارغة لإجماليات الملخّص في عمود \"الفهرس\"":
+          - generic: خلية فارغة لإجماليات الملخّص في عمود "الفهرس"
+        - columnheader "الإجمالي":
+          - generic: الإجمالي
+        - columnheader "1,593 100‎%‎ من الإجمالي":
+          - generic: 1,593
+          - generic: 100‎%‎ من الإجمالي
+        - columnheader "122 100‎%‎ من الإجمالي":
+          - generic: "122"
+          - generic: 100‎%‎ من الإجمالي
+        - columnheader "13.06 %0 في المتوسط":
+          - generic: "13.06"
+          - generic: "%0 في المتوسط"
+        - columnheader "خلية فارغة لإجماليات الملخّص في عمود \"إجمالي الأرباح\" ‏0.00 SAR":
+          - generic: خلية فارغة لإجماليات الملخّص في عمود "إجمالي الأرباح"
+          - generic: ‏0.00 SAR
+        - columnheader "خلية فارغة لإجماليات الملخّص في عمود \"الإجراءات\"":
+          - generic: خلية فارغة لإجماليات الملخّص في عمود "الإجراءات"
+    - rowgroup:
+      - row "مربّع اختيار لتحديد الصف 1 1 page_view 653 (40.99‎%‎) 122 (100‎%‎) 5.35 ‏0.00 SAR (–) قائمة الإجراءات المضمّنة":
+        - gridcell "مربّع اختيار لتحديد الصف 1":
+          - checkbox "مربّع اختيار لتحديد الصف 1" [checked]
+        - gridcell "1"
+        - gridcell "page_view":
+          - generic: page_view
+        - gridcell "653 (40.99‎%‎)"
+        - gridcell "122 (100‎%‎)"
+        - gridcell "5.35"
+        - gridcell "‏0.00 SAR (–)"
+        - gridcell "قائمة الإجراءات المضمّنة":
+          - button "قائمة الإجراءات المضمّنة":
+            - img: more_vert
+      - row "مربّع اختيار لتحديد الصف 2 2 user_engagement 467 (29.32‎%‎) 101 (82.79‎%‎) 4.62 ‏0.00 SAR (–) قائمة الإجراءات المضمّنة":
+        - gridcell "مربّع اختيار لتحديد الصف 2":
+          - checkbox "مربّع اختيار لتحديد الصف 2" [checked]
+        - gridcell "2"
+        - gridcell "user_engagement":
+          - generic: user_engagement
+        - gridcell "467 (29.32‎%‎)"
+        - gridcell "101 (82.79‎%‎)"
+        - gridcell "4.62"
+        - gridcell "‏0.00 SAR (–)"
+        - gridcell "قائمة الإجراءات المضمّنة":
+          - button "قائمة الإجراءات المضمّنة":
+            - img: more_vert
+      - row "مربّع اختيار لتحديد الصف 3 3 session_start 224 (14.06‎%‎) 122 (100‎%‎) 1.84 ‏0.00 SAR (–) قائمة الإجراءات المضمّنة":
+        - gridcell "مربّع اختيار لتحديد الصف 3":
+          - checkbox "مربّع اختيار لتحديد الصف 3" [checked]
+        - gridcell "3"
+        - gridcell "session_start":
+          - generic: session_start
+        - gridcell "224 (14.06‎%‎)"
+        - gridcell "122 (100‎%‎)"
+        - gridcell "1.84"
+        - gridcell "‏0.00 SAR (–)"
+        - gridcell "قائمة الإجراءات المضمّنة":
+          - button "قائمة الإجراءات المضمّنة":
+            - img: more_vert
+      - row "مربّع اختيار لتحديد الصف 4 4 first_visit 122 (7.66‎%‎) 122 (100‎%‎) 1.00 ‏0.00 SAR (–) قائمة الإجراءات المضمّنة":
+        - gridcell "مربّع اختيار لتحديد الصف 4":
+          - checkbox "مربّع اختيار لتحديد الصف 4" [checked]
+        - gridcell "4"
+        - gridcell "first_visit":
+          - generic: first_visit
+        - gridcell "122 (7.66‎%‎)"
+        - gridcell "122 (100‎%‎)"
+        - gridcell "1.00"
+        - gridcell "‏0.00 SAR (–)"
+        - gridcell "قائمة الإجراءات المضمّنة":
+          - button "قائمة الإجراءات المضمّنة":
+            - img: more_vert
+      - row "مربّع اختيار لتحديد الصف 5 5 contact_whatsapp_click 59 (3.7‎%‎) 41 (33.61‎%‎) 1.44 ‏0.00 SAR (–) قائمة الإجراءات المضمّنة":
+        - gridcell "مربّع اختيار لتحديد الصف 5":
+          - checkbox "مربّع اختيار لتحديد الصف 5" [checked]
+        - gridcell "5"
+        - gridcell "contact_whatsapp_click":
+          - generic: contact_whatsapp_click
+        - gridcell "59 (3.7‎%‎)"
+        - gridcell "41 (33.61‎%‎)"
+        - gridcell "1.44"
+        - gridcell "‏0.00 SAR (–)"
+        - gridcell "قائمة الإجراءات المضمّنة":
+          - button "قائمة الإجراءات المضمّنة":
+            - img: more_vert
+      - row "مربّع اختيار لتحديد الصف 6 6 form_start 42 (2.64‎%‎) 22 (18.03‎%‎) 1.91 ‏0.00 SAR (–) قائمة الإجراءات المضمّنة":
+        - gridcell "مربّع اختيار لتحديد الصف 6":
+          - checkbox "مربّع اختيار لتحديد الصف 6" [disabled]
+        - gridcell "6"
+        - gridcell "form_start":
+          - generic: form_start
+        - gridcell "42 (2.64‎%‎)"
+        - gridcell "22 (18.03‎%‎)"
+        - gridcell "1.91"
+        - gridcell "‏0.00 SAR (–)"
+        - gridcell "قائمة الإجراءات المضمّنة":
+          - button "قائمة الإجراءات المضمّنة":
+            - img: more_vert
+      - row "مربّع اختيار لتحديد الصف 7 7 contact_phone_click 26 (1.63‎%‎) 16 (13.11‎%‎) 1.63 ‏0.00 SAR (–) قائمة الإجراءات المضمّنة":
+        - gridcell "مربّع اختيار لتحديد الصف 7":
+          - checkbox "مربّع اختيار لتحديد الصف 7" [disabled]
+        - gridcell "7"
+        - gridcell "contact_phone_click":
+          - generic: contact_phone_click
+        - gridcell "26 (1.63‎%‎)"
+        - gridcell "16 (13.11‎%‎)"
+        - gridcell "1.63"
+        - gridcell "‏0.00 SAR (–)"
+        - gridcell "قائمة الإجراءات المضمّنة":
+          - button "قائمة الإجراءات المضمّنة":
+            - img: more_vert
+  - text: ©‎Google 2026 |
+  - link "صفحة \"إحصاءات Google\" الرئيسية":
+    - /url: https://www.google.com/analytics/?hl=ar
+  - text: "|"
+  - link "بنود الخدمة":
+    - /url: https://www.google.com/analytics/tos.html?hl=ar
+  - text: "|"
+  - link "سياسة الخصوصية":
+    - /url: https://www.google.com/policies/privacy/?hl=ar
+  - text: "|"
+  - button "إرسال التعليقات":
+    - img: feedback
+    - generic: إرسال التعليقات
+- complementary
+- button "فتح قائمة السياق"
+- alertdialog:
+  - button "Close": ×
+  - heading "فلترة البيانات في تقاريرك" [active] [level=3]
+  - paragraph
+  - paragraph: هل تريد الاطّلاع فقط على بعض البيانات الواردة في التقرير؟ استخدِم الفلاتر لتقييم مجموعة فرعية من بياناتك واستبعاد البيانات المتبقية.
+  - button "بدء الجولة"
+  - button "حسنًا"

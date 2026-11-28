@@ -1,0 +1,209 @@
+- generic "Zoho Forms":
+  - generic: Forms
+- generic: Subscription
+- text: 
+- heading "Abdulrahman Alyamani" [level=3]
+- generic: info@wosol.net
+- emphasis: "User ID : 796945715"
+- link "My Account":
+  - /url: https://accounts.zoho.com
+  - text: My Account
+- text: Sign Out
+- heading "Account details" [level=4]
+- generic: View Usage
+- generic: Zoho One
+- emphasis: Subscription plan
+- button "Manage"
+- list:
+  - heading "Resources" [level=4]
+  - list:
+    - link "Help":
+      - /url: https://help.zoho.com/portal/en/kb/forms/user-guide
+      - generic: Help
+    - link "What's New":
+      - /url: https://www.zoho.com/forms/whats-new.html
+      - generic: What's New
+    - link "Forums":
+      - /url: https://help.zoho.com/portal/community/zoho-forms
+      - generic: Forums
+    - link "Blogs":
+      - /url: https://www.zoho.com/blog/forms
+      - generic: Blogs
+    - generic: Contact Us
+    - link "Webinars":
+      - /url: https://www.zoho.com/forms/webinars.html
+      - generic: Webinars
+  - heading "Theme Color" [level=4]
+  - heading "Available On" [level=4]
+  - list:
+    - link "Android":
+      - /url: https://play.google.com/store/apps/details?id=com.zoho.forms.a&referrer=utm_source=product_forms_listing_page&utm_medium=appbadge&utm_campaign=product_listing
+      - generic: Android
+    - link "iOS":
+      - /url: https://itunes.apple.com/app/apple-store/id805565969?pt=423641&ct=product_forms_listing_page&mt=8
+      - generic: iOS
+  - heading "Join Our Community" [level=4]
+  - list:
+    - link "YouTube":
+      - /url: https://www.youtube.com/@ZohoForms
+      - text: YouTube
+    - link "LinkedIn":
+      - /url: https://www.linkedin.com/showcase/zoho-forms/posts/?feedView=all
+      - text: LinkedIn
+    - link "X":
+      - /url: https://x.com/zohoforms
+      - text: X
+    - link "Instagram":
+      - /url: https://www.instagram.com/zohoforms/
+      - text: Instagram
+- generic: Chatbar
+- link:
+  - /url: javascript:;
+- link:
+  - /url: https://www.zoho.com/forms/whats-new.html
+- link:
+  - /url: javascript:;
+- link:
+  - /url: https://help.zoho.com/portal/en/kb/forms/user-guide
+- list:
+  - emphasis
+  - emphasis
+  - emphasis
+- list:
+  - link "Builder":
+    - /url: /wosolnet/form/WOSOLTransportQuote/builder
+    - generic: Builder
+  - link "Rules":
+    - /url: /wosolnet/form/WOSOLTransportQuote/rules
+    - generic: Rules
+  - link "Settings":
+    - /url: /wosolnet/form/WOSOLTransportQuote/settings
+    - generic: Settings
+  - link "Themes":
+    - /url: /wosolnet/form/WOSOLTransportQuote/themes
+    - generic: Themes
+  - link "Share":
+    - /url: /wosolnet/form/WOSOLTransportQuote/share
+    - img: 
+    - generic: Share
+  - link "Tracking":
+    - /url: /wosolnet/form/WOSOLTransportQuote/tracking
+    - generic: Tracking
+  - link "Integrations":
+    - /url: /wosolnet/form/WOSOLTransportQuote/integrate
+    - generic: Integrations
+  - link "Approvals":
+    - /url: /wosolnet/form/WOSOLTransportQuote/approvals
+    - generic: Approvals
+  - link "Analytics":
+    - /url: /wosolnet/form/WOSOLTransportQuote/formanalytics
+    - generic: Analytics
+  - link "Audit":
+    - /url: /wosolnet/form/WOSOLTransportQuote/audit
+    - generic: Audit
+  - text: 
+- list:
+  - link "All Entries":
+    - /url: /wosolnet/report/WOSOLTransportQuote_Report/records/web
+    - generic: All Entries
+- text: 
+- generic: طلب عرض سعر نقل | WOSOL Transport Quote
+- generic: Access Form
+- text: General
+- generic: 
+- list:
+  - link "Display":
+    - /url: javascript:;
+    - generic: Display
+  - listitem "Thank You Page & Redirection":
+    - link "Thank You Page & Redirection":
+      - /url: javascript:;
+      - generic: Thank You Page & Redirection
+  - link "Date & Time":
+    - /url: javascript:;
+    - generic: Date & Time
+  - link "Form Availability":
+    - /url: javascript:;
+    - generic: Form Availability
+  - link "SMTP":
+    - /url: javascript:;
+    - generic: SMTP
+  - link "Submission Source Info":
+    - /url: javascript:;
+    - generic: Submission Source Info
+  - link "Others":
+    - /url: javascript:;
+    - generic: Others
+- generic: Email & Notifications
+- generic: 
+- generic: Branding
+- generic: 
+- generic: Prefill
+- generic: 
+- generic: PDF & Document Merge
+- generic: 
+- generic: Submissions & Storage
+- generic: 
+- generic: Translation & Messages
+- generic: 
+- generic: Spam Control
+- generic: 
+- generic: Mobile App
+- generic: 
+- generic: Compliance & Audit
+- generic: 
+- generic: Tasks
+- generic: 
+- heading "Thank You Page & Redirection" [level=2]
+- radio "Thank You Page" [checked]
+- generic: Thank You Page
+- generic: Customize your Thank You page message.
+- list:
+  - radio "Plain Text" [checked]
+  - generic: Plain Text
+  - radio "Rich Text"
+  - generic: Rich Text
+- textbox: تم استلام طلبك للمراجعة، وليس تأكيد حجز. Request received for review, not a booking confirmation.
+- text: 
+- generic: (Maximum 100 characters)
+- paragraph
+- text:  
+- checkbox "Include a link to allow respondents to add another response." [checked]
+- generic: Include a link to allow respondents to add another response.
+- checkbox "Include a link to download PDF of submitted response in the Thank You Page."
+- emphasis
+- text: Include a link to download PDF of submitted response in the Thank You Page.
+- checkbox "Add Google Analytics or Facebook Pixel tracking code." [checked] [disabled]
+- text: Add
+- emphasis: Google Analytics
+- text: or
+- emphasis: Facebook Pixel
+- text: tracking code.
+- paragraph
+- radio "Redirect To"
+- generic: Redirect To
+- generic: Choose where you want to redirect respondents on form submission.
+- text: 
+- generic: Splash Message
+- textbox "Enter the splash message."
+- generic: (Maximum 100 characters)
+- button "Save":
+  - generic: Save
+- text: 
+- text: Tracking Settings
+- generic: 
+- heading "Google Analytics" [level=4]
+- generic: Tracking ID/Measurement ID
+- textbox "UA-XXXXXX-X/G-XXXXXXXXX"
+- heading "Facebook Pixel" [level=4]
+- generic: Pixel ID
+- textbox "XXXXXX"
+- text: Tracking Parameters
+- button "Cancel"
+- button "Done"
+- text: 
+- text:   
+- generic: 
+- text:       
+- iframe
+- text:                

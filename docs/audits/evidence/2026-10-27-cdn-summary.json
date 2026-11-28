@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-27",
+  "cdn_ip": "162.0.212.2",
+  "origin_ip": "198.187.29.14",
+  "cdn_dashboard": "ONLINE / CUSTOM SSL PROTECTED",
+  "cache_change": {
+    "before": "Ignore Query String",
+    "after": "Custom: product",
+    "purged": true,
+    "persisted_after_reload": true
+  },
+  "external_tls": {
+    "checker": "https://decoder.link/sslchecker/",
+    "hosts": [
+      "wosol.net",
+      "www.wosol.net"
+    ],
+    "resolved_ip": "162.0.212.2",
+    "hostname_verified": true,
+    "chain_verified": true,
+    "protocol": "TLSv1.3",
+    "expires": "2027-05-03T21:12:15Z",
+    "serial": "528107da1560468df42c03fe7898a046",
+    "ocsp_status": "Failed to get OCSP response, try later"
+  },
+  "local_public_https": "Connection reset before certificate; browser timeout",
+  "origin_tls_verified": true,
+  "support_agent": "Andrii N.",
+  "support_open": true,
+  "public_redirect_verification": "Pending; origin verification previously passed",
+  "no_dns_email_tls_changes": true,
+  "no_indexing_or_ads": true
+}

@@ -1,0 +1,71 @@
+- banner:
+  - img "Supersonic Logo"
+  - generic: Early Access
+  - button:
+- heading "Your websites wosol.net" [level=6]:
+  - generic: Your websites
+  - button "wosol.net":
+    - generic: wosol.net
+- text: Manage the delivery settings and services for your Site below.
+- button "Add Website":
+  - generic: Add Website
+- button:
+- heading "Your websites wosol.net" [level=6]:
+  - generic: Your websites
+  - button "wosol.net":
+    - generic: wosol.net
+- button "Add Website":
+  - generic: Add Website
+- navigation:
+  - link "Dashboard":
+    - /url: /
+    - text: Dashboard
+  - link "Overview":
+    - /url: /manage/3f884bd4-d81f-465b-809f-0bb6b55e33e3/overview
+    - text: Overview
+  - link "Analytics":
+    - /url: /manage/3f884bd4-d81f-465b-809f-0bb6b55e33e3/analytics
+    - text: Analytics
+  - link "CDN Settings":
+    - /url: /manage/3f884bd4-d81f-465b-809f-0bb6b55e33e3/settings
+    - text: CDN Settings
+  - link "SSL":
+    - /url: /manage/3f884bd4-d81f-465b-809f-0bb6b55e33e3/ssl
+    - text: SSL
+  - text: Firewall
+  - generic: Upcoming
+  - text: Monitor
+  - generic: Upcoming
+- heading "Origin" [level=5]
+- heading "Address" [level=6]
+- generic: The origin is where we pull your content from before caching it at our CDN. We will send your Delivery domain to this origin so it will need to recognize the Delivery Domain below.
+- button "https":
+  - generic: https
+- textbox [disabled]: 198.187.29.14
+- heading "Cache" [level=5]
+- heading "Purge actions" [level=6]
+- generic: Remove files from cache globally and retrieve them from your origin again the next time they are requested.
+- button "Purge all":
+  - generic: Purge all
+- heading "Lifetime" [level=6]
+- generic: Define when and for how long content is stored on the CDN cache before it expires and is replaced with new content from your origin.
+- button "Origin Controlled":
+  - generic: Origin Controlled
+- heading "Query String Control" [level=6]
+- generic: Choose how the CDN caches URLs that contain query string parameters (e.g., ?color=red&size=large). Use Ignore to serve the same cached content regardless of parameters or Custom to control which parameters are considered.
+- button "Custom":
+  - generic: Custom
+- heading [level=6]
+- generic: The chosen Query String parameters will be used as cache keys.
+- generic: product
+- button "Add More":
+  - generic: Add More
+- heading "Cache exceptions" [level=6]
+- generic: "Add any custom path you wish cache settings to ignore, e.g: /path/. Please don't use query strings (?&), parameters (; ) or fragments (#) when specifying your exceptions."
+- generic: /js/measurement-config.js
+- generic: /icon.ico
+- generic: /js/measurement.js
+- button "Add More":
+  - generic: Add More
+- button:
+- alert: Supersonic.ai | Manage Domain

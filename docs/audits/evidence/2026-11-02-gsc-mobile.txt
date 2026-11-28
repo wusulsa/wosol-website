@@ -1,0 +1,85 @@
+- navigation "مسارات التنقل":
+  - link "مؤشرات أداء الويب الأساسية":
+    - /url: ./search-console/core-web-vitals?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+  - generic: 
+  - heading "الهاتف الجوال" [level=1]
+- button "تصدير":
+  - generic: 
+  - generic: تصدير
+- text: "المصدر: تقرير تجربة المُستخدِم في Chrome"
+- button "null":
+  - generic: 
+- generic: "تاريخ آخر تعديل: ‎1‏/11‏/2026"
+- main:
+  - button "بطيء 0 ليس هناك مشاكل.":
+    - generic "بطيء":
+      - generic: 
+      - generic: بطيء
+    - generic "0"
+    - generic: ليس هناك مشاكل.
+  - button "null":
+    - generic: 
+  - button "بحاجة إلى تحسين 41 مشكلة واحدة":
+    - generic "بحاجة إلى تحسين":
+      - generic: بحاجة إلى تحسين
+    - generic "41"
+    - generic: مشكلة واحدة
+  - button "null":
+    - generic: 
+  - button "جيد 0":
+    - generic "جيد":
+      - generic: جيد
+    - generic "0"
+  - button "null":
+    - generic: 
+  - generic: عناوين URL
+  - link "عرض بيانات عن عناوين URL الجيّدة":
+    - /url: ./search-console/core-web-vitals/drilldown?resource_id=https%3A%2F%2Fwww.wosol.net%2F&device=2
+    - generic: check_circle
+    - generic: عرض بيانات عن عناوين URL الجيّدة
+    - generic: 
+  - generic: الأسباب التي تجعل عناوين URL غير جيّدة
+  - generic: عناوين URL التي تحتوي على هذه المشاكل لا تقدّم تجربة مستخدم جيّدة.
+  - button "فلترة صفوف الجدول":
+    - generic: 
+  - table:
+    - rowgroup:
+      - row "مستوى الخطورة المشكلة null التحقق من الصحة مؤشر البيانات عناوين URL":
+        - columnheader "مستوى الخطورة":
+          - generic: مستوى الخطورة
+        - columnheader "المشكلة null":
+          - text: المشكلة
+          - button "null":
+            - generic: 
+        - columnheader "التحقق من الصحة":
+          - generic: التحقق من الصحة
+        - columnheader "مؤشر البيانات":
+          - generic: مؤشر البيانات
+        - columnheader "عناوين URL":
+          - generic: عناوين URL
+    - rowgroup:
+      - 'row "بحاجة إلى تحسين مشكلة LCP: أطول من ثانيتان ونصف (الأجهزة الجوّالة) لم تبدأ عملية التحقق 41"':
+        - cell "بحاجة إلى تحسين":
+          - generic: warning
+          - text: بحاجة إلى تحسين
+        - 'cell "مشكلة LCP: أطول من ثانيتان ونصف (الأجهزة الجوّالة)"':
+          - 'generic "مشكلة LCP: أطول من ثانيتان ونصف (الأجهزة الجوّالة)"'
+        - cell "لم تبدأ عملية التحقق":
+          - generic: 
+          - text: لم تبدأ عملية التحقق
+        - cell:
+        - cell "41":
+          - generic: "41"
+  - generic: "عدد الصفوف في كل صفحة:"
+  - listbox "عدد الصفوف لكل صفحة":
+    - option "5"
+    - option "10" [selected]
+    - option "25"
+    - option "50"
+    - option "100"
+    - option "250"
+    - option "500"
+  - generic: 1-1 من 1
+  - generic: 
+  - generic: 
+- generic: مؤشرات أداء الويب الأساسية

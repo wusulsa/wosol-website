@@ -1,0 +1,13 @@
+  - listitem "Thank You Page & Redirection":
+    - link "Thank You Page & Redirection":
+      - generic: Thank You Page & Redirection
+- heading "Thank You Page & Redirection" [level=2]
+- radio "Thank You Page" [checked]
+- generic: Thank You Page
+- generic: Customize your Thank You page message.
+- textbox: تم استلام طلبك للمراجعة، وليس تأكيد حجز. Request received for review, not a booking confirmation.
+- checkbox "Include a link to allow respondents to add another response." [checked]
+- checkbox "Include a link to download PDF of submitted response in the Thank You Page."
+- text: Include a link to download PDF of submitted response in the Thank You Page.
+- checkbox "Add Google Analytics or Facebook Pixel tracking code."
+- text: tracking code.

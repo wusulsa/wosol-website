@@ -1,0 +1,41 @@
+{
+  "status": "prepared-not-deployed",
+  "pages": [
+    {
+      "file": "employee-transport-jeddah.html",
+      "before": "0579a539ad55d0e9cf37fac111680d41c8dfd044ec712bfb5d7b397a75783333",
+      "after": "2edfb1c94a4a6b07be975cae99675cd87cb39bb61df33f5a550307f751a9cc70"
+    },
+    {
+      "file": "employee-transport-riyadh.html",
+      "before": "78cceb569de62ade2b8910f5120ec1435699d2f9e257aa5fc9edc30b2acd6035",
+      "after": "262e2d24e0142b94912e5d7575e9f2d43768e98b67da4cf13e564396d88a269b"
+    },
+    {
+      "file": "index.html",
+      "before": "2004f9ac352f8507b78d12c9a9aa96c938eb80e98f397d96860b9cd5bf013795",
+      "after": "98c1a6d23ccfb62a465e4144841eb81d673e060e252b8bf1944f5f66f8468108"
+    },
+    {
+      "file": "king-abdulaziz-university-transport.html",
+      "before": "dbcb80492e45a96075fef2144b1666f21c34f5a04c8468349103a5be709a530a",
+      "after": "483984b23e0c5b7c6dba53b6c6837c1d8837f4668fcf600b889d70ce6e47ed05"
+    },
+    {
+      "file": "en/employee-transport-riyadh/index.html",
+      "before": "966e2bea97b2a82bc84a192050552b092cca825e3c461f898de8824168665d5a",
+      "after": "f0be2fc223bf2cd22af52c141d05ab05931676b9064f912b226fee911703c801"
+    }
+  ],
+  "assets": [],
+  "preserved": [
+    ".htaccess",
+    "robots.txt",
+    "sitemap.xml",
+    "register.html",
+    "en/register/index.html",
+    "js/measurement.js",
+    "js/measurement-config.js"
+  ],
+  "formsSent": false
+}

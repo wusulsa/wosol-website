@@ -1,0 +1,51 @@
+- banner:
+  - button "Show navigation panel":
+    - generic: 
+  - link "Skip to main content":
+    - /url: "#content"
+  - img "white bwt logo microsoft bing mobile"
+  - button "More":
+    - generic: 
+  - button "Profile":
+- main:
+  - heading "URL Inspection" [level=2]
+  - search:
+    - searchbox "Enter URL to inspect in \"https://www.wosol.net/\"": https://www.wosol.net/en/corporate-transport-saudi-arabia/
+    - button "Clear":
+      - generic: 
+  - button "Inspect" [active]:
+    - generic: Inspect
+  - tablist:
+    - tab "Bing Index" [selected]:
+      - generic: Bing Index
+    - tab "Live URL":
+      - generic: Live URL
+  - generic: Page updated?
+  - button "Request indexing":
+    - generic: Request indexing
+  - heading "Indexed successfully URL can appear on Bing" [level=3]:
+    - button "Indexed successfully URL can appear on Bing":
+      - generic: 
+      - generic: Indexed successfully
+      - generic: URL can appear on Bing
+      - generic: 
+  - heading "1 SEO/GEO issue found" [level=3]:
+    - button "1 SEO/GEO issue found" [expanded]:
+      - generic: 
+      - generic: 1 SEO/GEO issue found
+      - generic: 
+  - paragraph: Click on issues to analyze
+  - grid:
+    - row "Notice Alt attribute for images is missing 1 instance found How to fix?":
+      - gridcell "Notice":
+        - generic: 
+        - generic: Notice
+      - gridcell "Alt attribute for images is missing"
+      - gridcell "1 instance found"
+      - gridcell "How to fix?":
+        - button "How to fix?"
+  - heading "1 Markup type found" [level=3]:
+    - button "1 Markup type found":
+      - generic: 
+      - generic: 1 Markup type found
+      - generic: 

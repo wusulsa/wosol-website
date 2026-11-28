@@ -1,0 +1,64 @@
+- navigation "مسارات التنقل":
+  - heading "ملفات خرائط الموقع" [level=1]
+- main:
+  - generic: إضافة خريطة موقع جديدة
+  - generic: https://www.wosol.net/
+  - textbox "أدخل عنوان URL لملف خريطة الموقع" [active]
+  - generic: أدخل عنوان URL لملف خريطة الموقع
+  - button "إرسال" [disabled]:
+    - generic: إرسال
+  - heading "ملفات خرائط الموقع المرسَلة" [level=1]:
+    - generic: ملفات خرائط الموقع المرسَلة
+  - button "فلترة صفوف الجدول":
+    - generic: 
+  - table:
+    - rowgroup:
+      - row "ملف خريطة الموقع النوع تم الارسال تاريخ آخر قراءة الحالة الصفحات التي تم اكتشافها الفيديوهات التي تم اكتشافها":
+        - columnheader "ملف خريطة الموقع":
+          - text: ملف خريطة الموقع
+        - columnheader "النوع":
+          - text: النوع
+        - columnheader "تم الارسال":
+          - text: تم الارسال
+        - columnheader "تاريخ آخر قراءة":
+          - text: تاريخ آخر قراءة
+        - columnheader "الحالة":
+          - text: الحالة
+        - columnheader "الصفحات التي تم اكتشافها":
+          - text: الصفحات التي تم اكتشافها
+        - columnheader "الفيديوهات التي تم اكتشافها":
+          - text: الفيديوهات التي تم اكتشافها
+        - columnheader
+    - rowgroup:
+      - row "/sitemap.xml ملف خريطة الموقع 19‏/10‏/2026 02‏/11‏/2026 تم الإجراء بنجاح. 38 0":
+        - cell "/sitemap.xml"
+        - cell "ملف خريطة الموقع"
+        - cell "19‏/10‏/2026"
+        - cell "02‏/11‏/2026"
+        - cell "تم الإجراء بنجاح.":
+          - generic: تم الإجراء بنجاح.
+        - cell "38"
+        - cell "0"
+        - cell:
+          - button:
+            - generic: 
+  - generic: "عدد الصفوف في كل صفحة:"
+  - listbox "عدد الصفوف لكل صفحة":
+    - option "5"
+    - option "10" [selected]
+    - option "25"
+    - option "50"
+    - option "100"
+    - option "250"
+    - option "500"
+  - generic: 1-1 من 1
+  - generic: 
+  - generic: 
+- generic: ملفات خرائط الموقع
+- generic: تعرّف على ملفات خرائط الموقع التي اكتشفها محرّك البحث Google في موقعك الإلكتروني، وأرسِل ملفات جديدة.
+- generic: مزيد من المعلومات
+- generic "مزيد من المعلومات"
+- generic: حسنًا
+- generic "حسنًا"
+- generic: ملفات خرائط الموقع
+- generic: ملفات خرائط الموقع

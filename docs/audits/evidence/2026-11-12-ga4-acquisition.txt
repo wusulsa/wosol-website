@@ -1,0 +1,335 @@
+- banner:
+  - generic: "\"إحصاءات\""
+  - button "فتح أداة الاختيار العامة":
+    - generic: جميع الحسابات
+    - img: chevron_right
+    - generic: وسل WOSOL
+    - generic: WOSOL — wosol.net
+    - img: arrow_drop_down
+  - search:
+    - img: search
+    - textbox "بحث":
+      - /placeholder: جرّب البحث عن "الإحصاءات"
+  - button "تبديل المنتجات":
+  - button "قائمة دخول صفحة المساعدة":
+    - img: help
+  - button "فتح لوحة مبدِّل حسابات المستخدم"
+- navigation "الصفحات الرئيسية":
+  - link "الصفحة الرئيسية":
+    - generic: الصفحة الرئيسية
+  - link "التقارير":
+    - img: insert_chart_filled
+    - generic: التقارير
+  - link "استكشاف":
+    - img: data_exploration
+    - generic: استكشاف
+  - link "الإعلانات":
+    - img: ads_click
+    - generic: الإعلانات
+- navigation "صفحات الإعدادات":
+  - link "المهام":
+    - img: task_alt
+    - generic: المهام
+  - link "المسؤول":
+    - img: settings_filled
+    - generic: المسؤول
+- navigation "التنقّل الثانوي":
+  - navigation "الصفحات الثانوية":
+    - button "إنشاء":
+      - text: إنشاء
+      - img: arrow_drop_down
+  - tree:
+    - treeitem "لقطة عن التقارير" [level=1]:
+      - button "لقطة عن التقارير":
+        - generic: لقطة عن التقارير
+    - treeitem "نظرة عامة في الوقت الفعلي" [level=1]:
+      - button "نظرة عامة في الوقت الفعلي":
+        - generic: نظرة عامة في الوقت الفعلي
+    - treeitem "الصفحات في الوقت الفعلي" [level=1]:
+      - button "الصفحات في الوقت الفعلي":
+        - generic: الصفحات في الوقت الفعلي
+    - treeitem "استيراد البيانات" [expanded] [level=1]:
+      - separator
+      - button "استيراد البيانات":
+        - generic: استيراد البيانات
+        - img: keyboard_arrow_up
+    - treeitem "إثبات صحة استيراد بيانات الحملات" [level=2]:
+      - button "إثبات صحة استيراد بيانات الحملات":
+        - generic: إثبات صحة استيراد بيانات الحملات
+    - treeitem "المستخدم" [expanded] [level=1]:
+      - separator
+      - button "المستخدم":
+        - generic: المستخدم
+        - img: keyboard_arrow_up
+    - treeitem "سمات المستخدمين" [level=2]:
+      - button "سمات المستخدمين":
+        - img: arrow_right
+        - generic: سمات المستخدمين
+    - treeitem "التكنولوجيا" [level=2]:
+      - button "التكنولوجيا":
+        - img: arrow_right
+        - generic: التكنولوجيا
+    - treeitem "أهداف النشاط التجاري" [expanded] [level=1]:
+      - separator
+      - button "أهداف النشاط التجاري":
+        - generic: أهداف النشاط التجاري
+        - img: keyboard_arrow_up
+    - treeitem "جذب عملاء مهتمين" [expanded] [level=2]:
+      - button "جذب عملاء مهتمين":
+        - img: arrow_drop_down
+        - generic: جذب عملاء مهتمين
+    - treeitem "نظرة عامة" [level=3]:
+      - button "نظرة عامة":
+        - generic: نظرة عامة
+    - treeitem "الجمهور" [level=3]:
+      - button "الجمهور":
+        - generic: الجمهور
+    - treeitem "اكتساب المستخدمين" [level=3]:
+      - button "اكتساب المستخدمين":
+        - generic: اكتساب المستخدمين
+    - treeitem "اكتساب الزيارات" [level=3]:
+      - button "اكتساب الزيارات":
+        - generic: اكتساب الزيارات
+    - treeitem "اكتساب العملاء المهتمين" [level=3]:
+      - button "اكتساب العملاء المهتمين":
+        - generic: اكتساب العملاء المهتمين
+    - treeitem "الصفحة المقصودة" [level=3]:
+      - button "الصفحة المقصودة":
+        - generic: الصفحة المقصودة
+    - treeitem "المجموعات النموذجية لاكتساب المستخدمين" [level=3]:
+      - button "المجموعات النموذجية لاكتساب المستخدمين":
+        - generic: المجموعات النموذجية لاكتساب المستخدمين
+    - treeitem "عدم تأهُّل العملاء المهتمين وخسارتهم" [level=3]:
+      - button "عدم تأهُّل العملاء المهتمين وخسارتهم":
+        - generic: عدم تأهُّل العملاء المهتمين وخسارتهم
+    - treeitem "زيادة المبيعات" [level=2]:
+      - button "زيادة المبيعات":
+        - img: arrow_right
+        - generic: زيادة المبيعات
+    - treeitem "فهم زيارات الموقع الإلكتروني و/أو التطبيق" [expanded] [level=2]:
+      - button "فهم زيارات الموقع الإلكتروني و/أو التطبيق":
+        - img: arrow_drop_down
+        - generic: فهم زيارات الموقع الإلكتروني و/أو التطبيق
+    - treeitem "نظرة عامة" [level=3]:
+      - button "نظرة عامة":
+        - generic: نظرة عامة
+    - treeitem "تفاصيل الخصائص الديمغرافية" [level=3]:
+      - button "تفاصيل الخصائص الديمغرافية":
+        - generic: تفاصيل الخصائص الديمغرافية
+    - treeitem "الصفحات والشاشات" [level=3]:
+      - button "الصفحات والشاشات":
+        - generic: الصفحات والشاشات
+    - treeitem "عرض تفاعل المستخدمين والحفاظ عليهم" [expanded] [level=2]:
+      - button "عرض تفاعل المستخدمين والحفاظ عليهم":
+        - img: arrow_drop_down
+        - generic: عرض تفاعل المستخدمين والحفاظ عليهم
+    - treeitem "نظرة عامة" [level=3]:
+      - button "نظرة عامة":
+        - generic: نظرة عامة
+    - treeitem "الأحداث" [level=3]:
+      - button "الأحداث":
+        - generic: الأحداث
+    - treeitem "الصفحات والشاشات" [level=3]:
+      - button "الصفحات والشاشات":
+        - generic: الصفحات والشاشات
+  - navigation "صفحات أخرى":
+    - button "المكتبة":
+      - img: folder
+      - generic: المكتبة
+  - separator
+- button "إيقاف/تفعيل التنقّل" [expanded]:
+  - img: keyboard_arrow_left
+- main:
+  - button "كل المستخدمين":
+    - generic: ك
+    - generic: كل المستخدمين
+  - button "إضافة مقارنة":
+    - generic: إضافة مقارنة
+    - img: add
+  - combobox "فتح أداة اختيار النطاق الزمني":
+    - generic: آخر 28 يومًا
+    - generic: 15 أكتوبر - 11 نوفمبر 2026
+    - img: arrow_drop_down
+  - separator
+  - 'heading "اكتساب الزيارات: مجموعة القنوات الأساسية المرتبطة بالجلسة (مجموعة القنوات التلقائية)" [level=1]':
+    - 'button "اكتساب الزيارات: مجموعة القنوات الأساسية المرتبطة بالجلسة (مجموعة القنوات التلقائية)"'
+  - button "في تقرير، يتم استخدام كل البيانات المتاحة. يُرجى النقر للاطّلاع على مزيد من المعلومات.":
+    - img: check_circle
+    - generic: في تقرير، يتم استخدام كل البيانات المتاحة. يُرجى النقر للاطّلاع على مزيد من المعلومات.
+    - img: arrow_drop_down
+  - button "إضافة فلتر":
+    - generic: إضافة فلتر
+    - img: add
+  - generic "عرض التعليقات التوضيحية":
+    - button "عرض التعليقات التوضيحية":
+  - generic "تعديل المقارنات":
+    - button "تعديل المقارنات":
+  - generic "فتح هذا التقرير على أنّه استكشاف":
+    - button "فتح هذا التقرير على أنّه استكشاف":
+      - img: data_exploration
+  - generic "مشاركة هذا التقرير":
+    - button "مشاركة هذا التقرير":
+      - img: share
+  - generic "إحصاءات":
+    - button "إحصاءات":
+  - generic "تخصيص التقرير":
+    - button "تخصيص التقرير":
+      - img: edit
+  - text: add check_circle arrow_drop_down add arrow_drop_down data_exploration share edit
+  - heading "الجلسات حسب مجموعة القنوات الأساسية المرتبطة بالجلسة (مجموعة القنوات التلقائية) بمرور الوقت" [level=2]
+  - generic "أداة اختيار دقة التاريخ":
+    - combobox "أداة اختيار دقة التاريخ":
+      - generic: اليوم
+  - button "تخطيط الصفوف" [disabled]:
+    - generic: تخطيط الصفوف
+  - img: search
+  - textbox "بحث":
+    - /placeholder: بحث…
+  - generic: "عدد الصفوف في كل صفحة:"
+  - 'combobox "عدد الصفوف في كل صفحة: 10"':
+    - generic: "10"
+  - generic: ‫1-2 من 2
+  - grid "بيانات التقرير":
+    - rowgroup:
+      - row "عمود الاختيار مربّع اختيار لإلغاء اختيار كل الصفوف فهرس مجموعة القنوات الأساسية المرتبطة بالجلسة (مجموعة القنوات التلقائية) الجلسات الجلسات المتفاعلة نسبة المشاركة متوسط مدة التفاعل لكل جلسة الأحداث في كل جلسة عدد الأحداث جميع الأحداث الأحداث المهمة جميع الأحداث معدّل الأحداث الرئيسية في الجلسة جميع الأحداث إجمالي الأرباح":
+        - columnheader "عمود الاختيار مربّع اختيار لإلغاء اختيار كل الصفوف":
+          - generic: عمود الاختيار
+          - checkbox "مربّع اختيار لإلغاء اختيار كل الصفوف" [checked=mixed]
+        - columnheader "فهرس":
+          - generic: فهرس
+        - columnheader "مجموعة القنوات الأساسية المرتبطة بالجلسة (مجموعة القنوات التلقائية)":
+          - button "مجموعة القنوات الأساسية المرتبطة بالجلسة (مجموعة القنوات التلقائية) فتح أداة اختيار السمات":
+            - button "مجموعة القنوات الأساسية المرتبطة بالجلسة (مجموعة القنوات التلقائية)":
+              - generic: مجموعة القنوات الأساسية المرتبطة بالجلسة (مجموعة القنوات التلقائية)
+              - text: مجموعة القنوات …وات التلقائية)
+              - img: arrow_drop_down
+            - button "فتح أداة اختيار السمات":
+              - img: add
+        - columnheader "الجلسات":
+          - button "الجلسات":
+            - button "الجلسات"
+        - columnheader "الجلسات المتفاعلة":
+          - button "الجلسات المتفاعلة":
+            - button "الجلسات المتفاعلة"
+        - columnheader "نسبة المشاركة":
+          - button "نسبة المشاركة":
+            - button "نسبة المشاركة"
+        - columnheader "متوسط مدة التفاعل لكل جلسة":
+          - button "متوسط مدة التفاعل لكل جلسة":
+            - button "متوسط مدة التفاعل لكل جلسة"
+        - columnheader "الأحداث في كل جلسة":
+          - button "الأحداث في كل جلسة":
+            - button "الأحداث في كل جلسة"
+        - columnheader "عدد الأحداث جميع الأحداث":
+          - button "عدد الأحداث جميع الأحداث":
+            - button "عدد الأحداث"
+            - button "جميع الأحداث":
+              - generic: جميع الأحداث
+              - text: جميع الأحداث
+              - img: arrow_drop_down
+        - columnheader "الأحداث المهمة جميع الأحداث":
+          - button "الأحداث المهمة جميع الأحداث":
+            - button "الأحداث المهمة"
+            - button "جميع الأحداث":
+              - generic: جميع الأحداث
+              - text: جميع الأحداث
+              - img: arrow_drop_down
+        - columnheader "معدّل الأحداث الرئيسية في الجلسة جميع الأحداث":
+          - button "معدّل الأحداث الرئيسية في الجلسة جميع الأحداث":
+            - button "معدّل الأحداث الرئيسية في الجلسة"
+            - button "جميع الأحداث":
+              - generic: جميع الأحداث
+              - text: جميع الأحداث
+              - img: arrow_drop_down
+        - columnheader "إجمالي الأرباح":
+          - button "إجمالي الأرباح":
+            - button "إجمالي الأرباح"
+      - row "مربّع اختيار صف \"الإجمالي\" خلية فارغة لإجماليات الملخّص في \"\" خلية فارغة لإجماليات الملخّص في عمود \"الفهرس\" الإجمالي 224 100‎%‎ من الإجمالي 158 100‎%‎ من الإجمالي 70.54‎%‎ %0 في المتوسط 57 ث %0 في المتوسط 7.11 %0 في المتوسط 1,593 100‎%‎ من الإجمالي خلية فارغة لإجماليات الملخّص في عمود \"الأحداث المهمة\" 0.00 خلية فارغة لإجماليات الملخّص في عمود \"معدّل الأحداث الرئيسية في الجلسة\" 0‎%‎ خلية فارغة لإجماليات الملخّص في عمود \"إجمالي الأرباح\" ‏0.00 SAR":
+        - columnheader "مربّع اختيار صف \"الإجمالي\" خلية فارغة لإجماليات الملخّص في \"\"":
+          - checkbox "مربّع اختيار صف \"الإجمالي\"" [checked]
+          - generic: خلية فارغة لإجماليات الملخّص في ""
+        - columnheader "خلية فارغة لإجماليات الملخّص في عمود \"الفهرس\"":
+          - generic: خلية فارغة لإجماليات الملخّص في عمود "الفهرس"
+        - columnheader "الإجمالي":
+          - generic: الإجمالي
+        - columnheader "224 100‎%‎ من الإجمالي":
+          - generic: "224"
+          - generic: 100‎%‎ من الإجمالي
+        - columnheader "158 100‎%‎ من الإجمالي":
+          - generic: "158"
+          - generic: 100‎%‎ من الإجمالي
+        - columnheader "70.54‎%‎ %0 في المتوسط":
+          - generic: 70.54‎%‎
+          - generic: "%0 في المتوسط"
+        - columnheader "57 ث %0 في المتوسط":
+          - generic: 57 ث
+          - generic: "%0 في المتوسط"
+        - columnheader "7.11 %0 في المتوسط":
+          - generic: "7.11"
+          - generic: "%0 في المتوسط"
+        - columnheader "1,593 100‎%‎ من الإجمالي":
+          - generic: 1,593
+          - generic: 100‎%‎ من الإجمالي
+        - columnheader "خلية فارغة لإجماليات الملخّص في عمود \"الأحداث المهمة\" 0.00":
+          - generic: خلية فارغة لإجماليات الملخّص في عمود "الأحداث المهمة"
+          - generic: "0.00"
+        - columnheader "خلية فارغة لإجماليات الملخّص في عمود \"معدّل الأحداث الرئيسية في الجلسة\" 0‎%‎":
+          - generic: خلية فارغة لإجماليات الملخّص في عمود "معدّل الأحداث الرئيسية في الجلسة"
+          - generic: 0‎%‎
+        - columnheader "خلية فارغة لإجماليات الملخّص في عمود \"إجمالي الأرباح\" ‏0.00 SAR":
+          - generic: خلية فارغة لإجماليات الملخّص في عمود "إجمالي الأرباح"
+          - generic: ‏0.00 SAR
+    - rowgroup:
+      - row "مربّع اختيار لتحديد الصف 1 1 Direct 224 (100‎%‎) 158 (100‎%‎) 70.54‎%‎ 57 ث 7.10 1,591 (99.87‎%‎) 0.00 (–) 0‎%‎ ‏0.00 SAR (–)":
+        - gridcell "مربّع اختيار لتحديد الصف 1":
+          - checkbox "مربّع اختيار لتحديد الصف 1" [checked]
+        - gridcell "1"
+        - gridcell "Direct":
+          - generic: Direct
+        - gridcell "224 (100‎%‎)"
+        - gridcell "158 (100‎%‎)"
+        - gridcell "70.54‎%‎"
+        - gridcell "57 ث"
+        - gridcell "7.10"
+        - gridcell "1,591 (99.87‎%‎)"
+        - gridcell "0.00 (–)"
+        - gridcell "0‎%‎"
+        - gridcell "‏0.00 SAR (–)"
+      - row "مربّع اختيار لتحديد الصف 2 2 Unassigned 2 (0.89‎%‎) 0 (0‎%‎) 0‎%‎ 4 ث 1.00 2 (0.13‎%‎) 0.00 (–) 0‎%‎ ‏0.00 SAR (–)":
+        - gridcell "مربّع اختيار لتحديد الصف 2":
+          - checkbox "مربّع اختيار لتحديد الصف 2" [checked]
+        - gridcell "2"
+        - gridcell "Unassigned":
+          - generic: Unassigned
+        - gridcell "2 (0.89‎%‎)"
+        - gridcell "0 (0‎%‎)"
+        - gridcell "0‎%‎"
+        - gridcell "4 ث"
+        - gridcell "1.00"
+        - gridcell "2 (0.13‎%‎)"
+        - gridcell "0.00 (–)"
+        - gridcell "0‎%‎"
+        - gridcell "‏0.00 SAR (–)"
+  - text: ©‎Google 2026 |
+  - link "صفحة \"إحصاءات Google\" الرئيسية":
+    - /url: https://www.google.com/analytics/?hl=ar
+  - text: "|"
+  - link "بنود الخدمة":
+    - /url: https://www.google.com/analytics/tos.html?hl=ar
+  - text: "|"
+  - link "سياسة الخصوصية":
+    - /url: https://www.google.com/policies/privacy/?hl=ar
+  - text: "|"
+  - button "إرسال التعليقات":
+    - img: feedback
+    - generic: إرسال التعليقات
+- complementary
+- button "فتح قائمة السياق"
+- alertdialog:
+  - button "Close": ×
+  - heading "تمّ تعديل تقرير الزيارات المكتسبة كي تكون جميع المقاييس والسمات على مستوى الجلسة. استخدِم هذا التقرير للاطّلاع على مقاييس مثل الجلسات وجلسات التفاعُل والجلسات لكلّ حدث." [active] [level=3]:
+    - paragraph: تمّ تعديل تقرير الزيارات المكتسبة كي تكون جميع المقاييس والسمات على مستوى الجلسة. استخدِم هذا التقرير للاطّلاع على مقاييس مثل الجلسات وجلسات التفاعُل والجلسات لكلّ حدث.
+  - button "حسنًا."
+  - button "مزيد من المعلومات":
+    - link "مزيد من المعلومات":
+      - /url: https://support.google.com/analytics/answer/12923437

@@ -1,0 +1,97 @@
+- generic "خرائط ‪Google‬‏‏":
+  - application "الخريطة·استخدِم مفاتيح الأسهم لتحريك الخريطة.·يمكنك الحصول على تفاصيل عن مكان من خلال النقر على مفتاح الرقم المقابل له."
+  - search:
+    - button "رجوع":
+      - generic: 
+    - combobox: مؤسسة وسل النقل
+    - button "بحث":
+      - generic: 
+    - button "إغلاق":
+      - generic: 
+  - button
+  - button "Show the Input Tools menu"
+  - region "خيارات البحث المتاحة في هذه المنطقة":
+    - button "مطاعم":
+      - generic: 
+      - generic: مطاعم
+    - button "الفنادق":
+      - generic: 
+      - generic: الفنادق
+    - button "نشاطات مقترَحة":
+      - generic: 
+      - generic: نشاطات مقترَحة
+    - button "محطات نقل عام":
+      - generic: 
+      - generic: محطات نقل عام
+    - button "مواقف سيارات":
+      - generic: 
+      - generic: مواقف سيارات
+    - button "صيدليات":
+      - generic: 
+      - generic: صيدليات
+    - button "ماكينات صرّاف آلي":
+      - generic: 
+      - generic: ماكينات صرّاف آلي
+    - button "الصفحة التالية":
+      - generic: 
+  - list:
+    - button "القائمة":
+      - generic: 
+    - button "تم الحفظ":
+      - generic: 
+      - generic: تم الحفظ
+    - button "الأحدث":
+      - generic: 
+      - generic: الأحدث
+    - button "47 مكانًا مكة & جدة":
+      - generic "47 مكانًا": "47"
+      - generic: مكة & جدة
+    - button "تثبيت التطبيق":
+      - generic: 
+      - generic: تثبيت التطبيق
+  - main "مؤسسة وسل النقل":
+    - tablist:
+      - tab "نظرة عامة حول مؤسسة وسل النقل":
+        - generic: نظرة عامة
+      - tab "مراجعات لـ مؤسسة وسل النقل":
+        - generic: المراجعات
+      - tab "حول مؤسسة وسل النقل" [active] [selected]:
+        - generic: لمحة
+    - region "حول مؤسسة وسل النقل":
+      - heading "إمكانية الوصول" [level=2]
+      - list:
+        - generic: 
+        - generic "تتوفَّر أماكن جلوس صالحة للكراسي المتحركة": أماكن جلوس صالحة للكراسي المتحركة
+        - generic: 
+        - generic "به دورة مياه تستوعب الكراسي المتحركة": دورة مياه تستوعب الكراسي المتحركة
+        - generic: 
+        - generic "يتوفَّر مدخل صالح للكراسي المتحركة": مدخل صالح للكراسي المتحركة
+        - generic: 
+        - generic "يتوفَّر موقف سيارات صالح للكراسي المتحركة": موقف سيارات صالح للكراسي المتحركة
+      - heading "وسائل الراحة" [level=2]
+      - list:
+        - generic: 
+        - generic "تتوفر دورة مياه للجنسين": دورة مياه للجنسين
+        - generic: 
+        - generic "يتوفّر مرحاض": مرحاض
+  - button "تصغير اللوحة الجانبية":
+    - generic: 
+  - button "تطبيقات Google":
+  - 'button "حساب Google: ‪Abdulrahman Alyamani‬‏ (a.m.alreemi@gmail.com), اشتراك Google"':
+  - button "عرض موقعك":
+    - generic: 
+  - button "تكبير":
+    - generic: 
+  - button "تصغير":
+    - generic: 
+  - button "تصفُّح صور \"التجوّل الافتراضي\""
+  - generic: 
+  - generic: الطبقات
+  - button "الطبقات"
+  - contentinfo:
+    - text: بيانات الخرائط ©2026 Google
+    - button "المملكة العربية السعودية"
+    - button "البنود"
+    - button "الخصوصية"
+    - button "إرسال ملاحظات حول المنتج"
+  - button "100 متر": 100 متر

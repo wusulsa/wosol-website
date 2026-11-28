@@ -1,0 +1,70 @@
+{
+  "verifiedUtc": "2026-10-18T21:23:36.541558+00:00",
+  "checks": [
+    {
+      "path": "/",
+      "status": 200,
+      "matchesLocal": true
+    },
+    {
+      "path": "/register",
+      "status": 200,
+      "matchesLocal": true
+    },
+    {
+      "path": "/king-abdulaziz-university-transport",
+      "status": 200,
+      "matchesLocal": true
+    },
+    {
+      "path": "/employee-transport-jeddah",
+      "status": 200,
+      "matchesLocal": true
+    },
+    {
+      "path": "/employee-transport-riyadh",
+      "status": 200,
+      "matchesLocal": true
+    },
+    {
+      "path": "/corporate-transport-saudi-arabia",
+      "status": 200,
+      "matchesLocal": true
+    },
+    {
+      "path": "/js/i18n.v10.js",
+      "status": 200,
+      "matchesLocal": true
+    },
+    {
+      "path": "/en/",
+      "status": 200,
+      "matchesLocal": true
+    },
+    {
+      "path": "/en/corporate-transport-saudi-arabia/",
+      "status": 200,
+      "matchesLocal": true
+    },
+    {
+      "path": "/en/employee-transport-jeddah/",
+      "status": 200,
+      "matchesLocal": true
+    },
+    {
+      "path": "/en/employee-transport-riyadh/",
+      "status": 200,
+      "matchesLocal": true
+    },
+    {
+      "path": "/en/king-abdulaziz-university-transport/",
+      "status": 200,
+      "matchesLocal": true
+    },
+    {
+      "path": "/en/register/",
+      "status": 200,
+      "matchesLocal": true
+    }
+  ]
+}

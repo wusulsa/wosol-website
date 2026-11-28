@@ -1,0 +1,109 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "location": null,
+    "inline": true,
+    "sha256": "4aeaf218c8f0dedd5e1d3e22f0e4dc5f5a23bdbbbf30562ee7ec37ee58ce02ae",
+    "matches": true
+  },
+  {
+    "path": "/en/",
+    "status": 200,
+    "location": null,
+    "inline": true,
+    "sha256": "da225a5eca3f2c108b87e21559bd1bbf737be831bc9dda58e58ddf5cc04fdb4e",
+    "matches": true
+  },
+  {
+    "path": "/about",
+    "status": 301,
+    "location": "https://www.wosol.net/#about",
+    "inline": false,
+    "sha256": "e8b101a7c7f64aad528cc734513cbeb02243c0af37930dc0f3239749cff184b6"
+  },
+  {
+    "path": "/about/",
+    "status": 301,
+    "location": "https://www.wosol.net/#about",
+    "inline": false,
+    "sha256": "e8b101a7c7f64aad528cc734513cbeb02243c0af37930dc0f3239749cff184b6"
+  },
+  {
+    "path": "/my-account",
+    "status": 301,
+    "location": "https://www.wosol.net/subscriber-support.html",
+    "inline": false,
+    "sha256": "e8b101a7c7f64aad528cc734513cbeb02243c0af37930dc0f3239749cff184b6"
+  },
+  {
+    "path": "/faq",
+    "status": 410,
+    "location": null,
+    "inline": false,
+    "sha256": "9e3bca7d97e808d4cf058d92128c1b14ffd351916477c4a2e880720101e033c6"
+  },
+  {
+    "path": "/faq/",
+    "status": 410,
+    "location": null,
+    "inline": false,
+    "sha256": "9e3bca7d97e808d4cf058d92128c1b14ffd351916477c4a2e880720101e033c6"
+  },
+  {
+    "path": "/?page_id=1447",
+    "status": 301,
+    "location": "https://www.wosol.net/?contactTab=complaint#contact",
+    "inline": false,
+    "sha256": "e8b101a7c7f64aad528cc734513cbeb02243c0af37930dc0f3239749cff184b6"
+  },
+  {
+    "path": "/?page_id=14470",
+    "status": 200,
+    "location": null,
+    "inline": true,
+    "sha256": "4aeaf218c8f0dedd5e1d3e22f0e4dc5f5a23bdbbbf30562ee7ec37ee58ce02ae"
+  },
+  {
+    "path": "/?contactTab=quote",
+    "status": 200,
+    "location": null,
+    "inline": true,
+    "sha256": "4aeaf218c8f0dedd5e1d3e22f0e4dc5f5a23bdbbbf30562ee7ec37ee58ce02ae"
+  },
+  {
+    "path": "/?contactTab=complaint",
+    "status": 200,
+    "location": null,
+    "inline": true,
+    "sha256": "4aeaf218c8f0dedd5e1d3e22f0e4dc5f5a23bdbbbf30562ee7ec37ee58ce02ae"
+  },
+  {
+    "path": "/subscriber-support.html",
+    "status": 200,
+    "location": null,
+    "inline": false,
+    "sha256": "4075a66f4fbeb466264744fafbd11092f0f256302dce5b5b36eac15476382e80"
+  },
+  {
+    "path": "/register",
+    "status": 200,
+    "location": null,
+    "inline": false,
+    "sha256": "7c944bf389ddefe5c41cb9a2f362f621f8c463450a38f70e291867751c24c45d"
+  },
+  {
+    "path": "/en/register/",
+    "status": 200,
+    "location": null,
+    "inline": false,
+    "sha256": "345fee98c9cf16989f8bd22ca7cb7e730c3e70f8aab415b6fef06c7adeeefc85"
+  },
+  {
+    "path": "/?product=edu11",
+    "status": 301,
+    "location": "https://www.wosol.net/king-abdulaziz-university-transport",
+    "inline": false,
+    "sha256": "e8b101a7c7f64aad528cc734513cbeb02243c0af37930dc0f3239749cff184b6"
+  }
+]

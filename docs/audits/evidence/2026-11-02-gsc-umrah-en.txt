@@ -1,0 +1,58 @@
+- navigation "مسارات التنقل":
+  - heading "فحص عنوان URL" [level=1]
+- button "اختبار عنوان URL المنشور":
+  - generic: اختبار عنوان URL المنشور
+- main:
+  - generic: check_circle
+  - generic: عنوان URL متوفّر على محرّك بحث Google
+  - text: يمكن أن يظهر عنوان URL في نتائج "بحث Google" (إذا لم يكن خاضعًا لإجراء يدوي أو طلب إزالة) مع الحصول على جميع التحسينات ذات الصلة.
+  - link "مزيد من المعلومات":
+    - /url: https://support.google.com/webmasters/answer/9012289#url_on_google
+  - button "عرض الصفحة التي تم الزحف إليها":
+    - generic: عرض الصفحة التي تم الزحف إليها
+  - generic: هل تم تغيير الصفحة؟
+  - button "طلب الفهرسةالطلب مرة أخرى":
+    - generic: طلب الفهرسة
+  - button "فهرسة الصفحات تمت فهرسة الصفحة." [expanded] [active]:
+    - generic: check_circle
+    - generic: فهرسة الصفحات
+    - generic: تمت فهرسة الصفحة.
+    - generic: 
+  - generic: الاكتشاف
+  - generic: ملفات خرائط الموقع
+  - generic: https://www.wosol.net/sitemap.xml
+  - generic: صفحة الإحالة
+  - generic: https://www.wosol.net/umrah-visitor-transport
+  - generic: https://www.wosol.net/sitemap.xml
+  - generic: الزحف
+  - generic: الزحف الأخير
+  - generic: 19‏/10‏/2026، 8:01:47 م
+  - generic: وكيل المستخدم الزاحف إلى الصفحة
+  - generic: Googlebot للهاتف الذكي
+  - generic: هل الزحف مسموح به؟
+  - generic: نعم
+  - generic: جلب الصفحة
+  - generic: بنجاح
+  - generic: هل الفهرسة مسموح بها؟
+  - generic: نعم
+  - generic: الفهرسة
+  - generic: عنوان URL الأساسي الذي اختاره المستخدم
+  - generic: https://www.wosol.net/en/umrah-visitor-transport/
+  - generic: عنوان URL الأساسي الذي اختاره محرك بحث Google
+  - button "null":
+    - generic: 
+  - generic: عنوان URL تمّ فحصه
+  - link "رابط للحصول على وثائق أكثر شمولاً":
+    - /url: https://support.google.com/webmasters/answer/7440203#submitted_and_indexed
+    - generic: مزيد من المعلومات
+  - link "فتح التقرير":
+    - /url: ./search-console/index/drilldown?resource_id=https%3A%2F%2Fwww.wosol.net%2F&item_key=CAMYASAB
+    - generic: فتح التقرير
+  - generic: التجربة والتحسينات
+  - link "HTTPS يتم عرض الصفحة عبر بروتوكول HTTPS.":
+    - /url: ./search-console/inspect/https?resource_id=https%3A%2F%2Fwww.wosol.net%2F&id=j4u2y4sJRIKkaRm09_gUyw
+    - generic: check_circle
+    - generic: HTTPS
+    - generic: يتم عرض الصفحة عبر بروتوكول HTTPS.
+    - generic: 
+- generic: فحص عنوان URL

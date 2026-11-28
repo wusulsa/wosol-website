@@ -1,0 +1,24 @@
+{
+  "pages": [
+    {
+      "url": "https://www.wosol.net/",
+      "status": 200,
+      "matchesLocal": true
+    },
+    {
+      "url": "https://www.wosol.net/en/",
+      "status": 200,
+      "matchesLocal": true
+    },
+    {
+      "url": "https://www.wosol.net/css/contact-live-20261126.css",
+      "status": 200,
+      "matchesLocal": true
+    }
+  ],
+  "mobileWidth": 390,
+  "horizontalOverflow": false,
+  "formsSent": false,
+  "phoneLinksUnchanged": true,
+  "reducedMotionRule": true
+}

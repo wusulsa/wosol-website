@@ -1,0 +1,319 @@
+- banner:
+  - link "PageSpeed Insights logo PageSpeed Insights":
+    - /url: ./
+    - img "PageSpeed Insights logo"
+    - generic: PageSpeed Insights
+  - button "نسخ الرابط":
+    - generic: نسخ الرابط
+  - generic: المستندات
+  - link "المستندات":
+    - /url: https://developers.google.com/speed/docs/insights/v5/about
+- generic: يستخدم هذا الموقع الإلكتروني ملفات تعريف ارتباط من Google لتقديم الخدمات الخاصة به وتحليل عدد الزيارات.
+- generic: مزيد من المعلومات
+- link "مزيد من المعلومات":
+  - /url: https://policies.google.com/technologies/cookies
+- button "حسنًا":
+  - generic: حسنًا
+- generic: تم إنشاء التقرير في ‎07‏/11‏/2026، 10:59:22 م.
+- textbox:
+  - /placeholder: إدخال عنوان URL لصفحة ويب
+  - text: https://www.wosol.net/
+- paragraph: أدخِل عنوان URL صالحًا.
+- button "تحليل":
+  - generic: تحليل
+- tablist:
+  - tab "الجوال" [selected]:
+    - generic: smartphone
+    - generic: الجوال
+  - tab "كمبيوتر مكتبي":
+    - generic: computer
+    - generic: كمبيوتر مكتبي
+- tabpanel "الجوال":
+  - generic: التعرُّف على تجربة المستخدمين
+  - button "button":
+  - generic: ما مِن بيانات.
+  - separator
+  - generic: تشخيص مشاكل الأداء
+  - article:
+    - link "97 الأداء":
+      - /url: "#performance"
+      - generic: "97"
+      - generic: الأداء
+    - link "100 إمكانية الوصول":
+      - /url: "#accessibility"
+      - generic: "100"
+      - generic: إمكانية الوصول
+    - link "100 أفضل الممارسات":
+      - /url: "#best-practices"
+      - generic: "100"
+      - generic: أفضل الممارسات
+    - link "100 تحسين محركات البحث":
+      - /url: "#seo"
+      - generic: "100"
+      - generic: تحسين محركات البحث
+    - link "2/2 التصفّح المستنِد إلى الذكاء الاصطناعي الوكيل":
+      - /url: "#agentic-browsing"
+      - generic: 2/2
+      - generic: التصفّح المستنِد إلى الذكاء الاصطناعي الوكيل
+    - text: القيم تقديرية وقابلة للتغيير. ويتم
+    - link "حساب نتيجة الأداء":
+      - /url: https://developer.chrome.com/docs/lighthouse/performance/performance-scoring/?utm_source=lighthouse&utm_medium=lr
+    - text: مباشرة من خلال هذه المقاييس.
+    - link "اطّلِع على الآلة الحاسبة.":
+      - /url: https://googlechrome.github.io/lighthouse/scorecalc/#FCP=901&LCP=2401&TBT=0&CLS=0.04&SI=2612&TTI=2401&device=mobile&version=13.6.0
+    - generic: 0–49
+    - generic: 50–89
+    - generic: 90–100
+    - img "Final Screenshot"
+    - checkbox "Toggle the display of metric descriptions"
+    - generic: المقاييس
+    - generic: توسيع العرض
+    - generic: First Contentful Paint
+    - generic: 0.9 ثانية
+    - generic: Largest Contentful Paint
+    - generic: 2.4 ثانية
+    - generic: Total Blocking Time
+    - generic: 0 مللي ثانية
+    - generic: Cumulative Layout Shift
+    - generic: "0.036"
+    - generic: Speed Index
+    - generic: 2.6 ثانية
+    - list:
+      - listitem: Captured at 7 نوفمبر 2026، 10:59 م غرينتش+3
+      - listitem: جهاز Moto G Power في وضع المحاكاة with Lighthouse 13.6.0
+      - listitem: جلسة تتضمّن صفحة واحدة
+      - listitem: التحميل الأولي للصفحة
+      - listitem: التقييد البطيء لتحميل الصفحة في شبكة الجيل الرابع
+      - listitem: Using HeadlessChromium 157.0.8103.38 with lr
+    - button "عرض \"المخطّط الهيكلي\""
+    - img "Screenshot"
+    - img "Screenshot"
+    - img "Screenshot"
+    - img "Screenshot"
+    - img "Screenshot"
+    - img "Screenshot"
+    - img "Screenshot"
+    - img "Screenshot"
+    - generic: "عرض عمليات التدقيق المرتبطة بالمقاييس:"
+    - radio "All" [checked]
+    - generic: All
+    - radio "FCP"
+    - generic "First Contentful Paint": FCP
+    - radio "LCP"
+    - generic "Largest Contentful Paint": LCP
+    - radio "CLS"
+    - generic "Cumulative Layout Shift": CLS
+    - generic: الإحصاءات
+    - 'generic "استخدام فترات التخزين المؤقت الفعّالة —التوفير المقدَّر: 45 كيبيبايت"':
+      - generic: استخدام فترات التخزين المؤقت الفعّالة
+      - text: "—التوفير المقدَّر: 45 كيبيبايت"
+    - 'generic "طلبات حظر العرض —التوفير المقدَّر: 250 ملي ثانية"':
+      - generic: طلبات حظر العرض
+      - text: "—التوفير المقدَّر: 250 ملي ثانية"
+    - generic "شجرة اعتمادية الشبكة":
+      - generic: شجرة اعتمادية الشبكة
+    - 'generic "تحسين عرض الصور —التوفير المقدَّر: 20 كيبيبايت"':
+      - generic: تحسين عرض الصور
+      - text: "—التوفير المقدَّر: 20 كيبيبايت"
+    - generic "أسباب تغييرات التصميم":
+      - generic: أسباب تغييرات التصميم
+    - generic "تحسين حجم عناصر DOM":
+      - generic: تحسين حجم عناصر DOM
+    - generic "تفاصيل سرعة عرض أكبر محتوى مرئي (LCP)" [active]:
+      - generic: تفاصيل سرعة عرض أكبر محتوى مرئي (LCP)
+    - text: لكل
+    - link "جزء فرعي استراتيجيات تحسين محدَّدة":
+      - /url: https://developer.chrome.com/docs/performance/insights/lcp-breakdown?utm_source=lighthouse&utm_medium=lr
+    - text: . ومن الأفضل أن يتم قضاء معظم زمن عرض أكبر محتوى مرئي (LCP) في تحميل الموارد، وليس في التأخير.
+    - generic "Relevant to Largest Contentful Paint": LCP
+    - generic "لا تساهم عملية التدقيق هذه في النتيجة الإجمالية للفئة.": غير مصنفة
+    - table:
+      - rowgroup:
+        - row "جزء فرعي المدة":
+          - columnheader "جزء فرعي":
+            - generic: جزء فرعي
+          - columnheader "المدة":
+            - generic: المدة
+      - rowgroup:
+        - row "مدة تحميل أول بايت 0 ملي ث":
+          - cell "مدة تحميل أول بايت":
+            - generic: مدة تحميل أول بايت
+          - cell "0 ملي ث":
+            - generic: 0 ملي ث
+        - row "مهلة تحميل الموارد 670 ملي ث":
+          - cell "مهلة تحميل الموارد":
+            - generic: مهلة تحميل الموارد
+          - cell "670 ملي ث":
+            - generic: 670 ملي ث
+        - row "مدة تحميل المصدر 1,340 ملي ث":
+          - cell "مدة تحميل المصدر":
+            - generic: مدة تحميل المصدر
+          - cell "1,340 ملي ث":
+            - generic: 1,340 ملي ث
+        - row "مهلة عرض العناصر 30 ملي ث":
+          - cell "مهلة عرض العناصر":
+            - generic: مهلة عرض العناصر
+          - cell "30 ملي ث":
+            - generic: 30 ملي ث
+    - generic "body.editorial-site > main#main-content > section#home > img.signature-hero__art":
+      - generic: وٌسُل للنقل — مركبات النقل أمام أفق الرياض
+      - generic: <img class="signature-hero__art" src="https://www.wosol.net/assets/profile-2026/hero-1600-fast.webp" srcset="/assets/profile-2026/hero-1000-fast.webp 1000w, /assets/profile-2026/hero-…" sizes="(max-width:768px) 200vw, 100vw" width="1999" height="1124" alt="وٌسُل للنقل — مركبات النقل أمام أفق الرياض" fetchpriority="high">
+    - text: تتوفّر هذه الإحصاءات أيضًا في لوحة "أداء أدوات مطوري البرامج في Chrome"، ويمكنك
+    - link "تسجيل عملية تتبُّع":
+      - /url: https://developer.chrome.com/docs/devtools/performance/reference?utm_source=lighthouse&utm_medium=lr
+    - text: لعرض معلومات أكثر تفصيلاً.
+    - generic: بيانات التشخيص
+    - 'generic "الحدّ من محتوى CSS غير المُستخدَم —التوفير المقدَّر: 15 كيبيبايت"':
+      - generic: الحدّ من محتوى CSS غير المُستخدَم
+      - text: "—التوفير المقدَّر: 15 كيبيبايت"
+    - 'generic "تصغير CSS —التوفير المقدَّر: 4 كيبيبايت"':
+      - generic: تصغير CSS
+      - text: "—التوفير المقدَّر: 4 كيبيبايت"
+    - text: مزيد من المعلومات حول أداء تطبيقك لا تؤثر هذه الأرقام
+    - link "بشكل مباشر في":
+      - /url: https://developer.chrome.com/docs/lighthouse/performance/performance-scoring/?utm_source=lighthouse&utm_medium=lr
+    - text: نتيجة الأداء.
+    - generic "اجتياز عمليات التدقيق بنجاح (18) عرض":
+      - generic: اجتياز عمليات التدقيق بنجاح (18)
+      - generic: عرض
+    - text: — — —
+    - heading "100 إمكانية الوصول" [level=2]:
+      - generic: "100"
+      - generic: إمكانية الوصول
+    - text: تحدّد عمليات التحقّق هذه الفرص المتاحة
+    - link "لتحسين إمكانية استخدام تطبيق الويب":
+      - /url: https://developer.chrome.com/docs/lighthouse/accessibility/?utm_source=lighthouse&utm_medium=lr
+    - text: . يمكن لميزة الرصد التلقائي رصد مجموعة فرعية من المشاكل فقط ولا تضمن تسهيل استخدام تطبيق الويب، لذلك ننصح أيضًا بإجراء
+    - link "الاختبار اليدوي":
+      - /url: https://web.dev/articles/how-to-review?utm_source=lighthouse&utm_medium=lr
+    - text: .
+    - generic "عناصر إضافية للتحقُّق يدويًا (10) إخفاء":
+      - generic: عناصر إضافية للتحقُّق يدويًا (10)
+      - generic: إخفاء
+    - generic "Interactive controls are keyboard focusable":
+      - generic: Interactive controls are keyboard focusable
+    - generic "Interactive elements indicate their purpose and state":
+      - generic: Interactive elements indicate their purpose and state
+    - generic "The page has a logical tab order":
+      - generic: The page has a logical tab order
+    - generic "Visual order on the page follows DOM order":
+      - generic: Visual order on the page follows DOM order
+    - generic "User focus is not accidentally trapped in a region":
+      - generic: User focus is not accidentally trapped in a region
+    - generic "The user's focus is directed to new content added to the page":
+      - generic: The user's focus is directed to new content added to the page
+    - generic "HTML5 landmark elements are used to improve navigation":
+      - generic: HTML5 landmark elements are used to improve navigation
+    - generic "Offscreen content is hidden from assistive technology":
+      - generic: Offscreen content is hidden from assistive technology
+    - generic "Custom controls have associated labels":
+      - generic: Custom controls have associated labels
+    - generic "Custom controls have ARIA roles":
+      - generic: Custom controls have ARIA roles
+    - text: تعالج هذه العناصر المناطق التي يتعذر على أداة الاختبار المبرمجة تغطيتها. تعرّف على مزيد من المعلومات في دليلنا حول
+    - link "مراجعة إمكانية الوصول":
+      - /url: https://web.dev/articles/how-to-review?utm_source=lighthouse&utm_medium=lr
+    - text: .
+    - generic "اجتياز عمليات التدقيق بنجاح (31) عرض":
+      - generic: اجتياز عمليات التدقيق بنجاح (31)
+      - generic: عرض
+    - generic "غير سارٍ (32) عرض":
+      - generic: غير سارٍ (32)
+      - generic: عرض
+    - heading "100 أفضل الممارسات" [level=2]:
+      - generic: "100"
+      - generic: أفضل الممارسات
+    - generic: الثقة والأمان
+    - generic "التأكُّد من فاعلية سياسة CSP ضد هجمات XSS":
+      - generic: التأكُّد من فاعلية سياسة CSP ضد هجمات XSS
+    - generic "استخدام سياسة HSTS قوية":
+      - generic: استخدام سياسة HSTS قوية
+    - generic "ضمان عزل النطاق بشكلٍ صحيح باستخدام سياسة COOP":
+      - generic: ضمان عزل النطاق بشكلٍ صحيح باستخدام سياسة COOP
+    - generic "الحدّ من هجمات clickjacking باستخدام XFO أو CSP":
+      - generic: الحدّ من هجمات clickjacking باستخدام XFO أو CSP
+    - generic "الحدّ من هجمات XSS المستنِدة إلى DOM باستخدام Trusted Types":
+      - generic: الحدّ من هجمات XSS المستنِدة إلى DOM باستخدام Trusted Types
+    - generic: توافق المتصفّح
+    - generic "ميزات Baseline":
+      - generic: ميزات Baseline
+    - generic "اجتياز عمليات التدقيق بنجاح (13) عرض":
+      - generic: اجتياز عمليات التدقيق بنجاح (13)
+      - generic: عرض
+    - generic "غير سارٍ (2) عرض":
+      - generic: غير سارٍ (2)
+      - generic: عرض
+    - heading "100 تحسين محركات البحث" [level=2]:
+      - generic: "100"
+      - generic: تحسين محركات البحث
+    - text: تضمن عمليات التحقّق هذه اتّباع صفحتك للنصائح الأساسية الخاصة بتحسين محركات البحث. هناك العديد من العوامل الإضافية التي تتسبب في عدم تحقيق أداة Lighthouse لأي نقاط هنا والتي قد تؤثّر في ترتيب نتائج البحث، بما في ذلك الأداء في ما يخص
+    - link "مؤشرات أداء الويب الأساسية":
+      - /url: https://web.dev/explore/vitals?utm_source=lighthouse&utm_medium=lr
+    - text: .
+    - link "مزيد من المعلومات حول \"أساسيات بحث Google\"":
+      - /url: https://support.google.com/webmasters/answer/35769
+    - generic "عناصر إضافية للتحقُّق يدويًا (1) إخفاء":
+      - generic: عناصر إضافية للتحقُّق يدويًا (1)
+      - generic: إخفاء
+    - generic "البيانات المنظَّمة صالحة":
+      - generic: البيانات المنظَّمة صالحة
+    - generic: تشغيل أدوات التحقُّق الإضافية هذه على موقعك الإلكتروني للتحقُّق من أفضل ممارسات تحسين محركات البحث الإضافية.
+    - generic "اجتياز عمليات التدقيق بنجاح (10) عرض":
+      - generic: اجتياز عمليات التدقيق بنجاح (10)
+      - generic: عرض
+    - heading "2/2 التصفّح المستنِد إلى الذكاء الاصطناعي الوكيل" [level=2]:
+      - generic: 2/2
+      - generic: التصفّح المستنِد إلى الذكاء الاصطناعي الوكيل
+    - text: تضمن عمليات التحقّق هذه توفّر
+    - link "مواقع إلكترونية عالية الجودة يمكن لوكلاء الذكاء الاصطناعي تصفّحها":
+      - /url: https://goo.gle/lighthouse-agentic-web
+    - text: ، كما تتحقّق من صحة عمليات دمج WebMCP. لا تزال هذه الفئة قيد التطوير وقد تخضع للتغيير لاحقًا.
+    - generic "اجتياز عمليات التدقيق بنجاح (2) عرض":
+      - generic: اجتياز عمليات التدقيق بنجاح (2)
+      - generic: عرض
+    - text: — —
+    - generic "غير سارٍ (5) عرض":
+      - generic: غير سارٍ (5)
+      - generic: عرض
+- text: — — — — — — — — — —
+- contentinfo:
+  - generic: المزيد عن أداة "إحصاءات PageSpeed"
+  - link "الفعاليات الجديدة":
+    - /url: https://developers.google.com/speed/docs/insights/release_notes
+  - link "الوثائق":
+    - /url: https://developers.google.com/speed/docs/insights/v5/about
+  - link "معرفة معلومات حول أداء الويب":
+    - /url: https://developers.google.com/speed
+  - link "طرح أسئلة على Stack Overflow":
+    - /url: https://stackoverflow.com/questions/tagged/pagespeed-insights
+  - link "القائمة البريدية":
+    - /url: https://groups.google.com/g/pagespeed-insights-discuss
+  - generic: محتوى ذو صلة
+  - link "التحديثات":
+    - /url: https://developer.chrome.com/blog
+  - link "أساسيات الويب":
+    - /url: https://developers.google.com/focus/web-development
+  - link "دراسات الحالة":
+    - /url: https://web.dev/case-studies
+  - link "بودكاست":
+    - /url: https://web.dev/shows
+  - generic: طرق التواصل
+  - link "Twitter":
+    - /url: https://twitter.com/ChromiumDev
+  - link "YouTube":
+    - /url: https://www.youtube.com/user/ChromeDevelopers
+  - link "Google Developers Logo":
+    - /url: https://developers.google.com/
+    - img "Google Developers Logo"
+  - link "Chrome":
+    - /url: https://developer.chrome.com/
+  - link "Firebase":
+    - /url: https://firebase.google.com/
+  - link "كل المنتجات":
+    - /url: https://developers.google.com/products/
+  - link "البنود وسياسة الخصوصية":
+    - /url: https://policies.google.com/
+  - text: للحصول على التفاصيل، يُرجى الاطّلاع على
+  - link "سياسات موقع Google Developers الإلكتروني":
+    - /url: https://developers.google.com/terms/site-policies
+  - text: .

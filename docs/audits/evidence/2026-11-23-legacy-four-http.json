@@ -1,0 +1,62 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "url": "https://www.wosol.net/",
+    "sha256": "98c1a6d23ccfb62a465e4144841eb81d673e060e252b8bf1944f5f66f8468108",
+    "title": "وٌسُل للنقل | نقل موظفين وتوصيل طالبات الجامعة بجدة",
+    "canonical": "https://www.wosol.net/",
+    "h1": "نقل الموظفين<br><em>وتوصيل الطالبات</em>",
+    "aboutAnchor": true
+  },
+  {
+    "path": "/about",
+    "status": 404,
+    "url": "https://www.wosol.net/about",
+    "sha256": "4c13d452dd5d49671bd93ca32f2b4f85c78e39b6ab0ad1f38d98ed267f8fd896",
+    "title": " 404 Not Found\r\n",
+    "canonical": null,
+    "h1": "404",
+    "aboutAnchor": false
+  },
+  {
+    "path": "/faq",
+    "status": 404,
+    "url": "https://www.wosol.net/faq",
+    "sha256": "4c13d452dd5d49671bd93ca32f2b4f85c78e39b6ab0ad1f38d98ed267f8fd896",
+    "title": " 404 Not Found\r\n",
+    "canonical": null,
+    "h1": "404",
+    "aboutAnchor": false
+  },
+  {
+    "path": "/my-account",
+    "status": 404,
+    "url": "https://www.wosol.net/my-account",
+    "sha256": "4c13d452dd5d49671bd93ca32f2b4f85c78e39b6ab0ad1f38d98ed267f8fd896",
+    "title": " 404 Not Found\r\n",
+    "canonical": null,
+    "h1": "404",
+    "aboutAnchor": false
+  },
+  {
+    "path": "/?page_id=1447",
+    "status": 200,
+    "url": "https://www.wosol.net/?page_id=1447",
+    "sha256": "98c1a6d23ccfb62a465e4144841eb81d673e060e252b8bf1944f5f66f8468108",
+    "title": "وٌسُل للنقل | نقل موظفين وتوصيل طالبات الجامعة بجدة",
+    "canonical": "https://www.wosol.net/",
+    "h1": "نقل الموظفين<br><em>وتوصيل الطالبات</em>",
+    "aboutAnchor": true
+  },
+  {
+    "path": "/subscriber-support.html",
+    "status": 200,
+    "url": "https://www.wosol.net/subscriber-support.html",
+    "sha256": "4075a66f4fbeb466264744fafbd11092f0f256302dce5b5b36eac15476382e80",
+    "title": "خدمة المشتركين | وٌسُل للنقل",
+    "canonical": null,
+    "h1": "خدمة المشتركين",
+    "aboutAnchor": false
+  }
+]

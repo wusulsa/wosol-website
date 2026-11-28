@@ -1,0 +1,106 @@
+{
+  "date": "2026-10-19",
+  "timezone": "Asia/Riyadh",
+  "property": "https://www.wosol.net/",
+  "source": "Observed Search Console UI",
+  "manualActions": "No issues detected",
+  "securityIssues": "No issues detected",
+  "sitemap": {
+    "status": "Success",
+    "discoveredPages": 12,
+    "lastRead": "2026-10-18"
+  },
+  "aggregateIndexReport": "Processing data",
+  "requests": [
+    {
+      "url": "https://www.wosol.net/employee-transport-jeddah",
+      "indexed": true,
+      "crawlAllowed": true,
+      "indexAllowed": true,
+      "fetch": "success",
+      "googleCanonical": "inspected URL",
+      "request": "confirmed"
+    },
+    {
+      "url": "https://www.wosol.net/employee-transport-riyadh",
+      "indexed": true,
+      "crawlAllowed": true,
+      "indexAllowed": true,
+      "fetch": "success",
+      "googleCanonical": "inspected URL",
+      "request": "confirmed"
+    },
+    {
+      "url": "https://www.wosol.net/en/employee-transport-jeddah/",
+      "indexed": true,
+      "crawlAllowed": true,
+      "indexAllowed": true,
+      "fetch": "success",
+      "googleCanonical": "inspected URL",
+      "sitemapDetail": "temporary processing error",
+      "request": "confirmed"
+    },
+    {
+      "url": "https://www.wosol.net/en/employee-transport-riyadh/",
+      "indexed": true,
+      "crawlAllowed": true,
+      "indexAllowed": true,
+      "fetch": "success",
+      "googleCanonical": "inspected URL",
+      "sitemapDetail": "temporary processing error",
+      "request": "confirmed"
+    },
+    {
+      "url": "https://www.wosol.net/",
+      "indexed": true,
+      "https": true,
+      "request": "confirmed"
+    },
+    {
+      "url": "https://www.wosol.net/en/",
+      "indexed": true,
+      "https": true,
+      "request": "confirmed"
+    },
+    {
+      "url": "https://www.wosol.net/corporate-transport-saudi-arabia",
+      "indexed": true,
+      "https": true,
+      "request": "confirmed"
+    },
+    {
+      "url": "https://www.wosol.net/en/corporate-transport-saudi-arabia/",
+      "indexed": true,
+      "https": true,
+      "request": "confirmed"
+    },
+    {
+      "url": "https://www.wosol.net/register",
+      "indexed": false,
+      "inspectionReason": "URL unknown to Google",
+      "request": "confirmed"
+    },
+    {
+      "url": "https://www.wosol.net/en/register/",
+      "indexed": true,
+      "https": true,
+      "request": "confirmed"
+    },
+    {
+      "url": "https://www.wosol.net/king-abdulaziz-university-transport",
+      "indexed": true,
+      "https": true,
+      "request": "confirmed"
+    },
+    {
+      "url": "https://www.wosol.net/en/king-abdulaziz-university-transport/",
+      "indexed": true,
+      "https": true,
+      "request": "not accepted - daily quota exceeded",
+      "nextAction": "Retry tomorrow as instructed by Search Console"
+    }
+  ],
+  "caveat": "Accepted requests do not prove completed recrawling or indexing of updated content.",
+  "adsChanged": false,
+  "successfulFormSubmission": "Deferred"
+}

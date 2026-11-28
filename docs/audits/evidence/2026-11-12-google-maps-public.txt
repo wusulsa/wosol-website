@@ -1,0 +1,152 @@
+- generic "خرائط ‪Google‬‏‏":
+  - application "الخريطة·استخدِم مفاتيح الأسهم لتحريك الخريطة.·يمكنك الحصول على تفاصيل عن مكان من خلال النقر على مفتاح الرقم المقابل له."
+  - search:
+    - combobox: مؤسسة وسل النقل
+    - button "بحث":
+      - generic: 
+    - button "إغلاق":
+      - generic: 
+  - button
+  - button "Show the Input Tools menu"
+  - region "خيارات البحث المتاحة في هذه المنطقة":
+    - button "مطاعم":
+      - generic: 
+      - generic: مطاعم
+    - button "الفنادق":
+      - generic: 
+      - generic: الفنادق
+    - button "نشاطات مقترَحة":
+      - generic: 
+      - generic: نشاطات مقترَحة
+    - button "محطات نقل عام":
+      - generic: 
+      - generic: محطات نقل عام
+    - button "مواقف سيارات":
+      - generic: 
+      - generic: مواقف سيارات
+    - button "صيدليات":
+      - generic: 
+      - generic: صيدليات
+    - button "ماكينات صرّاف آلي":
+      - generic: 
+      - generic: ماكينات صرّاف آلي
+    - button "الصفحة التالية":
+      - generic: 
+  - list:
+    - button "القائمة":
+      - generic: 
+    - button "تم الحفظ":
+      - generic: 
+      - generic: تم الحفظ
+    - button "الأحدث":
+      - generic: 
+      - generic: الأحدث
+    - button "47 مكانًا مكة & جدة":
+      - generic "47 مكانًا": "47"
+      - generic: مكة & جدة
+    - button "تثبيت التطبيق":
+      - generic: 
+      - generic: تثبيت التطبيق
+  - main "مؤسسة وسل النقل":
+    - button "صورة مؤسسة وسل النقل" [active]:
+    - button "عرض الصور":
+      - generic: 
+      - generic: عرض الصور
+    - heading "العمل" [level=1]: العمل
+    - heading "مؤسسة وسل النقل" [level=2]
+    - generic: "4.2"
+    - img "4.2 نجمة"
+    - img "304 مراجعات": (304)
+    - button "خدمة وسائل النقل"
+    - text: ·
+    - img "مدخل مناسب لأصحاب الكراسي المتحرّكة": 
+    - tablist:
+      - tab "نظرة عامة حول مؤسسة وسل النقل" [selected]:
+        - generic: نظرة عامة
+      - tab "مراجعات لـ مؤسسة وسل النقل":
+        - generic: المراجعات
+      - tab "حول مؤسسة وسل النقل":
+        - generic: لمحة
+    - region "إجراءات لـ مؤسسة وسل النقل":
+      - button "الاتجاهات":
+        - generic: 
+        - generic: الاتجاهات
+      - button "تم حفظه في المفضلة":
+        - generic: 
+        - generic: تم الحفظ
+      - button "المواقع القريبة":
+        - generic: 
+        - generic: المواقع القريبة
+      - button "إرسال إلى هاتف":
+        - generic: 
+        - generic: إرسال إلى هاتف
+      - button "مشاركة":
+        - generic: 
+        - generic: مشاركة
+    - region "محفوظ في \"الأماكن المفضّلة\"":
+      - group "تم حفظه في المفضلة":
+        - button "عرض تفاصيل قوائم الأماكن":
+          - generic: 
+          - generic: تم حفظه في المفضلة
+          - generic: 
+    - region "معلومات عن مؤسسة وسل النقل":
+      - 'button "العنوان: 4963 طريق المدينة، الرويس، جدة 7382، جدة 23215"':
+        - generic: 
+        - generic: 4963 طريق المدينة، الرويس، جدة 7382، جدة 23215
+      - button "نسخ العنوان":
+        - generic: 
+      - 'button "ساعات العمل سيغلق قريبًا: · عند الساعة ٥ م · يفتح يوم الأحد عند الساعة ٩ ص إظهار ساعات العمل للأسبوع"':
+        - img "ساعات العمل": 
+        - generic: "سيغلق قريبًا: · عند الساعة ٥ م · يفتح يوم الأحد عند الساعة ٩ ص"
+        - img "إظهار ساعات العمل للأسبوع": 
+      - 'link "الموقع الإلكتروني: wosol.net"':
+        - /url: https://www.wosol.net/
+        - generic: 
+        - generic: wosol.net
+      - link "فتح الموقع الإلكتروني":
+        - /url: https://www.wosol.net/
+        - generic: 
+      - button "نسخ الموقع الإلكتروني":
+        - generic: 
+      - 'button "الهاتف: 053 606 0003"':
+        - generic: 
+        - generic: 053 606 0003
+      - button "نسخ رقم الهاتف":
+        - generic: 
+      - link "الاتصال برقم الهاتف":
+        - /url: tel:0536060003
+        - generic: 
+      - 'button "رمز Plus Codes: G59J+9C الرويس، جدة"':
+        - generic: 
+        - generic: G59J+9C الرويس، جدة
+      - button "نسخ رمز Plus Codes":
+        - generic: 
+      - button "مزيد من المعلومات عن رموز الموقع المفتوح":
+        - generic: 
+      - button "\"سجل الخرائط\" الخاص بك":
+        - generic: 
+        - generic: "\"سجل الخرائط\" الخاص بك"
+    - button "التصنيف العمل تعديل تسميتك":
+      - generic: 
+      - generic: التصنيف
+      - generic: العمل
+      - button "تعديل تسميتك":
+        - generic: 
+        - textbox
+    - button "اقتراح تعديل":
+      - generic: 
+      - generic: اقتراح تعديل
+    - heading "صور وفيديوهات" [level=2]
+    - region "صور مؤسسة وسل النقل":
+      - button "الكل"
+      - generic: الكل
+      - button "خدمة الحافلات السياحية"
+      - generic: خدمة الحافلات السياحية
+      - button "الفيديوهات"
+      - generic: الفيديوهات
+      - button "مِن المالك"
+      - generic: مِن المالك
+    - button "إضافة صور وفيديوهات":
+      - generic: 
+      - generic: إضافة صور وفيديوهات
+  

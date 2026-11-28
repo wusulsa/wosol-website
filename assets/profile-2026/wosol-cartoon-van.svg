@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="brand-mini-bus" viewBox="0 0 420 180" focusable="false" aria-hidden="true">
+ <defs>
+  <linearGradient id="van-body" x2="0" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#e5e7e9"/></linearGradient>
+  <linearGradient id="van-glass" x2="0" y2="1"><stop stop-color="#414c57"/><stop offset="1" stop-color="#202a33"/></linearGradient>
+ </defs>
+ <ellipse cx="214" cy="166" rx="192" ry="8" fill="#19212a" opacity=".13"/>
+ <!-- High-roof Hiace silhouette, front facing right, from the supplied fleet photo. -->
+ <path d="M15 60Q17 26 38 20L219 14Q251 12 271 28L317 70 389 93Q404 98 407 111L411 145 378 151H19Q9 149 10 136Z" fill="url(#van-body)" stroke="#59616a" stroke-width="2.5" stroke-linejoin="round"/>
+ <path d="M27 44Q30 36 43 35L218 30 206 79Q204 86 194 87H22Z" fill="url(#van-glass)"/>
+ <path d="M231 34Q251 34 264 47L301 88 233 79Z" fill="url(#van-glass)"/>
+ <path d="M272 37 322 76 370 90 302 85Z" fill="#b9cbd3" stroke="#8c9ba3" stroke-width="1.5"/>
+ <path d="M55 37 40 81m83-47-12 50m63-51-12 51" stroke="#70808b" stroke-width="2" opacity=".6"/>
+ <!-- The real sticker rises in a broad curve from the rear window to the front roof. -->
+ <path d="M83 87C120 58 168 24 216 18Q244 15 259 29C227 17 201 32 181 43L108 87Z" fill="#f1b654"/>
+ <path d="M108 86C156 49 195 23 227 22" stroke="#ffce7d" stroke-width="2" fill="none" opacity=".7"/>
+ <path d="M224 29 220 148m79-60-3 60M17 96h186m-8-8v60" fill="none" stroke="#b6bcc1" stroke-width="1.5"/>
+ <path d="M230 92h11m-39-1v10" stroke="#333b42" stroke-width="5" stroke-linecap="round"/>
+ <path d="M20 142h287" stroke="#c9ced1" stroke-width="3"/>
+ <path d="M14 130H38v18H16q-6-1-6-7Z" fill="#343b44"/>
+ <path d="M346 105 396 111 407 120 411 145 377 151 340 148Z" fill="#303943"/>
+ <path d="M356 113h43m-41 7h44m-42 7h43m-40 7h41" stroke="#101a23" stroke-width="3"/>
+ <path d="M321 84 366 94 389 108 345 103Z" fill="#eff7fb" stroke="#8b9ca6" stroke-width="1.5"/>
+ <path d="m334 90 13 11m6-6 11 9" stroke="#a8bcc7" stroke-width="2"/>
+ <path d="M11 81h6v30h-8" fill="#d45f56"/>
+ <path d="M275 65h11q5 0 5 5v19h-17Z" fill="#252d35" stroke="#65717a" stroke-width="1.5"/>
+ <path d="M275 83h-7" stroke="#252d35" stroke-width="4"/>
+ <image href="/assets/profile-2026/logo-native.png" x="122" y="94" width="70" height="51"/>
+ <path d="M43 147a33 33 0 0 1 66 0m186 1a34 34 0 0 1 68 0" fill="#17202a" stroke="#c5cbd0" stroke-width="4"/>
+ <g fill="#20262d" stroke="#111820" stroke-width="2"><circle cx="76" cy="145" r="28"/><circle cx="329" cy="148" r="29"/></g>
+ <g fill="#d3d8dc" stroke="#8b969e" stroke-width="2"><circle cx="76" cy="145" r="19"/><circle cx="329" cy="148" r="20"/></g>
+ <g stroke="#f7f9fa" stroke-width="5"><path d="M76 127v36m-18-18h36m-31-13 26 26m-26 0 26-26M329 129v38m-19-19h38m-32-13 26 26m-26 0 26-26"/></g>
+ <g fill="#7a8791" stroke="#fff" stroke-width="1.5"><circle cx="76" cy="145" r="6"/><circle cx="329" cy="148" r="6"/></g>
+</svg>

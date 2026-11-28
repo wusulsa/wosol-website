@@ -1,0 +1,186 @@
+- banner:
+  - button "القائمة الرئيسية":
+  - link "Google Search Console":
+    - /url: ./search-console?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+  - search:
+    - textbox [disabled]: فحص أي عنوان URL في "https://www.wosol.net/"
+    - combobox "فحص أي عنوان URL في https://www.wosol.net/"
+    - button "بحث":
+  - button "مساعدة":
+    - generic: help_outline
+  - tooltip: مساعدة
+  - button "إعدادات المستخدم":
+    - generic: manage_accounts
+  - tooltip: إعدادات المستخدم
+  - 'button "عدد الرسائل غير المقروءة: 3"':
+    - generic: notifications
+  - tooltip: الرسائل
+  - generic: "3"
+  - button "تطبيقات Google":
+  - 'button "حساب Google: وُسُـل النقل (info@wosol.net)"':
+- dialog "navigational drawer":
+  - navigation "أساسي":
+    - button "موقع البحث":
+      - img "الرمز المفضّل"
+      - combobox "https://www.wosol.net/"
+      - generic: 
+    - link "نظرة عامة":
+      - /url: ./search-console?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+      - generic: home
+      - generic: نظرة عامة
+    - link "الإحصاءات":
+      - /url: ./search-console/performance/insights?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+      - generic: lightbulb_2
+      - generic: الإحصاءات
+    - link "الأداء":
+      - /url: ./search-console/performance/search-analytics?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+      - generic: trending_up
+      - generic: الأداء
+    - button "قسم تقرير \"الأداء\"":
+      - generic: keyboard_arrow_down
+    - button "فحص عنوان URL":
+      - generic: search
+      - generic: فحص عنوان URL
+    - generic: الفهرسة
+    - button "قسم تقرير \"الفهرسة\"" [expanded]:
+      - generic: keyboard_arrow_up
+    - link "الصفحات":
+      - /url: ./search-console/index?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+      - generic: file_copy
+      - generic: الصفحات
+    - link "ملفات خرائط الموقع":
+      - /url: ./search-console/sitemaps?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+      - generic: account_tree
+      - generic: ملفات خرائط الموقع
+    - link "عمليات الإزالة":
+      - /url: ./search-console/removals?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+      - generic: visibility_off
+      - generic: عمليات الإزالة
+    - generic: تجربة المستخدم
+    - button "قسم تقرير \"تجربة المستخدم\"" [expanded]:
+      - generic: keyboard_arrow_up
+    - link "مؤشرات أداء الويب الأساسية":
+      - /url: ./search-console/core-web-vitals?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+      - generic: speed
+      - generic: مؤشرات أداء الويب الأساسية
+    - link "HTTPS":
+      - /url: ./search-console/https?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+      - generic: lock
+      - generic: HTTPS
+    - generic: التحسينات
+    - button "قسم تقرير \"التحسينات\"" [expanded]:
+      - generic: keyboard_arrow_up
+    - link "مسارات التنقل":
+      - /url: ./search-console/r/breadcrumbs?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+      - generic: layers
+      - generic: مسارات التنقل
+    - generic: الأمان والإجراءات اليدوية
+    - button "قسم تقرير \"الأمان والإجراءات اليدوية\"":
+      - generic: keyboard_arrow_down
+    - link "تقرير الروابط":
+      - /url: ./search-console/links?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+      - generic: link_2
+      - generic: الروابط
+    - link "الإنجازات":
+      - /url: ./search-console/achievements?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+      - generic: trophy
+      - generic: الإنجازات
+    - link "إعدادات":
+      - /url: ./search-console/settings?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+      - generic: settings
+      - generic: إعدادات
+    - button "إرسال ملاحظات":
+      - generic: feedback
+      - generic: إرسال ملاحظات
+    - button "لمحة عن Search Console":
+      - generic: info
+      - generic: لمحة عن Search Console
+    - link "الخصوصية":
+      - /url: https://myaccount.google.com/privacypolicy?hl=ar
+    - link "الأحكام":
+      - /url: https://myaccount.google.com/termsofservice?hl=ar
+- navigation "مسارات التنقل":
+  - link "مؤشرات أداء الويب الأساسية":
+    - /url: ./search-console/core-web-vitals?resource_id=https%3A%2F%2Fwww.wosol.net%2F
+  - generic: 
+  - heading "الهاتف الجوال" [level=1]
+- button "تصدير":
+  - generic: 
+  - generic: تصدير
+- text: "المصدر: تقرير تجربة المُستخدِم في Chrome"
+- button "null":
+  - generic: 
+- generic: "تاريخ آخر تعديل: ‎9‏/11‏/2026"
+- main:
+  - button "بطيء 0 ليس هناك مشاكل.":
+    - generic "بطيء":
+      - generic: 
+      - generic: بطيء
+    - generic "0"
+    - generic: ليس هناك مشاكل.
+  - button "null":
+    - generic: 
+  - button "بحاجة إلى تحسين 27 مشكلة واحدة":
+    - generic "بحاجة إلى تحسين":
+      - generic: بحاجة إلى تحسين
+    - generic "27"
+    - generic: مشكلة واحدة
+  - button "null":
+    - generic: 
+  - button "جيد 0":
+    - generic "جيد":
+      - generic: جيد
+    - generic "0"
+  - button "null":
+    - generic: 
+  - generic: عناوين URL
+  - link "عرض بيانات عن عناوين URL الجيّدة":
+    - /url: ./search-console/core-web-vitals/drilldown?resource_id=https%3A%2F%2Fwww.wosol.net%2F&device=2
+    - generic: check_circle
+    - generic: عرض بيانات عن عناوين URL الجيّدة
+    - generic: 
+  - generic: الأسباب التي تجعل عناوين URL غير جيّدة
+  - generic: عناوين URL التي تحتوي على هذه المشاكل لا تقدّم تجربة مستخدم جيّدة.
+  - button "فلترة صفوف الجدول":
+    - generic: 
+  - table:
+    - rowgroup:
+      - row "مستوى الخطورة المشكلة null التحقق من الصحة مؤشر البيانات عناوين URL":
+        - columnheader "مستوى الخطورة":
+          - generic: مستوى الخطورة
+        - columnheader "المشكلة null":
+          - text: المشكلة
+          - button "null":
+            - generic: 
+        - columnheader "التحقق من الصحة":
+          - generic: التحقق من الصحة
+        - columnheader "مؤشر البيانات":
+          - generic: مؤشر البيانات
+        - columnheader "عناوين URL":
+          - generic: عناوين URL
+    - rowgroup:
+      - 'row "بحاجة إلى تحسين مشكلة LCP: أطول من ثانيتان ونصف (الأجهزة الجوّالة) لم تبدأ عملية التحقق 27"':
+        - cell "بحاجة إلى تحسين":
+          - generic: warning
+          - text: بحاجة إلى تحسين
+        - 'cell "مشكلة LCP: أطول من ثانيتان ونصف (الأجهزة الجوّالة)"':
+          - 'generic "مشكلة LCP: أطول من ثانيتان ونصف (الأجهزة الجوّالة)"'
+        - cell "لم تبدأ عملية التحقق":
+          - generic: 
+          - text: لم تبدأ عملية التحقق
+        - cell:
+        - cell "27":
+          - generic: "27"
+  - generic: "عدد الصفوف في كل صفحة:"
+  - listbox "عدد الصفوف لكل صفحة":
+    - option "5"
+    - option "10" [selected]
+    - option "25"
+    - option "50"
+    - option "100"
+    - option "250"
+    - option "500"
+  - generic: 1-1 من 1
+  - generic: 
+  - generic: 
+- generic: مؤشرات أداء الويب الأساسية

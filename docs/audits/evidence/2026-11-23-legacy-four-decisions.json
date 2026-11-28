@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-23",
+  "scope": "wosol.net only",
+  "source": "Read-only SELECT from archived WordPress posts; no database edits",
+  "implemented": false,
+  "rows": [
+    {
+      "url": "/about",
+      "observed_status": 404,
+      "archive_id": 9,
+      "archive_title": "من نحن",
+      "evidence": "Published about page identifies WOSOL founding in Jeddah in 2013 and company mission.",
+      "recommendation": "301",
+      "target": "https://www.wosol.net/#about"
+    },
+    {
+      "url": "/my-account",
+      "observed_status": 404,
+      "archive_id": 7,
+      "archive_title": "حسابی",
+      "evidence": "Published page contains WooCommerce my-account shortcode. Previous approved customer support replacement exists.",
+      "recommendation": "301",
+      "target": "https://www.wosol.net/subscriber-support.html"
+    },
+    {
+      "url": "/?page_id=1447",
+      "observed_status": 200,
+      "archive_id": 1447,
+      "archive_title": "البلاغات والمقترحات",
+      "evidence": "Archived contact form requests subscriber mobile, vehicle plate, incident location, complaint description and optional photo. Current response is homepage, not the old form.",
+      "recommendation": "301",
+      "target": "https://www.wosol.net/?contactTab=complaint#contact",
+      "condition": "Match exact page_id=1447 only; remove old query parameter and retain contactTab=complaint. Do not redirect every query URL."
+    },
+    {
+      "url": "/faq",
+      "observed_status": 404,
+      "archive_id": 19,
+      "archive_title": "أسئلة مكررة",
+      "evidence": "Published template contains placeholder questions, dummy investment/Emirates text and non-WOSOL sample phone. No transport FAQ content to preserve.",
+      "recommendation": "410 after owner approval",
+      "target": null
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+[
+  {
+    "file": "dist\\airport-hotel-transfers.html",
+    "titleCount": 1,
+    "h1Count": 1,
+    "duplicateParagraphs": [],
+    "hasDoubleCoverage": true
+  },
+  {
+    "file": "dist\\corporate-transport-saudi-arabia.html",
+    "titleCount": 1,
+    "h1Count": 1,
+    "duplicateParagraphs": [],
+    "hasDoubleCoverage": false
+  },
+  {
+    "file": "dist\\driver-only-services.html",
+    "titleCount": 1,
+    "h1Count": 1,
+    "duplicateParagraphs": [],
+    "hasDoubleCoverage": true
+  },
+  {
+    "file": "dist\\employee-transport-dammam.html",
+    "titleCount": 1,
+    "h1Count": 1,
+    "duplicateParagraphs": [],
+    "hasDoubleCoverage": false
+  },
+  {
+    "file": "dist\\employee-transport-jeddah.html",
+    "titleCount": 1,
+    "h1Count": 1,
+    "duplicateParagraphs": [],
+    "hasDoubleCoverage": false
+  },
+  {
+    "file": "dist\\employee-transport-madinah.html",
+    "titleCount": 1,
+    "h1Count": 1,
+    "duplicateParagraphs": [],
+    "hasDoubleCoverage": false
+  },
+  {
+    "file": "dist\\employee-transport-makkah.html",
+    "titleCount": 1,
+    "h1Count": 1,
+    "duplicateParagraphs": [],
+    "hasDoubleCoverage": false
+  },
+  {
+    "file": "dist\\employee-transport-riyadh.html",
+    "titleCount": 1,
+    "h1Count": 1,
+    "duplicateParagraphs": [],
+    "hasDoubleCoverage": false
+  },
+  {
+    "file": "dist\\event-conference-transport.html",
+    "titleCount": 1,
+    "h1Count": 1,
+    "duplicateParagraphs": [],
+    "hasDoubleCoverage": true
+  },
+  {
+    "file": "dist\\executive-vip-transport.html",
+    "titleCount": 1,
+    "h1Count": 1,
+    "duplicateParagraphs": [],
+    "hasDoubleCoverage": true
+  },
+  {
+    "file": "dist\\index.html",
+    "titleCount": 1,
+    "h1Count": 1,
+    "duplicateParagraphs": [
+      "نقل طالبات جامعة الملك عبدالعزيز في جدة. تعرّفي على التغطية وخيارات الاشتراك قبل التسجيل.",
+      "صور حافلات وٌسُل محسّنة بالذكاء الاصطناعي لأغراض العرض؛ قد تختلف التفاصيل الدقيقة.",
+      "رحلات اليوم الواحد والفعاليات ونقل المطار ورحلات المجموعات في المملكة، وفق برنامجك واحتياجك."
+    ],
+    "hasDoubleCoverage": false
+  },
+  {
+    "file": "dist\\intercity-group-transport.html",
+    "titleCount": 1,
+    "h1Count": 1,
+    "duplicateParagraphs": [],
+    "hasDoubleCoverage": true
+  },
+  {
+    "file": "dist\\king-abdulaziz-university-transport.html",
+    "titleCount": 1,
+    "h1Count": 1,
+    "duplicateParagraphs": [],
+    "hasDoubleCoverage": false
+  },
+  {
+    "file": "dist\\private-day-trips.html",
+    "titleCount": 1,
+    "h1Count": 1,
+    "duplicateParagraphs": [],
+    "hasDoubleCoverage": false
+  },
+  {
+    "file": "dist\\register.html",
+    "titleCount": 1,
+    "h1Count": 1,
+    "duplicateParagraphs": [],
+    "hasDoubleCoverage": false
+  },
+  {
+    "file": "dist\\renewal.html",
+    "titleCount": 1,
+    "h1Count": 1,
+    "duplicateParagraphs": [],
+    "hasDoubleCoverage": false
+  },
+  {
+    "file": "dist\\subscriber-support.html",
+    "titleCount": 1,
+    "h1Count": 1,
+    "duplicateParagraphs": [],
+    "hasDoubleCoverage": false
+  },
+  {
+    "file": "dist\\tourism-transport.html",
+    "titleCount": 1,
+    "h1Count": 1,
+    "duplicateParagraphs": [],
+    "hasDoubleCoverage": true
+  },
+  {
+    "file": "dist\\umrah-visitor-transport.html",
+    "titleCount": 1,
+    "h1Count": 1,
+    "duplicateParagraphs": [],
+    "hasDoubleCoverage": true
+  },
+  {
+    "file": "dist\\vehicle-rental-without-driver.html",
+    "titleCount": 1,
+    "h1Count": 1,
+    "duplicateParagraphs": [],
+    "hasDoubleCoverage": true
+  },
+  {
+    "file": "dist\\workforce-project-transport.html",
+    "titleCount": 1,
+    "h1Count": 1,
+    "duplicateParagraphs": [],
+    "hasDoubleCoverage": true
+  },
+  {
+    "file": "dist\\en\\airport-hotel-transfers\\index.html",
+    "titleCount": 1,
+    "h1Count": 1,
+    "duplicateParagraphs": [],
+    "hasDoubleCoverage": true
+  },
+  {
+    "file": "dist\\en\\corporate-transport-saudi-arabia\\index.html",
+    "titleCount": 1,
+    "h1Count": 1,
+    "duplicateParagraphs": [],
+    "hasDoubleCoverage": false
+  },
+  {
+    "file": "dist\\en\\driver-only-services\\index.html",
+    "titleCount": 1,
+    "h1Count": 1,
+    "duplicateParagraphs": [],
+    "hasDoubleCoverage": true
+  },
+  {
+    "file": "dist\\en\\employee-transport-dammam\\index.html",
+    "titleCount": 1,
+    "h1Count": 1,
+    "duplicateParagraphs": [],
+    "hasDoubleCoverage": false
+  },
+  {
+    "file": "dist\\en\\employee-transport-jeddah\\index.html",
+    "titleCount": 1,
+    "h1Count": 1,
+    "duplicateParagraphs": [],
+    "hasDoubleCoverage": false
+  },
+  {
+    "file": "dist\\en\\employee-transport-madinah\\index.html",
+    "titleCount": 1,
+    "h1Count": 1,
+    "duplicateParagraphs": [],
+    "hasDoubleCoverage": false
+  },
+  {
+    "file": "dist\\en\\employee-transport-makkah\\index.html",
+    "titleCount": 1,
+    "h1Count": 1,
+    "duplicateParagraphs": [],
+    "hasDoubleCoverage": false
+  },
+  {
+    "file": "dist\\en\\employee-transport-riyadh\\index.html",
+    "titleCount": 1,
+    "h1Count": 1,
+    "duplicateParagraphs": [],
+    "hasDoubleCoverage": false
+  },
+  {
+    "file": "dist\\en\\event-conference-transport\\index.html",
+    "titleCount": 1,
+    "h1Count": 1,
+    "duplicateParagraphs": [],
+    "hasDoubleCoverage": true
+  },
+  {
+    "file": "dist\\en\\executive-vip-transport\\index.html",
+    "titleCount": 1,
+    "h1Count": 1,
+    "duplicateParagraphs": [],
+    "hasDoubleCoverage": true
+  },
+  {
+    "file": "dist\\en\\intercity-group-transport\\index.html",
+    "titleCount": 1,
+    "h1Count": 1,
+    "duplicateParagraphs": [],
+    "hasDoubleCoverage": true
+  },
+  {
+    "file": "dist\\en\\king-abdulaziz-university-transport\\index.html",
+    "titleCount": 1,
+    "h1Count": 1,
+    "duplicateParagraphs": [],
+    "hasDoubleCoverage": false
+  },
+  {
+    "file": "dist\\en\\private-day-trips\\index.html",
+    "titleCount": 1,
+    "h1Count": 1,
+    "duplicateParagraphs": [],
+    "hasDoubleCoverage": true
+  },
+  {
+    "file": "dist\\en\\register\\index.html",
+    "titleCount": 1,
+    "h1Count": 1,
+    "duplicateParagraphs": [],
+    "hasDoubleCoverage": false
+  },
+  {
+    "file": "dist\\en\\tourism-transport\\index.html",
+    "titleCount": 1,
+    "h1Count": 1,
+    "duplicateParagraphs": [],
+    "hasDoubleCoverage": true
+  },
+  {
+    "file": "dist\\en\\umrah-visitor-transport\\index.html",
+    "titleCount": 1,
+    "h1Count": 1,
+    "duplicateParagraphs": [],
+    "hasDoubleCoverage": true
+  },
+  {
+    "file": "dist\\en\\vehicle-rental-without-driver\\index.html",
+    "titleCount": 1,
+    "h1Count": 1,
+    "duplicateParagraphs": [],
+    "hasDoubleCoverage": true
+  },
+  {
+    "file": "dist\\en\\workforce-project-transport\\index.html",
+    "titleCount": 1,
+    "h1Count": 1,
+    "duplicateParagraphs": [],
+    "hasDoubleCoverage": true
+  },
+  {
+    "file": "dist\\en\\index.html",
+    "titleCount": 1,
+    "h1Count": 1,
+    "duplicateParagraphs": [
+      "Day trips, events, airport transfers and group journeys across Saudi Arabia, planned around your itinerary.",
+      "PDF, JPG or PNG, up to 3 MB. Please do not include unnecessary sensitive information.",
+      "Transport for female students at King Abdulaziz University in Jeddah. Explore coverage and subscription options before registering."
+    ],
+    "hasDoubleCoverage": false
+  }
+]

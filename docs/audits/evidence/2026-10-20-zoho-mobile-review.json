@@ -1,0 +1,398 @@
+{
+  "layouts": [
+    {
+      "lang": "ar",
+      "panel": "fleet-panel-7",
+      "scroll": 375,
+      "visibleFields": [
+        {
+          "id": "name",
+          "left": 53,
+          "required": true,
+          "right": 322
+        },
+        {
+          "id": "email",
+          "left": 53,
+          "required": true,
+          "right": 322
+        },
+        {
+          "id": "subject",
+          "left": 53,
+          "required": true,
+          "right": 322
+        },
+        {
+          "id": "message",
+          "left": 53,
+          "required": true,
+          "right": 322
+        },
+        {
+          "id": "contact-attachment",
+          "left": 54,
+          "required": false,
+          "right": 321
+        }
+      ],
+      "width": 390
+    },
+    {
+      "lang": "ar",
+      "panel": "fleet-panel-7",
+      "scroll": 375,
+      "visibleFields": [
+        {
+          "id": "cmp-name",
+          "left": 53,
+          "required": true,
+          "right": 322
+        },
+        {
+          "id": "cmp-phone",
+          "left": 53,
+          "required": true,
+          "right": 322
+        },
+        {
+          "id": "cmp-email",
+          "left": 53,
+          "required": true,
+          "right": 322
+        },
+        {
+          "id": "cmp-type",
+          "left": 53,
+          "required": true,
+          "right": 322
+        },
+        {
+          "id": "cmp-date",
+          "left": 53,
+          "required": true,
+          "right": 322
+        },
+        {
+          "id": "cmp-desc",
+          "left": 53,
+          "required": true,
+          "right": 322
+        },
+        {
+          "id": "cmp-attachment",
+          "left": 54,
+          "required": false,
+          "right": 321
+        }
+      ],
+      "width": 390
+    },
+    {
+      "lang": "ar",
+      "panel": "fleet-panel-7",
+      "scroll": 375,
+      "visibleFields": [
+        {
+          "id": "qt-customer-type",
+          "left": 53,
+          "required": true,
+          "right": 322
+        },
+        {
+          "id": "qt-contact",
+          "left": 53,
+          "required": true,
+          "right": 322
+        },
+        {
+          "id": "qt-phone",
+          "left": 53,
+          "required": true,
+          "right": 322
+        },
+        {
+          "id": "qt-email",
+          "left": 53,
+          "required": true,
+          "right": 322
+        },
+        {
+          "id": "qt-job",
+          "left": 53,
+          "required": false,
+          "right": 322
+        },
+        {
+          "id": "qt-service",
+          "left": 53,
+          "required": true,
+          "right": 322
+        },
+        {
+          "id": "qt-count",
+          "left": 53,
+          "required": true,
+          "right": 322
+        },
+        {
+          "id": "qt-region",
+          "left": 53,
+          "required": true,
+          "right": 322
+        },
+        {
+          "id": "qt-notes",
+          "left": 53,
+          "required": false,
+          "right": 322
+        },
+        {
+          "id": "qt-commercial",
+          "left": 73,
+          "required": false,
+          "right": 302
+        },
+        {
+          "id": "qt-tax",
+          "left": 73,
+          "required": false,
+          "right": 302
+        },
+        {
+          "id": "qt-address",
+          "left": 73,
+          "required": false,
+          "right": 302
+        }
+      ],
+      "width": 390
+    },
+    {
+      "lang": "en",
+      "panel": "fleet-panel-7",
+      "scroll": 375,
+      "visibleFields": [
+        {
+          "id": "name",
+          "left": 53,
+          "required": true,
+          "right": 322
+        },
+        {
+          "id": "email",
+          "left": 53,
+          "required": true,
+          "right": 322
+        },
+        {
+          "id": "subject",
+          "left": 53,
+          "required": true,
+          "right": 322
+        },
+        {
+          "id": "message",
+          "left": 53,
+          "required": true,
+          "right": 322
+        },
+        {
+          "id": "contact-attachment",
+          "left": 54,
+          "required": false,
+          "right": 321
+        }
+      ],
+      "width": 390
+    },
+    {
+      "lang": "en",
+      "panel": "fleet-panel-7",
+      "scroll": 375,
+      "visibleFields": [
+        {
+          "id": "cmp-name",
+          "left": 53,
+          "required": true,
+          "right": 322
+        },
+        {
+          "id": "cmp-phone",
+          "left": 53,
+          "required": true,
+          "right": 322
+        },
+        {
+          "id": "cmp-email",
+          "left": 53,
+          "required": true,
+          "right": 322
+        },
+        {
+          "id": "cmp-type",
+          "left": 53,
+          "required": true,
+          "right": 322
+        },
+        {
+          "id": "cmp-date",
+          "left": 53,
+          "required": true,
+          "right": 322
+        },
+        {
+          "id": "cmp-desc",
+          "left": 53,
+          "required": true,
+          "right": 322
+        },
+        {
+          "id": "cmp-attachment",
+          "left": 54,
+          "required": false,
+          "right": 321
+        }
+      ],
+      "width": 390
+    },
+    {
+      "lang": "en",
+      "panel": "fleet-panel-7",
+      "scroll": 375,
+      "visibleFields": [
+        {
+          "id": "qt-customer-type",
+          "left": 53,
+          "required": true,
+          "right": 322
+        },
+        {
+          "id": "qt-contact",
+          "left": 53,
+          "required": true,
+          "right": 322
+        },
+        {
+          "id": "qt-phone",
+          "left": 53,
+          "required": true,
+          "right": 322
+        },
+        {
+          "id": "qt-email",
+          "left": 53,
+          "required": true,
+          "right": 322
+        },
+        {
+          "id": "qt-job",
+          "left": 53,
+          "required": false,
+          "right": 322
+        },
+        {
+          "id": "qt-service",
+          "left": 53,
+          "required": true,
+          "right": 322
+        },
+        {
+          "id": "qt-count",
+          "left": 53,
+          "required": true,
+          "right": 322
+        },
+        {
+          "id": "qt-region",
+          "left": 53,
+          "required": true,
+          "right": 322
+        },
+        {
+          "id": "qt-notes",
+          "left": 53,
+          "required": false,
+          "right": 322
+        },
+        {
+          "id": "qt-commercial",
+          "left": 73,
+          "required": false,
+          "right": 302
+        },
+        {
+          "id": "qt-tax",
+          "left": 73,
+          "required": false,
+          "right": 302
+        },
+        {
+          "id": "qt-address",
+          "left": 73,
+          "required": false,
+          "right": 302
+        }
+      ],
+      "width": 390
+    }
+  ],
+  "attachmentChecks": [
+    {
+      "files": [
+        {
+          "id": "contact-attachment",
+          "required": false
+        },
+        {
+          "id": "cmp-attachment",
+          "required": false
+        },
+        {
+          "id": "qt-commercial",
+          "required": false
+        },
+        {
+          "id": "qt-tax",
+          "required": false
+        },
+        {
+          "id": "qt-address",
+          "required": false
+        }
+      ],
+      "lang": "en",
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "files": [
+        {
+          "id": "contact-attachment",
+          "required": false
+        },
+        {
+          "id": "cmp-attachment",
+          "required": false
+        },
+        {
+          "id": "qt-commercial",
+          "required": false
+        },
+        {
+          "id": "qt-tax",
+          "required": false
+        },
+        {
+          "id": "qt-address",
+          "required": false
+        }
+      ],
+      "lang": "ar",
+      "scroll": 375,
+      "width": 390
+    }
+  ],
+  "newSubmissions": 0,
+  "ccReceipt": "User confirmed existing messages in both CC mailboxes"
+}
